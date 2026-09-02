@@ -1,9 +1,12 @@
 """
-Diagnóstico puntual: qué devuelve realmente Hipercor/Akamai cuando se
-busca desde un runner de GitHub Actions, en vez de tragar la excepción
-del timeout como hace el conector real. No se queda en el repo a largo
-plazo, es solo para decidir si merece la pena perseguir un arreglo.
+Diagnóstico puntual (v2): la página de Hipercor SÍ carga bien (200, con
+resultados reales) en GitHub Actions, así que el problema no es Akamai
+sino la espera de window.__MOONSHINE_STATE__ en hipercor.py. Este script
+comprueba cada segundo si esa variable aparece, y si aparece, inspecciona
+su forma real para ver si la ruta viewData.plp.products sigue existiendo.
+No se queda en el repo a largo plazo, es solo para decidir el arreglo.
 """
+import time
 from urllib.parse import urlencode
 
 from src.supermarkets.navegador import importar_playwright, nuevo_contexto
@@ -23,13 +26,48 @@ with sync_playwright() as p:
     query = urlencode({"question": "leche entera", "catalog": "supermercado", "stype": "text_box"})
     url = f"{BASE_URL}{SEARCH_PATH}?{query}"
     print(f"Navegando a {url}")
+    t0 = time.time()
     resp = page.goto(url, timeout=30000)
-    print("STATUS HTTP:", resp.status if resp else "(sin respuesta)")
-    print("TITLE:", page.title())
-    page.wait_for_timeout(3000)
-    body_text = (page.evaluate("document.body.innerText") or "").strip()
-    print(f"--- BODY visible (primeros 1500 chars, de {len(body_text)} totales) ---")
-    print(body_text[:1500] if body_text else "(vacío)")
-    print("--- HTML crudo (primeros 800 chars) ---")
-    print(page.content()[:800])
+    print(f"STATUS HTTP: {resp.status if resp else None}  (a los {time.time()-t0:.1f}s)")
+
+    existe = False
+    for i in range(15):
+        existe = page.evaluate("window.__MOONSHINE_STATE__ !== undefined")
+        print(f"t={time.time()-t0:.1f}s  MOONSHINE_STATE existe: {existe}")
+        if existe:
+            break
+        page.wait_for_timeout(1000)
+
+    if existe:
+        keys = page.evaluate("Object.keys(window.__MOONSHINE_STATE__)")
+        print("Claves nivel superior de __MOONSHINE_STATE__:", keys)
+        vd = page.evaluate(
+            "window.__MOONSHINE_STATE__.viewData ? "
+            "Object.keys(window.__MOONSHINE_STATE__.viewData) : 'NO hay viewData'"
+        )
+        print("Claves de viewData:", vd)
+        plp = page.evaluate(
+            "(window.__MOONSHINE_STATE__.viewData||{}).plp ? "
+            "Object.keys(window.__MOONSHINE_STATE__.viewData.plp) : 'NO hay plp'"
+        )
+        print("Claves de viewData.plp:", plp)
+        n = page.evaluate(
+            """() => {
+                const s = window.__MOONSHINE_STATE__;
+                const ps = (s && s.viewData && s.viewData.plp && s.viewData.plp.products) || [];
+                return ps.length;
+            }"""
+        )
+        print("Nº de productos en viewData.plp.products:", n)
+    else:
+        print("MOONSHINE_STATE nunca apareció en 15s. Buscando pistas alternativas...")
+        script_ids = page.evaluate(
+            "Array.from(document.scripts).map(s => s.id).filter(Boolean).slice(0, 30)"
+        )
+        print("IDs de <script> en la página:", script_ids)
+        window_keys_moonshine = page.evaluate(
+            "Object.keys(window).filter(k => /moon|state|plp|catalog/i.test(k))"
+        )
+        print("Claves de window que parecen relacionadas:", window_keys_moonshine)
+
     browser.close()
