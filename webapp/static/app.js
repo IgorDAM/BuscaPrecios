@@ -193,6 +193,64 @@ const historialMesEl = document.getElementById("historial-mes");
 // Último resultado de /api/buscar: [{ producto, opciones: [...] }, ...]
 let ultimosResultados = [];
 
+// Caché en memoria de webapp/static/precios_generados.json (el JSON que
+// publica el cron de GitHub Actions para la versión sin backend, p.ej.
+// desplegada en Azure Static Web Apps). false = ya se intentó y no hay.
+// null = todavía no se ha intentado.
+let cachePreciosEstaticos = null;
+
+// Descarga (una sola vez por sesión) los precios que publicó el cron.
+// Solo existen si la app está desplegada como sitio estático sin
+// webapp/app.py detrás; en modo LAN/local nunca se llega a usar porque
+// /api/buscar responde directamente.
+async function cargarPreciosEstaticos() {
+  if (cachePreciosEstaticos !== null) return cachePreciosEstaticos;
+  try {
+    const res = await fetch("precios_generados.json");
+    if (!res.ok) throw new Error("no hay precios_generados.json");
+    cachePreciosEstaticos = await res.json();
+  } catch (e) {
+    cachePreciosEstaticos = false;
+  }
+  return cachePreciosEstaticos;
+}
+
+// Adapta el JSON estático (que trae los tres supermercados juntos) al
+// mismo formato que devuelve /api/buscar para UN supermercado, filtrando
+// por los productos pedidos. Si pides un producto que no está en la
+// lista habitual del cron, simplemente no aparecerá (0 opciones), igual
+// que si ese súper no lo vendiera.
+function filtrarPreciosEstaticos(datos, nombreSuper, productosPedidos) {
+  const avisoSuper = (datos.avisos || []).find((a) => a.supermercado === nombreSuper);
+  const resultados = productosPedidos.map((nombreProducto) => {
+    const item = (datos.resultados || []).find((r) => r.producto === nombreProducto);
+    const opciones = item
+      ? item.opciones.filter((o) => o.supermercado === nombreSuper)
+      : [];
+    return { producto: nombreProducto, opciones };
+  });
+  return {
+    resultados,
+    avisos: avisoSuper ? [avisoSuper] : [],
+    desde_cache: true,
+    generado_en: datos.generado_en,
+  };
+}
+
+function formatearFecha(iso) {
+  if (!iso) return "";
+  try {
+    return new Date(iso).toLocaleString("es-ES", {
+      day: "2-digit",
+      month: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    });
+  } catch (e) {
+    return iso;
+  }
+}
+
 // Cómo se ordenan las opciones dentro de cada producto: por lo que
 // costaría lo pedido (false) o por precio por kilo/litro (true).
 let ordenPorMedida = false;
@@ -585,13 +643,31 @@ async function buscarEnSuper(nombre, flags, productos) {
 
   const comienzo = Date.now();
   try {
-    const res = await fetch("/api/buscar", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ cp: CP_OVIEDO, productos, ...flags }),
-    });
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.error || "error del servidor");
+    let data;
+    let modoEstatico = false;
+    try {
+      const res = await fetch("/api/buscar", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ cp: CP_OVIEDO, productos, ...flags }),
+      });
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        throw new Error(err.error || "error del servidor");
+      }
+      data = await res.json();
+    } catch (errorBackend) {
+      // No hay servidor Flask detrás (p.ej. desplegado como sitio
+      // estático en Azure Static Web Apps, sin webapp/app.py): se usan
+      // los precios que publicó el último cron de GitHub Actions en vez
+      // de buscar en directo. Solo cubre la lista habitual definida en
+      // data/lista_compra_habitual.json — un producto fuera de esa lista
+      // simplemente no tendrá opciones aquí.
+      const estaticos = await cargarPreciosEstaticos();
+      if (!estaticos) throw errorBackend;
+      data = filtrarPreciosEstaticos(estaticos, nombre, productos);
+      modoEstatico = true;
+    }
 
     const segundos = Math.round((Date.now() - comienzo) / 1000);
     const total = (data.resultados || []).reduce((n, r) => n + r.opciones.length, 0);
@@ -600,9 +676,12 @@ async function buscarEnSuper(nombre, flags, productos) {
     if (aviso) {
       progresoSupers[nombre] = { estado: "error", detalle: aviso.motivo };
     } else {
+      const etiquetaModo = modoEstatico
+        ? ` · nube, actualizado ${formatearFecha(data.generado_en)}`
+        : "";
       progresoSupers[nombre] = {
         estado: total > 0 ? "ok" : "vacio",
-        detalle: `${total} opciones · ${segundos}s${data.desde_cache ? " (guardado)" : ""}`,
+        detalle: `${total} opciones · ${segundos}s${data.desde_cache && !modoEstatico ? " (guardado)" : ""}${etiquetaModo}`,
       };
     }
 

@@ -1,0 +1,59 @@
+name: Generar precios (cron)
+
+# Publica webapp/static/precios_generados.json con los precios de la
+# lista habitual (data/lista_compra_habitual.json), para que la versión
+# desplegada sin backend propio (Azure Static Web Apps) tenga datos que
+# enseñar sin depender de que ningún PC de casa esté encendido. La
+# versión en modo LAN/local sigue buscando en directo vía webapp/app.py
+# y no usa este archivo para nada.
+#
+# scripts/generar_precios.py ya reintenta Hipercor y Mercadona varias
+# veces si Akamai da problemas justo en esa ejecución: verificado en vivo
+# (ver README, sección de la prueba de Xvfb) que el bloqueo es
+# intermitente por IP del runner, no sistemático.
+#
+# Requiere que el repo tenga activado "Read and write permissions" para
+# GITHUB_TOKEN (Settings -> Actions -> General -> Workflow permissions),
+# si no el paso de commit/push fallará por falta de permisos.
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # todos los días a las 06:00 UTC (~08:00 en Madrid en horario de verano)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generar-precios:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias Python
+        run: pip install -r requirements.txt
+
+      - name: Instalar Chromium (Playwright) + dependencias del sistema
+        run: playwright install --with-deps chromium
+
+      - name: Instalar Xvfb
+        run: sudo apt-get update && sudo apt-get install -y xvfb
+
+      - name: Generar precios_generados.json
+        run: xvfb-run --auto-servernum python scripts/generar_precios.py
+
+      - name: Comitear y subir el JSON si ha cambiado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add webapp/static/precios_generados.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios en los precios, no hace falta commit."
+          else
+            git commit -m "Actualiza precios_generados.json ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          fi

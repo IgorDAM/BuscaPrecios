@@ -1,0 +1,15 @@
+{
+  "_comentario": "Lista que usa el cron de GitHub Actions (scripts/generar_precios.py) para publicar precios.json en la nube. Edítala para que sea tu compra habitual real; el mismo formato que lista_compra_ejemplo.json (texto suelto = 1 unidad, o {\"nombre\", \"cantidad\", \"unidad\"} para lo que se vende al peso). En modo LAN/local la app sigue dejando buscar cualquier producto en directo; esta lista es solo para la versión sin PC encendido, que solo puede enseñar lo que el cron haya buscado.",
+  "productos": [
+    "leche entera",
+    "huevos",
+    "pan de molde",
+    { "nombre": "jamon serrano", "cantidad": 300, "unidad": "g" },
+    { "nombre": "carne picada", "cantidad": 500, "unidad": "g" },
+    { "nombre": "yogur natural", "cantidad": 2, "unidad": "ud" },
+    "aceite de oliva virgen extra",
+    "tomate frito",
+    "manzanas",
+    "arroz"
+  ]
+}

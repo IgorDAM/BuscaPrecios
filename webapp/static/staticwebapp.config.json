@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/staticwebapp.config.json",
+  "routes": [
+    {
+      "route": "/precios_generados.json",
+      "headers": {
+        "Cache-Control": "public, max-age=300, must-revalidate"
+      }
+    }
+  ]
+}

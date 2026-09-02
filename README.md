@@ -217,29 +217,109 @@ GitHub. Resultado, con datos reales:
   `requests`, sin navegador, así que no debería compartir este problema),
   pero tampoco está verificado en runner de GitHub todavía.
 
-Esto invierte la dificultad esperada: Mercadona, que se suponía el caso
-más difícil, queda resuelto gratis en la nube; Hipercor pasa a ser el
-cuello de botella. Plan mientras no se resuelva Hipercor: llevarlo por
-separado (modo LAN local, ver README más arriba) mientras Mercadona y
-Alimerka sí pueden ir por el cron gratuito de abajo.
+**Segunda vuelta sobre Hipercor (mismo día)**: un diagnóstico más fino
+(`diag_hipercor.py`, no forma parte del código de producción) demostró
+que Hipercor **no bloquea nada**: `STATUS HTTP 200`, `window.__MOONSHINE_STATE__`
+aparece a los 3 s, y `viewData.plp.products` (la ruta exacta que ya lee
+`hipercor.py`) tenía 29 productos reales. Se relanzó el test sin cambiar
+una línea de `hipercor.py` y **esta vez sí devolvió 23 opciones reales**
+("leche entera de Asturias" a 0,96 € en El Corte Inglés, coincide con el
+dato ya verificado arriba). Así que de 3 ejecuciones del mismo workflow:
+2 dieron 0 resultados y 1 dio 23 resultados reales, con el código
+idéntico. Conclusión: Hipercor **no está bloqueado de forma sistemática
+desde GitHub Actions**, pero es intermitente — probablemente porque cada
+job de GitHub Actions sale con una IP distinta de un pool compartido, y
+el bot-score de Akamai varía según la reputación de esa IP en concreto.
+Implicación práctica: en el cron de producción, una búsqueda vacía de
+Hipercor no debe tratarse como "está caído", sino reintentarse (todo el
+job, no solo la búsqueda) una o dos veces antes de rendirse — igual que
+ya hace `FALLOS_SEGUIDOS_PARA_RENDIRSE` a nivel de búsqueda individual,
+pero llevado al nivel del job completo.
+
+Esto cambia la conclusión del párrafo anterior: no hace falta dejar
+Hipercor fuera del plan gratuito. Con reintentos a nivel de job, los
+tres supermercados (Mercadona, Hipercor, y Alimerka vía `requests`)
+podrían ir por el cron de GitHub Actions.
+
+## Cómo activar la versión en la nube (sin PC encendido)
+
+Código y automatización ya hechos (2026-09-02); solo falta un paso manual
+tuyo en el Portal de Azure porque crear el recurso necesita tu cuenta.
+
+**Ya está en el repo:**
+
+- `data/lista_compra_habitual.json` — la lista que el cron busca cada
+  día. Editable: es tu compra habitual real, no tiene por qué coincidir
+  con lo que tengas metido en el navegador ahora mismo (eso sigue siendo
+  por navegador, vía `localStorage`, tanto en modo LAN como en la nube).
+- `scripts/generar_precios.py` — busca esa lista en los tres
+  supermercados y escribe `webapp/static/precios_generados.json`.
+  Reintenta el conector entero hasta 3 veces si Hipercor o Mercadona
+  devuelven 0 resultados o lanzan una excepción (ver más arriba por qué:
+  es intermitencia de Akamai por IP del runner, no un bloqueo fijo).
+- `.github/workflows/precios-cron.yml` — ejecuta ese script todos los
+  días a las 06:00 UTC (~08:00 en Madrid en verano) y sube el JSON
+  resultante al repo si ha cambiado. También se puede lanzar a mano
+  (`workflow_dispatch`) desde la pestaña Actions.
+- `webapp/static/app.js` — ahora, si `/api/buscar` no responde (porque no
+  hay servidor Flask detrás, como en un sitio estático), usa
+  automáticamente `precios_generados.json` en su lugar, filtrando por
+  supermercado y por los productos pedidos. En modo LAN/local no cambia
+  nada: sigue buscando en directo porque `/api/buscar` sí responde ahí.
+  **Diferencia importante**: en la versión en la nube solo se pueden
+  comparar los productos que estén en `lista_compra_habitual.json` —
+  escribir un producto nuevo no lo busca en directo, hay que añadirlo a
+  esa lista (commit + esperar al próximo cron, o lanzarlo a mano).
+- `webapp/static/staticwebapp.config.json` — configuración mínima para
+  Azure Static Web Apps (cabecera de caché corta para el JSON de
+  precios, para que se note el dato nuevo pronto tras cada cron).
+
+**Lo que te toca hacer a ti (una vez, ~10 minutos):**
+
+1. En GitHub, `Settings` -> `Actions` -> `General` -> `Workflow
+   permissions`: marca **"Read and write permissions"**. Sin esto,
+   `precios-cron.yml` no puede subir el JSON que genera (falla el
+   `git push` con un 403).
+2. En [portal.azure.com](https://portal.azure.com), crea un recurso
+   **Static Web App** (busca "Static Web Apps" -> Crear):
+   - Plan: **Free**.
+   - Origen del despliegue: **GitHub**, autoriza el acceso y elige el
+     repo `IgorDAM/BuscaPrecios`, rama `master`.
+   - Ajustes de compilación: preset "Custom", `App location` =
+     `/webapp/static`, `Api location` = (vacío), `Output location` =
+     (vacío).
+   - Al crear, Azure añade **solo** un workflow nuevo a tu repo
+     (`azure-static-web-apps-<algo>.yml`) que despliega en cada push a
+     `master` — no toca nada de lo que ya había.
+3. Espera 1-2 minutos al primer despliegue automático y abre la URL que
+   te da Azure (`https://<algo>.azurestaticapps.net`). Esa es la
+   dirección que puede usar tu mujer desde cualquier sitio, sin que tu
+   PC esté encendido.
+4. Si quieres datos ya mismo en vez de esperar al cron de las 06:00 UTC:
+   pestaña **Actions** -> "Generar precios (cron)" -> **Run workflow**.
 
 ## Próximos pasos (pendiente de hacer)
 
-1. ~~Comprobar Xvfb en GitHub Actions~~ **Hecho (2026-09-02)**, ver arriba.
-   Sigue pendiente decidir qué hacer con Hipercor: intentar más (otro
-   User-Agent/fingerprint, más reintentos, investigar si es bloqueo por
-   IP) o dejarlo fuera del cron y servirlo solo en modo LAN.
-2. **Scraping programado en GitHub Actions**: si el paso 1 sale bien, un
-   cron (por ejemplo diario) que busque tu lista habitual en los tres
-   supermercados y publique los precios como JSON (en el propio repo o
-   en un blob). Así la app deja de depender de abrir navegadores.
-3. **Alojar la interfaz** en Azure Static Web Apps (plan gratuito),
-   leyendo ese JSON. La app pasaría a ser puramente estática, lo que
-   elimina de golpe el problema del navegador y el del coste.
-4. **Búsquedas nuevas bajo demanda**: para lo que no esté en el JSON
-   diario, una Azure Function con Alimerka (que sí funciona sin
-   navegador), o Azure Container Apps si se quiere el trío completo.
-5. **GitHub**: crear el repo y subir esta carpeta. Sigue sin hacerse.
+1. ~~Comprobar Xvfb en GitHub Actions~~ **Hecho (2026-09-02)**, ver
+   arriba. Mercadona funciona siempre; Hipercor funciona pero de forma
+   intermitente (resuelto con reintento a nivel de job en
+   `generar_precios.py`). Alimerka no se ha probado explícitamente en un
+   runner de GitHub, pero al ir con `requests` no debería tener este
+   problema.
+2. ~~Scraping programado en GitHub Actions~~ **Hecho (2026-09-02)**:
+   `.github/workflows/precios-cron.yml` + `scripts/generar_precios.py`.
+3. ~~Alojar la interfaz en Azure Static Web Apps~~ **Código listo,
+   falta el paso manual tuyo en el Portal** — ver "Cómo activar la
+   versión en la nube" arriba.
+4. **Búsquedas nuevas bajo demanda**: de momento, la versión en la nube
+   solo enseña la lista habitual del cron. Si hace falta buscar algo
+   fuera de esa lista sin esperar al día siguiente, la opción más simple
+   sigue siendo el modo LAN (busca en directo). Una Azure Function con
+   Alimerka (sin navegador) cubriría búsquedas nuevas bajo demanda para
+   ese súper en concreto; Hipercor/Mercadona necesitarían Container Apps
+   con Xvfb si se quisiera lo mismo para los tres.
+5. ~~GitHub: crear el repo~~ **Hecho**, ya existe
+   `github.com/IgorDAM/BuscaPrecios`.
 
 ## Estructura
 

@@ -157,12 +157,37 @@ así evita falsos positivos por palabras genéricas compartidas (p.ej. "leche",
 "cocidos"). No es infalible: siempre se muestra el nombre completo de cada
 opción para que el usuario confirme.
 
-## Estado / lo que falta
+## Despliegue en la nube (sin backend, sin PC encendido)
 
-Ver README.md, sección "Próximos pasos": desplegar en Azure (Functions para
-Hipercor/Alimerka, plan gratuito), resolver Mercadona vía GitHub Actions
-(cron diario con Playwright, en vez de abrir navegador en cada petición
-porque no es fiable en el plan gratuito de Azure Functions), alojar
-`webapp/static/` en Azure Static Web Apps, y subir el repo a GitHub (aún no
-existe remoto). Requisito explícito del proyecto: todo debe poder correr
-100% gratis.
+Verificado en vivo (2026-09-02, ver README para el detalle completo del
+experimento): un runner de GitHub Actions con `xvfb-run` SÍ puede pasar
+Mercadona e Hipercor (no están bloqueados por Akamai desde ahí; el fallo
+que se veía al principio era intermitencia por la IP del runner, no un
+bloqueo sistemático). Esto habilitó un pipeline sin backend:
+
+- **`scripts/generar_precios.py`** busca `data/lista_compra_habitual.json`
+  en los tres supermercados y escribe
+  `webapp/static/precios_generados.json`. Reintenta el conector
+  ENTERO (no solo una búsqueda suelta) hasta 3 veces si Hipercor/
+  Mercadona devuelven 0 resultados o lanzan excepción, precisamente por
+  esa intermitencia.
+- **`.github/workflows/precios-cron.yml`** ejecuta ese script a diario y
+  comitea el JSON resultante si cambió (necesita "Read and write
+  permissions" en Settings -> Actions -> General del repo).
+- **`webapp/static/app.js`**: `buscarEnSuper()` intenta primero
+  `/api/buscar` (modo LAN/local con backend Flask); si falla (no hay
+  backend, como en un sitio estático), cae a leer
+  `precios_generados.json` y filtra por supermercado y productos
+  pedidos. Limitación real de este modo: solo cubre lo que esté en
+  `lista_compra_habitual.json`, no búsquedas libres.
+- **`webapp/static/staticwebapp.config.json`**: config mínima para Azure
+  Static Web Apps (plan gratuito), que sirve `webapp/static/` tal cual.
+
+Ver README.md, sección "Cómo activar la versión en la nube", para el
+paso manual que falta (crear el recurso Static Web App en el Portal de
+Azure — no se puede hacer por código, necesita la cuenta del usuario).
+Búsquedas fuera de la lista habitual sin esperar al cron: sigue siendo
+el modo LAN (ver sección de modo LAN más arriba), o una futura Azure
+Function solo para Alimerka (no tiene el problema de Akamai). Repo ya
+subido a GitHub: `github.com/IgorDAM/BuscaPrecios`. Requisito explícito
+del proyecto: todo debe poder correr 100% gratis.
