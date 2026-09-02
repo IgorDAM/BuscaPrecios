@@ -51,13 +51,36 @@ jobs:
         run: xvfb-run --auto-servernum python scripts/generar_precios.py
 
       - name: Comitear y subir el JSON si ha cambiado
+        id: comitear
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add webapp/static/precios_generados.json
           if git diff --cached --quiet; then
             echo "Sin cambios en los precios, no hace falta commit."
+            echo "cambios=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Actualiza precios_generados.json ($(date -u +%Y-%m-%dT%H:%MZ))"
             git push
+            echo "cambios=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Desplegar en Azure Static Web Apps
+        # IMPORTANTE: el commit anterior lo hace github-actions[bot] usando
+        # el GITHUB_TOKEN por defecto. GitHub NO dispara otros workflows
+        # (como "Azure Static Web Apps CI/CD", que solo escucha "on: push")
+        # para pushes hechos con ese token — es una protección anti-bucles.
+        # Verificado en vivo (2026-09-02): tras el push de este job nunca
+        # aparecía un nuevo run de "Azure Static Web Apps CI/CD", así que
+        # la web publicada se quedaba con los precios viejos aunque el
+        # repo ya tuviera el JSON actualizado. Por eso desplegamos aquí
+        # mismo en vez de depender de ese disparo automático.
+        if: steps.comitear.outputs.cambios == 'true'
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ZEALOUS_PEBBLE_07F8F3C10 }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: "upload"
+          app_location: "/webapp/static"
+          api_location: ""
+          output_location: ""

@@ -273,8 +273,18 @@ Detalles del recurso (por si hay que tocarlo alguna vez):
   sitio donde esté guardada.
 - Azure añadió su propio workflow de despliegue al repo
   (`.github/workflows/azure-static-web-apps-zealous-pebble-07f8f3c10.yml`,
-  commit `d604aef`) — se dispara solo en cada push a `master`, incluido
-  el que hace el cron de precios cada día.
+  commit `d604aef`) — se dispara solo en cada push a `master` **hecho
+  por una persona**. **Importante, descubierto en vivo (2026-09-02):**
+  el push que hace `precios-cron.yml` lo firma `github-actions[bot]`
+  con el `GITHUB_TOKEN` por defecto, y GitHub tiene una protección
+  anti-bucles que impide que ESE tipo de push dispare otros workflows
+  `on: push` — así que este workflow de Azure **nunca** se enteraba de
+  los commits del cron. Se comprobó viendo la pestaña Actions tras una
+  ejecución del cron: el commit `15e2bb4` se subió bien, pero no
+  apareció ningún run nuevo de "Azure Static Web Apps CI/CD" para
+  recogerlo, y la web publicada se quedó con los precios antiguos.
+  Solución: `precios-cron.yml` ahora despliega él mismo (ver más abajo),
+  en vez de depender de que salte este workflow.
 
 Código y automatización que lo hacen posible (para referencia futura):
 
@@ -298,9 +308,12 @@ Código y automatización que lo hacen posible (para referencia futura):
 - `.github/workflows/precios-cron.yml` — ejecuta ese script **cada 6
   horas** (00/06/12/18 UTC; antes era 1 vez al día, se subió la
   frecuencia el 2026-09-02 para que un producto añadido a la lista tarde
-  menos en aparecer) y sube el JSON resultante al repo si ha cambiado.
-  También se puede lanzar a mano (`workflow_dispatch`) desde la pestaña
-  Actions para no esperar nada.
+  menos en aparecer), sube el JSON resultante al repo si ha cambiado y
+  **despliega directamente en Azure Static Web Apps** (paso añadido el
+  2026-09-02, ver el aviso de arriba sobre por qué hacía falta: el push
+  del propio bot no disparaba el workflow de Azure). También se puede
+  lanzar a mano (`workflow_dispatch`) desde la pestaña Actions para no
+  esperar nada.
 - `webapp/static/app.js` — ahora, si `/api/buscar` no responde (porque no
   hay servidor Flask detrás, como en un sitio estático), usa
   automáticamente `precios_generados.json` en su lugar, filtrando por
@@ -328,6 +341,12 @@ cuenta/suscripción alguna vez):**
 3. Si hace falta refrescar los precios ya mismo en vez de esperar al
    siguiente cron (cada 6h): pestaña **Actions** -> "Generar precios
    (cron)" -> **Run workflow**.
+4. El paso de despliegue directo de `precios-cron.yml` reutiliza el
+   secreto que Azure ya dejó creado en el repo al conectar el Static Web
+   App (`AZURE_STATIC_WEB_APPS_API_TOKEN_ZEALOUS_PEBBLE_07F8F3C10`) — no
+   hace falta crear ningún secreto nuevo. Si el recurso se recrea alguna
+   vez en otra suscripción, el nombre del secreto cambiará y hay que
+   actualizarlo en `precios-cron.yml`.
 
 ## Próximos pasos (pendiente de hacer)
 

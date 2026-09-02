@@ -171,9 +171,20 @@ bloqueo sistemático). Esto habilitó un pipeline sin backend:
   ENTERO (no solo una búsqueda suelta) hasta 3 veces si Hipercor/
   Mercadona devuelven 0 resultados o lanzan excepción, precisamente por
   esa intermitencia.
-- **`.github/workflows/precios-cron.yml`** ejecuta ese script a diario y
+- **`.github/workflows/precios-cron.yml`** ejecuta ese script cada 6h,
   comitea el JSON resultante si cambió (necesita "Read and write
-  permissions" en Settings -> Actions -> General del repo).
+  permissions" en Settings -> Actions -> General del repo) y **despliega
+  él mismo en Azure Static Web Apps** tras el commit. Esto último es
+  necesario por algo verificado en vivo (2026-09-02) y que NO es
+  intuitivo: el workflow de Azure
+  (`azure-static-web-apps-*.yml`, `on: push` a `master`) no se dispara
+  con el push que hace este cron, porque ese push lo firma
+  `github-actions[bot]` con el `GITHUB_TOKEN` por defecto, y GitHub
+  bloquea explícitamente que los pushes hechos con ese token disparen
+  otros workflows (protección anti-bucles). Sin el paso de despliegue
+  añadido aquí, el repo se actualizaba pero la web publicada se quedaba
+  con datos viejos indefinidamente, sin ningún error visible que lo
+  delatase.
 - **`webapp/static/app.js`**: `buscarEnSuper()` intenta primero
   `/api/buscar` (modo LAN/local con backend Flask); si falla (no hay
   backend, como en un sitio estático), cae a leer
