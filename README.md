@@ -241,10 +241,42 @@ Hipercor fuera del plan gratuito. Con reintentos a nivel de job, los
 tres supermercados (Mercadona, Hipercor, y Alimerka vía `requests`)
 podrían ir por el cron de GitHub Actions.
 
-## Cómo activar la versión en la nube (sin PC encendido)
+## Versión en la nube (sin PC encendido) — DESPLEGADA
 
-Código y automatización ya hechos (2026-09-02); solo falta un paso manual
-tuyo en el Portal de Azure porque crear el recurso necesita tu cuenta.
+**Estado: en producción desde el 2026-09-02.**
+**URL pública: https://zealous-pebble-07f8f3c10.6.azurestaticapps.net**
+
+Esa es la dirección que puede usar cualquiera desde cualquier sitio de
+casa (u fuera), sin que ningún PC esté encendido. Verificado en vivo:
+la web responde 200 y `precios_generados.json` sirve datos reales de
+los tres supermercados.
+
+Detalles del recurso (por si hay que tocarlo alguna vez):
+
+- Azure Static Web App `buscaprecios`, plan **Free**, grupo de recursos
+  `rg-buscaprecios`, región Central US (asignada automáticamente por
+  Azure; no afecta ni al coste ni a la latencia de forma relevante
+  aquí).
+- Creado con `az staticwebapp create --login-with-github` desde una
+  sesión de Claude Code en VS Code, dentro de la suscripción
+  **"Azure subscription 1" de la cuenta `UNL25063@educastur.es`**
+  (cuenta educativa). **Decisión consciente (2026-09-02): se deja así
+  por ahora** — es una cuenta estable para el usuario, no hay plan
+  inmediato de perderla. Riesgo a tener en cuenta si eso cambia: una
+  cuenta educativa puede desactivarse por motivos ajenos al proyecto
+  (fin de la relación con el centro, caducidad de la cuenta), lo que se
+  llevaría por delante este recurso — no es un problema de coste (sigue
+  en el plan Free), es un problema de continuidad de la cuenta. Si algún
+  día hace falta migrarlo a una suscripción personal: recrear con el
+  mismo comando `az staticwebapp create` apuntando a una sesión de
+  `az login` distinta, y actualizar el registro DNS/URL en cualquier
+  sitio donde esté guardada.
+- Azure añadió su propio workflow de despliegue al repo
+  (`.github/workflows/azure-static-web-apps-zealous-pebble-07f8f3c10.yml`,
+  commit `d604aef`) — se dispara solo en cada push a `master`, incluido
+  el que hace el cron de precios cada día.
+
+Código y automatización que lo hacen posible (para referencia futura):
 
 **Ya está en el repo:**
 
@@ -274,43 +306,34 @@ tuyo en el Portal de Azure porque crear el recurso necesita tu cuenta.
   Azure Static Web Apps (cabecera de caché corta para el JSON de
   precios, para que se note el dato nuevo pronto tras cada cron).
 
-**Lo que te toca hacer a ti (una vez, ~10 minutos):**
+**Pasos ya completados (dejados aquí por si hay que repetirlos en otra
+cuenta/suscripción alguna vez):**
 
-1. En GitHub, `Settings` -> `Actions` -> `General` -> `Workflow
-   permissions`: marca **"Read and write permissions"**. Sin esto,
-   `precios-cron.yml` no puede subir el JSON que genera (falla el
-   `git push` con un 403).
-2. En [portal.azure.com](https://portal.azure.com), crea un recurso
-   **Static Web App** (busca "Static Web Apps" -> Crear):
-   - Plan: **Free**.
-   - Origen del despliegue: **GitHub**, autoriza el acceso y elige el
-     repo `IgorDAM/BuscaPrecios`, rama `master`.
-   - Ajustes de compilación: preset "Custom", `App location` =
-     `/webapp/static`, `Api location` = (vacío), `Output location` =
-     (vacío).
-   - Al crear, Azure añade **solo** un workflow nuevo a tu repo
-     (`azure-static-web-apps-<algo>.yml`) que despliega en cada push a
-     `master` — no toca nada de lo que ya había.
-3. Espera 1-2 minutos al primer despliegue automático y abre la URL que
-   te da Azure (`https://<algo>.azurestaticapps.net`). Esa es la
-   dirección que puede usar tu mujer desde cualquier sitio, sin que tu
-   PC esté encendido.
-4. Si quieres datos ya mismo en vez de esperar al cron de las 06:00 UTC:
-   pestaña **Actions** -> "Generar precios (cron)" -> **Run workflow**.
+1. GitHub, `Settings` -> `Actions` -> `General` -> `Workflow
+   permissions`: **"Read and write permissions"** activado. Necesario
+   para que `precios-cron.yml` pueda subir el JSON que genera (si no,
+   el `git push` falla con 403).
+2. Recurso Static Web App creado en el Portal/CLI de Azure, plan
+   **Free**, origen GitHub (repo `IgorDAM/BuscaPrecios`, rama `master`),
+   `App location` = `/webapp/static`, `Api location` y
+   `Output location` vacíos.
+3. Si hace falta refrescar los precios ya mismo en vez de esperar al
+   cron de las 06:00 UTC: pestaña **Actions** -> "Generar precios
+   (cron)" -> **Run workflow**.
 
 ## Próximos pasos (pendiente de hacer)
 
 1. ~~Comprobar Xvfb en GitHub Actions~~ **Hecho (2026-09-02)**, ver
    arriba. Mercadona funciona siempre; Hipercor funciona pero de forma
    intermitente (resuelto con reintento a nivel de job en
-   `generar_precios.py`). Alimerka no se ha probado explícitamente en un
-   runner de GitHub, pero al ir con `requests` no debería tener este
-   problema.
+   `generar_precios.py`). Alimerka verificada también en runner de
+   GitHub (primera ejecución real del cron, 2026-09-02): funciona sin
+   problemas, como se esperaba al ir con `requests`.
 2. ~~Scraping programado en GitHub Actions~~ **Hecho (2026-09-02)**:
    `.github/workflows/precios-cron.yml` + `scripts/generar_precios.py`.
-3. ~~Alojar la interfaz en Azure Static Web Apps~~ **Código listo,
-   falta el paso manual tuyo en el Portal** — ver "Cómo activar la
-   versión en la nube" arriba.
+3. ~~Alojar la interfaz en Azure Static Web Apps~~ **Hecho y en
+   producción (2026-09-02)** — ver "Versión en la nube" arriba para la
+   URL y los detalles del recurso.
 4. **Búsquedas nuevas bajo demanda**: de momento, la versión en la nube
    solo enseña la lista habitual del cron. Si hace falta buscar algo
    fuera de esa lista sin esperar al día siguiente, la opción más simple
