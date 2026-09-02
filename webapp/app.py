@@ -192,4 +192,27 @@ def service_worker():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    import os
+    import socket
+
+    # Modo LAN: escucha en todas las interfaces para que otros dispositivos
+    # de la misma red (móvil, portátil de casa) puedan entrar por IP.
+    # Se puede sobreescribir con variables de entorno si hace falta.
+    host = os.environ.get("HOST", "0.0.0.0")
+    port = int(os.environ.get("PORT", "5000"))
+    debug = os.environ.get("DEBUG", "0") == "1"
+
+    ip_lan = "IP-de-este-ordenador"
+    try:
+        with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
+            s.connect(("8.8.8.8", 80))
+            ip_lan = s.getsockname()[0]
+    except OSError:
+        pass
+
+    print(f"* Accesible en este PC:        http://localhost:{port}")
+    print(f"* Accesible desde otros PCs/móviles de casa: http://{ip_lan}:{port}")
+    print("  (si no carga desde otro dispositivo, revisa el Firewall de Windows:")
+    print("   puede pedir permiso la primera vez que arranque el servidor)")
+
+    app.run(host=host, port=port, debug=debug)

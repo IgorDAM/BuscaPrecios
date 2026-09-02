@@ -100,8 +100,16 @@ cd webapp
 python app.py
 ```
 
-Abre `http://localhost:5000` en el navegador (del ordenador o del móvil,
-si están en la misma red). Ahí puedes:
+Abre `http://localhost:5000` en el navegador. Al arrancar, la propia
+consola imprime la IP de tu ordenador en la red local (algo como
+`http://192.168.1.XX:5000`) — esa es la dirección que hay que usar desde
+**cualquier otro dispositivo de casa** (el portátil de tu mujer, un móvil,
+una tablet), siempre que estén en el mismo WiFi/red que este ordenador.
+No hace falta instalar nada en esos otros dispositivos: solo abrir esa
+dirección en su navegador. Detalles y solución de problemas en
+"Usar la app desde otro dispositivo de casa", más abajo.
+
+Ahí puedes:
 
 - Poner un **presupuesto mensual** y ver cuánto llevas gastado este mes,
   cuánto te queda, y cuánto has ahorrado en total (barra de progreso +
@@ -141,6 +149,37 @@ si están en la misma red). Ahí puedes:
 Esta versión corre en tu ordenador — para que funcione desde el móvil
 sin tenerlo encendido, el siguiente paso es desplegar `webapp/app.py`
 (adaptado) en Azure, ver más abajo.
+
+## Usar la app desde otro dispositivo de casa (modo LAN)
+
+Solo hace falta el código y la instalación (Python, venv, Playwright) en
+**un ordenador** — el que se vaya a dejar encendido cuando se quiera usar
+la app. Los demás dispositivos de casa (otro PC, un móvil, una tablet)
+**no necesitan instalar nada**: solo abrir un navegador.
+
+1. En el ordenador que hace de servidor: `cd webapp && python app.py`
+   como siempre. La consola imprime dos líneas al arrancar:
+   - `Accesible en este PC: http://localhost:5000`
+   - `Accesible desde otros PCs/móviles de casa: http://<IP>:5000`
+2. En el otro dispositivo (misma red WiFi/cable que el ordenador
+   servidor), abre esa segunda dirección en el navegador. Ya está.
+3. Dos cosas a tener en cuenta:
+   - **Firewall de Windows**: la primera vez que arranca el servidor,
+     Windows puede preguntar si permite a Python comunicarse en redes
+     privadas — hay que decir que sí, si no, no será visible desde
+     fuera de ese mismo PC.
+   - **El ordenador servidor tiene que estar encendido** y con
+     `python app.py` corriendo para que los demás puedan entrar. Si se
+     apaga o se cierra la consola, deja de estar disponible.
+   - **Estado por navegador**: el presupuesto, el historial de compras
+     y la lista de la compra viven en el `localStorage` de cada
+     navegador, así que no se comparten entre el PC servidor y el de
+     tu mujer — cada uno ve su propia lista/presupuesto aunque hablen
+     con el mismo servidor. Lo que sí se comparte es la caché de
+     precios (menos visitas a las webs, menos bloqueos de Akamai).
+   - Si necesitas fijar la IP o el puerto a mano en vez del automático,
+     hay variables de entorno: `HOST`, `PORT` y `DEBUG=1` (para volver
+     al modo desarrollo con recarga automática).
 
 ## Requisito importante: todo debe ser 100% gratis
 

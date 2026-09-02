@@ -114,6 +114,18 @@ Devuelve `avisos` por supermercado que falla o no devuelve nada — sin eso
 es imposible distinguir "no lo venden" de "está bloqueado", que fue una
 fuente real de confusión.
 
+Escucha en `host="0.0.0.0"` (configurable con la variable de entorno
+`HOST`, igual que `PORT` y `DEBUG`) para servir en modo LAN: se instala
+una sola vez en el ordenador que se deja encendido, y el resto de
+dispositivos de casa (otro PC, móvil) entran por IP sin instalar nada.
+Al arrancar imprime esa IP calculándola con un socket UDP a un DNS
+público (no llega a enviar tráfico real, solo sirve para que el SO
+resuelva la interfaz de salida). El presupuesto/historial/lista de la
+compra siguen sin compartirse entre dispositivos porque viven en
+`localStorage` de cada navegador; lo que sí comparten todos los
+dispositivos que hablan con el mismo servidor es la caché de precios
+(`webapp/cache.py`).
+
 **El frontend llama a `/api/buscar` una vez por supermercado, en
 paralelo.** Es lo que da el paralelismo (Flask atiende en hilos) y el
 progreso por súper: el total pasa a ser el del más lento en vez de la suma
