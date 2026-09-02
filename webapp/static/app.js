@@ -199,6 +199,17 @@ let ultimosResultados = [];
 // null = todavía no se ha intentado.
 let cachePreciosEstaticos = null;
 
+// true en cuanto se ha usado precios_generados.json al menos una vez
+// (o sea, estamos en la versión sin backend). Sirve para distinguir, en
+// la tarjeta de un producto sin resultados, "no está en la lista que
+// revisa la nube" de "los tres supermercados dicen que no lo venden".
+let modoEstaticoActivo = false;
+
+// Nombres de producto pedidos que NO aparecen en absoluto en
+// precios_generados.json (ni siquiera con 0 opciones): significa que no
+// están en data/lista_compra_habitual.json, no que no se vendan.
+let productosFueraDeListaCloud = new Set();
+
 // Descarga (una sola vez por sesión) los precios que publicó el cron.
 // Solo existen si la app está desplegada como sitio estático sin
 // webapp/app.py detrás; en modo LAN/local nunca se llega a usar porque
@@ -224,6 +235,9 @@ function filtrarPreciosEstaticos(datos, nombreSuper, productosPedidos) {
   const avisoSuper = (datos.avisos || []).find((a) => a.supermercado === nombreSuper);
   const resultados = productosPedidos.map((nombreProducto) => {
     const item = (datos.resultados || []).find((r) => r.producto === nombreProducto);
+    if (!item) {
+      productosFueraDeListaCloud.add(nombreProducto);
+    }
     const opciones = item
       ? item.opciones.filter((o) => o.supermercado === nombreSuper)
       : [];
@@ -667,6 +681,7 @@ async function buscarEnSuper(nombre, flags, productos) {
       if (!estaticos) throw errorBackend;
       data = filtrarPreciosEstaticos(estaticos, nombre, productos);
       modoEstatico = true;
+      modoEstaticoActivo = true;
     }
 
     const segundos = Math.round((Date.now() - comienzo) / 1000);
@@ -876,10 +891,19 @@ function crearProductoCard(item, seleccion) {
   header.className = "producto-card-header";
 
   if (item.opciones.length === 0) {
+    // En la versión sin backend (nube), "sin opciones" casi siempre
+    // significa que el producto no está en la lista fija que revisa el
+    // cron, no que los supermercados no lo tengan — son cosas muy
+    // distintas y conviene no confundirlas (ver README, "Versión en la
+    // nube").
+    const mensaje =
+      modoEstaticoActivo && productosFueraDeListaCloud.has(item.producto)
+        ? "No está en la lista de productos de la nube (búsqueda libre solo en modo LAN)"
+        : "No se encontró en ningún supermercado";
     header.innerHTML = `
       <div class="producto-card-info">
         <span class="producto-nombre">${item.producto}</span>
-        <span class="producto-sin-resultados">No se encontró en ningún supermercado</span>
+        <span class="producto-sin-resultados">${mensaje}</span>
       </div>
     `;
     card.appendChild(header);

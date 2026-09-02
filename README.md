@@ -280,19 +280,27 @@ Código y automatización que lo hacen posible (para referencia futura):
 
 **Ya está en el repo:**
 
-- `data/lista_compra_habitual.json` — la lista que el cron busca cada
-  día. Editable: es tu compra habitual real, no tiene por qué coincidir
-  con lo que tengas metido en el navegador ahora mismo (eso sigue siendo
-  por navegador, vía `localStorage`, tanto en modo LAN como en la nube).
+- `data/lista_compra_habitual.json` — la lista que el cron busca.
+  **Actualizada (2026-09-02) a 80 productos** cubriendo categorías
+  típicas de la cesta de la compra (varios tipos de leche, pan, carnes,
+  pescado, fruta, verdura, limpieza, higiene...), no solo los 10 de
+  ejemplo iniciales — para que una búsqueda habitual desde el móvil
+  tenga muchas más papeletas de estar ya cubierta. Editable en cualquier
+  momento: añade/quita líneas y sube el cambio. No tiene por qué
+  coincidir con lo que tengas metido en el navegador ahora mismo (eso
+  sigue siendo por navegador, vía `localStorage`, tanto en modo LAN como
+  en la nube).
 - `scripts/generar_precios.py` — busca esa lista en los tres
   supermercados y escribe `webapp/static/precios_generados.json`.
   Reintenta el conector entero hasta 3 veces si Hipercor o Mercadona
   devuelven 0 resultados o lanzan una excepción (ver más arriba por qué:
   es intermitencia de Akamai por IP del runner, no un bloqueo fijo).
-- `.github/workflows/precios-cron.yml` — ejecuta ese script todos los
-  días a las 06:00 UTC (~08:00 en Madrid en verano) y sube el JSON
-  resultante al repo si ha cambiado. También se puede lanzar a mano
-  (`workflow_dispatch`) desde la pestaña Actions.
+- `.github/workflows/precios-cron.yml` — ejecuta ese script **cada 6
+  horas** (00/06/12/18 UTC; antes era 1 vez al día, se subió la
+  frecuencia el 2026-09-02 para que un producto añadido a la lista tarde
+  menos en aparecer) y sube el JSON resultante al repo si ha cambiado.
+  También se puede lanzar a mano (`workflow_dispatch`) desde la pestaña
+  Actions para no esperar nada.
 - `webapp/static/app.js` — ahora, si `/api/buscar` no responde (porque no
   hay servidor Flask detrás, como en un sitio estático), usa
   automáticamente `precios_generados.json` en su lugar, filtrando por
@@ -318,7 +326,7 @@ cuenta/suscripción alguna vez):**
    `App location` = `/webapp/static`, `Api location` y
    `Output location` vacíos.
 3. Si hace falta refrescar los precios ya mismo en vez de esperar al
-   cron de las 06:00 UTC: pestaña **Actions** -> "Generar precios
+   siguiente cron (cada 6h): pestaña **Actions** -> "Generar precios
    (cron)" -> **Run workflow**.
 
 ## Próximos pasos (pendiente de hacer)

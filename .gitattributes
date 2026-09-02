@@ -1,0 +1,6 @@
+# Sin esto, git en Windows convierte los saltos de línea a CRLF al
+# hacer checkout, y cada vez que el cron de GitHub Actions (que corre en
+# Linux, con LF) sube un precios_generados.json nuevo, git local lo ve
+# TODO como cambiado aunque el contenido real sea idéntico salvo el
+# salto de línea. Forzando LF en el repo se evita ese ruido.
+* text=auto eol=lf

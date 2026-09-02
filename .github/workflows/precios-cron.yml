@@ -18,7 +18,11 @@ name: Generar precios (cron)
 
 on:
   schedule:
-    - cron: "0 6 * * *" # todos los días a las 06:00 UTC (~08:00 en Madrid en horario de verano)
+    # Cada 6 horas (00/06/12/18 UTC = ~02/08/14/20 en Madrid en verano).
+    # Con la lista ampliada (80 productos), esto hace que un producto
+    # nuevo que añadas tarde como mucho ~6h en aparecer sin tener que
+    # lanzar el workflow a mano.
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
