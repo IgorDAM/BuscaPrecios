@@ -195,17 +195,40 @@ navegadores headless** (ver arriba). Hace falta poder abrir un navegador
 | **Azure Container Apps** | **Probablemente sí**: permite tu propia imagen Docker (con Xvfb + Chromium) y tiene una cuota mensual gratuita generosa. Es la opción "todo en Azure". |
 | **Azure Static Web Apps** | **Sí**, para servir `webapp/static/`. |
 
-Aviso honesto: he verificado en vivo que headless falla y que el
-navegador visible funciona, pero **no he podido probar `xvfb-run`**
-porque este proyecto se está desarrollando en Windows y Xvfb es de Linux.
-Es la técnica estándar para esto y debería funcionar, pero conviene
-comprobarlo antes de dar el despliegue por hecho.
+**Actualización (2026-09-02) — verificado en vivo con GitHub Actions**:
+se lanzó `.github/workflows/test-xvfb.yml` (`xvfb-run` + Playwright
+`headless=False` de verdad, no una simulación) contra un runner real de
+GitHub. Resultado, con datos reales:
+
+- **Mercadona: funciona.** 24 opciones encontradas para "manzanas" con
+  precios reales (`Manzana Golden` a 0,46 €/kg, coincide con los datos ya
+  verificados más arriba). Xvfb es suficiente para pasar la detección de
+  headless de Akamai en Mercadona, incluso desde una IP de datacenter.
+- **Hipercor: NO funciona.** 0 opciones encontradas para "leche entera",
+  con el paso tardando ~30 s (encaja con el timeout de 25 s esperando
+  `window.__MOONSHINE_STATE__` en `hipercor.py`) — es el caso `None`
+  ("no cargó"), no "no lo vende". Akamai sigue bloqueando a Hipercor
+  concretamente desde el runner de GitHub, aunque el mismo código
+  funciona perfecto desde un PC de casa. Xvfb resuelve la detección de
+  headless, pero no lo que sea que Hipercor mira además (reputación de
+  IP de datacenter, fingerprint TLS, u otra señal de Akamai) — pendiente
+  de investigar si merece la pena perseguirlo.
+- Alimerka no se ha vuelto a probar en este experimento (va con
+  `requests`, sin navegador, así que no debería compartir este problema),
+  pero tampoco está verificado en runner de GitHub todavía.
+
+Esto invierte la dificultad esperada: Mercadona, que se suponía el caso
+más difícil, queda resuelto gratis en la nube; Hipercor pasa a ser el
+cuello de botella. Plan mientras no se resuelva Hipercor: llevarlo por
+separado (modo LAN local, ver README más arriba) mientras Mercadona y
+Alimerka sí pueden ir por el cron gratuito de abajo.
 
 ## Próximos pasos (pendiente de hacer)
 
-1. **Comprobar Xvfb en GitHub Actions**: un workflow que ejecute
-   `xvfb-run python -m src.supermarkets.hipercor` y confirme que no da
-   403. Es el experimento que decide todo lo demás, y es barato de hacer.
+1. ~~Comprobar Xvfb en GitHub Actions~~ **Hecho (2026-09-02)**, ver arriba.
+   Sigue pendiente decidir qué hacer con Hipercor: intentar más (otro
+   User-Agent/fingerprint, más reintentos, investigar si es bloqueo por
+   IP) o dejarlo fuera del cron y servirlo solo en modo LAN.
 2. **Scraping programado en GitHub Actions**: si el paso 1 sale bien, un
    cron (por ejemplo diario) que busque tu lista habitual en los tres
    supermercados y publique los precios como JSON (en el propio repo o
