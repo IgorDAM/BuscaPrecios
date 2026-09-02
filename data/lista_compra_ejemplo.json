@@ -1,0 +1,15 @@
+{
+  "_comentario": "Cada producto puede ser un texto suelto (1 unidad) o un objeto con cantidad y unidad ('ud' o 'g'). Los gramos son para lo que se vende al peso: jamón, queso, carne...",
+  "productos": [
+    "leche entera",
+    "huevos",
+    "pan de molde",
+    { "nombre": "jamon serrano", "cantidad": 300, "unidad": "g" },
+    { "nombre": "carne picada", "cantidad": 500, "unidad": "g" },
+    { "nombre": "yogur natural", "cantidad": 2, "unidad": "ud" },
+    "aceite de oliva virgen extra",
+    "tomate frito",
+    "manzanas",
+    "arroz"
+  ]
+}

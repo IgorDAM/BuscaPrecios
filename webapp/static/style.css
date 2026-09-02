@@ -1,0 +1,629 @@
+:root {
+  --verde: #2f7d4f;
+  --verde-claro: #e7f4ec;
+  --fondo: #f5f5f0;
+  --texto: #23291f;
+  --gris: #6b7268;
+  --borde: #dde2d8;
+  --rojo: #b4483a;
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--texto);
+  padding-bottom: 2rem;
+}
+
+header {
+  background: var(--verde);
+  color: white;
+  padding: 1.2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.15rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.header-subtitulo {
+  margin: 0.1rem 0 0;
+  font-size: 0.78rem;
+  opacity: 0.85;
+}
+
+#instalar-btn {
+  display: none;
+  background: white;
+  color: var(--verde);
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 0.8rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section {
+  background: white;
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+section h2 {
+  font-size: 0.95rem;
+  margin: 0 0 0.75rem;
+  color: var(--gris);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+label {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--gris);
+  margin-bottom: 0.3rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.fila {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.fila input {
+  flex: 1;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+}
+
+.btn-primario {
+  background: var(--verde);
+  color: white;
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+.btn-primario:disabled {
+  opacity: 0.6;
+}
+
+.btn-secundario {
+  background: var(--verde-claro);
+  color: var(--verde);
+}
+
+.btn-quitar {
+  background: none;
+  color: var(--rojo);
+  font-size: 1.1rem;
+  padding: 0.2rem 0.5rem;
+}
+
+ul#lista-productos {
+  list-style: none;
+  margin: 0 0 0.8rem;
+  padding: 0;
+}
+
+ul#lista-productos li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.2rem;
+  border-bottom: 1px solid var(--borde);
+}
+
+ul#lista-productos li:last-child {
+  border-bottom: none;
+}
+
+.producto-lista-nombre {
+  flex: 1;
+  min-width: 0;
+}
+
+.cantidad-control {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+
+.btn-cantidad {
+  background: var(--verde-claro);
+  color: var(--verde);
+  width: 1.7rem;
+  height: 1.7rem;
+  padding: 0;
+  border-radius: 6px;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+input.cantidad-valor {
+  width: 3.4rem;
+  padding: 0.25rem 0.2rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border: 1px solid var(--borde);
+  border-radius: 6px;
+}
+
+/* Botón para alternar entre comprar por unidades o por gramos. */
+.btn-unidad {
+  background: white;
+  color: var(--gris);
+  border: 1px solid var(--borde);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.25rem 0.4rem;
+  border-radius: 6px;
+  min-width: 2.1rem;
+}
+
+.btn-unidad:hover {
+  border-color: var(--verde);
+  color: var(--verde);
+}
+
+.checkbox-fila {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.8rem 0;
+  font-size: 0.9rem;
+  color: var(--gris);
+}
+
+#estado {
+  text-align: center;
+  color: var(--gris);
+  font-size: 0.9rem;
+  padding: 1rem 0;
+}
+
+.resumen-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--borde);
+}
+
+.resumen-card:last-child {
+  border-bottom: none;
+}
+
+.resumen-card .valor {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--verde);
+}
+
+.ahorro {
+  background: var(--verde-claro);
+  border-radius: 8px;
+  padding: 0.7rem;
+  text-align: center;
+  font-weight: 600;
+  color: var(--verde);
+  margin-top: 0.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.5rem 0.4rem;
+  border-bottom: 1px solid var(--borde);
+}
+
+td.precio-mejor {
+  color: var(--verde);
+  font-weight: 700;
+}
+
+td.precio-faltante {
+  color: var(--gris);
+}
+
+.error {
+  color: var(--rojo);
+  font-size: 0.9rem;
+  padding: 0.5rem 0;
+}
+
+/* Progreso por supermercado durante la búsqueda. */
+#progreso {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.progreso-super {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  background: white;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  padding: 0.45rem 0.7rem;
+  margin-bottom: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.progreso-super.ok {
+  border-color: var(--verde);
+  color: var(--verde);
+}
+
+.progreso-super.error {
+  border-color: #e8d5ab;
+  background: #fdf3e3;
+  color: #8a5a15;
+}
+
+.progreso-detalle {
+  font-weight: 400;
+  color: var(--gris);
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+.progreso-super.error .progreso-detalle {
+  color: #8a5a15;
+}
+
+.orden-fila {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.orden-fila select {
+  flex: 1;
+  padding: 0.45rem 0.5rem;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background: white;
+  color: var(--texto);
+}
+
+.btn-borrar-compra {
+  background: none;
+  color: var(--rojo);
+  padding: 0 0.3rem;
+  font-size: 0.9rem;
+}
+
+.aviso-super {
+  background: #fdf3e3;
+  border: 1px solid #e8d5ab;
+  border-radius: 8px;
+  color: #8a5a15;
+  font-size: 0.85rem;
+  padding: 0.5rem 0.7rem;
+  margin-bottom: 0.4rem;
+  text-align: left;
+}
+
+.presupuesto-linea {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin: 0.35rem 0;
+}
+
+.presupuesto-linea .valor {
+  font-weight: 700;
+}
+
+.barra-progreso {
+  background: var(--verde-claro);
+  border-radius: 999px;
+  height: 10px;
+  overflow: hidden;
+  margin: 0.5rem 0 0.8rem;
+}
+
+.barra-progreso-relleno {
+  background: var(--verde);
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.barra-progreso-relleno.exceso {
+  background: var(--rojo);
+}
+
+#historial-mes {
+  margin-top: 0.6rem;
+}
+
+#historial-mes summary {
+  cursor: pointer;
+  color: var(--gris);
+  font-size: 0.85rem;
+}
+
+.historial-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid var(--borde);
+}
+
+.historial-item:last-child {
+  border-bottom: none;
+}
+
+.ayuda-texto {
+  font-size: 0.85rem;
+  color: var(--gris);
+  margin: 0 0 0.8rem;
+}
+
+.producto-card {
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  margin-bottom: 0.6rem;
+  overflow: hidden;
+}
+
+.producto-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 0.8rem;
+  cursor: pointer;
+  background: white;
+}
+
+.producto-card-header:hover {
+  background: var(--verde-claro);
+}
+
+.producto-card-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.producto-nombre {
+  font-weight: 600;
+  display: block;
+  text-transform: capitalize;
+}
+
+/* El nombre buscado va capitalizado, pero la cantidad no: si no,
+   "300 g" se vería como "300 G". */
+.producto-cantidad {
+  text-transform: none;
+  color: var(--gris);
+  font-weight: 600;
+}
+
+.producto-rango {
+  font-size: 0.8rem;
+  color: var(--gris);
+}
+
+.producto-elegido {
+  font-size: 0.8rem;
+  color: var(--verde);
+  font-weight: 600;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.total-final {
+  background: var(--verde-claro);
+  border: 1px solid var(--verde);
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  margin-top: 0.9rem;
+}
+
+.total-final-linea {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.total-final-linea span:first-child {
+  font-weight: 700;
+  color: var(--verde);
+  letter-spacing: 0.02em;
+}
+
+.total-final-valor {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--verde);
+  white-space: nowrap;
+}
+
+.total-final-detalle {
+  font-size: 0.8rem;
+  color: var(--gris);
+  margin-top: 0.2rem;
+}
+
+.producto-seleccion {
+  font-size: 0.85rem;
+  color: var(--verde);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.producto-sin-resultados {
+  font-size: 0.85rem;
+  color: var(--rojo);
+}
+
+.flecha {
+  transition: transform 0.2s ease;
+  color: var(--gris);
+}
+
+.producto-card.abierta .flecha {
+  transform: rotate(180deg);
+}
+
+.producto-card-alerta {
+  background: #fdf3e3;
+  border-top: 1px solid var(--borde);
+  padding: 0.6rem 0.8rem;
+  font-size: 0.82rem;
+  color: #8a5a15;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.producto-card-alerta button {
+  background: #8a5a15;
+  color: white;
+  font-size: 0.78rem;
+  padding: 0.3rem 0.6rem;
+  white-space: nowrap;
+}
+
+.producto-card-opciones {
+  display: none;
+  border-top: 1px solid var(--borde);
+}
+
+.producto-card.abierta .producto-card-opciones {
+  display: block;
+}
+
+.opcion-fila {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.55rem 0.8rem;
+  border-bottom: 1px solid var(--borde);
+  font-size: 0.88rem;
+  cursor: pointer;
+}
+
+.opcion-fila:last-child {
+  border-bottom: none;
+}
+
+.opcion-fila:hover {
+  background: var(--verde-claro);
+}
+
+.opcion-fila.elegida {
+  background: var(--verde-claro);
+}
+
+.opcion-super {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--gris);
+  width: 4.5rem;
+  flex-shrink: 0;
+}
+
+.opcion-nombre {
+  flex: 1;
+  min-width: 0;
+}
+
+.opcion-marca {
+  font-weight: 700;
+  margin-right: 0.3rem;
+}
+
+.opcion-precios {
+  text-align: right;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.opcion-precio {
+  font-weight: 700;
+  white-space: nowrap;
+  display: block;
+}
+
+.opcion-medida {
+  display: block;
+  font-size: 0.72rem;
+  color: var(--gris);
+  font-weight: 600;
+}
+
+.badge-medida {
+  background: var(--verde-claro);
+  color: var(--verde);
+  border: 1px solid var(--verde);
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.badge-barato {
+  background: var(--verde);
+  color: white;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  white-space: nowrap;
+}

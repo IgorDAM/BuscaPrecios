@@ -1,0 +1,4 @@
+requests>=2.31
+beautifulsoup4>=4.12
+playwright>=1.44   # solo necesario para Mercadona; tras instalar, ejecuta: playwright install chromium
+flask>=3.0         # servidor local de la interfaz web (webapp/app.py)

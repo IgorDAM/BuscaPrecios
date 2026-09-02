@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Comparador de Supermercados</title>
+  <meta name="theme-color" content="#2f7d4f" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" href="/icon-192.png" />
+  <link rel="apple-touch-icon" href="/icon-192.png" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Comparador Súper</h1>
+      <p class="header-subtitulo">Oviedo, Asturias</p>
+    </div>
+    <button id="instalar-btn">Instalar</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>Presupuesto mensual</h2>
+      <div class="fila">
+        <input type="text" id="presupuesto" inputmode="decimal" placeholder="Ej: 300" />
+        <button class="btn-secundario" id="guardar-presupuesto-btn">Guardar</button>
+      </div>
+      <div id="presupuesto-resumen"></div>
+      <div id="historial-mes"></div>
+    </section>
+
+    <section>
+      <h2>Tu lista de la compra</h2>
+      <div class="fila">
+        <input type="text" id="nuevo-producto" placeholder="Ej: leche entera" />
+        <button class="btn-secundario" id="anadir-btn">Añadir</button>
+      </div>
+      <ul id="lista-productos"></ul>
+
+      <label style="margin-bottom:0.3rem;">Qué supermercados comparar</label>
+      <div class="checkbox-fila">
+        <input type="checkbox" id="incluir-hipercor" checked />
+        <label for="incluir-hipercor" style="margin:0;">Hipercor</label>
+      </div>
+      <div class="checkbox-fila">
+        <input type="checkbox" id="incluir-alimerka" checked />
+        <label for="incluir-alimerka" style="margin:0;">Alimerka</label>
+      </div>
+      <div class="checkbox-fila">
+        <input type="checkbox" id="incluir-mercadona" checked />
+        <label for="incluir-mercadona" style="margin:0;">
+          Mercadona (más lento: usa un navegador real)
+        </label>
+      </div>
+
+      <button class="btn-primario" id="comparar-btn">Buscar precios</button>
+    </section>
+
+    <div id="progreso"></div>
+    <div id="estado"></div>
+
+    <section id="resumen-seccion" style="display:none;">
+      <h2>Resumen de tu compra</h2>
+      <div id="resumen"></div>
+      <div class="fila" style="margin-top:0.8rem;">
+        <button class="btn-secundario" id="mas-barato-btn" style="flex:1;">
+          Elegir lo más barato en todo
+        </button>
+      </div>
+      <button class="btn-primario" id="registrar-btn" style="margin-top:0.6rem;">
+        Registrar esta compra en el mes
+      </button>
+    </section>
+
+    <section id="resultados-seccion" style="display:none;">
+      <h2>Productos encontrados</h2>
+      <p class="ayuda-texto">
+        Toca un producto para ver todas las opciones (todas las marcas y
+        variedades encontradas) y elegir la que quieres. Si lo que eliges
+        existe más barato en otro súper, te avisamos.
+      </p>
+      <div class="orden-fila">
+        <label for="orden" style="margin:0;">Ordenar por</label>
+        <select id="orden">
+          <option value="coste">Lo que te costaría</option>
+          <option value="medida">Precio por kilo/litro</option>
+        </select>
+      </div>
+      <div id="resultados-lista"></div>
+      <div id="resultados-total"></div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
