@@ -1,0 +1,3180 @@
+{
+  "generado_en": "2026-09-02T17:40:14+00:00",
+  "cp": "33012",
+  "resultados": [
+    {
+      "producto": "leche entera",
+      "opciones": [
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera brik 500 ml - Asturiana",
+          "marca": "asturiana",
+          "precio": 0.79,
+          "unidad": "L",
+          "precio_unidad": 1.58,
+          "url": "https://www.hipercor.es/supermercado/B001020616500516-asturiana-leche-entera-brik-500-ml/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera de Asturias brik 1 l - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 0.96,
+          "unidad": "L",
+          "precio_unidad": 0.96,
+          "url": "https://www.hipercor.es/supermercado/B001020616500045-el-corte-ingles-leche-entera-de-asturias-brik-1-l/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Leche entera Hacendado",
+          "marca": "",
+          "precio": 0.96,
+          "unidad": "L",
+          "precio_unidad": 0.96,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHE ENTERA 1 LITRO",
+          "marca": "CREMOSITA",
+          "precio": 0.96,
+          "unidad": "L",
+          "precio_unidad": 0.96,
+          "url": "https://www.alimerkaonline.es/22075.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHE ENTERA 1 LITRO",
+          "marca": "ALIMERKA",
+          "precio": 0.99,
+          "unidad": "L",
+          "precio_unidad": 0.99,
+          "url": "https://www.alimerkaonline.es/10001244.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera brik 1 l - President",
+          "marca": "president",
+          "precio": 1.02,
+          "unidad": "L",
+          "precio_unidad": 1.02,
+          "url": "https://www.hipercor.es/supermercado/B001020616500169-president-leche-entera-brik-1-l/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Leche entera sin lactosa Hacendado",
+          "marca": "",
+          "precio": 1.03,
+          "unidad": "L",
+          "precio_unidad": 1.03,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera sin lactosa enriquecida con vitaminas A, D, E y B9 brik 1 l - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.06,
+          "unidad": "L",
+          "precio_unidad": 1.06,
+          "url": "https://www.hipercor.es/supermercado/B001020616400295-el-corte-ingles-leche-entera-sin-lactosa-enriquecida-con-vitaminas-a-d-e-y-b9-brik-1-l/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Leche entera Hacendado",
+          "marca": "",
+          "precio": 1.15,
+          "unidad": "L",
+          "precio_unidad": 1.15,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera gallega brik 1 l - Clesa",
+          "marca": "clesa",
+          "precio": 1.18,
+          "unidad": "L",
+          "precio_unidad": 1.18,
+          "url": "https://www.hipercor.es/supermercado/B001020616500540-clesa-leche-entera-gallega-brik-1-l/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHE ENTERA 1 LITRO",
+          "marca": "RENY PICOT",
+          "precio": 1.19,
+          "unidad": "L",
+          "precio_unidad": 1.19,
+          "url": "https://www.alimerkaonline.es/10022920.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHE ENTERA 1 LITRO",
+          "marca": "CASONA LA LLORAZA",
+          "precio": 1.19,
+          "unidad": "L",
+          "precio_unidad": 1.19,
+          "url": "https://www.alimerkaonline.es/10028620.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera con calcio enriquecida con vitaminas A, D y E brik 1 l - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.2,
+          "unidad": "L",
+          "precio_unidad": 1.2,
+          "url": "https://www.hipercor.es/supermercado/B001020616000285-el-corte-ingles-leche-entera-con-calcio-enriquecida-con-vitaminas-a-d-y-e-brik-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera brik 1 l - Asturiana",
+          "marca": "asturiana",
+          "precio": 1.24,
+          "unidad": "L",
+          "precio_unidad": 1.24,
+          "url": "https://www.hipercor.es/supermercado/B001020616500037-asturiana-leche-entera-brik-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera brik 1 l - Reny Picot",
+          "marca": "reny picot",
+          "precio": 1.25,
+          "unidad": "L",
+          "precio_unidad": 1.25,
+          "url": "https://www.hipercor.es/supermercado/B001020616500177-reny-picot-leche-entera-brik-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera sin lactosa 100% ingredientes naturales brik 1 l - Asturiana",
+          "marca": "asturiana",
+          "precio": 1.29,
+          "unidad": "L",
+          "precio_unidad": 1.29,
+          "url": "https://www.hipercor.es/supermercado/B001020616400345-asturiana-leche-entera-sin-lactosa-100-ingredientes-naturales-brik-1-l/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Leche entera Asturiana",
+          "marca": "",
+          "precio": 1.29,
+          "unidad": "L",
+          "precio_unidad": 1.29,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHE ENTERA 1 LITRO",
+          "marca": "CENTRAL LECHERA ASTURIANA",
+          "precio": 1.29,
+          "unidad": "L",
+          "precio_unidad": 1.29,
+          "url": "https://www.alimerkaonline.es/22007.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera más ligera que una entera 2% materia grasa sin lactosa botella 1 l - Puleva",
+          "marca": "puleva",
+          "precio": 1.33,
+          "unidad": "L",
+          "precio_unidad": 1.33,
+          "url": "https://www.hipercor.es/supermercado/B001020616400121-puleva-leche-entera-mas-ligera-que-una-entera-2-materia-grasa-sin-lactosa-botella-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera brik 1 l - Pascual",
+          "marca": "pascual",
+          "precio": 1.35,
+          "unidad": "L",
+          "precio_unidad": 1.35,
+          "url": "https://www.hipercor.es/supermercado/B001020616500110-pascual-leche-entera-brik-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera sin lactosa enriquecida en vitaminas A, D, E y ácido fólico brik 1 l - Kaiku",
+          "marca": "kaiku",
+          "precio": 1.35,
+          "unidad": "L",
+          "precio_unidad": 1.35,
+          "url": "https://www.hipercor.es/supermercado/B001020616400030-kaiku-leche-entera-sin-lactosa-enriquecida-en-vitaminas-a-d-e-y-acido-folico-brik-1-l/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHE ENTERA SIN LACTOSA 1 LITRO",
+          "marca": "KAIKU",
+          "precio": 1.39,
+          "unidad": "L",
+          "precio_unidad": 1.39,
+          "url": "https://www.alimerkaonline.es/10004756.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHE ENTERA 1 LITRO",
+          "marca": "PASCUAL",
+          "precio": 1.39,
+          "unidad": "L",
+          "precio_unidad": 1.39,
+          "url": "https://www.alimerkaonline.es/22138.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera botella 1,5 l - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.56,
+          "unidad": "L",
+          "precio_unidad": 1.04,
+          "url": "https://www.hipercor.es/supermercado/B001020616500532-el-corte-ingles-leche-entera-botella-15-l/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Leche entera Hacendado",
+          "marca": "",
+          "precio": 1.56,
+          "unidad": "L",
+          "precio_unidad": 1.04,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHE ENTERA 1,5 LITROS",
+          "marca": "ALIMERKA",
+          "precio": 1.56,
+          "unidad": "L",
+          "precio_unidad": 1.04,
+          "url": "https://www.alimerkaonline.es/8000402.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "Leche entera sin lactosa brik 1 l - Pascual",
+          "marca": "pascual",
+          "precio": 1.62,
+          "unidad": "L",
+          "precio_unidad": 1.62,
+          "url": "https://www.hipercor.es/supermercado/B001020616400097-pascual-leche-entera-sin-lactosa-brik-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera ecológica brik 1 l - Puleva",
+          "marca": "puleva",
+          "precio": 1.63,
+          "unidad": "L",
+          "precio_unidad": 1.63,
+          "url": "https://www.hipercor.es/supermercado/B001020604200012-puleva-leche-entera-ecologica-brik-1-l/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHE ENTERA BIO 1 LITRO",
+          "marca": "FRISONA",
+          "precio": 1.65,
+          "unidad": "L",
+          "precio_unidad": 1.65,
+          "url": "https://www.alimerkaonline.es/10020740.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera botella 1,5 l - President",
+          "marca": "president",
+          "precio": 1.68,
+          "unidad": "L",
+          "precio_unidad": 1.12,
+          "url": "https://www.hipercor.es/supermercado/B001020616500383-president-leche-entera-botella-15-l/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Leche entera Hacendado",
+          "marca": "",
+          "precio": 1.71,
+          "unidad": "L",
+          "precio_unidad": 1.43,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHE ENTERA 20 CL. PACK 6",
+          "marca": "IFA ELIGES",
+          "precio": 1.71,
+          "unidad": "L",
+          "precio_unidad": 1.43,
+          "url": "https://www.alimerkaonline.es/10028441.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHE ENTERA 1,5 LITROS",
+          "marca": "RENY PICOT",
+          "precio": 1.84,
+          "unidad": "L",
+          "precio_unidad": 1.23,
+          "url": "https://www.alimerkaonline.es/10029815.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera botella 1,5 l - Asturiana",
+          "marca": "asturiana",
+          "precio": 1.96,
+          "unidad": "L",
+          "precio_unidad": 1.31,
+          "url": "https://www.hipercor.es/supermercado/B001020616500029-asturiana-leche-entera-botella-15-l/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Leche entera Asturiana",
+          "marca": "",
+          "precio": 1.97,
+          "unidad": "L",
+          "precio_unidad": 1.31,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHE ENTERA 1,5 LITROS",
+          "marca": "CENTRAL LECHERA ASTURIANA",
+          "precio": 1.97,
+          "unidad": "L",
+          "precio_unidad": 1.31,
+          "url": "https://www.alimerkaonline.es/22003.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera botella 1,5 l - Pascual",
+          "marca": "pascual",
+          "precio": 1.98,
+          "unidad": "L",
+          "precio_unidad": 1.32,
+          "url": "https://www.hipercor.es/supermercado/B001020616500581-pascual-leche-entera-botella-15-l/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHE ENTERA 1,5 LITROS",
+          "marca": "PASCUAL",
+          "precio": 1.98,
+          "unidad": "L",
+          "precio_unidad": 1.32,
+          "url": "https://www.alimerkaonline.es/10020000.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera pack 6 briks 200 ml - Asturiana",
+          "marca": "asturiana",
+          "precio": 2.17,
+          "unidad": "L",
+          "precio_unidad": 1.81,
+          "url": "https://www.hipercor.es/supermercado/B001020616500474-asturiana-leche-entera-pack-6-briks-200-ml/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera botella 2,2 l - Asturiana",
+          "marca": "asturiana",
+          "precio": 2.73,
+          "unidad": "L",
+          "precio_unidad": 1.24,
+          "url": "https://www.hipercor.es/supermercado/B001020616500318-asturiana-leche-entera-botella-22-l/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Leche entera Hacendado",
+          "marca": "",
+          "precio": 5.76,
+          "unidad": "L",
+          "precio_unidad": 0.96,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Leche entera sin lactosa Hacendado",
+          "marca": "",
+          "precio": 6.18,
+          "unidad": "L",
+          "precio_unidad": 1.03,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Leche entera Asturiana",
+          "marca": "",
+          "precio": 7.74,
+          "unidad": "L",
+          "precio_unidad": 1.29,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Leche entera Hacendado",
+          "marca": "",
+          "precio": 9.36,
+          "unidad": "L",
+          "precio_unidad": 1.04,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Leche entera Asturiana",
+          "marca": "",
+          "precio": 11.82,
+          "unidad": "L",
+          "precio_unidad": 1.31,
+          "url": ""
+        }
+      ]
+    },
+    {
+      "producto": "huevos",
+      "opciones": [
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "HUEVOS DE CHOCOLATE PACK 2",
+          "marca": "LA PATRULLA CANINA",
+          "precio": 1.79,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10013616.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Huevos grandes L",
+          "marca": "",
+          "precio": 1.8,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Huevos de codorniz",
+          "marca": "",
+          "precio": 1.85,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Huevos sorpresa de chocolate Hacendado dibujo",
+          "marca": "",
+          "precio": 1.9,
+          "unidad": "kg",
+          "precio_unidad": 31.67,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos de codorniz estuche 18 unidades - Dagu",
+          "marca": "dagu",
+          "precio": 1.95,
+          "unidad": "Docena",
+          "precio_unidad": 1.3,
+          "url": "https://www.hipercor.es/supermercado/B001018840101077-dagu-huevos-de-codorniz-estuche-18-unidades/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Huevos de gallinas camperas",
+          "marca": "",
+          "precio": 1.95,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "HUEVOS CAMPEROS M/L 6 UDS.",
+          "marca": "CAMPOMAYOR",
+          "precio": 1.95,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10004197.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Huevos cocidos",
+          "marca": "",
+          "precio": 2.2,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "HUEVOS CAMPEROS COCIDOS TALLA M 6 UDs.",
+          "marca": "CAMPOMAYOR",
+          "precio": 2.29,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10031255.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "HUEVOS CAMPEROS 6 UDS.",
+          "marca": "GRANJA TARAMUNDI",
+          "precio": 2.45,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10002477.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos camperos categoría A clase M-L estuche 6 unidades - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 2.5,
+          "unidad": "Docena",
+          "precio_unidad": 5.0,
+          "url": "https://www.hipercor.es/supermercado/B001018839900208-el-corte-ingles-huevos-camperos-categoria-a-clase-m-l-estuche-6-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos camperos primera puesta estuche 6 unidades - Pazo Vilane",
+          "marca": "pazo vilane",
+          "precio": 2.79,
+          "unidad": "Docena",
+          "precio_unidad": 5.58,
+          "url": "https://www.hipercor.es/supermercado/B001018840101887-pazo-vilane-huevos-camperos-primera-puesta-estuche-6-unidades/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Huevos medianos M",
+          "marca": "",
+          "precio": 2.85,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "HUEVOS  A-M LA DOCENA",
+          "marca": "ALIMERKA",
+          "precio": 2.85,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/8000197.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "HUEVOS CAMPEROS CALIBRES MEZCLADOS 10 UDS.",
+          "marca": "CAMAR",
+          "precio": 2.95,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10027275.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos ecológicos categoría A clase M-L estuche 6 unidades - El Corte Ingles Bio",
+          "marca": "el corte ingles bio",
+          "precio": 3.05,
+          "unidad": "Docena",
+          "precio_unidad": 6.1,
+          "url": "https://www.hipercor.es/supermercado/B001018840200200-el-corte-ingles-bio-huevos-ecologicos-categoria-a-clase-m-l-estuche-6-unidades/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Huevos grandes L",
+          "marca": "",
+          "precio": 3.05,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "HUEVOS  A-L LA DOCENA",
+          "marca": "ALIMERKA",
+          "precio": 3.05,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/8000198.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "HUEVOS M/L GALLINAS SUELTAS EN GALLINERO 10 UDS.",
+          "marca": "CAMPOMAYOR",
+          "precio": 3.29,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10026052.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "HUEVOS CAMPEROS XL 6 UDS",
+          "marca": "CAMPOMAYOR",
+          "precio": 3.29,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10010252.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos de gallinas sueltas en el gallinero categoría A clase M estuche 12 unidades - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 3.35,
+          "unidad": "Docena",
+          "precio_unidad": 3.35,
+          "url": "https://www.hipercor.es/supermercado/B001018840000139-el-corte-ingles-huevos-de-gallinas-sueltas-en-el-gallinero-categoria-a-clase-m-estuche-12-unidades/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Huevos de gallinas camperas",
+          "marca": "",
+          "precio": 3.35,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos de gallinas sueltas en el gallinero categoría A clase L estuche 12 unidades - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 3.55,
+          "unidad": "Docena",
+          "precio_unidad": 3.55,
+          "url": "https://www.hipercor.es/supermercado/B001018840000154-el-corte-ingles-huevos-de-gallinas-sueltas-en-el-gallinero-categoria-a-clase-l-estuche-12-unidades/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "HUEVOS  A-XL LA DOCENA",
+          "marca": "ALIMERKA",
+          "precio": 3.58,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/8000316.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos ecológicos estuche 6 unidades - Finca Arcadia",
+          "marca": "finca arcadia",
+          "precio": 3.79,
+          "unidad": "Docena",
+          "precio_unidad": 7.58,
+          "url": "https://www.hipercor.es/supermercado/B001018840200077-finca-arcadia-huevos-ecologicos-estuche-6-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos de gallinas sueltas en gallinero categoría A clase L-XL estuche 10 unidades - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 4.1,
+          "unidad": "Docena",
+          "precio_unidad": 4.92,
+          "url": "https://www.hipercor.es/supermercado/B001018840000147-el-corte-ingles-huevos-de-gallinas-sueltas-en-gallinero-categoria-a-clase-l-xl-estuche-10-unidades/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "HUEVOS CAMPEROS ALIMENTACIÓN BASADA MAÍZ 10 UDS.",
+          "marca": "CAMPOMAYOR",
+          "precio": 4.1,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10018301.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "HUEVOS DE CHOCOLATE 20 G. PACK 3",
+          "marca": "KINDER",
+          "precio": 4.29,
+          "unidad": "kg",
+          "precio_unidad": 71.5,
+          "url": "https://www.alimerkaonline.es/760727.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Huevos super grandes XL",
+          "marca": "",
+          "precio": 4.3,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos camperos categoría A clase L-XL estuche 10 unidades - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 4.35,
+          "unidad": "Docena",
+          "precio_unidad": 5.22,
+          "url": "https://www.hipercor.es/supermercado/B001018839900299-el-corte-ingles-huevos-camperos-categoria-a-clase-l-xl-estuche-10-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos de gallinas sueltas en el gallinero categoría A clase L estuche 12 unidades - Dagu",
+          "marca": "dagu",
+          "precio": 4.39,
+          "unidad": "Docena",
+          "precio_unidad": 4.39,
+          "url": "https://www.hipercor.es/supermercado/B001018840000113-dagu-huevos-de-gallinas-sueltas-en-el-gallinero-categoria-a-clase-l-estuche-12-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos camperos morenos estuche 12 unidades calibres diferentes - Pazo Vilane",
+          "marca": "pazo vilane",
+          "precio": 4.4,
+          "unidad": "Docena",
+          "precio_unidad": 4.4,
+          "url": "https://www.hipercor.es/supermercado/B001018840100616-pazo-vilane-huevos-camperos-morenos-estuche-12-unidades-calibres-diferentes/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos camperos categoría A clase M-L estuche 12 unidades - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 4.4,
+          "unidad": "Docena",
+          "precio_unidad": 4.4,
+          "url": "https://www.hipercor.es/supermercado/B001018839900216-el-corte-ingles-huevos-camperos-categoria-a-clase-m-l-estuche-12-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos camperos clase M-L estuche 12 unidades - Corral De Monegros",
+          "marca": "corral de monegros",
+          "precio": 5.15,
+          "unidad": "Docena",
+          "precio_unidad": 5.15,
+          "url": "https://www.hipercor.es/supermercado/B001018840101937-corral-de-monegros-huevos-camperos-clase-m-l-estuche-12-unidades/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Huevos",
+          "marca": "",
+          "precio": 5.25,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos ecológicos categoría A clase M-L estuche 12 unidades - El Corte Ingles Bio",
+          "marca": "el corte ingles bio",
+          "precio": 5.45,
+          "unidad": "Docena",
+          "precio_unidad": 5.45,
+          "url": "https://www.hipercor.es/supermercado/B001018840200267-el-corte-ingles-bio-huevos-ecologicos-categoria-a-clase-m-l-estuche-12-unidades/"
+        }
+      ]
+    },
+    {
+      "producto": "pan de molde",
+      "opciones": [
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde blanco Hacendado",
+          "marca": "",
+          "precio": 0.8,
+          "unidad": "kg",
+          "precio_unidad": 1.74,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE BLANCO 460 G.",
+          "marca": "ALIMERKA",
+          "precio": 0.85,
+          "unidad": "kg",
+          "precio_unidad": 1.85,
+          "url": "https://www.alimerkaonline.es/8000352.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde 100% integral Hacendado",
+          "marca": "",
+          "precio": 0.9,
+          "unidad": "kg",
+          "precio_unidad": 1.96,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE INTEGRAL 500 G.",
+          "marca": "ALIMERKA",
+          "precio": 0.98,
+          "unidad": "kg",
+          "precio_unidad": 1.96,
+          "url": "https://www.alimerkaonline.es/8000353.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde blanco sin corteza Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 2.33,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE BLANCO SIN CORTEZA 450 GRS.",
+          "marca": "ALIMERKA",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 2.33,
+          "url": "https://www.alimerkaonline.es/8000354.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde blanco sin corteza 16 rebanadas bolsa 450 g - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.09,
+          "unidad": "kg",
+          "precio_unidad": 2.42,
+          "url": "https://www.hipercor.es/supermercado/B001020654802311-el-corte-ingles-pan-de-molde-blanco-sin-corteza-16-rebanadas-bolsa-450-g/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde 100% integral sin corteza Hacendado",
+          "marca": "",
+          "precio": 1.1,
+          "unidad": "kg",
+          "precio_unidad": 2.44,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE INTEGRAL SIN CORTEZA 450 G.",
+          "marca": "ALIMERKA",
+          "precio": 1.1,
+          "unidad": "kg",
+          "precio_unidad": 2.44,
+          "url": "https://www.alimerkaonline.es/8000472.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde 100% integral de trigo sin corteza 16 rebanadas bolsa 450 g - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.15,
+          "unidad": "kg",
+          "precio_unidad": 2.56,
+          "url": "https://www.hipercor.es/supermercado/B001020654802329-el-corte-ingles-pan-de-molde-100-integral-de-trigo-sin-corteza-16-rebanadas-bolsa-450-g/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde blanco familiar Hacendado",
+          "marca": "",
+          "precio": 1.15,
+          "unidad": "kg",
+          "precio_unidad": 1.4,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde 100% integral familiar Hacendado",
+          "marca": "",
+          "precio": 1.15,
+          "unidad": "kg",
+          "precio_unidad": 1.4,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE FAMILIAR 820 G.",
+          "marca": "ALIMERKA",
+          "precio": 1.15,
+          "unidad": "kg",
+          "precio_unidad": 1.4,
+          "url": "https://www.alimerkaonline.es/10016769.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde blanco con corteza original 28 rebanadas bolsa 820 g - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.19,
+          "unidad": "kg",
+          "precio_unidad": 1.45,
+          "url": "https://www.hipercor.es/supermercado/B001020654802287-el-corte-ingles-pan-de-molde-blanco-con-corteza-original-28-rebanadas-bolsa-820-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde 100% integral de trigo con corteza 28 rebanadas bolsa 820 g - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.19,
+          "unidad": "kg",
+          "precio_unidad": 1.45,
+          "url": "https://www.hipercor.es/supermercado/B001020654802295-el-corte-ingles-pan-de-molde-100-integral-de-trigo-con-corteza-28-rebanadas-bolsa-820-g/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde blanco natural rústico Hacendado",
+          "marca": "",
+          "precio": 1.3,
+          "unidad": "kg",
+          "precio_unidad": 2.36,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde con 35% avena Hacendado 0% azúcares añadidos con harina 100% integral",
+          "marca": "",
+          "precio": 1.3,
+          "unidad": "kg",
+          "precio_unidad": 2.83,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde con 55% centeno Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 1.88,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde 12 cereales y semillas Hacendado",
+          "marca": "",
+          "precio": 1.5,
+          "unidad": "kg",
+          "precio_unidad": 2.21,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde semillas y pipas de calabaza Hacendado",
+          "marca": "",
+          "precio": 1.55,
+          "unidad": "kg",
+          "precio_unidad": 2.67,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde sandwich grande 0% azúcares añadidos bolsa 430 g - Bimbo",
+          "marca": "bimbo",
+          "precio": 1.59,
+          "unidad": "kg",
+          "precio_unidad": 3.7,
+          "url": "https://www.hipercor.es/supermercado/B001020654802881-bimbo-pan-de-molde-sandwich-grande-0-azucares-anadidos-bolsa-430-g/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE 430 G.",
+          "marca": "BIMBO",
+          "precio": 1.59,
+          "unidad": "kg",
+          "precio_unidad": 3.7,
+          "url": "https://www.alimerkaonline.es/10024329.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde con semillas y pipas de calabaza bolsa 580 g - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.6,
+          "unidad": "kg",
+          "precio_unidad": 2.76,
+          "url": "https://www.hipercor.es/supermercado/B001020654802972-el-corte-ingles-pan-de-molde-con-semillas-y-pipas-de-calabaza-bolsa-580-g/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE 15 CEREALES Y SEMILLAS 675 G.",
+          "marca": "ALIMERKA",
+          "precio": 1.6,
+          "unidad": "kg",
+          "precio_unidad": 2.37,
+          "url": "https://www.alimerkaonline.es/10013061.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE DE CENTENO 800 G.",
+          "marca": "ALIMERKA",
+          "precio": 1.6,
+          "unidad": "kg",
+          "precio_unidad": 2.0,
+          "url": "https://www.alimerkaonline.es/10013062.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE BLANCO 820 G.",
+          "marca": "ORTIZ",
+          "precio": 1.63,
+          "unidad": "kg",
+          "precio_unidad": 1.99,
+          "url": "https://www.alimerkaonline.es/10031189.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde espelta 100% integral Hacendado natural",
+          "marca": "",
+          "precio": 1.65,
+          "unidad": "kg",
+          "precio_unidad": 3.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde 15% maíz Hacendado",
+          "marca": "",
+          "precio": 1.65,
+          "unidad": "kg",
+          "precio_unidad": 3.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde blanco especial tostadas 16 rebanadas bolsa 820 g - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.7,
+          "unidad": "kg",
+          "precio_unidad": 2.07,
+          "url": "https://www.hipercor.es/supermercado/B001020654802303-el-corte-ingles-pan-de-molde-blanco-especial-tostadas-16-rebanadas-bolsa-820-g/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde blanco rebanada gruesa Hacendado",
+          "marca": "",
+          "precio": 1.7,
+          "unidad": "kg",
+          "precio_unidad": 2.07,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde sin corteza bolsa 500 g - Bimbo",
+          "marca": "bimbo",
+          "precio": 2.09,
+          "unidad": "kg",
+          "precio_unidad": 4.18,
+          "url": "https://www.hipercor.es/supermercado/B001020654800463-bimbo-pan-de-molde-sin-corteza-bolsa-500-g/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE PARA SÁNDWICH 700 G.",
+          "marca": "BIMBO",
+          "precio": 2.29,
+          "unidad": "kg",
+          "precio_unidad": 3.27,
+          "url": "https://www.alimerkaonline.es/760040.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE SIN CORTEZA 500 G.",
+          "marca": "BIMBO",
+          "precio": 2.35,
+          "unidad": "kg",
+          "precio_unidad": 4.7,
+          "url": "https://www.alimerkaonline.es/760522.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde blanco natural 100% sin azúcares añadidos y sin lactosa bolsa 460 g - Bimbo",
+          "marca": "bimbo",
+          "precio": 2.49,
+          "unidad": "kg",
+          "precio_unidad": 5.41,
+          "url": "https://www.hipercor.es/supermercado/B001020654802931-bimbo-pan-de-molde-blanco-natural-100-sin-azucares-anadidos-y-sin-lactosa-bolsa-460-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde 100% centeno 0% azúcares y sin lactosa bolsa 450 g - Tradipan",
+          "marca": "tradipan",
+          "precio": 2.65,
+          "unidad": "kg",
+          "precio_unidad": 5.89,
+          "url": "https://www.hipercor.es/supermercado/B001020654803004-tradipan-pan-de-molde-100-centeno-0-azucares-y-sin-lactosa-bolsa-450-g/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde cereales sin gluten Hacendado",
+          "marca": "",
+          "precio": 2.74,
+          "unidad": "kg",
+          "precio_unidad": 5.83,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde sin gluten blanco Hacendado",
+          "marca": "",
+          "precio": 2.74,
+          "unidad": "kg",
+          "precio_unidad": 5.48,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde blanco bolsa 500 g - Bimbo Artesencia",
+          "marca": "bimbo artesencia",
+          "precio": 2.85,
+          "unidad": "kg",
+          "precio_unidad": 5.7,
+          "url": "https://www.hipercor.es/supermercado/B001020654802246-bimbo-artesencia-pan-de-molde-blanco-bolsa-500-g/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE CLÁSICO SIN GLUTEN 300 G.",
+          "marca": "SCHÄR",
+          "precio": 2.85,
+          "unidad": "kg",
+          "precio_unidad": 9.5,
+          "url": "https://www.alimerkaonline.es/10003380.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE CON CEREALES SIN GLUTEN 300 G.",
+          "marca": "SCHÄR",
+          "precio": 2.89,
+          "unidad": "kg",
+          "precio_unidad": 9.63,
+          "url": "https://www.alimerkaonline.es/10006023.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde 100%  integral y 100% natural sin azúcares añadidos y sin lactosa bolsa 460 g - Bimbo",
+          "marca": "bimbo",
+          "precio": 2.95,
+          "unidad": "kg",
+          "precio_unidad": 6.41,
+          "url": "https://www.hipercor.es/supermercado/B001020654802949-bimbo-pan-de-molde-100-integral-y-100-natural-sin-azucares-anadidos-y-sin-lactosa-bolsa-460-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde sin corteza 100% natural con aceite de oliva bolsa 450 g - Bimbo",
+          "marca": "bimbo",
+          "precio": 2.95,
+          "unidad": "kg",
+          "precio_unidad": 6.56,
+          "url": "https://www.hipercor.es/supermercado/B001020654801685-bimbo-pan-de-molde-sin-corteza-100-natural-con-aceite-de-oliva-bolsa-450-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde brioche bolsa 500 g - Bimbo Artesencia",
+          "marca": "bimbo artesencia",
+          "precio": 2.95,
+          "unidad": "kg",
+          "precio_unidad": 5.9,
+          "url": "https://www.hipercor.es/supermercado/B001020654802774-bimbo-artesencia-pan-de-molde-brioche-bolsa-500-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde integral 100% paquete 500 g - Bimbo Artesencia",
+          "marca": "bimbo artesencia",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 5.98,
+          "url": "https://www.hipercor.es/supermercado/B001020654802543-bimbo-artesencia-pan-de-molde-integral-100-paquete-500-g/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE ARTESENCIA BLANCO 550 G.",
+          "marca": "BIMBO",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 5.44,
+          "url": "https://www.alimerkaonline.es/10008717.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE ARTESENCIA INTEGRAL 550 G.",
+          "marca": "BIMBO",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 5.44,
+          "url": "https://www.alimerkaonline.es/10012318.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE 100% NATURAL SIN CORTEZA 450 G.",
+          "marca": "BIMBO",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 6.64,
+          "url": "https://www.alimerkaonline.es/10015598.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE ARTESENCIA BRIOCHE 550 G.",
+          "marca": "BIMBO",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 5.44,
+          "url": "https://www.alimerkaonline.es/10017481.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde 12 cereales y semillas bolsa 550 g - Oroweat",
+          "marca": "oroweat",
+          "precio": 3.19,
+          "unidad": "kg",
+          "precio_unidad": 5.8,
+          "url": "https://www.hipercor.es/supermercado/B001020667100802-oroweat-pan-de-molde-12-cereales-y-semillas-bolsa-550-g/"
+        }
+      ]
+    },
+    {
+      "producto": "jamon serrano",
+      "opciones": [
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Jamón serrano gran reserva Hacendado sin aditivos lonchas",
+          "marca": "",
+          "precio": 2.3,
+          "unidad": "kg",
+          "precio_unidad": 25.56,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Jamón serrano Incarlopsa lonchas extrafinas",
+          "marca": "",
+          "precio": 2.35,
+          "unidad": "kg",
+          "precio_unidad": 19.58,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "JAMÓN SERRANO RESERVA 120 G.",
+          "marca": "ALIMERKA",
+          "precio": 2.35,
+          "unidad": "kg",
+          "precio_unidad": 19.58,
+          "url": "https://www.alimerkaonline.es/10025382.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "jamón serrano Reserva ETG en lonchas finas envase 120 g curación mínima 12 meses - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 2.45,
+          "unidad": "kg",
+          "precio_unidad": 20.42,
+          "url": "https://www.hipercor.es/supermercado/B001018390200956-el-corte-ingles-jamon-serrano-reserva-etg-en-lonchas-finas-envase-120-g-curacion-minima-12-meses/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Jamón serrano reserva cortado a tapas",
+          "marca": "",
+          "precio": 3.6,
+          "unidad": "kg",
+          "precio_unidad": 40.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Jamón serrano Incarlopsa lonchas",
+          "marca": "",
+          "precio": 3.95,
+          "unidad": "kg",
+          "precio_unidad": 16.46,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "jamón serrano Gran Reserva 100% natural ETG envase 75 g 18 meses de curación - Redondo Iglesias",
+          "marca": "redondo iglesias",
+          "precio": 3.99,
+          "unidad": "kg",
+          "precio_unidad": 53.2,
+          "url": "https://www.hipercor.es/supermercado/B001018390201764-redondo-iglesias-jamon-serrano-gran-reserva-100-natural-etg-envase-75-g-18-meses-de-curacion/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Jamón serrano Jamcal medias lonchas",
+          "marca": "",
+          "precio": 4.1,
+          "unidad": "kg",
+          "precio_unidad": 17.08,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "JAMÓN SERRANO 240 G.",
+          "marca": "COR LEYENDA SERRANA",
+          "precio": 4.1,
+          "unidad": "kg",
+          "precio_unidad": 17.08,
+          "url": "https://www.alimerkaonline.es/10028722.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "jamón serrano Reserva ETG en lonchas envase 200 g curación mínima 12 meses - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 4.75,
+          "unidad": "kg",
+          "precio_unidad": 23.75,
+          "url": "https://www.hipercor.es/supermercado/B001018390200592-el-corte-ingles-jamon-serrano-reserva-etg-en-lonchas-envase-200-g-curacion-minima-12-meses/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "jamón serrano 24 natural sin aditivos reducido en sal 50% raza Duroc ETG en lonchas envase 100 g - Monte Nevado",
+          "marca": "monte nevado",
+          "precio": 4.75,
+          "unidad": "kg",
+          "precio_unidad": 47.5,
+          "url": "https://www.hipercor.es/supermercado/B001018390201889-monte-nevado-jamon-serrano-24-natural-sin-aditivos-reducido-en-sal-50-raza-duroc-etg-en-lonchas-envase-100-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "jamón serrano Reserva ETG en medias lonchas pack 2 x 100 g envase 200 g curación mínima 12 meses - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 4.75,
+          "unidad": "kg",
+          "precio_unidad": 23.75,
+          "url": "https://www.hipercor.es/supermercado/B001018390201368-el-corte-ingles-jamon-serrano-reserva-etg-en-medias-lonchas-pack-2-x-100-g-envase-200-g-curacion-minima-12-meses/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Jamón serrano cortado a máquina",
+          "marca": "",
+          "precio": 4.75,
+          "unidad": "kg",
+          "precio_unidad": 25.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "JAMÓN SERRANO RVA DUROC 25% MENOS SAL EL KILO",
+          "marca": "TORRE DE NUÑEZ",
+          "precio": 25.9,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10024175.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Jamón serrano Incarlopsa",
+          "marca": "",
+          "precio": 65.0,
+          "unidad": "kg",
+          "precio_unidad": 8.67,
+          "url": ""
+        }
+      ]
+    },
+    {
+      "producto": "carne picada",
+      "opciones": [
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Preparado de carne picada cerdo",
+          "marca": "",
+          "precio": 2.75,
+          "unidad": "kg",
+          "precio_unidad": 5.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Preparado de carne picada pollo",
+          "marca": "",
+          "precio": 3.95,
+          "unidad": "kg",
+          "precio_unidad": 7.9,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Preparado de carne picada vacuno y cerdo",
+          "marca": "",
+          "precio": 4.1,
+          "unidad": "kg",
+          "precio_unidad": 8.2,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Preparado de carne picada vacuno Hacendado",
+          "marca": "",
+          "precio": 5.4,
+          "unidad": "kg",
+          "precio_unidad": 13.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Preparado de carne picada vacuno",
+          "marca": "",
+          "precio": 5.5,
+          "unidad": "kg",
+          "precio_unidad": 11.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "BURGER MEAT VACUNO ANGUS 150 G. PACK 2",
+          "marca": "CENTRAL DE CARNES PREMIUM",
+          "precio": 5.95,
+          "unidad": "kg",
+          "precio_unidad": 19.83,
+          "url": "https://www.alimerkaonline.es/10031858.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Preparado de carne picada vacuno y cerdo",
+          "marca": "",
+          "precio": 8.0,
+          "unidad": "kg",
+          "precio_unidad": 8.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Preparado de carne picada vacuno",
+          "marca": "",
+          "precio": 10.8,
+          "unidad": "kg",
+          "precio_unidad": 10.8,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "carne picada de vacuno sin lactosa y sin huevo bolsa 1 kg - Mercaimpex",
+          "marca": "mercaimpex",
+          "precio": 13.0,
+          "unidad": "kg",
+          "precio_unidad": 13.0,
+          "url": "https://www.hipercor.es/supermercado/B001018912900653-mercaimpex-carne-picada-de-vacuno-sin-lactosa-y-sin-huevo-bolsa-1-kg/"
+        }
+      ]
+    },
+    {
+      "producto": "yogur natural",
+      "opciones": [
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "YOGUR NATURAL AZUCARADO 125 G. PACK 4",
+          "marca": "ALIMERKA",
+          "precio": 0.7,
+          "unidad": "kg",
+          "precio_unidad": 1.4,
+          "url": "https://www.alimerkaonline.es/8000287.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur natural pack 4 unidades 120 g - Danone",
+          "marca": "danone",
+          "precio": 1.0,
+          "unidad": "kg",
+          "precio_unidad": 2.08,
+          "url": "https://www.hipercor.es/supermercado/B001018820101303-danone-yogur-natural-pack-4-unidades-120-g/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Yogur natural Hacendado",
+          "marca": "",
+          "precio": 1.0,
+          "unidad": "kg",
+          "precio_unidad": 1.33,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "YOGUR NATURAL 120 G. PACK 4",
+          "marca": "DANONE",
+          "precio": 1.0,
+          "unidad": "kg",
+          "precio_unidad": 2.08,
+          "url": "https://www.alimerkaonline.es/2201001.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Yogur natural con azúcar de caña Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 1.4,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Yogur natural Hacendado 0% MG 0% azúcares añadidos",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 1.4,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Yogur natural edulcorado Hacendado 0% MG 0% azúcares añadidos",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 1.4,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur natural desnatado 0% m.g. pack 4 unidades 125 g - Asturiana",
+          "marca": "asturiana",
+          "precio": 1.29,
+          "unidad": "kg",
+          "precio_unidad": 2.58,
+          "url": "https://www.hipercor.es/supermercado/B001018820403519-asturiana-yogur-natural-desnatado-0-mg-pack-4-unidades-125-g/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "YOGUR NATURAL 125 G. PACK 8",
+          "marca": "ALIMERKA",
+          "precio": 1.33,
+          "unidad": "kg",
+          "precio_unidad": 1.33,
+          "url": "https://www.alimerkaonline.es/8000285.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "YOGUR NATURAL ECOLÓGICO 350 G.",
+          "marca": "LOS CASERINOS",
+          "precio": 1.75,
+          "unidad": "kg",
+          "precio_unidad": 5.0,
+          "url": "https://www.alimerkaonline.es/10013151.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur natural pack 8 unidades 125 g - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.8,
+          "unidad": "kg",
+          "precio_unidad": 1.8,
+          "url": "https://www.hipercor.es/supermercado/B001018820101873-el-corte-ingles-yogur-natural-pack-8-unidades-125-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur natural azucarado pack 8 unidades 125 g - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.8,
+          "unidad": "kg",
+          "precio_unidad": 1.8,
+          "url": "https://www.hipercor.es/supermercado/B001018820101899-el-corte-ingles-yogur-natural-azucarado-pack-8-unidades-125-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur natural pack 8 unidades 120 g pack familiar - Danone",
+          "marca": "danone",
+          "precio": 1.89,
+          "unidad": "kg",
+          "precio_unidad": 1.97,
+          "url": "https://www.hipercor.es/supermercado/B001018820100313-danone-yogur-natural-pack-8-unidades-120-g-pack-familiar/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur natural desnatado 0% m.g. pack 8 unidades 125 g - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.89,
+          "unidad": "kg",
+          "precio_unidad": 1.89,
+          "url": "https://www.hipercor.es/supermercado/B001018820403204-el-corte-ingles-yogur-natural-desnatado-0-mg-pack-8-unidades-125-g/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Yogur natural Danone",
+          "marca": "",
+          "precio": 1.99,
+          "unidad": "kg",
+          "precio_unidad": 2.07,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "YOGUR NATURAL 120 G. PACK 8",
+          "marca": "DANONE",
+          "precio": 1.99,
+          "unidad": "kg",
+          "precio_unidad": 2.07,
+          "url": "https://www.alimerkaonline.es/60035.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "YOGUR NATURAL AZUCARADO 120 G. PACK 8",
+          "marca": "DANONE",
+          "precio": 1.99,
+          "unidad": "kg",
+          "precio_unidad": 2.07,
+          "url": "https://www.alimerkaonline.es/2203027.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Yogur natural de cabra Hacendado",
+          "marca": "",
+          "precio": 2.1,
+          "unidad": "kg",
+          "precio_unidad": 4.2,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur natural elaborado con leche de vaca de pastoreo envase 500 g - El Corte Ingles Selection",
+          "marca": "el corte ingles selection",
+          "precio": 2.15,
+          "unidad": "kg",
+          "precio_unidad": 4.3,
+          "url": "https://www.hipercor.es/supermercado/B001018820102350-el-corte-ingles-selection-yogur-natural-elaborado-con-leche-de-vaca-de-pastoreo-envase-500-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur natural pack 8 unidades 125 g - Asturiana",
+          "marca": "asturiana",
+          "precio": 2.45,
+          "unidad": "kg",
+          "precio_unidad": 2.45,
+          "url": "https://www.hipercor.es/supermercado/B001018820100032-asturiana-yogur-natural-pack-8-unidades-125-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur natural artesano cremoso con leche de vacas de pasto envase 500 g - Pastoret",
+          "marca": "pastoret",
+          "precio": 2.45,
+          "unidad": "kg",
+          "precio_unidad": 4.9,
+          "url": "https://www.hipercor.es/supermercado/B001018820101360-pastoret-yogur-natural-artesano-cremoso-con-leche-de-vacas-de-pasto-envase-500-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur natural azucarado con azúcar de caña pack 8 unidades 125 g - Asturiana",
+          "marca": "asturiana",
+          "precio": 2.45,
+          "unidad": "kg",
+          "precio_unidad": 19.6,
+          "url": "https://www.hipercor.es/supermercado/B001018820102053-asturiana-yogur-natural-azucarado-con-azucar-de-cana-pack-8-unidades-125-g/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "YOGUR NATURAL 500 G.",
+          "marca": "PASTORET",
+          "precio": 2.55,
+          "unidad": "kg",
+          "precio_unidad": 5.1,
+          "url": "https://www.alimerkaonline.es/10016991.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur natural edulcorado cremoso desnatado 0% m.g. 0% azúcares añadidos pack 4 unidades 120 g - Danone Vitalinea",
+          "marca": "danone vitalinea",
+          "precio": 2.69,
+          "unidad": "kg",
+          "precio_unidad": 5.6,
+          "url": "https://www.hipercor.es/supermercado/B001018820402495-danone-vitalinea-yogur-natural-edulcorado-cremoso-desnatado-0-mg-0-azucares-anadidos-pack-4-unidades-120-g/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "YOGUR NATURAL 110 G. PACK 4",
+          "marca": "OIKOS",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 6.8,
+          "url": "https://www.alimerkaonline.es/10012285.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "YOGUR NATURAL 120 G. PACK 8",
+          "marca": "ACTIVIA",
+          "precio": 3.99,
+          "unidad": "kg",
+          "precio_unidad": 4.16,
+          "url": "https://www.alimerkaonline.es/2212014.html"
+        }
+      ]
+    },
+    {
+      "producto": "aceite de oliva virgen extra",
+      "opciones": [
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA SELECCIÓN 250 ML.",
+          "marca": "CARBONELL",
+          "precio": 2.35,
+          "unidad": "L",
+          "precio_unidad": 9.4,
+          "url": "https://www.alimerkaonline.es/10008436.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Aceite de oliva virgen extra Hacendado",
+          "marca": "",
+          "precio": 2.6,
+          "unidad": "L",
+          "precio_unidad": 13.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva virgen extra spray 200 ml - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 2.69,
+          "unidad": "L",
+          "precio_unidad": 13.45,
+          "url": "https://www.hipercor.es/supermercado/B001018045400613-el-corte-ingles-aceite-de-oliva-virgen-extra-spray-200-ml/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 200 ML.",
+          "marca": "CARBONELL",
+          "precio": 2.95,
+          "unidad": "L",
+          "precio_unidad": 14.75,
+          "url": "https://www.alimerkaonline.es/10006489.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 460 ML.",
+          "marca": "CARBONELL",
+          "precio": 3.35,
+          "unidad": "L",
+          "precio_unidad": 7.28,
+          "url": "https://www.alimerkaonline.es/10028914.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva suave 0,4º contiene aceites refinados, vírgenes y 20% de virgen extra botella 1 l - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 3.8,
+          "unidad": "L",
+          "precio_unidad": 3.8,
+          "url": "https://www.hipercor.es/supermercado/B001018044700120-el-corte-ingles-aceite-de-oliva-suave-04-contiene-aceites-refinados-virgenes-y-20-de-virgen-extra-botella-1-l/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 50 CL.",
+          "marca": "COOSUR SQUIZZ",
+          "precio": 3.99,
+          "unidad": "L",
+          "precio_unidad": 7.98,
+          "url": "https://www.alimerkaonline.es/10031200.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA ODA Nº5 50 CL.",
+          "marca": "HOJIBLANCA",
+          "precio": 4.49,
+          "unidad": "L",
+          "precio_unidad": 8.98,
+          "url": "https://www.alimerkaonline.es/10012991.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva virgen extra botella 1 l - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 4.7,
+          "unidad": "L",
+          "precio_unidad": 4.7,
+          "url": "https://www.hipercor.es/supermercado/B001018045800101-el-corte-ingles-aceite-de-oliva-virgen-extra-botella-1-l/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 1 LITRO",
+          "marca": "ALIMERKA",
+          "precio": 4.7,
+          "unidad": "L",
+          "precio_unidad": 4.7,
+          "url": "https://www.alimerkaonline.es/10022845.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Aceite de oliva virgen extra Hacendado",
+          "marca": "",
+          "precio": 4.8,
+          "unidad": "L",
+          "precio_unidad": 4.8,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Aceite de oliva virgen extra Picual Casa Juncal",
+          "marca": "",
+          "precio": 4.85,
+          "unidad": "L",
+          "precio_unidad": 9.7,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva virgen extra Hojiblanca botella 1 l - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 4.89,
+          "unidad": "L",
+          "precio_unidad": 4.89,
+          "url": "https://www.hipercor.es/supermercado/B001018045800119-el-corte-ingles-aceite-de-oliva-virgen-extra-hojiblanca-botella-1-l/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 1 LITRO",
+          "marca": "COTOLIVA",
+          "precio": 5.25,
+          "unidad": "L",
+          "precio_unidad": 5.25,
+          "url": "https://www.alimerkaonline.es/10019088.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA GRAN SELECC 75 CL.",
+          "marca": "CARBONELL",
+          "precio": 5.45,
+          "unidad": "L",
+          "precio_unidad": 7.27,
+          "url": "https://www.alimerkaonline.es/10039.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Aceite de oliva virgen extra Hacendado Gran Selección",
+          "marca": "",
+          "precio": 5.75,
+          "unidad": "L",
+          "precio_unidad": 7.67,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 1 LITRO",
+          "marca": "CARBONELL",
+          "precio": 5.75,
+          "unidad": "L",
+          "precio_unidad": 5.75,
+          "url": "https://www.alimerkaonline.es/12001.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 75 CL.",
+          "marca": "ALIMERKA",
+          "precio": 5.75,
+          "unidad": "L",
+          "precio_unidad": 7.67,
+          "url": "https://www.alimerkaonline.es/10018054.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 1 LITRO",
+          "marca": "LA ESPAÑOLA",
+          "precio": 5.79,
+          "unidad": "L",
+          "precio_unidad": 5.79,
+          "url": "https://www.alimerkaonline.es/12013.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 1 LITRO",
+          "marca": "YBARRA",
+          "precio": 5.79,
+          "unidad": "L",
+          "precio_unidad": 5.79,
+          "url": "https://www.alimerkaonline.es/12005.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 1 LITRO",
+          "marca": "HOJIBLANCA",
+          "precio": 5.99,
+          "unidad": "L",
+          "precio_unidad": 5.99,
+          "url": "https://www.alimerkaonline.es/10051.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN  EXTRA HOJIBLANCA 1 LITRO",
+          "marca": "COOSUR",
+          "precio": 5.99,
+          "unidad": "L",
+          "precio_unidad": 5.99,
+          "url": "https://www.alimerkaonline.es/12014.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva virgen extra Arbequina botella 1 l - Coosur",
+          "marca": "coosur",
+          "precio": 6.99,
+          "unidad": "L",
+          "precio_unidad": 6.99,
+          "url": "https://www.hipercor.es/supermercado/B001018045800309-coosur-aceite-de-oliva-virgen-extra-arbequina-botella-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva virgen extra botella 1 l - Carbonell",
+          "marca": "carbonell",
+          "precio": 7.69,
+          "unidad": "L",
+          "precio_unidad": 7.69,
+          "url": "https://www.hipercor.es/supermercado/B001018045800051-carbonell-aceite-de-oliva-virgen-extra-botella-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva virgen extra Hojiblanca botella 1 l - Coosur",
+          "marca": "coosur",
+          "precio": 7.75,
+          "unidad": "L",
+          "precio_unidad": 7.75,
+          "url": "https://www.hipercor.es/supermercado/B001018045800044-coosur-aceite-de-oliva-virgen-extra-hojiblanca-botella-1-l/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA PICUAL 50 CL.",
+          "marca": "PALACIO DE LOS OLIVOS",
+          "precio": 7.95,
+          "unidad": "L",
+          "precio_unidad": 15.9,
+          "url": "https://www.alimerkaonline.es/10027281.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva virgen extra Picual intenso botella 1 l - Coosur",
+          "marca": "coosur",
+          "precio": 7.99,
+          "unidad": "L",
+          "precio_unidad": 7.99,
+          "url": "https://www.hipercor.es/supermercado/B001018045800036-coosur-aceite-de-oliva-virgen-extra-picual-intenso-botella-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva virgen extra Hojiblanca Picual botella 1 l - Carbonell",
+          "marca": "carbonell",
+          "precio": 8.19,
+          "unidad": "L",
+          "precio_unidad": 8.19,
+          "url": "https://www.hipercor.es/supermercado/B001018045800242-carbonell-aceite-de-oliva-virgen-extra-hojiblanca-picual-botella-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva virgen extra Arbequina Picual botella 1 l - Carbonell",
+          "marca": "carbonell",
+          "precio": 8.19,
+          "unidad": "L",
+          "precio_unidad": 8.19,
+          "url": "https://www.hipercor.es/supermercado/B001018045800234-carbonell-aceite-de-oliva-virgen-extra-arbequina-picual-botella-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva virgen extra Origen Selección Especial Cooperativa botella 1 l - Coosur",
+          "marca": "coosur",
+          "precio": 8.2,
+          "unidad": "L",
+          "precio_unidad": 8.2,
+          "url": "https://www.hipercor.es/supermercado/B001018045800077-coosur-aceite-de-oliva-virgen-extra-origen-seleccion-especial-cooperativa-botella-1-l/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Aceite de oliva virgen extra Hacendado",
+          "marca": "",
+          "precio": 13.85,
+          "unidad": "L",
+          "precio_unidad": 4.62,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 3 LITROS",
+          "marca": "LA MASÍA",
+          "precio": 15.5,
+          "unidad": "L",
+          "precio_unidad": 5.17,
+          "url": "https://www.alimerkaonline.es/10024672.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva suave 0,4º contiene aceites refinados, vírgenes y 20% de virgen extra garrafa 5 l - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 17.75,
+          "unidad": "L",
+          "precio_unidad": 3.55,
+          "url": "https://www.hipercor.es/supermercado/B001018044800128-el-corte-ingles-aceite-de-oliva-suave-04-contiene-aceites-refinados-virgenes-y-20-de-virgen-extra-garrafa-5-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva virgen extra garrafa 5 l - Carbonell",
+          "marca": "carbonell",
+          "precio": 20.95,
+          "unidad": "L",
+          "precio_unidad": 4.19,
+          "url": "https://www.hipercor.es/supermercado/B001018045902006-carbonell-aceite-de-oliva-virgen-extra-garrafa-5-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva virgen extra Hojiblanca garrafa 5 l - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 23.99,
+          "unidad": "L",
+          "precio_unidad": 4.8,
+          "url": "https://www.hipercor.es/supermercado/B001018045901784-el-corte-ingles-aceite-de-oliva-virgen-extra-hojiblanca-garrafa-5-l/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 5 LITROS",
+          "marca": "COOSUR",
+          "precio": 26.95,
+          "unidad": "L",
+          "precio_unidad": 5.39,
+          "url": "https://www.alimerkaonline.es/10028165.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 5 LITROS",
+          "marca": "YBARRA",
+          "precio": 26.95,
+          "unidad": "L",
+          "precio_unidad": 5.39,
+          "url": "https://www.alimerkaonline.es/10032588.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva virgen extra garrafa 5 l - Coosur",
+          "marca": "coosur",
+          "precio": 28.9,
+          "unidad": "L",
+          "precio_unidad": 5.78,
+          "url": "https://www.hipercor.es/supermercado/B001018045902014-coosur-aceite-de-oliva-virgen-extra-garrafa-5-l/"
+        }
+      ]
+    },
+    {
+      "producto": "tomate frito",
+      "opciones": [
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO 390 GRS.",
+          "marca": "ALIMERKA",
+          "precio": 0.59,
+          "unidad": "kg",
+          "precio_unidad": 1.51,
+          "url": "https://www.alimerkaonline.es/8000182.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO 140 GRS.",
+          "marca": "SOLÍS",
+          "precio": 0.75,
+          "unidad": "kg",
+          "precio_unidad": 5.36,
+          "url": "https://www.alimerkaonline.es/725035.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Tomate frito Hacendado",
+          "marca": "",
+          "precio": 0.9,
+          "unidad": "kg",
+          "precio_unidad": 1.61,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO 560 GRS.",
+          "marca": "ALIMERKA",
+          "precio": 0.9,
+          "unidad": "kg",
+          "precio_unidad": 1.61,
+          "url": "https://www.alimerkaonline.es/8000183.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito sin gluten pack 3 envases 210 g - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 0.95,
+          "unidad": "kg",
+          "precio_unidad": 1.51,
+          "url": "https://www.hipercor.es/supermercado/B001018043501792-el-corte-ingles-tomate-frito-sin-gluten-pack-3-envases-210-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito sin gluten frasco 550 g - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 0.95,
+          "unidad": "kg",
+          "precio_unidad": 1.73,
+          "url": "https://www.hipercor.es/supermercado/B001018043502089-el-corte-ingles-tomate-frito-sin-gluten-frasco-550-g/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Tomate frito Hacendado",
+          "marca": "",
+          "precio": 0.95,
+          "unidad": "kg",
+          "precio_unidad": 1.51,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO MINI 210 GRS. PACK 3",
+          "marca": "ALIMERKA",
+          "precio": 0.95,
+          "unidad": "kg",
+          "precio_unidad": 1.51,
+          "url": "https://www.alimerkaonline.es/8000652.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO 350 GRS.",
+          "marca": "ORLANDO",
+          "precio": 0.99,
+          "unidad": "kg",
+          "precio_unidad": 2.83,
+          "url": "https://www.alimerkaonline.es/725063.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO CASERO 340 GRS.",
+          "marca": "ALIMERKA",
+          "precio": 1.07,
+          "unidad": "kg",
+          "precio_unidad": 3.15,
+          "url": "https://www.alimerkaonline.es/8000720.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Tomate frito sin azúcares añadidos Hacendado",
+          "marca": "",
+          "precio": 1.1,
+          "unidad": "kg",
+          "precio_unidad": 1.96,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO SIN AZÚCARES AÑADIDOS 560 G.",
+          "marca": "ALIMERKA",
+          "precio": 1.1,
+          "unidad": "kg",
+          "precio_unidad": 1.96,
+          "url": "https://www.alimerkaonline.es/10021686.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito sin gluten y sin azúcares añadidos frasco 560 g neto escurrido - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.15,
+          "unidad": "kg",
+          "precio_unidad": 2.05,
+          "url": "https://www.hipercor.es/supermercado/B001018043502030-el-corte-ingles-tomate-frito-sin-gluten-y-sin-azucares-anadidos-frasco-560-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Tomate frito estilo casero Hacendado",
+          "marca": "",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 3.16,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Tomate frito Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 1.13,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO 390 G. PACK 3",
+          "marca": "GARBAYO",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 1.15,
+          "url": "https://www.alimerkaonline.es/10027463.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito sin gluten pack 3 envases 400 g - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.39,
+          "unidad": "kg",
+          "precio_unidad": 1.16,
+          "url": "https://www.hipercor.es/supermercado/B001018043501800-el-corte-ingles-tomate-frito-sin-gluten-pack-3-envases-400-g/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Tomate frito receta artesana Hacendado",
+          "marca": "",
+          "precio": 1.4,
+          "unidad": "kg",
+          "precio_unidad": 4.67,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Tomate frito Hacendado con aceite de oliva",
+          "marca": "",
+          "precio": 1.4,
+          "unidad": "kg",
+          "precio_unidad": 2.22,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO 360 GRS.",
+          "marca": "SOLÍS",
+          "precio": 1.49,
+          "unidad": "kg",
+          "precio_unidad": 4.14,
+          "url": "https://www.alimerkaonline.es/725025.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO ECO 300 G.",
+          "marca": "IFA ELIGES",
+          "precio": 1.59,
+          "unidad": "kg",
+          "precio_unidad": 5.3,
+          "url": "https://www.alimerkaonline.es/10018535.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO CON ACEITE DE OLIVA 360 G.",
+          "marca": "SOLÍS",
+          "precio": 1.69,
+          "unidad": "kg",
+          "precio_unidad": 4.69,
+          "url": "https://www.alimerkaonline.es/10023646.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito origen Vegas del Guadiana sin gluten frasco 360 g - Solis",
+          "marca": "solis",
+          "precio": 1.75,
+          "unidad": "kg",
+          "precio_unidad": 4.86,
+          "url": "https://www.hipercor.es/supermercado/B001018043500406-solis-tomate-frito-origen-vegas-del-guadiana-sin-gluten-frasco-360-g/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO 350 G. PACK 2",
+          "marca": "SOLÍS",
+          "precio": 1.75,
+          "unidad": "kg",
+          "precio_unidad": 2.5,
+          "url": "https://www.alimerkaonline.es/10003334.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito cosecha con aceite de oliva sin gluten frasco 350 g - El Corte Ingles Selection",
+          "marca": "el corte ingles selection",
+          "precio": 1.85,
+          "unidad": "kg",
+          "precio_unidad": 5.29,
+          "url": "https://www.hipercor.es/supermercado/B001018043500281-el-corte-ingles-selection-tomate-frito-cosecha-con-aceite-de-oliva-sin-gluten-frasco-350-g/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO ESTILO CASERO 350 G.",
+          "marca": "SOLÍS",
+          "precio": 1.85,
+          "unidad": "kg",
+          "precio_unidad": 5.29,
+          "url": "https://www.alimerkaonline.es/10031742.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO 570 GRS.",
+          "marca": "HELIOS",
+          "precio": 1.9,
+          "unidad": "kg",
+          "precio_unidad": 3.33,
+          "url": "https://www.alimerkaonline.es/725015.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito con aceite de oliva sin gluten frasco 360 g - Solis",
+          "marca": "solis",
+          "precio": 1.95,
+          "unidad": "kg",
+          "precio_unidad": 5.42,
+          "url": "https://www.hipercor.es/supermercado/B001018043502998-solis-tomate-frito-con-aceite-de-oliva-sin-gluten-frasco-360-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito sin gluten pack 3 envase 212 g - Orlando",
+          "marca": "orlando",
+          "precio": 1.99,
+          "unidad": "kg",
+          "precio_unidad": 3.13,
+          "url": "https://www.hipercor.es/supermercado/B001018043501180-orlando-tomate-frito-sin-gluten-pack-3-envase-212-g/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO 212 G. PACK 3",
+          "marca": "ORLANDO",
+          "precio": 1.99,
+          "unidad": "kg",
+          "precio_unidad": 3.13,
+          "url": "https://www.alimerkaonline.es/725084.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Tomate frito receta artesana Hacendado",
+          "marca": "",
+          "precio": 2.0,
+          "unidad": "kg",
+          "precio_unidad": 3.57,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO RECETA ARTESANA 560 G.",
+          "marca": "ALIMERKA",
+          "precio": 2.0,
+          "unidad": "kg",
+          "precio_unidad": 3.57,
+          "url": "https://www.alimerkaonline.es/10018647.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito estilo casero frasco 350 g neto escurrido - Hida",
+          "marca": "hida",
+          "precio": 2.09,
+          "unidad": "kg",
+          "precio_unidad": 5.97,
+          "url": "https://www.hipercor.es/supermercado/B001018043501966-hida-tomate-frito-estilo-casero-frasco-350-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito estilo casero sin gluten frasco 350 g - Solis",
+          "marca": "solis",
+          "precio": 2.09,
+          "unidad": "kg",
+          "precio_unidad": 5.23,
+          "url": "https://www.hipercor.es/supermercado/B001018043501420-solis-tomate-frito-estilo-casero-sin-gluten-frasco-350-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito selección sin gluten frasco 340 g - Pedro Luis",
+          "marca": "pedro luis",
+          "precio": 2.2,
+          "unidad": "kg",
+          "precio_unidad": 6.47,
+          "url": "https://www.hipercor.es/supermercado/B001018043502790-pedro-luis-tomate-frito-seleccion-sin-gluten-frasco-340-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito ecológico,sin gluten, sin azúcar y sin ácido cítrico frasco 340 g - Ekolo Bio",
+          "marca": "ekolo bio",
+          "precio": 2.21,
+          "unidad": "kg",
+          "precio_unidad": 6.5,
+          "url": "https://www.hipercor.es/supermercado/B001020723701205-ekolo-bio-tomate-frito-ecologicosin-gluten-sin-azucar-y-sin-acido-citrico-frasco-340-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito origen Vegas del Guadiana sin gluten pack 3 envases 200 g - Solis",
+          "marca": "solis",
+          "precio": 2.25,
+          "unidad": "kg",
+          "precio_unidad": 3.75,
+          "url": "https://www.hipercor.es/supermercado/B001018043501834-solis-tomate-frito-origen-vegas-del-guadiana-sin-gluten-pack-3-envases-200-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito frasco 570 g - Helios",
+          "marca": "helios",
+          "precio": 2.69,
+          "unidad": "kg",
+          "precio_unidad": 4.72,
+          "url": "https://www.hipercor.es/supermercado/B001018043500018-helios-tomate-frito-frasco-570-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito con aceite de oliva virgen extra sin gluten pack 3 envases 212 g - Orlando",
+          "marca": "orlando",
+          "precio": 2.85,
+          "unidad": "kg",
+          "precio_unidad": 4.48,
+          "url": "https://www.hipercor.es/supermercado/B001018043501727-orlando-tomate-frito-con-aceite-de-oliva-virgen-extra-sin-gluten-pack-3-envases-212-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito casero de agricultura ecológica frasco 340 g - Pedro Luis",
+          "marca": "pedro luis",
+          "precio": 3.1,
+          "unidad": "kg",
+          "precio_unidad": 9.12,
+          "url": "https://www.hipercor.es/supermercado/B001018043700014-pedro-luis-tomate-frito-casero-de-agricultura-ecologica-frasco-340-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito gourmet con aceite de oliva virgen extra sin gluten pack 2 tarros 340 g a partir de tomates frescos - Pedro Luis",
+          "marca": "pedro luis",
+          "precio": 3.15,
+          "unidad": "kg",
+          "precio_unidad": 4.63,
+          "url": "https://www.hipercor.es/supermercado/B001018043503244-pedro-luis-tomate-frito-gourmet-con-aceite-de-oliva-virgen-extra-sin-gluten-pack-2-tarros-340-g-a-partir-de-tomates-frescos/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito pack 3 latas 155 g - Hida",
+          "marca": "hida",
+          "precio": 3.39,
+          "unidad": "kg",
+          "precio_unidad": 7.29,
+          "url": "https://www.hipercor.es/supermercado/B001018043500117-hida-tomate-frito-pack-3-latas-155-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito de cosecha con aceite de oliva sin gluten pack ahorro 3 frasco 350 g - El Corte Ingles Selection",
+          "marca": "el corte ingles selection",
+          "precio": 4.95,
+          "unidad": "kg",
+          "precio_unidad": 4.71,
+          "url": "https://www.hipercor.es/supermercado/B001018043502535-el-corte-ingles-selection-tomate-frito-de-cosecha-con-aceite-de-oliva-sin-gluten-pack-ahorro-3-frasco-350-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito sin gluten pack 6 envase 350 g - Orlando",
+          "marca": "orlando",
+          "precio": 5.75,
+          "unidad": "kg",
+          "precio_unidad": 2.74,
+          "url": "https://www.hipercor.es/supermercado/B001018043501917-orlando-tomate-frito-sin-gluten-pack-6-envase-350-g/"
+        }
+      ]
+    },
+    {
+      "producto": "manzanas",
+      "opciones": [
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Manzana roja dulce",
+          "marca": "",
+          "precio": 0.4,
+          "unidad": "kg",
+          "precio_unidad": 2.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Manzana Golden",
+          "marca": "",
+          "precio": 0.46,
+          "unidad": "kg",
+          "precio_unidad": 2.42,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Manzana Granny Smith",
+          "marca": "",
+          "precio": 0.53,
+          "unidad": "kg",
+          "precio_unidad": 2.51,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Manzana roja acidulce",
+          "marca": "",
+          "precio": 0.64,
+          "unidad": "kg",
+          "precio_unidad": 2.91,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "MANZANA GOLDEN EL KILO",
+          "marca": "SABROSONA",
+          "precio": 2.29,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/500040.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "MANZANA GRANNY SMITH EL KILO",
+          "marca": "SABROSONA",
+          "precio": 2.45,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/500041.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "Manzana golden al peso (peso aproximado de la unidad 200 g)",
+          "marca": "",
+          "precio": 2.49,
+          "unidad": "kg",
+          "precio_unidad": 12.45,
+          "url": "https://www.hipercor.es/supermercado/B001018105800025-manzana-golden-al-peso-peso-aproximado-de-la-unidad-200-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "Manzana Fuji al peso (peso aproximado de la unidad 200 g)",
+          "marca": "",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 14.95,
+          "url": "https://www.hipercor.es/supermercado/B001018105800017-manzana-fuji-al-peso-peso-aproximado-de-la-unidad-200-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "Manzana royal gala al peso (peso aproximado de la unidad 200 g)",
+          "marca": "",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 14.95,
+          "url": "https://www.hipercor.es/supermercado/B001018105800041-manzana-royal-gala-al-peso-peso-aproximado-de-la-unidad-200-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "manzana royal gala bandeja 900 g peso aproximado - El Capricho",
+          "marca": "el capricho",
+          "precio": 3.16,
+          "unidad": "kg",
+          "precio_unidad": 3.95,
+          "url": "https://www.hipercor.es/supermercado/B001018112003399-el-capricho-manzana-royal-gala-bandeja-900-g-peso-aproximado/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "manzana golden bandeja 900 g peso aproximado - El Capricho",
+          "marca": "el capricho",
+          "precio": 3.41,
+          "unidad": "kg",
+          "precio_unidad": 3.79,
+          "url": "https://www.hipercor.es/supermercado/B001018112003373-el-capricho-manzana-golden-bandeja-900-g-peso-aproximado/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Manzanas Golden",
+          "marca": "",
+          "precio": 3.45,
+          "unidad": "kg",
+          "precio_unidad": 0.73,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "manzana pink lady 4 unidades bandeja 800 g peso aproximado - Pink Lady",
+          "marca": "pink lady",
+          "precio": 3.59,
+          "unidad": "kg",
+          "precio_unidad": 4.49,
+          "url": "https://www.hipercor.es/supermercado/B001018112003381-pink-lady-manzana-pink-lady-4-unidades-bandeja-800-g-peso-aproximado/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "manzana Ambrosia bandeja 750 g peso aproximado - Ambrosia",
+          "marca": "ambrosia",
+          "precio": 3.59,
+          "unidad": "kg",
+          "precio_unidad": 4.79,
+          "url": "https://www.hipercor.es/supermercado/B001018112003274-ambrosia-manzana-ambrosia-bandeja-750-g-peso-aproximado/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "manzana granny smith bandeja 900 g peso aproximado - El Capricho",
+          "marca": "el capricho",
+          "precio": 3.86,
+          "unidad": "kg",
+          "precio_unidad": 4.29,
+          "url": "https://www.hipercor.es/supermercado/B001018112003530-el-capricho-manzana-granny-smith-bandeja-900-g-peso-aproximado/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "manzana pink lady selección al peso (peso aproximado de la unidad 250 g) - Pink Lady",
+          "marca": "pink lady",
+          "precio": 3.95,
+          "unidad": "kg",
+          "precio_unidad": 15.8,
+          "url": "https://www.hipercor.es/supermercado/B001018101900316-pink-lady-manzana-pink-lady-seleccion-al-peso-peso-aproximado-de-la-unidad-250-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "Manzana granny smith selección al peso (peso aproximado de la unidad 250 g)",
+          "marca": "",
+          "precio": 3.95,
+          "unidad": "kg",
+          "precio_unidad": 15.8,
+          "url": "https://www.hipercor.es/supermercado/B001018101900852-manzana-granny-smith-seleccion-al-peso-peso-aproximado-de-la-unidad-250-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "manzana fuji 4 piezas peso aproximado bandeja 900 g - El Capricho",
+          "marca": "el capricho",
+          "precio": 4.04,
+          "unidad": "kg",
+          "precio_unidad": 4.49,
+          "url": "https://www.hipercor.es/supermercado/B001018112003365-el-capricho-manzana-fuji-4-piezas-peso-aproximado-bandeja-900-g/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Manzanas rojas acidulces",
+          "marca": "",
+          "precio": 4.19,
+          "unidad": "kg",
+          "precio_unidad": 0.65,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "manzana pink lady 6 unidades bandeja 1 kg peso aproximado - Pink Lady",
+          "marca": "pink lady",
+          "precio": 4.49,
+          "unidad": "kg",
+          "precio_unidad": 4.49,
+          "url": "https://www.hipercor.es/supermercado/B001018112000379-pink-lady-manzana-pink-lady-6-unidades-bandeja-1-kg-peso-aproximado/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "manzana golden bandeja 1,4 kg peso aproximado - El Capricho",
+          "marca": "el capricho",
+          "precio": 5.31,
+          "unidad": "kg",
+          "precio_unidad": 3.79,
+          "url": "https://www.hipercor.es/supermercado/B001018112003027-el-capricho-manzana-golden-bandeja-14-kg-peso-aproximado/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "Manzana golden rosée lindor selección al peso (peso aproximado de la unidad 250 g)",
+          "marca": "",
+          "precio": 6.49,
+          "unidad": "kg",
+          "precio_unidad": 25.96,
+          "url": "https://www.hipercor.es/supermercado/B001018101900027-manzana-golden-rosee-lindor-seleccion-al-peso-peso-aproximado-de-la-unidad-250-g/"
+        }
+      ]
+    },
+    {
+      "producto": "arroz",
+      "opciones": [
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz cocido integral Sabroz",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 4.2,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz cocido redondo Sabroz",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 4.2,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz cocido basmati Sabroz",
+          "marca": "",
+          "precio": 1.1,
+          "unidad": "kg",
+          "precio_unidad": 4.4,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ CON LECHE 125 G. PACK 4",
+          "marca": "ALIMERKA",
+          "precio": 1.19,
+          "unidad": "kg",
+          "precio_unidad": 2.38,
+          "url": "https://www.alimerkaonline.es/10015949.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz redondo paquete 1 kg - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 1.2,
+          "url": "https://www.hipercor.es/supermercado/B001018005700754-el-corte-ingles-arroz-redondo-paquete-1-kg/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz redondo tradicional cocido para guarnición pack 2 envase 125 g - Brillante",
+          "marca": "brillante",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 4.8,
+          "url": "https://www.hipercor.es/supermercado/B001018005500345-brillante-arroz-redondo-tradicional-cocido-para-guarnicion-pack-2-envase-125-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz integral cocido para guarnición pack 2 envases 125 g - Brillante",
+          "marca": "brillante",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 4.8,
+          "url": "https://www.hipercor.es/supermercado/B001018005500287-brillante-arroz-integral-cocido-para-guarnicion-pack-2-envases-125-g/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz largo Hacendado",
+          "marca": "",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 1.2,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz redondo Hacendado",
+          "marca": "",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 1.2,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ REDONDO 1 KILO",
+          "marca": "ALIMERKA",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 1.2,
+          "url": "https://www.alimerkaonline.es/8000190.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ INTEGRAL 125 G. PACK 2",
+          "marca": "BRILLANTE",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 4.8,
+          "url": "https://www.alimerkaonline.es/10011385.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ LARGO 1 KILO",
+          "marca": "ALIMERKA",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 1.2,
+          "url": "https://www.alimerkaonline.es/8000191.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz largo extra paquete 1 kg - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.25,
+          "unidad": "kg",
+          "precio_unidad": 1.25,
+          "url": "https://www.hipercor.es/supermercado/B001018005600343-el-corte-ingles-arroz-largo-extra-paquete-1-kg/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz basmati cocido aromático del Himalaya para guarnición pack 2 envases 125 g - Brillante",
+          "marca": "brillante",
+          "precio": 1.29,
+          "unidad": "kg",
+          "precio_unidad": 5.16,
+          "url": "https://www.hipercor.es/supermercado/B001018005500253-brillante-arroz-basmati-cocido-aromatico-del-himalaya-para-guarnicion-pack-2-envases-125-g/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ BASMATI GUARNICIÓN 125 GRS. PACK 2",
+          "marca": "BRILLANTE",
+          "precio": 1.29,
+          "unidad": "kg",
+          "precio_unidad": 5.16,
+          "url": "https://www.alimerkaonline.es/750010.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz con leche Hacendado",
+          "marca": "",
+          "precio": 1.3,
+          "unidad": "kg",
+          "precio_unidad": 2.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz con leche sin gluten pack 4 unidades 130 g - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.39,
+          "unidad": "kg",
+          "precio_unidad": 2.67,
+          "url": "https://www.hipercor.es/supermercado/B001018823700515-el-corte-ingles-arroz-con-leche-sin-gluten-pack-4-unidades-130-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz redondo especial caldosos y melosos paquete 500 g - Sos",
+          "marca": "sos",
+          "precio": 1.45,
+          "unidad": "kg",
+          "precio_unidad": 2.9,
+          "url": "https://www.hipercor.es/supermercado/B001018005700408-sos-arroz-redondo-especial-caldosos-y-melosos-paquete-500-g/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz vaporizado Hacendado",
+          "marca": "",
+          "precio": 1.55,
+          "unidad": "kg",
+          "precio_unidad": 1.55,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ VAPORIZADO 1 KILO",
+          "marca": "ALIMERKA",
+          "precio": 1.55,
+          "unidad": "kg",
+          "precio_unidad": 1.55,
+          "url": "https://www.alimerkaonline.es/10003964.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz vaporizado paquete 1 kg - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.6,
+          "unidad": "kg",
+          "precio_unidad": 1.6,
+          "url": "https://www.hipercor.es/supermercado/B001018005700606-el-corte-ingles-arroz-vaporizado-paquete-1-kg/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz redondo J Sendra Hacendado",
+          "marca": "",
+          "precio": 1.6,
+          "unidad": "kg",
+          "precio_unidad": 1.6,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz integral largo Hacendado",
+          "marca": "",
+          "precio": 1.65,
+          "unidad": "kg",
+          "precio_unidad": 1.65,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ INTEGRAL 1 KILO",
+          "marca": "ALIMERKA",
+          "precio": 1.65,
+          "unidad": "kg",
+          "precio_unidad": 1.65,
+          "url": "https://www.alimerkaonline.es/10021846.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz redondo paquete 1 kg - La Fallera",
+          "marca": "la fallera",
+          "precio": 1.69,
+          "unidad": "kg",
+          "precio_unidad": 1.69,
+          "url": "https://www.hipercor.es/supermercado/B001018005700499-la-fallera-arroz-redondo-paquete-1-kg/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ GRANZA 1 KILO",
+          "marca": "LA FALLERA",
+          "precio": 1.69,
+          "unidad": "kg",
+          "precio_unidad": 1.69,
+          "url": "https://www.alimerkaonline.es/754016.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ CON LECHE 200 G.",
+          "marca": "LOS CASERINOS",
+          "precio": 1.75,
+          "unidad": "kg",
+          "precio_unidad": 8.75,
+          "url": "https://www.alimerkaonline.es/2213167.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ CON LECHE 200 G.",
+          "marca": "ABREDO",
+          "precio": 1.79,
+          "unidad": "kg",
+          "precio_unidad": 8.95,
+          "url": "https://www.alimerkaonline.es/10028816.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ REDONDO 1 KILO",
+          "marca": "SOS",
+          "precio": 1.87,
+          "unidad": "kg",
+          "precio_unidad": 1.87,
+          "url": "https://www.alimerkaonline.es/754015.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz redondo paquete 1 kg - Sos",
+          "marca": "sos",
+          "precio": 1.88,
+          "unidad": "kg",
+          "precio_unidad": 1.88,
+          "url": "https://www.hipercor.es/supermercado/B001018005700614-sos-arroz-redondo-paquete-1-kg/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz redondo SOS",
+          "marca": "",
+          "precio": 1.88,
+          "unidad": "kg",
+          "precio_unidad": 1.88,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz para microondas Hacendado ultracongelado",
+          "marca": "",
+          "precio": 1.9,
+          "unidad": "kg",
+          "precio_unidad": 1.9,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz largo paquete 1 kg - Sos",
+          "marca": "sos",
+          "precio": 1.95,
+          "unidad": "kg",
+          "precio_unidad": 1.95,
+          "url": "https://www.hipercor.es/supermercado/B001018005600228-sos-arroz-largo-paquete-1-kg/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ LARGO 1 KILO",
+          "marca": "SOS",
+          "precio": 1.95,
+          "unidad": "kg",
+          "precio_unidad": 1.95,
+          "url": "https://www.alimerkaonline.es/750011.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz vaporizado Brillante",
+          "marca": "",
+          "precio": 1.98,
+          "unidad": "kg",
+          "precio_unidad": 1.98,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ 1 KILO",
+          "marca": "BRILLANTE",
+          "precio": 1.98,
+          "unidad": "kg",
+          "precio_unidad": 1.98,
+          "url": "https://www.alimerkaonline.es/754010.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz vaporizado caja 1 kg - Brillante",
+          "marca": "brillante",
+          "precio": 1.99,
+          "unidad": "kg",
+          "precio_unidad": 1.99,
+          "url": "https://www.hipercor.es/supermercado/B001018005700457-brillante-arroz-vaporizado-caja-1-kg/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz con verduras para microondas Hacendado ultracongelado",
+          "marca": "",
+          "precio": 2.0,
+          "unidad": "kg",
+          "precio_unidad": 2.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz integral paquete 1 kg - Sos",
+          "marca": "sos",
+          "precio": 2.05,
+          "unidad": "kg",
+          "precio_unidad": 2.05,
+          "url": "https://www.hipercor.es/supermercado/B001018005801552-sos-arroz-integral-paquete-1-kg/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ INTEGRAL 1 KILO",
+          "marca": "SOS",
+          "precio": 2.09,
+          "unidad": "kg",
+          "precio_unidad": 2.09,
+          "url": "https://www.alimerkaonline.es/750026.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz basmati aromático Hacendado",
+          "marca": "",
+          "precio": 2.1,
+          "unidad": "kg",
+          "precio_unidad": 2.1,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ BASMATI 1 KILO",
+          "marca": "ALIMERKA",
+          "precio": 2.1,
+          "unidad": "kg",
+          "precio_unidad": 2.1,
+          "url": "https://www.alimerkaonline.es/10009297.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ INFLADO CHOCOLATEADO 500 G.",
+          "marca": "ALIMERKA",
+          "precio": 2.1,
+          "unidad": "kg",
+          "precio_unidad": 4.2,
+          "url": "https://www.alimerkaonline.es/10007379.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz basmati aromático del Himalaya paquete 1 kg - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 2.19,
+          "unidad": "kg",
+          "precio_unidad": 2.19,
+          "url": "https://www.hipercor.es/supermercado/B001018005600350-el-corte-ingles-arroz-basmati-aromatico-del-himalaya-paquete-1-kg/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz marinera Hacendado ultracongelado",
+          "marca": "",
+          "precio": 2.2,
+          "unidad": "kg",
+          "precio_unidad": 6.29,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz redondo tradicional cocido formato xl pack 2 envases 200 g - Brillante",
+          "marca": "brillante",
+          "precio": 2.25,
+          "unidad": "kg",
+          "precio_unidad": 5.63,
+          "url": "https://www.hipercor.es/supermercado/B001018005500469-brillante-arroz-redondo-tradicional-cocido-formato-xl-pack-2-envases-200-g/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ REDONDO 200 GRS. PACK 2",
+          "marca": "BRILLANTE",
+          "precio": 2.25,
+          "unidad": "kg",
+          "precio_unidad": 5.62,
+          "url": "https://www.alimerkaonline.es/10002504.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz redondo Sabor",
+          "marca": "",
+          "precio": 2.45,
+          "unidad": "kg",
+          "precio_unidad": 2.45,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz redondo especial para paella DOP de Valencia paquete 1 kg - La Fallera",
+          "marca": "la fallera",
+          "precio": 2.49,
+          "unidad": "kg",
+          "precio_unidad": 2.49,
+          "url": "https://www.hipercor.es/supermercado/B001018005700523-la-fallera-arroz-redondo-especial-para-paella-dop-de-valencia-paquete-1-kg/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz redondo Sabroz variedad exclusiva paquete 1 kg - Brillante",
+          "marca": "brillante",
+          "precio": 2.79,
+          "unidad": "kg",
+          "precio_unidad": 2.79,
+          "url": "https://www.hipercor.es/supermercado/B001018005700804-brillante-arroz-redondo-sabroz-variedad-exclusiva-paquete-1-kg/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ REDONDO SABROZ 1 KILO",
+          "marca": "BRILLANTE",
+          "precio": 2.79,
+          "unidad": "kg",
+          "precio_unidad": 2.79,
+          "url": "https://www.alimerkaonline.es/750027.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz tres delicias Hacendado ultracongelado",
+          "marca": "",
+          "precio": 2.85,
+          "unidad": "kg",
+          "precio_unidad": 2.85,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ 3 DELICIAS 1 KG.",
+          "marca": "ALIMERKA",
+          "precio": 2.85,
+          "unidad": "kg",
+          "precio_unidad": 2.85,
+          "url": "https://www.alimerkaonline.es/10030461.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz de secreto ibérico con setas Hacendado",
+          "marca": "",
+          "precio": 3.0,
+          "unidad": "kg",
+          "precio_unidad": 10.71,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz negro Hacendado ultracongelado",
+          "marca": "",
+          "precio": 3.1,
+          "unidad": "kg",
+          "precio_unidad": 5.17,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz basmati paquete 1 kg - Tilda",
+          "marca": "tilda",
+          "precio": 3.29,
+          "unidad": "Unidad",
+          "precio_unidad": 3.29,
+          "url": "https://www.hipercor.es/supermercado/B001018005600418-tilda-arroz-basmati-paquete-1-kg/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz de verduras Hacendado",
+          "marca": "",
+          "precio": 3.5,
+          "unidad": "kg",
+          "precio_unidad": 12.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz redondo bolsa 2 kg - Sos",
+          "marca": "sos",
+          "precio": 3.65,
+          "unidad": "kg",
+          "precio_unidad": 1.83,
+          "url": "https://www.hipercor.es/supermercado/B001018005700820-sos-arroz-redondo-bolsa-2-kg/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz de pescado Hacendado",
+          "marca": "",
+          "precio": 3.75,
+          "unidad": "kg",
+          "precio_unidad": 13.39,
+          "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ BOMBA 1 KILO",
+          "marca": "LA FALLERA",
+          "precio": 4.5,
+          "unidad": "kg",
+          "precio_unidad": 4.5,
+          "url": "https://www.alimerkaonline.es/750022.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ PARTIDO PARA PERROS 5 KILOS",
+          "marca": "IFA ELIGES",
+          "precio": 4.69,
+          "unidad": "kg",
+          "precio_unidad": 0.94,
+          "url": "https://www.alimerkaonline.es/10022834.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz bomba paquete 1 kg - La Fallera",
+          "marca": "la fallera",
+          "precio": 4.7,
+          "unidad": "kg",
+          "precio_unidad": 4.7,
+          "url": "https://www.hipercor.es/supermercado/B001018005700721-la-fallera-arroz-bomba-paquete-1-kg/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz bomba pack 2 envases 500 g - La Fallera",
+          "marca": "la fallera",
+          "precio": 6.35,
+          "unidad": "kg",
+          "precio_unidad": 6.35,
+          "url": "https://www.hipercor.es/supermercado/B001018005700895-la-fallera-arroz-bomba-pack-2-envases-500-g/"
+        }
+      ]
+    }
+  ],
+  "avisos": []
+}
