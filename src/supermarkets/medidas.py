@@ -61,6 +61,18 @@ _MEDIDA_RE = re.compile(
 # Multiplicador escrito DESPUÉS de la medida: "210 GRS. PACK 3" (Alimerka).
 _PACK_POSTERIOR_RE = re.compile(r"\b(?:pack|packs)\s*(?:de\s*)?(\d+)", re.IGNORECASE)
 
+# Fresco de mostrador vendido literalmente "al kilo"/"al litro", SIN
+# ningún número delante en el nombre (verificado en vivo, 2026-09-03:
+# "CECINA DE VACUNO BABILLA EL KILO", "QUESO EN BARRA EL KILO", "LOMO
+# EMBUCHADO EL KILO", "JAMÓN SERRANO RVA DUROC 25% MENOS SAL EL KILO").
+# _MEDIDA_RE no lo reconoce porque exige un número pegado a la unidad, y
+# sin reconocerlo `precio_unidad` quedaba `None`: la webapp entonces
+# cobraba el precio de venta COMPLETO en vez de escalarlo a los gramos
+# pedidos (ver CLAUDE.md, "Por qué el total simulado se dispara...").
+# Aquí el precio que se ve YA es el del kilo/litro entero, así que basta
+# con devolver cantidad=1 en esa unidad.
+_AL_KILO_RE = re.compile(r"\b(?:el|al|por)\s+(kilo|litro)\b", re.IGNORECASE)
+
 
 def parsear_medida(texto: str) -> Optional[Tuple[float, str]]:
     """
@@ -92,6 +104,12 @@ def parsear_medida(texto: str) -> Optional[Tuple[float, str]]:
         total = multiplicador * cantidad * factor
         if total > 0:
             return (total, base)
+
+    m = _AL_KILO_RE.search(texto)
+    if m:
+        base = "kg" if m.group(1).lower() == "kilo" else "L"
+        return (1.0, base)
+
     return None
 
 

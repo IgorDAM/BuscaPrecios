@@ -352,8 +352,13 @@ function cambiarUnidad(idx) {
 // es que lo que se anuncia es el kilo: carne picada a 13,00 € con 13,00
 // €/kg. En un paquete no coinciden: 2,29 € el paquete, 19,08 €/kg.
 function esAlPeso(opt) {
+  // "kg" para fresco de mostrador (cecina, queso...), "L" para líquido a
+  // granel; en ambos casos el precio mostrado coincide con el
+  // precio_unidad porque es literalmente el precio del kilo/litro entero.
   return (
-    opt.precio_unidad && opt.unidad === "kg" && Math.abs(opt.precio - opt.precio_unidad) < 0.005
+    opt.precio_unidad &&
+    (opt.unidad === "kg" || opt.unidad === "L") &&
+    Math.abs(opt.precio - opt.precio_unidad) < 0.005
   );
 }
 
