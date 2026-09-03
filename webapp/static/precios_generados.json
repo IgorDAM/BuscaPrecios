@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-03T15:51:17+00:00",
+  "generado_en": "2026-09-03T20:35:04+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -3309,8 +3309,8 @@
           "nombre_real": "QUESO CURADO UMAMI EL KILO",
           "marca": "CERRATO",
           "precio": 16.5,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 16.5,
           "url": "https://www.alimerkaonline.es/10023263.html"
         },
         {
@@ -8675,15 +8675,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018016500656-ubago-sardinas-en-aceite-de-girasol-lata-80-g-neto-escurrido/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO SABOR LIMA LIMÓN SIN AZÚCAR 2 LITROS",
-          "marca": "SPRITE",
-          "precio": 1.65,
-          "unidad": "L",
-          "precio_unidad": 0.82,
-          "url": "https://www.alimerkaonline.es/10015192.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Sardinillas en tomate Hacendado",
           "marca": "",
@@ -8864,6 +8855,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA 2 LITROS PACK 2",
+          "marca": "FANTA",
+          "precio": 3.6,
+          "unidad": "L",
+          "precio_unidad": 0.9,
+          "url": "https://www.alimerkaonline.es/765026.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "sardina en aceite de oliva pack 5 latas 85 g neto escurrido - Cuca",
           "marca": "cuca",
@@ -9008,8 +9008,8 @@
           "nombre_real": "JAMÓN SERRANO RVA DUROC 25% MENOS SAL EL KILO",
           "marca": "TORRE DE NUÑEZ",
           "precio": 25.9,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 25.9,
           "url": "https://www.alimerkaonline.es/10024175.html"
         },
         {
@@ -9283,8 +9283,8 @@
           "nombre_real": "JAMON COCIDO EXTRA EL KILO",
           "marca": "CAMPOFRÍO",
           "precio": 12.95,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 12.95,
           "url": "https://www.alimerkaonline.es/370007.html"
         },
         {
@@ -9292,8 +9292,8 @@
           "nombre_real": "JAMON COCIDO SIN GRASA REDUCIDO EN SAL EL KILO",
           "marca": "ELPOZO",
           "precio": 13.95,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 13.95,
           "url": "https://www.alimerkaonline.es/10016973.html"
         },
         {
@@ -9301,8 +9301,8 @@
           "nombre_real": "JAMON COCIDO ASADO CON PATA EL KILO",
           "marca": "TELLO",
           "precio": 13.95,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 13.95,
           "url": "https://www.alimerkaonline.es/370021.html"
         },
         {
@@ -9310,8 +9310,8 @@
           "nombre_real": "JAMÓN COCIDO EXTRA 96% CARNE NATURARTE EL KILO",
           "marca": "CAMPOFRÍO",
           "precio": 14.95,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 14.95,
           "url": "https://www.alimerkaonline.es/10023873.html"
         },
         {
@@ -9319,8 +9319,8 @@
           "nombre_real": "JAMON COCIDO EXTRA BONNATUR EL KILO",
           "marca": "ARGAL",
           "precio": 16.3,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 16.3,
           "url": "https://www.alimerkaonline.es/370025.html"
         },
         {
@@ -10487,8 +10487,8 @@
           "nombre_real": "CHORIZO FRESCO DULCE EL KILO",
           "marca": "JUAN FERNANDEZ",
           "precio": 7.95,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 7.95,
           "url": "https://www.alimerkaonline.es/341056.html"
         },
         {
@@ -10514,8 +10514,8 @@
           "nombre_real": "CHORIZO ASTURIANO EL KILO",
           "marca": "EL CUCO",
           "precio": 12.7,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 12.7,
           "url": "https://www.alimerkaonline.es/340008.html"
         },
         {
@@ -10523,8 +10523,8 @@
           "nombre_real": "CHORIZO PAMPLONA EXTRA DULCE EL KILO",
           "marca": "ARGAL",
           "precio": 14.95,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 14.95,
           "url": "https://www.alimerkaonline.es/330098.html"
         },
         {
@@ -10550,8 +10550,8 @@
           "nombre_real": "CHORIZO EXTRA EL KILO",
           "marca": "ALTO ALLER",
           "precio": 16.75,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 16.75,
           "url": "https://www.alimerkaonline.es/330072.html"
         },
         {
@@ -10559,8 +10559,8 @@
           "nombre_real": "CHORIZO EXTRA CULAR PICANTE EL KILO",
           "marca": "EZEQUIEL",
           "precio": 16.95,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 16.95,
           "url": "https://www.alimerkaonline.es/10007506.html"
         },
         {
@@ -10568,8 +10568,8 @@
           "nombre_real": "CHORIZO IBÉRICO DE GUIJUELO EL KILO",
           "marca": "CAYO",
           "precio": 16.95,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 16.95,
           "url": "https://www.alimerkaonline.es/10023842.html"
         },
         {
@@ -10577,8 +10577,8 @@
           "nombre_real": "CHORIZO EXTRA CULAR EL KILO",
           "marca": "EZEQUIEL",
           "precio": 17.25,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 17.25,
           "url": "https://www.alimerkaonline.es/10007505.html"
         },
         {
@@ -10595,8 +10595,8 @@
           "nombre_real": "CHORIZO NATURAL TRONCAL EL KILO",
           "marca": "ALEJANDRO",
           "precio": 22.95,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 22.95,
           "url": "https://www.alimerkaonline.es/10009388.html"
         },
         {
@@ -10604,8 +10604,8 @@
           "nombre_real": "CHORIZO NATURAL MAGNO EL KILO",
           "marca": "ALEJANDRO",
           "precio": 23.95,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 23.95,
           "url": "https://www.alimerkaonline.es/10009389.html"
         },
         {
@@ -10613,8 +10613,8 @@
           "nombre_real": "CHORIZO IBERICO EXTRA EL KILO",
           "marca": "J. SANZ",
           "precio": 24.75,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 24.75,
           "url": "https://www.alimerkaonline.es/344067.html"
         },
         {
@@ -10622,8 +10622,8 @@
           "nombre_real": "CHORIZO IBERICO EL KILO",
           "marca": "ESTIRPE NEGRA",
           "precio": 24.95,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 24.95,
           "url": "https://www.alimerkaonline.es/10006246.html"
         },
         {
@@ -14588,8 +14588,8 @@
           "nombre_real": "MANZANA GOLDEN EL KILO",
           "marca": "SABROSONA",
           "precio": 2.29,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 2.29,
           "url": "https://www.alimerkaonline.es/500040.html"
         },
         {
@@ -14597,8 +14597,8 @@
           "nombre_real": "MANZANA GRANNY SMITH EL KILO",
           "marca": "SABROSONA",
           "precio": 2.45,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 2.45,
           "url": "https://www.alimerkaonline.es/500041.html"
         },
         {
@@ -15269,8 +15269,8 @@
           "nombre_real": "PERA CONFERENCIA EL KILO",
           "marca": "SABROSONA",
           "precio": 2.99,
-          "unidad": "",
-          "precio_unidad": null,
+          "unidad": "kg",
+          "precio_unidad": 2.99,
           "url": "https://www.alimerkaonline.es/500050.html"
         },
         {
@@ -20261,6 +20261,15 @@
           "url": ""
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Cerveza Shandy Steinburg sabor limón",
+          "marca": "",
+          "precio": 0.6,
+          "unidad": "L",
+          "precio_unidad": 1.2,
+          "url": ""
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "CERVEZA 25 CL.",
           "marca": "ESTRELLA GALICIA",
@@ -20609,15 +20618,6 @@
           "precio": 3.6,
           "unidad": "L",
           "precio_unidad": 1.36,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Cerveza Shandy Steinburg sabor limón",
-          "marca": "",
-          "precio": 3.6,
-          "unidad": "L",
-          "precio_unidad": 1.2,
           "url": ""
         },
         {
