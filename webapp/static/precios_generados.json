@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-04T15:52:41+00:00",
+  "generado_en": "2026-09-04T20:21:31+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -3382,15 +3382,6 @@
       "producto": "mantequilla",
       "opciones": [
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "mantequilla tradicional pastilla 125 g - Asturiana",
-          "marca": "asturiana",
-          "precio": 1.95,
-          "unidad": "kg",
-          "precio_unidad": 15.6,
-          "url": "https://www.hipercor.es/supermercado/B001018815101763-asturiana-mantequilla-tradicional-pastilla-125-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Mantequilla sin sal añadida Hacendado",
           "marca": "",
@@ -3596,6 +3587,15 @@
           "unidad": "kg",
           "precio_unidad": 15.4,
           "url": "https://www.hipercor.es/supermercado/B001018815100476-asturiana-mantequilla-mediterranea-facil-de-untar-con-aceite-de-oliva-de-andalucia-tarrina-250-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "mantequilla tradicional fácil de untar tarrina 200 g - Lurpak",
+          "marca": "lurpak",
+          "precio": 4.19,
+          "unidad": "kg",
+          "precio_unidad": 20.95,
+          "url": "https://www.hipercor.es/supermercado/B001018815101276-lurpak-mantequilla-tradicional-facil-de-untar-tarrina-200-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -8711,15 +8711,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018016500656-ubago-sardinas-en-aceite-de-girasol-lata-80-g-neto-escurrido/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO SABOR LIMA LIMÓN SIN AZÚCAR 2 LITROS",
-          "marca": "SPRITE",
-          "precio": 1.65,
-          "unidad": "L",
-          "precio_unidad": 0.82,
-          "url": "https://www.alimerkaonline.es/10015192.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Sardinillas en tomate Hacendado",
           "marca": "",
@@ -8727,6 +8718,15 @@
           "unidad": "kg",
           "precio_unidad": 9.72,
           "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "BEBIDA ENERGÉTICA GREEN ZERO AZÚCAR 50 CL.",
+          "marca": "MONSTER",
+          "precio": 1.79,
+          "unidad": "L",
+          "precio_unidad": 3.58,
+          "url": "https://www.alimerkaonline.es/10025400.html"
         },
         {
           "supermercado": "Hipercor",
@@ -10984,15 +10984,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Filete de salmón rosado salvaje con piel Hacendado ultracongelado",
-          "marca": "",
-          "precio": 4.05,
-          "unidad": "kg",
-          "precio_unidad": 13.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Rabas empanadas Hacendado ultracongeladas",
           "marca": "",
           "precio": 4.15,
@@ -11161,6 +11152,15 @@
           "unidad": "kg",
           "precio_unidad": 12.48,
           "url": "https://www.hipercor.es/supermercado/B001018949301123-pescanova-merluza-con-rebozado-crun-chyx-sin-gluten-ideal-para-air-fryer-bolsa-400-g/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Filete de salmón rosado salvaje con piel Hacendado ultracongelado",
+          "marca": "",
+          "precio": 4.99,
+          "unidad": "kg",
+          "precio_unidad": 13.49,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -20261,15 +20261,6 @@
           "url": ""
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Cerveza Shandy Steinburg sabor limón",
-          "marca": "",
-          "precio": 0.6,
-          "unidad": "L",
-          "precio_unidad": 1.2,
-          "url": ""
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "CERVEZA 25 CL.",
           "marca": "ESTRELLA GALICIA",
@@ -20618,6 +20609,15 @@
           "precio": 3.6,
           "unidad": "L",
           "precio_unidad": 1.36,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Cerveza Shandy Steinburg sabor limón",
+          "marca": "",
+          "precio": 3.6,
+          "unidad": "L",
+          "precio_unidad": 1.2,
           "url": ""
         },
         {
@@ -22397,21 +22397,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "servilletas de papel compostables 3 capas  verdes 33x33 cm paquete 30 unidades - Gabbiano",
-          "marca": "gabbiano",
-          "precio": 2.95,
-          "unidad": "Unidad",
-          "precio_unidad": 0.1,
-          "url": "https://www.hipercor.es/supermercado/B001028022308135-gabbiano-servilletas-de-papel-compostables-3-capas-verdes-33x33-cm-paquete-30-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "servilletas de papel compostables 3 capas  naranjas 33x33 cm paquete 30 unidades - Gabbiano",
           "marca": "gabbiano",
           "precio": 2.95,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.hipercor.es/supermercado/B001028022308143-gabbiano-servilletas-de-papel-compostables-3-capas-naranjas-33x33-cm-paquete-30-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "servilletas de papel compostables 3 capas  verdes 33x33 cm paquete 30 unidades - Gabbiano",
+          "marca": "gabbiano",
+          "precio": 2.95,
+          "unidad": "Unidad",
+          "precio_unidad": 0.1,
+          "url": "https://www.hipercor.es/supermercado/B001028022308135-gabbiano-servilletas-de-papel-compostables-3-capas-verdes-33x33-cm-paquete-30-unidades/"
         },
         {
           "supermercado": "Hipercor",
@@ -25623,12 +25623,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "CHAMPÚ LAMELAR SHINE 685 ML.",
+          "nombre_real": "CHAMPÚ LISO KERATINA 685 ML.",
           "marca": "TRESEMMÉ",
           "precio": 6.5,
           "unidad": "L",
           "precio_unidad": 9.49,
-          "url": "https://www.alimerkaonline.es/10027266.html"
+          "url": "https://www.alimerkaonline.es/10012246.html"
         },
         {
           "supermercado": "Alimerka",
