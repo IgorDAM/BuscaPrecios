@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-05T02:54:27+00:00",
+  "generado_en": "2026-09-05T10:04:14+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -6659,6 +6659,15 @@
           "url": "https://www.alimerkaonline.es/10031200.html"
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Aceite de oliva virgen extra Hacendado",
+          "marca": "",
+          "precio": 4.45,
+          "unidad": "L",
+          "precio_unidad": 4.45,
+          "url": ""
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 1 LITRO",
           "marca": "ALIMERKA",
@@ -6684,15 +6693,6 @@
           "unidad": "L",
           "precio_unidad": 4.7,
           "url": "https://www.hipercor.es/supermercado/B001018045800101-el-corte-ingles-aceite-de-oliva-virgen-extra-botella-1-l/"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Aceite de oliva virgen extra Hacendado",
-          "marca": "",
-          "precio": 4.7,
-          "unidad": "L",
-          "precio_unidad": 4.7,
-          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -6869,9 +6869,9 @@
           "supermercado": "Mercadona",
           "nombre_real": "Aceite de oliva virgen extra Hacendado",
           "marca": "",
-          "precio": 13.55,
+          "precio": 12.8,
           "unidad": "L",
-          "precio_unidad": 4.52,
+          "precio_unidad": 4.27,
           "url": ""
         },
         {
@@ -8175,6 +8175,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018006600821-el-corte-ingles-atun-claro-en-aceite-de-oliva-lata-82-g-neto-escurrido/"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO SABOR LIMA LIMÓN SIN AZÚCAR 2 LITROS",
+          "marca": "SPRITE",
+          "precio": 1.65,
+          "unidad": "L",
+          "precio_unidad": 0.82,
+          "url": "https://www.alimerkaonline.es/10015192.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Sardinillas en tomate Hacendado",
           "marca": "",
@@ -8353,15 +8362,6 @@
           "unidad": "kg",
           "precio_unidad": 22.44,
           "url": "https://www.alimerkaonline.es/10019770.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA 2 LITROS PACK 2",
-          "marca": "FANTA",
-          "precio": 3.6,
-          "unidad": "L",
-          "precio_unidad": 0.9,
-          "url": "https://www.alimerkaonline.es/765026.html"
         },
         {
           "supermercado": "Hipercor",
@@ -8693,15 +8693,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018016500656-ubago-sardinas-en-aceite-de-girasol-lata-80-g-neto-escurrido/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO SABOR LIMA LIMÓN SIN AZÚCAR 2 LITROS",
-          "marca": "SPRITE",
-          "precio": 1.65,
-          "unidad": "L",
-          "precio_unidad": 0.82,
-          "url": "https://www.alimerkaonline.es/10015192.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Sardinillas en tomate Hacendado",
           "marca": "",
@@ -8709,6 +8700,15 @@
           "unidad": "kg",
           "precio_unidad": 9.72,
           "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "BEBIDA ENERGÉTICA GREEN ZERO AZÚCAR 50 CL.",
+          "marca": "MONSTER",
+          "precio": 1.79,
+          "unidad": "L",
+          "precio_unidad": 3.58,
+          "url": "https://www.alimerkaonline.es/10025400.html"
         },
         {
           "supermercado": "Hipercor",
@@ -9675,15 +9675,6 @@
           "unidad": "kg",
           "precio_unidad": 3.44,
           "url": "https://www.alimerkaonline.es/10021792.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "SALCHICHAS VIENA CON QUESO 200 G.",
-          "marca": "ALIMERKA",
-          "precio": 0.75,
-          "unidad": "kg",
-          "precio_unidad": 3.75,
-          "url": "https://www.alimerkaonline.es/10031269.html"
         },
         {
           "supermercado": "Alimerka",
@@ -13808,15 +13799,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018107600050-tomate-ensalada-al-peso/"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Tomates negros",
-          "marca": "",
-          "precio": 2.94,
-          "unidad": "kg",
-          "precio_unidad": 1.3,
-          "url": ""
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "Tomate pera al peso",
           "marca": "",
@@ -17788,6 +17770,42 @@
           "url": ""
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café en cápsula descafeinado Hacendado",
+          "marca": "",
+          "precio": 3.25,
+          "unidad": "kg",
+          "precio_unidad": 29.02,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café en cápsula forte Hacendado",
+          "marca": "",
+          "precio": 3.25,
+          "unidad": "kg",
+          "precio_unidad": 29.02,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café con leche en cápsula Hacendado",
+          "marca": "",
+          "precio": 3.25,
+          "unidad": "kg",
+          "precio_unidad": 21.16,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café en cápsula extra forte Hacendado",
+          "marca": "",
+          "precio": 3.25,
+          "unidad": "kg",
+          "precio_unidad": 25.39,
+          "url": ""
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "CAFÉ ESPRESSO INTENSO 16 CAPSULAS",
           "marca": "ALIMERKA",
@@ -17825,33 +17843,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula descafeinado Hacendado",
-          "marca": "",
-          "precio": 3.35,
-          "unidad": "kg",
-          "precio_unidad": 29.91,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula forte Hacendado",
-          "marca": "",
-          "precio": 3.35,
-          "unidad": "kg",
-          "precio_unidad": 29.91,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Café con leche en cápsula Hacendado",
-          "marca": "",
-          "precio": 3.35,
-          "unidad": "kg",
-          "precio_unidad": 21.81,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula cappuccino Hacendado",
           "marca": "",
           "precio": 3.35,
@@ -17862,15 +17853,6 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula doble espresso Hacendado",
-          "marca": "",
-          "precio": 3.35,
-          "unidad": "kg",
-          "precio_unidad": 26.17,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula extra forte Hacendado",
           "marca": "",
           "precio": 3.35,
           "unidad": "kg",
@@ -19274,15 +19256,6 @@
           "url": "https://www.alimerkaonline.es/10009884.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "agua mineral natural botella 2 l - Font Vella",
-          "marca": "font vella",
-          "precio": 1.12,
-          "unidad": "L",
-          "precio_unidad": 0.56,
-          "url": "https://www.hipercor.es/supermercado/B001018630000679-font-vella-agua-mineral-natural-botella-2-l/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Agua mineral grande Fontébil",
           "marca": "",
@@ -19326,6 +19299,15 @@
           "unidad": "L",
           "precio_unidad": 0.52,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "agua mineral natural del manantial Monte Pinos garrafa 5 l - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.57,
+          "unidad": "L",
+          "precio_unidad": 0.31,
+          "url": "https://www.hipercor.es/supermercado/B001018630400499-el-corte-ingles-agua-mineral-natural-del-manantial-monte-pinos-garrafa-5-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -20631,15 +20613,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Cerveza Shandy Steinburg sabor limón",
-          "marca": "",
-          "precio": 3.6,
-          "unidad": "L",
-          "precio_unidad": 1.2,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Cerveza 0,0% sin alcohol tostada Falke",
           "marca": "",
           "precio": 3.68,
@@ -20682,6 +20655,15 @@
           "unidad": "L",
           "precio_unidad": 2.59,
           "url": "https://www.hipercor.es/supermercado/B001018604400244-estrella-galicia-00-cerveza-sin-alcohol-pack-6-botellas-25-cl/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Cerveza 0,0% sin alcohol Estrella Galicia",
+          "marca": "",
+          "precio": 3.96,
+          "unidad": "L",
+          "precio_unidad": 2.64,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -26334,6 +26316,42 @@
           "url": ""
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Desodorante roll-on Dermo extra control Sanex antitranspirante",
+          "marca": "",
+          "precio": 2.3,
+          "unidad": "L",
+          "precio_unidad": 46.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Desodorante roll-on Dermo Sensitive Sanex antitranspirante",
+          "marca": "",
+          "precio": 2.3,
+          "unidad": "L",
+          "precio_unidad": 46.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Desodorante roll-on Active control Sanex men antitranspirante",
+          "marca": "",
+          "precio": 2.3,
+          "unidad": "L",
+          "precio_unidad": 46.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Desodorante roll-on Zero Sanex",
+          "marca": "",
+          "precio": 2.3,
+          "unidad": "L",
+          "precio_unidad": 46.0,
+          "url": ""
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "desodorante roll-on ph Dermo + Sensitive 72h antitranspirante unisex envase 50 ml - Sanex",
           "marca": "sanex",
@@ -26350,42 +26368,6 @@
           "unidad": "100 ml.",
           "precio_unidad": 4.7,
           "url": "https://www.hipercor.es/supermercado/B001055755102682-sanex-desodorante-roll-on-zero-extra-control-48h-unisex-envase-50-ml-0-alcohol-y-sales-de-aluminio/"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Desodorante roll-on Dermo extra control Sanex antitranspirante",
-          "marca": "",
-          "precio": 2.35,
-          "unidad": "L",
-          "precio_unidad": 47.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Desodorante roll-on Dermo Sensitive Sanex antitranspirante",
-          "marca": "",
-          "precio": 2.35,
-          "unidad": "L",
-          "precio_unidad": 47.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Desodorante roll-on Active control Sanex men antitranspirante",
-          "marca": "",
-          "precio": 2.35,
-          "unidad": "L",
-          "precio_unidad": 47.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Desodorante roll-on Zero Sanex",
-          "marca": "",
-          "precio": 2.35,
-          "unidad": "L",
-          "precio_unidad": 47.0,
-          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -26431,6 +26413,15 @@
           "unidad": "L",
           "precio_unidad": 47.0,
           "url": "https://www.alimerkaonline.es/10015904.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "DESODORANTE NATU-NOR 50 ML.",
+          "marca": "SANEX",
+          "precio": 2.35,
+          "unidad": "L",
+          "precio_unidad": 47.0,
+          "url": "https://www.alimerkaonline.es/10004571.html"
         },
         {
           "supermercado": "Hipercor",
@@ -26875,15 +26866,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "DESODORANTE BLACK VANILLA 50 ML.",
-          "marca": "AXE",
-          "precio": 4.35,
-          "unidad": "L",
-          "precio_unidad": 87.0,
-          "url": "https://www.alimerkaonline.es/10029722.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "DESODORANTE ZONA BAJA PERA Y MADERA 100 ML.",
           "marca": "AXE",
           "precio": 5.35,
@@ -27140,6 +27122,15 @@
           "url": "https://www.alimerkaonline.es/10014947.html"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAÑALES TALLA 8 21 UDS.",
+          "marca": "DODOT PANTS",
+          "precio": 10.99,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10032067.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Pañal adulto braguita Deliplus Pants Plus talla L",
           "marca": "",
@@ -27255,15 +27246,6 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10004110.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "PAÑALES BEBÉ SECO TALLA 6 48 UDS",
-          "marca": "DODOT",
-          "precio": 18.95,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.alimerkaonline.es/10027432.html"
         },
         {
           "supermercado": "Mercadona",
