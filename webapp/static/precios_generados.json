@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-04T20:21:31+00:00",
+  "generado_en": "2026-09-05T02:54:27+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -3580,6 +3580,15 @@
           "url": "https://www.alimerkaonline.es/10029699.html"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "MANTEQUILLA TRADICIONAL 250 G.",
+          "marca": "CENTRAL LECHERA ASTURIANA",
+          "precio": 3.75,
+          "unidad": "kg",
+          "precio_unidad": 15.0,
+          "url": "https://www.alimerkaonline.es/230035.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "mantequilla mediterránea fácil de untar con aceite de oliva de Andalucía tarrina 250 g - Asturiana",
           "marca": "asturiana",
@@ -3647,15 +3656,6 @@
     {
       "producto": "huevos",
       "opciones": [
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "HUEVOS DE CHOCOLATE PACK 2",
-          "marca": "LA PATRULLA CANINA",
-          "precio": 1.79,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.alimerkaonline.es/10013616.html"
-        },
         {
           "supermercado": "Mercadona",
           "nombre_real": "Huevos grandes L",
@@ -4311,15 +4311,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "PAN DE MOLDE CLÁSICO SIN GLUTEN 300 G.",
-          "marca": "SCHÄR",
-          "precio": 2.85,
-          "unidad": "kg",
-          "precio_unidad": 9.5,
-          "url": "https://www.alimerkaonline.es/10003380.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "PAN DE MOLDE CON CEREALES SIN GLUTEN 300 G.",
           "marca": "SCHÄR",
           "precio": 2.89,
@@ -4416,6 +4407,15 @@
           "unidad": "kg",
           "precio_unidad": 6.72,
           "url": "https://www.alimerkaonline.es/10031750.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE MULTIFIBRAS SIN GLUTEN 330 G.",
+          "marca": "SCHÄR",
+          "precio": 3.75,
+          "unidad": "kg",
+          "precio_unidad": 11.36,
+          "url": "https://www.alimerkaonline.es/10027512.html"
         }
       ]
     },
@@ -5464,15 +5464,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018005600228-sos-arroz-largo-paquete-1-kg/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "ARROZ LARGO 1 KILO",
-          "marca": "SOS",
-          "precio": 1.95,
-          "unidad": "kg",
-          "precio_unidad": 1.95,
-          "url": "https://www.alimerkaonline.es/750011.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Arroz vaporizado Brillante",
           "marca": "",
@@ -5606,6 +5597,15 @@
           "unidad": "kg",
           "precio_unidad": 2.49,
           "url": "https://www.hipercor.es/supermercado/B001018005700523-la-fallera-arroz-redondo-especial-para-paella-dop-de-valencia-paquete-1-kg/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ ESPECIAL D.O. 1 KILO",
+          "marca": "LA FALLERA",
+          "precio": 2.49,
+          "unidad": "kg",
+          "precio_unidad": 2.49,
+          "url": "https://www.alimerkaonline.es/755161.html"
         },
         {
           "supermercado": "Hipercor",
@@ -7678,15 +7678,6 @@
           "url": "https://www.alimerkaonline.es/10005426.html"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "AZÚCAR AVAINILLADO 90 G.",
-          "marca": "VAHINÉ",
-          "precio": 2.29,
-          "unidad": "kg",
-          "precio_unidad": 25.44,
-          "url": "https://www.alimerkaonline.es/751110.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Azúcar glas Hacendado",
           "marca": "",
@@ -8140,15 +8131,6 @@
       "opciones": [
         {
           "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE TÉ VERDE MARACUYÁ 33 CL.",
-          "marca": "FUZE TEA",
-          "precio": 0.99,
-          "unidad": "L",
-          "precio_unidad": 3.0,
-          "url": "https://www.alimerkaonline.es/10029828.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "ATÚN CLARO EN ACEITE DE GIRASOL 72 G.",
           "marca": "ALIMERKA",
           "precio": 1.19,
@@ -8200,6 +8182,15 @@
           "unidad": "kg",
           "precio_unidad": 9.72,
           "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "BEBIDA ENERGÉTICA GREEN ZERO AZÚCAR 50 CL.",
+          "marca": "MONSTER",
+          "precio": 1.79,
+          "unidad": "L",
+          "precio_unidad": 3.58,
+          "url": "https://www.alimerkaonline.es/10025400.html"
         },
         {
           "supermercado": "Alimerka",
@@ -8409,15 +8400,6 @@
           "url": ""
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "ATÚN EN ACEITE DE OLIVA VIRGEN EXTRA 83 G.",
-          "marca": "ALBO",
-          "precio": 3.75,
-          "unidad": "kg",
-          "precio_unidad": 45.18,
-          "url": "https://www.alimerkaonline.es/711144.html"
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "atún claro al natural pack 6 lata 60 g neto escurrido - El Corte Ingles",
           "marca": "el corte ingles",
@@ -8599,6 +8581,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "BONITO DEL NORTE EN ACEITE DE OLIVA 260 G.",
+          "marca": "EL PROGRESO",
+          "precio": 8.1,
+          "unidad": "kg",
+          "precio_unidad": 31.15,
+          "url": "https://www.alimerkaonline.es/10010210.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "BONITO EN ACEITE DE OLIVA 260 G.",
           "marca": "CONSORCIO",
           "precio": 9.85,
@@ -8667,15 +8658,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE TÉ VERDE MARACUYÁ 33 CL.",
-          "marca": "FUZE TEA",
-          "precio": 0.99,
-          "unidad": "L",
-          "precio_unidad": 3.0,
-          "url": "https://www.alimerkaonline.es/10029828.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "SARDINILLAS EN ACEITE DE OLIVA BAJO SAL 57 G.",
           "marca": "BALEA",
           "precio": 1.0,
@@ -8711,6 +8693,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018016500656-ubago-sardinas-en-aceite-de-girasol-lata-80-g-neto-escurrido/"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO SABOR LIMA LIMÓN SIN AZÚCAR 2 LITROS",
+          "marca": "SPRITE",
+          "precio": 1.65,
+          "unidad": "L",
+          "precio_unidad": 0.82,
+          "url": "https://www.alimerkaonline.es/10015192.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Sardinillas en tomate Hacendado",
           "marca": "",
@@ -8718,15 +8709,6 @@
           "unidad": "kg",
           "precio_unidad": 9.72,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "BEBIDA ENERGÉTICA GREEN ZERO AZÚCAR 50 CL.",
-          "marca": "MONSTER",
-          "precio": 1.79,
-          "unidad": "L",
-          "precio_unidad": 3.58,
-          "url": "https://www.alimerkaonline.es/10025400.html"
         },
         {
           "supermercado": "Hipercor",
@@ -8898,6 +8880,15 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA 2 LITROS PACK 2",
+          "marca": "FANTA",
+          "precio": 3.6,
+          "unidad": "L",
+          "precio_unidad": 0.9,
+          "url": "https://www.alimerkaonline.es/765026.html"
         },
         {
           "supermercado": "Hipercor",
@@ -9705,21 +9696,21 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "SALCHICHAS DE PAVO 200 GRS.",
-          "marca": "OSCAR MAYER",
-          "precio": 1.2,
-          "unidad": "kg",
-          "precio_unidad": 6.0,
-          "url": "https://www.alimerkaonline.es/260005.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "SALCHICHAS WIENERS CLASSIC 200 GRS.",
           "marca": "OSCAR MAYER",
           "precio": 1.2,
           "unidad": "kg",
           "precio_unidad": 6.0,
           "url": "https://www.alimerkaonline.es/280012.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "SALCHICHAS DE PAVO 200 GRS.",
+          "marca": "OSCAR MAYER",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 6.0,
+          "url": "https://www.alimerkaonline.es/260005.html"
         },
         {
           "supermercado": "Alimerka",
@@ -10312,15 +10303,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018394400818-el-corte-ingles-chorizo-en-taquitos-sin-gluten-pack-2-envase-100-g/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "CHORIZO ASTURIANO PINCHO 270 G.",
-          "marca": "MAYBE",
-          "precio": 2.69,
-          "unidad": "kg",
-          "precio_unidad": 9.96,
-          "url": "https://www.alimerkaonline.es/10013377.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Chorizo asturiano",
           "marca": "",
@@ -10400,15 +10382,6 @@
           "unidad": "kg",
           "precio_unidad": 8.8,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "CHORIZO CRIOLLO 480 G.",
-          "marca": "ALIMERKA",
-          "precio": 3.5,
-          "unidad": "kg",
-          "precio_unidad": 7.29,
-          "url": "https://www.alimerkaonline.es/470005.html"
         },
         {
           "supermercado": "Hipercor",
@@ -10564,6 +10537,15 @@
           "url": "https://www.alimerkaonline.es/330098.html"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "CHORIZO PAMPLONA EXTRA PICANTE EL KILO",
+          "marca": "ARGAL",
+          "precio": 14.95,
+          "unidad": "kg",
+          "precio_unidad": 14.95,
+          "url": "https://www.alimerkaonline.es/330099.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "chorizo asturiao extra peso aproximado pieza 130 g - La Praviana",
           "marca": "la praviana",
@@ -10634,6 +10616,15 @@
           "unidad": "kg",
           "precio_unidad": 22.95,
           "url": "https://www.alimerkaonline.es/10009388.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "CHORIZO NATURAL MAGNO EL KILO",
+          "marca": "ALEJANDRO",
+          "precio": 23.95,
+          "unidad": "kg",
+          "precio_unidad": 23.95,
+          "url": "https://www.alimerkaonline.es/10009389.html"
         },
         {
           "supermercado": "Alimerka",
@@ -10920,6 +10911,15 @@
           "url": ""
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "SOLOMILLO DE ATUN 225 G.",
+          "marca": "EXKIMO",
+          "precio": 3.9,
+          "unidad": "kg",
+          "precio_unidad": 17.33,
+          "url": "https://www.alimerkaonline.es/10018860.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Medallones de salmón Hacendado cocinar congelados",
           "marca": "",
@@ -11161,15 +11161,6 @@
           "unidad": "kg",
           "precio_unidad": 13.49,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "TRONQUITOS DE ALASKA 450 GRS.",
-          "marca": "FRUDESA",
-          "precio": 4.99,
-          "unidad": "kg",
-          "precio_unidad": 11.09,
-          "url": "https://www.alimerkaonline.es/120079.html"
         },
         {
           "supermercado": "Mercadona",
@@ -12794,6 +12785,24 @@
           "url": "https://www.alimerkaonline.es/10020458.html"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "PATATAS FRITAS AL PUNTO DE SAL 248 G.",
+          "marca": "LAY'S",
+          "precio": 2.89,
+          "unidad": "kg",
+          "precio_unidad": 11.65,
+          "url": "https://www.alimerkaonline.es/10022511.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PATATAS CORTE ONDULADO ORIGINAL 150 G.",
+          "marca": "LAY'S",
+          "precio": 2.89,
+          "unidad": "kg",
+          "precio_unidad": 19.27,
+          "url": "https://www.alimerkaonline.es/10027050.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "patatas fritas onduladas sabor a jamón sin gluten bolsa 243 g - Ruffles",
           "marca": "ruffles",
@@ -13691,6 +13700,15 @@
           "url": ""
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO RECETA ARTESANA 560 G.",
+          "marca": "ALIMERKA",
+          "precio": 2.0,
+          "unidad": "kg",
+          "precio_unidad": 3.57,
+          "url": "https://www.alimerkaonline.es/10018647.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Tomate rosa",
           "marca": "",
@@ -14131,9 +14149,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "Pimiento tricolor California bolsa 500 g - Sanlucar",
           "marca": "sanlucar",
-          "precio": 2.89,
+          "precio": 2.99,
           "unidad": "kg",
-          "precio_unidad": 5.78,
+          "precio_unidad": 5.98,
           "url": "https://www.hipercor.es/supermercado/B001018166101867-sanlucar-pimiento-tricolor-california-bolsa-500-g/"
         },
         {
@@ -14815,21 +14833,21 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "POUCH FRESA Y PLÁTANO 100 G.",
-          "marca": "BABY CUAC",
-          "precio": 0.85,
-          "unidad": "kg",
-          "precio_unidad": 8.5,
-          "url": "https://www.alimerkaonline.es/10029065.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "POUCH DE PLÁTANO, MANZANA Y FRESA 120 G.",
           "marca": "BABY CUAC",
           "precio": 0.85,
           "unidad": "kg",
           "precio_unidad": 7.08,
           "url": "https://www.alimerkaonline.es/10024192.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "POUCH FRESA Y PLÁTANO 100 G.",
+          "marca": "BABY CUAC",
+          "precio": 0.85,
+          "unidad": "kg",
+          "precio_unidad": 8.5,
+          "url": "https://www.alimerkaonline.es/10029065.html"
         },
         {
           "supermercado": "Mercadona",
@@ -14851,15 +14869,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "POUCH DE FRESA Y PLÁTANO 100 G.",
-          "marca": "BE PLUS",
-          "precio": 1.15,
-          "unidad": "kg",
-          "precio_unidad": 11.5,
-          "url": "https://www.alimerkaonline.es/10008682.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "POUCH DE PLATANO Y FRESA 100 G.",
           "marca": "HERO",
           "precio": 1.25,
@@ -14875,6 +14884,15 @@
           "unidad": "kg",
           "precio_unidad": 12.5,
           "url": "https://www.alimerkaonline.es/10003325.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "POUCH PLATANO NARANJA 100 G.",
+          "marca": "HERO",
+          "precio": 1.25,
+          "unidad": "kg",
+          "precio_unidad": 12.5,
+          "url": "https://www.alimerkaonline.es/10001622.html"
         },
         {
           "supermercado": "Alimerka",
@@ -15460,21 +15478,21 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "KÉFIR FRESA Y FRAMBUESA 125 G. PACK 4",
-          "marca": "ACTIVIA",
-          "precio": 2.99,
-          "unidad": "kg",
-          "precio_unidad": 5.98,
-          "url": "https://www.alimerkaonline.es/10031669.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "YOGUR CON FRESAS 120 G. PACK 4",
           "marca": "ACTIVIA",
           "precio": 2.99,
           "unidad": "kg",
           "precio_unidad": 6.23,
           "url": "https://www.alimerkaonline.es/222150.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "KÉFIR FRESA Y FRAMBUESA 125 G. PACK 4",
+          "marca": "ACTIVIA",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 5.98,
+          "url": "https://www.alimerkaonline.es/10031669.html"
         },
         {
           "supermercado": "Mercadona",
@@ -17978,21 +17996,21 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "CAFÉ INTENSO 20 CAPSULAS",
-          "marca": "ALIMERKA",
-          "precio": 3.9,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.alimerkaonline.es/10021077.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "CAFÉ DESCAFEINADO 20 CAPSULAS",
           "marca": "ALIMERKA",
           "precio": 3.9,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10021079.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "CAFÉ INTENSO 20 CAPSULAS",
+          "marca": "ALIMERKA",
+          "precio": 3.9,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10021077.html"
         },
         {
           "supermercado": "Alimerka",
@@ -19149,21 +19167,21 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "AGUA MINERAL SABOR LIMÓN 1,5 LITROS",
-          "marca": "ALIMERKA",
-          "precio": 0.8,
-          "unidad": "L",
-          "precio_unidad": 0.53,
-          "url": "https://www.alimerkaonline.es/8000413.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "AGUA MINERAL SABOR MANZANA 1,5 LITROS",
           "marca": "ALIMERKA",
           "precio": 0.8,
           "unidad": "L",
           "precio_unidad": 0.53,
           "url": "https://www.alimerkaonline.es/8000414.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "AGUA MINERAL SABOR LIMÓN 1,5 LITROS",
+          "marca": "ALIMERKA",
+          "precio": 0.8,
+          "unidad": "L",
+          "precio_unidad": 0.53,
+          "url": "https://www.alimerkaonline.es/8000413.html"
         },
         {
           "supermercado": "Mercadona",
@@ -20261,15 +20279,6 @@
           "url": ""
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "CERVEZA 25 CL.",
-          "marca": "ESTRELLA GALICIA",
-          "precio": 0.68,
-          "unidad": "L",
-          "precio_unidad": 2.72,
-          "url": "https://www.alimerkaonline.es/10023968.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Cerveza especial Estrella Galicia",
           "marca": "",
@@ -20376,6 +20385,15 @@
           "unidad": "L",
           "precio_unidad": 2.61,
           "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "CERVEZA TOSTADA 0,0% 33 CL.",
+          "marca": "MAHOU",
+          "precio": 0.86,
+          "unidad": "L",
+          "precio_unidad": 2.61,
+          "url": "https://www.alimerkaonline.es/10010859.html"
         },
         {
           "supermercado": "Mercadona",
@@ -21802,21 +21820,21 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "PAPEL HIGIÉNICO ORIGINAL 12 ROLLOS",
-          "marca": "SCOTTEX",
-          "precio": 3.99,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.alimerkaonline.es/10024739.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "PAPEL HIGIÉNICO ACOLCHADO 8 ROLLOS",
           "marca": "SCOTTEX",
           "precio": 3.99,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10006950.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAPEL HIGIÉNICO ORIGINAL 12 ROLLOS",
+          "marca": "SCOTTEX",
+          "precio": 3.99,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10024739.html"
         },
         {
           "supermercado": "Alimerka",
@@ -23446,6 +23464,15 @@
           "url": "https://www.hipercor.es/supermercado/B001028013202446-fairy-lavavajillas-a-mano-concentrado-limpieza-y-cuidado-con-aloe-vera-y-pepino-botella-820-ml/"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "LAVAVAJILLAS ORIGINAL 900 ML.",
+          "marca": "MISTOL",
+          "precio": 2.69,
+          "unidad": "L",
+          "precio_unidad": 2.99,
+          "url": "https://www.alimerkaonline.es/10019318.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "lavavajillas a mano concentrado Original botella 900 ml - Mistol",
           "marca": "mistol",
@@ -23510,6 +23537,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "LAVAVAJILLAS GEL 648 ML.",
+          "marca": "IFA SABE",
+          "precio": 3.65,
+          "unidad": "L",
+          "precio_unidad": 5.63,
+          "url": "https://www.alimerkaonline.es/10029714.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "LAVAVAJILLAS MÁQUINA POWER GEL 750 ML.",
           "marca": "DISICLÍN",
           "precio": 3.69,
@@ -23570,15 +23606,6 @@
           "unidad": "L",
           "precio_unidad": 4.87,
           "url": "https://www.alimerkaonline.es/10027343.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "LAVAVAJILLAS EXCELLENCE 4 EN 1 10 CÁPSULAS",
-          "marca": "SOMAT",
-          "precio": 3.99,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.alimerkaonline.es/10029597.html"
         },
         {
           "supermercado": "Hipercor",
@@ -23696,15 +23723,6 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10025879.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "LAVAVAJILLAS POWER TODO EN 1 25 PASTILLAS",
-          "marca": "FINISH",
-          "precio": 9.49,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.alimerkaonline.es/10006749.html"
         },
         {
           "supermercado": "Alimerka",
@@ -24637,21 +24655,21 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "GEL DE DUCHA CON ACEITE DE OLIVA 600 ML.",
-          "marca": "PALMOLIVE",
-          "precio": 2.75,
-          "unidad": "L",
-          "precio_unidad": 4.58,
-          "url": "https://www.alimerkaonline.es/10005694.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "GEL DE DUCHA CON LECHE Y MIEL 600 ML.",
           "marca": "PALMOLIVE",
           "precio": 2.75,
           "unidad": "L",
           "precio_unidad": 4.58,
           "url": "https://www.alimerkaonline.es/10012066.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "GEL DE DUCHA CON ACEITE DE OLIVA 600 ML.",
+          "marca": "PALMOLIVE",
+          "precio": 2.75,
+          "unidad": "L",
+          "precio_unidad": 4.58,
+          "url": "https://www.alimerkaonline.es/10005694.html"
         },
         {
           "supermercado": "Alimerka",
@@ -25127,6 +25145,15 @@
           "url": "https://www.alimerkaonline.es/10004651.html"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "CHAMPÚ EN SECO 200 ML.",
+          "marca": "NELLY",
+          "precio": 2.35,
+          "unidad": "L",
+          "precio_unidad": 11.75,
+          "url": "https://www.alimerkaonline.es/10025074.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Champú anticaspa Menthol Ultrex todo tipo de cabello",
           "marca": "",
@@ -25181,15 +25208,6 @@
           "url": "https://www.alimerkaonline.es/945065.html"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "CHAMPÚ HIDRATANTE Y REVITALIZANTE 300 ML.",
-          "marca": "TIMOTEI",
-          "precio": 2.95,
-          "unidad": "L",
-          "precio_unidad": 9.83,
-          "url": "https://www.alimerkaonline.es/10001803.html"
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "champú seco Original spray 200 ml - Batiste",
           "marca": "batiste",
@@ -25215,15 +25233,6 @@
           "unidad": "100 ml.",
           "precio_unidad": 0.44,
           "url": "https://www.hipercor.es/supermercado/B001055740100338-instituto-espanol-champu-suave-piel-sana-uso-frecuente-botella-750-ml-sin-parabenos/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "CHAMPÚ DE CEBOLLA 700 ML.",
-          "marca": "BABARIA",
-          "precio": 3.3,
-          "unidad": "L",
-          "precio_unidad": 4.71,
-          "url": "https://www.alimerkaonline.es/10021290.html"
         },
         {
           "supermercado": "Mercadona",
@@ -25299,21 +25308,21 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "CHAMPÚ CON CAMOMILA 500 ML.",
-          "marca": "JOHNSON'S",
-          "precio": 3.89,
-          "unidad": "L",
-          "precio_unidad": 7.78,
-          "url": "https://www.alimerkaonline.es/10014809.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "CHAMPÚ NORMAL 500 ML.",
           "marca": "JOHNSON'S",
           "precio": 3.89,
           "unidad": "L",
           "precio_unidad": 7.78,
           "url": "https://www.alimerkaonline.es/945049.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "CHAMPÚ CON CAMOMILA 500 ML.",
+          "marca": "JOHNSON'S",
+          "precio": 3.89,
+          "unidad": "L",
+          "precio_unidad": 7.78,
+          "url": "https://www.alimerkaonline.es/10014809.html"
         },
         {
           "supermercado": "Mercadona",
@@ -25404,6 +25413,15 @@
           "unidad": "L",
           "precio_unidad": 12.15,
           "url": "https://www.alimerkaonline.es/10027169.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "CHAMPÚ FUERZA & BRILLO 380 ML.",
+          "marca": "FRUCTIS",
+          "precio": 3.99,
+          "unidad": "L",
+          "precio_unidad": 10.5,
+          "url": "https://www.alimerkaonline.es/10009881.html"
         },
         {
           "supermercado": "Hipercor",
@@ -25623,12 +25641,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "CHAMPÚ LISO KERATINA 685 ML.",
+          "nombre_real": "CHAMPÚ LAMELAR SHINE 685 ML.",
           "marca": "TRESEMMÉ",
           "precio": 6.5,
           "unidad": "L",
           "precio_unidad": 9.49,
-          "url": "https://www.alimerkaonline.es/10012246.html"
+          "url": "https://www.alimerkaonline.es/10027266.html"
         },
         {
           "supermercado": "Alimerka",
@@ -26263,6 +26281,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "DESODORANTE ON FIRE 200 ML.",
+          "marca": "NIKE",
+          "precio": 1.99,
+          "unidad": "L",
+          "precio_unidad": 9.95,
+          "url": "https://www.alimerkaonline.es/10010053.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "DESODORANTE ORIGINAL 200 ML.",
           "marca": "NIKE",
           "precio": 1.99,
@@ -26389,15 +26416,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "DESODORANTE ZERO 0% EXTRA CONTROL 50 ML.",
-          "marca": "SANEX",
-          "precio": 2.35,
-          "unidad": "L",
-          "precio_unidad": 47.0,
-          "url": "https://www.alimerkaonline.es/10015904.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "DESODORANTE FOR MEN ACTIVE CONTROL 50 ML.",
           "marca": "SANEX",
           "precio": 2.35,
@@ -26407,12 +26425,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "DESODORANTE NATU-NOR 50 ML.",
+          "nombre_real": "DESODORANTE ZERO 0% EXTRA CONTROL 50 ML.",
           "marca": "SANEX",
           "precio": 2.35,
           "unidad": "L",
           "precio_unidad": 47.0,
-          "url": "https://www.alimerkaonline.es/10004571.html"
+          "url": "https://www.alimerkaonline.es/10015904.html"
         },
         {
           "supermercado": "Hipercor",
@@ -26485,15 +26503,6 @@
           "unidad": "L",
           "precio_unidad": 50.0,
           "url": "https://www.alimerkaonline.es/930033.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "DESODORANTE FOR MEN DRY IMPACT 50 ML.",
-          "marca": "NIVEA",
-          "precio": 2.5,
-          "unidad": "L",
-          "precio_unidad": 50.0,
-          "url": "https://www.alimerkaonline.es/930034.html"
         },
         {
           "supermercado": "Mercadona",
@@ -26872,6 +26881,15 @@
           "unidad": "L",
           "precio_unidad": 87.0,
           "url": "https://www.alimerkaonline.es/10029722.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "DESODORANTE ZONA BAJA PERA Y MADERA 100 ML.",
+          "marca": "AXE",
+          "precio": 5.35,
+          "unidad": "L",
+          "precio_unidad": 53.5,
+          "url": "https://www.alimerkaonline.es/10031076.html"
         }
       ]
     },
@@ -27248,15 +27266,6 @@
           "url": "https://www.alimerkaonline.es/10027432.html"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "PAÑALES BEBÉ SECO TALLA 5 54 UDS.",
-          "marca": "DODOT",
-          "precio": 18.95,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.alimerkaonline.es/10004109.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Pañales bebé talla 3 Dodot Sensitive de 6-10 kg",
           "marca": "",
@@ -27294,21 +27303,21 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "PAÑALES TALLA 1 58 UDS.",
-          "marca": "DODOT SENSITIVE",
-          "precio": 20.95,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.alimerkaonline.es/10027657.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "PAÑALES TALLA 2, 4 A 8 KILOS 58 UDS.",
           "marca": "DODOT SENSITIVE",
           "precio": 20.95,
           "unidad": "kg",
           "precio_unidad": 2.62,
           "url": "https://www.alimerkaonline.es/10025889.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAÑALES TALLA 1 58 UDS.",
+          "marca": "DODOT SENSITIVE",
+          "precio": 20.95,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10027657.html"
         },
         {
           "supermercado": "Alimerka",
@@ -27321,6 +27330,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "PAÑALES TALLA 5 42 UDS.",
+          "marca": "DODOT SENSITIVE",
+          "precio": 25.99,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10021512.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "PAÑALES TALLA 6 37 UDS.",
           "marca": "DODOT SENSITIVE",
           "precio": 25.99,
@@ -27330,12 +27348,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "PAÑALES TALLA 5 42 UDS.",
+          "nombre_real": "PAÑALES TALLA 4 48 UDS.",
           "marca": "DODOT SENSITIVE",
           "precio": 25.99,
           "unidad": "",
           "precio_unidad": null,
-          "url": "https://www.alimerkaonline.es/10021512.html"
+          "url": "https://www.alimerkaonline.es/10021511.html"
         },
         {
           "supermercado": "Hipercor",
