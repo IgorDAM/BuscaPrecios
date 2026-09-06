@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-06T15:00:56+00:00",
+  "generado_en": "2026-09-06T20:04:18+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -8175,15 +8175,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018006600821-el-corte-ingles-atun-claro-en-aceite-de-oliva-lata-82-g-neto-escurrido/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO SABOR LIMA LIMÓN SIN AZÚCAR 2 LITROS",
-          "marca": "SPRITE",
-          "precio": 1.65,
-          "unidad": "L",
-          "precio_unidad": 0.82,
-          "url": "https://www.alimerkaonline.es/10015192.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Sardinillas en tomate Hacendado",
           "marca": "",
@@ -8353,6 +8344,15 @@
           "unidad": "kg",
           "precio_unidad": 22.44,
           "url": "https://www.alimerkaonline.es/10019770.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA 2 LITROS PACK 2",
+          "marca": "FANTA",
+          "precio": 3.6,
+          "unidad": "L",
+          "precio_unidad": 0.9,
+          "url": "https://www.alimerkaonline.es/765026.html"
         },
         {
           "supermercado": "Hipercor",
@@ -12648,6 +12648,15 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.hipercor.es/supermercado/B001018108200132-patatas-al-peso/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PATATAS FRITAS CAMPESINAS 150 G.",
+          "marca": "LAY'S",
+          "precio": 2.05,
+          "unidad": "kg",
+          "precio_unidad": 13.67,
+          "url": "https://www.alimerkaonline.es/10020477.html"
         },
         {
           "supermercado": "Alimerka",
@@ -20541,6 +20550,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Cerveza Shandy Steinburg sabor limón",
+          "marca": "",
+          "precio": 3.6,
+          "unidad": "L",
+          "precio_unidad": 1.2,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Cerveza 0,0% sin alcohol tostada Falke",
           "marca": "",
           "precio": 3.68,
@@ -20583,15 +20601,6 @@
           "unidad": "L",
           "precio_unidad": 2.59,
           "url": "https://www.hipercor.es/supermercado/B001018604400244-estrella-galicia-00-cerveza-sin-alcohol-pack-6-botellas-25-cl/"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Cerveza 0,0% sin alcohol Estrella Galicia",
-          "marca": "",
-          "precio": 3.96,
-          "unidad": "L",
-          "precio_unidad": 2.64,
-          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -26451,15 +26460,6 @@
           "url": "https://www.alimerkaonline.es/930033.html"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "DESODORANTE INVISIBLE PARA HOMBRE 50 ML.",
-          "marca": "NIVEA",
-          "precio": 2.5,
-          "unidad": "L",
-          "precio_unidad": 50.0,
-          "url": "https://www.alimerkaonline.es/10008855.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Desodorante en crema original Dove antitranspirante",
           "marca": "",
@@ -26818,6 +26818,15 @@
           "unidad": "100 ml.",
           "precio_unidad": 2.87,
           "url": "https://www.hipercor.es/supermercado/B001055754806192-axe-desodorante-bodyspray-fresh-ice-chill-menta-fresca-y-limon-48h-spray-150-ml/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "DESODORANTE BLACK VANILLA 50 ML.",
+          "marca": "AXE",
+          "precio": 4.35,
+          "unidad": "L",
+          "precio_unidad": 87.0,
+          "url": "https://www.alimerkaonline.es/10029722.html"
         },
         {
           "supermercado": "Alimerka",
