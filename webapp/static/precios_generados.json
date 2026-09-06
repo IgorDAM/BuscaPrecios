@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-06T02:51:55+00:00",
+  "generado_en": "2026-09-06T10:21:58+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -6262,15 +6262,6 @@
           "url": "https://www.alimerkaonline.es/725025.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "tomate frito lata 400 g - Hida",
-          "marca": "hida",
-          "precio": 1.55,
-          "unidad": "kg",
-          "precio_unidad": 3.88,
-          "url": "https://www.hipercor.es/supermercado/B001018043500125-hida-tomate-frito-lata-400-g/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "TOMATE FRITO ECO 300 G.",
           "marca": "IFA ELIGES",
@@ -6485,6 +6476,15 @@
           "unidad": "kg",
           "precio_unidad": 4.71,
           "url": "https://www.hipercor.es/supermercado/B001018043502535-el-corte-ingles-selection-tomate-frito-de-cosecha-con-aceite-de-oliva-sin-gluten-pack-ahorro-3-frasco-350-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito sin gluten pack 6 envase 350 g - Orlando",
+          "marca": "orlando",
+          "precio": 5.75,
+          "unidad": "kg",
+          "precio_unidad": 2.74,
+          "url": "https://www.hipercor.es/supermercado/B001018043501917-orlando-tomate-frito-sin-gluten-pack-6-envase-350-g/"
         }
       ]
     },
@@ -6659,15 +6659,6 @@
           "url": "https://www.alimerkaonline.es/10031200.html"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Aceite de oliva virgen extra Hacendado",
-          "marca": "",
-          "precio": 4.45,
-          "unidad": "L",
-          "precio_unidad": 4.45,
-          "url": ""
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 1 LITRO",
           "marca": "ALIMERKA",
@@ -6693,6 +6684,15 @@
           "unidad": "L",
           "precio_unidad": 4.7,
           "url": "https://www.hipercor.es/supermercado/B001018045800101-el-corte-ingles-aceite-de-oliva-virgen-extra-botella-1-l/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Aceite de oliva virgen extra Hacendado",
+          "marca": "",
+          "precio": 4.7,
+          "unidad": "L",
+          "precio_unidad": 4.7,
+          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -6869,9 +6869,9 @@
           "supermercado": "Mercadona",
           "nombre_real": "Aceite de oliva virgen extra Hacendado",
           "marca": "",
-          "precio": 12.8,
+          "precio": 13.55,
           "unidad": "L",
-          "precio_unidad": 4.27,
+          "precio_unidad": 4.52,
           "url": ""
         },
         {
@@ -8175,6 +8175,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018006600821-el-corte-ingles-atun-claro-en-aceite-de-oliva-lata-82-g-neto-escurrido/"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO SABOR LIMA LIMÓN SIN AZÚCAR 2 LITROS",
+          "marca": "SPRITE",
+          "precio": 1.65,
+          "unidad": "L",
+          "precio_unidad": 0.82,
+          "url": "https://www.alimerkaonline.es/10015192.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Sardinillas en tomate Hacendado",
           "marca": "",
@@ -8182,15 +8191,6 @@
           "unidad": "kg",
           "precio_unidad": 9.72,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "BEBIDA ENERGÉTICA GREEN ZERO AZÚCAR 50 CL.",
-          "marca": "MONSTER",
-          "precio": 1.79,
-          "unidad": "L",
-          "precio_unidad": 3.58,
-          "url": "https://www.alimerkaonline.es/10025400.html"
         },
         {
           "supermercado": "Alimerka",
@@ -8675,15 +8675,6 @@
           "url": "https://www.alimerkaonline.es/712052.html"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "SARDINAS EN ACEITE DE OLIVA 88 G.",
-          "marca": "ALIMERKA",
-          "precio": 1.25,
-          "unidad": "kg",
-          "precio_unidad": 14.2,
-          "url": "https://www.alimerkaonline.es/10022870.html"
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "sardinas en aceite de girasol lata 80 g neto escurrido - Ubago",
           "marca": "ubago",
@@ -8817,15 +8808,6 @@
           "unidad": "kg",
           "precio_unidad": 31.61,
           "url": "https://www.alimerkaonline.es/712045.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "SARDINILLAS EN ACEITE DE OLIVA",
-          "marca": "ALBO",
-          "precio": 2.75,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.alimerkaonline.es/10006738.html"
         },
         {
           "supermercado": "Alimerka",
@@ -23555,6 +23537,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "lavavajillas a mano diluido dermo-sensible Aloe Vera botella 750 ml - Frosch",
+          "marca": "frosch",
+          "precio": 4.25,
+          "unidad": "L",
+          "precio_unidad": 5.67,
+          "url": "https://www.hipercor.es/supermercado/B001028013201687-frosch-lavavajillas-a-mano-diluido-dermo-sensible-aloe-vera-botella-750-ml/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "lavavajillas a mano concentrado original Ultra Poder botella 650 ml - Fairy",
           "marca": "fairy",
           "precio": 4.35,
@@ -26280,42 +26271,6 @@
           "url": ""
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Desodorante roll-on Dermo extra control Sanex antitranspirante",
-          "marca": "",
-          "precio": 2.3,
-          "unidad": "L",
-          "precio_unidad": 46.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Desodorante roll-on Dermo Sensitive Sanex antitranspirante",
-          "marca": "",
-          "precio": 2.3,
-          "unidad": "L",
-          "precio_unidad": 46.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Desodorante roll-on Active control Sanex men antitranspirante",
-          "marca": "",
-          "precio": 2.3,
-          "unidad": "L",
-          "precio_unidad": 46.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Desodorante roll-on Zero Sanex",
-          "marca": "",
-          "precio": 2.3,
-          "unidad": "L",
-          "precio_unidad": 46.0,
-          "url": ""
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "desodorante roll-on ph Dermo + Sensitive 72h antitranspirante unisex envase 50 ml - Sanex",
           "marca": "sanex",
@@ -26332,6 +26287,42 @@
           "unidad": "100 ml.",
           "precio_unidad": 4.7,
           "url": "https://www.hipercor.es/supermercado/B001055755102682-sanex-desodorante-roll-on-zero-extra-control-48h-unisex-envase-50-ml-0-alcohol-y-sales-de-aluminio/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Desodorante roll-on Dermo extra control Sanex antitranspirante",
+          "marca": "",
+          "precio": 2.35,
+          "unidad": "L",
+          "precio_unidad": 47.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Desodorante roll-on Dermo Sensitive Sanex antitranspirante",
+          "marca": "",
+          "precio": 2.35,
+          "unidad": "L",
+          "precio_unidad": 47.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Desodorante roll-on Active control Sanex men antitranspirante",
+          "marca": "",
+          "precio": 2.35,
+          "unidad": "L",
+          "precio_unidad": 47.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Desodorante roll-on Zero Sanex",
+          "marca": "",
+          "precio": 2.35,
+          "unidad": "L",
+          "precio_unidad": 47.0,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
