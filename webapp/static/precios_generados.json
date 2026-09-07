@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-07T17:16:34+00:00",
+  "generado_en": "2026-09-07T21:13:59+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -8104,6 +8104,15 @@
       "opciones": [
         {
           "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE TÉ VERDE MARACUYÁ 33 CL.",
+          "marca": "FUZE TEA",
+          "precio": 0.99,
+          "unidad": "L",
+          "precio_unidad": 3.0,
+          "url": "https://www.alimerkaonline.es/10029828.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "ATÚN CLARO EN ACEITE DE GIRASOL 72 G.",
           "marca": "ALIMERKA",
           "precio": 1.19,
@@ -8317,15 +8326,6 @@
           "unidad": "kg",
           "precio_unidad": 22.44,
           "url": "https://www.alimerkaonline.es/10019770.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA 2 LITROS PACK 2",
-          "marca": "FANTA",
-          "precio": 3.6,
-          "unidad": "L",
-          "precio_unidad": 0.9,
-          "url": "https://www.alimerkaonline.es/765026.html"
         },
         {
           "supermercado": "Hipercor",
@@ -8666,15 +8666,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018016500656-ubago-sardinas-en-aceite-de-girasol-lata-80-g-neto-escurrido/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO SABOR LIMA LIMÓN SIN AZÚCAR 2 LITROS",
-          "marca": "SPRITE",
-          "precio": 1.65,
-          "unidad": "L",
-          "precio_unidad": 0.82,
-          "url": "https://www.alimerkaonline.es/10015192.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Sardinillas en tomate Hacendado",
           "marca": "",
@@ -8844,6 +8835,15 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA 2 LITROS PACK 2",
+          "marca": "FANTA",
+          "precio": 3.6,
+          "unidad": "L",
+          "precio_unidad": 0.9,
+          "url": "https://www.alimerkaonline.es/765026.html"
         },
         {
           "supermercado": "Hipercor",
@@ -22370,12 +22370,12 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "servilletas Navidad The Elf On The Shelf 33X33 cm paquete 30 unidades - Oh Yeah! Party",
+          "nombre_real": "servilletas Navidad The Elf on The Shelf 33x33 paquete 30 unidades - Oh Yeah! Party",
           "marca": "oh yeah! party",
           "precio": 3.1,
           "unidad": "",
           "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001028022309547-oh-yeah-party-servilletas-navidad-the-elf-on-the-shelf-33x33-cm-paquete-30-unidades/"
+          "url": "https://www.hipercor.es/supermercado/B001028022309554-oh-yeah-party-servilletas-navidad-the-elf-on-the-shelf-33x33-paquete-30-unidades/"
         },
         {
           "supermercado": "Hipercor",
@@ -26785,12 +26785,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "DESODORANTE ZONA BAJA PERA Y MADERA 100 ML.",
+          "nombre_real": "DESODORANTE BLACK VANILLA 50 ML.",
           "marca": "AXE",
-          "precio": 5.35,
+          "precio": 4.35,
           "unidad": "L",
-          "precio_unidad": 53.5,
-          "url": "https://www.alimerkaonline.es/10031076.html"
+          "precio_unidad": 87.0,
+          "url": "https://www.alimerkaonline.es/10029722.html"
         }
       ]
     },
