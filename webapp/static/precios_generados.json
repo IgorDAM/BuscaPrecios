@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-07T11:36:32+00:00",
+  "generado_en": "2026-09-07T17:16:34+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -8104,15 +8104,6 @@
       "opciones": [
         {
           "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE TÉ VERDE MARACUYÁ 33 CL.",
-          "marca": "FUZE TEA",
-          "precio": 0.99,
-          "unidad": "L",
-          "precio_unidad": 3.0,
-          "url": "https://www.alimerkaonline.es/10029828.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "ATÚN CLARO EN ACEITE DE GIRASOL 72 G.",
           "marca": "ALIMERKA",
           "precio": 1.19,
@@ -8326,6 +8317,15 @@
           "unidad": "kg",
           "precio_unidad": 22.44,
           "url": "https://www.alimerkaonline.es/10019770.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA 2 LITROS PACK 2",
+          "marca": "FANTA",
+          "precio": 3.6,
+          "unidad": "L",
+          "precio_unidad": 0.9,
+          "url": "https://www.alimerkaonline.es/765026.html"
         },
         {
           "supermercado": "Hipercor",
@@ -16870,7 +16870,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas avena Hacendado",
+          "nombre_real": "Galletas Digestive manzana & avena Hacendado",
           "marca": "",
           "precio": 1.65,
           "unidad": "kg",
@@ -16879,7 +16879,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas Digestive manzana & avena Hacendado",
+          "nombre_real": "Galletas avena Hacendado",
           "marca": "",
           "precio": 1.65,
           "unidad": "kg",
@@ -20154,15 +20154,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Cerveza Shandy Steinburg sabor limón",
-          "marca": "",
-          "precio": 0.6,
-          "unidad": "L",
-          "precio_unidad": 1.2,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Cerveza especial Estrella Galicia",
           "marca": "",
           "precio": 0.69,
@@ -20510,6 +20501,15 @@
           "precio": 3.6,
           "unidad": "L",
           "precio_unidad": 1.36,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Cerveza Shandy Steinburg sabor limón",
+          "marca": "",
+          "precio": 3.6,
+          "unidad": "L",
+          "precio_unidad": 1.2,
           "url": ""
         },
         {
@@ -26785,12 +26785,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "DESODORANTE BLACK VANILLA 50 ML.",
+          "nombre_real": "DESODORANTE ZONA BAJA PERA Y MADERA 100 ML.",
           "marca": "AXE",
-          "precio": 4.35,
+          "precio": 5.35,
           "unidad": "L",
-          "precio_unidad": 87.0,
-          "url": "https://www.alimerkaonline.es/10029722.html"
+          "precio_unidad": 53.5,
+          "url": "https://www.alimerkaonline.es/10031076.html"
         }
       ]
     },
