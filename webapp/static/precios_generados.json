@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-08T03:02:57+00:00",
+  "generado_en": "2026-09-08T10:38:47+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -666,6 +666,15 @@
           "unidad": "L",
           "precio_unidad": 0.99,
           "url": "https://www.hipercor.es/supermercado/B001020616600522-el-corte-ingles-leche-semidesnatada-botella-15-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche semidesnatada sin lactosa pack 3 briks 200 ml - Asturiana",
+          "marca": "asturiana",
+          "precio": 1.49,
+          "unidad": "L",
+          "precio_unidad": 2.48,
+          "url": "https://www.hipercor.es/supermercado/B001020616400667-asturiana-leche-semidesnatada-sin-lactosa-pack-3-briks-200-ml/"
         },
         {
           "supermercado": "Hipercor",
@@ -1737,7 +1746,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Bebida de avena con calcio sin azúcares añadidos Hacendado",
+          "nombre_real": "Bebida de avena con calcio barista Hacendado sin azúcares añadidos",
           "marca": "",
           "precio": 1.2,
           "unidad": "L",
@@ -1980,7 +1989,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Bebida de avena con calcio sin azúcares añadidos Hacendado",
+          "nombre_real": "Bebida de avena con calcio barista Hacendado sin azúcares añadidos",
           "marca": "",
           "precio": 7.2,
           "unidad": "L",
@@ -4604,15 +4613,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "panko pan rallado japonés bolsa 200 g - Samlip",
-          "marca": "samlip",
-          "precio": 1.99,
-          "unidad": "kg",
-          "precio_unidad": 9.95,
-          "url": "https://www.hipercor.es/supermercado/B001018089303327-samlip-panko-pan-rallado-japones-bolsa-200-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "pan burger brioche 2 unidades envase 150 g - Goiko",
           "marca": "goiko",
           "precio": 2.05,
@@ -4703,21 +4703,21 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "pan burger brioche 4 unidades bolsa 260 g - Le Brio",
+          "marca": "le brio",
+          "precio": 3.15,
+          "unidad": "kg",
+          "precio_unidad": 12.12,
+          "url": "https://www.hipercor.es/supermercado/B001018574700615-le-brio-pan-burger-brioche-4-unidades-bolsa-260-g/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "pan de molde sin gluten sin lactosa y sin huevo bolsa 400 g - Panceliac",
           "marca": "panceliac",
           "precio": 3.18,
           "unidad": "kg",
           "precio_unidad": 7.95,
           "url": "https://www.hipercor.es/supermercado/B001020770100061-panceliac-pan-de-molde-sin-gluten-sin-lactosa-y-sin-huevo-bolsa-400-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "panko pan rallado japonés estuche 120 g - Tiger Khan",
-          "marca": "tiger khan",
-          "precio": 3.19,
-          "unidad": "kg",
-          "precio_unidad": 26.58,
-          "url": "https://www.hipercor.es/supermercado/B001018089303228-tiger-khan-panko-pan-rallado-japones-estuche-120-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -4754,6 +4754,15 @@
           "unidad": "kg",
           "precio_unidad": 15.43,
           "url": "https://www.hipercor.es/supermercado/B001020656703657-pancota-pan-especial-de-soja-tostado-100-natural-bolsa-230-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan burger 4 unidades estuche 292 g - Tgb",
+          "marca": "tgb",
+          "precio": 4.35,
+          "unidad": "kg",
+          "precio_unidad": 13.59,
+          "url": "https://www.hipercor.es/supermercado/B001018574700599-tgb-pan-burger-4-unidades-estuche-292-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -8176,15 +8185,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "BEBIDA ENERGÉTICA GREEN ZERO AZÚCAR 50 CL.",
-          "marca": "MONSTER",
-          "precio": 1.79,
-          "unidad": "L",
-          "precio_unidad": 3.58,
-          "url": "https://www.alimerkaonline.es/10025400.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "ATÚN CLARO EN ACEITE DE OLIVA 67 G.",
           "marca": "ALBO",
           "precio": 1.99,
@@ -8335,6 +8335,15 @@
           "unidad": "kg",
           "precio_unidad": 22.44,
           "url": "https://www.alimerkaonline.es/10019770.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA 2 LITROS PACK 2",
+          "marca": "FANTA",
+          "precio": 3.6,
+          "unidad": "L",
+          "precio_unidad": 0.9,
+          "url": "https://www.alimerkaonline.es/765026.html"
         },
         {
           "supermercado": "Hipercor",
@@ -9444,15 +9453,6 @@
           "unidad": "kg",
           "precio_unidad": 13.0,
           "url": "https://www.hipercor.es/supermercado/B001018463300022-gran-cuk-pechuga-entera-de-pollo-certificado-criado-con-alimentacion-vegetal-2-unidades-bandeja-500-g-peso-aproximado/"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Pechugas de pollo enteras congeladas",
-          "marca": "",
-          "precio": 6.96,
-          "unidad": "kg",
-          "precio_unidad": 5.8,
-          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -11517,9 +11517,9 @@
           "supermercado": "Mercadona",
           "nombre_real": "Gambón grande congelado",
           "marca": "",
-          "precio": 22.0,
+          "precio": 23.0,
           "unidad": "kg",
-          "precio_unidad": 11.0,
+          "precio_unidad": 11.5,
           "url": ""
         },
         {
@@ -13251,6 +13251,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Tomate canario",
+          "marca": "",
+          "precio": 0.38,
+          "unidad": "kg",
+          "precio_unidad": 2.18,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Tomate triturado Hacendado",
           "marca": "",
           "precio": 0.55,
@@ -13644,6 +13653,15 @@
           "unidad": "kg",
           "precio_unidad": 3.77,
           "url": "https://www.alimerkaonline.es/10020494.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito selección sin gluten frasco 340 g - Pedro Luis",
+          "marca": "pedro luis",
+          "precio": 2.2,
+          "unidad": "kg",
+          "precio_unidad": 6.47,
+          "url": "https://www.hipercor.es/supermercado/B001018043502790-pedro-luis-tomate-frito-seleccion-sin-gluten-frasco-340-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -20136,15 +20154,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Cerveza Shandy Steinburg sabor limón",
-          "marca": "",
-          "precio": 0.6,
-          "unidad": "L",
-          "precio_unidad": 1.2,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Cerveza especial Estrella Galicia",
           "marca": "",
           "precio": 0.69,
@@ -20529,6 +20538,15 @@
           "unidad": "L",
           "precio_unidad": 2.59,
           "url": "https://www.hipercor.es/supermercado/B001018604400244-estrella-galicia-00-cerveza-sin-alcohol-pack-6-botellas-25-cl/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Cerveza 0,0% sin alcohol Estrella Galicia",
+          "marca": "",
+          "precio": 3.96,
+          "unidad": "L",
+          "precio_unidad": 2.64,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -21986,15 +22004,6 @@
           "url": "https://www.hipercor.es/supermercado/B001028022200555-foxy-papel-de-cocina-cartapaglia-especial-para-fritos-paquete-2-rollos-compatible-con-el-microondas/"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "papel de cocina multiusos decorado 2 capas envase 1 rollo - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 2.95,
-          "unidad": "Unidad",
-          "precio_unidad": 2.95,
-          "url": "https://www.hipercor.es/supermercado/B001028022201454-el-corte-ingles-papel-de-cocina-multiusos-decorado-2-capas-envase-1-rollo/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Papel cocina Gigante Absorbente Bosque Verde",
           "marca": "",
@@ -22095,21 +22104,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "papel de cocina blanco 2 capas paquete 6 rollos - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 4.15,
-          "unidad": "Unidad",
-          "precio_unidad": 0.69,
-          "url": "https://www.hipercor.es/supermercado/B001028022201439-el-corte-ingles-papel-de-cocina-blanco-2-capas-paquete-6-rollos/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "papel de cocina compacto gofrado muy absorbente 2 capas paquete 6 rollos - El Corte Ingles",
           "marca": "el corte ingles",
           "precio": 4.4,
           "unidad": "Unidad",
           "precio_unidad": 0.73,
           "url": "https://www.hipercor.es/supermercado/B001028022201421-el-corte-ingles-papel-de-cocina-compacto-gofrado-muy-absorbente-2-capas-paquete-6-rollos/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "papel de cocina Cartapaglia Jumbo recomendado para fritos paquete 1 rollo compatible con el microondas - Foxy",
+          "marca": "foxy",
+          "precio": 4.95,
+          "unidad": "Unidad",
+          "precio_unidad": 4.95,
+          "url": "https://www.hipercor.es/supermercado/B001028022201702-foxy-papel-de-cocina-cartapaglia-jumbo-recomendado-para-fritos-paquete-1-rollo-compatible-con-el-microondas/"
         },
         {
           "supermercado": "Hipercor",
@@ -22298,6 +22307,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "servilletas decoradas 3 capas 33 x 33 cm paquete 20 unidades - Renova",
+          "marca": "renova",
+          "precio": 2.25,
+          "unidad": "Unidad",
+          "precio_unidad": 2.25,
+          "url": "https://www.hipercor.es/supermercado/B001028022309711-renova-servilletas-decoradas-3-capas-33-x-33-cm-paquete-20-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "servilletas Trapuntati 2 capas 38x38 cm paquete 50 unidades - Foxy",
           "marca": "foxy",
           "precio": 2.49,
@@ -22313,15 +22331,6 @@
           "unidad": "Unidad",
           "precio_unidad": 2.75,
           "url": "https://www.hipercor.es/supermercado/B001028022309778-smart-servilletas-decoradas-33-x-33-cm-envase-30-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilleta Navidad Estrella roja doble capa 33x33 paquete 30 unidades - Oh Yeah! Party",
-          "marca": "oh yeah! party",
-          "precio": 2.95,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001028022309539-oh-yeah-party-servilleta-navidad-estrella-roja-doble-capa-33x33-paquete-30-unidades/"
         },
         {
           "supermercado": "Hipercor",
