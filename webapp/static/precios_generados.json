@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-08T16:03:57+00:00",
+  "generado_en": "2026-09-08T20:48:16+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -2747,7 +2747,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor macedonia Hacendado",
+          "nombre_real": "Yogur sabor coco Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -2756,7 +2756,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor coco Hacendado",
+          "nombre_real": "Yogur sabor macedonia Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -3464,7 +3464,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Mantequilla sin sal añadida Hacendado",
+          "nombre_real": "Mantequilla con sal Hacendado",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
@@ -3473,7 +3473,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Mantequilla con sal Hacendado",
+          "nombre_real": "Mantequilla sin sal añadida Hacendado",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
@@ -8157,6 +8157,15 @@
           "url": "https://www.alimerkaonline.es/10020364.html"
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Atún claro en aceite de oliva Hacendado",
+          "marca": "",
+          "precio": 1.55,
+          "unidad": "kg",
+          "precio_unidad": 13.96,
+          "url": ""
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "BONITO EN ACEITE DE OLIVA 72 G.",
           "marca": "ALIMERKA",
@@ -8191,6 +8200,33 @@
           "unidad": "L",
           "precio_unidad": 3.58,
           "url": "https://www.alimerkaonline.es/10025400.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Filetes de melva canutera con pimientos del piquillo Hacendado en aceite de oliva",
+          "marca": "",
+          "precio": 1.8,
+          "unidad": "kg",
+          "precio_unidad": 20.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Filetes de melva en aceite de oliva Hacendado",
+          "marca": "",
+          "precio": 1.85,
+          "unidad": "kg",
+          "precio_unidad": 15.42,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Agujas en aceite de oliva Hacendado",
+          "marca": "",
+          "precio": 1.85,
+          "unidad": "kg",
+          "precio_unidad": 15.42,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -8256,6 +8292,24 @@
           "url": "https://www.hipercor.es/supermercado/B001018013200839-el-corte-ingles-atun-en-aceite-de-girasol-pack-3-lata-60-g-neto-escurrido/"
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Atún claro en aceite de girasol Hacendado",
+          "marca": "",
+          "precio": 2.4,
+          "unidad": "kg",
+          "precio_unidad": 12.63,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Chipirones rellenos enteros en aceite de girasol Hacendado",
+          "marca": "",
+          "precio": 2.45,
+          "unidad": "kg",
+          "precio_unidad": 21.3,
+          "url": ""
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "BONITO EN ACEITE DE OLIVA 67 G.",
           "marca": "ALBO",
@@ -8307,6 +8361,15 @@
           "precio": 3.2,
           "unidad": "kg",
           "precio_unidad": 14.41,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Ventresca de atún claro en aceite de oliva Hacendado",
+          "marca": "",
+          "precio": 3.3,
+          "unidad": "kg",
+          "precio_unidad": 29.73,
           "url": ""
         },
         {
@@ -8684,15 +8747,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018016500656-ubago-sardinas-en-aceite-de-girasol-lata-80-g-neto-escurrido/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO SABOR LIMA LIMÓN SIN AZÚCAR 2 LITROS",
-          "marca": "SPRITE",
-          "precio": 1.65,
-          "unidad": "L",
-          "precio_unidad": 0.82,
-          "url": "https://www.alimerkaonline.es/10015192.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Sardinillas en tomate Hacendado",
           "marca": "",
@@ -8862,6 +8916,15 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA 2 LITROS PACK 2",
+          "marca": "FANTA",
+          "precio": 3.6,
+          "unidad": "L",
+          "precio_unidad": 0.9,
+          "url": "https://www.alimerkaonline.es/765026.html"
         },
         {
           "supermercado": "Hipercor",
@@ -11047,20 +11110,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Lomos y centros de merluza del Cabo Hacendado ultracongelados",
-          "marca": "",
-          "precio": 4.9,
-          "unidad": "kg",
-          "precio_unidad": 12.25,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Gamba pelada cruda tamaño mediano Hacendado ultracongelada",
           "marca": "",
           "precio": 4.9,
           "unidad": "kg",
           "precio_unidad": 13.61,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Lomos y centros de merluza del Cabo Hacendado ultracongelados",
+          "marca": "",
+          "precio": 4.9,
+          "unidad": "kg",
+          "precio_unidad": 12.25,
           "url": ""
         },
         {
@@ -15632,15 +15695,6 @@
       "opciones": [
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas avena Hacendado",
-          "marca": "",
-          "precio": 1.0,
-          "unidad": "kg",
-          "precio_unidad": 2.35,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Tortitas de maíz Hacendado",
           "marca": "",
           "precio": 1.1,
@@ -15785,20 +15839,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barritas de cereales y chocolate con leche Hacendado",
-          "marca": "",
-          "precio": 1.55,
-          "unidad": "kg",
-          "precio_unidad": 12.92,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Barritas de cereales y chocolate blanco Hacendado",
           "marca": "",
           "precio": 1.55,
           "unidad": "kg",
           "precio_unidad": 12.2,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Barritas de cereales y chocolate con leche Hacendado",
+          "marca": "",
+          "precio": 1.55,
+          "unidad": "kg",
+          "precio_unidad": 12.92,
           "url": ""
         },
         {
@@ -15956,20 +16010,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Tortitas de arroz con chocolate blanco sabor yogur Hacendado",
-          "marca": "",
-          "precio": 1.9,
-          "unidad": "kg",
-          "precio_unidad": 15.83,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Cereales copos de trigo integral y arroz Hacendado 0% azúcares añadidos",
           "marca": "",
           "precio": 1.9,
           "unidad": "kg",
           "precio_unidad": 3.8,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Tortitas de arroz con chocolate blanco sabor yogur Hacendado",
+          "marca": "",
+          "precio": 1.9,
+          "unidad": "kg",
+          "precio_unidad": 15.83,
           "url": ""
         },
         {
@@ -16065,6 +16119,15 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Muesli Crunchy Hacendado con frutos secos",
+          "marca": "",
+          "precio": 2.1,
+          "unidad": "kg",
+          "precio_unidad": 4.2,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Muesli Crunchy Hacendado con fruta",
           "marca": "",
           "precio": 2.1,
           "unidad": "kg",
@@ -16460,7 +16523,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Papilla 8 cereales con galleta María Nestlé +6 meses",
+          "nombre_real": "Papilla 8 cereales con miel Nestlé +6 meses",
           "marca": "",
           "precio": 5.75,
           "unidad": "kg",
@@ -16469,7 +16532,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Papilla 8 cereales con miel Nestlé +6 meses",
+          "nombre_real": "Papilla 8 cereales con galleta María Nestlé +6 meses",
           "marca": "",
           "precio": 5.75,
           "unidad": "kg",
@@ -16609,20 +16672,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas María Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 1.69,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Digestive chocolate con leche Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 4.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas María Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 1.69,
           "url": ""
         },
         {
@@ -16906,7 +16969,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas Digestive manzana & avena Hacendado",
+          "nombre_real": "Galletas avena Hacendado",
           "marca": "",
           "precio": 1.65,
           "unidad": "kg",
@@ -16915,7 +16978,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas avena Hacendado",
+          "nombre_real": "Galletas Digestive manzana & avena Hacendado",
           "marca": "",
           "precio": 1.65,
           "unidad": "kg",
@@ -17708,7 +17771,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula descafeinado Hacendado",
+          "nombre_real": "Café en cápsula forte Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
@@ -17717,7 +17780,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula forte Hacendado",
+          "nombre_real": "Café en cápsula descafeinado Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
@@ -17843,15 +17906,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsulas doble espresso Hacendado",
-          "marca": "",
-          "precio": 3.8,
-          "unidad": "kg",
-          "precio_unidad": 34.55,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula espresso Hacendado",
           "marca": "",
           "precio": 3.8,
@@ -17866,6 +17920,15 @@
           "precio": 3.8,
           "unidad": "kg",
           "precio_unidad": 36.54,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café en cápsulas doble espresso Hacendado",
+          "marca": "",
+          "precio": 3.8,
+          "unidad": "kg",
+          "precio_unidad": 34.55,
           "url": ""
         },
         {
@@ -18041,20 +18104,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula cortado Dolce Gusto",
-          "marca": "",
-          "precio": 4.95,
-          "unidad": "kg",
-          "precio_unidad": 49.11,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula ristretto napoli Dolce Gusto",
           "marca": "",
           "precio": 4.95,
           "unidad": "kg",
           "precio_unidad": 38.67,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café en cápsula cortado Dolce Gusto",
+          "marca": "",
+          "precio": 4.95,
+          "unidad": "kg",
+          "precio_unidad": 49.11,
           "url": ""
         },
         {
@@ -18424,7 +18487,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Hinojo Hacendado",
+          "nombre_real": "Infusión Digest Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -18451,7 +18514,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Digest Hacendado",
+          "nombre_real": "Infusión Hinojo Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -20082,7 +20145,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Cerveza 0,0% sin alcohol Falke",
+          "nombre_real": "Cerveza especial Steinburg",
           "marca": "",
           "precio": 0.39,
           "unidad": "L",
@@ -20091,7 +20154,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Cerveza especial Steinburg",
+          "nombre_real": "Cerveza 0,0% sin alcohol Falke",
           "marca": "",
           "precio": 0.39,
           "unidad": "L",
@@ -22307,15 +22370,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "servilletas decoradas 3 capas 33 x 33 cm paquete 20 unidades - Renova",
-          "marca": "renova",
-          "precio": 2.25,
-          "unidad": "Unidad",
-          "precio_unidad": 2.25,
-          "url": "https://www.hipercor.es/supermercado/B001028022309711-renova-servilletas-decoradas-3-capas-33-x-33-cm-paquete-20-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "servilletas Trapuntati 2 capas 38x38 cm paquete 50 unidades - Foxy",
           "marca": "foxy",
           "precio": 2.49,
@@ -22331,6 +22385,24 @@
           "unidad": "Unidad",
           "precio_unidad": 2.75,
           "url": "https://www.hipercor.es/supermercado/B001028022309778-smart-servilletas-decoradas-33-x-33-cm-envase-30-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "servilletas decoradas 33 x 33 cm envase 30 unidades - Smart",
+          "marca": "smart",
+          "precio": 2.75,
+          "unidad": "Unidad",
+          "precio_unidad": 2.75,
+          "url": "https://www.hipercor.es/supermercado/B001028022309752-smart-servilletas-decoradas-33-x-33-cm-envase-30-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "servilletas decoradas 33 x 33 cm envase 30 unidades - Smart",
+          "marca": "smart",
+          "precio": 2.75,
+          "unidad": "Unidad",
+          "precio_unidad": 2.75,
+          "url": "https://www.hipercor.es/supermercado/B001028022309760-smart-servilletas-decoradas-33-x-33-cm-envase-30-unidades/"
         },
         {
           "supermercado": "Hipercor",
@@ -22385,15 +22457,6 @@
           "unidad": "Unidad",
           "precio_unidad": 0.15,
           "url": "https://www.hipercor.es/supermercado/B001028022309448-procos-servilletas-decorativas-spiderman-2-capas-33x22-paquete-20-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas Navidad The Elf on The Shelf 33x33 paquete 30 unidades - Oh Yeah! Party",
-          "marca": "oh yeah! party",
-          "precio": 3.1,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001028022309554-oh-yeah-party-servilletas-navidad-the-elf-on-the-shelf-33x33-paquete-30-unidades/"
         },
         {
           "supermercado": "Hipercor",
@@ -22483,6 +22546,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Suavizante ropa Floral Bosque Verde concentrado",
+          "marca": "",
+          "precio": 1.8,
+          "unidad": "L",
+          "precio_unidad": 1.12,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
@@ -22493,15 +22565,6 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Suavizante ropa Violets Bosque Verde concentrado",
-          "marca": "",
-          "precio": 1.8,
-          "unidad": "L",
-          "precio_unidad": 1.12,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Suavizante ropa Floral Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -22825,20 +22888,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Detergente ropa blanca y de color Bosque Verde en polvo",
-          "marca": "",
-          "precio": 6.9,
-          "unidad": "kg",
-          "precio_unidad": 2.51,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Detergente ropa todo en 1 frescor floral Ariel Pods en cápsulas",
           "marca": "",
           "precio": 6.9,
           "unidad": "kg",
           "precio_unidad": 14.88,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Detergente ropa blanca y de color Bosque Verde en polvo",
+          "marca": "",
+          "precio": 6.9,
+          "unidad": "kg",
+          "precio_unidad": 2.51,
           "url": ""
         },
         {
@@ -24403,15 +24466,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño coco y lichi Deliplus piel normal",
-          "marca": "",
-          "precio": 1.6,
-          "unidad": "L",
-          "precio_unidad": 2.13,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Gel de baño oliva Deliplus piel seca",
           "marca": "",
           "precio": 1.6,
@@ -24421,7 +24475,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño granada y frutos silvestres Deliplus piel normal",
+          "nombre_real": "Gel de baño coco y lichi Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -24431,6 +24485,15 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Gel de baño tiernos recuerdos Deliplus piel normal",
+          "marca": "",
+          "precio": 1.6,
+          "unidad": "L",
+          "precio_unidad": 2.13,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Gel de baño granada y frutos silvestres Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -24948,7 +25011,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú Argan Oil Deliplus cabello seco y dañado",
+          "nombre_real": "Champú Natural Deliplus todo tipo de cabello",
           "marca": "",
           "precio": 1.9,
           "unidad": "L",
@@ -24957,7 +25020,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú Natural Deliplus todo tipo de cabello",
+          "nombre_real": "Champú Argan Oil Deliplus cabello seco y dañado",
           "marca": "",
           "precio": 1.9,
           "unidad": "L",
@@ -24975,15 +25038,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú Zero Deliplus todo tipo de cabello",
-          "marca": "",
-          "precio": 1.9,
-          "unidad": "L",
-          "precio_unidad": 4.75,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Champú Anticaída Fortificante Deliplus",
           "marca": "",
           "precio": 1.9,
@@ -24993,7 +25047,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú Plex Repair Deliplus cabello muy dañado",
+          "nombre_real": "Champú Zero Deliplus todo tipo de cabello",
           "marca": "",
           "precio": 1.9,
           "unidad": "L",
@@ -25003,6 +25057,15 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Champú Curl Perfect Deliplus cabello rizado",
+          "marca": "",
+          "precio": 1.9,
+          "unidad": "L",
+          "precio_unidad": 4.75,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Champú Plex Repair Deliplus cabello muy dañado",
           "marca": "",
           "precio": 1.9,
           "unidad": "L",
@@ -25745,7 +25808,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Protección Caries Colgate",
+          "nombre_real": "Dentífrico Blanqueador Bicarbonato Signal",
           "marca": "",
           "precio": 1.95,
           "unidad": "L",
@@ -25754,7 +25817,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Blanqueador Bicarbonato Signal",
+          "nombre_real": "Dentífrico Protección Caries Colgate",
           "marca": "",
           "precio": 1.95,
           "unidad": "L",
@@ -26587,7 +26650,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante invisible Black & White Nivea Men antitranspirante",
+          "nombre_real": "Desodorante invisible Black & White Nivea",
           "marca": "",
           "precio": 2.9,
           "unidad": "L",
@@ -26596,7 +26659,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante invisible Black & White Nivea",
+          "nombre_real": "Desodorante invisible Black & White Nivea Men antitranspirante",
           "marca": "",
           "precio": 2.9,
           "unidad": "L",
@@ -26907,20 +26970,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Pañal bebé braguita talla L de 12-18 kg Deliplus",
-          "marca": "",
-          "precio": 6.9,
-          "unidad": "kg",
-          "precio_unidad": 0.38,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pañal bebé braguita talla XL de 16-28 kg Deliplus",
           "marca": "",
           "precio": 6.9,
           "unidad": "kg",
           "precio_unidad": 0.25,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañal bebé braguita talla L de 12-18 kg Deliplus",
+          "marca": "",
+          "precio": 6.9,
+          "unidad": "kg",
+          "precio_unidad": 0.38,
           "url": ""
         },
         {
@@ -27195,20 +27258,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Pañales bebé talla 1 Dodot Sensitive de 2-5 kg",
-          "marca": "",
-          "precio": 20.95,
-          "unidad": "kg",
-          "precio_unidad": 4.19,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pañales bebé talla 2 Dodot Sensitive de 4-8 kg",
           "marca": "",
           "precio": 20.95,
           "unidad": "kg",
           "precio_unidad": 2.62,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañales bebé talla 1 Dodot Sensitive de 2-5 kg",
+          "marca": "",
+          "precio": 20.95,
+          "unidad": "kg",
+          "precio_unidad": 4.19,
           "url": ""
         },
         {
