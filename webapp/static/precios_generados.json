@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-09T10:49:04+00:00",
+  "generado_en": "2026-09-09T16:00:12+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -8202,6 +8202,15 @@
           "url": ""
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "BEBIDA ENERGÉTICA GREEN ZERO AZÚCAR 50 CL.",
+          "marca": "MONSTER",
+          "precio": 1.79,
+          "unidad": "L",
+          "precio_unidad": 3.58,
+          "url": "https://www.alimerkaonline.es/10025400.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Filetes de melva canutera con pimientos del piquillo Hacendado en aceite de oliva",
           "marca": "",
@@ -8407,15 +8416,6 @@
           "unidad": "kg",
           "precio_unidad": 22.44,
           "url": "https://www.alimerkaonline.es/10019770.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA 2 LITROS PACK 2",
-          "marca": "FANTA",
-          "precio": 3.6,
-          "unidad": "L",
-          "precio_unidad": 0.9,
-          "url": "https://www.alimerkaonline.es/765026.html"
         },
         {
           "supermercado": "Hipercor",
@@ -20231,6 +20231,15 @@
           "precio": 0.53,
           "unidad": "L",
           "precio_unidad": 1.61,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Cerveza Shandy Steinburg sabor limón",
+          "marca": "",
+          "precio": 0.6,
+          "unidad": "L",
+          "precio_unidad": 1.2,
           "url": ""
         },
         {
