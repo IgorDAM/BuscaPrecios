@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-10T15:54:41+00:00",
+  "generado_en": "2026-09-10T20:33:33+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -666,6 +666,15 @@
           "unidad": "L",
           "precio_unidad": 0.99,
           "url": "https://www.hipercor.es/supermercado/B001020616600522-el-corte-ingles-leche-semidesnatada-botella-15-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche semidesnatada sin lactosa pack 3 briks 200 ml - Asturiana",
+          "marca": "asturiana",
+          "precio": 1.49,
+          "unidad": "L",
+          "precio_unidad": 2.48,
+          "url": "https://www.hipercor.es/supermercado/B001020616400667-asturiana-leche-semidesnatada-sin-lactosa-pack-3-briks-200-ml/"
         },
         {
           "supermercado": "Hipercor",
@@ -2729,15 +2738,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor macedonia Hacendado",
-          "marca": "",
-          "precio": 0.75,
-          "unidad": "kg",
-          "precio_unidad": 1.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Yogur sabor fresa Hacendado",
           "marca": "",
           "precio": 0.75,
@@ -2748,6 +2748,15 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Yogur sabor coco Hacendado",
+          "marca": "",
+          "precio": 0.75,
+          "unidad": "kg",
+          "precio_unidad": 1.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Yogur sabor macedonia Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -8193,6 +8202,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018006600821-el-corte-ingles-atun-claro-en-aceite-de-oliva-lata-82-g-neto-escurrido/"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO SABOR LIMA LIMÓN SIN AZÚCAR 2 LITROS",
+          "marca": "SPRITE",
+          "precio": 1.65,
+          "unidad": "L",
+          "precio_unidad": 0.82,
+          "url": "https://www.alimerkaonline.es/10015192.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Sardinillas en tomate Hacendado",
           "marca": "",
@@ -8416,15 +8434,6 @@
           "unidad": "kg",
           "precio_unidad": 22.44,
           "url": "https://www.alimerkaonline.es/10019770.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA 2 LITROS PACK 2",
-          "marca": "FANTA",
-          "precio": 3.6,
-          "unidad": "L",
-          "precio_unidad": 0.9,
-          "url": "https://www.alimerkaonline.es/765026.html"
         },
         {
           "supermercado": "Alimerka",
@@ -8765,6 +8774,15 @@
           "url": ""
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "BEBIDA ENERGÉTICA GREEN ZERO AZÚCAR 50 CL.",
+          "marca": "MONSTER",
+          "precio": 1.79,
+          "unidad": "L",
+          "precio_unidad": 3.58,
+          "url": "https://www.alimerkaonline.es/10025400.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "sardinas en aceite de oliva lata 80 g neto escurrido - Ubago",
           "marca": "ubago",
@@ -8925,15 +8943,6 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA 2 LITROS PACK 2",
-          "marca": "FANTA",
-          "precio": 3.6,
-          "unidad": "L",
-          "precio_unidad": 0.9,
-          "url": "https://www.alimerkaonline.es/765026.html"
         },
         {
           "supermercado": "Hipercor",
@@ -11745,6 +11754,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "gambas peladas gigantes 35-40 piezas bolsa 400 g neto escurrido - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 9.99,
+          "unidad": "kg",
+          "precio_unidad": 24.98,
+          "url": "https://www.hipercor.es/supermercado/B001018939400927-el-corte-ingles-gambas-peladas-gigantes-35-40-piezas-bolsa-400-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "gamba blanca pelada del Mediterráneo cruda 80/120 unidades bolsa 400 g neto escurrido - Delfin",
           "marca": "delfin",
           "precio": 10.75,
@@ -13725,6 +13743,15 @@
           "unidad": "kg",
           "precio_unidad": 3.77,
           "url": "https://www.alimerkaonline.es/10020494.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito selección sin gluten frasco 340 g - Pedro Luis",
+          "marca": "pedro luis",
+          "precio": 2.2,
+          "unidad": "kg",
+          "precio_unidad": 6.47,
+          "url": "https://www.hipercor.es/supermercado/B001018043502790-pedro-luis-tomate-frito-seleccion-sin-gluten-frasco-340-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -20522,15 +20549,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "cerveza rubia de trigo alemana botella 50 cl - Franziskaner",
-          "marca": "franziskaner",
-          "precio": 1.66,
-          "unidad": "L",
-          "precio_unidad": 3.32,
-          "url": "https://www.hipercor.es/supermercado/B001018606000356-franziskaner-cerveza-rubia-de-trigo-alemana-botella-50-cl/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Cerveza 0,0% sin alcohol Falke",
           "marca": "",
@@ -20718,6 +20736,15 @@
           "unidad": "L",
           "precio_unidad": 1.56,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "cerveza rubia extra pack 6 botellas 22,50 cl Formato Mini - Alhambra Reserva 1925",
+          "marca": "alhambra reserva 1925",
+          "precio": 4.99,
+          "unidad": "L",
+          "precio_unidad": 3.7,
+          "url": "https://www.hipercor.es/supermercado/B001018602801211-alhambra-reserva-1925-cerveza-rubia-extra-pack-6-botellas-2250-cl-formato-mini/"
         },
         {
           "supermercado": "Mercadona",
@@ -21509,21 +21536,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "vino tinto Red Blend syrah tempranillo cabernet sauvignon botella 75 cl - Memento Mori",
-          "marca": "memento mori",
-          "precio": 9.95,
-          "unidad": "L",
-          "precio_unidad": 13.27,
-          "url": "https://www.hipercor.es/supermercado/B001018784400063-memento-mori-vino-tinto-red-blend-syrah-tempranillo-cabernet-sauvignon-botella-75-cl/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "vino tinto crianza DOCa Rioja botella 75 cl - Ramon Bilbao",
           "marca": "ramon bilbao",
           "precio": 10.05,
           "unidad": "L",
           "precio_unidad": 13.4,
           "url": "https://www.hipercor.es/supermercado/B001018703100950-ramon-bilbao-vino-tinto-crianza-doca-rioja-botella-75-cl/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "vino tinto roble DO Ribera del Duero botella 75 cl - Pagos De Valcerracin",
+          "marca": "pagos de valcerracin",
+          "precio": 10.9,
+          "unidad": "L",
+          "precio_unidad": 14.53,
+          "url": "https://www.hipercor.es/supermercado/B001018738501594-pagos-de-valcerracin-vino-tinto-roble-do-ribera-del-duero-botella-75-cl/"
         },
         {
           "supermercado": "Hipercor",
@@ -23886,15 +23913,6 @@
           "unidad": "L",
           "precio_unidad": 0.55,
           "url": "https://www.alimerkaonline.es/8000149.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "lejía con detergente botella 2 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.15,
-          "unidad": "L",
-          "precio_unidad": 0.58,
-          "url": "https://www.hipercor.es/supermercado/B001028014200167-el-corte-ingles-lejia-con-detergente-botella-2-l/"
         },
         {
           "supermercado": "Mercadona",
