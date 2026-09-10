@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-10T10:40:06+00:00",
+  "generado_en": "2026-09-10T15:54:41+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -8131,6 +8131,15 @@
       "opciones": [
         {
           "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE TÉ VERDE MARACUYÁ 33 CL.",
+          "marca": "FUZE TEA",
+          "precio": 0.99,
+          "unidad": "L",
+          "precio_unidad": 3.0,
+          "url": "https://www.alimerkaonline.es/10029828.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "ATÚN CLARO EN ACEITE DE GIRASOL 72 G.",
           "marca": "ALIMERKA",
           "precio": 1.19,
@@ -8191,15 +8200,6 @@
           "unidad": "kg",
           "precio_unidad": 9.72,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "BEBIDA ENERGÉTICA GREEN ZERO AZÚCAR 50 CL.",
-          "marca": "MONSTER",
-          "precio": 1.79,
-          "unidad": "L",
-          "precio_unidad": 3.58,
-          "url": "https://www.alimerkaonline.es/10025400.html"
         },
         {
           "supermercado": "Mercadona",
@@ -8721,6 +8721,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE TÉ VERDE MARACUYÁ 33 CL.",
+          "marca": "FUZE TEA",
+          "precio": 0.99,
+          "unidad": "L",
+          "precio_unidad": 3.0,
+          "url": "https://www.alimerkaonline.es/10029828.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "SARDINILLAS EN ACEITE DE OLIVA BAJO SAL 57 G.",
           "marca": "BALEA",
           "precio": 1.0,
@@ -8747,15 +8756,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018016500656-ubago-sardinas-en-aceite-de-girasol-lata-80-g-neto-escurrido/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO SABOR LIMA LIMÓN SIN AZÚCAR 2 LITROS",
-          "marca": "SPRITE",
-          "precio": 1.65,
-          "unidad": "L",
-          "precio_unidad": 0.82,
-          "url": "https://www.alimerkaonline.es/10015192.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Sardinillas en tomate Hacendado",
           "marca": "",
@@ -8763,15 +8763,6 @@
           "unidad": "kg",
           "precio_unidad": 9.72,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "BEBIDA ENERGÉTICA GREEN ZERO AZÚCAR 50 CL.",
-          "marca": "MONSTER",
-          "precio": 1.79,
-          "unidad": "L",
-          "precio_unidad": 3.58,
-          "url": "https://www.alimerkaonline.es/10025400.html"
         },
         {
           "supermercado": "Hipercor",
@@ -8934,6 +8925,15 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA 2 LITROS PACK 2",
+          "marca": "FANTA",
+          "precio": 3.6,
+          "unidad": "L",
+          "precio_unidad": 0.9,
+          "url": "https://www.alimerkaonline.es/765026.html"
         },
         {
           "supermercado": "Hipercor",
@@ -23886,6 +23886,15 @@
           "unidad": "L",
           "precio_unidad": 0.55,
           "url": "https://www.alimerkaonline.es/8000149.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "lejía con detergente botella 2 l - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.15,
+          "unidad": "L",
+          "precio_unidad": 0.58,
+          "url": "https://www.hipercor.es/supermercado/B001028014200167-el-corte-ingles-lejia-con-detergente-botella-2-l/"
         },
         {
           "supermercado": "Mercadona",
