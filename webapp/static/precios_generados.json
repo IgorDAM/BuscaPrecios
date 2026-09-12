@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-12T03:13:29+00:00",
+  "generado_en": "2026-09-12T10:09:34+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -8229,6 +8229,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018006600821-el-corte-ingles-atun-claro-en-aceite-de-oliva-lata-82-g-neto-escurrido/"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO SABOR LIMA LIMÓN SIN AZÚCAR 2 LITROS",
+          "marca": "SPRITE",
+          "precio": 1.65,
+          "unidad": "L",
+          "precio_unidad": 0.82,
+          "url": "https://www.alimerkaonline.es/10015192.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Sardinillas en tomate Hacendado",
           "marca": "",
@@ -8452,15 +8461,6 @@
           "unidad": "kg",
           "precio_unidad": 22.44,
           "url": "https://www.alimerkaonline.es/10019770.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA 2 LITROS PACK 2",
-          "marca": "FANTA",
-          "precio": 3.6,
-          "unidad": "L",
-          "precio_unidad": 0.9,
-          "url": "https://www.alimerkaonline.es/765026.html"
         },
         {
           "supermercado": "Alimerka",
@@ -12750,15 +12750,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "PATATAS FRITAS CAMPESINAS 150 G.",
-          "marca": "LAY'S",
-          "precio": 2.05,
-          "unidad": "kg",
-          "precio_unidad": 13.67,
-          "url": "https://www.alimerkaonline.es/10020477.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "PATATAS FRITAS SABOR VINAGRETA 150 G.",
           "marca": "LAY'S",
           "precio": 2.05,
@@ -13797,15 +13788,6 @@
           "unidad": "kg",
           "precio_unidad": 3.77,
           "url": "https://www.alimerkaonline.es/10020494.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "tomate frito selección sin gluten frasco 340 g - Pedro Luis",
-          "marca": "pedro luis",
-          "precio": 2.2,
-          "unidad": "kg",
-          "precio_unidad": 6.47,
-          "url": "https://www.hipercor.es/supermercado/B001018043502790-pedro-luis-tomate-frito-seleccion-sin-gluten-frasco-340-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -15767,15 +15749,6 @@
       "opciones": [
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas avena Hacendado",
-          "marca": "",
-          "precio": 1.0,
-          "unidad": "kg",
-          "precio_unidad": 2.35,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Tortitas de maíz Hacendado",
           "marca": "",
           "precio": 1.1,
@@ -16132,6 +16105,15 @@
           "precio": 1.9,
           "unidad": "kg",
           "precio_unidad": 14.62,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Muesli Crunchy Hacendado sin azúcares añadidos",
+          "marca": "",
+          "precio": 1.9,
+          "unidad": "kg",
+          "precio_unidad": 3.8,
           "url": ""
         },
         {
@@ -18094,15 +18076,6 @@
           "url": "https://www.alimerkaonline.es/10022411.html"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "CAFÉ CAPPUCCINO 12 CAPSULAS",
-          "marca": "OQUENDO",
-          "precio": 3.95,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.alimerkaonline.es/10018125.html"
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "café con vainilla intensidad 5 estuche 10 cápsulas compatibles con máquinas Nespresso - Starbucks",
           "marca": "starbucks",
@@ -18227,6 +18200,15 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/758148.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "CAFÉ CORTADO DOLCE GUSTO 16 CÁPSULAS",
+          "marca": "NESCAFÉ",
+          "precio": 4.95,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/758132.html"
         },
         {
           "supermercado": "Hipercor",
@@ -18419,21 +18401,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "café cortado espresso Macchiatto intensidad 8 estuche 30 cápsulas - Nescafe Dolce Gusto",
-          "marca": "nescafe dolce gusto",
-          "precio": 8.55,
-          "unidad": "kg",
-          "precio_unidad": 45.24,
-          "url": "https://www.hipercor.es/supermercado/B001020604603017-nescafe-dolce-gusto-cafe-cortado-espresso-macchiatto-intensidad-8-estuche-30-capsulas/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "café con leche Decaffeinato Selección robusta envase 30 cápsulas - Nescafe Dolce Gusto",
           "marca": "nescafe dolce gusto",
           "precio": 8.55,
           "unidad": "kg",
           "precio_unidad": 28.5,
           "url": "https://www.hipercor.es/supermercado/B001020605100963-nescafe-dolce-gusto-cafe-con-leche-decaffeinato-seleccion-robusta-envase-30-capsulas/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "café cortado espresso Macchiatto intensidad 8 estuche 30 cápsulas - Nescafe Dolce Gusto",
+          "marca": "nescafe dolce gusto",
+          "precio": 8.55,
+          "unidad": "kg",
+          "precio_unidad": 45.24,
+          "url": "https://www.hipercor.es/supermercado/B001020604603017-nescafe-dolce-gusto-cafe-cortado-espresso-macchiatto-intensidad-8-estuche-30-capsulas/"
         },
         {
           "supermercado": "Hipercor",
@@ -21418,15 +21400,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "vino tinto tempranillo joven DOCa Rioja botella 75 cl - Campo Viejo",
-          "marca": "campo viejo",
-          "precio": 4.4,
-          "unidad": "L",
-          "precio_unidad": 5.87,
-          "url": "https://www.hipercor.es/supermercado/B001018742700174-campo-viejo-vino-tinto-tempranillo-joven-doca-rioja-botella-75-cl/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Vino tinto roble 13 Hectáreas DO Ribera del Duero",
           "marca": "",
@@ -21623,6 +21596,15 @@
           "unidad": "L",
           "precio_unidad": 13.4,
           "url": "https://www.hipercor.es/supermercado/B001018703100950-ramon-bilbao-vino-tinto-crianza-doca-rioja-botella-75-cl/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "vino tinto roble DO Ribera del Duero botella 75 cl - Pagos De Valcerracin",
+          "marca": "pagos de valcerracin",
+          "precio": 10.9,
+          "unidad": "L",
+          "precio_unidad": 14.53,
+          "url": "https://www.hipercor.es/supermercado/B001018738501594-pagos-de-valcerracin-vino-tinto-roble-do-ribera-del-duero-botella-75-cl/"
         },
         {
           "supermercado": "Hipercor",
@@ -24978,6 +24960,15 @@
           "url": "https://www.hipercor.es/supermercado/B001055754201303-sanex-neutro-sin-gel-de-bano-neutro-hidratante-sin-sulfatos-sin-jabon-y-sin-colorantes-botella-600-ml-para-todo-tipo-de-piel/"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "limpiador de baño desinfectante en gel limón botella 1,2 l - Sanytol",
+          "marca": "sanytol",
+          "precio": 4.19,
+          "unidad": "L",
+          "precio_unidad": 3.49,
+          "url": "https://www.hipercor.es/supermercado/B001028015500979-sanytol-limpiador-de-bano-desinfectante-en-gel-limon-botella-12-l/"
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "GEL DE BAÑO Y DUCHA PIELES ATÓPICAS 500 ML.",
           "marca": "INSTITUTO ESPAÑOL",
@@ -24985,15 +24976,6 @@
           "unidad": "L",
           "precio_unidad": 9.0,
           "url": "https://www.alimerkaonline.es/10028566.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "gel de baño nutritivo Atopiderm Nutri Repair botella 600 ml para piel reactiva con tendencia atópica - Sanex Cuidado Experto",
-          "marca": "sanex cuidado experto",
-          "precio": 4.55,
-          "unidad": "100 ml.",
-          "precio_unidad": 0.76,
-          "url": "https://www.hipercor.es/supermercado/B001055754201477-sanex-cuidado-experto-gel-de-bano-nutritivo-atopiderm-nutri-repair-botella-600-ml-para-piel-reactiva-con-tendencia-atopica/"
         },
         {
           "supermercado": "Hipercor",
@@ -25834,15 +25816,6 @@
           "url": ""
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Total Expert Deliplus con paraprobiótico",
-          "marca": "",
-          "precio": 1.7,
-          "unidad": "L",
-          "precio_unidad": 17.0,
-          "url": ""
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "pasta de dientes blanqueadora bicarbonato 3 en 1 tubo 100 ml - Signal",
           "marca": "signal",
@@ -25867,6 +25840,15 @@
           "precio": 1.85,
           "unidad": "L",
           "precio_unidad": 18.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Dentífrico Total Expert Deliplus con paraprobiótico",
+          "marca": "",
+          "precio": 1.9,
+          "unidad": "L",
+          "precio_unidad": 19.0,
           "url": ""
         },
         {
@@ -26937,15 +26919,6 @@
           "url": "https://www.hipercor.es/supermercado/B001055754806192-axe-desodorante-bodyspray-fresh-ice-chill-menta-fresca-y-limon-48h-spray-150-ml/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "DESODORANTE BLACK VANILLA 50 ML.",
-          "marca": "AXE",
-          "precio": 4.35,
-          "unidad": "L",
-          "precio_unidad": 87.0,
-          "url": "https://www.alimerkaonline.es/10029722.html"
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "desodorante + Care Advanced Invisible Dry antimanchas antitranspirante 72h spray 150 ml - Dove Men",
           "marca": "dove men",
@@ -26953,6 +26926,15 @@
           "unidad": "100 ml.",
           "precio_unidad": 3.0,
           "url": "https://www.hipercor.es/supermercado/B001055754802779-dove-men-desodorante--care-advanced-invisible-dry-antimanchas-antitranspirante-72h-spray-150-ml/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "DESODORANTE ZONA BAJA PERA Y MADERA 100 ML.",
+          "marca": "AXE",
+          "precio": 5.35,
+          "unidad": "L",
+          "precio_unidad": 53.5,
+          "url": "https://www.alimerkaonline.es/10031076.html"
         }
       ]
     },
