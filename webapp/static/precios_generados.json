@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-12T15:02:41+00:00",
+  "generado_en": "2026-09-12T20:17:16+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -15740,15 +15740,6 @@
       "opciones": [
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas avena Hacendado",
-          "marca": "",
-          "precio": 1.0,
-          "unidad": "kg",
-          "precio_unidad": 2.35,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Tortitas de maíz Hacendado",
           "marca": "",
           "precio": 1.1,
@@ -16105,6 +16096,15 @@
           "precio": 1.9,
           "unidad": "kg",
           "precio_unidad": 14.62,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Muesli Crunchy Hacendado sin azúcares añadidos",
+          "marca": "",
+          "precio": 1.9,
+          "unidad": "kg",
+          "precio_unidad": 3.8,
           "url": ""
         },
         {
@@ -25659,12 +25659,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "CHAMPÚ LAMELAR SHINE 685 ML.",
+          "nombre_real": "CHAMPÚ LISO KERATINA 685 ML.",
           "marca": "TRESEMMÉ",
           "precio": 6.5,
           "unidad": "L",
           "precio_unidad": 9.49,
-          "url": "https://www.alimerkaonline.es/10027266.html"
+          "url": "https://www.alimerkaonline.es/10012246.html"
         },
         {
           "supermercado": "Hipercor",
