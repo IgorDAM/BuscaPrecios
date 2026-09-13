@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-13T11:09:50+00:00",
+  "generado_en": "2026-09-13T15:39:13+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -21391,6 +21391,15 @@
           "url": ""
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "vino tinto reserva DO La Mancha botella 75 cl - Estola",
+          "marca": "estola",
+          "precio": 4.09,
+          "unidad": "L",
+          "precio_unidad": 5.45,
+          "url": "https://www.hipercor.es/supermercado/B001018717900346-estola-vino-tinto-reserva-do-la-mancha-botella-75-cl/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Vino tinto crianza Abadía Mantrús DO Ribera del Duero",
           "marca": "",
@@ -21596,15 +21605,6 @@
           "unidad": "L",
           "precio_unidad": 13.4,
           "url": "https://www.hipercor.es/supermercado/B001018703100950-ramon-bilbao-vino-tinto-crianza-doca-rioja-botella-75-cl/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "vino tinto roble DO Ribera del Duero botella 75 cl - Pagos De Valcerracin",
-          "marca": "pagos de valcerracin",
-          "precio": 10.9,
-          "unidad": "L",
-          "precio_unidad": 14.53,
-          "url": "https://www.hipercor.es/supermercado/B001018738501594-pagos-de-valcerracin-vino-tinto-roble-do-ribera-del-duero-botella-75-cl/"
         },
         {
           "supermercado": "Hipercor",
@@ -26928,6 +26928,15 @@
           "url": "https://www.hipercor.es/supermercado/B001055754806192-axe-desodorante-bodyspray-fresh-ice-chill-menta-fresca-y-limon-48h-spray-150-ml/"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "DESODORANTE BLACK VANILLA 50 ML.",
+          "marca": "AXE",
+          "precio": 4.35,
+          "unidad": "L",
+          "precio_unidad": 87.0,
+          "url": "https://www.alimerkaonline.es/10029722.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "desodorante + Care Advanced Invisible Dry antimanchas antitranspirante 72h spray 150 ml - Dove Men",
           "marca": "dove men",
@@ -26935,15 +26944,6 @@
           "unidad": "100 ml.",
           "precio_unidad": 3.0,
           "url": "https://www.hipercor.es/supermercado/B001055754802779-dove-men-desodorante--care-advanced-invisible-dry-antimanchas-antitranspirante-72h-spray-150-ml/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "DESODORANTE ZONA BAJA PERA Y MADERA 100 ML.",
-          "marca": "AXE",
-          "precio": 5.35,
-          "unidad": "L",
-          "precio_unidad": 53.5,
-          "url": "https://www.alimerkaonline.es/10031076.html"
         }
       ]
     },
