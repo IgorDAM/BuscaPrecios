@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-13T03:07:02+00:00",
+  "generado_en": "2026-09-13T11:09:50+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -1495,15 +1495,6 @@
           "unidad": "L",
           "precio_unidad": 1.31,
           "url": "https://www.hipercor.es/supermercado/B001020616400014-kaiku-leche-desnatada-sin-lactosa-enriquecida-en-vitaminas-a-d-e-y-acido-folico-brik-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera más ligera que una entera 2% materia grasa sin lactosa botella 1 l - Puleva",
-          "marca": "puleva",
-          "precio": 1.33,
-          "unidad": "L",
-          "precio_unidad": 1.33,
-          "url": "https://www.hipercor.es/supermercado/B001020616400121-puleva-leche-entera-mas-ligera-que-una-entera-2-materia-grasa-sin-lactosa-botella-1-l/"
         },
         {
           "supermercado": "Hipercor",
@@ -3400,15 +3391,6 @@
       "producto": "mantequilla",
       "opciones": [
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "mantequilla tradicional pastilla 125 g - Asturiana",
-          "marca": "asturiana",
-          "precio": 1.95,
-          "unidad": "kg",
-          "precio_unidad": 15.6,
-          "url": "https://www.hipercor.es/supermercado/B001018815101763-asturiana-mantequilla-tradicional-pastilla-125-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Mantequilla sin sal añadida Hacendado",
           "marca": "",
@@ -3632,6 +3614,15 @@
           "unidad": "kg",
           "precio_unidad": 15.0,
           "url": "https://www.alimerkaonline.es/230035.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "mantequilla tradicional fácil de untar tarrina 200 g - Lurpak",
+          "marca": "lurpak",
+          "precio": 3.89,
+          "unidad": "kg",
+          "precio_unidad": 19.45,
+          "url": "https://www.hipercor.es/supermercado/B001018815101276-lurpak-mantequilla-tradicional-facil-de-untar-tarrina-200-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -8229,15 +8220,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018006600821-el-corte-ingles-atun-claro-en-aceite-de-oliva-lata-82-g-neto-escurrido/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO SABOR LIMA LIMÓN SIN AZÚCAR 2 LITROS",
-          "marca": "SPRITE",
-          "precio": 1.65,
-          "unidad": "L",
-          "precio_unidad": 0.82,
-          "url": "https://www.alimerkaonline.es/10015192.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Sardinillas en tomate Hacendado",
           "marca": "",
@@ -8245,6 +8227,15 @@
           "unidad": "kg",
           "precio_unidad": 9.72,
           "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "BEBIDA ENERGÉTICA GREEN ZERO AZÚCAR 50 CL.",
+          "marca": "MONSTER",
+          "precio": 1.79,
+          "unidad": "L",
+          "precio_unidad": 3.58,
+          "url": "https://www.alimerkaonline.es/10025400.html"
         },
         {
           "supermercado": "Mercadona",
@@ -8544,6 +8535,15 @@
           "url": "https://www.alimerkaonline.es/711140.html"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "atún claro en aceite de oliva ligero pack 3 lata 58 g neto escurrido - Calvo",
+          "marca": "calvo",
+          "precio": 4.66,
+          "unidad": "kg",
+          "precio_unidad": 27.74,
+          "url": "https://www.hipercor.es/supermercado/B001018006600722-calvo-atun-claro-en-aceite-de-oliva-ligero-pack-3-lata-58-g-neto-escurrido/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Atún claro en aceite de oliva Hacendado",
           "marca": "",
@@ -8641,15 +8641,6 @@
           "unidad": "kg",
           "precio_unidad": 38.21,
           "url": "https://www.hipercor.es/supermercado/B001018006800025-albo-atun-claro-al-natural-pack-3-latas-65-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "atún claro en aceite de oliva pack 3 latas 67 g neto escurrido - Albo",
-          "marca": "albo",
-          "precio": 7.59,
-          "unidad": "kg",
-          "precio_unidad": 37.76,
-          "url": "https://www.hipercor.es/supermercado/B001018006600060-albo-atun-claro-en-aceite-de-oliva-pack-3-latas-67-g-neto-escurrido/"
         },
         {
           "supermercado": "Mercadona",
@@ -24122,6 +24113,15 @@
           "url": "https://www.alimerkaonline.es/840035.html"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "lejía blanca botella 1,9 l - Neutrex",
+          "marca": "neutrex",
+          "precio": 3.19,
+          "unidad": "L",
+          "precio_unidad": 1.68,
+          "url": "https://www.hipercor.es/supermercado/B001028014100425-neutrex-lejia-blanca-botella-19-l/"
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "LEJÍA 1,9 LITROS",
           "marca": "NEUTREX",
@@ -25825,6 +25825,15 @@
           "url": ""
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Dentífrico Total Expert Deliplus con paraprobiótico",
+          "marca": "",
+          "precio": 1.7,
+          "unidad": "L",
+          "precio_unidad": 17.0,
+          "url": ""
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "pasta de dientes blanqueadora bicarbonato 3 en 1 tubo 100 ml - Signal",
           "marca": "signal",
@@ -25849,15 +25858,6 @@
           "precio": 1.85,
           "unidad": "L",
           "precio_unidad": 18.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Total Expert Deliplus con paraprobiótico",
-          "marca": "",
-          "precio": 1.9,
-          "unidad": "L",
-          "precio_unidad": 19.0,
           "url": ""
         },
         {
@@ -26514,6 +26514,15 @@
           "url": "https://www.hipercor.es/supermercado/B001055755102799-sanex-desodorante-roll-on-mineral-protect-con-piedra-de-alumbre-para-piel-normal-48h-envase-50-ml-0-alcohol-y-colorantes/"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "desodorante roll-on Skin Active Protection Black & White Invisible anti-manchas 48h envase 50 ml - Nivea Men",
+          "marca": "nivea men",
+          "precio": 2.5,
+          "unidad": "100 ml.",
+          "precio_unidad": 5.0,
+          "url": "https://www.hipercor.es/supermercado/B001055755100967-nivea-men-desodorante-roll-on-skin-active-protection-black-and-white-invisible-anti-manchas-48h-envase-50-ml/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Desodorante roll-on Invisible Black & White Nivea Men antitranspirante",
           "marca": "",
@@ -26557,15 +26566,6 @@
           "unidad": "L",
           "precio_unidad": 51.0,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "desodorante roll-on Skin Active Protection Black & White Invisible anti-manchas 48h envase 50 ml - Nivea",
-          "marca": "nivea",
-          "precio": 2.65,
-          "unidad": "100 ml.",
-          "precio_unidad": 5.3,
-          "url": "https://www.hipercor.es/supermercado/B001055755100959-nivea-desodorante-roll-on-skin-active-protection-black-and-white-invisible-anti-manchas-48h-envase-50-ml/"
         },
         {
           "supermercado": "Mercadona",
@@ -26928,15 +26928,6 @@
           "url": "https://www.hipercor.es/supermercado/B001055754806192-axe-desodorante-bodyspray-fresh-ice-chill-menta-fresca-y-limon-48h-spray-150-ml/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "DESODORANTE BLACK VANILLA 50 ML.",
-          "marca": "AXE",
-          "precio": 4.35,
-          "unidad": "L",
-          "precio_unidad": 87.0,
-          "url": "https://www.alimerkaonline.es/10029722.html"
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "desodorante + Care Advanced Invisible Dry antimanchas antitranspirante 72h spray 150 ml - Dove Men",
           "marca": "dove men",
@@ -26944,6 +26935,15 @@
           "unidad": "100 ml.",
           "precio_unidad": 3.0,
           "url": "https://www.hipercor.es/supermercado/B001055754802779-dove-men-desodorante--care-advanced-invisible-dry-antimanchas-antitranspirante-72h-spray-150-ml/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "DESODORANTE ZONA BAJA PERA Y MADERA 100 ML.",
+          "marca": "AXE",
+          "precio": 5.35,
+          "unidad": "L",
+          "precio_unidad": 53.5,
+          "url": "https://www.alimerkaonline.es/10031076.html"
         }
       ]
     },
