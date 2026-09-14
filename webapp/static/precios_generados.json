@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-14T11:49:00+00:00",
+  "generado_en": "2026-09-14T17:45:18+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -8801,6 +8801,15 @@
           "url": ""
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "BEBIDA ENERGÉTICA GREEN ZERO AZÚCAR 50 CL.",
+          "marca": "MONSTER",
+          "precio": 1.79,
+          "unidad": "L",
+          "precio_unidad": 3.58,
+          "url": "https://www.alimerkaonline.es/10025400.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "sardinas en aceite de oliva lata 80 g neto escurrido - Ubago",
           "marca": "ubago",
@@ -8961,15 +8970,6 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA 2 LITROS PACK 2",
-          "marca": "FANTA",
-          "precio": 3.6,
-          "unidad": "L",
-          "precio_unidad": 0.9,
-          "url": "https://www.alimerkaonline.es/765026.html"
         },
         {
           "supermercado": "Hipercor",
@@ -10609,15 +10609,6 @@
           "url": "https://www.alimerkaonline.es/330099.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "chorizo asturiao extra peso aproximado pieza 130 g - La Praviana",
-          "marca": "la praviana",
-          "precio": 15.5,
-          "unidad": "kg",
-          "precio_unidad": 119.23,
-          "url": "https://www.hipercor.es/supermercado/B001018310401437-la-praviana-chorizo-asturiao-extra-peso-aproximado-pieza-130-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Chorizo cular ibérico extra La Hacienda del ibérico",
           "marca": "",
@@ -10697,6 +10688,15 @@
           "unidad": "kg",
           "precio_unidad": 24.75,
           "url": "https://www.alimerkaonline.es/344067.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "chorizo troncal  picado fino tipo Pamplona 100% natural peso aproximado pieza 680 g - Alejandro",
+          "marca": "alejandro",
+          "precio": 24.9,
+          "unidad": "kg",
+          "precio_unidad": 36.62,
+          "url": "https://www.hipercor.es/supermercado/B001018310200102-alejandro-chorizo-troncal-picado-fino-tipo-pamplona-100-natural-peso-aproximado-pieza-680-g/"
         },
         {
           "supermercado": "Alimerka",
@@ -15331,9 +15331,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "Pera conferencia al peso (peso aproximado de la unidad 250 g)",
           "marca": "",
-          "precio": 2.69,
+          "precio": 2.49,
           "unidad": "kg",
-          "precio_unidad": 10.76,
+          "precio_unidad": 9.96,
           "url": "https://www.hipercor.es/supermercado/B001018106100037-pera-conferencia-al-peso-peso-aproximado-de-la-unidad-250-g/"
         },
         {
