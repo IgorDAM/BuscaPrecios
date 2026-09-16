@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-16T03:17:28+00:00",
+  "generado_en": "2026-09-16T11:03:05+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -684,6 +684,15 @@
           "unidad": "L",
           "precio_unidad": 0.99,
           "url": "https://www.hipercor.es/supermercado/B001020616600522-el-corte-ingles-leche-semidesnatada-botella-15-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche semidesnatada sin lactosa pack 3 briks 200 ml - Asturiana",
+          "marca": "asturiana",
+          "precio": 1.49,
+          "unidad": "L",
+          "precio_unidad": 2.48,
+          "url": "https://www.hipercor.es/supermercado/B001020616400667-asturiana-leche-semidesnatada-sin-lactosa-pack-3-briks-200-ml/"
         },
         {
           "supermercado": "Hipercor",
@@ -2643,21 +2652,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "yogur griego sabor lima y limón sin gluten pack 4 unidades 110 g - Danone Oikos",
-          "marca": "danone oikos",
-          "precio": 2.89,
-          "unidad": "kg",
-          "precio_unidad": 6.57,
-          "url": "https://www.hipercor.es/supermercado/B001018823002235-danone-oikos-yogur-griego-sabor-lima-y-limon-sin-gluten-pack-4-unidades-110-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "yogur griego con fresas sin gluten pack 4 unidades 110 g - Danone Oikos",
           "marca": "danone oikos",
           "precio": 2.89,
           "unidad": "kg",
           "precio_unidad": 6.57,
           "url": "https://www.hipercor.es/supermercado/B001018823002045-danone-oikos-yogur-griego-con-fresas-sin-gluten-pack-4-unidades-110-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur griego sabor lima y limón sin gluten pack 4 unidades 110 g - Danone Oikos",
+          "marca": "danone oikos",
+          "precio": 2.89,
+          "unidad": "kg",
+          "precio_unidad": 6.57,
+          "url": "https://www.hipercor.es/supermercado/B001018823002235-danone-oikos-yogur-griego-sabor-lima-y-limon-sin-gluten-pack-4-unidades-110-g/"
         },
         {
           "supermercado": "Alimerka",
@@ -2676,6 +2685,15 @@
           "unidad": "kg",
           "precio_unidad": 6.8,
           "url": "https://www.alimerkaonline.es/10017352.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "YOGUR GRIEGO NATURAL 920 G.",
+          "marca": "DANONE",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 3.25,
+          "url": "https://www.alimerkaonline.es/10031072.html"
         },
         {
           "supermercado": "Hipercor",
@@ -2747,6 +2765,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Yogur sabor macedonia Hacendado",
+          "marca": "",
+          "precio": 0.75,
+          "unidad": "kg",
+          "precio_unidad": 1.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Yogur sabor fresa Hacendado",
           "marca": "",
           "precio": 0.75,
@@ -2757,15 +2784,6 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Yogur sabor coco Hacendado",
-          "marca": "",
-          "precio": 0.75,
-          "unidad": "kg",
-          "precio_unidad": 1.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor macedonia Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -3692,15 +3710,6 @@
     {
       "producto": "huevos",
       "opciones": [
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "HUEVO DE CHOCOLATE 20 G.",
-          "marca": "KINDER",
-          "precio": 1.69,
-          "unidad": "kg",
-          "precio_unidad": 84.5,
-          "url": "https://www.alimerkaonline.es/756086.html"
-        },
         {
           "supermercado": "Mercadona",
           "nombre_real": "Huevos grandes L",
@@ -4658,15 +4667,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "panko pan rallado japonés bolsa 200 g - Samlip",
-          "marca": "samlip",
-          "precio": 1.99,
-          "unidad": "kg",
-          "precio_unidad": 9.95,
-          "url": "https://www.hipercor.es/supermercado/B001018089303327-samlip-panko-pan-rallado-japones-bolsa-200-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "pan burger brioche 2 unidades envase 150 g - Goiko",
           "marca": "goiko",
           "precio": 2.05,
@@ -4757,6 +4757,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "pan burger brioche 4 unidades bolsa 260 g - Le Brio",
+          "marca": "le brio",
+          "precio": 3.15,
+          "unidad": "kg",
+          "precio_unidad": 12.12,
+          "url": "https://www.hipercor.es/supermercado/B001018574700615-le-brio-pan-burger-brioche-4-unidades-bolsa-260-g/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "pan especial de espelta integral extra crujiente 100% natural paquete 230 g - Pan Cota",
           "marca": "pan cota",
           "precio": 3.35,
@@ -4802,12 +4811,12 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "panko pan rallado japonés estuche 120 g - Tiger Khan",
-          "marca": "tiger khan",
-          "precio": 3.55,
+          "nombre_real": "pan burger 4 unidades estuche 292 g - Tgb",
+          "marca": "tgb",
+          "precio": 4.35,
           "unidad": "kg",
-          "precio_unidad": 29.58,
-          "url": "https://www.hipercor.es/supermercado/B001018089303228-tiger-khan-panko-pan-rallado-japones-estuche-120-g/"
+          "precio_unidad": 13.59,
+          "url": "https://www.hipercor.es/supermercado/B001018574700599-tgb-pan-burger-4-unidades-estuche-292-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -5248,15 +5257,6 @@
           "url": ""
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Arroz redondo Hacendado",
-          "marca": "",
-          "precio": 1.15,
-          "unidad": "kg",
-          "precio_unidad": 1.15,
-          "url": ""
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "ARROZ CON LECHE 125 G. PACK 4",
           "marca": "ALIMERKA",
@@ -5295,6 +5295,15 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Arroz largo Hacendado",
+          "marca": "",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 1.2,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Arroz redondo Hacendado",
           "marca": "",
           "precio": 1.2,
           "unidad": "kg",
@@ -9049,6 +9058,15 @@
           "url": ""
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "JAMÓN SERRANO 240 G.",
+          "marca": "COR LEYENDA SERRANA",
+          "precio": 2.45,
+          "unidad": "kg",
+          "precio_unidad": 10.21,
+          "url": "https://www.alimerkaonline.es/10028722.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Jamón serrano reserva cortado a tapas",
           "marca": "",
@@ -9083,15 +9101,6 @@
           "unidad": "kg",
           "precio_unidad": 17.08,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "JAMÓN SERRANO 240 G.",
-          "marca": "COR LEYENDA SERRANA",
-          "precio": 4.1,
-          "unidad": "kg",
-          "precio_unidad": 17.08,
-          "url": "https://www.alimerkaonline.es/10028722.html"
         },
         {
           "supermercado": "Hipercor",
@@ -13250,6 +13259,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Cebolla roja Olives García en vinagre",
+          "marca": "",
+          "precio": 3.15,
+          "unidad": "kg",
+          "precio_unidad": 4.38,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Cebollas",
           "marca": "",
           "precio": 3.6,
@@ -13797,15 +13815,6 @@
           "unidad": "kg",
           "precio_unidad": 3.77,
           "url": "https://www.alimerkaonline.es/10020494.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "tomate frito selección sin gluten frasco 340 g - Pedro Luis",
-          "marca": "pedro luis",
-          "precio": 2.2,
-          "unidad": "kg",
-          "precio_unidad": 6.47,
-          "url": "https://www.hipercor.es/supermercado/B001018043502790-pedro-luis-tomate-frito-seleccion-sin-gluten-frasco-340-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -17738,6 +17747,15 @@
           "url": "https://www.alimerkaonline.es/10014837.html"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "CAFÉ MOLIDO MEZCLA 500 G.",
+          "marca": "BONKA",
+          "precio": 6.99,
+          "unidad": "kg",
+          "precio_unidad": 13.98,
+          "url": "https://www.alimerkaonline.es/10014838.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "café molido natural de cultivo sostenible de intensidad 8 paquete 500 g - Bonka",
           "marca": "bonka",
@@ -17754,15 +17772,6 @@
           "unidad": "kg",
           "precio_unidad": 15.0,
           "url": "https://www.hipercor.es/supermercado/B001020604401495-bonka-cafe-molido-mezcla-de-cultivo-sostenible-de-intensidad-10-paquete-500-g/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "CAFÉ MOLIDO 100% ARÁBICA 400 G.",
-          "marca": "OQUENDO",
-          "precio": 7.75,
-          "unidad": "kg",
-          "precio_unidad": 19.38,
-          "url": "https://www.alimerkaonline.es/10027235.html"
         },
         {
           "supermercado": "Hipercor",
@@ -18754,6 +18763,15 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/758082.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "INFUSIÓNES POLEO MENTA 25 UDS.",
+          "marca": "HORNIMANS",
+          "precio": 1.99,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/758045.html"
         },
         {
           "supermercado": "Hipercor",
@@ -20549,6 +20567,15 @@
           "url": ""
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "CERVEZA DOBLE MALTA 33 CL.",
+          "marca": "VOLL-DAMM",
+          "precio": 1.04,
+          "unidad": "L",
+          "precio_unidad": 3.15,
+          "url": "https://www.alimerkaonline.es/780075.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "cerveza rubia Reserva Especial lata 33 cl - 1906",
           "marca": "1906",
@@ -20979,15 +21006,6 @@
           "unidad": "L",
           "precio_unidad": 3.7,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "CERVEZA RESERVA ESPECIAL 33 CL. PACK 6",
-          "marca": "1906",
-          "precio": 7.45,
-          "unidad": "L",
-          "precio_unidad": 3.76,
-          "url": "https://www.alimerkaonline.es/780047.html"
         },
         {
           "supermercado": "Mercadona",
@@ -25677,12 +25695,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "CHAMPÚ LISO KERATINA 685 ML.",
+          "nombre_real": "CHAMPÚ LAMELAR SHINE 685 ML.",
           "marca": "TRESEMMÉ",
           "precio": 6.5,
           "unidad": "L",
           "precio_unidad": 9.49,
-          "url": "https://www.alimerkaonline.es/10012246.html"
+          "url": "https://www.alimerkaonline.es/10027266.html"
         },
         {
           "supermercado": "Hipercor",
@@ -26946,6 +26964,15 @@
           "url": "https://www.hipercor.es/supermercado/B001055754806192-axe-desodorante-bodyspray-fresh-ice-chill-menta-fresca-y-limon-48h-spray-150-ml/"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "DESODORANTE BLACK VANILLA 50 ML.",
+          "marca": "AXE",
+          "precio": 4.35,
+          "unidad": "L",
+          "precio_unidad": 87.0,
+          "url": "https://www.alimerkaonline.es/10029722.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "desodorante + Care Advanced Invisible Dry antimanchas antitranspirante 72h spray 150 ml - Dove Men",
           "marca": "dove men",
@@ -26953,15 +26980,6 @@
           "unidad": "100 ml.",
           "precio_unidad": 3.0,
           "url": "https://www.hipercor.es/supermercado/B001055754802779-dove-men-desodorante--care-advanced-invisible-dry-antimanchas-antitranspirante-72h-spray-150-ml/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "DESODORANTE ZONA BAJA PERA Y MADERA 100 ML.",
-          "marca": "AXE",
-          "precio": 5.35,
-          "unidad": "L",
-          "precio_unidad": 53.5,
-          "url": "https://www.alimerkaonline.es/10031076.html"
         }
       ]
     },
