@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-16T16:09:20+00:00",
+  "generado_en": "2026-09-16T20:58:46+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -15767,15 +15767,6 @@
       "opciones": [
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas avena Hacendado",
-          "marca": "",
-          "precio": 1.0,
-          "unidad": "kg",
-          "precio_unidad": 2.35,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Tortitas de maíz Hacendado",
           "marca": "",
           "precio": 1.1,
@@ -15916,6 +15907,15 @@
           "precio": 1.5,
           "unidad": "kg",
           "precio_unidad": 3.75,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan tostado 100% espelta integral Hacendado",
+          "marca": "",
+          "precio": 1.5,
+          "unidad": "kg",
+          "precio_unidad": 6.0,
           "url": ""
         },
         {
@@ -26964,15 +26964,6 @@
           "url": "https://www.hipercor.es/supermercado/B001055754806192-axe-desodorante-bodyspray-fresh-ice-chill-menta-fresca-y-limon-48h-spray-150-ml/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "DESODORANTE BLACK VANILLA 50 ML.",
-          "marca": "AXE",
-          "precio": 4.35,
-          "unidad": "L",
-          "precio_unidad": 87.0,
-          "url": "https://www.alimerkaonline.es/10029722.html"
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "desodorante + Care Advanced Invisible Dry antimanchas antitranspirante 72h spray 150 ml - Dove Men",
           "marca": "dove men",
@@ -26980,6 +26971,15 @@
           "unidad": "100 ml.",
           "precio_unidad": 3.0,
           "url": "https://www.hipercor.es/supermercado/B001055754802779-dove-men-desodorante--care-advanced-invisible-dry-antimanchas-antitranspirante-72h-spray-150-ml/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "DESODORANTE ZONA BAJA PERA Y MADERA 100 ML.",
+          "marca": "AXE",
+          "precio": 5.35,
+          "unidad": "L",
+          "precio_unidad": 53.5,
+          "url": "https://www.alimerkaonline.es/10031076.html"
         }
       ]
     },
