@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-19T15:24:55+00:00",
+  "generado_en": "2026-09-19T20:07:22+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -4667,7 +4667,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barra pan de pueblo",
+          "nombre_real": "Barra pan de pueblo rebanada",
           "marca": "",
           "precio": 1.6,
           "unidad": "kg",
@@ -4676,7 +4676,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barra pan de pueblo rebanada",
+          "nombre_real": "Barra pan de pueblo",
           "marca": "",
           "precio": 1.6,
           "unidad": "kg",
@@ -15812,6 +15812,15 @@
       "opciones": [
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Galletas avena Hacendado",
+          "marca": "",
+          "precio": 1.0,
+          "unidad": "kg",
+          "precio_unidad": 2.35,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Tortitas de maíz Hacendado",
           "marca": "",
           "precio": 1.1,
@@ -16051,15 +16060,6 @@
           "precio": 1.75,
           "unidad": "kg",
           "precio_unidad": 12.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Rosquillas de chocolate con leche y coco Hacendado",
-          "marca": "",
-          "precio": 1.75,
-          "unidad": "kg",
-          "precio_unidad": 5.83,
           "url": ""
         },
         {
