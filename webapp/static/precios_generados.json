@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-19T03:05:08+00:00",
+  "generado_en": "2026-09-19T10:23:13+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -1516,15 +1516,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "leche entera más ligera que una entera 2% materia grasa sin lactosa botella 1 l - Puleva",
-          "marca": "puleva",
-          "precio": 1.33,
-          "unidad": "L",
-          "precio_unidad": 1.33,
-          "url": "https://www.hipercor.es/supermercado/B001020616400121-puleva-leche-entera-mas-ligera-que-una-entera-2-materia-grasa-sin-lactosa-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "leche semidesnatada sin lactosa enriquecida en vitaminas A, D, E y ácido fólico brik 1 l - Kaiku",
           "marca": "kaiku",
           "precio": 1.34,
@@ -1657,6 +1648,15 @@
           "unidad": "L",
           "precio_unidad": 1.59,
           "url": "https://www.alimerkaonline.es/10032659.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "Leche entera sin lactosa brik 1 l - Pascual",
+          "marca": "pascual",
+          "precio": 1.62,
+          "unidad": "L",
+          "precio_unidad": 1.62,
+          "url": "https://www.hipercor.es/supermercado/B001020616400097-pascual-leche-entera-sin-lactosa-brik-1-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -3012,15 +3012,6 @@
           "url": "https://www.alimerkaonline.es/10010713.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "queso rallado en filatto especial pasta bolsa 80 g - El Caserio",
-          "marca": "el caserio",
-          "precio": 1.49,
-          "unidad": "kg",
-          "precio_unidad": 18.63,
-          "url": "https://www.hipercor.es/supermercado/B001018395400023-el-caserio-queso-rallado-en-filatto-especial-pasta-bolsa-80-g/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "QUESO RALLADO EN POLVO 80 G.",
           "marca": "EL CASERIO",
@@ -3321,6 +3312,15 @@
           "unidad": "kg",
           "precio_unidad": 24.22,
           "url": "https://www.hipercor.es/supermercado/B001018389700024-garcia-baquero-queso-curado-mezcla-madurado-elaborado-con-leche-pasteurizada-ya-cortado-cuna-225-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "queso curado mezcla madurado graso elaborado con leche cruda precortado cuña 250 g - El Corte Ingles Selection",
+          "marca": "el corte ingles selection",
+          "precio": 5.45,
+          "unidad": "kg",
+          "precio_unidad": 21.8,
+          "url": "https://www.hipercor.es/supermercado/B001018389700248-el-corte-ingles-selection-queso-curado-mezcla-madurado-graso-elaborado-con-leche-cruda-precortado-cuna-250-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -4667,7 +4667,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barra pan de pueblo",
+          "nombre_real": "Barra pan de pueblo rebanada",
           "marca": "",
           "precio": 1.6,
           "unidad": "kg",
@@ -4676,7 +4676,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barra pan de pueblo rebanada",
+          "nombre_real": "Barra pan de pueblo",
           "marca": "",
           "precio": 1.6,
           "unidad": "kg",
@@ -6966,15 +6966,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva virgen extra Arbequina botella 1 l - Coosur",
-          "marca": "coosur",
-          "precio": 7.99,
-          "unidad": "L",
-          "precio_unidad": 7.99,
-          "url": "https://www.hipercor.es/supermercado/B001018045800309-coosur-aceite-de-oliva-virgen-extra-arbequina-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "aceite de oliva virgen extra Origen Selección Especial Cooperativa botella 1 l - Coosur",
           "marca": "coosur",
           "precio": 8.1,
@@ -7572,6 +7563,15 @@
           "unidad": "kg",
           "precio_unidad": 0.7,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "salsa ligera sin gluten sin lactosa frasco 210 ml - Ligeresa",
+          "marca": "ligeresa",
+          "precio": 1.65,
+          "unidad": "L",
+          "precio_unidad": 7.71,
+          "url": "https://www.hipercor.es/supermercado/B001018014301966-ligeresa-salsa-ligera-sin-gluten-sin-lactosa-frasco-210-ml/"
         },
         {
           "supermercado": "Mercadona",
@@ -12822,6 +12822,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "PATATAS FRITAS CAMPESINAS 150 G.",
+          "marca": "LAY'S",
+          "precio": 2.05,
+          "unidad": "kg",
+          "precio_unidad": 13.67,
+          "url": "https://www.alimerkaonline.es/10020477.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "PATATAS FRITAS SABOR VINAGRETA 150 G.",
           "marca": "LAY'S",
           "precio": 2.05,
@@ -17874,15 +17883,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "café molido 100% arábica lata 250 g - Illy",
-          "marca": "illy",
-          "precio": 11.15,
-          "unidad": "kg",
-          "precio_unidad": 44.6,
-          "url": "https://www.hipercor.es/supermercado/B001020603903467-illy-cafe-molido-100-arabica-lata-250-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "café molido intenso 100% arábica lata 250 g - Illy",
           "marca": "illy",
           "precio": 11.45,
@@ -19617,20 +19617,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Agua mineral grande Solán de Cabras",
-          "marca": "",
-          "precio": 5.1,
-          "unidad": "L",
-          "precio_unidad": 0.57,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Agua mineral grande Liviana",
           "marca": "",
           "precio": 5.1,
           "unidad": "L",
           "precio_unidad": 0.42,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Agua mineral grande Solán de Cabras",
+          "marca": "",
+          "precio": 5.34,
+          "unidad": "L",
+          "precio_unidad": 0.59,
           "url": ""
         },
         {
@@ -21472,6 +21472,15 @@
           "url": ""
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "vino tinto reserva DO La Mancha botella 75 cl - Estola",
+          "marca": "estola",
+          "precio": 4.09,
+          "unidad": "L",
+          "precio_unidad": 5.45,
+          "url": "https://www.hipercor.es/supermercado/B001018717900346-estola-vino-tinto-reserva-do-la-mancha-botella-75-cl/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Vino tinto crianza Abadía Mantrús DO Ribera del Duero",
           "marca": "",
@@ -21479,15 +21488,6 @@
           "unidad": "L",
           "precio_unidad": 5.67,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "vino tinto tempranillo joven DOCa Rioja botella 75 cl - Campo Viejo",
-          "marca": "campo viejo",
-          "precio": 4.4,
-          "unidad": "L",
-          "precio_unidad": 5.87,
-          "url": "https://www.hipercor.es/supermercado/B001018742700174-campo-viejo-vino-tinto-tempranillo-joven-doca-rioja-botella-75-cl/"
         },
         {
           "supermercado": "Mercadona",
@@ -23174,7 +23174,7 @@
           "supermercado": "Alimerka",
           "nombre_real": "SUAVIZANTE CONCENTRADO OCEANIC 80 LAVADOS",
           "marca": "DISICLÍN",
-          "precio": 2.39,
+          "precio": 2.49,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10014942.html"
@@ -23183,7 +23183,7 @@
           "supermercado": "Alimerka",
           "nombre_real": "SUAVIZANTE CONCENTRADO SPRING ROSE 80 LAVADOS",
           "marca": "DISICLÍN",
-          "precio": 2.39,
+          "precio": 2.49,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10013463.html"
@@ -25191,6 +25191,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Champú anticaspa Citric Ultrex cabello graso",
+          "marca": "",
+          "precio": 2.5,
+          "unidad": "L",
+          "precio_unidad": 6.94,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Champú y acondicionador anticaspa Classic 2 en 1 Ultrex todo tipo de cabello",
           "marca": "",
           "precio": 2.5,
@@ -26496,15 +26505,6 @@
           "url": "https://www.hipercor.es/supermercado/B001055755102799-sanex-desodorante-roll-on-mineral-protect-con-piedra-de-alumbre-para-piel-normal-48h-envase-50-ml-0-alcohol-y-colorantes/"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "desodorante roll-on Skin Active Protection Black & White Invisible anti-manchas 48h envase 50 ml - Nivea Men",
-          "marca": "nivea men",
-          "precio": 2.5,
-          "unidad": "100 ml.",
-          "precio_unidad": 5.0,
-          "url": "https://www.hipercor.es/supermercado/B001055755100967-nivea-men-desodorante-roll-on-skin-active-protection-black-and-white-invisible-anti-manchas-48h-envase-50-ml/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Desodorante roll-on Invisible Black & White Nivea Men antitranspirante",
           "marca": "",
@@ -26775,6 +26775,15 @@
           "url": "https://www.alimerkaonline.es/10018304.html"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "desodorante Cobalt Dry antitranspirante 48 h 0% alcohol seca rápido spray 200 ml - Rexona",
+          "marca": "rexona",
+          "precio": 3.25,
+          "unidad": "100 ml.",
+          "precio_unidad": 1.63,
+          "url": "https://www.hipercor.es/supermercado/B001055754807570-rexona-desodorante-cobalt-dry-antitranspirante-48-h-0-alcohol-seca-rapido-spray-200-ml/"
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "DESODORANTE 200 ML.",
           "marca": "HENO DE PRAVIA",
@@ -26978,15 +26987,6 @@
           "url": "https://www.alimerkaonline.es/10015295.html"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Pañales bebé talla 5 Deliplus de 14-18 kg",
-          "marca": "",
-          "precio": 6.05,
-          "unidad": "kg",
-          "precio_unidad": 0.34,
-          "url": ""
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "pañales unisex de 9 a 15 kg talla 4 elásticos y transpirables bolsa 38 unidades - El Corte Ingles",
           "marca": "el corte ingles",
@@ -27066,6 +27066,15 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10015298.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañales bebé talla 5 Deliplus de 14-18 kg",
+          "marca": "",
+          "precio": 7.0,
+          "unidad": "kg",
+          "precio_unidad": 0.39,
+          "url": ""
         },
         {
           "supermercado": "Hipercor",
