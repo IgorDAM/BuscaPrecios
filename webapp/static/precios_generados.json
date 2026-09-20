@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-20T03:23:23+00:00",
+  "generado_en": "2026-09-20T10:40:34+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -6343,6 +6343,15 @@
           "url": ""
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO 390 G. PACK 3",
+          "marca": "GARBAYO",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 1.15,
+          "url": "https://www.alimerkaonline.es/10027463.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "tomate frito sin gluten pack 3 envases 400 g - El Corte Ingles",
           "marca": "el corte ingles",
@@ -12136,6 +12145,15 @@
           "url": "https://www.alimerkaonline.es/10028517.html"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "ALCACHOFAS TROCEADAS 400 G.",
+          "marca": "IFA ELIGES",
+          "precio": 2.3,
+          "unidad": "kg",
+          "precio_unidad": 5.75,
+          "url": "https://www.alimerkaonline.es/10009745.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "pimientos del piquillo rellenos de carne 4 unidades bolsa 185 g - Don Molinico",
           "marca": "don molinico",
@@ -12260,15 +12278,6 @@
           "unidad": "kg",
           "precio_unidad": 3.69,
           "url": "https://www.alimerkaonline.es/10011367.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "PATATA AIRFRYER 600 G.",
-          "marca": "McCAIN",
-          "precio": 3.79,
-          "unidad": "kg",
-          "precio_unidad": 6.32,
-          "url": "https://www.alimerkaonline.es/10024213.html"
         },
         {
           "supermercado": "Hipercor",
@@ -13869,15 +13878,6 @@
           "unidad": "kg",
           "precio_unidad": 3.58,
           "url": "https://www.hipercor.es/supermercado/B001018043501834-solis-tomate-frito-origen-vegas-del-guadiana-sin-gluten-pack-3-envases-200-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "tomate frito selección sin gluten frasco 340 g - Pedro Luis",
-          "marca": "pedro luis",
-          "precio": 2.2,
-          "unidad": "kg",
-          "precio_unidad": 6.47,
-          "url": "https://www.hipercor.es/supermercado/B001018043502790-pedro-luis-tomate-frito-seleccion-sin-gluten-frasco-340-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -19617,20 +19617,20 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Agua mineral grande Solán de Cabras",
+          "marca": "",
+          "precio": 5.1,
+          "unidad": "L",
+          "precio_unidad": 0.57,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Agua mineral grande Liviana",
           "marca": "",
           "precio": 5.1,
           "unidad": "L",
           "precio_unidad": 0.42,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Agua mineral grande Solán de Cabras",
-          "marca": "",
-          "precio": 5.34,
-          "unidad": "L",
-          "precio_unidad": 0.59,
           "url": ""
         },
         {
@@ -22414,6 +22414,15 @@
           "url": ""
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "SERVILLETAS TRAPUNTATI 50 UDS.",
+          "marca": "FOXY",
+          "precio": 1.99,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10021125.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "servilletas decoradas 2 capas 33x33 cm paquete 100 unidades - El Corte Ingles",
           "marca": "el corte ingles",
@@ -23671,15 +23680,6 @@
           "url": "https://www.hipercor.es/supermercado/B001028013201778-fairy-lavavajillas-a-mano-concentrado-original-ultra-poder-botella-650-ml/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "LAVAVAJILLAS MAXI PODER ANTIGOTEO 660 ML.",
-          "marca": "FAIRY",
-          "precio": 4.69,
-          "unidad": "L",
-          "precio_unidad": 7.11,
-          "url": "https://www.alimerkaonline.es/10026964.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Lavavajillas Total Somat en gel 5 en 1",
           "marca": "",
@@ -23714,6 +23714,15 @@
           "unidad": "L",
           "precio_unidad": 7.19,
           "url": "https://www.hipercor.es/supermercado/B001028013202586-fairy-lavavajillas-a-mano-concentrado-maxi-poder-tecnologia-anti-goteo-botella-730-ml/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "LAVAVAJILLAS ACTIVE PLUS CLASSIC 50 UDS.",
+          "marca": "FLOTA",
+          "precio": 5.79,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10021931.html"
         },
         {
           "supermercado": "Mercadona",
