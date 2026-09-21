@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-21T17:57:51+00:00",
+  "generado_en": "2026-09-21T21:47:38+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -4640,7 +4640,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barra pan de pueblo",
+          "nombre_real": "Barra pan de pueblo rebanada",
           "marca": "",
           "precio": 1.6,
           "unidad": "kg",
@@ -4649,7 +4649,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barra pan de pueblo rebanada",
+          "nombre_real": "Barra pan de pueblo",
           "marca": "",
           "precio": 1.6,
           "unidad": "kg",
@@ -9701,6 +9701,15 @@
           "unidad": "kg",
           "precio_unidad": 8.2,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "carne picada vegetal estilo vacuno envase 250 g - Redefine Meat",
+          "marca": "redefine meat",
+          "precio": 4.95,
+          "unidad": "kg",
+          "precio_unidad": 19.8,
+          "url": "https://www.hipercor.es/supermercado/B001020770600391-redefine-meat-carne-picada-vegetal-estilo-vacuno-envase-250-g/"
         },
         {
           "supermercado": "Mercadona",
