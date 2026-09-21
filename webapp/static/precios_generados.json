@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-21T12:01:19+00:00",
+  "generado_en": "2026-09-21T17:57:51+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -4640,7 +4640,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barra pan de pueblo rebanada",
+          "nombre_real": "Barra pan de pueblo",
           "marca": "",
           "precio": 1.6,
           "unidad": "kg",
@@ -4649,7 +4649,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barra pan de pueblo",
+          "nombre_real": "Barra pan de pueblo rebanada",
           "marca": "",
           "precio": 1.6,
           "unidad": "kg",
@@ -7545,6 +7545,15 @@
           "unidad": "kg",
           "precio_unidad": 0.7,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "salsa ligera sin gluten sin lactosa frasco 210 ml - Ligeresa",
+          "marca": "ligeresa",
+          "precio": 1.65,
+          "unidad": "L",
+          "precio_unidad": 7.71,
+          "url": "https://www.hipercor.es/supermercado/B001018014301966-ligeresa-salsa-ligera-sin-gluten-sin-lactosa-frasco-210-ml/"
         },
         {
           "supermercado": "Mercadona",
@@ -12515,6 +12524,15 @@
           "url": ""
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Patatas fritas onduladas sabor sal y vinagre",
+          "marca": "",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 8.0,
+          "url": ""
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "PATATAS FRITAS ONDULADAS 150 G.",
           "marca": "ALIMERKA",
@@ -15911,20 +15929,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas canela Hacendado",
-          "marca": "",
-          "precio": 1.5,
-          "unidad": "kg",
-          "precio_unidad": 3.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas María dorada Hacendado 0% azúcares añadidos",
           "marca": "",
           "precio": 1.5,
           "unidad": "kg",
           "precio_unidad": 3.75,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas canela Hacendado",
+          "marca": "",
+          "precio": 1.5,
+          "unidad": "kg",
+          "precio_unidad": 3.0,
           "url": ""
         },
         {
@@ -15947,20 +15965,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barritas de cereales y chocolate con leche Hacendado",
-          "marca": "",
-          "precio": 1.55,
-          "unidad": "kg",
-          "precio_unidad": 12.92,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Barritas de cereales muesli y chocolate Hacendado",
           "marca": "",
           "precio": 1.55,
           "unidad": "kg",
           "precio_unidad": 11.23,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Barritas de cereales y chocolate con leche Hacendado",
+          "marca": "",
+          "precio": 1.55,
+          "unidad": "kg",
+          "precio_unidad": 12.92,
           "url": ""
         },
         {
@@ -16024,15 +16042,6 @@
           "precio": 1.75,
           "unidad": "kg",
           "precio_unidad": 12.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Rosquillas de chocolate con leche y coco Hacendado",
-          "marca": "",
-          "precio": 1.75,
-          "unidad": "kg",
-          "precio_unidad": 5.83,
           "url": ""
         },
         {
@@ -16637,6 +16646,15 @@
           "unidad": "kg",
           "precio_unidad": 7.93,
           "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Papilla 8 cereales con miel Nestlé +6 meses",
+          "marca": "",
+          "precio": 5.75,
+          "unidad": "kg",
+          "precio_unidad": 7.93,
+          "url": ""
         }
       ]
     },
@@ -16789,20 +16807,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas Digestive chocolate con leche Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 4.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas María Integral Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 1.69,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas Digestive chocolate con leche Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 4.5,
           "url": ""
         },
         {
@@ -17870,7 +17888,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula forte Hacendado",
+          "nombre_real": "Café en cápsula descafeinado Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
@@ -17879,7 +17897,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula descafeinado Hacendado",
+          "nombre_real": "Café en cápsula forte Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
@@ -18586,7 +18604,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Cola de caballo Hacendado",
+          "nombre_real": "Infusión Laxsen sabor menta Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -18595,7 +18613,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Laxsen sabor menta Hacendado",
+          "nombre_real": "Infusión Cola de caballo Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -19619,6 +19637,15 @@
           "unidad": "L",
           "precio_unidad": 1.5,
           "url": "https://www.alimerkaonline.es/10005825.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "zumo de naranja recién exprimido botella 330 ml - El Corte Ingles Selection",
+          "marca": "el corte ingles selection",
+          "precio": 1.59,
+          "unidad": "L",
+          "precio_unidad": 4.82,
+          "url": "https://www.hipercor.es/supermercado/B001018827001720-el-corte-ingles-selection-zumo-de-naranja-recien-exprimido-botella-330-ml/"
         },
         {
           "supermercado": "Mercadona",
@@ -24547,7 +24574,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño ambar y vetiver Deliplus piel normal",
+          "nombre_real": "Gel de baño marino y cedro Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -24556,7 +24583,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño marino y cedro Deliplus piel normal",
+          "nombre_real": "Gel de baño ambar y vetiver Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
