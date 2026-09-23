@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-23T03:15:58+00:00",
+  "generado_en": "2026-09-23T10:51:13+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -1623,15 +1623,6 @@
           "url": "https://www.alimerkaonline.es/10032659.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "Leche entera sin lactosa brik 1 l - Pascual",
-          "marca": "pascual",
-          "precio": 1.62,
-          "unidad": "L",
-          "precio_unidad": 1.62,
-          "url": "https://www.hipercor.es/supermercado/B001020616400097-pascual-leche-entera-sin-lactosa-brik-1-l/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Leche semidesnatada sin lactosa Hacendado",
           "marca": "",
@@ -1908,21 +1899,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "bebida barista de avena ecológica extra cremosa 0% azúcares sin lactosa brik 1 l - Amandin",
-          "marca": "amandin",
-          "precio": 2.25,
-          "unidad": "L",
-          "precio_unidad": 2.25,
-          "url": "https://www.hipercor.es/supermercado/B001020728400472-amandin-bebida-barista-de-avena-ecologica-extra-cremosa-0-azucares-sin-lactosa-brik-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "bebida de avena ecológica, sin gluten, sin azúcares añadidos y vegana brik 1 l - Amandin",
           "marca": "amandin",
           "precio": 2.25,
           "unidad": "L",
           "precio_unidad": 2.25,
           "url": "https://www.hipercor.es/supermercado/B001020728400456-amandin-bebida-de-avena-ecologica-sin-gluten-sin-azucares-anadidos-y-vegana-brik-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "bebida barista de avena ecológica extra cremosa 0% azúcares sin lactosa brik 1 l - Amandin",
+          "marca": "amandin",
+          "precio": 2.25,
+          "unidad": "L",
+          "precio_unidad": 2.25,
+          "url": "https://www.hipercor.es/supermercado/B001020728400472-amandin-bebida-barista-de-avena-ecologica-extra-cremosa-0-azucares-sin-lactosa-brik-1-l/"
         },
         {
           "supermercado": "Hipercor",
@@ -7019,6 +7010,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018044800128-el-corte-ingles-aceite-de-oliva-suave-04-contiene-aceites-refinados-virgenes-y-20-de-virgen-extra-garrafa-5-l/"
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Aceite de oliva virgen extra Hacendado",
+          "marca": "",
+          "precio": 19.0,
+          "unidad": "L",
+          "precio_unidad": 3.8,
+          "url": ""
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "aceite de oliva virgen extra Hojiblanca garrafa 5 l - El Corte Ingles",
           "marca": "el corte ingles",
@@ -9009,6 +9009,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "SARDINILLAS EN ACEITE DE OLIVA",
+          "marca": "ALBO",
+          "precio": 2.75,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10006738.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "SARDINILLAS EN ACEITE DE GIRASOL",
           "marca": "ORBE",
           "precio": 2.79,
@@ -9121,15 +9130,6 @@
           "url": ""
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "JAMÓN SERRANO 240 G.",
-          "marca": "COR LEYENDA SERRANA",
-          "precio": 2.45,
-          "unidad": "kg",
-          "precio_unidad": 10.21,
-          "url": "https://www.alimerkaonline.es/10028722.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Jamón serrano reserva cortado a tapas",
           "marca": "",
@@ -9164,6 +9164,15 @@
           "unidad": "kg",
           "precio_unidad": 17.08,
           "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "JAMÓN SERRANO 240 G.",
+          "marca": "COR LEYENDA SERRANA",
+          "precio": 4.1,
+          "unidad": "kg",
+          "precio_unidad": 17.08,
+          "url": "https://www.alimerkaonline.es/10028722.html"
         },
         {
           "supermercado": "Hipercor",
@@ -9545,6 +9554,15 @@
           "url": "https://www.alimerkaonline.es/10006937.html"
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pechuga de pollo braseada Hacendado lonchas",
+          "marca": "",
+          "precio": 2.3,
+          "unidad": "kg",
+          "precio_unidad": 10.22,
+          "url": ""
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "pechuga de pollo al natural pack 2 latas 80 g - Aldelis",
           "marca": "aldelis",
@@ -9828,15 +9846,6 @@
           "unidad": "kg",
           "precio_unidad": 3.44,
           "url": "https://www.alimerkaonline.es/10021792.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "SALCHICHAS VIENA 200 G.",
-          "marca": "ALIMERKA",
-          "precio": 0.75,
-          "unidad": "kg",
-          "precio_unidad": 3.75,
-          "url": "https://www.alimerkaonline.es/10031267.html"
         },
         {
           "supermercado": "Alimerka",
@@ -12974,6 +12983,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018176302919-el-corte-ingles-patata-para-todo-uso-bolsa-3-kg/"
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Patatas carne blanca",
+          "marca": "",
+          "precio": 4.95,
+          "unidad": "kg",
+          "precio_unidad": 1.65,
+          "url": ""
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "PATATA FRITAS 2,5 KILOS",
           "marca": "IFA ELIGES",
@@ -13381,21 +13399,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "ajo granulado bolsa 150 g - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 3.59,
-          "unidad": "kg",
-          "precio_unidad": 23.93,
-          "url": "https://www.hipercor.es/supermercado/B001018145300754-el-corte-ingles-ajo-granulado-bolsa-150-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "ajo ecológico bolsa 250 g - Torribas",
           "marca": "torribas",
           "precio": 3.99,
           "unidad": "kg",
           "precio_unidad": 15.96,
           "url": "https://www.hipercor.es/supermercado/B001018173100258-torribas-ajo-ecologico-bolsa-250-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "ajo morado bolsa 500 g - Huerta De Carabaña",
+          "marca": "huerta de carabaña",
+          "precio": 4.97,
+          "unidad": "kg",
+          "precio_unidad": 9.94,
+          "url": "https://www.hipercor.es/supermercado/B001018176102806-huerta-de-carabana-ajo-morado-bolsa-500-g/"
         }
       ]
     },
@@ -13815,6 +13833,15 @@
           "unidad": "kg",
           "precio_unidad": 3.58,
           "url": "https://www.hipercor.es/supermercado/B001018043501834-solis-tomate-frito-origen-vegas-del-guadiana-sin-gluten-pack-3-envases-200-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito selección sin gluten frasco 340 g - Pedro Luis",
+          "marca": "pedro luis",
+          "precio": 2.2,
+          "unidad": "kg",
+          "precio_unidad": 6.47,
+          "url": "https://www.hipercor.es/supermercado/B001018043502790-pedro-luis-tomate-frito-seleccion-sin-gluten-frasco-340-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -17531,6 +17558,15 @@
           "url": "https://www.alimerkaonline.es/758127.html"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "CAFÉ MOLIDO MEZCLA 250 G.",
+          "marca": "EL GALLEGO",
+          "precio": 3.9,
+          "unidad": "kg",
+          "precio_unidad": 15.6,
+          "url": "https://www.alimerkaonline.es/10011566.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Café molido natural Bonka",
           "marca": "",
@@ -17603,6 +17639,24 @@
           "url": "https://www.hipercor.es/supermercado/B001020604400265-marcilla-cafe-molido-mezcla-intensidad-10-paquete-250-g/"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "CAFÉ MOLIDO NATURAL 250 GRS.",
+          "marca": "MARCILLA",
+          "precio": 4.45,
+          "unidad": "kg",
+          "precio_unidad": 17.8,
+          "url": "https://www.alimerkaonline.es/758180.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "CAFÉ MOLIDO MEZCLA 250 G.",
+          "marca": "MARCILLA",
+          "precio": 4.45,
+          "unidad": "kg",
+          "precio_unidad": 17.8,
+          "url": "https://www.alimerkaonline.es/758179.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Café molido natural Hacendado",
           "marca": "",
@@ -17657,24 +17711,6 @@
           "url": "https://www.alimerkaonline.es/758178.html"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "CAFÉ MOLIDO NATURAL 250 GRS.",
-          "marca": "MARCILLA",
-          "precio": 4.79,
-          "unidad": "kg",
-          "precio_unidad": 19.16,
-          "url": "https://www.alimerkaonline.es/758180.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "CAFÉ MOLIDO MEZCLA 250 G.",
-          "marca": "MARCILLA",
-          "precio": 4.79,
-          "unidad": "kg",
-          "precio_unidad": 19.16,
-          "url": "https://www.alimerkaonline.es/758179.html"
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "café molido natural 100 % arábica Colombia paquete 250 g - El Corte Ingles",
           "marca": "el corte ingles",
@@ -17718,15 +17754,6 @@
           "unidad": "kg",
           "precio_unidad": 13.98,
           "url": "https://www.alimerkaonline.es/10014837.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "CAFÉ MOLIDO MEZCLA 500 G.",
-          "marca": "BONKA",
-          "precio": 6.99,
-          "unidad": "kg",
-          "precio_unidad": 13.98,
-          "url": "https://www.alimerkaonline.es/10014838.html"
         },
         {
           "supermercado": "Hipercor",
@@ -17808,6 +17835,15 @@
           "unidad": "kg",
           "precio_unidad": 45.8,
           "url": "https://www.hipercor.es/supermercado/B001020604401081-illy-cafe-molido-intenso-100-arabica-lata-250-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "café molido natural pack 2 paquetes 500 g - Marcilla",
+          "marca": "marcilla",
+          "precio": 16.79,
+          "unidad": "kg",
+          "precio_unidad": 16.79,
+          "url": "https://www.hipercor.es/supermercado/B001020603902592-marcilla-cafe-molido-natural-pack-2-paquetes-500-g/"
         }
       ]
     },
@@ -21364,15 +21400,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "vino tinto reserva DO La Mancha botella 75 cl - Estola",
-          "marca": "estola",
-          "precio": 4.09,
-          "unidad": "L",
-          "precio_unidad": 5.45,
-          "url": "https://www.hipercor.es/supermercado/B001018717900346-estola-vino-tinto-reserva-do-la-mancha-botella-75-cl/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Vino tinto crianza Abadía Mantrús DO Ribera del Duero",
           "marca": "",
@@ -21454,15 +21481,6 @@
           "url": ""
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "VINO TINTO CRIANZA 75 CL.",
-          "marca": "CUNE",
-          "precio": 7.25,
-          "unidad": "L",
-          "precio_unidad": 9.67,
-          "url": "https://www.alimerkaonline.es/783090.html"
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "vino tinto Cabernet Sauvignon merlot DO Somontano botella 75 cl - Enate",
           "marca": "enate",
@@ -21524,6 +21542,15 @@
           "unidad": "L",
           "precio_unidad": 11.93,
           "url": "https://www.hipercor.es/supermercado/B001018782303954-el-guardian-vino-tinto-reserva-doca-rioja-botella-75-cl/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "vino tinto roble DO Toro botella 75 cl - Quinta El Refugio",
+          "marca": "quinta el refugio",
+          "precio": 8.95,
+          "unidad": "L",
+          "precio_unidad": 11.93,
+          "url": "https://www.hipercor.es/supermercado/B001018779504036-quinta-el-refugio-vino-tinto-roble-do-toro-botella-75-cl/"
         },
         {
           "supermercado": "Hipercor",
@@ -22973,6 +23000,15 @@
           "url": "https://www.hipercor.es/supermercado/B001028012205531-el-corte-ingles-suavizante-concentrado-frescor-azul-botella-80-dosis/"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "suavizante concentrado Jazmín botella 80 dosis - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.8,
+          "unidad": "Dosis",
+          "precio_unidad": 0.02,
+          "url": "https://www.hipercor.es/supermercado/B001028012205556-el-corte-ingles-suavizante-concentrado-jazmin-botella-80-dosis/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Suavizante ropa Azul Bosque Verde concentrado",
           "marca": "",
@@ -23160,15 +23196,6 @@
           "unidad": "Dosis",
           "precio_unidad": 0.06,
           "url": "https://www.hipercor.es/supermercado/B001028012204815-vernel-suavizante-concentrado-aromaterapia-lirio-irresistible-botella-55-dosis/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "suavizante concentrado delicado para pieles sensibles y alérgicas botella 55 dosis - Vernel",
-          "marca": "vernel",
-          "precio": 3.35,
-          "unidad": "Dosis",
-          "precio_unidad": 0.06,
-          "url": "https://www.hipercor.es/supermercado/B001028012204591-vernel-suavizante-concentrado-delicado-para-pieles-sensibles-y-alergicas-botella-55-dosis/"
         },
         {
           "supermercado": "Alimerka",
