@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-24T11:12:30+00:00",
+  "generado_en": "2026-09-24T16:33:42+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -2738,7 +2738,7 @@
       "opciones": [
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor limón Hacendado",
+          "nombre_real": "Yogur sabor macedonia Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -2747,7 +2747,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor macedonia Hacendado",
+          "nombre_real": "Yogur sabor limón Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -3473,7 +3473,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Mantequilla con sal Hacendado",
+          "nombre_real": "Mantequilla sin sal añadida Hacendado",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
@@ -3482,7 +3482,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Mantequilla sin sal añadida Hacendado",
+          "nombre_real": "Mantequilla con sal Hacendado",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
@@ -12803,6 +12803,15 @@
           "url": "https://www.alimerkaonline.es/710011.html"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "PATATAS FRITAS CAMPESINAS 150 G.",
+          "marca": "LAY'S",
+          "precio": 2.05,
+          "unidad": "kg",
+          "precio_unidad": 13.67,
+          "url": "https://www.alimerkaonline.es/10020477.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Patatas prefritas Waffle con piel Hacendado ultracongeladas",
           "marca": "",
@@ -15911,20 +15920,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 9.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Digestive chocolate con leche Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 4.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 9.0,
           "url": ""
         },
         {
@@ -16951,20 +16960,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas tostadas Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 1.69,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 9.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas tostadas Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 1.69,
           "url": ""
         },
         {
@@ -18023,7 +18032,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula forte Hacendado",
+          "nombre_real": "Café en cápsula descafeinado Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
@@ -18032,7 +18041,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula descafeinado Hacendado",
+          "nombre_real": "Café en cápsula forte Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
@@ -18104,20 +18113,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula doble espresso Hacendado",
-          "marca": "",
-          "precio": 3.35,
-          "unidad": "kg",
-          "precio_unidad": 26.17,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula cappuccino Hacendado",
           "marca": "",
           "precio": 3.35,
           "unidad": "kg",
           "precio_unidad": 18.05,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café en cápsula doble espresso Hacendado",
+          "marca": "",
+          "precio": 3.35,
+          "unidad": "kg",
+          "precio_unidad": 26.17,
           "url": ""
         },
         {
@@ -18158,15 +18167,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsulas doble espresso Hacendado",
-          "marca": "",
-          "precio": 3.8,
-          "unidad": "kg",
-          "precio_unidad": 34.55,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula ristretto Hacendado",
           "marca": "",
           "precio": 3.8,
@@ -18181,6 +18181,15 @@
           "precio": 3.8,
           "unidad": "kg",
           "precio_unidad": 36.54,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café en cápsulas doble espresso Hacendado",
+          "marca": "",
+          "precio": 3.8,
+          "unidad": "kg",
+          "precio_unidad": 34.55,
           "url": ""
         },
         {
@@ -18356,6 +18365,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Café en cápsula cortado Dolce Gusto",
+          "marca": "",
+          "precio": 4.95,
+          "unidad": "kg",
+          "precio_unidad": 49.11,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Café con leche en cápsula Dolce Gusto",
           "marca": "",
           "precio": 4.95,
@@ -18370,15 +18388,6 @@
           "precio": 4.95,
           "unidad": "kg",
           "precio_unidad": 38.67,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula cortado Dolce Gusto",
-          "marca": "",
-          "precio": 4.95,
-          "unidad": "kg",
-          "precio_unidad": 49.11,
           "url": ""
         },
         {
@@ -18721,15 +18730,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Dormir Hacendado",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 35.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Infusión Digest Hacendado",
           "marca": "",
           "precio": 1.05,
@@ -18739,16 +18739,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Laxsen sabor menta Hacendado",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 35.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Infusión Cola de caballo Hacendado",
+          "nombre_real": "Infusión Dormir Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -18766,7 +18757,16 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión quema grasas Hacendado",
+          "nombre_real": "Infusión Cola de caballo Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 35.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Infusión Laxsen sabor menta Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -18776,6 +18776,15 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Infusión Relax Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 35.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Infusión quema grasas Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -24691,7 +24700,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño vainilla y miel Deliplus piel normal",
+          "nombre_real": "Gel de baño avena Deliplus piel sensible",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -24700,7 +24709,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño avena Deliplus piel sensible",
+          "nombre_real": "Gel de baño vainilla y miel Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -24745,7 +24754,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño marino y cedro Deliplus piel normal",
+          "nombre_real": "Gel de baño ambar y vetiver Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -24754,7 +24763,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño ambar y vetiver Deliplus piel normal",
+          "nombre_real": "Gel de baño marino y cedro Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -25317,7 +25326,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú Color Protect Deliplus cabello teñido",
+          "nombre_real": "Champú Liss Frizz Control Deliplus cabello rebelde",
           "marca": "",
           "precio": 1.9,
           "unidad": "L",
@@ -25326,7 +25335,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú Liss Frizz Control Deliplus cabello rebelde",
+          "nombre_real": "Champú Color Protect Deliplus cabello teñido",
           "marca": "",
           "precio": 1.9,
           "unidad": "L",
@@ -26024,7 +26033,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Protección Caries Colgate",
+          "nombre_real": "Dentífrico Blanqueador Bicarbonato Signal",
           "marca": "",
           "precio": 1.95,
           "unidad": "L",
@@ -26033,7 +26042,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Blanqueador Bicarbonato Signal",
+          "nombre_real": "Dentífrico Protección Caries Colgate",
           "marca": "",
           "precio": 1.95,
           "unidad": "L",
@@ -26317,7 +26326,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante roll-on Invisible Deliplus antitranspirante",
+          "nombre_real": "Desodorante roll-on Invisible men Deliplus antitranspirante",
           "marca": "",
           "precio": 0.9,
           "unidad": "L",
@@ -26326,7 +26335,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante roll-on Invisible men Deliplus antitranspirante",
+          "nombre_real": "Desodorante roll-on Invisible Deliplus antitranspirante",
           "marca": "",
           "precio": 0.9,
           "unidad": "L",
