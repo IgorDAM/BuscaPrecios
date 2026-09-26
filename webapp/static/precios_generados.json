@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-26T15:49:36+00:00",
+  "generado_en": "2026-09-26T20:46:11+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -12813,6 +12813,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "PATATAS FRITAS CAMPESINAS 150 G.",
+          "marca": "LAY'S",
+          "precio": 2.05,
+          "unidad": "kg",
+          "precio_unidad": 13.67,
+          "url": "https://www.alimerkaonline.es/10020477.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "PATATAS FRITAS SABOR A JAMÓN 150 G.",
           "marca": "RUFFLES",
           "precio": 2.05,
@@ -23768,6 +23777,15 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10015365.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Lavavajillas Power Essential limón Finish en pastillas",
+          "marca": "",
+          "precio": 3.75,
+          "unidad": "kg",
+          "precio_unidad": 11.09,
+          "url": ""
         },
         {
           "supermercado": "Mercadona",
