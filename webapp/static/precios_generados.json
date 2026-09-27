@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-27T03:37:01+00:00",
+  "generado_en": "2026-09-27T11:28:05+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -2983,6 +2983,15 @@
           "unidad": "kg",
           "precio_unidad": 19.38,
           "url": "https://www.alimerkaonline.es/10022871.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "queso rallado en filatto especial pasta bolsa 80 g - El Caserio",
+          "marca": "el caserio",
+          "precio": 1.6,
+          "unidad": "kg",
+          "precio_unidad": 20.0,
+          "url": "https://www.hipercor.es/supermercado/B001018395400023-el-caserio-queso-rallado-en-filatto-especial-pasta-bolsa-80-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -12831,6 +12840,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "PATATAS FRITAS CAMPESINAS 150 G.",
+          "marca": "LAY'S",
+          "precio": 2.05,
+          "unidad": "kg",
+          "precio_unidad": 13.67,
+          "url": "https://www.alimerkaonline.es/10020477.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "PATATAS ENTERAS COCIDAS 660 G.",
           "marca": "ALIMERKA",
           "precio": 2.09,
@@ -14846,21 +14864,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "manzana pink lady selección al peso (peso aproximado de la unidad 250 g) - Pink Lady",
-          "marca": "pink lady",
-          "precio": 3.95,
-          "unidad": "kg",
-          "precio_unidad": 15.8,
-          "url": "https://www.hipercor.es/supermercado/B001018101900316-pink-lady-manzana-pink-lady-seleccion-al-peso-peso-aproximado-de-la-unidad-250-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "Manzana granny smith selección al peso (peso aproximado de la unidad 250 g)",
           "marca": "",
           "precio": 3.95,
           "unidad": "kg",
           "precio_unidad": 15.8,
           "url": "https://www.hipercor.es/supermercado/B001018101900852-manzana-granny-smith-seleccion-al-peso-peso-aproximado-de-la-unidad-250-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "manzana pink lady selección al peso (peso aproximado de la unidad 250 g) - Pink Lady",
+          "marca": "pink lady",
+          "precio": 3.95,
+          "unidad": "kg",
+          "precio_unidad": 15.8,
+          "url": "https://www.hipercor.es/supermercado/B001018101900316-pink-lady-manzana-pink-lady-seleccion-al-peso-peso-aproximado-de-la-unidad-250-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -17982,6 +18000,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "café molido natural 100% arábica lata 400 g - Oquendo",
+          "marca": "oquendo",
+          "precio": 9.49,
+          "unidad": "kg",
+          "precio_unidad": 23.73,
+          "url": "https://www.hipercor.es/supermercado/B001020603903905-oquendo-cafe-molido-natural-100-arabica-lata-400-g/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "café molido intenso 100% arábica lata 250 g - Illy",
           "marca": "illy",
           "precio": 10.5,
@@ -19765,15 +19792,6 @@
           "url": "https://www.alimerkaonline.es/10005825.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "zumo de naranja recién exprimido botella 330 ml - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 1.59,
-          "unidad": "L",
-          "precio_unidad": 4.82,
-          "url": "https://www.hipercor.es/supermercado/B001018827001720-el-corte-ingles-selection-zumo-de-naranja-recien-exprimido-botella-330-ml/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Zumo pura naranja Hacendado",
           "marca": "",
@@ -19943,6 +19961,15 @@
           "unidad": "L",
           "precio_unidad": 4.2,
           "url": "https://www.hipercor.es/supermercado/B001018827001001-el-corte-ingles-selection-zumo-de-naranja-y-zanahoria-100-exprimido-sin-azucares-anadidos-botella-750-ml/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "zumo de naranja a partir de concentrado 100% Premium botella 1 l - Granini",
+          "marca": "granini",
+          "precio": 3.15,
+          "unidad": "L",
+          "precio_unidad": 3.15,
+          "url": "https://www.hipercor.es/supermercado/B001018633602620-granini-zumo-de-naranja-a-partir-de-concentrado-100-premium-botella-1-l/"
         },
         {
           "supermercado": "Alimerka",
@@ -20505,6 +20532,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Cerveza especial San Miguel",
+          "marca": "",
+          "precio": 0.5,
+          "unidad": "L",
+          "precio_unidad": 1.52,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Cerveza doble malta 1897",
           "marca": "",
           "precio": 0.53,
@@ -20555,15 +20591,6 @@
           "precio": 0.7,
           "unidad": "L",
           "precio_unidad": 2.8,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Cerveza especial San Miguel",
-          "marca": "",
-          "precio": 0.74,
-          "unidad": "L",
-          "precio_unidad": 2.24,
           "url": ""
         },
         {
@@ -21063,6 +21090,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Cerveza especial San Miguel",
+          "marca": "",
+          "precio": 5.4,
+          "unidad": "L",
+          "precio_unidad": 1.36,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Cerveza Heineken",
           "marca": "",
           "precio": 5.44,
@@ -21141,15 +21177,6 @@
           "unidad": "L",
           "precio_unidad": 1.76,
           "url": "https://www.alimerkaonline.es/10004329.html"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Cerveza especial San Miguel",
-          "marca": "",
-          "precio": 6.96,
-          "unidad": "L",
-          "precio_unidad": 1.76,
-          "url": ""
         },
         {
           "supermercado": "Hipercor",
@@ -22667,21 +22694,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "servilletas de papel compostables 3 capas  naranjas 33x33 cm paquete 30 unidades - Gabbiano",
-          "marca": "gabbiano",
-          "precio": 2.95,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001028022308143-gabbiano-servilletas-de-papel-compostables-3-capas-naranjas-33x33-cm-paquete-30-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "servilletas de papel compostables 3 capas  verdes 33x33 cm paquete 30 unidades - Gabbiano",
           "marca": "gabbiano",
           "precio": 2.95,
           "unidad": "Unidad",
           "precio_unidad": 0.1,
           "url": "https://www.hipercor.es/supermercado/B001028022308135-gabbiano-servilletas-de-papel-compostables-3-capas-verdes-33x33-cm-paquete-30-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "servilletas de papel compostables 3 capas  naranjas 33x33 cm paquete 30 unidades - Gabbiano",
+          "marca": "gabbiano",
+          "precio": 2.95,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.hipercor.es/supermercado/B001028022308143-gabbiano-servilletas-de-papel-compostables-3-capas-naranjas-33x33-cm-paquete-30-unidades/"
         },
         {
           "supermercado": "Hipercor",
@@ -25758,12 +25785,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "CHAMPÚ LAMELAR SHINE 685 ML.",
+          "nombre_real": "CHAMPÚ LISO KERATINA 685 ML.",
           "marca": "TRESEMMÉ",
           "precio": 6.5,
           "unidad": "L",
           "precio_unidad": 9.49,
-          "url": "https://www.alimerkaonline.es/10027266.html"
+          "url": "https://www.alimerkaonline.es/10012246.html"
         },
         {
           "supermercado": "Hipercor",
