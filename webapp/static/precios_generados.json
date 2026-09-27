@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-27T11:28:05+00:00",
+  "generado_en": "2026-09-27T16:26:37+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -4658,7 +4658,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barra pan de pueblo rebanada",
+          "nombre_real": "Barra pan de pueblo",
           "marca": "",
           "precio": 1.6,
           "unidad": "kg",
@@ -4667,7 +4667,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barra pan de pueblo",
+          "nombre_real": "Barra pan de pueblo rebanada",
           "marca": "",
           "precio": 1.6,
           "unidad": "kg",
@@ -11524,20 +11524,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gamba pelada cruda tamaño grande Hacendado ultracongelada",
-          "marca": "",
-          "precio": 6.15,
-          "unidad": "kg",
-          "precio_unidad": 17.08,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Colas de gambón crudo Hacendado congelado",
           "marca": "",
           "precio": 6.15,
           "unidad": "kg",
           "precio_unidad": 24.6,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Gamba pelada cruda tamaño grande Hacendado ultracongelada",
+          "marca": "",
+          "precio": 6.15,
+          "unidad": "kg",
+          "precio_unidad": 17.08,
           "url": ""
         },
         {
@@ -12837,15 +12837,6 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.hipercor.es/supermercado/B001018108200132-patatas-al-peso/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "PATATAS FRITAS CAMPESINAS 150 G.",
-          "marca": "LAY'S",
-          "precio": 2.05,
-          "unidad": "kg",
-          "precio_unidad": 13.67,
-          "url": "https://www.alimerkaonline.es/10020477.html"
         },
         {
           "supermercado": "Alimerka",
@@ -16055,20 +16046,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barritas de cereales y chocolate con leche Hacendado",
-          "marca": "",
-          "precio": 1.55,
-          "unidad": "kg",
-          "precio_unidad": 12.92,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Barritas de cereales muesli y chocolate Hacendado",
           "marca": "",
           "precio": 1.55,
           "unidad": "kg",
           "precio_unidad": 11.23,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Barritas de cereales y chocolate con leche Hacendado",
+          "marca": "",
+          "precio": 1.55,
+          "unidad": "kg",
+          "precio_unidad": 12.92,
           "url": ""
         },
         {
@@ -16217,20 +16208,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Tortitas de maíz con chocolate Hacendado",
-          "marca": "",
-          "precio": 1.9,
-          "unidad": "kg",
-          "precio_unidad": 14.62,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Divertidas con cereales Hacendado",
           "marca": "",
           "precio": 1.9,
           "unidad": "kg",
           "precio_unidad": 4.62,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Tortitas de maíz con chocolate Hacendado",
+          "marca": "",
+          "precio": 1.9,
+          "unidad": "kg",
+          "precio_unidad": 14.62,
           "url": ""
         },
         {
@@ -17248,7 +17239,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas avena Hacendado",
+          "nombre_real": "Galletas Digestive manzana & avena Hacendado",
           "marca": "",
           "precio": 1.65,
           "unidad": "kg",
@@ -17257,7 +17248,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas Digestive manzana & avena Hacendado",
+          "nombre_real": "Galletas avena Hacendado",
           "marca": "",
           "precio": 1.65,
           "unidad": "kg",
@@ -18194,7 +18185,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula espresso Hacendado",
+          "nombre_real": "Café en cápsula extra fuerte Hacendado",
           "marca": "",
           "precio": 3.8,
           "unidad": "kg",
@@ -18203,7 +18194,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula extra fuerte Hacendado",
+          "nombre_real": "Café en cápsula espresso Hacendado",
           "marca": "",
           "precio": 3.8,
           "unidad": "kg",
@@ -23176,20 +23167,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Detergente ropa blanca y de color Bosque Verde en polvo",
-          "marca": "",
-          "precio": 6.9,
-          "unidad": "kg",
-          "precio_unidad": 2.51,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Detergente ropa todo en 1 frescor floral Ariel Pods en cápsulas",
           "marca": "",
           "precio": 6.9,
           "unidad": "kg",
           "precio_unidad": 14.88,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Detergente ropa blanca y de color Bosque Verde en polvo",
+          "marca": "",
+          "precio": 6.9,
+          "unidad": "kg",
+          "precio_unidad": 2.51,
           "url": ""
         },
         {
@@ -25344,7 +25335,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Citric Ultrex cabello graso",
+          "nombre_real": "Champú anticaspa Menthol Ultrex todo tipo de cabello",
           "marca": "",
           "precio": 2.5,
           "unidad": "L",
@@ -25353,7 +25344,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Menthol Ultrex todo tipo de cabello",
+          "nombre_real": "Champú anticaspa Citric Ultrex cabello graso",
           "marca": "",
           "precio": 2.5,
           "unidad": "L",
@@ -25785,12 +25776,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "CHAMPÚ LISO KERATINA 685 ML.",
+          "nombre_real": "CHAMPÚ LAMELAR SHINE 685 ML.",
           "marca": "TRESEMMÉ",
           "precio": 6.5,
           "unidad": "L",
           "precio_unidad": 9.49,
-          "url": "https://www.alimerkaonline.es/10012246.html"
+          "url": "https://www.alimerkaonline.es/10027266.html"
         },
         {
           "supermercado": "Hipercor",
