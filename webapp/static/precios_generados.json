@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-28T12:56:44+00:00",
+  "generado_en": "2026-09-28T23:03:24+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -2747,7 +2747,7 @@
       "opciones": [
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor macedonia Hacendado",
+          "nombre_real": "Yogur sabor limón Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -2756,7 +2756,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor limón Hacendado",
+          "nombre_real": "Yogur sabor macedonia Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -4667,7 +4667,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barra pan de pueblo",
+          "nombre_real": "Barra pan de pueblo rebanada",
           "marca": "",
           "precio": 1.6,
           "unidad": "kg",
@@ -4676,7 +4676,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barra pan de pueblo rebanada",
+          "nombre_real": "Barra pan de pueblo",
           "marca": "",
           "precio": 1.6,
           "unidad": "kg",
@@ -12839,15 +12839,6 @@
           "url": "https://www.alimerkaonline.es/10007518.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "patata buti 1 kg - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 2.25,
-          "unidad": "kg",
-          "precio_unidad": 2.25,
-          "url": "https://www.hipercor.es/supermercado/B001018176303008-el-corte-ingles-patata-buti-1-kg/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Patatas prefritas Crispy Pops Hacendado congeladas",
           "marca": "",
@@ -12891,6 +12882,15 @@
           "unidad": "kg",
           "precio_unidad": 16.06,
           "url": "https://www.alimerkaonline.es/10022573.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "patata para todo uso buti 1 kg - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 2.79,
+          "unidad": "kg",
+          "precio_unidad": 2.79,
+          "url": "https://www.hipercor.es/supermercado/B001018176303008-el-corte-ingles-patata-para-todo-uso-buti-1-kg/"
         },
         {
           "supermercado": "Hipercor",
@@ -16064,20 +16064,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barritas de cereales muesli y chocolate Hacendado",
-          "marca": "",
-          "precio": 1.55,
-          "unidad": "kg",
-          "precio_unidad": 11.23,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Barritas de cereales y chocolate con leche Hacendado",
           "marca": "",
           "precio": 1.55,
           "unidad": "kg",
           "precio_unidad": 12.92,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Barritas de cereales muesli y chocolate Hacendado",
+          "marca": "",
+          "precio": 1.55,
+          "unidad": "kg",
+          "precio_unidad": 11.23,
           "url": ""
         },
         {
@@ -16978,20 +16978,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 9.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas tostadas Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 1.69,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 9.0,
           "url": ""
         },
         {
@@ -18068,20 +18068,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café con leche en cápsula Hacendado",
-          "marca": "",
-          "precio": 3.25,
-          "unidad": "kg",
-          "precio_unidad": 21.16,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula extra forte Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
           "precio_unidad": 25.39,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café con leche en cápsula Hacendado",
+          "marca": "",
+          "precio": 3.25,
+          "unidad": "kg",
+          "precio_unidad": 21.16,
           "url": ""
         },
         {
@@ -18131,20 +18131,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula cappuccino Hacendado",
-          "marca": "",
-          "precio": 3.35,
-          "unidad": "kg",
-          "precio_unidad": 18.05,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula doble espresso Hacendado",
           "marca": "",
           "precio": 3.35,
           "unidad": "kg",
           "precio_unidad": 26.17,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café en cápsula cappuccino Hacendado",
+          "marca": "",
+          "precio": 3.35,
+          "unidad": "kg",
+          "precio_unidad": 18.05,
           "url": ""
         },
         {
@@ -18203,7 +18203,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula extra fuerte Hacendado",
+          "nombre_real": "Café en cápsula espresso Hacendado",
           "marca": "",
           "precio": 3.8,
           "unidad": "kg",
@@ -18212,7 +18212,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula espresso Hacendado",
+          "nombre_real": "Café en cápsula extra fuerte Hacendado",
           "marca": "",
           "precio": 3.8,
           "unidad": "kg",
@@ -18401,15 +18401,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula cortado Dolce Gusto",
-          "marca": "",
-          "precio": 4.95,
-          "unidad": "kg",
-          "precio_unidad": 49.11,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula ristretto napoli Dolce Gusto",
           "marca": "",
           "precio": 4.95,
@@ -18424,6 +18415,15 @@
           "precio": 4.95,
           "unidad": "kg",
           "precio_unidad": 49.9,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café en cápsula cortado Dolce Gusto",
+          "marca": "",
+          "precio": 4.95,
+          "unidad": "kg",
+          "precio_unidad": 49.11,
           "url": ""
         },
         {
@@ -22843,15 +22843,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
-          "marca": "",
-          "precio": 1.8,
-          "unidad": "L",
-          "precio_unidad": 1.12,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Suavizante ropa Floral Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
@@ -22862,6 +22853,15 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Suavizante ropa Violets Bosque Verde concentrado",
+          "marca": "",
+          "precio": 1.8,
+          "unidad": "L",
+          "precio_unidad": 1.12,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -23194,20 +23194,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Detergente ropa blanca y de color Bosque Verde en polvo",
-          "marca": "",
-          "precio": 6.9,
-          "unidad": "kg",
-          "precio_unidad": 2.51,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Detergente ropa todo en 1 Ariel Pods en cápsulas",
           "marca": "",
           "precio": 6.9,
           "unidad": "kg",
           "precio_unidad": 19.84,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Detergente ropa blanca y de color Bosque Verde en polvo",
+          "marca": "",
+          "precio": 6.9,
+          "unidad": "kg",
+          "precio_unidad": 2.51,
           "url": ""
         },
         {
@@ -23298,7 +23298,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Suavizante ropa Floral Bosque Verde concentrado",
+          "nombre_real": "Suavizante ropa Violets Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -23307,7 +23307,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Suavizante ropa Violets Bosque Verde concentrado",
+          "nombre_real": "Suavizante ropa Floral Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -24943,20 +24943,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño nutritivo Lactovit piel normal y seca",
-          "marca": "",
-          "precio": 2.95,
-          "unidad": "L",
-          "precio_unidad": 3.93,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Gel de baño hidratante Natural Honey",
           "marca": "",
           "precio": 2.95,
           "unidad": "L",
           "precio_unidad": 3.28,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Gel de baño nutritivo Lactovit piel normal y seca",
+          "marca": "",
+          "precio": 2.95,
+          "unidad": "L",
+          "precio_unidad": 3.93,
           "url": ""
         },
         {
@@ -25353,7 +25353,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Menthol Ultrex todo tipo de cabello",
+          "nombre_real": "Champú anticaspa Citric Ultrex cabello graso",
           "marca": "",
           "precio": 2.5,
           "unidad": "L",
@@ -25362,7 +25362,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Citric Ultrex cabello graso",
+          "nombre_real": "Champú anticaspa Menthol Ultrex todo tipo de cabello",
           "marca": "",
           "precio": 2.5,
           "unidad": "L",
@@ -25551,7 +25551,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Citrus Fresh H&S cabello graso",
+          "nombre_real": "Champú anticaspa Menthol Fresh H&S",
           "marca": "",
           "precio": 3.9,
           "unidad": "L",
@@ -25560,7 +25560,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Menthol Fresh H&S",
+          "nombre_real": "Champú anticaspa Citrus Fresh H&S cabello graso",
           "marca": "",
           "precio": 3.9,
           "unidad": "L",
@@ -26024,7 +26024,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Blanqueador Bicarbonato Signal",
+          "nombre_real": "Dentífrico Protección Caries Colgate",
           "marca": "",
           "precio": 1.95,
           "unidad": "L",
@@ -26033,7 +26033,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Protección Caries Colgate",
+          "nombre_real": "Dentífrico Blanqueador Bicarbonato Signal",
           "marca": "",
           "precio": 1.95,
           "unidad": "L",
@@ -27483,20 +27483,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Pañales bebé talla 3 Dodot Sensitive de 6-10 kg",
-          "marca": "",
-          "precio": 20.95,
-          "unidad": "kg",
-          "precio_unidad": 2.09,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pañales bebé talla 1 Dodot Sensitive de 2-5 kg",
           "marca": "",
           "precio": 20.95,
           "unidad": "kg",
           "precio_unidad": 4.19,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañales bebé talla 3 Dodot Sensitive de 6-10 kg",
+          "marca": "",
+          "precio": 20.95,
+          "unidad": "kg",
+          "precio_unidad": 2.09,
           "url": ""
         },
         {
