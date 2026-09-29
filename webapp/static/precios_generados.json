@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-29T12:11:54+00:00",
+  "generado_en": "2026-09-29T21:59:39+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -16933,20 +16933,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas tostadas Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 1.69,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 9.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas tostadas Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 1.69,
           "url": ""
         },
         {
@@ -18167,7 +18167,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula espresso Hacendado",
+          "nombre_real": "Café en cápsula extra fuerte Hacendado",
           "marca": "",
           "precio": 3.8,
           "unidad": "kg",
@@ -18176,7 +18176,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula extra fuerte Hacendado",
+          "nombre_real": "Café en cápsula espresso Hacendado",
           "marca": "",
           "precio": 3.8,
           "unidad": "kg",
@@ -25290,7 +25290,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú Liss Frizz Control Deliplus cabello rebelde",
+          "nombre_real": "Champú Color Protect Deliplus cabello teñido",
           "marca": "",
           "precio": 1.9,
           "unidad": "L",
@@ -25299,7 +25299,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú Color Protect Deliplus cabello teñido",
+          "nombre_real": "Champú Liss Frizz Control Deliplus cabello rebelde",
           "marca": "",
           "precio": 1.9,
           "unidad": "L",
