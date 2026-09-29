@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-29T04:11:59+00:00",
+  "generado_en": "2026-09-29T12:11:54+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -1899,21 +1899,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "bebida de avena ecológica, sin gluten, sin azúcares añadidos y vegana brik 1 l - Amandin",
-          "marca": "amandin",
-          "precio": 2.25,
-          "unidad": "L",
-          "precio_unidad": 2.25,
-          "url": "https://www.hipercor.es/supermercado/B001020728400456-amandin-bebida-de-avena-ecologica-sin-gluten-sin-azucares-anadidos-y-vegana-brik-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "bebida barista de avena ecológica extra cremosa 0% azúcares sin lactosa brik 1 l - Amandin",
           "marca": "amandin",
           "precio": 2.25,
           "unidad": "L",
           "precio_unidad": 2.25,
           "url": "https://www.hipercor.es/supermercado/B001020728400472-amandin-bebida-barista-de-avena-ecologica-extra-cremosa-0-azucares-sin-lactosa-brik-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "bebida de avena ecológica, sin gluten, sin azúcares añadidos y vegana brik 1 l - Amandin",
+          "marca": "amandin",
+          "precio": 2.25,
+          "unidad": "L",
+          "precio_unidad": 2.25,
+          "url": "https://www.hipercor.es/supermercado/B001020728400456-amandin-bebida-de-avena-ecologica-sin-gluten-sin-azucares-anadidos-y-vegana-brik-1-l/"
         },
         {
           "supermercado": "Hipercor",
@@ -4703,15 +4703,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "panko pan rallado japonés bolsa 200 g - Samlip",
-          "marca": "samlip",
-          "precio": 1.99,
-          "unidad": "kg",
-          "precio_unidad": 9.95,
-          "url": "https://www.hipercor.es/supermercado/B001018089303327-samlip-panko-pan-rallado-japones-bolsa-200-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "pan burger brioche 2 unidades envase 150 g - Goiko",
           "marca": "goiko",
           "precio": 2.05,
@@ -4802,21 +4793,21 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "pan burger brioche 4 unidades bolsa 260 g - Le Brio",
+          "marca": "le brio",
+          "precio": 3.15,
+          "unidad": "kg",
+          "precio_unidad": 12.12,
+          "url": "https://www.hipercor.es/supermercado/B001018574700615-le-brio-pan-burger-brioche-4-unidades-bolsa-260-g/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "pan de molde sin gluten sin lactosa y sin huevo bolsa 400 g - Panceliac",
           "marca": "panceliac",
           "precio": 3.49,
           "unidad": "kg",
           "precio_unidad": 8.73,
           "url": "https://www.hipercor.es/supermercado/B001020770100061-panceliac-pan-de-molde-sin-gluten-sin-lactosa-y-sin-huevo-bolsa-400-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "panko pan rallado japonés estuche 120 g - Tiger Khan",
-          "marca": "tiger khan",
-          "precio": 3.55,
-          "unidad": "kg",
-          "precio_unidad": 29.58,
-          "url": "https://www.hipercor.es/supermercado/B001018089303228-tiger-khan-panko-pan-rallado-japones-estuche-120-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -4853,6 +4844,15 @@
           "unidad": "kg",
           "precio_unidad": 16.74,
           "url": "https://www.hipercor.es/supermercado/B001020656703657-pancota-pan-especial-de-soja-tostado-100-natural-bolsa-230-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan burger 4 unidades estuche 292 g - Tgb",
+          "marca": "tgb",
+          "precio": 4.35,
+          "unidad": "kg",
+          "precio_unidad": 13.59,
+          "url": "https://www.hipercor.es/supermercado/B001018574700599-tgb-pan-burger-4-unidades-estuche-292-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -10259,15 +10259,6 @@
       "opciones": [
         {
           "supermercado": "Hipercor",
-          "nombre_real": "chorizo tradición en lonchas sin gluten envase 65 g - Revilla",
-          "marca": "revilla",
-          "precio": 1.0,
-          "unidad": "kg",
-          "precio_unidad": 14.29,
-          "url": "https://www.hipercor.es/supermercado/B001018386700340-revilla-chorizo-tradicion-en-lonchas-sin-gluten-envase-65-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "chorizo de Pamplona en lonchas sin gluten envase 65 g - Revilla",
           "marca": "revilla",
           "precio": 1.0,
@@ -13247,15 +13238,6 @@
           "unidad": "kg",
           "precio_unidad": 2.35,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "cebolla francesa ideal para hornear bolsa 500 g - Duart Blay",
-          "marca": "duart blay",
-          "precio": 2.45,
-          "unidad": "kg",
-          "precio_unidad": 4.9,
-          "url": "https://www.hipercor.es/supermercado/B001018176102608-duart-blay-cebolla-francesa-ideal-para-hornear-bolsa-500-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -18266,21 +18248,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "café Intenso estuche 20 cápsulas compatibles con Nespresso - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 3.9,
-          "unidad": "kg",
-          "precio_unidad": 37.5,
-          "url": "https://www.hipercor.es/supermercado/B001020604605152-el-corte-ingles-cafe-intenso-estuche-20-capsulas-compatibles-con-nespresso/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "café extra intenso estuche 20 cápsulas compatibles con Nespresso - El Corte Ingles",
           "marca": "el corte ingles",
           "precio": 3.9,
           "unidad": "kg",
           "precio_unidad": 37.5,
           "url": "https://www.hipercor.es/supermercado/B001020604605178-el-corte-ingles-cafe-extra-intenso-estuche-20-capsulas-compatibles-con-nespresso/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "café Intenso estuche 20 cápsulas compatibles con Nespresso - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 3.9,
+          "unidad": "kg",
+          "precio_unidad": 37.5,
+          "url": "https://www.hipercor.es/supermercado/B001020604605152-el-corte-ingles-cafe-intenso-estuche-20-capsulas-compatibles-con-nespresso/"
         },
         {
           "supermercado": "Hipercor",
@@ -19024,15 +19006,6 @@
           "unidad": "Unidad",
           "precio_unidad": 0.15,
           "url": "https://www.hipercor.es/supermercado/B001020666602600-hornimans-infusion-de-arandanos-hibisco-rosa-mosqueta-y-zarzamora-estuche-20-bolsitas/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión con probióticos y manzanilla envase 15 bolsitas - Pompadour",
-          "marca": "pompadour",
-          "precio": 3.49,
-          "unidad": "kg",
-          "precio_unidad": 132.95,
-          "url": "https://www.hipercor.es/supermercado/B001020666602782-pompadour-infusion-con-probioticos-y-manzanilla-envase-15-bolsitas/"
         },
         {
           "supermercado": "Alimerka",
@@ -20918,15 +20891,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "cerveza rubia Sin Gluten pack 6 botellas 25 cl - Estrella Galicia",
-          "marca": "estrella galicia",
-          "precio": 3.69,
-          "unidad": "L",
-          "precio_unidad": 2.46,
-          "url": "https://www.hipercor.es/supermercado/B001018651000194-estrella-galicia-cerveza-rubia-sin-gluten-pack-6-botellas-25-cl/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Cerveza Radler Steinburg con zumo natural de limón",
           "marca": "",
@@ -21114,6 +21078,15 @@
           "unidad": "L",
           "precio_unidad": 2.45,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "cerveza rubia extra pack 6 botellas 22,50 cl Formato Mini - Alhambra Reserva 1925",
+          "marca": "alhambra reserva 1925",
+          "precio": 5.94,
+          "unidad": "L",
+          "precio_unidad": 4.4,
+          "url": "https://www.hipercor.es/supermercado/B001018602801211-alhambra-reserva-1925-cerveza-rubia-extra-pack-6-botellas-2250-cl-formato-mini/"
         },
         {
           "supermercado": "Mercadona",
@@ -23887,6 +23860,15 @@
           "url": "https://www.alimerkaonline.es/10007927.html"
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Lavavajillas Ultra Plus naranja Fairy en pastillas",
+          "marca": "",
+          "precio": 5.0,
+          "unidad": "kg",
+          "precio_unidad": 12.89,
+          "url": ""
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "lavavajillas a mano concentrado Maxi Poder tecnología anti-goteo botella 730 ml - Fairy",
           "marca": "fairy",
@@ -24916,21 +24898,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "gel de baño Hidrotermal Sales Minerales de agua termal Suavidad y Cuidado botella 650 ml - La Toja",
-          "marca": "la toja",
-          "precio": 2.95,
-          "unidad": "100 ml.",
-          "precio_unidad": 0.49,
-          "url": "https://www.hipercor.es/supermercado/B001055754103806-la-toja-gel-de-bano-hidrotermal-sales-minerales-de-agua-termal-suavidad-y-cuidado-botella-650-ml/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "gel de baño Hidrotermal Aloe Vera con sales minerales Ultra Hidratación botella 600 ml - La Toja",
           "marca": "la toja",
           "precio": 2.95,
           "unidad": "100 ml.",
           "precio_unidad": 0.49,
           "url": "https://www.hipercor.es/supermercado/B001055754103798-la-toja-gel-de-bano-hidrotermal-aloe-vera-con-sales-minerales-ultra-hidratacion-botella-600-ml/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "gel de baño Hidrotermal Sales Minerales de agua termal Suavidad y Cuidado botella 650 ml - La Toja",
+          "marca": "la toja",
+          "precio": 2.95,
+          "unidad": "100 ml.",
+          "precio_unidad": 0.49,
+          "url": "https://www.hipercor.es/supermercado/B001055754103806-la-toja-gel-de-bano-hidrotermal-sales-minerales-de-agua-termal-suavidad-y-cuidado-botella-650-ml/"
         },
         {
           "supermercado": "Mercadona",
@@ -25650,21 +25632,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "champú purificante con extracto natural de arcilla suave y limón frasco 400 ml para cabello graso - Original Remedies",
-          "marca": "original remedies",
-          "precio": 4.25,
-          "unidad": "100 ml.",
-          "precio_unidad": 1.06,
-          "url": "https://www.hipercor.es/supermercado/B001055740206572-original-remedies-champu-purificante-con-extracto-natural-de-arcilla-suave-y-limon-frasco-400-ml-para-cabello-graso/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "champú Detox 5 plantas beneficiosas con ortiga, vebena, limón, té verde y aloe vera frasco 400 ml para todo tipo de cabello uso diario - Original Remedies",
           "marca": "original remedies",
           "precio": 4.25,
           "unidad": "100 ml.",
           "precio_unidad": 1.06,
           "url": "https://www.hipercor.es/supermercado/B001055740206655-original-remedies-champu-detox-5-plantas-beneficiosas-con-ortiga-vebena-limon-te-verde-y-aloe-vera-frasco-400-ml-para-todo-tipo-de-cabello-uso-diario/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "champú purificante con extracto natural de arcilla suave y limón frasco 400 ml para cabello graso - Original Remedies",
+          "marca": "original remedies",
+          "precio": 4.25,
+          "unidad": "100 ml.",
+          "precio_unidad": 1.06,
+          "url": "https://www.hipercor.es/supermercado/B001055740206572-original-remedies-champu-purificante-con-extracto-natural-de-arcilla-suave-y-limon-frasco-400-ml-para-cabello-graso/"
         },
         {
           "supermercado": "Hipercor",
