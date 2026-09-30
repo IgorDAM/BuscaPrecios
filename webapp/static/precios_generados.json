@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-30T03:56:21+00:00",
+  "generado_en": "2026-09-30T11:58:26+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -2985,15 +2985,6 @@
           "url": "https://www.alimerkaonline.es/10022871.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "queso rallado en filatto especial pasta bolsa 80 g - El Caserio",
-          "marca": "el caserio",
-          "precio": 1.6,
-          "unidad": "kg",
-          "precio_unidad": 20.0,
-          "url": "https://www.hipercor.es/supermercado/B001018395400023-el-caserio-queso-rallado-en-filatto-especial-pasta-bolsa-80-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Queso rallado mozzarella pizza-Roma de vaca Hacendado",
           "marca": "",
@@ -3100,6 +3091,15 @@
           "unidad": "kg",
           "precio_unidad": 15.67,
           "url": "https://www.alimerkaonline.es/10020876.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Queso rallado mozzarella y gouda Hacendado",
+          "marca": "",
+          "precio": 2.4,
+          "unidad": "kg",
+          "precio_unidad": 6.0,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -12163,6 +12163,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018931302444-don-molinico-pimientos-del-piquillo-rellenos-de-marisco-4-unidades-bolsa-185-g/"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "pimientos del piquillo rellenas de setas y hongos 4 unidades bolsa 185 g - Don Molinico",
+          "marca": "don molinico",
+          "precio": 2.65,
+          "unidad": "kg",
+          "precio_unidad": 14.32,
+          "url": "https://www.hipercor.es/supermercado/B001018931302451-don-molinico-pimientos-del-piquillo-rellenas-de-setas-y-hongos-4-unidades-bolsa-185-g/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Tempura de verduras Hacendado ultracongelada",
           "marca": "",
@@ -12602,6 +12611,15 @@
           "precio": 1.5,
           "unidad": "kg",
           "precio_unidad": 7.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Patatas fritas 0% sal añadida en aceite de oliva virgen Hacendado",
+          "marca": "",
+          "precio": 1.5,
+          "unidad": "kg",
+          "precio_unidad": 10.0,
           "url": ""
         },
         {
@@ -26479,15 +26497,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante en crema original Dove antitranspirante",
-          "marca": "",
-          "precio": 2.55,
-          "unidad": "L",
-          "precio_unidad": 51.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Desodorante roll-on original Dove antitranspirante",
           "marca": "",
           "precio": 2.65,
@@ -27294,20 +27303,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Pañales bebé talla 1 Dodot Sensitive de 2-5 kg",
-          "marca": "",
-          "precio": 20.95,
-          "unidad": "kg",
-          "precio_unidad": 4.19,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pañales bebé talla 3 Dodot Sensitive de 6-10 kg",
           "marca": "",
           "precio": 20.95,
           "unidad": "kg",
           "precio_unidad": 2.09,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañales bebé talla 1 Dodot Sensitive de 2-5 kg",
+          "marca": "",
+          "precio": 20.95,
+          "unidad": "kg",
+          "precio_unidad": 4.19,
           "url": ""
         },
         {
