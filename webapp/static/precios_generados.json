@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-01T12:29:30+00:00",
+  "generado_en": "2026-10-01T22:25:35+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -5057,9 +5057,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "harina de trigo especial para repostería paquete 1 kg - El Corte Ingles",
           "marca": "el corte ingles",
-          "precio": 1.09,
+          "precio": 1.05,
           "unidad": "kg",
-          "precio_unidad": 1.09,
+          "precio_unidad": 1.05,
           "url": "https://www.hipercor.es/supermercado/B001018038100121-el-corte-ingles-harina-de-trigo-especial-para-reposteria-paquete-1-kg/"
         },
         {
@@ -5118,15 +5118,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "harina de trigo con levadura para hacer pizza estuche 500 g - Harimsa",
-          "marca": "harimsa",
-          "precio": 1.79,
-          "unidad": "kg",
-          "precio_unidad": 3.58,
-          "url": "https://www.hipercor.es/supermercado/B001018038600054-harimsa-harina-de-trigo-con-levadura-para-hacer-pizza-estuche-500-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "harina de trigo especial fritos y rebozados frituras crujientes paquete 1 kg - Gallo",
           "marca": "gallo",
           "precio": 1.79,
@@ -5136,29 +5127,38 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "harina de trigo integral paquete 1 kg - Gallo",
-          "marca": "gallo",
+          "nombre_real": "harina de trigo con levadura para hacer pizza estuche 500 g - Harimsa",
+          "marca": "harimsa",
           "precio": 1.85,
           "unidad": "kg",
-          "precio_unidad": 1.85,
+          "precio_unidad": 3.7,
+          "url": "https://www.hipercor.es/supermercado/B001018038600054-harimsa-harina-de-trigo-con-levadura-para-hacer-pizza-estuche-500-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "harina de trigo integral paquete 1 kg - Gallo",
+          "marca": "gallo",
+          "precio": 1.9,
+          "unidad": "kg",
+          "precio_unidad": 1.9,
           "url": "https://www.hipercor.es/supermercado/B001018037901446-gallo-harina-de-trigo-integral-paquete-1-kg/"
         },
         {
           "supermercado": "Hipercor",
           "nombre_real": "harina de trigo de fuerza paquete 1 kg - Gallo",
           "marca": "gallo",
-          "precio": 1.99,
+          "precio": 1.95,
           "unidad": "kg",
-          "precio_unidad": 1.99,
+          "precio_unidad": 1.95,
           "url": "https://www.hipercor.es/supermercado/B001018038100139-gallo-harina-de-trigo-de-fuerza-paquete-1-kg/"
         },
         {
           "supermercado": "Hipercor",
           "nombre_real": "harina de trigo de fuerza paquete 1 kg - Harimsa",
           "marca": "harimsa",
-          "precio": 2.15,
+          "precio": 2.19,
           "unidad": "kg",
-          "precio_unidad": 2.15,
+          "precio_unidad": 2.19,
           "url": "https://www.hipercor.es/supermercado/B001018038100048-harimsa-harina-de-trigo-de-fuerza-paquete-1-kg/"
         },
         {
@@ -5174,9 +5174,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "harina de trigo espelta integral paquete 1 kg - Gallo",
           "marca": "gallo",
-          "precio": 2.59,
+          "precio": 2.65,
           "unidad": "kg",
-          "precio_unidad": 2.59,
+          "precio_unidad": 2.65,
           "url": "https://www.hipercor.es/supermercado/B001018037902022-gallo-harina-de-trigo-espelta-integral-paquete-1-kg/"
         },
         {
@@ -7013,6 +7013,15 @@
           "unidad": "L",
           "precio_unidad": 1.75,
           "url": "https://www.hipercor.es/supermercado/B001018046000099-el-corte-ingles-aceite-refinado-de-girasol-botella-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite refinado de girasol botella 1 l - Abrilsol",
+          "marca": "abrilsol",
+          "precio": 1.8,
+          "unidad": "L",
+          "precio_unidad": 1.8,
+          "url": "https://www.hipercor.es/supermercado/B001018046000065-abrilsol-aceite-refinado-de-girasol-botella-1-l/"
         },
         {
           "supermercado": "Alimerka",
@@ -15444,9 +15453,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "Fresas tarrina 500 g",
           "marca": "",
-          "precio": 4.99,
+          "precio": 3.99,
           "unidad": "kg",
-          "precio_unidad": 9.98,
+          "precio_unidad": 7.98,
           "url": "https://www.hipercor.es/supermercado/B001018155600663-fresas-tarrina-500-g/"
         },
         {
@@ -21538,9 +21547,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "vino tinto Cabernet Sauvignon merlot DO Somontano botella 75 cl - Enate",
           "marca": "enate",
-          "precio": 8.33,
+          "precio": 8.02,
           "unidad": "L",
-          "precio_unidad": 11.11,
+          "precio_unidad": 10.69,
           "url": "https://www.hipercor.es/supermercado/B001018714900166-enate-vino-tinto-cabernet-sauvignon-merlot-do-somontano-botella-75-cl/"
         },
         {
@@ -21635,6 +21644,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "vino tinto 10 meses Edicción Limitada DO Ribera del Duero botella 75 cl - Protos",
+          "marca": "protos",
+          "precio": 9.95,
+          "unidad": "L",
+          "precio_unidad": 13.27,
+          "url": "https://www.hipercor.es/supermercado/B001018738503400-protos-vino-tinto-10-meses-ediccion-limitada-do-ribera-del-duero-botella-75-cl/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "vino tinto Red Blend syrah tempranillo cabernet sauvignon botella 75 cl - Memento Mori",
           "marca": "memento mori",
           "precio": 9.95,
@@ -21659,15 +21677,6 @@
           "unidad": "L",
           "precio_unidad": 15.93,
           "url": "https://www.hipercor.es/supermercado/B001018738503475-ederra-vino-tinto-roble-edicion-especial-do-ribera-del-duero-botella-75-cl/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "vino tinto 10 meses Edicción Limitada DO Ribera del Duero botella 75 cl - Protos",
-          "marca": "protos",
-          "precio": 12.99,
-          "unidad": "L",
-          "precio_unidad": 17.32,
-          "url": "https://www.hipercor.es/supermercado/B001018738503400-protos-vino-tinto-10-meses-ediccion-limitada-do-ribera-del-duero-botella-75-cl/"
         },
         {
           "supermercado": "Hipercor",
@@ -25862,6 +25871,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "pasta de dientes en gel blanqueador avanzado 2 en 1 bote 75 ml - Licor Del Polo",
+          "marca": "licor del polo",
+          "precio": 2.49,
+          "unidad": "100 ml.",
+          "precio_unidad": 3.32,
+          "url": "https://www.hipercor.es/supermercado/B001055752400022-licor-del-polo-pasta-de-dientes-en-gel-blanqueador-avanzado-2-en-1-bote-75-ml/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "pasta de dientes blanqueadora One tubo 75 ml - Colgate Max White",
           "marca": "colgate max white",
           "precio": 2.59,
@@ -25877,15 +25895,6 @@
           "unidad": "L",
           "precio_unidad": 34.67,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "pasta de dientes en gel blanqueador avanzado 2 en 1 bote 75 ml - Licor Del Polo",
-          "marca": "licor del polo",
-          "precio": 2.75,
-          "unidad": "100 ml.",
-          "precio_unidad": 3.67,
-          "url": "https://www.hipercor.es/supermercado/B001055752400022-licor-del-polo-pasta-de-dientes-en-gel-blanqueador-avanzado-2-en-1-bote-75-ml/"
         },
         {
           "supermercado": "Hipercor",
@@ -25915,15 +25924,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "pasta de dientes blanqueadora triple acción Xtra White frasco 75 ml - Colgate",
-          "marca": "colgate",
-          "precio": 2.89,
-          "unidad": "100 ml.",
-          "precio_unidad": 3.85,
-          "url": "https://www.hipercor.es/supermercado/B001055752103709-colgate-pasta-de-dientes-blanqueadora-triple-accion-xtra-white-frasco-75-ml/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Dentífrico Total original Colgate",
           "marca": "",
@@ -25940,6 +25940,15 @@
           "unidad": "100 ml.",
           "precio_unidad": 3.93,
           "url": "https://www.hipercor.es/supermercado/B001055752101430-oral-b-pasta-de-dientes-pro-expert-proteccion-profesional-sabor-menta-fresca-tubo-75-ml/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pasta de dientes blanqueadora triple acción Xtra White frasco 75 ml - Colgate",
+          "marca": "colgate",
+          "precio": 2.95,
+          "unidad": "100 ml.",
+          "precio_unidad": 3.93,
+          "url": "https://www.hipercor.es/supermercado/B001055752103709-colgate-pasta-de-dientes-blanqueadora-triple-accion-xtra-white-frasco-75-ml/"
         },
         {
           "supermercado": "Hipercor",
@@ -26006,21 +26015,21 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "pasta de dientes Repair & Proctect blanqueante tubo 75 ml para los dientes sensibles - Sensodyne",
+          "marca": "sensodyne",
+          "precio": 4.75,
+          "unidad": "100 ml.",
+          "precio_unidad": 6.33,
+          "url": "https://www.hipercor.es/supermercado/B001055752101596-sensodyne-pasta-de-dientes-repair-and-proctect-blanqueante-tubo-75-ml-para-los-dientes-sensibles/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "pasta de dientes Repair & Proctect menta tubo 75 ml - Sensodyne",
           "marca": "sensodyne",
           "precio": 4.8,
           "unidad": "100 ml.",
           "precio_unidad": 6.4,
           "url": "https://www.hipercor.es/supermercado/B001055752101158-sensodyne-pasta-de-dientes-repair-and-proctect-menta-tubo-75-ml/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "pasta de dientes Repair & Proctect blanqueante tubo 75 ml para los dientes sensibles - Sensodyne",
-          "marca": "sensodyne",
-          "precio": 4.8,
-          "unidad": "100 ml.",
-          "precio_unidad": 6.4,
-          "url": "https://www.hipercor.es/supermercado/B001055752101596-sensodyne-pasta-de-dientes-repair-and-proctect-blanqueante-tubo-75-ml-para-los-dientes-sensibles/"
         },
         {
           "supermercado": "Hipercor",
