@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-01T04:07:54+00:00",
+  "generado_en": "2026-10-01T12:29:30+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -2985,15 +2985,6 @@
           "url": ""
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Queso rallado emmental gratinar Hacendado",
-          "marca": "",
-          "precio": 1.6,
-          "unidad": "kg",
-          "precio_unidad": 8.0,
-          "url": ""
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "QUESO RALLADO MOZZARELLA 200 G.",
           "marca": "ALIMERKA",
@@ -3010,6 +3001,15 @@
           "unidad": "kg",
           "precio_unidad": 20.0,
           "url": "https://www.alimerkaonline.es/10016469.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Queso rallado emmental gratinar Hacendado",
+          "marca": "",
+          "precio": 1.65,
+          "unidad": "kg",
+          "precio_unidad": 8.25,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -3569,15 +3569,6 @@
           "unidad": "kg",
           "precio_unidad": 13.96,
           "url": "https://www.alimerkaonline.es/10028606.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "MANTEQUILLA TRADICIONAL BARQUETA SIN SAL 250 G.",
-          "marca": "RENY PICOT",
-          "precio": 3.59,
-          "unidad": "kg",
-          "precio_unidad": 14.36,
-          "url": "https://www.alimerkaonline.es/10028605.html"
         },
         {
           "supermercado": "Hipercor",
@@ -4766,12 +4757,12 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "Panko pan rallado bolsa 200 g - Mamma Crumbs",
-          "marca": "mamma crumbs",
-          "precio": 3.15,
+          "nombre_real": "pan de hogaza de masa madre bolsa 450 g - Maestra",
+          "marca": "maestra",
+          "precio": 2.95,
           "unidad": "kg",
-          "precio_unidad": 15.75,
-          "url": "https://www.hipercor.es/supermercado/B001020668500505-mamma-crumbs-panko-pan-rallado-bolsa-200-g/"
+          "precio_unidad": 6.56,
+          "url": "https://www.hipercor.es/supermercado/B001018574700623-maestra-pan-de-hogaza-de-masa-madre-bolsa-450-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -7590,15 +7581,6 @@
           "unidad": "kg",
           "precio_unidad": 26.32,
           "url": "https://www.alimerkaonline.es/10001933.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "salmón ahumado noruego en lonchas envase 100 g - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 3.95,
-          "unidad": "kg",
-          "precio_unidad": 39.5,
-          "url": "https://www.hipercor.es/supermercado/B001018835101785-el-corte-ingles-salmon-ahumado-noruego-en-lonchas-envase-100-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -10876,15 +10858,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Palitos de merluza a la romana Hacendado ultracongelados",
-          "marca": "",
-          "precio": 2.75,
-          "unidad": "kg",
-          "precio_unidad": 5.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Tinta de sepia Nortindal congelada",
           "marca": "",
           "precio": 2.75,
@@ -10899,6 +10872,15 @@
           "precio": 2.75,
           "unidad": "kg",
           "precio_unidad": 6.11,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Palitos de merluza a la romana Hacendado ultracongelados",
+          "marca": "",
+          "precio": 2.8,
+          "unidad": "kg",
+          "precio_unidad": 5.6,
           "url": ""
         },
         {
@@ -11157,9 +11139,9 @@
           "supermercado": "Mercadona",
           "nombre_real": "Medallones de merluza del Cabo Hacendado ultracongelados",
           "marca": "",
-          "precio": 4.5,
+          "precio": 4.6,
           "unidad": "kg",
-          "precio_unidad": 9.0,
+          "precio_unidad": 9.2,
           "url": ""
         },
         {
@@ -11271,15 +11253,6 @@
           "url": ""
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Filetes de merluza al huevo Hacendado ultracongelados",
-          "marca": "",
-          "precio": 5.05,
-          "unidad": "kg",
-          "precio_unidad": 8.42,
-          "url": ""
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "merluza con rebozado Crun Chyx sin gluten ideal para air fryer bolsa 400 g - Pescanova",
           "marca": "pescanova",
@@ -11296,6 +11269,15 @@
           "unidad": "kg",
           "precio_unidad": 14.17,
           "url": "https://www.alimerkaonline.es/10023670.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Filetes de merluza al huevo Hacendado ultracongelados",
+          "marca": "",
+          "precio": 5.15,
+          "unidad": "kg",
+          "precio_unidad": 8.58,
+          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -13214,6 +13196,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "cebolla francesa ideal para hornear bolsa 500 g - Duart Blay",
+          "marca": "duart blay",
+          "precio": 2.45,
+          "unidad": "kg",
+          "precio_unidad": 4.9,
+          "url": "https://www.hipercor.es/supermercado/B001018176102608-duart-blay-cebolla-francesa-ideal-para-hornear-bolsa-500-g/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "Cebolla dulce buti 700 g",
           "marca": "",
           "precio": 2.49,
@@ -13883,7 +13874,7 @@
           "supermercado": "Hipercor",
           "nombre_real": "Tomate rama al peso",
           "marca": "",
-          "precio": 2.95,
+          "precio": 2.85,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.hipercor.es/supermercado/B001018107600142-tomate-rama-al-peso/"
@@ -13896,15 +13887,6 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.hipercor.es/supermercado/B001018107600050-tomate-ensalada-al-peso/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "Tomate pera al peso",
-          "marca": "",
-          "precio": 2.95,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001018107600068-tomate-pera-al-peso/"
         },
         {
           "supermercado": "Hipercor",
@@ -13932,6 +13914,15 @@
           "unidad": "kg",
           "precio_unidad": 1.05,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "Tomate pera al peso",
+          "marca": "",
+          "precio": 2.99,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.hipercor.es/supermercado/B001018107600068-tomate-pera-al-peso/"
         },
         {
           "supermercado": "Hipercor",
@@ -14230,18 +14221,18 @@
           "supermercado": "Hipercor",
           "nombre_real": "Pimiento verde de freír al peso (peso aproximado de la unidad 100 g)",
           "marca": "",
-          "precio": 2.79,
+          "precio": 2.95,
           "unidad": "kg",
-          "precio_unidad": 27.9,
+          "precio_unidad": 29.5,
           "url": "https://www.hipercor.es/supermercado/B001018107400063-pimiento-verde-de-freir-al-peso-peso-aproximado-de-la-unidad-100-g/"
         },
         {
           "supermercado": "Hipercor",
           "nombre_real": "Pimiento tricolor California bolsa 500 g - Sanlucar",
           "marca": "sanlucar",
-          "precio": 2.99,
+          "precio": 2.95,
           "unidad": "kg",
-          "precio_unidad": 5.98,
+          "precio_unidad": 5.9,
           "url": "https://www.hipercor.es/supermercado/B001018166101867-sanlucar-pimiento-tricolor-california-bolsa-500-g/"
         },
         {
@@ -14535,15 +14526,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Zanahorias",
-          "marca": "",
-          "precio": 1.0,
-          "unidad": "kg",
-          "precio_unidad": 1.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Zanahoria rallada lavada",
           "marca": "",
           "precio": 1.0,
@@ -14568,6 +14550,15 @@
           "unidad": "kg",
           "precio_unidad": 2.62,
           "url": "https://www.alimerkaonline.es/8000514.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Zanahorias",
+          "marca": "",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 1.2,
+          "url": ""
         },
         {
           "supermercado": "Hipercor",
@@ -15202,6 +15193,15 @@
           "url": ""
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pera Limonera",
+          "marca": "",
+          "precio": 0.61,
+          "unidad": "kg",
+          "precio_unidad": 2.81,
+          "url": ""
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "Pera conferencia al peso (peso aproximado de la unidad 250 g)",
           "marca": "",
@@ -15695,15 +15695,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas caramelizadas Lotus Biscoff",
-          "marca": "",
-          "precio": 1.3,
-          "unidad": "kg",
-          "precio_unidad": 6.99,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Bífidus con nueces y cereales probióticos Hacendado 0% MG",
           "marca": "",
           "precio": 1.3,
@@ -15862,6 +15853,15 @@
           "precio": 1.55,
           "unidad": "kg",
           "precio_unidad": 11.23,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas caramelizadas Lotus Biscoff",
+          "marca": "",
+          "precio": 1.6,
+          "unidad": "kg",
+          "precio_unidad": 8.6,
           "url": ""
         },
         {
@@ -16699,15 +16699,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas caramelizadas Lotus Biscoff",
-          "marca": "",
-          "precio": 1.3,
-          "unidad": "kg",
-          "precio_unidad": 6.99,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas con chocolate blanco Hacendado",
           "marca": "",
           "precio": 1.3,
@@ -17029,6 +17020,15 @@
           "unidad": "kg",
           "precio_unidad": 2.0,
           "url": "https://www.hipercor.es/supermercado/B001020608201693-el-corte-ingles-galletas-digestive-paquete-800-g/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas caramelizadas Lotus Biscoff",
+          "marca": "",
+          "precio": 1.6,
+          "unidad": "kg",
+          "precio_unidad": 8.6,
+          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -17450,6 +17450,15 @@
           "url": "https://www.alimerkaonline.es/10024197.html"
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café molido natural Hacendado Espresso",
+          "marca": "",
+          "precio": 3.45,
+          "unidad": "kg",
+          "precio_unidad": 13.8,
+          "url": ""
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "café molido de tueste natural paquete 250 g - Toscaf",
           "marca": "toscaf",
@@ -17493,15 +17502,6 @@
           "unidad": "kg",
           "precio_unidad": 14.2,
           "url": "https://www.hipercor.es/supermercado/B001020603901420-oquendo-cafe-molido-natural-intensidad-8-paquete-250-g/"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Café molido natural Hacendado Espresso",
-          "marca": "",
-          "precio": 3.6,
-          "unidad": "kg",
-          "precio_unidad": 14.4,
-          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -17640,7 +17640,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café molido fuerte Hacendado",
+          "nombre_real": "Café molido mezcla Hacendado",
           "marca": "",
           "precio": 4.5,
           "unidad": "kg",
@@ -17649,11 +17649,11 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café molido mezcla Hacendado",
+          "nombre_real": "Café molido fuerte Hacendado",
           "marca": "",
-          "precio": 4.6,
+          "precio": 4.5,
           "unidad": "kg",
-          "precio_unidad": 9.2,
+          "precio_unidad": 9.0,
           "url": ""
         },
         {
@@ -20496,15 +20496,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Cerveza doble malta Voll-Damm",
-          "marca": "",
-          "precio": 0.89,
-          "unidad": "L",
-          "precio_unidad": 2.7,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Cerveza El Águila sin filtrar",
           "marca": "",
           "precio": 0.89,
@@ -20564,6 +20555,15 @@
           "precio": 1.03,
           "unidad": "L",
           "precio_unidad": 4.12,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Cerveza doble malta Voll-Damm",
+          "marca": "",
+          "precio": 1.04,
+          "unidad": "L",
+          "precio_unidad": 3.15,
           "url": ""
         },
         {
@@ -20720,6 +20720,15 @@
           "url": ""
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "cerveza rubia Sin Gluten pack 6 botellas 25 cl - Estrella Galicia",
+          "marca": "estrella galicia",
+          "precio": 3.69,
+          "unidad": "L",
+          "precio_unidad": 2.46,
+          "url": "https://www.hipercor.es/supermercado/B001018651000194-estrella-galicia-cerveza-rubia-sin-gluten-pack-6-botellas-25-cl/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Cerveza Radler Steinburg con zumo natural de limón",
           "marca": "",
@@ -20838,15 +20847,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Cerveza extra 1906 reserva especial",
-          "marca": "",
-          "precio": 4.6,
-          "unidad": "L",
-          "precio_unidad": 3.48,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Cerveza especial Steinburg",
           "marca": "",
           "precio": 4.68,
@@ -20856,11 +20856,11 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Cerveza doble malta Voll-Damm",
+          "nombre_real": "Cerveza extra 1906 reserva especial",
           "marca": "",
-          "precio": 5.1,
+          "precio": 5.0,
           "unidad": "L",
-          "precio_unidad": 2.58,
+          "precio_unidad": 3.79,
           "url": ""
         },
         {
@@ -20918,15 +20918,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "cerveza rubia extra pack 6 botellas 22,50 cl Formato Mini - Alhambra Reserva 1925",
-          "marca": "alhambra reserva 1925",
-          "precio": 5.94,
-          "unidad": "L",
-          "precio_unidad": 4.4,
-          "url": "https://www.hipercor.es/supermercado/B001018602801211-alhambra-reserva-1925-cerveza-rubia-extra-pack-6-botellas-2250-cl-formato-mini/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Cerveza aromatizada Desperados",
           "marca": "",
@@ -20943,6 +20934,15 @@
           "unidad": "L",
           "precio_unidad": 4.61,
           "url": "https://www.alimerkaonline.es/10010074.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Cerveza doble malta Voll-Damm",
+          "marca": "",
+          "precio": 6.24,
+          "unidad": "L",
+          "precio_unidad": 3.15,
+          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -21027,15 +21027,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Cerveza especial Estrella Galicia",
-          "marca": "",
-          "precio": 7.6,
-          "unidad": "L",
-          "precio_unidad": 2.3,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Cerveza de trigo Paulaner",
           "marca": "",
           "precio": 7.74,
@@ -21069,6 +21060,15 @@
           "unidad": "L",
           "precio_unidad": 2.18,
           "url": "https://www.hipercor.es/supermercado/B001018600300109-san-miguel-cerveza-rubia-especial-pack-12-latas-33-cl/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Cerveza especial Estrella Galicia",
+          "marca": "",
+          "precio": 8.8,
+          "unidad": "L",
+          "precio_unidad": 2.67,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -21319,15 +21319,6 @@
           "url": ""
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Vino tinto crianza Viña Albali DO Valdepeñas",
-          "marca": "",
-          "precio": 2.8,
-          "unidad": "L",
-          "precio_unidad": 3.73,
-          "url": ""
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "vino tinto tempranillo joven DOCa Rioja botella 75 cl - Faustino Rivero Ulecia",
           "marca": "faustino rivero ulecia",
@@ -21371,6 +21362,15 @@
           "unidad": "L",
           "precio_unidad": 3.99,
           "url": "https://www.alimerkaonline.es/10030084.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Vino tinto crianza Viña Albali DO Valdepeñas",
+          "marca": "",
+          "precio": 3.0,
+          "unidad": "L",
+          "precio_unidad": 4.0,
+          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -23361,6 +23361,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "suavizante concentrado Aire Fresco Frescor Alpino botella 50 dosis - Lenor",
+          "marca": "lenor",
+          "precio": 6.05,
+          "unidad": "L",
+          "precio_unidad": 8.66,
+          "url": "https://www.hipercor.es/supermercado/B001028012205366-lenor-suavizante-concentrado-aire-fresco-frescor-alpino-botella-50-dosis/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "suavizante concentrado extra fragancia Azul Vital botella 105 dosis - Mimosin",
           "marca": "mimosin",
           "precio": 7.85,
@@ -23394,15 +23403,6 @@
           "unidad": "Dosis",
           "precio_unidad": 0.08,
           "url": "https://www.hipercor.es/supermercado/B001028012205135-mimosin-suavizante-concentrado-origins-extra-fragancia-bergamota-salvaje-botella-95-dosis/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "suavizante concentrado azul botella 172 dosis - Flor",
-          "marca": "flor",
-          "precio": 10.99,
-          "unidad": "Dosis",
-          "precio_unidad": 0.06,
-          "url": "https://www.hipercor.es/supermercado/B001028012202884-flor-suavizante-concentrado-azul-botella-172-dosis/"
         }
       ]
     },
@@ -25290,33 +25290,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú y acondicionador anticaspa Classic 2 en 1 H&S",
-          "marca": "",
-          "precio": 3.4,
-          "unidad": "L",
-          "precio_unidad": 10.3,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Menthol Fresh H&S",
-          "marca": "",
-          "precio": 3.4,
-          "unidad": "L",
-          "precio_unidad": 10.3,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Citrus Fresh H&S cabello graso",
-          "marca": "",
-          "precio": 3.4,
-          "unidad": "L",
-          "precio_unidad": 10.3,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Champú Hidra Hialurónico Elvive cabello deshidratado",
           "marca": "",
           "precio": 3.45,
@@ -25395,6 +25368,33 @@
           "unidad": "100 ml.",
           "precio_unidad": 1.18,
           "url": "https://www.hipercor.es/supermercado/B001055740302199-h-and-s-champu-anticaspa-classic-para-cabello-normal-frasco-330-ml/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Champú y acondicionador anticaspa Classic 2 en 1 H&S",
+          "marca": "",
+          "precio": 3.9,
+          "unidad": "L",
+          "precio_unidad": 11.82,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Champú anticaspa Menthol Fresh H&S",
+          "marca": "",
+          "precio": 3.9,
+          "unidad": "L",
+          "precio_unidad": 11.82,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Champú anticaspa Citrus Fresh H&S cabello graso",
+          "marca": "",
+          "precio": 3.9,
+          "unidad": "L",
+          "precio_unidad": 11.82,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
