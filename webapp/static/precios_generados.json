@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-02T04:03:07+00:00",
+  "generado_en": "2026-10-02T11:56:59+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -851,9 +851,9 @@
           "supermercado": "Mercadona",
           "nombre_real": "Leche semidesnatada Hacendado",
           "marca": "",
-          "precio": 4.98,
+          "precio": 5.04,
           "unidad": "L",
-          "precio_unidad": 0.83,
+          "precio_unidad": 0.84,
           "url": ""
         },
         {
@@ -1279,9 +1279,9 @@
           "supermercado": "Mercadona",
           "nombre_real": "Leche desnatada Hacendado",
           "marca": "",
-          "precio": 4.86,
+          "precio": 4.92,
           "unidad": "L",
-          "precio_unidad": 0.81,
+          "precio_unidad": 0.82,
           "url": ""
         },
         {
@@ -1462,21 +1462,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada más ligera que una semi 1% materia grasa sin lactosa botella 1 l - Puleva",
-          "marca": "puleva",
-          "precio": 1.25,
-          "unidad": "L",
-          "precio_unidad": 1.25,
-          "url": "https://www.hipercor.es/supermercado/B001020616400063-puleva-leche-semidesnatada-mas-ligera-que-una-semi-1-materia-grasa-sin-lactosa-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "leche desnatada 0% materia grasa sin lactosa botella 1 l - Puleva",
           "marca": "puleva",
           "precio": 1.25,
           "unidad": "L",
           "precio_unidad": 1.25,
           "url": "https://www.hipercor.es/supermercado/B001020616400071-puleva-leche-desnatada-0-materia-grasa-sin-lactosa-botella-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche semidesnatada más ligera que una semi 1% materia grasa sin lactosa botella 1 l - Puleva",
+          "marca": "puleva",
+          "precio": 1.25,
+          "unidad": "L",
+          "precio_unidad": 1.25,
+          "url": "https://www.hipercor.es/supermercado/B001020616400063-puleva-leche-semidesnatada-mas-ligera-que-una-semi-1-materia-grasa-sin-lactosa-botella-1-l/"
         },
         {
           "supermercado": "Alimerka",
@@ -2474,18 +2474,18 @@
           "supermercado": "Mercadona",
           "nombre_real": "Yogur griego sabor fresa Hacendado",
           "marca": "",
-          "precio": 1.55,
+          "precio": 1.65,
           "unidad": "kg",
-          "precio_unidad": 2.07,
+          "precio_unidad": 2.2,
           "url": ""
         },
         {
           "supermercado": "Mercadona",
           "nombre_real": "Yogur griego sabor limón Hacendado",
           "marca": "",
-          "precio": 1.55,
+          "precio": 1.65,
           "unidad": "kg",
-          "precio_unidad": 2.07,
+          "precio_unidad": 2.2,
           "url": ""
         },
         {
@@ -2974,6 +2974,15 @@
           "unidad": "kg",
           "precio_unidad": 19.38,
           "url": "https://www.alimerkaonline.es/10022871.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "queso rallado en filatto especial pasta bolsa 80 g - El Caserio",
+          "marca": "el caserio",
+          "precio": 1.6,
+          "unidad": "kg",
+          "precio_unidad": 20.0,
+          "url": "https://www.hipercor.es/supermercado/B001018395400023-el-caserio-queso-rallado-en-filatto-especial-pasta-bolsa-80-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -4685,15 +4694,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "panko pan rallado japonés bolsa 200 g - Samlip",
-          "marca": "samlip",
-          "precio": 1.99,
-          "unidad": "kg",
-          "precio_unidad": 9.95,
-          "url": "https://www.hipercor.es/supermercado/B001018089303327-samlip-panko-pan-rallado-japones-bolsa-200-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "pan burger brioche 2 unidades envase 150 g - Goiko",
           "marca": "goiko",
           "precio": 2.05,
@@ -4775,21 +4775,30 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "pan de hogaza de masa madre bolsa 450 g - Maestra",
+          "marca": "maestra",
+          "precio": 2.95,
+          "unidad": "kg",
+          "precio_unidad": 6.56,
+          "url": "https://www.hipercor.es/supermercado/B001018574700623-maestra-pan-de-hogaza-de-masa-madre-bolsa-450-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan burger brioche 4 unidades bolsa 260 g - Le Brio",
+          "marca": "le brio",
+          "precio": 3.15,
+          "unidad": "kg",
+          "precio_unidad": 12.12,
+          "url": "https://www.hipercor.es/supermercado/B001018574700615-le-brio-pan-burger-brioche-4-unidades-bolsa-260-g/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "pan de molde sin gluten sin lactosa y sin huevo bolsa 400 g - Panceliac",
           "marca": "panceliac",
           "precio": 3.4,
           "unidad": "kg",
           "precio_unidad": 8.5,
           "url": "https://www.hipercor.es/supermercado/B001020770100061-panceliac-pan-de-molde-sin-gluten-sin-lactosa-y-sin-huevo-bolsa-400-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "panko pan rallado japonés estuche 120 g - Tiger Khan",
-          "marca": "tiger khan",
-          "precio": 3.55,
-          "unidad": "kg",
-          "precio_unidad": 29.58,
-          "url": "https://www.hipercor.es/supermercado/B001018089303228-tiger-khan-panko-pan-rallado-japones-estuche-120-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -6030,6 +6039,15 @@
           "unidad": "kg",
           "precio_unidad": 2.98,
           "url": "https://www.hipercor.es/supermercado/B001018003503770-gallo-macarrones-plumas-n3-paquete-400-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "macarrones plumas rayadas paquete 400 g - Gallo",
+          "marca": "gallo",
+          "precio": 1.25,
+          "unidad": "kg",
+          "precio_unidad": 3.13,
+          "url": "https://www.hipercor.es/supermercado/B001018003503804-gallo-macarrones-plumas-rayadas-paquete-400-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -8347,15 +8365,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "TE CON LIMÓN SIN AZÚCAR 1,5 LITROS",
-          "marca": "FUZE TEA",
-          "precio": 1.99,
-          "unidad": "L",
-          "precio_unidad": 1.33,
-          "url": "https://www.alimerkaonline.es/10026644.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "ATÚN CLARO EN ACEITE DE OLIVA 67 G.",
           "marca": "ALBO",
           "precio": 1.99,
@@ -8623,6 +8632,15 @@
           "unidad": "kg",
           "precio_unidad": 28.85,
           "url": "https://www.alimerkaonline.es/10018344.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
+          "marca": "FANTA",
+          "precio": 4.62,
+          "unidad": "L",
+          "precio_unidad": 2.33,
+          "url": "https://www.alimerkaonline.es/10015191.html"
         },
         {
           "supermercado": "Alimerka",
@@ -8937,15 +8955,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "TE CON LIMÓN SIN AZÚCAR 1,5 LITROS",
-          "marca": "FUZE TEA",
-          "precio": 1.99,
-          "unidad": "L",
-          "precio_unidad": 1.33,
-          "url": "https://www.alimerkaonline.es/10026644.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "SARDINAS EN ACEITE DE OLIVA 81 G.",
           "marca": "ISABEL",
           "precio": 1.99,
@@ -9078,6 +9087,15 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
+          "marca": "FANTA",
+          "precio": 4.62,
+          "unidad": "L",
+          "precio_unidad": 2.33,
+          "url": "https://www.alimerkaonline.es/10015191.html"
         }
       ]
     },
@@ -9088,9 +9106,9 @@
           "supermercado": "Mercadona",
           "nombre_real": "Jamón serrano Artysan lonchas",
           "marca": "",
-          "precio": 1.0,
+          "precio": 1.1,
           "unidad": "kg",
-          "precio_unidad": 20.0,
+          "precio_unidad": 22.0,
           "url": ""
         },
         {
@@ -10304,6 +10322,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Chorizo extra Hacendado lonchas",
+          "marca": "",
+          "precio": 1.75,
+          "unidad": "kg",
+          "precio_unidad": 7.29,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Chorizo Pamplona extra Hacendado lonchas",
           "marca": "",
           "precio": 1.75,
@@ -10337,15 +10364,6 @@
           "unidad": "kg",
           "precio_unidad": 17.9,
           "url": "https://www.alimerkaonline.es/10007541.html"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Chorizo extra Hacendado lonchas",
-          "marca": "",
-          "precio": 1.85,
-          "unidad": "kg",
-          "precio_unidad": 7.71,
-          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -10421,6 +10439,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Chorizo picante extra Hacendado lonchas",
+          "marca": "",
+          "precio": 2.4,
+          "unidad": "kg",
+          "precio_unidad": 10.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Chorizo dulce extra Hacendado",
           "marca": "",
           "precio": 2.49,
@@ -10445,15 +10472,6 @@
           "unidad": "kg",
           "precio_unidad": 8.93,
           "url": "https://www.hipercor.es/supermercado/B001018386800280-el-corte-ingles-chorizo-dulce-extra-sin-gluten-sin-lactosa-pieza-280-g/"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Chorizo picante extra Hacendado lonchas",
-          "marca": "",
-          "precio": 2.5,
-          "unidad": "kg",
-          "precio_unidad": 10.42,
-          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -11193,9 +11211,9 @@
           "supermercado": "Mercadona",
           "nombre_real": "Filetes de panga Hacendado ultracongelados",
           "marca": "",
-          "precio": 4.75,
+          "precio": 4.65,
           "unidad": "kg",
-          "precio_unidad": 5.28,
+          "precio_unidad": 5.17,
           "url": ""
         },
         {
@@ -13247,15 +13265,6 @@
           "unidad": "kg",
           "precio_unidad": 2.35,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "cebolla francesa ideal para hornear bolsa 500 g - Duart Blay",
-          "marca": "duart blay",
-          "precio": 2.45,
-          "unidad": "kg",
-          "precio_unidad": 4.9,
-          "url": "https://www.hipercor.es/supermercado/B001018176102608-duart-blay-cebolla-francesa-ideal-para-hornear-bolsa-500-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -17504,15 +17513,6 @@
           "url": "https://www.alimerkaonline.es/10024197.html"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Café molido natural Hacendado Espresso",
-          "marca": "",
-          "precio": 3.45,
-          "unidad": "kg",
-          "precio_unidad": 13.8,
-          "url": ""
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "café molido de tueste natural paquete 250 g - Toscaf",
           "marca": "toscaf",
@@ -17556,6 +17556,15 @@
           "unidad": "kg",
           "precio_unidad": 14.2,
           "url": "https://www.hipercor.es/supermercado/B001020603901420-oquendo-cafe-molido-natural-intensidad-8-paquete-250-g/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café molido natural Hacendado Espresso",
+          "marca": "",
+          "precio": 3.6,
+          "unidad": "kg",
+          "precio_unidad": 14.4,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -17694,7 +17703,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café molido mezcla Hacendado",
+          "nombre_real": "Café molido fuerte Hacendado",
           "marca": "",
           "precio": 4.5,
           "unidad": "kg",
@@ -17703,11 +17712,11 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café molido fuerte Hacendado",
+          "nombre_real": "Café molido mezcla Hacendado",
           "marca": "",
-          "precio": 4.5,
+          "precio": 4.6,
           "unidad": "kg",
-          "precio_unidad": 9.0,
+          "precio_unidad": 9.2,
           "url": ""
         },
         {
@@ -18131,21 +18140,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "café extra intenso estuche 20 cápsulas compatibles con Nespresso - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 3.9,
-          "unidad": "kg",
-          "precio_unidad": 37.5,
-          "url": "https://www.hipercor.es/supermercado/B001020604605178-el-corte-ingles-cafe-extra-intenso-estuche-20-capsulas-compatibles-con-nespresso/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "café Intenso estuche 20 cápsulas compatibles con Nespresso - El Corte Ingles",
           "marca": "el corte ingles",
           "precio": 3.9,
           "unidad": "kg",
           "precio_unidad": 37.5,
           "url": "https://www.hipercor.es/supermercado/B001020604605152-el-corte-ingles-cafe-intenso-estuche-20-capsulas-compatibles-con-nespresso/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "café extra intenso estuche 20 cápsulas compatibles con Nespresso - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 3.9,
+          "unidad": "kg",
+          "precio_unidad": 37.5,
+          "url": "https://www.hipercor.es/supermercado/B001020604605178-el-corte-ingles-cafe-extra-intenso-estuche-20-capsulas-compatibles-con-nespresso/"
         },
         {
           "supermercado": "Hipercor",
@@ -20792,15 +20801,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "cerveza rubia Sin Gluten pack 6 botellas 25 cl - Estrella Galicia",
-          "marca": "estrella galicia",
-          "precio": 3.69,
-          "unidad": "L",
-          "precio_unidad": 2.46,
-          "url": "https://www.hipercor.es/supermercado/B001018651000194-estrella-galicia-cerveza-rubia-sin-gluten-pack-6-botellas-25-cl/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Cerveza Radler Steinburg con zumo natural de limón",
           "marca": "",
@@ -20988,6 +20988,15 @@
           "unidad": "L",
           "precio_unidad": 2.45,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "cerveza rubia extra pack 6 botellas 22,50 cl Formato Mini - Alhambra Reserva 1925",
+          "marca": "alhambra reserva 1925",
+          "precio": 5.9,
+          "unidad": "L",
+          "precio_unidad": 4.37,
+          "url": "https://www.hipercor.es/supermercado/B001018602801211-alhambra-reserva-1925-cerveza-rubia-extra-pack-6-botellas-2250-cl-formato-mini/"
         },
         {
           "supermercado": "Mercadona",
@@ -21554,20 +21563,20 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Vino tinto 7 meses Barril Nº7",
+          "marca": "",
+          "precio": 4.5,
+          "unidad": "L",
+          "precio_unidad": 6.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Vino tinto crianza Pieza Rey DO Rioja",
           "marca": "",
           "precio": 4.85,
           "unidad": "L",
           "precio_unidad": 6.47,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Vino tinto 7 meses Barril Nº7",
-          "marca": "",
-          "precio": 5.5,
-          "unidad": "L",
-          "precio_unidad": 7.33,
           "url": ""
         },
         {
@@ -23725,15 +23734,6 @@
           "url": ""
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Lavavajillas Ultra Todo en 1 Fairy en pastillas",
-          "marca": "",
-          "precio": 3.95,
-          "unidad": "kg",
-          "precio_unidad": 13.26,
-          "url": ""
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "LAVAVAJILLAS ULTRA PODER 820 ML.",
           "marca": "FAIRY",
@@ -23813,6 +23813,15 @@
           "unidad": "L",
           "precio_unidad": 7.19,
           "url": "https://www.hipercor.es/supermercado/B001028013202586-fairy-lavavajillas-a-mano-concentrado-maxi-poder-tecnologia-anti-goteo-botella-730-ml/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "lavavajillas a mano poder 3 en 1 limón ahorra el remojo spray 500 ml - Fairy",
+          "marca": "fairy",
+          "precio": 5.65,
+          "unidad": "L",
+          "precio_unidad": 11.3,
+          "url": "https://www.hipercor.es/supermercado/B001028013202602-fairy-lavavajillas-a-mano-poder-3-en-1-limon-ahorra-el-remojo-spray-500-ml/"
         },
         {
           "supermercado": "Mercadona",
