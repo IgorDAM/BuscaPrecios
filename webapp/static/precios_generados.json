@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-03T03:47:03+00:00",
+  "generado_en": "2026-10-03T11:11:48+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -3321,15 +3321,6 @@
           "unidad": "kg",
           "precio_unidad": 28.52,
           "url": "https://www.hipercor.es/supermercado/B001018389700065-gran-capitan-queso-curado-mezcla-elaborado-con-leche-pasteurizada-cortadas-cuna-210-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "queso curado puro de oveja madurado graso elaborado con leche cruda cuña 250 g - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 6.4,
-          "unidad": "kg",
-          "precio_unidad": 25.6,
-          "url": "https://www.hipercor.es/supermercado/B001018389400310-el-corte-ingles-selection-queso-curado-puro-de-oveja-madurado-graso-elaborado-con-leche-cruda-cuna-250-g/"
         },
         {
           "supermercado": "Alimerka",
@@ -8365,6 +8356,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "TE CON LIMÓN SIN AZÚCAR 1,5 LITROS",
+          "marca": "FUZE TEA",
+          "precio": 1.99,
+          "unidad": "L",
+          "precio_unidad": 1.33,
+          "url": "https://www.alimerkaonline.es/10026644.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "ATÚN CLARO EN ACEITE DE OLIVA 67 G.",
           "marca": "ALBO",
           "precio": 1.99,
@@ -8632,15 +8632,6 @@
           "unidad": "kg",
           "precio_unidad": 28.85,
           "url": "https://www.alimerkaonline.es/10018344.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
-          "marca": "FANTA",
-          "precio": 4.62,
-          "unidad": "L",
-          "precio_unidad": 2.33,
-          "url": "https://www.alimerkaonline.es/10015191.html"
         },
         {
           "supermercado": "Alimerka",
@@ -8955,6 +8946,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "TE CON LIMÓN SIN AZÚCAR 1,5 LITROS",
+          "marca": "FUZE TEA",
+          "precio": 1.99,
+          "unidad": "L",
+          "precio_unidad": 1.33,
+          "url": "https://www.alimerkaonline.es/10026644.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "SARDINAS EN ACEITE DE OLIVA 81 G.",
           "marca": "ISABEL",
           "precio": 1.99,
@@ -9087,15 +9087,6 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
-          "marca": "FANTA",
-          "precio": 4.62,
-          "unidad": "L",
-          "precio_unidad": 2.33,
-          "url": "https://www.alimerkaonline.es/10015191.html"
         }
       ]
     },
@@ -10358,15 +10349,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Chorizo extra Hacendado lonchas",
-          "marca": "",
-          "precio": 1.75,
-          "unidad": "kg",
-          "precio_unidad": 7.29,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Chorizo Pamplona extra Hacendado lonchas",
           "marca": "",
           "precio": 1.75,
@@ -10400,6 +10382,15 @@
           "unidad": "kg",
           "precio_unidad": 17.9,
           "url": "https://www.alimerkaonline.es/10007541.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Chorizo extra Hacendado lonchas",
+          "marca": "",
+          "precio": 1.85,
+          "unidad": "kg",
+          "precio_unidad": 7.71,
+          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -10475,15 +10466,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Chorizo picante extra Hacendado lonchas",
-          "marca": "",
-          "precio": 2.4,
-          "unidad": "kg",
-          "precio_unidad": 10.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Chorizo dulce extra Hacendado",
           "marca": "",
           "precio": 2.49,
@@ -10508,6 +10490,15 @@
           "unidad": "kg",
           "precio_unidad": 8.93,
           "url": "https://www.hipercor.es/supermercado/B001018386800280-el-corte-ingles-chorizo-dulce-extra-sin-gluten-sin-lactosa-pieza-280-g/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Chorizo picante extra Hacendado lonchas",
+          "marca": "",
+          "precio": 2.5,
+          "unidad": "kg",
+          "precio_unidad": 10.42,
+          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -11256,9 +11247,9 @@
           "supermercado": "Mercadona",
           "nombre_real": "Filetes de panga Hacendado ultracongelados",
           "marca": "",
-          "precio": 4.65,
+          "precio": 4.75,
           "unidad": "kg",
-          "precio_unidad": 5.17,
+          "precio_unidad": 5.28,
           "url": ""
         },
         {
@@ -13313,6 +13304,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "cebolla francesa ideal para hornear bolsa 500 g - Duart Blay",
+          "marca": "duart blay",
+          "precio": 2.45,
+          "unidad": "kg",
+          "precio_unidad": 4.9,
+          "url": "https://www.hipercor.es/supermercado/B001018176102608-duart-blay-cebolla-francesa-ideal-para-hornear-bolsa-500-g/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "Cebolla dulce buti 700 g",
           "marca": "",
           "precio": 2.49,
@@ -14676,15 +14676,6 @@
           "unidad": "kg",
           "precio_unidad": 1.25,
           "url": "https://www.hipercor.es/supermercado/B001018176400028-el-corte-ingles-zanahoria-bolsa-1-kg/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "zanahoria rallada en hilos frasco 250 g neto escurrido - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.3,
-          "unidad": "kg",
-          "precio_unidad": 5.2,
-          "url": "https://www.hipercor.es/supermercado/B001018025601016-el-corte-ingles-zanahoria-rallada-en-hilos-frasco-250-g-neto-escurrido/"
         },
         {
           "supermercado": "Mercadona",
@@ -17729,6 +17720,15 @@
           "url": "https://www.alimerkaonline.es/10024197.html"
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café molido natural Hacendado Espresso",
+          "marca": "",
+          "precio": 3.45,
+          "unidad": "kg",
+          "precio_unidad": 13.8,
+          "url": ""
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "café molido de tueste natural paquete 250 g - Toscaf",
           "marca": "toscaf",
@@ -17774,24 +17774,6 @@
           "url": "https://www.hipercor.es/supermercado/B001020603901420-oquendo-cafe-molido-natural-intensidad-8-paquete-250-g/"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Café molido Colombia Hacendado",
-          "marca": "",
-          "precio": 3.6,
-          "unidad": "kg",
-          "precio_unidad": 14.4,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Café molido natural Hacendado Espresso",
-          "marca": "",
-          "precio": 3.6,
-          "unidad": "kg",
-          "precio_unidad": 14.4,
-          "url": ""
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "CAFÉ MOLIDO NATURAL DESCAFEINADO 250 G.",
           "marca": "TOSCAF",
@@ -17799,6 +17781,15 @@
           "unidad": "kg",
           "precio_unidad": 14.76,
           "url": "https://www.alimerkaonline.es/758196.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café molido Colombia Hacendado",
+          "marca": "",
+          "precio": 3.7,
+          "unidad": "kg",
+          "precio_unidad": 14.8,
+          "url": ""
         },
         {
           "supermercado": "Hipercor",
@@ -17919,7 +17910,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café molido fuerte Hacendado",
+          "nombre_real": "Café molido mezcla Hacendado",
           "marca": "",
           "precio": 4.5,
           "unidad": "kg",
@@ -17928,11 +17919,11 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café molido mezcla Hacendado",
+          "nombre_real": "Café molido fuerte Hacendado",
           "marca": "",
-          "precio": 4.6,
+          "precio": 4.5,
           "unidad": "kg",
-          "precio_unidad": 9.2,
+          "precio_unidad": 9.0,
           "url": ""
         },
         {
@@ -18096,6 +18087,15 @@
           "unidad": "kg",
           "precio_unidad": 42.0,
           "url": "https://www.hipercor.es/supermercado/B001020604401081-illy-cafe-molido-intenso-100-arabica-lata-250-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "café molido 100% arábica lata 250 g - Illy",
+          "marca": "illy",
+          "precio": 11.15,
+          "unidad": "kg",
+          "precio_unidad": 44.6,
+          "url": "https://www.hipercor.es/supermercado/B001020603903467-illy-cafe-molido-100-arabica-lata-250-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -18698,21 +18698,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "café con leche Decaffeinato Selección robusta envase 30 cápsulas - Nescafe Dolce Gusto",
-          "marca": "nescafe dolce gusto",
-          "precio": 8.55,
-          "unidad": "kg",
-          "precio_unidad": 28.5,
-          "url": "https://www.hipercor.es/supermercado/B001020605100963-nescafe-dolce-gusto-cafe-con-leche-decaffeinato-seleccion-robusta-envase-30-capsulas/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "café cortado espresso Macchiatto intensidad 8 estuche 30 cápsulas - Nescafe Dolce Gusto",
           "marca": "nescafe dolce gusto",
           "precio": 8.55,
           "unidad": "kg",
           "precio_unidad": 45.24,
           "url": "https://www.hipercor.es/supermercado/B001020604603017-nescafe-dolce-gusto-cafe-cortado-espresso-macchiatto-intensidad-8-estuche-30-capsulas/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "café con leche Decaffeinato Selección robusta envase 30 cápsulas - Nescafe Dolce Gusto",
+          "marca": "nescafe dolce gusto",
+          "precio": 8.55,
+          "unidad": "kg",
+          "precio_unidad": 28.5,
+          "url": "https://www.hipercor.es/supermercado/B001020605100963-nescafe-dolce-gusto-cafe-con-leche-decaffeinato-seleccion-robusta-envase-30-capsulas/"
         },
         {
           "supermercado": "Alimerka",
@@ -19900,15 +19900,6 @@
           "url": "https://www.alimerkaonline.es/10005825.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "zumo de naranja recién exprimido botella 330 ml - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 1.59,
-          "unidad": "L",
-          "precio_unidad": 4.82,
-          "url": "https://www.hipercor.es/supermercado/B001018827001720-el-corte-ingles-selection-zumo-de-naranja-recien-exprimido-botella-330-ml/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Zumo pura naranja Hacendado",
           "marca": "",
@@ -20051,6 +20042,15 @@
           "unidad": "L",
           "precio_unidad": 2.99,
           "url": "https://www.hipercor.es/supermercado/B001018827000425-el-corte-ingles-selection-zumo-de-naranja-valencia-late-con-pulpa-100-exprimido-brik-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "zumo de naranja 100% exprimido con pulpa brik 1 l - Don Simon",
+          "marca": "don simon",
+          "precio": 3.02,
+          "unidad": "L",
+          "precio_unidad": 3.02,
+          "url": "https://www.hipercor.es/supermercado/B001018657200442-don-simon-zumo-de-naranja-100-exprimido-con-pulpa-brik-1-l/"
         },
         {
           "supermercado": "Hipercor",
@@ -21797,20 +21797,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Vino tinto 7 meses Barril Nº7",
-          "marca": "",
-          "precio": 4.5,
-          "unidad": "L",
-          "precio_unidad": 6.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Vino tinto crianza Pieza Rey DO Rioja",
           "marca": "",
           "precio": 4.85,
           "unidad": "L",
           "precio_unidad": 6.47,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Vino tinto 7 meses Barril Nº7",
+          "marca": "",
+          "precio": 5.5,
+          "unidad": "L",
+          "precio_unidad": 7.33,
           "url": ""
         },
         {
@@ -27696,6 +27696,15 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10027471.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pañales hipoalergénicos Extra Care Disney con cuidado de la piel 4 en 1 talla 3 (6-10 kg) bolsa 96 unidades - Huggies",
+          "marca": "huggies",
+          "precio": 26.24,
+          "unidad": "Unidad",
+          "precio_unidad": 0.27,
+          "url": "https://www.hipercor.es/supermercado/B001028022506472-huggies-panales-hipoalergenicos-extra-care-disney-con-cuidado-de-la-piel-4-en-1-talla-3-6-10-kg-bolsa-96-unidades/"
         },
         {
           "supermercado": "Alimerka",
