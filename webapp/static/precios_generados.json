@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-03T11:11:48+00:00",
+  "generado_en": "2026-10-03T15:46:13+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -2747,7 +2747,7 @@
       "opciones": [
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor limón Hacendado",
+          "nombre_real": "Yogur sabor macedonia Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -2756,7 +2756,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor macedonia Hacendado",
+          "nombre_real": "Yogur sabor limón Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -8946,15 +8946,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "TE CON LIMÓN SIN AZÚCAR 1,5 LITROS",
-          "marca": "FUZE TEA",
-          "precio": 1.99,
-          "unidad": "L",
-          "precio_unidad": 1.33,
-          "url": "https://www.alimerkaonline.es/10026644.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "SARDINAS EN ACEITE DE OLIVA 81 G.",
           "marca": "ISABEL",
           "precio": 1.99,
@@ -9087,6 +9078,15 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
+          "marca": "FANTA",
+          "precio": 4.62,
+          "unidad": "L",
+          "precio_unidad": 2.33,
+          "url": "https://www.alimerkaonline.es/10015191.html"
         }
       ]
     },
@@ -25398,7 +25398,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú Natural Deliplus todo tipo de cabello",
+          "nombre_real": "Champú Detox Deliplus cabello graso",
           "marca": "",
           "precio": 1.9,
           "unidad": "L",
@@ -25407,7 +25407,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú Detox Deliplus cabello graso",
+          "nombre_real": "Champú Natural Deliplus todo tipo de cabello",
           "marca": "",
           "precio": 1.9,
           "unidad": "L",
@@ -27627,6 +27627,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Pañales bebé talla 3 Dodot Sensitive de 6-10 kg",
+          "marca": "",
+          "precio": 20.95,
+          "unidad": "kg",
+          "precio_unidad": 2.09,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Pañales bebé talla 1 Dodot Sensitive de 2-5 kg",
           "marca": "",
           "precio": 20.95,
@@ -27641,15 +27650,6 @@
           "precio": 20.95,
           "unidad": "kg",
           "precio_unidad": 2.62,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Pañales bebé talla 3 Dodot Sensitive de 6-10 kg",
-          "marca": "",
-          "precio": 20.95,
-          "unidad": "kg",
-          "precio_unidad": 2.09,
           "url": ""
         },
         {
