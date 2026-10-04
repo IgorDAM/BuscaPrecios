@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-04T11:52:18+00:00",
+  "generado_en": "2026-10-04T16:30:12+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -18838,20 +18838,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Dormir Hacendado",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 35.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Infusión Digest Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
           "precio_unidad": 26.25,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Infusión Dormir Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 35.0,
           "url": ""
         },
         {
@@ -25398,7 +25398,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú Detox Deliplus cabello graso",
+          "nombre_real": "Champú Natural Deliplus todo tipo de cabello",
           "marca": "",
           "precio": 1.9,
           "unidad": "L",
@@ -25407,7 +25407,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú Natural Deliplus todo tipo de cabello",
+          "nombre_real": "Champú Detox Deliplus cabello graso",
           "marca": "",
           "precio": 1.9,
           "unidad": "L",
@@ -27636,15 +27636,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Pañales bebé talla 3 Dodot Sensitive de 6-10 kg",
-          "marca": "",
-          "precio": 20.95,
-          "unidad": "kg",
-          "precio_unidad": 2.09,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pañales bebé talla 1 Dodot Sensitive de 2-5 kg",
           "marca": "",
           "precio": 20.95,
@@ -27659,6 +27650,15 @@
           "precio": 20.95,
           "unidad": "kg",
           "precio_unidad": 2.62,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañales bebé talla 3 Dodot Sensitive de 6-10 kg",
+          "marca": "",
+          "precio": 20.95,
+          "unidad": "kg",
+          "precio_unidad": 2.09,
           "url": ""
         },
         {
