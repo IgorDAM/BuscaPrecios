@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-05T04:00:30+00:00",
+  "generado_en": "2026-10-05T13:37:55+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -312,15 +312,6 @@
           "url": "https://www.hipercor.es/supermercado/B001020616500581-pascual-leche-entera-botella-15-l/"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Leche entera Asturiana",
-          "marca": "",
-          "precio": 1.89,
-          "unidad": "L",
-          "precio_unidad": 1.26,
-          "url": ""
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "leche entera botella 1,5 l - Asturiana",
           "marca": "asturiana",
@@ -328,6 +319,15 @@
           "unidad": "L",
           "precio_unidad": 1.31,
           "url": "https://www.hipercor.es/supermercado/B001020616500029-asturiana-leche-entera-botella-15-l/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Leche entera Asturiana",
+          "marca": "",
+          "precio": 1.97,
+          "unidad": "L",
+          "precio_unidad": 1.31,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -405,9 +405,9 @@
           "supermercado": "Mercadona",
           "nombre_real": "Leche entera Asturiana",
           "marca": "",
-          "precio": 11.34,
+          "precio": 11.82,
           "unidad": "L",
-          "precio_unidad": 1.26,
+          "precio_unidad": 1.31,
           "url": ""
         }
       ]
@@ -740,15 +740,6 @@
           "url": "https://www.alimerkaonline.es/10020727.html"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Leche semidesnatada Asturiana",
-          "marca": "",
-          "precio": 1.67,
-          "unidad": "L",
-          "precio_unidad": 1.11,
-          "url": ""
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "leche semidesnatada con calcio y vitamina D brik 1 l - Asturiana",
           "marca": "asturiana",
@@ -783,6 +774,15 @@
           "unidad": "L",
           "precio_unidad": 1.19,
           "url": "https://www.hipercor.es/supermercado/B001020616600027-asturiana-leche-semidesnatada-botella-15-l/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Leche semidesnatada Asturiana",
+          "marca": "",
+          "precio": 1.79,
+          "unidad": "L",
+          "precio_unidad": 1.19,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -905,9 +905,9 @@
           "supermercado": "Mercadona",
           "nombre_real": "Leche semidesnatada Asturiana",
           "marca": "",
-          "precio": 10.02,
+          "precio": 10.74,
           "unidad": "L",
-          "precio_unidad": 1.11,
+          "precio_unidad": 1.19,
           "url": ""
         },
         {
@@ -1204,15 +1204,6 @@
           "url": "https://www.alimerkaonline.es/10022205.html"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Leche desnatada Asturiana",
-          "marca": "",
-          "precio": 1.62,
-          "unidad": "L",
-          "precio_unidad": 1.08,
-          "url": ""
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "leche desnatada 0% Materia Grasa botella 1,5 l - Pascual",
           "marca": "pascual",
@@ -1238,6 +1229,15 @@
           "unidad": "L",
           "precio_unidad": 1.15,
           "url": "https://www.hipercor.es/supermercado/B001020616700025-asturiana-leche-desnatada-botella-15-l/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Leche desnatada Asturiana",
+          "marca": "",
+          "precio": 1.73,
+          "unidad": "L",
+          "precio_unidad": 1.15,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -1342,9 +1342,9 @@
           "supermercado": "Mercadona",
           "nombre_real": "Leche desnatada Asturiana",
           "marca": "",
-          "precio": 9.72,
+          "precio": 10.38,
           "unidad": "L",
-          "precio_unidad": 1.08,
+          "precio_unidad": 1.15,
           "url": ""
         }
       ]
@@ -1453,21 +1453,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "leche desnatada 0% materia grasa sin lactosa botella 1 l - Puleva",
-          "marca": "puleva",
-          "precio": 1.25,
-          "unidad": "L",
-          "precio_unidad": 1.25,
-          "url": "https://www.hipercor.es/supermercado/B001020616400071-puleva-leche-desnatada-0-materia-grasa-sin-lactosa-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "leche semidesnatada más ligera que una semi 1% materia grasa sin lactosa botella 1 l - Puleva",
           "marca": "puleva",
           "precio": 1.25,
           "unidad": "L",
           "precio_unidad": 1.25,
           "url": "https://www.hipercor.es/supermercado/B001020616400063-puleva-leche-semidesnatada-mas-ligera-que-una-semi-1-materia-grasa-sin-lactosa-botella-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche desnatada 0% materia grasa sin lactosa botella 1 l - Puleva",
+          "marca": "puleva",
+          "precio": 1.25,
+          "unidad": "L",
+          "precio_unidad": 1.25,
+          "url": "https://www.hipercor.es/supermercado/B001020616400071-puleva-leche-desnatada-0-materia-grasa-sin-lactosa-botella-1-l/"
         },
         {
           "supermercado": "Hipercor",
@@ -2652,21 +2652,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "yogur griego con fresas sin gluten pack 4 unidades 110 g - Danone Oikos",
-          "marca": "danone oikos",
-          "precio": 2.89,
-          "unidad": "kg",
-          "precio_unidad": 6.57,
-          "url": "https://www.hipercor.es/supermercado/B001018823002045-danone-oikos-yogur-griego-con-fresas-sin-gluten-pack-4-unidades-110-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "yogur griego sabor lima y limón sin gluten pack 4 unidades 110 g - Danone Oikos",
           "marca": "danone oikos",
           "precio": 2.89,
           "unidad": "kg",
           "precio_unidad": 6.57,
           "url": "https://www.hipercor.es/supermercado/B001018823002235-danone-oikos-yogur-griego-sabor-lima-y-limon-sin-gluten-pack-4-unidades-110-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur griego con fresas sin gluten pack 4 unidades 110 g - Danone Oikos",
+          "marca": "danone oikos",
+          "precio": 2.89,
+          "unidad": "kg",
+          "precio_unidad": 6.57,
+          "url": "https://www.hipercor.es/supermercado/B001018823002045-danone-oikos-yogur-griego-con-fresas-sin-gluten-pack-4-unidades-110-g/"
         },
         {
           "supermercado": "Alimerka",
@@ -3692,15 +3692,6 @@
     {
       "producto": "huevos",
       "opciones": [
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Huevo sorpresa de chocolate Hacendado",
-          "marca": "",
-          "precio": 1.65,
-          "unidad": "kg",
-          "precio_unidad": 33.0,
-          "url": ""
-        },
         {
           "supermercado": "Alimerka",
           "nombre_real": "HUEVOS DE CHOCOLATE CON SORPRESA 2 UDS.",
@@ -6839,15 +6830,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018045800119-el-corte-ingles-aceite-de-oliva-virgen-extra-hojiblanca-botella-1-l/"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Aceite de oliva virgen extra Hacendado Gran Selección",
-          "marca": "",
-          "precio": 5.25,
-          "unidad": "L",
-          "precio_unidad": 7.0,
-          "url": ""
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA GRAN SELECC 75 CL.",
           "marca": "CARBONELL",
@@ -6855,6 +6837,15 @@
           "unidad": "L",
           "precio_unidad": 7.27,
           "url": "https://www.alimerkaonline.es/10039.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Aceite de oliva virgen extra Hacendado Gran Selección",
+          "marca": "",
+          "precio": 5.5,
+          "unidad": "L",
+          "precio_unidad": 7.33,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -8955,15 +8946,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "TÉ VERDE MARACUYÁ 1,5 LITROS",
-          "marca": "FUZE TEA",
-          "precio": 1.99,
-          "unidad": "L",
-          "precio_unidad": 1.33,
-          "url": "https://www.alimerkaonline.es/10028510.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "SARDINAS EN ACEITE DE OLIVA 81 G.",
           "marca": "ISABEL",
           "precio": 1.99,
@@ -9114,6 +9096,15 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
+          "marca": "FANTA",
+          "precio": 4.62,
+          "unidad": "L",
+          "precio_unidad": 2.33,
+          "url": "https://www.alimerkaonline.es/10015191.html"
         }
       ]
     },
@@ -9871,6 +9862,24 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Churrasco de ternera para barbacoa o plancha",
+          "marca": "",
+          "precio": 6.24,
+          "unidad": "kg",
+          "precio_unidad": 16.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Entrecot de vacuno añojo",
+          "marca": "",
+          "precio": 6.78,
+          "unidad": "kg",
+          "precio_unidad": 27.12,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Cachopo de vacuno con jamón y queso sin gluten",
           "marca": "",
           "precio": 7.97,
@@ -9880,11 +9889,38 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Filetes de vacuno añojo para plancha",
+          "marca": "",
+          "precio": 7.98,
+          "unidad": "kg",
+          "precio_unidad": 19.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Lomo de vacuno añojo",
+          "marca": "",
+          "precio": 8.09,
+          "unidad": "kg",
+          "precio_unidad": 24.01,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Filetes de vacuno marinado extra tiernos",
           "marca": "",
           "precio": 8.85,
           "unidad": "kg",
           "precio_unidad": 17.7,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Solomillo de vacuno",
+          "marca": "",
+          "precio": 11.97,
+          "unidad": "kg",
+          "precio_unidad": 42.0,
           "url": ""
         },
         {
@@ -15788,15 +15824,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "aguacate y arándanos ecológico sin gluten sin leche y sin azúcares añadidos desde 6 meses bolsita 100 g - Smileat",
-          "marca": "smileat",
-          "precio": 1.83,
-          "unidad": "kg",
-          "precio_unidad": 18.3,
-          "url": "https://www.hipercor.es/supermercado/B001020707101018-smileat-aguacate-y-arandanos-ecologico-sin-gluten-sin-leche-y-sin-azucares-anadidos-desde-6-meses-bolsita-100-g/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "AGUACATE BANDEJA 2 UNIDADES",
           "marca": "MONTOSA",
@@ -16046,20 +16073,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas Digestive chocolate con leche Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 4.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 9.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas Digestive chocolate con leche Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 4.5,
           "url": ""
         },
         {
@@ -18383,21 +18410,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "café Intenso estuche 20 cápsulas compatibles con Nespresso - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 3.9,
-          "unidad": "kg",
-          "precio_unidad": 37.5,
-          "url": "https://www.hipercor.es/supermercado/B001020604605152-el-corte-ingles-cafe-intenso-estuche-20-capsulas-compatibles-con-nespresso/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "café extra intenso estuche 20 cápsulas compatibles con Nespresso - El Corte Ingles",
           "marca": "el corte ingles",
           "precio": 3.9,
           "unidad": "kg",
           "precio_unidad": 37.5,
           "url": "https://www.hipercor.es/supermercado/B001020604605178-el-corte-ingles-cafe-extra-intenso-estuche-20-capsulas-compatibles-con-nespresso/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "café Intenso estuche 20 cápsulas compatibles con Nespresso - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 3.9,
+          "unidad": "kg",
+          "precio_unidad": 37.5,
+          "url": "https://www.hipercor.es/supermercado/B001020604605152-el-corte-ingles-cafe-intenso-estuche-20-capsulas-compatibles-con-nespresso/"
         },
         {
           "supermercado": "Hipercor",
@@ -23951,15 +23978,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Lavavajillas Power Essential limón Finish en pastillas",
-          "marca": "",
-          "precio": 3.25,
-          "unidad": "kg",
-          "precio_unidad": 9.62,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Lavavajillas Bosque Verde en gel",
           "marca": "",
           "precio": 3.65,
@@ -23975,6 +23993,15 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10015365.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Lavavajillas Power Essential limón Finish en pastillas",
+          "marca": "",
+          "precio": 3.75,
+          "unidad": "kg",
+          "precio_unidad": 11.09,
+          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -26857,6 +26884,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Desodorante en crema original Dove antitranspirante",
+          "marca": "",
+          "precio": 2.55,
+          "unidad": "L",
+          "precio_unidad": 51.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Desodorante roll-on original Dove antitranspirante",
           "marca": "",
           "precio": 2.65,
@@ -27357,15 +27393,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Pañales bebé talla 2 Deliplus de 3-6 kg",
-          "marca": "",
-          "precio": 6.9,
-          "unidad": "kg",
-          "precio_unidad": 1.15,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pañal bebé braguita talla XL Pants Deliplus de 16-28 kg",
           "marca": "",
           "precio": 6.9,
@@ -27398,6 +27425,15 @@
           "precio": 7.0,
           "unidad": "kg",
           "precio_unidad": 0.39,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañales bebé talla 2 Deliplus de 3-6 kg",
+          "marca": "",
+          "precio": 7.9,
+          "unidad": "kg",
+          "precio_unidad": 1.32,
           "url": ""
         },
         {
