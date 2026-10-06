@@ -1,28 +1,10 @@
 {
-  "generado_en": "2026-10-06T12:48:48+00:00",
+  "generado_en": "2026-10-06T22:22:49+00:00",
   "cp": "33012",
   "resultados": [
     {
       "producto": "leche entera",
       "opciones": [
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera brik 500 ml - Asturiana",
-          "marca": "asturiana",
-          "precio": 0.79,
-          "unidad": "L",
-          "precio_unidad": 1.58,
-          "url": "https://www.hipercor.es/supermercado/B001020616500516-asturiana-leche-entera-brik-500-ml/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera de Asturias brik 1 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 0.96,
-          "unidad": "L",
-          "precio_unidad": 0.96,
-          "url": "https://www.hipercor.es/supermercado/B001020616500045-el-corte-ingles-leche-entera-de-asturias-brik-1-l/"
-        },
         {
           "supermercado": "Mercadona",
           "nombre_real": "Leche entera Hacendado",
@@ -51,15 +33,6 @@
           "url": "https://www.alimerkaonline.es/10001244.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera brik 1 l - President",
-          "marca": "president",
-          "precio": 1.02,
-          "unidad": "L",
-          "precio_unidad": 1.02,
-          "url": "https://www.hipercor.es/supermercado/B001020616500169-president-leche-entera-brik-1-l/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Leche entera sin lactosa Hacendado",
           "marca": "",
@@ -67,24 +40,6 @@
           "unidad": "L",
           "precio_unidad": 1.03,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera sin lactosa enriquecida con vitaminas A, D, E y B9 brik 1 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.06,
-          "unidad": "L",
-          "precio_unidad": 1.06,
-          "url": "https://www.hipercor.es/supermercado/B001020616400295-el-corte-ingles-leche-entera-sin-lactosa-enriquecida-con-vitaminas-a-d-e-y-b9-brik-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera gallega brik 1 l - Clesa",
-          "marca": "clesa",
-          "precio": 1.13,
-          "unidad": "L",
-          "precio_unidad": 1.13,
-          "url": "https://www.hipercor.es/supermercado/B001020616500540-clesa-leche-entera-gallega-brik-1-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -114,42 +69,6 @@
           "url": "https://www.alimerkaonline.es/10028620.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera con calcio enriquecida con vitaminas A, D y E brik 1 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.2,
-          "unidad": "L",
-          "precio_unidad": 1.2,
-          "url": "https://www.hipercor.es/supermercado/B001020616000285-el-corte-ingles-leche-entera-con-calcio-enriquecida-con-vitaminas-a-d-y-e-brik-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera brik 1 l - Asturiana",
-          "marca": "asturiana",
-          "precio": 1.24,
-          "unidad": "L",
-          "precio_unidad": 1.24,
-          "url": "https://www.hipercor.es/supermercado/B001020616500037-asturiana-leche-entera-brik-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera brik 1 l - Reny Picot",
-          "marca": "reny picot",
-          "precio": 1.25,
-          "unidad": "L",
-          "precio_unidad": 1.25,
-          "url": "https://www.hipercor.es/supermercado/B001020616500177-reny-picot-leche-entera-brik-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera sin lactosa 100% ingredientes naturales brik 1 l - Asturiana",
-          "marca": "asturiana",
-          "precio": 1.29,
-          "unidad": "L",
-          "precio_unidad": 1.29,
-          "url": "https://www.hipercor.es/supermercado/B001020616400345-asturiana-leche-entera-sin-lactosa-100-ingredientes-naturales-brik-1-l/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Leche entera Asturiana",
           "marca": "",
@@ -166,33 +85,6 @@
           "unidad": "L",
           "precio_unidad": 1.29,
           "url": "https://www.alimerkaonline.es/22007.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera más ligera que una entera 2% materia grasa sin lactosa botella 1 l - Puleva",
-          "marca": "puleva",
-          "precio": 1.33,
-          "unidad": "L",
-          "precio_unidad": 1.33,
-          "url": "https://www.hipercor.es/supermercado/B001020616400121-puleva-leche-entera-mas-ligera-que-una-entera-2-materia-grasa-sin-lactosa-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera brik 1 l - Pascual",
-          "marca": "pascual",
-          "precio": 1.35,
-          "unidad": "L",
-          "precio_unidad": 1.35,
-          "url": "https://www.hipercor.es/supermercado/B001020616500110-pascual-leche-entera-brik-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera sin lactosa enriquecida en vitaminas A, D, E y ácido fólico brik 1 l - Kaiku",
-          "marca": "kaiku",
-          "precio": 1.35,
-          "unidad": "L",
-          "precio_unidad": 1.35,
-          "url": "https://www.hipercor.es/supermercado/B001020616400030-kaiku-leche-entera-sin-lactosa-enriquecida-en-vitaminas-a-d-e-y-acido-folico-brik-1-l/"
         },
         {
           "supermercado": "Alimerka",
@@ -213,15 +105,6 @@
           "url": "https://www.alimerkaonline.es/22138.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera botella 1,5 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.56,
-          "unidad": "L",
-          "precio_unidad": 1.04,
-          "url": "https://www.hipercor.es/supermercado/B001020616500532-el-corte-ingles-leche-entera-botella-15-l/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Leche entera Hacendado",
           "marca": "",
@@ -240,24 +123,6 @@
           "url": "https://www.alimerkaonline.es/8000402.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "Leche entera sin lactosa brik 1 l - Pascual",
-          "marca": "pascual",
-          "precio": 1.62,
-          "unidad": "L",
-          "precio_unidad": 1.62,
-          "url": "https://www.hipercor.es/supermercado/B001020616400097-pascual-leche-entera-sin-lactosa-brik-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera ecológica brik 1 l - Puleva",
-          "marca": "puleva",
-          "precio": 1.63,
-          "unidad": "L",
-          "precio_unidad": 1.63,
-          "url": "https://www.hipercor.es/supermercado/B001020604200012-puleva-leche-entera-ecologica-brik-1-l/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "LECHE ENTERA BIO 1 LITRO",
           "marca": "FRISONA",
@@ -265,15 +130,6 @@
           "unidad": "L",
           "precio_unidad": 1.65,
           "url": "https://www.alimerkaonline.es/10020740.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera botella 1,5 l - President",
-          "marca": "president",
-          "precio": 1.68,
-          "unidad": "L",
-          "precio_unidad": 1.12,
-          "url": "https://www.hipercor.es/supermercado/B001020616500383-president-leche-entera-botella-15-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -303,24 +159,6 @@
           "url": "https://www.alimerkaonline.es/10029815.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera botella 1,5 l - Pascual",
-          "marca": "pascual",
-          "precio": 1.88,
-          "unidad": "L",
-          "precio_unidad": 1.25,
-          "url": "https://www.hipercor.es/supermercado/B001020616500581-pascual-leche-entera-botella-15-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera botella 1,5 l - Asturiana",
-          "marca": "asturiana",
-          "precio": 1.97,
-          "unidad": "L",
-          "precio_unidad": 1.31,
-          "url": "https://www.hipercor.es/supermercado/B001020616500029-asturiana-leche-entera-botella-15-l/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Leche entera Asturiana",
           "marca": "",
@@ -346,24 +184,6 @@
           "unidad": "L",
           "precio_unidad": 1.32,
           "url": "https://www.alimerkaonline.es/10020000.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera pack 6 briks 200 ml - Asturiana",
-          "marca": "asturiana",
-          "precio": 2.17,
-          "unidad": "L",
-          "precio_unidad": 1.81,
-          "url": "https://www.hipercor.es/supermercado/B001020616500474-asturiana-leche-entera-pack-6-briks-200-ml/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera botella 2,2 l - Asturiana",
-          "marca": "asturiana",
-          "precio": 2.73,
-          "unidad": "L",
-          "precio_unidad": 1.24,
-          "url": "https://www.hipercor.es/supermercado/B001020616500318-asturiana-leche-entera-botella-22-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -416,15 +236,6 @@
       "producto": "leche semidesnatada",
       "opciones": [
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada brik 500 ml - Asturiana",
-          "marca": "asturiana",
-          "precio": 0.74,
-          "unidad": "L",
-          "precio_unidad": 1.48,
-          "url": "https://www.hipercor.es/supermercado/B001020616600506-asturiana-leche-semidesnatada-brik-500-ml/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Leche semidesnatada Hacendado",
           "marca": "",
@@ -441,15 +252,6 @@
           "unidad": "L",
           "precio_unidad": 0.83,
           "url": "https://www.alimerkaonline.es/22029.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada de Asturias brik 1 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 0.86,
-          "unidad": "L",
-          "precio_unidad": 0.86,
-          "url": "https://www.hipercor.es/supermercado/B001020616600043-el-corte-ingles-leche-semidesnatada-de-asturias-brik-1-l/"
         },
         {
           "supermercado": "Alimerka",
@@ -479,24 +281,6 @@
           "url": "https://www.alimerkaonline.es/8000728.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada brik 1 l - President",
-          "marca": "president",
-          "precio": 0.96,
-          "unidad": "L",
-          "precio_unidad": 0.96,
-          "url": "https://www.hipercor.es/supermercado/B001020616600142-president-leche-semidesnatada-brik-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada sin lactosa enriquecida con vitaminas A, D, E y B9 brik 1 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 0.97,
-          "unidad": "L",
-          "precio_unidad": 0.97,
-          "url": "https://www.hipercor.es/supermercado/B001020616400303-el-corte-ingles-leche-semidesnatada-sin-lactosa-enriquecida-con-vitaminas-a-d-e-y-b9-brik-1-l/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Leche semidesnatada calcio Hacendado",
           "marca": "",
@@ -513,24 +297,6 @@
           "unidad": "L",
           "precio_unidad": 1.05,
           "url": "https://www.alimerkaonline.es/10022405.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada con calcio enriquecida con vitaminas A, D y E brik 1 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.07,
-          "unidad": "L",
-          "precio_unidad": 1.07,
-          "url": "https://www.hipercor.es/supermercado/B001020616000293-el-corte-ingles-leche-semidesnatada-con-calcio-enriquecida-con-vitaminas-a-d-y-e-brik-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada brik 1 l - Asturiana",
-          "marca": "asturiana",
-          "precio": 1.09,
-          "unidad": "L",
-          "precio_unidad": 1.09,
-          "url": "https://www.hipercor.es/supermercado/B001020616600035-asturiana-leche-semidesnatada-brik-1-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -578,42 +344,6 @@
           "url": "https://www.alimerkaonline.es/10028621.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada sin lactosa 100% ingredientes naturales brik 1 l - Asturiana",
-          "marca": "asturiana",
-          "precio": 1.23,
-          "unidad": "L",
-          "precio_unidad": 1.23,
-          "url": "https://www.hipercor.es/supermercado/B001020616400113-asturiana-leche-semidesnatada-sin-lactosa-100-ingredientes-naturales-brik-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada más ligera que una semi 1% materia grasa sin lactosa botella 1 l - Puleva",
-          "marca": "puleva",
-          "precio": 1.25,
-          "unidad": "L",
-          "precio_unidad": 1.25,
-          "url": "https://www.hipercor.es/supermercado/B001020616400063-puleva-leche-semidesnatada-mas-ligera-que-una-semi-1-materia-grasa-sin-lactosa-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada brik 1 l - Pascual",
-          "marca": "pascual",
-          "precio": 1.29,
-          "unidad": "L",
-          "precio_unidad": 1.29,
-          "url": "https://www.hipercor.es/supermercado/B001020616600100-pascual-leche-semidesnatada-brik-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada sin lactosa enriquecida en vitaminas A, D, E y ácido fólico brik 1 l - Kaiku",
-          "marca": "kaiku",
-          "precio": 1.29,
-          "unidad": "L",
-          "precio_unidad": 1.29,
-          "url": "https://www.hipercor.es/supermercado/B001020616400022-kaiku-leche-semidesnatada-sin-lactosa-enriquecida-en-vitaminas-a-d-e-y-acido-folico-brik-1-l/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "LECHE SEMIDESNATADA SIN LACTOSA 1 LITRO",
           "marca": "CENTRAL LECHERA ASTURIANA",
@@ -630,15 +360,6 @@
           "unidad": "L",
           "precio_unidad": 1.35,
           "url": "https://www.alimerkaonline.es/22139.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada sin lactosa brik 1 l - Pascual",
-          "marca": "pascual",
-          "precio": 1.39,
-          "unidad": "L",
-          "precio_unidad": 1.39,
-          "url": "https://www.hipercor.es/supermercado/B001020616400048-pascual-leche-semidesnatada-sin-lactosa-brik-1-l/"
         },
         {
           "supermercado": "Alimerka",
@@ -668,24 +389,6 @@
           "url": "https://www.alimerkaonline.es/8000403.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada botella 1,5 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.49,
-          "unidad": "L",
-          "precio_unidad": 0.99,
-          "url": "https://www.hipercor.es/supermercado/B001020616600522-el-corte-ingles-leche-semidesnatada-botella-15-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada sin lactosa pack 3 briks 200 ml - Asturiana",
-          "marca": "asturiana",
-          "precio": 1.49,
-          "unidad": "L",
-          "precio_unidad": 2.48,
-          "url": "https://www.hipercor.es/supermercado/B001020616400667-asturiana-leche-semidesnatada-sin-lactosa-pack-3-briks-200-ml/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "LECHE SEMIDESNATADA SIN LACTOSA 1 LITRO",
           "marca": "PASCUAL",
@@ -695,15 +398,6 @@
           "url": "https://www.alimerkaonline.es/22172.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada sin lactosa y baja grasa brik 1 l - Asturiana Suprema",
-          "marca": "asturiana suprema",
-          "precio": 1.57,
-          "unidad": "L",
-          "precio_unidad": 1.57,
-          "url": "https://www.hipercor.es/supermercado/B001020616400550-asturiana-suprema-leche-semidesnatada-sin-lactosa-y-baja-grasa-brik-1-l/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Leche semidesnatada sin lactosa Hacendado",
           "marca": "",
@@ -711,15 +405,6 @@
           "unidad": "L",
           "precio_unidad": 1.08,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada ecológica brik 1 l - Puleva",
-          "marca": "puleva",
-          "precio": 1.63,
-          "unidad": "L",
-          "precio_unidad": 1.63,
-          "url": "https://www.hipercor.es/supermercado/B001020604300010-puleva-leche-semidesnatada-ecologica-brik-1-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -740,24 +425,6 @@
           "url": "https://www.alimerkaonline.es/10020727.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada con calcio y vitamina D brik 1 l - Asturiana",
-          "marca": "asturiana",
-          "precio": 1.72,
-          "unidad": "L",
-          "precio_unidad": 1.72,
-          "url": "https://www.hipercor.es/supermercado/B001020616000020-asturiana-leche-semidesnatada-con-calcio-y-vitamina-d-brik-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada botella 1,5 l - Pascual",
-          "marca": "pascual",
-          "precio": 1.74,
-          "unidad": "L",
-          "precio_unidad": 1.16,
-          "url": "https://www.hipercor.es/supermercado/B001020616600571-pascual-leche-semidesnatada-botella-15-l/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "LECHE SEMIDESNATADA 1,5 LITROS",
           "marca": "RENY PICOT",
@@ -765,15 +432,6 @@
           "unidad": "L",
           "precio_unidad": 1.17,
           "url": "https://www.alimerkaonline.es/10029816.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada botella 1,5 l - Asturiana",
-          "marca": "asturiana",
-          "precio": 1.79,
-          "unidad": "L",
-          "precio_unidad": 1.19,
-          "url": "https://www.hipercor.es/supermercado/B001020616600027-asturiana-leche-semidesnatada-botella-15-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -821,15 +479,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada sin lactosa botella 1,5 l - Asturiana",
-          "marca": "asturiana",
-          "precio": 2.02,
-          "unidad": "L",
-          "precio_unidad": 1.35,
-          "url": "https://www.hipercor.es/supermercado/B001020616400253-asturiana-leche-semidesnatada-sin-lactosa-botella-15-l/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "LECHE SEMIDESNATADA SIN LACTOSA 20 CL. PACK 6",
           "marca": "COVAP",
@@ -837,15 +486,6 @@
           "unidad": "L",
           "precio_unidad": 1.74,
           "url": "https://www.alimerkaonline.es/10028671.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada botella 2,2 l - Asturiana",
-          "marca": "asturiana",
-          "precio": 2.62,
-          "unidad": "L",
-          "precio_unidad": 1.19,
-          "url": "https://www.hipercor.es/supermercado/B001020616600308-asturiana-leche-semidesnatada-botella-22-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -8338,12 +7978,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "TE CON LIMÓN SIN AZÚCAR 1,5 LITROS",
+          "nombre_real": "TÉ VERDE MARACUYÁ 1,5 LITROS",
           "marca": "FUZE TEA",
           "precio": 1.99,
           "unidad": "L",
           "precio_unidad": 1.33,
-          "url": "https://www.alimerkaonline.es/10026644.html"
+          "url": "https://www.alimerkaonline.es/10028510.html"
         },
         {
           "supermercado": "Alimerka",
@@ -8928,12 +8568,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "TE CON LIMÓN SIN AZÚCAR 1,5 LITROS",
+          "nombre_real": "TÉ VERDE MARACUYÁ 1,5 LITROS",
           "marca": "FUZE TEA",
           "precio": 1.99,
           "unidad": "L",
           "precio_unidad": 1.33,
-          "url": "https://www.alimerkaonline.es/10026644.html"
+          "url": "https://www.alimerkaonline.es/10028510.html"
         },
         {
           "supermercado": "Alimerka",
@@ -16073,20 +15713,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 9.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Digestive chocolate con leche Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 4.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 9.0,
           "url": ""
         },
         {
@@ -17104,20 +16744,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas tostadas Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 1.69,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 9.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas tostadas Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 1.69,
           "url": ""
         },
         {
@@ -18320,7 +17960,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula espresso Hacendado",
+          "nombre_real": "Café en cápsula extra fuerte Hacendado",
           "marca": "",
           "precio": 3.8,
           "unidad": "kg",
@@ -18329,7 +17969,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula extra fuerte Hacendado",
+          "nombre_real": "Café en cápsula espresso Hacendado",
           "marca": "",
           "precio": 3.8,
           "unidad": "kg",
@@ -18901,20 +18541,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión quema grasas Hacendado",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 35.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Infusión Hinojo Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
           "precio_unidad": 26.25,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Infusión quema grasas Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 35.0,
           "url": ""
         },
         {
@@ -19896,20 +19536,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Agua mineral grande Solán de Cabras",
-          "marca": "",
-          "precio": 5.1,
-          "unidad": "L",
-          "precio_unidad": 0.57,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Agua mineral grande Liviana",
           "marca": "",
           "precio": 5.1,
           "unidad": "L",
           "precio_unidad": 0.42,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Agua mineral grande Solán de Cabras",
+          "marca": "",
+          "precio": 5.1,
+          "unidad": "L",
+          "precio_unidad": 0.57,
           "url": ""
         },
         {
@@ -24862,7 +24502,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño coco y lichi Deliplus piel normal",
+          "nombre_real": "Gel de baño vainilla y miel Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -24871,7 +24511,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño vainilla y miel Deliplus piel normal",
+          "nombre_real": "Gel de baño coco y lichi Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
