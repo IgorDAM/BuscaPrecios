@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-06T04:50:29+00:00",
+  "generado_en": "2026-10-06T12:48:48+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -1453,21 +1453,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada más ligera que una semi 1% materia grasa sin lactosa botella 1 l - Puleva",
-          "marca": "puleva",
-          "precio": 1.25,
-          "unidad": "L",
-          "precio_unidad": 1.25,
-          "url": "https://www.hipercor.es/supermercado/B001020616400063-puleva-leche-semidesnatada-mas-ligera-que-una-semi-1-materia-grasa-sin-lactosa-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "leche desnatada 0% materia grasa sin lactosa botella 1 l - Puleva",
           "marca": "puleva",
           "precio": 1.25,
           "unidad": "L",
           "precio_unidad": 1.25,
           "url": "https://www.hipercor.es/supermercado/B001020616400071-puleva-leche-desnatada-0-materia-grasa-sin-lactosa-botella-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche semidesnatada más ligera que una semi 1% materia grasa sin lactosa botella 1 l - Puleva",
+          "marca": "puleva",
+          "precio": 1.25,
+          "unidad": "L",
+          "precio_unidad": 1.25,
+          "url": "https://www.hipercor.es/supermercado/B001020616400063-puleva-leche-semidesnatada-mas-ligera-que-una-semi-1-materia-grasa-sin-lactosa-botella-1-l/"
         },
         {
           "supermercado": "Hipercor",
@@ -5804,15 +5804,6 @@
           "unidad": "kg",
           "precio_unidad": 4.79,
           "url": "https://www.hipercor.es/supermercado/B001018005700721-la-fallera-arroz-bomba-paquete-1-kg/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "arroz bomba pack 2 envases 500 g - La Fallera",
-          "marca": "la fallera",
-          "precio": 6.35,
-          "unidad": "kg",
-          "precio_unidad": 6.35,
-          "url": "https://www.hipercor.es/supermercado/B001018005700895-la-fallera-arroz-bomba-pack-2-envases-500-g/"
         }
       ]
     },
@@ -6776,6 +6767,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018045800101-el-corte-ingles-aceite-de-oliva-virgen-extra-botella-1-l/"
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Aceite de oliva virgen extra Hacendado",
+          "marca": "",
+          "precio": 4.45,
+          "unidad": "L",
+          "precio_unidad": 4.45,
+          "url": ""
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 1 LITRO",
           "marca": "ALIMERKA",
@@ -6792,15 +6792,6 @@
           "unidad": "L",
           "precio_unidad": 8.98,
           "url": "https://www.alimerkaonline.es/10012991.html"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Aceite de oliva virgen extra Hacendado",
-          "marca": "",
-          "precio": 4.7,
-          "unidad": "L",
-          "precio_unidad": 4.7,
-          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -6959,9 +6950,9 @@
           "supermercado": "Mercadona",
           "nombre_real": "Aceite de oliva virgen extra Hacendado",
           "marca": "",
-          "precio": 13.55,
+          "precio": 12.8,
           "unidad": "L",
-          "precio_unidad": 4.52,
+          "precio_unidad": 4.27,
           "url": ""
         },
         {
@@ -18159,15 +18150,6 @@
           "unidad": "kg",
           "precio_unidad": 44.6,
           "url": "https://www.hipercor.es/supermercado/B001020603903467-illy-cafe-molido-100-arabica-lata-250-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "café molido natural pack 2 paquetes 500 g - Marcilla",
-          "marca": "marcilla",
-          "precio": 16.79,
-          "unidad": "kg",
-          "precio_unidad": 16.79,
-          "url": "https://www.hipercor.es/supermercado/B001020603902592-marcilla-cafe-molido-natural-pack-2-paquetes-500-g/"
         }
       ]
     },
@@ -18419,21 +18401,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "café extra intenso estuche 20 cápsulas compatibles con Nespresso - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 3.9,
-          "unidad": "kg",
-          "precio_unidad": 37.5,
-          "url": "https://www.hipercor.es/supermercado/B001020604605178-el-corte-ingles-cafe-extra-intenso-estuche-20-capsulas-compatibles-con-nespresso/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "café Intenso estuche 20 cápsulas compatibles con Nespresso - El Corte Ingles",
           "marca": "el corte ingles",
           "precio": 3.9,
           "unidad": "kg",
           "precio_unidad": 37.5,
           "url": "https://www.hipercor.es/supermercado/B001020604605152-el-corte-ingles-cafe-intenso-estuche-20-capsulas-compatibles-con-nespresso/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "café extra intenso estuche 20 cápsulas compatibles con Nespresso - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 3.9,
+          "unidad": "kg",
+          "precio_unidad": 37.5,
+          "url": "https://www.hipercor.es/supermercado/B001020604605178-el-corte-ingles-cafe-extra-intenso-estuche-20-capsulas-compatibles-con-nespresso/"
         },
         {
           "supermercado": "Hipercor",
@@ -19189,12 +19171,12 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "infusión de arándanos, hibisco, rosa mosqueta y zarzamora estuche 20 bolsitas - Hornimans",
-          "marca": "hornimans",
-          "precio": 3.09,
-          "unidad": "Unidad",
-          "precio_unidad": 0.15,
-          "url": "https://www.hipercor.es/supermercado/B001020666602600-hornimans-infusion-de-arandanos-hibisco-rosa-mosqueta-y-zarzamora-estuche-20-bolsitas/"
+          "nombre_real": "infusión con probióticos y manzanilla envase 15 bolsitas - Pompadour",
+          "marca": "pompadour",
+          "precio": 3.49,
+          "unidad": "kg",
+          "precio_unidad": 132.95,
+          "url": "https://www.hipercor.es/supermercado/B001020666602782-pompadour-infusion-con-probioticos-y-manzanilla-envase-15-bolsitas/"
         },
         {
           "supermercado": "Alimerka",
@@ -20108,15 +20090,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "zumo de naranja 100% exprimido con pulpa brik 1 l - Don Simon",
-          "marca": "don simon",
-          "precio": 3.02,
-          "unidad": "L",
-          "precio_unidad": 3.02,
-          "url": "https://www.hipercor.es/supermercado/B001018657200442-don-simon-zumo-de-naranja-100-exprimido-con-pulpa-brik-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "zumo de naranja, maracuyá y caqui enriquecido con Vitamina D a partir de concentrado botella 1 l - Hohes C",
           "marca": "hohes c",
           "precio": 3.09,
@@ -20141,6 +20114,15 @@
           "unidad": "L",
           "precio_unidad": 4.2,
           "url": "https://www.hipercor.es/supermercado/B001018827001001-el-corte-ingles-selection-zumo-de-naranja-y-zanahoria-100-exprimido-sin-azucares-anadidos-botella-750-ml/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "zumo de naranja a partir de concentrado 100% Premium botella 1 l - Granini",
+          "marca": "granini",
+          "precio": 3.15,
+          "unidad": "L",
+          "precio_unidad": 3.15,
+          "url": "https://www.hipercor.es/supermercado/B001018633602620-granini-zumo-de-naranja-a-partir-de-concentrado-100-premium-botella-1-l/"
         },
         {
           "supermercado": "Alimerka",
@@ -24464,15 +24446,6 @@
           "url": "https://www.alimerkaonline.es/840035.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "lejía blanca botella 1,9 l - Neutrex",
-          "marca": "neutrex",
-          "precio": 3.19,
-          "unidad": "L",
-          "precio_unidad": 1.68,
-          "url": "https://www.hipercor.es/supermercado/B001028014100425-neutrex-lejia-blanca-botella-19-l/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "LEJÍA 1,9 LITROS",
           "marca": "NEUTREX",
@@ -25974,15 +25947,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "champú fortificante Liso & Brillo con keratina vegetal y aceite de Argán frasco 360 ml para cabello difícil de alisar anti-encrespamiento - Fructis",
-          "marca": "fructis",
-          "precio": 4.85,
-          "unidad": "100 ml.",
-          "precio_unidad": 1.35,
-          "url": "https://www.hipercor.es/supermercado/B001055740204288-fructis-champu-fortificante-liso-and-brillo-con-keratina-vegetal-y-aceite-de-argan-frasco-360-ml-para-cabello-dificil-de-alisar-anti-encrespamiento/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "champú anticaspa Apple Fresh frasco 300 ml 0% parabenos fosfatos parafinas - H&s",
           "marca": "h&s",
           "precio": 4.89,
@@ -26061,6 +26025,15 @@
           "unidad": "L",
           "precio_unidad": 10.99,
           "url": "https://www.alimerkaonline.es/10029907.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "champú Suave & Liso dosificador 1000 ml - Pantene Pro-v",
+          "marca": "pantene pro-v",
+          "precio": 11.35,
+          "unidad": "100 ml.",
+          "precio_unidad": 1.14,
+          "url": "https://www.hipercor.es/supermercado/B001055740207836-pantene-pro-v-champu-suave-and-liso-dosificador-1000-ml/"
         },
         {
           "supermercado": "Hipercor",
