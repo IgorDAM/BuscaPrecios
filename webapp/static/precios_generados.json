@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-07T12:43:48+00:00",
+  "generado_en": "2026-10-07T22:49:39+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -10835,6 +10835,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "CHORIZO NATURAL TRONCAL EL KILO",
+          "marca": "ALEJANDRO",
+          "precio": 22.95,
+          "unidad": "kg",
+          "precio_unidad": 22.95,
+          "url": "https://www.alimerkaonline.es/10009388.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "CHORIZO IBERICO EXTRA EL KILO",
           "marca": "J. SANZ",
           "precio": 24.75,
@@ -18883,15 +18892,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Laxsen sabor menta Hacendado",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 35.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Infusión Cola de caballo Hacendado",
           "marca": "",
           "precio": 1.05,
@@ -18910,7 +18910,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión quema grasas Hacendado",
+          "nombre_real": "Infusión Laxsen sabor menta Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -18920,6 +18920,15 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Infusión Relax Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 35.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Infusión quema grasas Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -19887,20 +19896,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Agua mineral grande Liviana",
-          "marca": "",
-          "precio": 5.1,
-          "unidad": "L",
-          "precio_unidad": 0.42,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Agua mineral grande Solán de Cabras",
           "marca": "",
           "precio": 5.1,
           "unidad": "L",
           "precio_unidad": 0.57,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Agua mineral grande Liviana",
+          "marca": "",
+          "precio": 5.1,
+          "unidad": "L",
+          "precio_unidad": 0.42,
           "url": ""
         },
         {
@@ -21680,20 +21689,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Vino tinto crianza Comportillo DO Rioja",
-          "marca": "",
-          "precio": 2.9,
-          "unidad": "L",
-          "precio_unidad": 3.87,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Vino tinto Dominio de Borgia",
           "marca": "",
           "precio": 2.9,
           "unidad": "L",
           "precio_unidad": 1.45,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Vino tinto crianza Comportillo DO Rioja",
+          "marca": "",
+          "precio": 2.9,
+          "unidad": "L",
+          "precio_unidad": 3.87,
           "url": ""
         },
         {
@@ -24835,7 +24844,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño vainilla y miel Deliplus piel normal",
+          "nombre_real": "Gel de baño coco y lichi Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -24844,7 +24853,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño coco y lichi Deliplus piel normal",
+          "nombre_real": "Gel de baño vainilla y miel Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
