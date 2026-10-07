@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-07T04:14:51+00:00",
+  "generado_en": "2026-10-07T12:43:48+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -1462,21 +1462,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada más ligera que una semi 1% materia grasa sin lactosa botella 1 l - Puleva",
-          "marca": "puleva",
-          "precio": 1.25,
-          "unidad": "L",
-          "precio_unidad": 1.25,
-          "url": "https://www.hipercor.es/supermercado/B001020616400063-puleva-leche-semidesnatada-mas-ligera-que-una-semi-1-materia-grasa-sin-lactosa-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "leche desnatada sin lactosa enriquecida en vitaminas A, D, E y ácido fólico brik 1 l - Kaiku",
           "marca": "kaiku",
           "precio": 1.25,
           "unidad": "L",
           "precio_unidad": 1.25,
           "url": "https://www.hipercor.es/supermercado/B001020616400014-kaiku-leche-desnatada-sin-lactosa-enriquecida-en-vitaminas-a-d-e-y-acido-folico-brik-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche semidesnatada más ligera que una semi 1% materia grasa sin lactosa botella 1 l - Puleva",
+          "marca": "puleva",
+          "precio": 1.25,
+          "unidad": "L",
+          "precio_unidad": 1.25,
+          "url": "https://www.hipercor.es/supermercado/B001020616400063-puleva-leche-semidesnatada-mas-ligera-que-una-semi-1-materia-grasa-sin-lactosa-botella-1-l/"
         },
         {
           "supermercado": "Alimerka",
@@ -16448,6 +16448,15 @@
           "unidad": "kg",
           "precio_unidad": 4.0,
           "url": "https://www.alimerkaonline.es/10007373.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Rosquillas de mantequilla Hacendado",
+          "marca": "",
+          "precio": 2.05,
+          "unidad": "kg",
+          "precio_unidad": 6.83,
+          "url": ""
         },
         {
           "supermercado": "Hipercor",
