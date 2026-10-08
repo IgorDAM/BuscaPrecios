@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-08T12:52:16+00:00",
+  "generado_en": "2026-10-08T22:57:00+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -3572,39 +3572,12 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "mantequilla tradicional pastilla 250 g - Asturiana",
-          "marca": "asturiana",
-          "precio": 3.65,
-          "unidad": "kg",
-          "precio_unidad": 14.6,
-          "url": "https://www.hipercor.es/supermercado/B001018815102167-asturiana-mantequilla-tradicional-pastilla-250-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "mantequilla tradicional tarrina 250 g - Asturiana",
           "marca": "asturiana",
           "precio": 3.69,
           "unidad": "kg",
           "precio_unidad": 14.76,
           "url": "https://www.hipercor.es/supermercado/B001018815100013-asturiana-mantequilla-tradicional-tarrina-250-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "mantequilla ligera fácil de untar tarrina 250 g - Asturiana",
-          "marca": "asturiana",
-          "precio": 3.69,
-          "unidad": "kg",
-          "precio_unidad": 14.76,
-          "url": "https://www.hipercor.es/supermercado/B001018815100203-asturiana-mantequilla-ligera-facil-de-untar-tarrina-250-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "mantequilla mediterránea fácil de untar con aceite de oliva de Andalucía tarrina 250 g - Asturiana",
-          "marca": "asturiana",
-          "precio": 3.69,
-          "unidad": "kg",
-          "precio_unidad": 14.76,
-          "url": "https://www.hipercor.es/supermercado/B001018815100476-asturiana-mantequilla-mediterranea-facil-de-untar-con-aceite-de-oliva-de-andalucia-tarrina-250-g/"
         },
         {
           "supermercado": "Alimerka",
@@ -3623,6 +3596,33 @@
           "unidad": "kg",
           "precio_unidad": 15.0,
           "url": "https://www.alimerkaonline.es/230035.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "mantequilla tradicional pastilla 250 g - Asturiana",
+          "marca": "asturiana",
+          "precio": 3.85,
+          "unidad": "kg",
+          "precio_unidad": 15.4,
+          "url": "https://www.hipercor.es/supermercado/B001018815102167-asturiana-mantequilla-tradicional-pastilla-250-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "mantequilla ligera fácil de untar tarrina 250 g - Asturiana",
+          "marca": "asturiana",
+          "precio": 3.89,
+          "unidad": "kg",
+          "precio_unidad": 15.56,
+          "url": "https://www.hipercor.es/supermercado/B001018815100203-asturiana-mantequilla-ligera-facil-de-untar-tarrina-250-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "mantequilla mediterránea fácil de untar con aceite de oliva de Andalucía tarrina 250 g - Asturiana",
+          "marca": "asturiana",
+          "precio": 3.89,
+          "unidad": "kg",
+          "precio_unidad": 15.56,
+          "url": "https://www.hipercor.es/supermercado/B001018815100476-asturiana-mantequilla-mediterranea-facil-de-untar-con-aceite-de-oliva-de-andalucia-tarrina-250-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -3912,9 +3912,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "huevos ecológicos estuche 6 unidades - Finca Arcadia",
           "marca": "finca arcadia",
-          "precio": 3.79,
+          "precio": 3.59,
           "unidad": "Docena",
-          "precio_unidad": 7.58,
+          "precio_unidad": 7.18,
           "url": "https://www.hipercor.es/supermercado/B001018840200077-finca-arcadia-huevos-ecologicos-estuche-6-unidades/"
         },
         {
@@ -3964,21 +3964,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "huevos de gallinas sueltas en el gallinero categoría A clase L estuche 12 unidades - Dagu",
-          "marca": "dagu",
-          "precio": 4.39,
-          "unidad": "Docena",
-          "precio_unidad": 4.39,
-          "url": "https://www.hipercor.es/supermercado/B001018840000113-dagu-huevos-de-gallinas-sueltas-en-el-gallinero-categoria-a-clase-l-estuche-12-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "huevos camperos categoría A clase M-L estuche 12 unidades - El Corte Ingles",
           "marca": "el corte ingles",
           "precio": 4.4,
           "unidad": "Docena",
           "precio_unidad": 4.4,
           "url": "https://www.hipercor.es/supermercado/B001018839900216-el-corte-ingles-huevos-camperos-categoria-a-clase-m-l-estuche-12-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos de gallinas sueltas en el gallinero categoría A clase L estuche 12 unidades - Dagu",
+          "marca": "dagu",
+          "precio": 4.45,
+          "unidad": "Docena",
+          "precio_unidad": 4.45,
+          "url": "https://www.hipercor.es/supermercado/B001018840000113-dagu-huevos-de-gallinas-sueltas-en-el-gallinero-categoria-a-clase-l-estuche-12-unidades/"
         },
         {
           "supermercado": "Hipercor",
@@ -3993,9 +3993,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "huevos camperos clase M-L estuche 12 unidades - Corral De Monegros",
           "marca": "corral de monegros",
-          "precio": 4.69,
+          "precio": 5.19,
           "unidad": "Docena",
-          "precio_unidad": 4.69,
+          "precio_unidad": 5.19,
           "url": "https://www.hipercor.es/supermercado/B001018840101937-corral-de-monegros-huevos-camperos-clase-m-l-estuche-12-unidades/"
         },
         {
@@ -8919,15 +8919,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "TÉ VERDE MARACUYÁ 1,5 LITROS",
-          "marca": "FUZE TEA",
-          "precio": 1.99,
-          "unidad": "L",
-          "precio_unidad": 1.33,
-          "url": "https://www.alimerkaonline.es/10028510.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "SARDINAS EN ACEITE DE OLIVA 81 G.",
           "marca": "ISABEL",
           "precio": 1.99,
@@ -9078,6 +9069,15 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
+          "marca": "FANTA",
+          "precio": 4.62,
+          "unidad": "L",
+          "precio_unidad": 2.33,
+          "url": "https://www.alimerkaonline.es/10015191.html"
         }
       ]
     },
@@ -9469,6 +9469,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "jamón cocido extra - El Corte Ingles Selection",
+          "marca": "el corte ingles selection",
+          "precio": 7.9,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.hipercor.es/supermercado/B001018320100599-el-corte-ingles-selection-jamon-cocido-extra/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "jamón cocido extra - Campofrio",
           "marca": "campofrio",
           "precio": 10.99,
@@ -9484,15 +9493,6 @@
           "unidad": "kg",
           "precio_unidad": 12.95,
           "url": "https://www.alimerkaonline.es/370007.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "jamón cocido extra - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 12.99,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001018320100599-el-corte-ingles-selection-jamon-cocido-extra/"
         },
         {
           "supermercado": "Alimerka",
@@ -9906,15 +9906,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018425001049-valles-del-esla-filetes-1-b-de-ternera/"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "filetes 1ª A de ternera - Valles Del Esla",
-          "marca": "valles del esla",
-          "precio": 18.95,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001018425001031-valles-del-esla-filetes-1-a-de-ternera/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "FILETE 1ª DE TERNERA ASTURIANA EL KILO",
           "marca": "XATA ROXA",
@@ -9922,6 +9913,15 @@
           "unidad": "kg",
           "precio_unidad": 19.95,
           "url": "https://www.alimerkaonline.es/10014390.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "filetes 1ª A de ternera - Valles Del Esla",
+          "marca": "valles del esla",
+          "precio": 26.95,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.hipercor.es/supermercado/B001018425001031-valles-del-esla-filetes-1-a-de-ternera/"
         }
       ]
     },
@@ -11094,9 +11094,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "tortillitas de camarón bolsa 400 g - Terranova",
           "marca": "terranova",
-          "precio": 3.5,
+          "precio": 3.65,
           "unidad": "kg",
-          "precio_unidad": 8.75,
+          "precio_unidad": 9.13,
           "url": "https://www.hipercor.es/supermercado/B001018949300687-terranova-tortillitas-de-camaron-bolsa-400-g/"
         },
         {
@@ -11190,6 +11190,15 @@
           "url": ""
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "Boquerón en tempura bolsa 350 g - Delfin",
+          "marca": "delfin",
+          "precio": 4.09,
+          "unidad": "kg",
+          "precio_unidad": 11.69,
+          "url": "https://www.hipercor.es/supermercado/B001018949301081-delfin-boqueron-en-tempura-bolsa-350-g/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Rabas empanadas Hacendado ultracongeladas",
           "marca": "",
@@ -11197,15 +11206,6 @@
           "unidad": "kg",
           "precio_unidad": 8.3,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "Boquerón en tempura bolsa 350 g - Delfin",
-          "marca": "delfin",
-          "precio": 4.19,
-          "unidad": "kg",
-          "precio_unidad": 11.97,
-          "url": "https://www.hipercor.es/supermercado/B001018949301081-delfin-boqueron-en-tempura-bolsa-350-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -11233,15 +11233,6 @@
           "unidad": "kg",
           "precio_unidad": 17.52,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "filete de lenguado estuche 180 g neto escurrido - Delfin",
-          "marca": "delfin",
-          "precio": 4.45,
-          "unidad": "kg",
-          "precio_unidad": 24.72,
-          "url": "https://www.hipercor.es/supermercado/B001018910501669-delfin-filete-de-lenguado-estuche-180-g-neto-escurrido/"
         },
         {
           "supermercado": "Mercadona",
@@ -11272,12 +11263,12 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "filetes de merluza empanados 4 unidades estuche 340 g - Pescanova",
-          "marca": "pescanova",
+          "nombre_real": "filete de lenguado estuche 180 g neto escurrido - Delfin",
+          "marca": "delfin",
           "precio": 4.65,
           "unidad": "kg",
-          "precio_unidad": 13.68,
-          "url": "https://www.hipercor.es/supermercado/B001018949300638-pescanova-filetes-de-merluza-empanados-4-unidades-estuche-340-g/"
+          "precio_unidad": 25.83,
+          "url": "https://www.hipercor.es/supermercado/B001018910501669-delfin-filete-de-lenguado-estuche-180-g-neto-escurrido/"
         },
         {
           "supermercado": "Mercadona",
@@ -11305,6 +11296,15 @@
           "unidad": "kg",
           "precio_unidad": 23.75,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "filetes de merluza empanados 4 unidades estuche 340 g - Pescanova",
+          "marca": "pescanova",
+          "precio": 4.85,
+          "unidad": "kg",
+          "precio_unidad": 14.26,
+          "url": "https://www.hipercor.es/supermercado/B001018949300638-pescanova-filetes-de-merluza-empanados-4-unidades-estuche-340-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -11368,6 +11368,15 @@
           "unidad": "kg",
           "precio_unidad": 12.38,
           "url": "https://www.alimerkaonline.es/10030271.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "preparado de marisco para paella y sopa bolsa 600 g - Delfin",
+          "marca": "delfin",
+          "precio": 4.99,
+          "unidad": "kg",
+          "precio_unidad": 8.32,
+          "url": "https://www.hipercor.es/supermercado/B001018947400273-delfin-preparado-de-marisco-para-paella-y-sopa-bolsa-600-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -11442,15 +11451,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "preparado de marisco para paella y sopa bolsa 600 g - Delfin",
-          "marca": "delfin",
-          "precio": 5.29,
-          "unidad": "kg",
-          "precio_unidad": 8.82,
-          "url": "https://www.hipercor.es/supermercado/B001018947400273-delfin-preparado-de-marisco-para-paella-y-sopa-bolsa-600-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Calamar patagónico pequeño Hacendado ultracongelado",
           "marca": "",
@@ -11458,15 +11458,6 @@
           "unidad": "kg",
           "precio_unidad": 11.0,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "langostinos rebozados bolsa 300 g - Pescanova",
-          "marca": "pescanova",
-          "precio": 5.55,
-          "unidad": "kg",
-          "precio_unidad": 18.5,
-          "url": "https://www.hipercor.es/supermercado/B001018946900877-pescanova-langostinos-rebozados-bolsa-300-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -11623,6 +11614,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "langostinos rebozados bolsa 300 g - Pescanova",
+          "marca": "pescanova",
+          "precio": 6.19,
+          "unidad": "kg",
+          "precio_unidad": 20.63,
+          "url": "https://www.hipercor.es/supermercado/B001018946900877-pescanova-langostinos-rebozados-bolsa-300-g/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "filetes de dorada envase 180 g - Killic",
           "marca": "killic",
           "precio": 6.29,
@@ -11706,9 +11706,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "boquerón limpio bolsa 500 g neto escurrido - Delfin",
           "marca": "delfin",
-          "precio": 7.69,
+          "precio": 7.59,
           "unidad": "kg",
-          "precio_unidad": 15.38,
+          "precio_unidad": 15.18,
           "url": "https://www.hipercor.es/supermercado/B001018910501248-delfin-boqueron-limpio-bolsa-500-g-neto-escurrido/"
         },
         {
@@ -11963,9 +11963,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "gambas peladas bolsa 240 g neto escurrido - Pescanova",
           "marca": "pescanova",
-          "precio": 6.69,
+          "precio": 6.75,
           "unidad": "kg",
-          "precio_unidad": 27.88,
+          "precio_unidad": 28.13,
           "url": "https://www.hipercor.es/supermercado/B001018939400612-pescanova-gambas-peladas-bolsa-240-g-neto-escurrido/"
         },
         {
@@ -14115,21 +14115,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "Tomate rosa De La Reina selección al peso",
-          "marca": "",
-          "precio": 5.95,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001018103800910-tomate-rosa-de-la-reina-seleccion-al-peso/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "Tomate Mar Azul al peso",
           "marca": "",
           "precio": 6.95,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.hipercor.es/supermercado/B001018103800852-tomate-mar-azul-al-peso/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "Tomate rosa De La Reina selección al peso",
+          "marca": "",
+          "precio": 6.99,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.hipercor.es/supermercado/B001018103800910-tomate-rosa-de-la-reina-seleccion-al-peso/"
         }
       ]
     },
@@ -15571,6 +15571,15 @@
           "url": ""
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "Pera conferencia Alta Montaña de Aragón bandeja 850 g peso aproximado",
+          "marca": "",
+          "precio": 2.97,
+          "unidad": "kg",
+          "precio_unidad": 3.49,
+          "url": "https://www.hipercor.es/supermercado/B001018112802618-pera-conferencia-alta-montana-de-aragon-bandeja-850-g-peso-aproximado/"
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "PERA CONFERENCIA EL KILO",
           "marca": "SABROSONA",
@@ -15596,15 +15605,6 @@
           "unidad": "kg",
           "precio_unidad": 38.9,
           "url": "https://www.hipercor.es/supermercado/B001018106100052-pera-ercolina-al-peso-peso-aproximado-de-la-unidad-100-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "Pera conferencia Alta Montaña de Aragón bandeja 850 g peso aproximado",
-          "marca": "",
-          "precio": 3.99,
-          "unidad": "kg",
-          "precio_unidad": 4.69,
-          "url": "https://www.hipercor.es/supermercado/B001018112802618-pera-conferencia-alta-montana-de-aragon-bandeja-850-g-peso-aproximado/"
         },
         {
           "supermercado": "Hipercor",
@@ -21698,20 +21698,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Vino tinto Dominio de Borgia",
-          "marca": "",
-          "precio": 2.9,
-          "unidad": "L",
-          "precio_unidad": 1.45,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Vino tinto crianza Comportillo DO Rioja",
           "marca": "",
           "precio": 2.9,
           "unidad": "L",
           "precio_unidad": 3.87,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Vino tinto Dominio de Borgia",
+          "marca": "",
+          "precio": 2.9,
+          "unidad": "L",
+          "precio_unidad": 1.45,
           "url": ""
         },
         {
@@ -24560,21 +24560,21 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "bolsas compostables para basura 45x48 cm 10 litros rollo 15 unidades - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.72,
+          "unidad": "Unidad",
+          "precio_unidad": 0.11,
+          "url": "https://www.hipercor.es/supermercado/B001028023301170-el-corte-ingles-bolsas-compostables-para-basura-45x48-cm-10-litros-rollo-15-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "bolsas de basura con autocierre blanca 70x75 50 litros rollo 15 unidades - El Corte Ingles",
           "marca": "el corte ingles",
           "precio": 1.75,
           "unidad": "Unidad",
           "precio_unidad": 0.12,
           "url": "https://www.hipercor.es/supermercado/B001028023300859-el-corte-ingles-bolsas-de-basura-con-autocierre-blanca-70x75-50-litros-rollo-15-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "bolsas compostables para basura 45x48 cm 10 litros rollo 15 unidades - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.75,
-          "unidad": "Unidad",
-          "precio_unidad": 0.12,
-          "url": "https://www.hipercor.es/supermercado/B001028023301170-el-corte-ingles-bolsas-compostables-para-basura-45x48-cm-10-litros-rollo-15-unidades/"
         },
         {
           "supermercado": "Mercadona",
@@ -24589,7 +24589,7 @@
           "supermercado": "Hipercor",
           "nombre_real": "bolsas de basura con autocierre azul 50x75cm 30 litros rollo 20 unidades - El Corte Ingles",
           "marca": "el corte ingles",
-          "precio": 2.05,
+          "precio": 1.96,
           "unidad": "Unidad",
           "precio_unidad": 0.1,
           "url": "https://www.hipercor.es/supermercado/B001028023301196-el-corte-ingles-bolsas-de-basura-con-autocierre-azul-50x75cm-30-litros-rollo-20-unidades/"
@@ -26652,9 +26652,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "desodorante roll-on Sensitive sin perfume con seda envase 50 ml - Byly",
           "marca": "byly",
-          "precio": 2.05,
+          "precio": 1.99,
           "unidad": "100 ml.",
-          "precio_unidad": 4.1,
+          "precio_unidad": 3.98,
           "url": "https://www.hipercor.es/supermercado/B001055755100256-byly-desodorante-roll-on-sensitive-sin-perfume-con-seda-envase-50-ml/"
         },
         {
@@ -27672,20 +27672,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Pañales bebé talla 3 Dodot Sensitive de 6-10 kg",
-          "marca": "",
-          "precio": 20.95,
-          "unidad": "kg",
-          "precio_unidad": 2.09,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pañales bebé talla 2 Dodot Sensitive de 4-8 kg",
           "marca": "",
           "precio": 20.95,
           "unidad": "kg",
           "precio_unidad": 2.62,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañales bebé talla 3 Dodot Sensitive de 6-10 kg",
+          "marca": "",
+          "precio": 20.95,
+          "unidad": "kg",
+          "precio_unidad": 2.09,
           "url": ""
         },
         {
