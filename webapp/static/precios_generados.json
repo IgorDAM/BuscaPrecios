@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-08T04:27:10+00:00",
+  "generado_en": "2026-10-08T12:52:16+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -2652,21 +2652,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "yogur griego sabor lima y limón sin gluten pack 4 unidades 110 g - Danone Oikos",
-          "marca": "danone oikos",
-          "precio": 2.89,
-          "unidad": "kg",
-          "precio_unidad": 6.57,
-          "url": "https://www.hipercor.es/supermercado/B001018823002235-danone-oikos-yogur-griego-sabor-lima-y-limon-sin-gluten-pack-4-unidades-110-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "yogur griego con fresas sin gluten pack 4 unidades 110 g - Danone Oikos",
           "marca": "danone oikos",
           "precio": 2.89,
           "unidad": "kg",
           "precio_unidad": 6.57,
           "url": "https://www.hipercor.es/supermercado/B001018823002045-danone-oikos-yogur-griego-con-fresas-sin-gluten-pack-4-unidades-110-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur griego sabor lima y limón sin gluten pack 4 unidades 110 g - Danone Oikos",
+          "marca": "danone oikos",
+          "precio": 2.89,
+          "unidad": "kg",
+          "precio_unidad": 6.57,
+          "url": "https://www.hipercor.es/supermercado/B001018823002235-danone-oikos-yogur-griego-sabor-lima-y-limon-sin-gluten-pack-4-unidades-110-g/"
         },
         {
           "supermercado": "Alimerka",
@@ -3321,15 +3321,6 @@
           "unidad": "kg",
           "precio_unidad": 28.52,
           "url": "https://www.hipercor.es/supermercado/B001018389700065-gran-capitan-queso-curado-mezcla-elaborado-con-leche-pasteurizada-cortadas-cuna-210-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "queso curado puro de oveja madurado graso elaborado con leche cruda cuña 250 g - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 6.4,
-          "unidad": "kg",
-          "precio_unidad": 25.6,
-          "url": "https://www.hipercor.es/supermercado/B001018389400310-el-corte-ingles-selection-queso-curado-puro-de-oveja-madurado-graso-elaborado-con-leche-cruda-cuna-250-g/"
         },
         {
           "supermercado": "Alimerka",
@@ -8928,6 +8919,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "TÉ VERDE MARACUYÁ 1,5 LITROS",
+          "marca": "FUZE TEA",
+          "precio": 1.99,
+          "unidad": "L",
+          "precio_unidad": 1.33,
+          "url": "https://www.alimerkaonline.es/10028510.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "SARDINAS EN ACEITE DE OLIVA 81 G.",
           "marca": "ISABEL",
           "precio": 1.99,
@@ -9078,15 +9078,6 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
-          "marca": "FANTA",
-          "precio": 4.62,
-          "unidad": "L",
-          "precio_unidad": 2.33,
-          "url": "https://www.alimerkaonline.es/10015191.html"
         }
       ]
     },
@@ -9867,6 +9858,15 @@
           "precio": 8.09,
           "unidad": "kg",
           "precio_unidad": 24.01,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Tacos de vacuno añojo para guisar",
+          "marca": "",
+          "precio": 8.75,
+          "unidad": "kg",
+          "precio_unidad": 16.2,
           "url": ""
         },
         {
@@ -14419,9 +14419,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "Pimiento rojo gordo al peso (peso aproximado de la unidad 300 g)",
           "marca": "",
-          "precio": 3.55,
+          "precio": 3.59,
           "unidad": "kg",
-          "precio_unidad": 11.83,
+          "precio_unidad": 11.97,
           "url": "https://www.hipercor.es/supermercado/B001018107400048-pimiento-rojo-gordo-al-peso-peso-aproximado-de-la-unidad-300-g/"
         },
         {
@@ -22288,6 +22288,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "PAPEL HIGIÉNICO SEDA 4 ROLLOS",
+          "marca": "SCOTTEX",
+          "precio": 3.99,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10018887.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "PAPEL HIGIENICO COMPACTO 12 ROLLOS",
           "marca": "ALIMERKA",
           "precio": 4.59,
@@ -27654,20 +27663,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Pañales bebé talla 3 Dodot Sensitive de 6-10 kg",
-          "marca": "",
-          "precio": 20.95,
-          "unidad": "kg",
-          "precio_unidad": 2.09,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pañales bebé talla 1 Dodot Sensitive de 2-5 kg",
           "marca": "",
           "precio": 20.95,
           "unidad": "kg",
           "precio_unidad": 4.19,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañales bebé talla 3 Dodot Sensitive de 6-10 kg",
+          "marca": "",
+          "precio": 20.95,
+          "unidad": "kg",
+          "precio_unidad": 2.09,
           "url": ""
         },
         {
