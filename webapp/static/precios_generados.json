@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-07T22:49:39+00:00",
+  "generado_en": "2026-10-08T04:27:10+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -6731,6 +6731,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018044700120-el-corte-ingles-aceite-de-oliva-suave-04-contiene-aceites-refinados-virgenes-y-20-de-virgen-extra-botella-1-l/"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva intenso 1º contiene aceites refinados, vírgenes y 50% de virgen extra botella 1 l - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 3.9,
+          "unidad": "L",
+          "precio_unidad": 3.9,
+          "url": "https://www.hipercor.es/supermercado/B001018044900092-el-corte-ingles-aceite-de-oliva-intenso-1-contiene-aceites-refinados-virgenes-y-50-de-virgen-extra-botella-1-l/"
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 50 CL.",
           "marca": "COOSUR SQUIZZ",
@@ -6738,15 +6747,6 @@
           "unidad": "L",
           "precio_unidad": 7.98,
           "url": "https://www.alimerkaonline.es/10031200.html"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Aceite de oliva virgen extra Hacendado",
-          "marca": "",
-          "precio": 4.35,
-          "unidad": "L",
-          "precio_unidad": 4.35,
-          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -6774,6 +6774,15 @@
           "unidad": "L",
           "precio_unidad": 4.45,
           "url": "https://www.hipercor.es/supermercado/B001018045800101-el-corte-ingles-aceite-de-oliva-virgen-extra-botella-1-l/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Aceite de oliva virgen extra Hacendado",
+          "marca": "",
+          "precio": 4.45,
+          "unidad": "L",
+          "precio_unidad": 4.45,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -6812,6 +6821,15 @@
           "url": "https://www.alimerkaonline.es/10039.html"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 1 LITRO",
+          "marca": "LA ESPAÑOLA",
+          "precio": 5.49,
+          "unidad": "L",
+          "precio_unidad": 5.49,
+          "url": "https://www.alimerkaonline.es/12013.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Aceite de oliva virgen extra Hacendado Gran Selección",
           "marca": "",
@@ -6837,15 +6855,6 @@
           "unidad": "L",
           "precio_unidad": 5.55,
           "url": "https://www.alimerkaonline.es/12001.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 1 LITRO",
-          "marca": "LA ESPAÑOLA",
-          "precio": 5.69,
-          "unidad": "L",
-          "precio_unidad": 5.69,
-          "url": "https://www.alimerkaonline.es/12013.html"
         },
         {
           "supermercado": "Alimerka",
@@ -6941,9 +6950,9 @@
           "supermercado": "Mercadona",
           "nombre_real": "Aceite de oliva virgen extra Hacendado",
           "marca": "",
-          "precio": 12.15,
+          "precio": 12.8,
           "unidad": "L",
-          "precio_unidad": 4.05,
+          "precio_unidad": 4.27,
           "url": ""
         },
         {
@@ -8338,6 +8347,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "TÉ VERDE MARACUYÁ 1,5 LITROS",
+          "marca": "FUZE TEA",
+          "precio": 1.99,
+          "unidad": "L",
+          "precio_unidad": 1.33,
+          "url": "https://www.alimerkaonline.es/10028510.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "ATÚN CLARO EN ACEITE DE OLIVA 67 G.",
           "marca": "ALBO",
           "precio": 1.99,
@@ -8605,15 +8623,6 @@
           "unidad": "kg",
           "precio_unidad": 28.85,
           "url": "https://www.alimerkaonline.es/10018344.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
-          "marca": "FANTA",
-          "precio": 4.62,
-          "unidad": "L",
-          "precio_unidad": 2.33,
-          "url": "https://www.alimerkaonline.es/10015191.html"
         },
         {
           "supermercado": "Alimerka",
@@ -11118,6 +11127,15 @@
           "url": ""
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Merluza rebozada",
+          "marca": "",
+          "precio": 3.8,
+          "unidad": "kg",
+          "precio_unidad": 16.52,
+          "url": ""
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "GAMBA CRUDA PELADA 225 G.",
           "marca": "ALIMERKA",
@@ -11125,15 +11143,6 @@
           "unidad": "kg",
           "precio_unidad": 17.11,
           "url": "https://www.alimerkaonline.es/10012545.html"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Merluza rebozada",
-          "marca": "",
-          "precio": 3.9,
-          "unidad": "kg",
-          "precio_unidad": 16.96,
-          "url": ""
         },
         {
           "supermercado": "Mercadona",
