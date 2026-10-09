@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-09T04:32:27+00:00",
+  "generado_en": "2026-10-09T12:38:09+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -3988,6 +3988,15 @@
           "unidad": "Docena",
           "precio_unidad": 4.69,
           "url": "https://www.hipercor.es/supermercado/B001018840100616-pazo-vilane-huevos-camperos-morenos-estuche-12-unidades-calibres-diferentes/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos camperos categoría A clase M estuche 12 unidades - Coren",
+          "marca": "coren",
+          "precio": 5.15,
+          "unidad": "Docena",
+          "precio_unidad": 5.15,
+          "url": "https://www.hipercor.es/supermercado/B001018839900257-coren-huevos-camperos-categoria-a-clase-m-estuche-12-unidades/"
         },
         {
           "supermercado": "Hipercor",
@@ -8311,12 +8320,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "TE CON LIMÓN SIN AZÚCAR 1,5 LITROS",
+          "nombre_real": "TÉ VERDE MARACUYÁ 1,5 LITROS",
           "marca": "FUZE TEA",
           "precio": 1.99,
           "unidad": "L",
           "precio_unidad": 1.33,
-          "url": "https://www.alimerkaonline.es/10026644.html"
+          "url": "https://www.alimerkaonline.es/10028510.html"
         },
         {
           "supermercado": "Alimerka",
@@ -8883,21 +8892,21 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "TE CON LIMÓN SIN AZÚCAR 1,5 LITROS",
+          "marca": "FUZE TEA",
+          "precio": 1.99,
+          "unidad": "L",
+          "precio_unidad": 1.33,
+          "url": "https://www.alimerkaonline.es/10026644.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "SARDINAS EN ACEITE DE OLIVA 81 G.",
           "marca": "ISABEL",
           "precio": 1.99,
           "unidad": "kg",
           "precio_unidad": 24.57,
           "url": "https://www.alimerkaonline.es/10017808.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "TÉ VERDE MARACUYÁ 1,5 LITROS",
-          "marca": "FUZE TEA",
-          "precio": 1.99,
-          "unidad": "L",
-          "precio_unidad": 1.33,
-          "url": "https://www.alimerkaonline.es/10028510.html"
         },
         {
           "supermercado": "Hipercor",
@@ -9879,6 +9888,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018425001049-valles-del-esla-filetes-1-b-de-ternera/"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "filetes 1ª A de ternera - Valles Del Esla",
+          "marca": "valles del esla",
+          "precio": 19.95,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.hipercor.es/supermercado/B001018425001031-valles-del-esla-filetes-1-a-de-ternera/"
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "FILETE 1ª DE TERNERA ASTURIANA EL KILO",
           "marca": "XATA ROXA",
@@ -9886,15 +9904,6 @@
           "unidad": "kg",
           "precio_unidad": 19.95,
           "url": "https://www.alimerkaonline.es/10014390.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "filetes 1ª A de ternera - Valles Del Esla",
-          "marca": "valles del esla",
-          "precio": 26.95,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001018425001031-valles-del-esla-filetes-1-a-de-ternera/"
         }
       ]
     },
@@ -10393,15 +10402,6 @@
           "url": "https://www.alimerkaonline.es/10007541.html"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Chorizo extra pimienta Hacendado finas lonchas",
-          "marca": "",
-          "precio": 1.85,
-          "unidad": "kg",
-          "precio_unidad": 18.5,
-          "url": ""
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "chorizo de Pamplona extra en lonchas sin gluten pack 2 x 112,5 g envase 225 g - El Corte Ingles",
           "marca": "el corte ingles",
@@ -10418,6 +10418,15 @@
           "unidad": "kg",
           "precio_unidad": 22.11,
           "url": "https://www.alimerkaonline.es/10026534.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Chorizo extra pimienta Hacendado finas lonchas",
+          "marca": "",
+          "precio": 2.0,
+          "unidad": "kg",
+          "precio_unidad": 17.39,
+          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -15717,12 +15726,12 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "Aguacate Hass al peso (peso aproximado de la unidad 200 g)",
+          "nombre_real": "Aguacate Tropical Queen al peso (peso aproximado de la unidad 200 g)",
           "marca": "",
           "precio": 6.95,
           "unidad": "kg",
           "precio_unidad": 34.75,
-          "url": "https://www.hipercor.es/supermercado/B001018108500028-aguacate-hass-al-peso-peso-aproximado-de-la-unidad-200-g/"
+          "url": "https://www.hipercor.es/supermercado/B001018108500028-aguacate-tropical-queen-al-peso-peso-aproximado-de-la-unidad-200-g/"
         }
       ]
     },
@@ -17308,6 +17317,15 @@
           "unidad": "kg",
           "precio_unidad": 5.15,
           "url": "https://www.hipercor.es/supermercado/B001020613801149-gullon-digestive-galletas-con-avena-y-chips-de-chocolate-paquete-425-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "galletas con avena y naranja paquete 425 g - Gullon Digestive",
+          "marca": "gullon digestive",
+          "precio": 2.19,
+          "unidad": "kg",
+          "precio_unidad": 5.15,
+          "url": "https://www.hipercor.es/supermercado/B001020613801628-gullon-digestive-galletas-con-avena-y-naranja-paquete-425-g/"
         },
         {
           "supermercado": "Alimerka",
@@ -26141,15 +26159,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "pasta de dientes 3D White Advanced Carbón sabor menta fresca tubo 75 ml - Oral B",
-          "marca": "oral b",
-          "precio": 4.55,
-          "unidad": "100 ml.",
-          "precio_unidad": 0.23,
-          "url": "https://www.hipercor.es/supermercado/B001055752104954-oral-b-pasta-de-dientes-3d-white-advanced-carbon-sabor-menta-fresca-tubo-75-ml/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "pasta de dientes Repair & Proctect blanqueante tubo 75 ml para los dientes sensibles - Sensodyne",
           "marca": "sensodyne",
           "precio": 4.75,
@@ -26228,6 +26237,15 @@
           "unidad": "100 ml.",
           "precio_unidad": 8.47,
           "url": "https://www.hipercor.es/supermercado/B001055752104194-parodontax-pasta-de-dientes-con-fluor-original-complete-protection-tubo-75-ml/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pasta de dientes con flúor Blanqueante Complete Protection tubo 75 ml - Parodontax",
+          "marca": "parodontax",
+          "precio": 6.35,
+          "unidad": "100 ml.",
+          "precio_unidad": 8.47,
+          "url": "https://www.hipercor.es/supermercado/B001055752104210-parodontax-pasta-de-dientes-con-fluor-blanqueante-complete-protection-tubo-75-ml/"
         },
         {
           "supermercado": "Mercadona",
@@ -27104,6 +27122,24 @@
           "url": "https://www.alimerkaonline.es/10015296.html"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "pañales unisex de 13 a 18 kg talla 5 elásticos y transpirables bolsa 33 unidades - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 6.42,
+          "unidad": "Unidad",
+          "precio_unidad": 0.19,
+          "url": "https://www.hipercor.es/supermercado/B001028022505698-el-corte-ingles-panales-unisex-de-13-a-18-kg-talla-5-elasticos-y-transpirables-bolsa-33-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pañales unisex de 9 a 15 kg talla 4 elásticos y transpirables bolsa 38 unidades - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 6.55,
+          "unidad": "Unidad",
+          "precio_unidad": 0.17,
+          "url": "https://www.hipercor.es/supermercado/B001028022505672-el-corte-ingles-panales-unisex-de-9-a-15-kg-talla-4-elasticos-y-transpirables-bolsa-38-unidades/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Pañales bebé talla 4 Deliplus de 10-15 kg",
           "marca": "",
@@ -27174,6 +27210,15 @@
           "unidad": "kg",
           "precio_unidad": 1.32,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pañales unisex de 17 a 28 kg talla 6 elásticos y transpirables bolsa 29 unidades - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 8.32,
+          "unidad": "Unidad",
+          "precio_unidad": 0.29,
+          "url": "https://www.hipercor.es/supermercado/B001028022505706-el-corte-ingles-panales-unisex-de-17-a-28-kg-talla-6-elasticos-y-transpirables-bolsa-29-unidades/"
         },
         {
           "supermercado": "Alimerka",
@@ -27302,6 +27347,15 @@
           "url": ""
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "pañales hipoalergénicos Extra Care con cuidado de la piel 4 en 1 talla 5 (12-17 kg) bolsa 24 unidades - Huggies",
+          "marca": "huggies",
+          "precio": 14.13,
+          "unidad": "Unidad",
+          "precio_unidad": 0.59,
+          "url": "https://www.hipercor.es/supermercado/B001028022506399-huggies-panales-hipoalergenicos-extra-care-con-cuidado-de-la-piel-4-en-1-talla-5-12-17-kg-bolsa-24-unidades/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Pañal adulto talla L Deliplus",
           "marca": "",
@@ -27309,6 +27363,24 @@
           "unidad": "",
           "precio_unidad": null,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pañales hipoalergénicos Extra Care con cuidado de la piel 4 en 1 talla 4 (8-16 kg) bolsa 33 unidades - Huggies",
+          "marca": "huggies",
+          "precio": 16.99,
+          "unidad": "Unidad",
+          "precio_unidad": 0.51,
+          "url": "https://www.hipercor.es/supermercado/B001028022506316-huggies-panales-hipoalergenicos-extra-care-con-cuidado-de-la-piel-4-en-1-talla-4-8-16-kg-bolsa-33-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pañales hipoalergénicos Extra Care con cuidado de la piel 4 en 1 talla 5 (11-25 kg) bolsa 28 unidades - Huggies",
+          "marca": "huggies",
+          "precio": 16.99,
+          "unidad": "Unidad",
+          "precio_unidad": 0.61,
+          "url": "https://www.hipercor.es/supermercado/B001028022506324-huggies-panales-hipoalergenicos-extra-care-con-cuidado-de-la-piel-4-en-1-talla-5-11-25-kg-bolsa-28-unidades/"
         },
         {
           "supermercado": "Mercadona",
@@ -27464,6 +27536,15 @@
           "url": "https://www.alimerkaonline.es/10027471.html"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "pañales hipoalergénicos Extra Care Disney con cuidado de la piel 4 en 1 talla 3 (6-10 kg) bolsa 96 unidades - Huggies",
+          "marca": "huggies",
+          "precio": 26.24,
+          "unidad": "Unidad",
+          "precio_unidad": 0.27,
+          "url": "https://www.hipercor.es/supermercado/B001028022506472-huggies-panales-hipoalergenicos-extra-care-disney-con-cuidado-de-la-piel-4-en-1-talla-3-6-10-kg-bolsa-96-unidades/"
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "PAÑALES TALLA 5 48 UDS.",
           "marca": "DODOT ACTIVITY",
@@ -27471,6 +27552,15 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10024355.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pañales hipoalergénicos Extra Care Disney con cuidado de la piel 4 en 1 talla 4 (8-16 kg) bolsa 76 unidades - Huggies",
+          "marca": "huggies",
+          "precio": 34.99,
+          "unidad": "Unidad",
+          "precio_unidad": 0.46,
+          "url": "https://www.hipercor.es/supermercado/B001028022506480-huggies-panales-hipoalergenicos-extra-care-disney-con-cuidado-de-la-piel-4-en-1-talla-4-8-16-kg-bolsa-76-unidades/"
         }
       ]
     }
