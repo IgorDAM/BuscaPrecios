@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-09T12:38:09+00:00",
+  "generado_en": "2026-10-09T22:18:00+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -2224,7 +2224,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur natural Hacendado 0% MG 0% azúcares añadidos",
+          "nombre_real": "Yogur natural edulcorado Hacendado 0% MG 0% azúcares añadidos",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -2233,7 +2233,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur natural edulcorado Hacendado 0% MG 0% azúcares añadidos",
+          "nombre_real": "Yogur natural Hacendado 0% MG 0% azúcares añadidos",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -2756,7 +2756,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor limón Hacendado",
+          "nombre_real": "Yogur sabor fresa Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -2765,7 +2765,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor fresa Hacendado",
+          "nombre_real": "Yogur sabor limón Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -8292,6 +8292,15 @@
           "url": ""
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "BEBIDA ENERGÉTICA MANGO LOCO 50 CL.",
+          "marca": "MONSTER",
+          "precio": 1.79,
+          "unidad": "L",
+          "precio_unidad": 3.58,
+          "url": "https://www.alimerkaonline.es/10015187.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Filetes de melva canutera con pimientos del piquillo Hacendado en aceite de oliva",
           "marca": "",
@@ -8317,15 +8326,6 @@
           "unidad": "kg",
           "precio_unidad": 15.83,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "TÉ VERDE MARACUYÁ 1,5 LITROS",
-          "marca": "FUZE TEA",
-          "precio": 1.99,
-          "unidad": "L",
-          "precio_unidad": 1.33,
-          "url": "https://www.alimerkaonline.es/10028510.html"
         },
         {
           "supermercado": "Alimerka",
@@ -8892,21 +8892,21 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "TE CON LIMÓN SIN AZÚCAR 1,5 LITROS",
-          "marca": "FUZE TEA",
-          "precio": 1.99,
-          "unidad": "L",
-          "precio_unidad": 1.33,
-          "url": "https://www.alimerkaonline.es/10026644.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "SARDINAS EN ACEITE DE OLIVA 81 G.",
           "marca": "ISABEL",
           "precio": 1.99,
           "unidad": "kg",
           "precio_unidad": 24.57,
           "url": "https://www.alimerkaonline.es/10017808.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TÉ VERDE MARACUYÁ 1,5 LITROS",
+          "marca": "FUZE TEA",
+          "precio": 1.99,
+          "unidad": "L",
+          "precio_unidad": 1.33,
+          "url": "https://www.alimerkaonline.es/10028510.html"
         },
         {
           "supermercado": "Hipercor",
@@ -11886,6 +11886,15 @@
           "unidad": "kg",
           "precio_unidad": 17.11,
           "url": "https://www.alimerkaonline.es/10012545.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "con gambas al ajillo pack 2 bandeja 100 g - La Gula Del Norte",
+          "marca": "la gula del norte",
+          "precio": 3.99,
+          "unidad": "kg",
+          "precio_unidad": 19.95,
+          "url": "https://www.hipercor.es/supermercado/B001018940700950-la-gula-del-norte-con-gambas-al-ajillo-pack-2-bandeja-100-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -18694,20 +18703,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Hinojo Hacendado",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 26.25,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Infusión Laxsen sabor menta Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
           "precio_unidad": 35.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Infusión Hinojo Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 26.25,
           "url": ""
         },
         {
@@ -20277,9 +20286,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "refresco de cola sin azúcar pack 12 latas 33 cl - Pepsi Zero",
           "marca": "pepsi zero",
-          "precio": 9.17,
+          "precio": 8.95,
           "unidad": "L",
-          "precio_unidad": 27.79,
+          "precio_unidad": 27.12,
           "url": "https://www.hipercor.es/supermercado/B001018622500892-pepsi-zero-refresco-de-cola-sin-azucar-pack-12-latas-33-cl/"
         },
         {
@@ -20358,9 +20367,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "refresco de cola sin azúcar sin calorías pack 24 latas 33 cl - Coca-cola Light",
           "marca": "coca-cola light",
-          "precio": 20.16,
+          "precio": 21.6,
           "unidad": "L",
-          "precio_unidad": 2.55,
+          "precio_unidad": 2.73,
           "url": "https://www.hipercor.es/supermercado/B001018622500413-coca-cola-light-refresco-de-cola-sin-azucar-sin-calorias-pack-24-latas-33-cl/"
         }
       ]
@@ -24655,6 +24664,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Gel de baño vainilla y miel Deliplus piel normal",
+          "marca": "",
+          "precio": 1.6,
+          "unidad": "L",
+          "precio_unidad": 2.13,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Gel de baño avena Deliplus piel sensible",
           "marca": "",
           "precio": 1.6,
@@ -24665,15 +24683,6 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Gel de baño coco y lichi Deliplus piel normal",
-          "marca": "",
-          "precio": 1.6,
-          "unidad": "L",
-          "precio_unidad": 2.13,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño vainilla y miel Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
