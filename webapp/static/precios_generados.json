@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-10T11:57:12+00:00",
+  "generado_en": "2026-10-10T17:01:21+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -2747,6 +2747,15 @@
       "opciones": [
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Yogur sabor limón Hacendado",
+          "marca": "",
+          "precio": 0.75,
+          "unidad": "kg",
+          "precio_unidad": 1.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Yogur sabor macedonia Hacendado",
           "marca": "",
           "precio": 0.75,
@@ -2757,15 +2766,6 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Yogur sabor fresa Hacendado",
-          "marca": "",
-          "precio": 0.75,
-          "unidad": "kg",
-          "precio_unidad": 1.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor limón Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -8320,6 +8320,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "TE CON LIMÓN SIN AZÚCAR 1,5 LITROS",
+          "marca": "FUZE TEA",
+          "precio": 1.99,
+          "unidad": "L",
+          "precio_unidad": 1.33,
+          "url": "https://www.alimerkaonline.es/10026644.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "ATÚN CLARO EN ACEITE DE OLIVA 67 G.",
           "marca": "ALBO",
           "precio": 1.99,
@@ -8578,15 +8587,6 @@
           "unidad": "kg",
           "precio_unidad": 28.85,
           "url": "https://www.alimerkaonline.es/10018344.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
-          "marca": "FANTA",
-          "precio": 4.62,
-          "unidad": "L",
-          "precio_unidad": 2.33,
-          "url": "https://www.alimerkaonline.es/10015191.html"
         },
         {
           "supermercado": "Alimerka",
@@ -9033,6 +9033,15 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
+          "marca": "FANTA",
+          "precio": 4.62,
+          "unidad": "L",
+          "precio_unidad": 2.33,
+          "url": "https://www.alimerkaonline.es/10015191.html"
         }
       ]
     },
@@ -17050,20 +17059,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas María Integral Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 1.69,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Digestive chocolate con leche Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 4.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas María Integral Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 1.69,
           "url": ""
         },
         {
@@ -18275,7 +18284,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula ristretto Hacendado",
+          "nombre_real": "Café en cápsulas doble espresso Hacendado",
           "marca": "",
           "precio": 3.8,
           "unidad": "kg",
@@ -18284,7 +18293,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsulas doble espresso Hacendado",
+          "nombre_real": "Café en cápsula ristretto Hacendado",
           "marca": "",
           "precio": 3.8,
           "unidad": "kg",
@@ -18856,7 +18865,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Cola de caballo Hacendado",
+          "nombre_real": "Infusión quema grasas Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -18874,15 +18883,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Hinojo Hacendado",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 26.25,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Infusión Relax Hacendado",
           "marca": "",
           "precio": 1.05,
@@ -18892,11 +18892,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión quema grasas Hacendado",
+          "nombre_real": "Infusión Cola de caballo Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
           "precio_unidad": 35.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Infusión Hinojo Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 26.25,
           "url": ""
         },
         {
@@ -19860,20 +19869,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Agua mineral grande Solán de Cabras",
-          "marca": "",
-          "precio": 5.1,
-          "unidad": "L",
-          "precio_unidad": 0.57,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Agua mineral grande Liviana",
           "marca": "",
           "precio": 5.1,
           "unidad": "L",
           "precio_unidad": 0.42,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Agua mineral grande Solán de Cabras",
+          "marca": "",
+          "precio": 5.1,
+          "unidad": "L",
+          "precio_unidad": 0.57,
           "url": ""
         },
         {
@@ -22987,7 +22996,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
+          "nombre_real": "Suavizante ropa Floral Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -23005,7 +23014,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Suavizante ropa Floral Bosque Verde concentrado",
+          "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -23176,7 +23185,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Detergente ropa jabón natural de Marsella Bosque Verde líquido",
+          "nombre_real": "Detergente ropa Frescura Bosque Verde líquido",
           "marca": "",
           "precio": 3.5,
           "unidad": "L",
@@ -23185,7 +23194,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Detergente ropa Frescura Bosque Verde líquido",
+          "nombre_real": "Detergente ropa jabón natural de Marsella Bosque Verde líquido",
           "marca": "",
           "precio": 3.5,
           "unidad": "L",
@@ -23329,20 +23338,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Detergente ropa todo en 1 Ariel Pods en cápsulas",
-          "marca": "",
-          "precio": 6.9,
-          "unidad": "kg",
-          "precio_unidad": 19.84,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Detergente ropa todo en 1 frescor floral Ariel Pods en cápsulas",
           "marca": "",
           "precio": 6.9,
           "unidad": "kg",
           "precio_unidad": 14.88,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Detergente ropa todo en 1 Ariel Pods en cápsulas",
+          "marca": "",
+          "precio": 6.9,
+          "unidad": "kg",
+          "precio_unidad": 19.84,
           "url": ""
         },
         {
@@ -24862,15 +24871,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño tiernos recuerdos Deliplus piel normal",
-          "marca": "",
-          "precio": 1.6,
-          "unidad": "L",
-          "precio_unidad": 2.13,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Gel de baño granada y frutos silvestres Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
@@ -24880,7 +24880,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño ambar y vetiver Deliplus piel normal",
+          "nombre_real": "Gel de baño tiernos recuerdos Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -24890,6 +24890,15 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Gel de baño marino y cedro Deliplus piel normal",
+          "marca": "",
+          "precio": 1.6,
+          "unidad": "L",
+          "precio_unidad": 2.13,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Gel de baño ambar y vetiver Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -25722,7 +25731,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Menthol Fresh H&S",
+          "nombre_real": "Champú anticaspa Citrus Fresh H&S cabello graso",
           "marca": "",
           "precio": 3.9,
           "unidad": "L",
@@ -25731,7 +25740,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Citrus Fresh H&S cabello graso",
+          "nombre_real": "Champú anticaspa Menthol Fresh H&S",
           "marca": "",
           "precio": 3.9,
           "unidad": "L",
@@ -26105,7 +26114,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Sensitive Deliplus con hidroxiapatita",
+          "nombre_real": "Dentífrico Encías Protect Deliplus",
           "marca": "",
           "precio": 1.7,
           "unidad": "L",
@@ -26114,7 +26123,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Encías Protect Deliplus",
+          "nombre_real": "Dentífrico Sensitive Deliplus con hidroxiapatita",
           "marca": "",
           "precio": 1.7,
           "unidad": "L",
@@ -26177,7 +26186,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Blanqueador Bicarbonato Signal",
+          "nombre_real": "Dentífrico Protección Caries Colgate",
           "marca": "",
           "precio": 1.95,
           "unidad": "L",
@@ -26186,7 +26195,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Protección Caries Colgate",
+          "nombre_real": "Dentífrico Blanqueador Bicarbonato Signal",
           "marca": "",
           "precio": 1.95,
           "unidad": "L",
@@ -27028,7 +27037,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante invisible Black & White Nivea",
+          "nombre_real": "Desodorante invisible Black & White Nivea Men antitranspirante",
           "marca": "",
           "precio": 2.9,
           "unidad": "L",
@@ -27037,7 +27046,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante invisible Black & White Nivea Men antitranspirante",
+          "nombre_real": "Desodorante invisible Black & White Nivea",
           "marca": "",
           "precio": 2.9,
           "unidad": "L",
@@ -27591,20 +27600,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Pañales bebé talla 6 Dodot de 13-18 kg",
-          "marca": "",
-          "precio": 18.95,
-          "unidad": "kg",
-          "precio_unidad": 1.05,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pañales bebé talla 4 Dodot de 9-14 kg",
           "marca": "",
           "precio": 18.95,
           "unidad": "kg",
           "precio_unidad": 1.35,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañales bebé talla 6 Dodot de 13-18 kg",
+          "marca": "",
+          "precio": 18.95,
+          "unidad": "kg",
+          "precio_unidad": 1.05,
           "url": ""
         },
         {
