@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-10T04:17:38+00:00",
+  "generado_en": "2026-10-10T11:57:12+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -7575,6 +7575,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "salmón ahumado noruego en lonchas envase 100 g - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 3.95,
+          "unidad": "kg",
+          "precio_unidad": 39.5,
+          "url": "https://www.hipercor.es/supermercado/B001018835101785-el-corte-ingles-salmon-ahumado-noruego-en-lonchas-envase-100-g/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "sal para lavavajillas granulada maleta 2 kg - Finish",
           "marca": "finish",
           "precio": 4.99,
@@ -9024,15 +9033,6 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
-          "marca": "FANTA",
-          "precio": 4.62,
-          "unidad": "L",
-          "precio_unidad": 2.33,
-          "url": "https://www.alimerkaonline.es/10015191.html"
         }
       ]
     },
@@ -18382,15 +18382,6 @@
           "url": "https://www.hipercor.es/supermercado/B001020604605178-el-corte-ingles-cafe-extra-intenso-estuche-20-capsulas-compatibles-con-nespresso/"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "café descafeinado estuche 20 cápsulas compatibles con Nespresso - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 3.95,
-          "unidad": "kg",
-          "precio_unidad": 37.98,
-          "url": "https://www.hipercor.es/supermercado/B001020604605186-el-corte-ingles-cafe-descafeinado-estuche-20-capsulas-compatibles-con-nespresso/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "CAFÉ CAPPUCCINO AVELLANA 12 CÁPSULAS",
           "marca": "OQUENDO",
@@ -18686,6 +18677,15 @@
           "unidad": "kg",
           "precio_unidad": 75.87,
           "url": "https://www.hipercor.es/supermercado/B001020604603561-lor-espresso-cafe-colombia-andes-estuche-20-capsulas-compatibles-con-maquinas-nespresso/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "café Barista intensidad 13 estuche 20 cápsulas - L'or Espresso",
+          "marca": "l'or espresso",
+          "precio": 7.89,
+          "unidad": "kg",
+          "precio_unidad": 75.87,
+          "url": "https://www.hipercor.es/supermercado/B001020604604403-lor-espresso-cafe-barista-intensidad-13-estuche-20-capsulas/"
         },
         {
           "supermercado": "Alimerka",
@@ -20865,6 +20865,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Cerveza negra Ambar",
+          "marca": "",
+          "precio": 1.0,
+          "unidad": "L",
+          "precio_unidad": 3.03,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Cerveza aromatizada Desperados",
           "marca": "",
           "precio": 1.03,
@@ -21221,6 +21230,15 @@
           "precio": 5.94,
           "unidad": "L",
           "precio_unidad": 3.96,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Cerveza negra Ambar",
+          "marca": "",
+          "precio": 6.0,
+          "unidad": "L",
+          "precio_unidad": 3.03,
           "url": ""
         },
         {
@@ -23939,15 +23957,6 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10015365.html"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Lavavajillas Power Essential limón Finish en pastillas",
-          "marca": "",
-          "precio": 3.75,
-          "unidad": "kg",
-          "precio_unidad": 11.09,
-          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -26802,6 +26811,15 @@
           "url": "https://www.hipercor.es/supermercado/B001055755101734-sanex-men-desodorante-roll-on-active-control-6-en-1-72h-antitranspirante-envase-50-ml/"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "desodorante roll-on Skin Active Protection Black & White Invisible anti-manchas 48h envase 50 ml - Nivea",
+          "marca": "nivea",
+          "precio": 2.5,
+          "unidad": "100 ml.",
+          "precio_unidad": 5.0,
+          "url": "https://www.hipercor.es/supermercado/B001055755100959-nivea-desodorante-roll-on-skin-active-protection-black-and-white-invisible-anti-manchas-48h-envase-50-ml/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Desodorante roll-on Invisible Black & White Nivea Men antitranspirante",
           "marca": "",
@@ -27070,15 +27088,6 @@
           "unidad": "L",
           "precio_unidad": 39.87,
           "url": "https://www.alimerkaonline.es/10018304.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "desodorante Cobalt Dry antitranspirante 48 h 0% alcohol seca rápido spray 200 ml - Rexona",
-          "marca": "rexona",
-          "precio": 3.25,
-          "unidad": "100 ml.",
-          "precio_unidad": 1.63,
-          "url": "https://www.hipercor.es/supermercado/B001055754807570-rexona-desodorante-cobalt-dry-antitranspirante-48-h-0-alcohol-seca-rapido-spray-200-ml/"
         },
         {
           "supermercado": "Mercadona",
