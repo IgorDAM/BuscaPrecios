@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-11T03:53:53+00:00",
+  "generado_en": "2026-10-11T12:12:21+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -3001,15 +3001,6 @@
           "unidad": "kg",
           "precio_unidad": 19.38,
           "url": "https://www.alimerkaonline.es/10022871.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "queso rallado en filatto especial pasta bolsa 80 g - El Caserio",
-          "marca": "el caserio",
-          "precio": 1.6,
-          "unidad": "kg",
-          "precio_unidad": 20.0,
-          "url": "https://www.hipercor.es/supermercado/B001018395400023-el-caserio-queso-rallado-en-filatto-especial-pasta-bolsa-80-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -8347,6 +8338,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "TE CON LIMÓN SIN AZÚCAR 1,5 LITROS",
+          "marca": "FUZE TEA",
+          "precio": 1.99,
+          "unidad": "L",
+          "precio_unidad": 1.33,
+          "url": "https://www.alimerkaonline.es/10026644.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "ATÚN CLARO EN ACEITE DE OLIVA 67 G.",
           "marca": "ALBO",
           "precio": 1.99,
@@ -8605,15 +8605,6 @@
           "unidad": "kg",
           "precio_unidad": 28.85,
           "url": "https://www.alimerkaonline.es/10018344.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
-          "marca": "FANTA",
-          "precio": 4.62,
-          "unidad": "L",
-          "precio_unidad": 2.33,
-          "url": "https://www.alimerkaonline.es/10015191.html"
         },
         {
           "supermercado": "Alimerka",
@@ -8910,6 +8901,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "TÉ VERDE MARACUYÁ 1,5 LITROS",
+          "marca": "FUZE TEA",
+          "precio": 1.99,
+          "unidad": "L",
+          "precio_unidad": 1.33,
+          "url": "https://www.alimerkaonline.es/10028510.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "SARDINAS EN ACEITE DE OLIVA 81 G.",
           "marca": "ISABEL",
           "precio": 1.99,
@@ -9060,15 +9060,6 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
-          "marca": "FANTA",
-          "precio": 4.62,
-          "unidad": "L",
-          "precio_unidad": 2.33,
-          "url": "https://www.alimerkaonline.es/10015191.html"
         }
       ]
     },
@@ -13267,6 +13258,15 @@
           "url": ""
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Cebollas",
+          "marca": "",
+          "precio": 1.5,
+          "unidad": "kg",
+          "precio_unidad": 1.5,
+          "url": ""
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "Cebolla gallega al peso (peso aproximado de la unidad 150 g)",
           "marca": "",
@@ -13274,15 +13274,6 @@
           "unidad": "kg",
           "precio_unidad": 10.67,
           "url": "https://www.hipercor.es/supermercado/B001018104600327-cebolla-gallega-al-peso-peso-aproximado-de-la-unidad-150-g/"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Cebollas",
-          "marca": "",
-          "precio": 1.7,
-          "unidad": "kg",
-          "precio_unidad": 1.7,
-          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -13367,15 +13358,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "cebolla francesa ideal para hornear bolsa 500 g - Duart Blay",
-          "marca": "duart blay",
-          "precio": 2.45,
-          "unidad": "kg",
-          "precio_unidad": 4.9,
-          "url": "https://www.hipercor.es/supermercado/B001018176102608-duart-blay-cebolla-francesa-ideal-para-hornear-bolsa-500-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "Cebolla dulce buti 700 g",
           "marca": "",
           "precio": 2.49,
@@ -13439,20 +13421,20 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Cebollas",
+          "marca": "",
+          "precio": 3.0,
+          "unidad": "kg",
+          "precio_unidad": 1.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Cebolla roja Olives García en vinagre",
           "marca": "",
           "precio": 3.15,
           "unidad": "kg",
           "precio_unidad": 4.38,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Cebollas",
-          "marca": "",
-          "precio": 3.2,
-          "unidad": "kg",
-          "precio_unidad": 1.6,
           "url": ""
         }
       ]
@@ -17589,15 +17571,6 @@
           "url": "https://www.alimerkaonline.es/10023864.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "galletas María sin azúcares caja 600 g - Gullon Zero",
-          "marca": "gullon zero",
-          "precio": 2.55,
-          "unidad": "kg",
-          "precio_unidad": 4.25,
-          "url": "https://www.hipercor.es/supermercado/B001020613800158-gullon-zero-galletas-maria-sin-azucares-caja-600-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Galletas Crunchy Choc Hacendado",
           "marca": "",
@@ -18751,15 +18724,6 @@
           "url": "https://www.hipercor.es/supermercado/B001020604603561-lor-espresso-cafe-colombia-andes-estuche-20-capsulas-compatibles-con-maquinas-nespresso/"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "café Barista intensidad 13 estuche 20 cápsulas - L'or Espresso",
-          "marca": "l'or espresso",
-          "precio": 7.89,
-          "unidad": "kg",
-          "precio_unidad": 75.87,
-          "url": "https://www.hipercor.es/supermercado/B001020604604403-lor-espresso-cafe-barista-intensidad-13-estuche-20-capsulas/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "CAFÉ COLOMBIA 20 CAPSULAS",
           "marca": "L'OR",
@@ -18812,6 +18776,15 @@
           "unidad": "kg",
           "precio_unidad": 45.24,
           "url": "https://www.hipercor.es/supermercado/B001020604603017-nescafe-dolce-gusto-cafe-cortado-espresso-macchiatto-intensidad-8-estuche-30-capsulas/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "café espresso descafeinado intenso de Colombia y Vietnam intensidad 7 estuche 30 cápsulas - Nescafe Dolce Gusto",
+          "marca": "nescafe dolce gusto",
+          "precio": 8.55,
+          "unidad": "kg",
+          "precio_unidad": 40.71,
+          "url": "https://www.hipercor.es/supermercado/B001020605100609-nescafe-dolce-gusto-cafe-espresso-descafeinado-intenso-de-colombia-y-vietnam-intensidad-7-estuche-30-capsulas/"
         },
         {
           "supermercado": "Alimerka",
@@ -20527,21 +20500,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "refresco de cola original pack 12 latas 33 cl - Coca-cola",
-          "marca": "coca-cola",
-          "precio": 10.2,
-          "unidad": "L",
-          "precio_unidad": 2.58,
-          "url": "https://www.hipercor.es/supermercado/B001018622300202-coca-cola-refresco-de-cola-original-pack-12-latas-33-cl/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "refresco de cola sin azúcar pack 12 latas 33 cl - Coca-cola Zero",
           "marca": "coca-cola zero",
           "precio": 10.2,
           "unidad": "L",
           "precio_unidad": 2.58,
           "url": "https://www.hipercor.es/supermercado/B001018622500538-coca-cola-zero-refresco-de-cola-sin-azucar-pack-12-latas-33-cl/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "refresco de cola original pack 12 latas 33 cl - Coca-cola",
+          "marca": "coca-cola",
+          "precio": 10.2,
+          "unidad": "L",
+          "precio_unidad": 2.58,
+          "url": "https://www.hipercor.es/supermercado/B001018622300202-coca-cola-refresco-de-cola-original-pack-12-latas-33-cl/"
         },
         {
           "supermercado": "Hipercor",
@@ -27153,6 +27126,15 @@
           "url": "https://www.alimerkaonline.es/10018304.html"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "desodorante Cobalt Dry antitranspirante 48 h 0% alcohol seca rápido spray 200 ml - Rexona",
+          "marca": "rexona",
+          "precio": 3.25,
+          "unidad": "100 ml.",
+          "precio_unidad": 1.63,
+          "url": "https://www.hipercor.es/supermercado/B001055754807570-rexona-desodorante-cobalt-dry-antitranspirante-48-h-0-alcohol-seca-rapido-spray-200-ml/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Desodorante Dark Temptation Axe Essentiel",
           "marca": "",
@@ -27169,15 +27151,6 @@
           "unidad": "L",
           "precio_unidad": 16.5,
           "url": "https://www.alimerkaonline.es/10029633.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "desodorante original spray 250 ml - Heno De Pravia",
-          "marca": "heno de pravia",
-          "precio": 3.45,
-          "unidad": "100 ml.",
-          "precio_unidad": 1.73,
-          "url": "https://www.hipercor.es/supermercado/B001055754800575-heno-de-pravia-desodorante-original-spray-250-ml/"
         },
         {
           "supermercado": "Hipercor",
