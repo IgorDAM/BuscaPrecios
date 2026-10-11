@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-11T12:12:21+00:00",
+  "generado_en": "2026-10-11T21:33:26+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -2774,7 +2774,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor macedonia Hacendado",
+          "nombre_real": "Yogur sabor fresa Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -2783,7 +2783,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor fresa Hacendado",
+          "nombre_real": "Yogur sabor macedonia Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -8338,12 +8338,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "TE CON LIMÓN SIN AZÚCAR 1,5 LITROS",
+          "nombre_real": "TÉ VERDE MARACUYÁ 1,5 LITROS",
           "marca": "FUZE TEA",
           "precio": 1.99,
           "unidad": "L",
           "precio_unidad": 1.33,
-          "url": "https://www.alimerkaonline.es/10026644.html"
+          "url": "https://www.alimerkaonline.es/10028510.html"
         },
         {
           "supermercado": "Alimerka",
@@ -8901,15 +8901,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "TÉ VERDE MARACUYÁ 1,5 LITROS",
-          "marca": "FUZE TEA",
-          "precio": 1.99,
-          "unidad": "L",
-          "precio_unidad": 1.33,
-          "url": "https://www.alimerkaonline.es/10028510.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "SARDINAS EN ACEITE DE OLIVA 81 G.",
           "marca": "ISABEL",
           "precio": 1.99,
@@ -9060,6 +9051,15 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
+          "marca": "FANTA",
+          "precio": 4.62,
+          "unidad": "L",
+          "precio_unidad": 2.33,
+          "url": "https://www.alimerkaonline.es/10015191.html"
         }
       ]
     },
@@ -17122,20 +17122,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 9.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas tostadas Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 1.69,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 9.0,
           "url": ""
         },
         {
@@ -18910,15 +18910,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión quema grasas Hacendado",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 35.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Infusión Laxsen sabor menta Hacendado",
           "marca": "",
           "precio": 1.05,
@@ -18951,6 +18942,15 @@
           "precio": 1.05,
           "unidad": "kg",
           "precio_unidad": 26.25,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Infusión quema grasas Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 35.0,
           "url": ""
         },
         {
@@ -24199,7 +24199,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Friegasuelos Spa Bosque Verde líquido",
+          "nombre_real": "Friegasuelos Floral Bosque Verde líquido",
           "marca": "",
           "precio": 0.95,
           "unidad": "L",
@@ -24208,7 +24208,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Friegasuelos Floral Bosque Verde líquido",
+          "nombre_real": "Friegasuelos Spa Bosque Verde líquido",
           "marca": "",
           "precio": 0.95,
           "unidad": "L",
@@ -26429,7 +26429,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Repair & Protect Sensodyne",
+          "nombre_real": "Dentífrico reparación activa de encías Parodontax menta fresca",
           "marca": "",
           "precio": 4.95,
           "unidad": "L",
@@ -26438,7 +26438,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico reparación activa de encías Parodontax menta fresca",
+          "nombre_real": "Dentífrico Repair & Protect Sensodyne",
           "marca": "",
           "precio": 4.95,
           "unidad": "L",
@@ -27501,20 +27501,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Pañal junior braguita noche Deliplus de 17-30 kg",
-          "marca": "",
-          "precio": 10.65,
-          "unidad": "kg",
-          "precio_unidad": 0.36,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pañal junior braguita noche Deliplus de 27-57 kg",
           "marca": "",
           "precio": 10.65,
           "unidad": "kg",
           "precio_unidad": 0.19,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañal junior braguita noche Deliplus de 17-30 kg",
+          "marca": "",
+          "precio": 10.65,
+          "unidad": "kg",
+          "precio_unidad": 0.36,
           "url": ""
         },
         {
