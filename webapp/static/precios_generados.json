@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-12T14:25:19+00:00",
+  "generado_en": "2026-10-13T00:14:48+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -213,15 +213,6 @@
           "url": "https://www.alimerkaonline.es/10004756.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche entera botella 1,5 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.56,
-          "unidad": "L",
-          "precio_unidad": 1.04,
-          "url": "https://www.hipercor.es/supermercado/B001020616500532-el-corte-ingles-leche-entera-botella-15-l/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Leche entera Hacendado",
           "marca": "",
@@ -241,21 +232,30 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "Leche entera sin lactosa brik 1 l - Pascual",
-          "marca": "pascual",
-          "precio": 1.62,
+          "nombre_real": "leche entera ecológica brik 1 l - Puleva",
+          "marca": "puleva",
+          "precio": 1.6,
           "unidad": "L",
-          "precio_unidad": 1.62,
-          "url": "https://www.hipercor.es/supermercado/B001020616400097-pascual-leche-entera-sin-lactosa-brik-1-l/"
+          "precio_unidad": 1.6,
+          "url": "https://www.hipercor.es/supermercado/B001020604200012-puleva-leche-entera-ecologica-brik-1-l/"
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "leche entera ecológica brik 1 l - Puleva",
-          "marca": "puleva",
-          "precio": 1.63,
+          "nombre_real": "leche entera botella 1,5 l - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.61,
           "unidad": "L",
-          "precio_unidad": 1.63,
-          "url": "https://www.hipercor.es/supermercado/B001020604200012-puleva-leche-entera-ecologica-brik-1-l/"
+          "precio_unidad": 1.07,
+          "url": "https://www.hipercor.es/supermercado/B001020616500532-el-corte-ingles-leche-entera-botella-15-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "Leche entera sin lactosa brik 1 l - Pascual",
+          "marca": "pascual",
+          "precio": 1.65,
+          "unidad": "L",
+          "precio_unidad": 1.65,
+          "url": "https://www.hipercor.es/supermercado/B001020616400097-pascual-leche-entera-sin-lactosa-brik-1-l/"
         },
         {
           "supermercado": "Alimerka",
@@ -351,9 +351,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "leche entera pack 6 briks 200 ml - Asturiana",
           "marca": "asturiana",
-          "precio": 2.17,
+          "precio": 2.36,
           "unidad": "L",
-          "precio_unidad": 1.81,
+          "precio_unidad": 1.97,
           "url": "https://www.hipercor.es/supermercado/B001020616500474-asturiana-leche-entera-pack-6-briks-200-ml/"
         },
         {
@@ -419,9 +419,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "leche semidesnatada brik 500 ml - Asturiana",
           "marca": "asturiana",
-          "precio": 0.74,
+          "precio": 0.78,
           "unidad": "L",
-          "precio_unidad": 1.48,
+          "precio_unidad": 1.56,
           "url": "https://www.hipercor.es/supermercado/B001020616600506-asturiana-leche-semidesnatada-brik-500-ml/"
         },
         {
@@ -518,9 +518,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "leche semidesnatada con calcio enriquecida con vitaminas A, D y E brik 1 l - El Corte Ingles",
           "marca": "el corte ingles",
-          "precio": 1.07,
+          "precio": 1.08,
           "unidad": "L",
-          "precio_unidad": 1.07,
+          "precio_unidad": 1.08,
           "url": "https://www.hipercor.es/supermercado/B001020616000293-el-corte-ingles-leche-semidesnatada-con-calcio-enriquecida-con-vitaminas-a-d-y-e-brik-1-l/"
         },
         {
@@ -588,15 +588,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada más ligera que una semi 1% materia grasa sin lactosa botella 1 l - Puleva",
-          "marca": "puleva",
-          "precio": 1.25,
-          "unidad": "L",
-          "precio_unidad": 1.25,
-          "url": "https://www.hipercor.es/supermercado/B001020616400063-puleva-leche-semidesnatada-mas-ligera-que-una-semi-1-materia-grasa-sin-lactosa-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "leche semidesnatada brik 1 l - Pascual",
           "marca": "pascual",
           "precio": 1.29,
@@ -612,6 +603,15 @@
           "unidad": "L",
           "precio_unidad": 1.29,
           "url": "https://www.hipercor.es/supermercado/B001020616400022-kaiku-leche-semidesnatada-sin-lactosa-enriquecida-en-vitaminas-a-d-e-y-acido-folico-brik-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche semidesnatada más ligera que una semi 1% materia grasa sin lactosa botella 1 l - Puleva",
+          "marca": "puleva",
+          "precio": 1.32,
+          "unidad": "L",
+          "precio_unidad": 1.32,
+          "url": "https://www.hipercor.es/supermercado/B001020616400063-puleva-leche-semidesnatada-mas-ligera-que-una-semi-1-materia-grasa-sin-lactosa-botella-1-l/"
         },
         {
           "supermercado": "Alimerka",
@@ -698,10 +698,19 @@
           "supermercado": "Hipercor",
           "nombre_real": "leche semidesnatada sin lactosa y baja grasa brik 1 l - Asturiana Suprema",
           "marca": "asturiana suprema",
-          "precio": 1.57,
+          "precio": 1.6,
           "unidad": "L",
-          "precio_unidad": 1.57,
+          "precio_unidad": 1.6,
           "url": "https://www.hipercor.es/supermercado/B001020616400550-asturiana-suprema-leche-semidesnatada-sin-lactosa-y-baja-grasa-brik-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche semidesnatada ecológica brik 1 l - Puleva",
+          "marca": "puleva",
+          "precio": 1.6,
+          "unidad": "L",
+          "precio_unidad": 1.6,
+          "url": "https://www.hipercor.es/supermercado/B001020604300010-puleva-leche-semidesnatada-ecologica-brik-1-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -711,15 +720,6 @@
           "unidad": "L",
           "precio_unidad": 1.08,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada ecológica brik 1 l - Puleva",
-          "marca": "puleva",
-          "precio": 1.63,
-          "unidad": "L",
-          "precio_unidad": 1.63,
-          "url": "https://www.hipercor.es/supermercado/B001020604300010-puleva-leche-semidesnatada-ecologica-brik-1-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -842,9 +842,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "leche semidesnatada botella 2,2 l - Asturiana",
           "marca": "asturiana",
-          "precio": 2.62,
+          "precio": 2.37,
           "unidad": "L",
-          "precio_unidad": 1.19,
+          "precio_unidad": 1.08,
           "url": "https://www.hipercor.es/supermercado/B001020616600308-asturiana-leche-semidesnatada-botella-22-l/"
         },
         {
@@ -1027,9 +1027,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "leche desnatada con calcio enriquecida con vitaminas A, D y E brik 1 l - El Corte Ingles",
           "marca": "el corte ingles",
-          "precio": 1.04,
+          "precio": 1.05,
           "unidad": "L",
-          "precio_unidad": 1.04,
+          "precio_unidad": 1.05,
           "url": "https://www.hipercor.es/supermercado/B001020616000301-el-corte-ingles-leche-desnatada-con-calcio-enriquecida-con-vitaminas-a-d-y-e-brik-1-l/"
         },
         {
@@ -1106,21 +1106,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "leche desnatada 0% materia grasa sin lactosa botella 1 l - Puleva",
-          "marca": "puleva",
-          "precio": 1.25,
-          "unidad": "L",
-          "precio_unidad": 1.25,
-          "url": "https://www.hipercor.es/supermercado/B001020616400071-puleva-leche-desnatada-0-materia-grasa-sin-lactosa-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "leche desnatada sin lactosa enriquecida en vitaminas A, D, E y ácido fólico brik 1 l - Kaiku",
           "marca": "kaiku",
           "precio": 1.25,
           "unidad": "L",
           "precio_unidad": 1.25,
           "url": "https://www.hipercor.es/supermercado/B001020616400014-kaiku-leche-desnatada-sin-lactosa-enriquecida-en-vitaminas-a-d-e-y-acido-folico-brik-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche desnatada 0% materia grasa sin lactosa botella 1 l - Puleva",
+          "marca": "puleva",
+          "precio": 1.25,
+          "unidad": "L",
+          "precio_unidad": 1.25,
+          "url": "https://www.hipercor.es/supermercado/B001020616400071-puleva-leche-desnatada-0-materia-grasa-sin-lactosa-botella-1-l/"
         },
         {
           "supermercado": "Hipercor",
@@ -1453,15 +1453,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "leche desnatada 0% materia grasa sin lactosa botella 1 l - Puleva",
-          "marca": "puleva",
-          "precio": 1.25,
-          "unidad": "L",
-          "precio_unidad": 1.25,
-          "url": "https://www.hipercor.es/supermercado/B001020616400071-puleva-leche-desnatada-0-materia-grasa-sin-lactosa-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "leche desnatada sin lactosa enriquecida en vitaminas A, D, E y ácido fólico brik 1 l - Kaiku",
           "marca": "kaiku",
           "precio": 1.25,
@@ -1471,12 +1462,12 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada más ligera que una semi 1% materia grasa sin lactosa botella 1 l - Puleva",
+          "nombre_real": "leche desnatada 0% materia grasa sin lactosa botella 1 l - Puleva",
           "marca": "puleva",
           "precio": 1.25,
           "unidad": "L",
           "precio_unidad": 1.25,
-          "url": "https://www.hipercor.es/supermercado/B001020616400063-puleva-leche-semidesnatada-mas-ligera-que-una-semi-1-materia-grasa-sin-lactosa-botella-1-l/"
+          "url": "https://www.hipercor.es/supermercado/B001020616400071-puleva-leche-desnatada-0-materia-grasa-sin-lactosa-botella-1-l/"
         },
         {
           "supermercado": "Alimerka",
@@ -1513,6 +1504,15 @@
           "unidad": "L",
           "precio_unidad": 1.29,
           "url": "https://www.hipercor.es/supermercado/B001020616400055-pascual-leche-desnatada-sin-lactosa-brik-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche semidesnatada más ligera que una semi 1% materia grasa sin lactosa botella 1 l - Puleva",
+          "marca": "puleva",
+          "precio": 1.32,
+          "unidad": "L",
+          "precio_unidad": 1.32,
+          "url": "https://www.hipercor.es/supermercado/B001020616400063-puleva-leche-semidesnatada-mas-ligera-que-una-semi-1-materia-grasa-sin-lactosa-botella-1-l/"
         },
         {
           "supermercado": "Alimerka",
@@ -1605,15 +1605,6 @@
           "url": "https://www.alimerkaonline.es/22172.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada sin lactosa y baja grasa brik 1 l - Asturiana Suprema",
-          "marca": "asturiana suprema",
-          "precio": 1.57,
-          "unidad": "L",
-          "precio_unidad": 1.57,
-          "url": "https://www.hipercor.es/supermercado/B001020616400550-asturiana-suprema-leche-semidesnatada-sin-lactosa-y-baja-grasa-brik-1-l/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "LECHE DINAMIC PROTEIN SIN LACTOSA 1 L.",
           "marca": "PASCUAL",
@@ -1621,6 +1612,15 @@
           "unidad": "L",
           "precio_unidad": 1.59,
           "url": "https://www.alimerkaonline.es/10032659.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche semidesnatada sin lactosa y baja grasa brik 1 l - Asturiana Suprema",
+          "marca": "asturiana suprema",
+          "precio": 1.6,
+          "unidad": "L",
+          "precio_unidad": 1.6,
+          "url": "https://www.hipercor.es/supermercado/B001020616400550-asturiana-suprema-leche-semidesnatada-sin-lactosa-y-baja-grasa-brik-1-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -1937,9 +1937,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "bebida de avena Barista 100% Cultivo local sin gluten brik 1 l - Vivesoy",
           "marca": "vivesoy",
-          "precio": 2.37,
+          "precio": 2.46,
           "unidad": "L",
-          "precio_unidad": 2.37,
+          "precio_unidad": 2.46,
           "url": "https://www.hipercor.es/supermercado/B001020616900880-vivesoy-bebida-de-avena-barista-100-cultivo-local-sin-gluten-brik-1-l/"
         },
         {
@@ -2122,9 +2122,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "bebida de soja sin azúcar 100% vegetal rica en proteínas brik 1 l - Alpro",
           "marca": "alpro",
-          "precio": 2.16,
+          "precio": 2.12,
           "unidad": "L",
-          "precio_unidad": 2.16,
+          "precio_unidad": 2.12,
           "url": "https://www.hipercor.es/supermercado/B001020616900617-alpro-bebida-de-soja-sin-azucar-100-vegetal-rica-en-proteinas-brik-1-l/"
         },
         {
@@ -6686,15 +6686,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva virgen extra spray 200 ml - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 2.69,
-          "unidad": "L",
-          "precio_unidad": 13.45,
-          "url": "https://www.hipercor.es/supermercado/B001018045400613-el-corte-ingles-aceite-de-oliva-virgen-extra-spray-200-ml/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 200 ML.",
           "marca": "CARBONELL",
@@ -6711,24 +6702,6 @@
           "unidad": "L",
           "precio_unidad": 7.28,
           "url": "https://www.alimerkaonline.es/10028914.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva suave 0,4º contiene aceites refinados, vírgenes y 20% de virgen extra botella 1 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 3.7,
-          "unidad": "L",
-          "precio_unidad": 3.7,
-          "url": "https://www.hipercor.es/supermercado/B001018044700120-el-corte-ingles-aceite-de-oliva-suave-04-contiene-aceites-refinados-virgenes-y-20-de-virgen-extra-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva intenso 1º contiene aceites refinados, vírgenes y 50% de virgen extra botella 1 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 3.9,
-          "unidad": "L",
-          "precio_unidad": 3.9,
-          "url": "https://www.hipercor.es/supermercado/B001018044900092-el-corte-ingles-aceite-de-oliva-intenso-1-contiene-aceites-refinados-virgenes-y-50-de-virgen-extra-botella-1-l/"
         },
         {
           "supermercado": "Alimerka",
@@ -6758,15 +6731,6 @@
           "url": "https://www.alimerkaonline.es/10019088.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva virgen extra botella 1 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 4.45,
-          "unidad": "L",
-          "precio_unidad": 4.45,
-          "url": "https://www.hipercor.es/supermercado/B001018045800101-el-corte-ingles-aceite-de-oliva-virgen-extra-botella-1-l/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Aceite de oliva virgen extra Hacendado",
           "marca": "",
@@ -6792,15 +6756,6 @@
           "unidad": "L",
           "precio_unidad": 9.7,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva virgen extra Hojiblanca botella 1 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 4.89,
-          "unidad": "L",
-          "precio_unidad": 4.89,
-          "url": "https://www.hipercor.es/supermercado/B001018045800119-el-corte-ingles-aceite-de-oliva-virgen-extra-hojiblanca-botella-1-l/"
         },
         {
           "supermercado": "Alimerka",
@@ -6875,51 +6830,6 @@
           "url": "https://www.alimerkaonline.es/12014.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva virgen extra botella 1 l - Carbonell",
-          "marca": "carbonell",
-          "precio": 7.06,
-          "unidad": "L",
-          "precio_unidad": 7.06,
-          "url": "https://www.hipercor.es/supermercado/B001018045800051-carbonell-aceite-de-oliva-virgen-extra-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva virgen extra Hojiblanca botella 1 l - Coosur",
-          "marca": "coosur",
-          "precio": 7.79,
-          "unidad": "L",
-          "precio_unidad": 7.79,
-          "url": "https://www.hipercor.es/supermercado/B001018045800044-coosur-aceite-de-oliva-virgen-extra-hojiblanca-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva virgen extra Picual intenso botella 1 l - Coosur",
-          "marca": "coosur",
-          "precio": 7.89,
-          "unidad": "L",
-          "precio_unidad": 7.89,
-          "url": "https://www.hipercor.es/supermercado/B001018045800036-coosur-aceite-de-oliva-virgen-extra-picual-intenso-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva virgen extra Hojiblanca Picual botella 1 l - Carbonell",
-          "marca": "carbonell",
-          "precio": 7.95,
-          "unidad": "L",
-          "precio_unidad": 7.95,
-          "url": "https://www.hipercor.es/supermercado/B001018045800242-carbonell-aceite-de-oliva-virgen-extra-hojiblanca-picual-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva virgen extra Arbequina Picual botella 1 l - Carbonell",
-          "marca": "carbonell",
-          "precio": 7.95,
-          "unidad": "L",
-          "precio_unidad": 7.95,
-          "url": "https://www.hipercor.es/supermercado/B001018045800234-carbonell-aceite-de-oliva-virgen-extra-arbequina-picual-botella-1-l/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA PICUAL 50 CL.",
           "marca": "PALACIO DE LOS OLIVOS",
@@ -6927,15 +6837,6 @@
           "unidad": "L",
           "precio_unidad": 15.9,
           "url": "https://www.alimerkaonline.es/10027281.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva virgen extra Origen Selección Especial Cooperativa botella 1 l - Coosur",
-          "marca": "coosur",
-          "precio": 8.1,
-          "unidad": "L",
-          "precio_unidad": 8.1,
-          "url": "https://www.hipercor.es/supermercado/B001018045800077-coosur-aceite-de-oliva-virgen-extra-origen-seleccion-especial-cooperativa-botella-1-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -6954,42 +6855,6 @@
           "unidad": "L",
           "precio_unidad": 5.17,
           "url": "https://www.alimerkaonline.es/10024672.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva suave 0,4º contiene aceites refinados, vírgenes y 20% de virgen extra garrafa 5 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 17.25,
-          "unidad": "L",
-          "precio_unidad": 3.45,
-          "url": "https://www.hipercor.es/supermercado/B001018044800128-el-corte-ingles-aceite-de-oliva-suave-04-contiene-aceites-refinados-virgenes-y-20-de-virgen-extra-garrafa-5-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva virgen extra garrafa 5 l - Coosur",
-          "marca": "coosur",
-          "precio": 19.95,
-          "unidad": "L",
-          "precio_unidad": 3.99,
-          "url": "https://www.hipercor.es/supermercado/B001018045902014-coosur-aceite-de-oliva-virgen-extra-garrafa-5-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva virgen extra garrafa 5 l - Carbonell",
-          "marca": "carbonell",
-          "precio": 20.95,
-          "unidad": "L",
-          "precio_unidad": 4.19,
-          "url": "https://www.hipercor.es/supermercado/B001018045902006-carbonell-aceite-de-oliva-virgen-extra-garrafa-5-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva virgen extra Hojiblanca garrafa 5 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 23.99,
-          "unidad": "L",
-          "precio_unidad": 4.8,
-          "url": "https://www.hipercor.es/supermercado/B001018045901784-el-corte-ingles-aceite-de-oliva-virgen-extra-hojiblanca-garrafa-5-l/"
         },
         {
           "supermercado": "Alimerka",
@@ -8338,12 +8203,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "TE CON LIMÓN SIN AZÚCAR 1,5 LITROS",
+          "nombre_real": "TÉ VERDE MARACUYÁ 1,5 LITROS",
           "marca": "FUZE TEA",
           "precio": 1.99,
           "unidad": "L",
           "precio_unidad": 1.33,
-          "url": "https://www.alimerkaonline.es/10026644.html"
+          "url": "https://www.alimerkaonline.es/10028510.html"
         },
         {
           "supermercado": "Alimerka",
@@ -8873,42 +8738,6 @@
           "url": "https://www.alimerkaonline.es/10015187.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "sardinas en aceite de oliva 3-5 piezas lata 87 g neto escurrido - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 1.99,
-          "unidad": "kg",
-          "precio_unidad": 22.87,
-          "url": "https://www.hipercor.es/supermercado/B001018016500359-el-corte-ingles-selection-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "sardinas con tomate 3-6 piezas lata 87 g neto escurrido - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 1.99,
-          "unidad": "kg",
-          "precio_unidad": 22.87,
-          "url": "https://www.hipercor.es/supermercado/B001018016500375-el-corte-ingles-selection-sardinas-con-tomate-3-6-piezas-lata-87-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "sardinas en escabeche 3-6 piezas lata 87 g neto escurrido - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 1.99,
-          "unidad": "kg",
-          "precio_unidad": 22.87,
-          "url": "https://www.hipercor.es/supermercado/B001018016500367-el-corte-ingles-selection-sardinas-en-escabeche-3-6-piezas-lata-87-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "TE CON LIMÓN SIN AZÚCAR 1,5 LITROS",
-          "marca": "FUZE TEA",
-          "precio": 1.99,
-          "unidad": "L",
-          "precio_unidad": 1.33,
-          "url": "https://www.alimerkaonline.es/10026644.html"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "SARDINAS EN ACEITE DE OLIVA 81 G.",
           "marca": "ISABEL",
@@ -8916,15 +8745,6 @@
           "unidad": "kg",
           "precio_unidad": 24.57,
           "url": "https://www.alimerkaonline.es/10017808.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "sardinas en aceite de oliva lata 84 g neto escurrido - Calvo",
-          "marca": "calvo",
-          "precio": 2.12,
-          "unidad": "kg",
-          "precio_unidad": 25.24,
-          "url": "https://www.hipercor.es/supermercado/B001018016500458-calvo-sardinas-en-aceite-de-oliva-lata-84-g-neto-escurrido/"
         },
         {
           "supermercado": "Mercadona",
@@ -8945,15 +8765,6 @@
           "url": "https://www.alimerkaonline.es/10031741.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "sardinas en aceite de oliva bajas en sal lata 81 g neto escurrido - Calvo",
-          "marca": "calvo",
-          "precio": 2.22,
-          "unidad": "kg",
-          "precio_unidad": 26.43,
-          "url": "https://www.hipercor.es/supermercado/B001018016500201-calvo-sardinas-en-aceite-de-oliva-bajas-en-sal-lata-81-g-neto-escurrido/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "SARDINILLAS EN ACEITE DE OLIVA 57 G.",
           "marca": "ISABEL",
@@ -8961,15 +8772,6 @@
           "unidad": "kg",
           "precio_unidad": 41.93,
           "url": "https://www.alimerkaonline.es/10018309.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "sardinas en aceite de oliva virgen extra lata 85 g neto escurrido - Albo",
-          "marca": "albo",
-          "precio": 2.65,
-          "unidad": "kg",
-          "precio_unidad": 31.18,
-          "url": "https://www.hipercor.es/supermercado/B001018016500144-albo-sardinas-en-aceite-de-oliva-virgen-extra-lata-85-g-neto-escurrido/"
         },
         {
           "supermercado": "Alimerka",
@@ -8990,24 +8792,6 @@
           "url": "https://www.alimerkaonline.es/10022759.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "sardinas en aceite de oliva lata 85 g neto escurrido - Albo",
-          "marca": "albo",
-          "precio": 2.95,
-          "unidad": "kg",
-          "precio_unidad": 34.71,
-          "url": "https://www.hipercor.es/supermercado/B001018016500102-albo-sardinas-en-aceite-de-oliva-lata-85-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "sardinas en salsa picantona lata 85 g neto escurrido - Albo",
-          "marca": "albo",
-          "precio": 2.95,
-          "unidad": "kg",
-          "precio_unidad": 34.71,
-          "url": "https://www.hipercor.es/supermercado/B001018016500128-albo-sardinas-en-salsa-picantona-lata-85-g-neto-escurrido/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "SARDINILLAS EN ACEITE DE OLIVA",
           "marca": "ALBO",
@@ -9015,51 +8799,6 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10006738.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "sardinas picantes en aceite lata 85 g neto escurrido - Cuca",
-          "marca": "cuca",
-          "precio": 3.06,
-          "unidad": "kg",
-          "precio_unidad": 36.0,
-          "url": "https://www.hipercor.es/supermercado/B001018016500029-cuca-sardinas-picantes-en-aceite-lata-85-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "sardinas en aceite de oliva lata 85 g neto escurrido - Cuca",
-          "marca": "cuca",
-          "precio": 3.12,
-          "unidad": "kg",
-          "precio_unidad": 36.71,
-          "url": "https://www.hipercor.es/supermercado/B001018016500011-cuca-sardinas-en-aceite-de-oliva-lata-85-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "sardinas en escabeche lata 85 g neto escurrido - Cuca",
-          "marca": "cuca",
-          "precio": 3.12,
-          "unidad": "kg",
-          "precio_unidad": 36.71,
-          "url": "https://www.hipercor.es/supermercado/B001018016500037-cuca-sardinas-en-escabeche-lata-85-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "sardinas al limón lata 85 g neto escurrido - Cuca",
-          "marca": "cuca",
-          "precio": 3.21,
-          "unidad": "kg",
-          "precio_unidad": 37.76,
-          "url": "https://www.hipercor.es/supermercado/B001018016500227-cuca-sardinas-al-limon-lata-85-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "sardinas en aceite de oliva 3-5 piezas lata 87 g neto escurrido - Paco Lafuente",
-          "marca": "paco lafuente",
-          "precio": 3.38,
-          "unidad": "kg",
-          "precio_unidad": 38.85,
-          "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
         }
       ]
     },
@@ -9451,15 +9190,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "jamón cocido extra - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 7.9,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001018320100599-el-corte-ingles-selection-jamon-cocido-extra/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "jamón cocido extra - Campofrio",
           "marca": "campofrio",
           "precio": 10.99,
@@ -9475,6 +9205,15 @@
           "unidad": "kg",
           "precio_unidad": 12.95,
           "url": "https://www.alimerkaonline.es/370007.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "jamón cocido extra - El Corte Ingles Selection",
+          "marca": "el corte ingles selection",
+          "precio": 12.99,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.hipercor.es/supermercado/B001018320100599-el-corte-ingles-selection-jamon-cocido-extra/"
         },
         {
           "supermercado": "Alimerka",
@@ -10965,15 +10704,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "pimientos del piquillo rellenos de bacalao y gambas 4 unidades bolsa 185 g - Don Molinico",
-          "marca": "don molinico",
-          "precio": 2.65,
-          "unidad": "kg",
-          "precio_unidad": 14.32,
-          "url": "https://www.hipercor.es/supermercado/B001018931302477-don-molinico-pimientos-del-piquillo-rellenos-de-bacalao-y-gambas-4-unidades-bolsa-185-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Tinta de sepia Nortindal congelada",
           "marca": "",
@@ -11001,15 +10731,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "muslitos de mar sin gluten y sin lactosa estuche 288 g - Pescanova",
-          "marca": "pescanova",
-          "precio": 3.05,
-          "unidad": "kg",
-          "precio_unidad": 10.59,
-          "url": "https://www.hipercor.es/supermercado/B001018940700240-pescanova-muslitos-de-mar-sin-gluten-y-sin-lactosa-estuche-288-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Calamar en tinta Hacendado",
           "marca": "",
@@ -11017,15 +10738,6 @@
           "unidad": "kg",
           "precio_unidad": 12.92,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "varitas de merluza empanada 8 unidades caja 250 g - Findus",
-          "marca": "findus",
-          "precio": 3.19,
-          "unidad": "kg",
-          "precio_unidad": 12.76,
-          "url": "https://www.hipercor.es/supermercado/B001018949301115-findus-varitas-de-merluza-empanada-8-unidades-caja-250-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -11046,15 +10758,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "colas de langostino rebozadas bolsa 280 g neto escurrido - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 3.29,
-          "unidad": "kg",
-          "precio_unidad": 11.75,
-          "url": "https://www.hipercor.es/supermercado/B001018946900588-el-corte-ingles-colas-de-langostino-rebozadas-bolsa-280-g-neto-escurrido/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Aritos de surimi a la romana Hacendado ultracongelados",
           "marca": "",
@@ -11071,15 +10774,6 @@
           "unidad": "kg",
           "precio_unidad": 16.5,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "tortillitas de camarón bolsa 400 g - Terranova",
-          "marca": "terranova",
-          "precio": 3.65,
-          "unidad": "kg",
-          "precio_unidad": 9.13,
-          "url": "https://www.hipercor.es/supermercado/B001018949300687-terranova-tortillitas-de-camaron-bolsa-400-g/"
         },
         {
           "supermercado": "Alimerka",
@@ -11172,15 +10866,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "Boquerón en tempura bolsa 350 g - Delfin",
-          "marca": "delfin",
-          "precio": 4.09,
-          "unidad": "kg",
-          "precio_unidad": 11.69,
-          "url": "https://www.hipercor.es/supermercado/B001018949301081-delfin-boqueron-en-tempura-bolsa-350-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Rabas empanadas Hacendado ultracongeladas",
           "marca": "",
@@ -11188,24 +10873,6 @@
           "unidad": "kg",
           "precio_unidad": 8.3,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "Peskitos merluza empanada 10 unidades estuche 400 g - Pescanova",
-          "marca": "pescanova",
-          "precio": 4.29,
-          "unidad": "kg",
-          "precio_unidad": 10.73,
-          "url": "https://www.hipercor.es/supermercado/B001018949300265-pescanova-peskitos-merluza-empanada-10-unidades-estuche-400-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "filete de pescado con limón y toque de pimienta 2 unidades estuche 225 g - Findus",
-          "marca": "findus",
-          "precio": 4.35,
-          "unidad": "kg",
-          "precio_unidad": 19.33,
-          "url": "https://www.hipercor.es/supermercado/B001018949300976-findus-filete-de-pescado-con-limon-y-toque-de-pimienta-2-unidades-estuche-225-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -11244,15 +10911,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "filete de lenguado estuche 180 g neto escurrido - Delfin",
-          "marca": "delfin",
-          "precio": 4.65,
-          "unidad": "kg",
-          "precio_unidad": 25.83,
-          "url": "https://www.hipercor.es/supermercado/B001018910501669-delfin-filete-de-lenguado-estuche-180-g-neto-escurrido/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Filetes de panga Hacendado ultracongelados",
           "marca": "",
@@ -11278,15 +10936,6 @@
           "unidad": "kg",
           "precio_unidad": 23.75,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "filetes de merluza empanados 4 unidades estuche 340 g - Pescanova",
-          "marca": "pescanova",
-          "precio": 4.85,
-          "unidad": "kg",
-          "precio_unidad": 14.26,
-          "url": "https://www.hipercor.es/supermercado/B001018949300638-pescanova-filetes-de-merluza-empanados-4-unidades-estuche-340-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -11352,24 +11001,6 @@
           "url": "https://www.alimerkaonline.es/10030271.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "preparado de marisco para paella y sopa bolsa 600 g - Delfin",
-          "marca": "delfin",
-          "precio": 4.99,
-          "unidad": "kg",
-          "precio_unidad": 8.32,
-          "url": "https://www.hipercor.es/supermercado/B001018947400273-delfin-preparado-de-marisco-para-paella-y-sopa-bolsa-600-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "filetes de salmonete sin piel bandeja 200 g - Delfin",
-          "marca": "delfin",
-          "precio": 4.99,
-          "unidad": "kg",
-          "precio_unidad": 24.95,
-          "url": "https://www.hipercor.es/supermercado/B001018910502295-delfin-filetes-de-salmonete-sin-piel-bandeja-200-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Langostino cocido y pelado Hacendado ultracongelado",
           "marca": "",
@@ -11377,15 +11008,6 @@
           "unidad": "kg",
           "precio_unidad": 22.73,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "merluza con rebozado Crun Chyx sin gluten ideal para air fryer bolsa 400 g - Pescanova",
-          "marca": "pescanova",
-          "precio": 5.09,
-          "unidad": "kg",
-          "precio_unidad": 12.73,
-          "url": "https://www.hipercor.es/supermercado/B001018949301123-pescanova-merluza-con-rebozado-crun-chyx-sin-gluten-ideal-para-air-fryer-bolsa-400-g/"
         },
         {
           "supermercado": "Alimerka",
@@ -11451,15 +11073,6 @@
           "url": "https://www.alimerkaonline.es/10012781.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "empanadillas de gambas bolsa 400 g - Vici Gyoza",
-          "marca": "vici gyoza",
-          "precio": 5.75,
-          "unidad": "kg",
-          "precio_unidad": 14.38,
-          "url": "https://www.hipercor.es/supermercado/B001018925200695-vici-gyoza-empanadillas-de-gambas-bolsa-400-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Anillas de pota Argentina Hacendado congeladas",
           "marca": "",
@@ -11476,15 +11089,6 @@
           "unidad": "kg",
           "precio_unidad": 8.24,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "lomos a la romana de merluza rebozada 5 unidades estuche 325 g - Pescanova",
-          "marca": "pescanova",
-          "precio": 5.89,
-          "unidad": "kg",
-          "precio_unidad": 18.12,
-          "url": "https://www.hipercor.es/supermercado/B001018949300109-pescanova-lomos-a-la-romana-de-merluza-rebozada-5-unidades-estuche-325-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -11604,33 +11208,6 @@
           "url": "https://www.alimerkaonline.es/10018861.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "langostinos rebozados bolsa 300 g - Pescanova",
-          "marca": "pescanova",
-          "precio": 6.19,
-          "unidad": "kg",
-          "precio_unidad": 20.63,
-          "url": "https://www.hipercor.es/supermercado/B001018946900877-pescanova-langostinos-rebozados-bolsa-300-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "filetes de dorada envase 180 g - Killic",
-          "marca": "killic",
-          "precio": 6.29,
-          "unidad": "kg",
-          "precio_unidad": 34.94,
-          "url": "https://www.hipercor.es/supermercado/B001018910502170-killic-filetes-de-dorada-envase-180-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "filetes de lubina 2 unidades envase 180 g - Killic",
-          "marca": "killic",
-          "precio": 6.35,
-          "unidad": "kg",
-          "precio_unidad": 35.28,
-          "url": "https://www.hipercor.es/supermercado/B001018910502196-killic-filetes-de-lubina-2-unidades-envase-180-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Sepia faraónica limpia Hacendado congelada",
           "marca": "",
@@ -11647,15 +11224,6 @@
           "unidad": "kg",
           "precio_unidad": 13.68,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "boquerón enharinado bolsa 400 g - Delfin",
-          "marca": "delfin",
-          "precio": 7.15,
-          "unidad": "kg",
-          "precio_unidad": 17.88,
-          "url": "https://www.hipercor.es/supermercado/B001018949300844-delfin-boqueron-enharinado-bolsa-400-g/"
         },
         {
           "supermercado": "Alimerka",
@@ -11694,15 +11262,6 @@
           "url": "https://www.alimerkaonline.es/120043.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "boquerón limpio bolsa 500 g neto escurrido - Delfin",
-          "marca": "delfin",
-          "precio": 7.59,
-          "unidad": "kg",
-          "precio_unidad": 15.18,
-          "url": "https://www.hipercor.es/supermercado/B001018910501248-delfin-boqueron-limpio-bolsa-500-g-neto-escurrido/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Porciones de bacalao sin piel MareDeus ultracongeladas",
           "marca": "",
@@ -11710,15 +11269,6 @@
           "unidad": "kg",
           "precio_unidad": 19.25,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "filetes de merluza rebozado al huevo estuche 400 g - Pescanova",
-          "marca": "pescanova",
-          "precio": 7.75,
-          "unidad": "kg",
-          "precio_unidad": 19.38,
-          "url": "https://www.hipercor.es/supermercado/B001018949301073-pescanova-filetes-de-merluza-rebozado-al-huevo-estuche-400-g/"
         },
         {
           "supermercado": "Alimerka",
@@ -11766,15 +11316,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "rape en filetes estuche 250 g - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 9.45,
-          "unidad": "kg",
-          "precio_unidad": 37.8,
-          "url": "https://www.hipercor.es/supermercado/B001018910500331-el-corte-ingles-rape-en-filetes-estuche-250-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Carne de Vieira Hacendado ultracongelada",
           "marca": "",
@@ -11791,15 +11332,6 @@
           "unidad": "kg",
           "precio_unidad": 24.87,
           "url": "https://www.alimerkaonline.es/120034.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "rape en rodajas bandeja 250 g - Delfin",
-          "marca": "delfin",
-          "precio": 9.99,
-          "unidad": "kg",
-          "precio_unidad": 39.96,
-          "url": "https://www.hipercor.es/supermercado/B001018910502337-delfin-rape-en-rodajas-bandeja-250-g/"
         },
         {
           "supermercado": "Alimerka",
@@ -15890,9 +15422,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "Aguacate 2 unidades bandeja 420 g",
           "marca": "",
-          "precio": 4.99,
+          "precio": 3.95,
           "unidad": "kg",
-          "precio_unidad": 11.88,
+          "precio_unidad": 9.4,
           "url": "https://www.hipercor.es/supermercado/B001018156300016-aguacate-2-unidades-bandeja-420-g/"
         },
         {
@@ -18715,6 +18247,15 @@
           "url": "https://www.hipercor.es/supermercado/B001020604603561-lor-espresso-cafe-colombia-andes-estuche-20-capsulas-compatibles-con-maquinas-nespresso/"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "café Barista intensidad 13 estuche 20 cápsulas - L'or Espresso",
+          "marca": "l'or espresso",
+          "precio": 7.89,
+          "unidad": "kg",
+          "precio_unidad": 75.87,
+          "url": "https://www.hipercor.es/supermercado/B001020604604403-lor-espresso-cafe-barista-intensidad-13-estuche-20-capsulas/"
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "CAFÉ COLOMBIA 20 CAPSULAS",
           "marca": "L'OR",
@@ -18769,15 +18310,6 @@
           "url": "https://www.hipercor.es/supermercado/B001020604603017-nescafe-dolce-gusto-cafe-cortado-espresso-macchiatto-intensidad-8-estuche-30-capsulas/"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "café espresso descafeinado intenso de Colombia y Vietnam intensidad 7 estuche 30 cápsulas - Nescafe Dolce Gusto",
-          "marca": "nescafe dolce gusto",
-          "precio": 8.55,
-          "unidad": "kg",
-          "precio_unidad": 40.71,
-          "url": "https://www.hipercor.es/supermercado/B001020605100609-nescafe-dolce-gusto-cafe-espresso-descafeinado-intenso-de-colombia-y-vietnam-intensidad-7-estuche-30-capsulas/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "CAFÉ CON LECHE DOLCE GUSTO 30 CÁPSULAS",
           "marca": "NESCAFÉ",
@@ -18828,15 +18360,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión de manzanilla estuche 25 bolsitas - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 0.75,
-          "unidad": "kg",
-          "precio_unidad": 22.73,
-          "url": "https://www.hipercor.es/supermercado/B001020666601065-el-corte-ingles-infusion-de-manzanilla-estuche-25-bolsitas/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Infusión Menta Poleo Hacendado",
           "marca": "",
@@ -18844,15 +18367,6 @@
           "unidad": "kg",
           "precio_unidad": 25.0,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión digestiva con manzanilla, menta y anís verde estuche 20 bolsitas - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 0.79,
-          "unidad": "kg",
-          "precio_unidad": 26.33,
-          "url": "https://www.hipercor.es/supermercado/B001020666601701-el-corte-ingles-infusion-digestiva-con-manzanilla-menta-y-anis-verde-estuche-20-bolsitas/"
         },
         {
           "supermercado": "Mercadona",
@@ -18871,15 +18385,6 @@
           "unidad": "kg",
           "precio_unidad": 35.42,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión de menta poleo estuche 25 bolsitas - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 0.88,
-          "unidad": "kg",
-          "precio_unidad": 23.78,
-          "url": "https://www.hipercor.es/supermercado/B001020666600190-el-corte-ingles-infusion-de-menta-poleo-estuche-25-bolsitas/"
         },
         {
           "supermercado": "Mercadona",
@@ -18954,24 +18459,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión de tila estuche 25 bolsitas - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.06,
-          "unidad": "kg",
-          "precio_unidad": 35.33,
-          "url": "https://www.hipercor.es/supermercado/B001020666600182-el-corte-ingles-infusion-de-tila-estuche-25-bolsitas/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión de manzanilla con anís estuche 25 bolsitas - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.13,
-          "unidad": "kg",
-          "precio_unidad": 33.48,
-          "url": "https://www.hipercor.es/supermercado/B001020666601735-el-corte-ingles-infusion-de-manzanilla-con-anis-estuche-25-bolsitas/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Infusión Manzanilla sabor a miel Hacendado",
           "marca": "",
@@ -19006,15 +18493,6 @@
           "unidad": "kg",
           "precio_unidad": 39.71,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión de jengibre con limón estuche 20 bolsitas - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.39,
-          "unidad": "kg",
-          "precio_unidad": 39.71,
-          "url": "https://www.hipercor.es/supermercado/B001020666603061-el-corte-ingles-infusion-de-jengibre-con-limon-estuche-20-bolsitas/"
         },
         {
           "supermercado": "Mercadona",
@@ -19053,42 +18531,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión para tus sueños melisa y rooibos estuche 20 bolsitas - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.58,
-          "unidad": "kg",
-          "precio_unidad": 35.91,
-          "url": "https://www.hipercor.es/supermercado/B001020666601776-el-corte-ingles-infusion-para-tus-suenos-melisa-y-rooibos-estuche-20-bolsitas/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión de manzanilla estuche 25 bolsitas - Hornimans",
-          "marca": "hornimans",
-          "precio": 1.99,
-          "unidad": "Unidad",
-          "precio_unidad": 0.08,
-          "url": "https://www.hipercor.es/supermercado/B001020666601057-hornimans-infusion-de-manzanilla-estuche-25-bolsitas/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión de manzanilla con anís estuche 25 bolsitas - Hornimans",
-          "marca": "hornimans",
-          "precio": 1.99,
-          "unidad": "Unidad",
-          "precio_unidad": 0.08,
-          "url": "https://www.hipercor.es/supermercado/B001020666601024-hornimans-infusion-de-manzanilla-con-anis-estuche-25-bolsitas/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión de tila estuche 25 bolsitas - Hornimans",
-          "marca": "hornimans",
-          "precio": 1.99,
-          "unidad": "Unidad",
-          "precio_unidad": 0.08,
-          "url": "https://www.hipercor.es/supermercado/B001020666600109-hornimans-infusion-de-tila-estuche-25-bolsitas/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "INFUSIÓNES TÉ CLASSIC 25 UDS.",
           "marca": "HORNIMANS",
@@ -19116,33 +18558,6 @@
           "url": "https://www.alimerkaonline.es/758082.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión de poleo-menta estuche 20 bolsitas - Pompadour",
-          "marca": "pompadour",
-          "precio": 2.28,
-          "unidad": "Unidad",
-          "precio_unidad": 0.09,
-          "url": "https://www.hipercor.es/supermercado/B001020666600075-pompadour-infusion-de-poleo-menta-estuche-20-bolsitas/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión de poleo menta estuche 25 bolsitas - Hornimans",
-          "marca": "hornimans",
-          "precio": 2.34,
-          "unidad": "Unidad",
-          "precio_unidad": 0.09,
-          "url": "https://www.hipercor.es/supermercado/B001020666600091-hornimans-infusion-de-poleo-menta-estuche-25-bolsitas/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión de jengibre al 51% con limón estuche 20 bolsitas - Pompadour",
-          "marca": "pompadour",
-          "precio": 2.51,
-          "unidad": "kg",
-          "precio_unidad": 34.67,
-          "url": "https://www.hipercor.es/supermercado/B001020666601438-pompadour-infusion-de-jengibre-al-51-con-limon-estuche-20-bolsitas/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Infusión Yerba Mate Amanda",
           "marca": "",
@@ -19150,15 +18565,6 @@
           "unidad": "kg",
           "precio_unidad": 5.7,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión de jengibre con cúrcuma estuche 20 bolsitas - Pompadour",
-          "marca": "pompadour",
-          "precio": 2.89,
-          "unidad": "Unidad",
-          "precio_unidad": 0.14,
-          "url": "https://www.hipercor.es/supermercado/B001020666602378-pompadour-infusion-de-jengibre-con-curcuma-estuche-20-bolsitas/"
         },
         {
           "supermercado": "Alimerka",
@@ -19188,24 +18594,6 @@
           "url": "https://www.alimerkaonline.es/777032.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión de hinojo estuche 20 bolsitas - Pompadour",
-          "marca": "pompadour",
-          "precio": 3.09,
-          "unidad": "kg",
-          "precio_unidad": 154.5,
-          "url": "https://www.hipercor.es/supermercado/B001020666600521-pompadour-infusion-de-hinojo-estuche-20-bolsitas/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión con probióticos y manzanilla envase 15 bolsitas - Pompadour",
-          "marca": "pompadour",
-          "precio": 3.49,
-          "unidad": "kg",
-          "precio_unidad": 132.95,
-          "url": "https://www.hipercor.es/supermercado/B001020666602782-pompadour-infusion-con-probioticos-y-manzanilla-envase-15-bolsitas/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "INFUSIÓN CON MELATONINA 15 UDS.",
           "marca": "POMPADOUR",
@@ -19213,24 +18601,6 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10024386.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión de melatonina, pasiflora, melisa, lavanda y amapola de California estuche 15 bolsitas con aroma de caramelo y vainilla - Pompadour",
-          "marca": "pompadour",
-          "precio": 3.62,
-          "unidad": "Unidad",
-          "precio_unidad": 0.24,
-          "url": "https://www.hipercor.es/supermercado/B001020666602956-pompadour-infusion-de-melatonina-pasiflora-melisa-lavanda-y-amapola-de-california-estuche-15-bolsitas-con-aroma-de-caramelo-y-vainilla/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "infusión de frutos rojos del bosque sin teína lata 20 bolsitas pirámides - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 3.75,
-          "unidad": "kg",
-          "precio_unidad": 62.5,
-          "url": "https://www.hipercor.es/supermercado/B001020666602360-el-corte-ingles-selection-infusion-de-frutos-rojos-del-bosque-sin-teina-lata-20-bolsitas-piramides/"
         }
       ]
     },
@@ -20153,6 +19523,24 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "zumo de naranja 100% exprimido sin pulpa botella 1 l - Don Simon",
+          "marca": "don simon",
+          "precio": 3.3,
+          "unidad": "L",
+          "precio_unidad": 3.3,
+          "url": "https://www.hipercor.es/supermercado/B001018827001084-don-simon-zumo-de-naranja-100-exprimido-sin-pulpa-botella-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "zumo de naranja 100% exprimido con pulpa botella 1 l - Don Simon",
+          "marca": "don simon",
+          "precio": 3.3,
+          "unidad": "L",
+          "precio_unidad": 3.3,
+          "url": "https://www.hipercor.es/supermercado/B001018827001076-don-simon-zumo-de-naranja-100-exprimido-con-pulpa-botella-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "zumo 100%  exprimido de naranja, zanahoria y limón ecológico botella 750 ml - Ekolo Bio",
           "marca": "ekolo bio",
           "precio": 3.49,
@@ -20177,24 +19565,6 @@
           "unidad": "L",
           "precio_unidad": 3.5,
           "url": "https://www.alimerkaonline.es/10015036.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "zumo de naranja 100% exprimido sin pulpa botella 1 l - Don Simon",
-          "marca": "don simon",
-          "precio": 3.65,
-          "unidad": "L",
-          "precio_unidad": 3.65,
-          "url": "https://www.hipercor.es/supermercado/B001018827001084-don-simon-zumo-de-naranja-100-exprimido-sin-pulpa-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "zumo de naranja 100% exprimido con pulpa botella 1 l - Don Simon",
-          "marca": "don simon",
-          "precio": 3.65,
-          "unidad": "L",
-          "precio_unidad": 3.65,
-          "url": "https://www.hipercor.es/supermercado/B001018827001076-don-simon-zumo-de-naranja-100-exprimido-con-pulpa-botella-1-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -22756,15 +22126,6 @@
           "url": "https://www.alimerkaonline.es/855024.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas blancas 1 capa 30x30 cm paquete 200 unidades - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.2,
-          "unidad": "Unidad",
-          "precio_unidad": 0.01,
-          "url": "https://www.hipercor.es/supermercado/B001028022306964-el-corte-ingles-servilletas-blancas-1-capa-30x30-cm-paquete-200-unidades/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Servilleta papel Bosque Verde",
           "marca": "",
@@ -22783,15 +22144,6 @@
           "url": "https://www.alimerkaonline.es/10011253.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas blancas 3 capas 33x33 cm paquete 50 unidades - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.4,
-          "unidad": "Unidad",
-          "precio_unidad": 0.03,
-          "url": "https://www.hipercor.es/supermercado/B001028022306998-el-corte-ingles-servilletas-blancas-3-capas-33x33-cm-paquete-50-unidades/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "SERVILLETAS BLANCAS 33X33 100 UDS.",
           "marca": "ALIMERKA",
@@ -22799,15 +22151,6 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10016102.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas blancas 2 capas 30x30 cm paquete 100 unidades - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.65,
-          "unidad": "Unidad",
-          "precio_unidad": 0.02,
-          "url": "https://www.hipercor.es/supermercado/B001028022306972-el-corte-ingles-servilletas-blancas-2-capas-30x30-cm-paquete-100-unidades/"
         },
         {
           "supermercado": "Mercadona",
@@ -22828,15 +22171,6 @@
           "url": "https://www.alimerkaonline.es/10021125.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas decoradas 2 capas 33x33 cm paquete 100 unidades - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 2.05,
-          "unidad": "Unidad",
-          "precio_unidad": 0.02,
-          "url": "https://www.hipercor.es/supermercado/B001028022307020-el-corte-ingles-servilletas-decoradas-2-capas-33x33-cm-paquete-100-unidades/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Servilleta papel decorada Resistente Bosque Verde",
           "marca": "",
@@ -22844,15 +22178,6 @@
           "unidad": "",
           "precio_unidad": null,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas decorada 1 capa 33x33 cm paquete 128 unidades - Scottex",
-          "marca": "scottex",
-          "precio": 2.19,
-          "unidad": "Unidad",
-          "precio_unidad": 0.02,
-          "url": "https://www.hipercor.es/supermercado/B001028022300439-scottex-servilletas-decorada-1-capa-33x33-cm-paquete-128-unidades/"
         },
         {
           "supermercado": "Alimerka",
@@ -22871,114 +22196,6 @@
           "unidad": "",
           "precio_unidad": null,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas Trapuntati 2 capas 38x38 cm paquete 50 unidades - Foxy",
-          "marca": "foxy",
-          "precio": 2.49,
-          "unidad": "Unidad",
-          "precio_unidad": 0.05,
-          "url": "https://www.hipercor.es/supermercado/B001028022304480-foxy-servilletas-trapuntati-2-capas-38x38-cm-paquete-50-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas decoradas 33 x 33 cm envase 30 unidades - Smart",
-          "marca": "smart",
-          "precio": 2.75,
-          "unidad": "Unidad",
-          "precio_unidad": 2.75,
-          "url": "https://www.hipercor.es/supermercado/B001028022309778-smart-servilletas-decoradas-33-x-33-cm-envase-30-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas decoradas 33 x 33 cm envase 30 unidades - Smart",
-          "marca": "smart",
-          "precio": 2.75,
-          "unidad": "Unidad",
-          "precio_unidad": 2.75,
-          "url": "https://www.hipercor.es/supermercado/B001028022309752-smart-servilletas-decoradas-33-x-33-cm-envase-30-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas de papel compostables 3 capas  verdes 33x33 cm paquete 30 unidades - Gabbiano",
-          "marca": "gabbiano",
-          "precio": 2.95,
-          "unidad": "Unidad",
-          "precio_unidad": 0.1,
-          "url": "https://www.hipercor.es/supermercado/B001028022308135-gabbiano-servilletas-de-papel-compostables-3-capas-verdes-33x33-cm-paquete-30-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas de papel compostables 3 capas  naranjas 33x33 cm paquete 30 unidades - Gabbiano",
-          "marca": "gabbiano",
-          "precio": 2.95,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001028022308143-gabbiano-servilletas-de-papel-compostables-3-capas-naranjas-33x33-cm-paquete-30-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilleta de papel 3 capas azul 33 x 33  cm paquete 30 unidades - Gabbiano",
-          "marca": "gabbiano",
-          "precio": 2.95,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001028022308168-gabbiano-servilleta-de-papel-3-capas-azul-33-x-33-cm-paquete-30-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas de papel compostables 3 capas  rosas 33x33 cm paquete 30 unidades - Gabbiano",
-          "marca": "gabbiano",
-          "precio": 2.95,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001028022308150-gabbiano-servilletas-de-papel-compostables-3-capas-rosas-33x33-cm-paquete-30-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas decoradas Frozen 2 capas 33x33 paquete 20 unidades - Procos",
-          "marca": "procos",
-          "precio": 2.95,
-          "unidad": "Unidad",
-          "precio_unidad": 0.15,
-          "url": "https://www.hipercor.es/supermercado/B001028022309430-procos-servilletas-decoradas-frozen-2-capas-33x33-paquete-20-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas decorativas Spiderman 2 capas 33x22 paquete 20 unidades - Procos",
-          "marca": "procos",
-          "precio": 2.95,
-          "unidad": "Unidad",
-          "precio_unidad": 0.15,
-          "url": "https://www.hipercor.es/supermercado/B001028022309448-procos-servilletas-decorativas-spiderman-2-capas-33x22-paquete-20-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas de papel Gran Tavola colores surtidos 2 capas 33x33 cm paquete 100 unidades - Foxy",
-          "marca": "foxy",
-          "precio": 3.15,
-          "unidad": "Unidad",
-          "precio_unidad": 0.03,
-          "url": "https://www.hipercor.es/supermercado/B001028022307467-foxy-servilletas-de-papel-gran-tavola-colores-surtidos-2-capas-33x33-cm-paquete-100-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas blancas 2 capas 30x30 cm paquete 200 unidades - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 3.2,
-          "unidad": "Unidad",
-          "precio_unidad": 0.02,
-          "url": "https://www.hipercor.es/supermercado/B001028022306980-el-corte-ingles-servilletas-blancas-2-capas-30x30-cm-paquete-200-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas blancas 2 capas 40x40 cm paquete 75 unidades - Renova",
-          "marca": "renova",
-          "precio": 3.99,
-          "unidad": "Unidad",
-          "precio_unidad": 0.05,
-          "url": "https://www.hipercor.es/supermercado/B001028022305420-renova-servilletas-blancas-2-capas-40x40-cm-paquete-75-unidades/"
         }
       ]
     },
@@ -25841,9 +25058,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "champú anticaspa Citrus Fresh frasco 330 ml para cabello graso - H&s",
           "marca": "h&s",
-          "precio": 4.19,
+          "precio": 4.05,
           "unidad": "100 ml.",
-          "precio_unidad": 1.27,
+          "precio_unidad": 1.23,
           "url": "https://www.hipercor.es/supermercado/B001055740302223-h-and-s-champu-anticaspa-citrus-fresh-frasco-330-ml-para-cabello-graso/"
         },
         {
@@ -26865,15 +26082,6 @@
           "url": "https://www.hipercor.es/supermercado/B001055755101734-sanex-men-desodorante-roll-on-active-control-6-en-1-72h-antitranspirante-envase-50-ml/"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "desodorante roll-on Skin Active Protection Black & White Invisible anti-manchas 48h envase 50 ml - Nivea",
-          "marca": "nivea",
-          "precio": 2.5,
-          "unidad": "100 ml.",
-          "precio_unidad": 5.0,
-          "url": "https://www.hipercor.es/supermercado/B001055755100959-nivea-desodorante-roll-on-skin-active-protection-black-and-white-invisible-anti-manchas-48h-envase-50-ml/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Desodorante roll-on Invisible Black & White Nivea Men antitranspirante",
           "marca": "",
@@ -27160,6 +26368,15 @@
           "unidad": "L",
           "precio_unidad": 16.5,
           "url": "https://www.alimerkaonline.es/10029633.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "desodorante original spray 250 ml - Heno De Pravia",
+          "marca": "heno de pravia",
+          "precio": 3.45,
+          "unidad": "100 ml.",
+          "precio_unidad": 1.73,
+          "url": "https://www.hipercor.es/supermercado/B001055754800575-heno-de-pravia-desodorante-original-spray-250-ml/"
         },
         {
           "supermercado": "Hipercor",
@@ -27777,15 +26994,6 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10027471.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "pañales hipoalergénicos Extra Care Disney con cuidado de la piel 4 en 1 talla 3 (6-10 kg) bolsa 96 unidades - Huggies",
-          "marca": "huggies",
-          "precio": 26.24,
-          "unidad": "Unidad",
-          "precio_unidad": 0.27,
-          "url": "https://www.hipercor.es/supermercado/B001028022506472-huggies-panales-hipoalergenicos-extra-care-disney-con-cuidado-de-la-piel-4-en-1-talla-3-6-10-kg-bolsa-96-unidades/"
         },
         {
           "supermercado": "Hipercor",
