@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-13T13:38:28+00:00",
+  "generado_en": "2026-10-13T22:21:04+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -2341,6 +2341,24 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "yogur natural pack 8 unidades 125 g - Asturiana",
+          "marca": "asturiana",
+          "precio": 2.15,
+          "unidad": "kg",
+          "precio_unidad": 2.15,
+          "url": "https://www.hipercor.es/supermercado/B001018820100032-asturiana-yogur-natural-pack-8-unidades-125-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur natural azucarado con azúcar de caña pack 8 unidades 125 g - Asturiana",
+          "marca": "asturiana",
+          "precio": 2.15,
+          "unidad": "kg",
+          "precio_unidad": 17.2,
+          "url": "https://www.hipercor.es/supermercado/B001018820102053-asturiana-yogur-natural-azucarado-con-azucar-de-cana-pack-8-unidades-125-g/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "yogur natural elaborado con leche de vaca de pastoreo envase 500 g - El Corte Ingles Selection",
           "marca": "el corte ingles selection",
           "precio": 2.15,
@@ -2359,15 +2377,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "yogur natural pack 8 unidades 125 g - Asturiana",
-          "marca": "asturiana",
-          "precio": 2.45,
-          "unidad": "kg",
-          "precio_unidad": 2.45,
-          "url": "https://www.hipercor.es/supermercado/B001018820100032-asturiana-yogur-natural-pack-8-unidades-125-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "yogur natural artesano cremoso con leche de vacas de pasto envase 500 g - Pastoret",
           "marca": "pastoret",
           "precio": 2.45,
@@ -2377,20 +2386,11 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "yogur natural azucarado con azúcar de caña pack 8 unidades 125 g - Asturiana",
-          "marca": "asturiana",
-          "precio": 2.45,
-          "unidad": "kg",
-          "precio_unidad": 19.6,
-          "url": "https://www.hipercor.es/supermercado/B001018820102053-asturiana-yogur-natural-azucarado-con-azucar-de-cana-pack-8-unidades-125-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "yogur natural edulcorado cremoso desnatado 0% m.g. 0% azúcares añadidos pack 4 unidades 120 g - Danone Vitalinea",
           "marca": "danone vitalinea",
-          "precio": 2.69,
+          "precio": 2.79,
           "unidad": "kg",
-          "precio_unidad": 5.6,
+          "precio_unidad": 5.81,
           "url": "https://www.hipercor.es/supermercado/B001018820402495-danone-vitalinea-yogur-natural-edulcorado-cremoso-desnatado-0-mg-0-azucares-anadidos-pack-4-unidades-120-g/"
         },
         {
@@ -2429,9 +2429,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "yogur griego natural azucarado artesano con leche de vacas de pasto envase 125 g - Pastoret",
           "marca": "pastoret",
-          "precio": 0.95,
+          "precio": 1.0,
           "unidad": "kg",
-          "precio_unidad": 7.6,
+          "precio_unidad": 8.0,
           "url": "https://www.hipercor.es/supermercado/B001018823000239-pastoret-yogur-griego-natural-azucarado-artesano-con-leche-de-vacas-de-pasto-envase-125-g/"
         },
         {
@@ -2735,9 +2735,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "yogur griego de cabra natural ecológico tarro 420 g - El Cantero De Letur",
           "marca": "el cantero de letur",
-          "precio": 4.09,
+          "precio": 4.05,
           "unidad": "kg",
-          "precio_unidad": 9.74,
+          "precio_unidad": 9.64,
           "url": "https://www.hipercor.es/supermercado/B001018822400281-el-cantero-de-letur-yogur-griego-de-cabra-natural-ecologico-tarro-420-g/"
         },
         {
@@ -5877,9 +5877,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "espaguetis pasta fina 3 minutos paquete 400 g - Gallo",
           "marca": "gallo",
-          "precio": 1.55,
+          "precio": 1.49,
           "unidad": "kg",
-          "precio_unidad": 3.88,
+          "precio_unidad": 3.73,
           "url": "https://www.hipercor.es/supermercado/B001018003502194-gallo-espaguetis-pasta-fina-3-minutos-paquete-400-g/"
         },
         {
@@ -6044,9 +6044,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "macarrones plumas pasta fina 3 minutos paquete 400 g - Gallo",
           "marca": "gallo",
-          "precio": 1.55,
+          "precio": 1.49,
           "unidad": "kg",
-          "precio_unidad": 3.88,
+          "precio_unidad": 3.73,
           "url": "https://www.hipercor.es/supermercado/B001018003502327-gallo-macarrones-plumas-pasta-fina-3-minutos-paquete-400-g/"
         },
         {
@@ -6098,9 +6098,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "Macarrones integrales Penne Rigate caja 500 g - Barilla",
           "marca": "barilla",
-          "precio": 2.09,
+          "precio": 2.15,
           "unidad": "kg",
-          "precio_unidad": 4.18,
+          "precio_unidad": 4.3,
           "url": "https://www.hipercor.es/supermercado/B001018003501808-barilla-macarrones-integrales-penne-rigate-caja-500-g/"
         },
         {
@@ -6152,9 +6152,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "Macarrones Penne Rigate N.73 caja 1 kg - Barilla",
           "marca": "barilla",
-          "precio": 3.29,
+          "precio": 3.4,
           "unidad": "kg",
-          "precio_unidad": 3.29,
+          "precio_unidad": 3.4,
           "url": "https://www.hipercor.es/supermercado/B001018003502293-barilla-macarrones-penne-rigate-n73-caja-1-kg/"
         },
         {
@@ -8015,9 +8015,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "garbanzo cocido extra frasco 570 g - El Corte Ingles",
           "marca": "el corte ingles",
-          "precio": 0.85,
+          "precio": 0.82,
           "unidad": "kg",
-          "precio_unidad": 2.13,
+          "precio_unidad": 2.05,
           "url": "https://www.hipercor.es/supermercado/B001018007000799-el-corte-ingles-garbanzo-cocido-extra-frasco-570-g/"
         },
         {
@@ -8171,21 +8171,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "lentejas cocidas extra frasco 400 g neto escurrido - Ja'e",
-          "marca": "ja'e",
-          "precio": 2.09,
+          "nombre_real": "lentejas pardina cocidas sin lactosa frasco 400 g neto escurrido - Gvtarra",
+          "marca": "gvtarra",
+          "precio": 1.99,
           "unidad": "kg",
-          "precio_unidad": 5.23,
-          "url": "https://www.hipercor.es/supermercado/B001018007400155-jae-lentejas-cocidas-extra-frasco-400-g-neto-escurrido/"
+          "precio_unidad": 3.55,
+          "url": "https://www.hipercor.es/supermercado/B001018007400460-gvtarra-lentejas-pardina-cocidas-sin-lactosa-frasco-400-g-neto-escurrido/"
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "lentejas pardina cocidas sin lactosa frasco 400 g neto escurrido - Gvtarra",
-          "marca": "gvtarra",
-          "precio": 2.25,
+          "nombre_real": "lentejas cocidas extra frasco 400 g neto escurrido - Ja'e",
+          "marca": "ja'e",
+          "precio": 2.15,
           "unidad": "kg",
-          "precio_unidad": 4.02,
-          "url": "https://www.hipercor.es/supermercado/B001018007400460-gvtarra-lentejas-pardina-cocidas-sin-lactosa-frasco-400-g-neto-escurrido/"
+          "precio_unidad": 5.38,
+          "url": "https://www.hipercor.es/supermercado/B001018007400155-jae-lentejas-cocidas-extra-frasco-400-g-neto-escurrido/"
         },
         {
           "supermercado": "Hipercor",
@@ -8299,6 +8299,15 @@
           "unidad": "kg",
           "precio_unidad": 9.72,
           "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "BEBIDA ENERGÉTICA MANGO LOCO 50 CL.",
+          "marca": "MONSTER",
+          "precio": 1.79,
+          "unidad": "L",
+          "precio_unidad": 3.58,
+          "url": "https://www.alimerkaonline.es/10015187.html"
         },
         {
           "supermercado": "Alimerka",
@@ -8544,15 +8553,6 @@
           "url": "https://www.alimerkaonline.es/10025142.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "atún claro Super Natural más sabor pack 3 lata 56 g neto escurrido - Calvo",
-          "marca": "calvo",
-          "precio": 3.68,
-          "unidad": "kg",
-          "precio_unidad": 21.9,
-          "url": "https://www.hipercor.es/supermercado/B001018006800223-calvo-atun-claro-super-natural-mas-sabor-pack-3-lata-56-g-neto-escurrido/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Atún claro en aceite de oliva Hacendado",
           "marca": "",
@@ -8560,6 +8560,15 @@
           "unidad": "kg",
           "precio_unidad": 18.97,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "atún claro Super Natural más sabor pack 3 lata 56 g neto escurrido - Calvo",
+          "marca": "calvo",
+          "precio": 3.75,
+          "unidad": "kg",
+          "precio_unidad": 22.32,
+          "url": "https://www.hipercor.es/supermercado/B001018006800223-calvo-atun-claro-super-natural-mas-sabor-pack-3-lata-56-g-neto-escurrido/"
         },
         {
           "supermercado": "Alimerka",
@@ -8616,15 +8625,6 @@
           "url": "https://www.alimerkaonline.es/711140.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "atún claro en aceite de oliva ligero pack 3 lata 58 g neto escurrido - Calvo",
-          "marca": "calvo",
-          "precio": 4.66,
-          "unidad": "kg",
-          "precio_unidad": 27.74,
-          "url": "https://www.hipercor.es/supermercado/B001018006600722-calvo-atun-claro-en-aceite-de-oliva-ligero-pack-3-lata-58-g-neto-escurrido/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Atún claro en aceite de oliva Hacendado",
           "marca": "",
@@ -8641,6 +8641,15 @@
           "unidad": "kg",
           "precio_unidad": 13.86,
           "url": "https://www.hipercor.es/supermercado/B001018006600805-el-corte-ingles-atun-claro-en-aceite-de-oliva-pack-6-lata-60-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "atún claro en aceite de oliva ligero pack 3 lata 58 g neto escurrido - Calvo",
+          "marca": "calvo",
+          "precio": 5.05,
+          "unidad": "kg",
+          "precio_unidad": 30.06,
+          "url": "https://www.hipercor.es/supermercado/B001018006600722-calvo-atun-claro-en-aceite-de-oliva-ligero-pack-3-lata-58-g-neto-escurrido/"
         },
         {
           "supermercado": "Alimerka",
@@ -8686,15 +8695,6 @@
           "unidad": "kg",
           "precio_unidad": 19.03,
           "url": "https://www.hipercor.es/supermercado/B001018006601316-el-corte-ingles-atun-claro-en-aceite-en-aceite-de-oliva-virgen-extra-pescado-a-cana-pack-6-lata-60-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "BONITO DEL NORTE EN ACEITE DE GIRASOL 228 G.",
-          "marca": "CONSORCIO",
-          "precio": 6.95,
-          "unidad": "kg",
-          "precio_unidad": 30.48,
-          "url": "https://www.alimerkaonline.es/10026425.html"
         },
         {
           "supermercado": "Hipercor",
@@ -8921,9 +8921,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "sardinas en aceite de oliva lata 84 g neto escurrido - Calvo",
           "marca": "calvo",
-          "precio": 2.12,
+          "precio": 2.14,
           "unidad": "kg",
-          "precio_unidad": 25.24,
+          "precio_unidad": 25.48,
           "url": "https://www.hipercor.es/supermercado/B001018016500458-calvo-sardinas-en-aceite-de-oliva-lata-84-g-neto-escurrido/"
         },
         {
@@ -8948,9 +8948,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "sardinas en aceite de oliva bajas en sal lata 81 g neto escurrido - Calvo",
           "marca": "calvo",
-          "precio": 2.22,
+          "precio": 2.35,
           "unidad": "kg",
-          "precio_unidad": 26.43,
+          "precio_unidad": 27.98,
           "url": "https://www.hipercor.es/supermercado/B001018016500201-calvo-sardinas-en-aceite-de-oliva-bajas-en-sal-lata-81-g-neto-escurrido/"
         },
         {
@@ -9018,6 +9018,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "sardinas en aceite de oliva lata 85 g neto escurrido - Cuca",
+          "marca": "cuca",
+          "precio": 3.06,
+          "unidad": "kg",
+          "precio_unidad": 36.0,
+          "url": "https://www.hipercor.es/supermercado/B001018016500011-cuca-sardinas-en-aceite-de-oliva-lata-85-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "sardinas picantes en aceite lata 85 g neto escurrido - Cuca",
           "marca": "cuca",
           "precio": 3.06,
@@ -9027,20 +9036,11 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "sardinas en aceite de oliva lata 85 g neto escurrido - Cuca",
-          "marca": "cuca",
-          "precio": 3.12,
-          "unidad": "kg",
-          "precio_unidad": 36.71,
-          "url": "https://www.hipercor.es/supermercado/B001018016500011-cuca-sardinas-en-aceite-de-oliva-lata-85-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "sardinas en escabeche lata 85 g neto escurrido - Cuca",
           "marca": "cuca",
-          "precio": 3.12,
+          "precio": 3.06,
           "unidad": "kg",
-          "precio_unidad": 36.71,
+          "precio_unidad": 36.0,
           "url": "https://www.hipercor.es/supermercado/B001018016500037-cuca-sardinas-en-escabeche-lata-85-g-neto-escurrido/"
         },
         {
@@ -9060,15 +9060,6 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
-          "marca": "FANTA",
-          "precio": 4.62,
-          "unidad": "L",
-          "precio_unidad": 2.33,
-          "url": "https://www.alimerkaonline.es/10015191.html"
         }
       ]
     },
@@ -17077,20 +17068,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas María Integral Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 1.69,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 9.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas María Integral Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 1.69,
           "url": ""
         },
         {
@@ -18883,7 +18874,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión quema grasas Hacendado",
+          "nombre_real": "Infusión Relax Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -18901,11 +18892,11 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Relax Hacendado",
+          "nombre_real": "Infusión Hinojo Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
-          "precio_unidad": 35.0,
+          "precio_unidad": 26.25,
           "url": ""
         },
         {
@@ -18919,11 +18910,11 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Hinojo Hacendado",
+          "nombre_real": "Infusión quema grasas Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
-          "precio_unidad": 26.25,
+          "precio_unidad": 35.0,
           "url": ""
         },
         {
@@ -22170,15 +22161,6 @@
           "url": "https://www.alimerkaonline.es/8000356.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "papel higiénico compacto 2 capas paquete 6 rollos - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 2.4,
-          "unidad": "Unidad",
-          "precio_unidad": 0.4,
-          "url": "https://www.hipercor.es/supermercado/B001028022102108-el-corte-ingles-papel-higienico-compacto-2-capas-paquete-6-rollos/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Papel higiénico Doble Rollo Bosque Verde",
           "marca": "",
@@ -22195,6 +22177,15 @@
           "unidad": "",
           "precio_unidad": null,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "papel higiénico compacto 2 capas paquete 6 rollos - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 2.45,
+          "unidad": "Unidad",
+          "precio_unidad": 0.41,
+          "url": "https://www.hipercor.es/supermercado/B001028022102108-el-corte-ingles-papel-higienico-compacto-2-capas-paquete-6-rollos/"
         },
         {
           "supermercado": "Hipercor",
@@ -22251,24 +22242,6 @@
           "url": "https://www.alimerkaonline.es/8000730.html"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "PAPEL HIGIÉNICO MEGAROLLO 6 ROLLOS",
-          "marca": "SCOTTEX",
-          "precio": 3.69,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.alimerkaonline.es/10025104.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "papel higiénico blanco 4 capas paquete 8 rollos - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 3.7,
-          "unidad": "Unidad",
-          "precio_unidad": 0.46,
-          "url": "https://www.hipercor.es/supermercado/B001028022102132-el-corte-ingles-papel-higienico-blanco-4-capas-paquete-8-rollos/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Papel higiénico Suave Bosque Verde",
           "marca": "",
@@ -22285,6 +22258,15 @@
           "unidad": "Unidad",
           "precio_unidad": 0.63,
           "url": "https://www.hipercor.es/supermercado/B001028022102439-el-corte-ingles-papel-higienico-acolchado-3-capas-muy-suave-paquete-6-rollos/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "papel higiénico blanco 4 capas paquete 8 rollos - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 3.85,
+          "unidad": "Unidad",
+          "precio_unidad": 0.48,
+          "url": "https://www.hipercor.es/supermercado/B001028022102132-el-corte-ingles-papel-higienico-blanco-4-capas-paquete-8-rollos/"
         },
         {
           "supermercado": "Hipercor",
@@ -22312,6 +22294,15 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.alimerkaonline.es/10024739.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAPEL HIGIÉNICO SEDA 4 ROLLOS",
+          "marca": "SCOTTEX",
+          "precio": 3.99,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.alimerkaonline.es/10018887.html"
         },
         {
           "supermercado": "Alimerka",
@@ -22386,15 +22377,6 @@
           "url": "https://www.hipercor.es/supermercado/B001028022101647-scottex-papel-higienico-cuidado-completo-megarollo-2-capas-paquete-9-rollos/"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "papel higiénico Seda con pH neutro 3 capas paquete 9 rollos - Foxy",
-          "marca": "foxy",
-          "precio": 7.29,
-          "unidad": "Unidad",
-          "precio_unidad": 0.81,
-          "url": "https://www.hipercor.es/supermercado/B001028022101761-foxy-papel-higienico-seda-con-ph-neutro-3-capas-paquete-9-rollos/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "PAPEL HIGIÉNICO ORIGINAL 24 ROLLOS",
           "marca": "SCOTTEX",
@@ -22405,11 +22387,20 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "papel higiénico Seda con pH neutro 3 capas paquete 9 rollos - Foxy",
+          "marca": "foxy",
+          "precio": 7.99,
+          "unidad": "Unidad",
+          "precio_unidad": 0.89,
+          "url": "https://www.hipercor.es/supermercado/B001028022101761-foxy-papel-higienico-seda-con-ph-neutro-3-capas-paquete-9-rollos/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "papel higiénico compacto 2 capas paquete 24 rollos - El Corte Ingles",
           "marca": "el corte ingles",
-          "precio": 9.1,
+          "precio": 9.49,
           "unidad": "Unidad",
-          "precio_unidad": 0.38,
+          "precio_unidad": 0.4,
           "url": "https://www.hipercor.es/supermercado/B001028022102124-el-corte-ingles-papel-higienico-compacto-2-capas-paquete-24-rollos/"
         },
         {
@@ -22547,9 +22538,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "papel de cocina Cartapaglia especial para fritos paquete 2 rollos compatible con el microondas - Foxy",
           "marca": "foxy",
-          "precio": 2.75,
+          "precio": 2.85,
           "unidad": "Unidad",
-          "precio_unidad": 1.38,
+          "precio_unidad": 1.43,
           "url": "https://www.hipercor.es/supermercado/B001028022200555-foxy-papel-de-cocina-cartapaglia-especial-para-fritos-paquete-2-rollos-compatible-con-el-microondas/"
         },
         {
@@ -22653,21 +22644,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "papel de cocina compacto gofrado muy absorbente 2 capas paquete 6 rollos - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 4.4,
-          "unidad": "Unidad",
-          "precio_unidad": 0.73,
-          "url": "https://www.hipercor.es/supermercado/B001028022201421-el-corte-ingles-papel-de-cocina-compacto-gofrado-muy-absorbente-2-capas-paquete-6-rollos/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "papel de cocina decorado 2 capas paquete 3 rollos - Renova",
           "marca": "renova",
           "precio": 4.49,
           "unidad": "Unidad",
           "precio_unidad": 1.5,
           "url": "https://www.hipercor.es/supermercado/B001028022201330-renova-papel-de-cocina-decorado-2-capas-paquete-3-rollos/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "papel de cocina compacto gofrado muy absorbente 2 capas paquete 6 rollos - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 4.65,
+          "unidad": "Unidad",
+          "precio_unidad": 0.78,
+          "url": "https://www.hipercor.es/supermercado/B001028022201421-el-corte-ingles-papel-de-cocina-compacto-gofrado-muy-absorbente-2-capas-paquete-6-rollos/"
         },
         {
           "supermercado": "Hipercor",
@@ -22709,9 +22700,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "papel de cocina Tornado Strong Extra Resistente 3 capas paquete 1 rollo - Foxy",
           "marca": "foxy",
-          "precio": 8.79,
+          "precio": 8.19,
           "unidad": "Unidad",
-          "precio_unidad": 8.79,
+          "precio_unidad": 8.19,
           "url": "https://www.hipercor.es/supermercado/B001028022201710-foxy-papel-de-cocina-tornado-strong-extra-resistente-3-capas-paquete-1-rollo/"
         }
       ]
@@ -22792,15 +22783,6 @@
           "url": "https://www.alimerkaonline.es/10016102.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas blancas 2 capas 30x30 cm paquete 100 unidades - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.65,
-          "unidad": "Unidad",
-          "precio_unidad": 0.02,
-          "url": "https://www.hipercor.es/supermercado/B001028022306972-el-corte-ingles-servilletas-blancas-2-capas-30x30-cm-paquete-100-unidades/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Servilleta papel suave Bosque Verde",
           "marca": "",
@@ -22808,6 +22790,15 @@
           "unidad": "",
           "precio_unidad": null,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "servilletas blancas 2 capas 30x30 cm paquete 100 unidades - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 1.7,
+          "unidad": "Unidad",
+          "precio_unidad": 0.02,
+          "url": "https://www.hipercor.es/supermercado/B001028022306972-el-corte-ingles-servilletas-blancas-2-capas-30x30-cm-paquete-100-unidades/"
         },
         {
           "supermercado": "Alimerka",
@@ -22948,7 +22939,7 @@
           "supermercado": "Hipercor",
           "nombre_real": "servilletas de papel Gran Tavola colores surtidos 2 capas 33x33 cm paquete 100 unidades - Foxy",
           "marca": "foxy",
-          "precio": 3.15,
+          "precio": 3.29,
           "unidad": "Unidad",
           "precio_unidad": 0.03,
           "url": "https://www.hipercor.es/supermercado/B001028022307467-foxy-servilletas-de-papel-gran-tavola-colores-surtidos-2-capas-33x33-cm-paquete-100-unidades/"
@@ -22957,7 +22948,7 @@
           "supermercado": "Hipercor",
           "nombre_real": "servilletas blancas 2 capas 30x30 cm paquete 200 unidades - El Corte Ingles",
           "marca": "el corte ingles",
-          "precio": 3.2,
+          "precio": 3.4,
           "unidad": "Unidad",
           "precio_unidad": 0.02,
           "url": "https://www.hipercor.es/supermercado/B001028022306980-el-corte-ingles-servilletas-blancas-2-capas-30x30-cm-paquete-200-unidades/"
@@ -22966,7 +22957,7 @@
           "supermercado": "Hipercor",
           "nombre_real": "servilletas blancas 2 capas 40x40 cm paquete 75 unidades - Renova",
           "marca": "renova",
-          "precio": 3.99,
+          "precio": 4.05,
           "unidad": "Unidad",
           "precio_unidad": 0.05,
           "url": "https://www.hipercor.es/supermercado/B001028022305420-renova-servilletas-blancas-2-capas-40x40-cm-paquete-75-unidades/"
@@ -23310,6 +23301,15 @@
           "url": ""
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "detergente ecológico para todo tipo de ropa bolsa 16 cápsulas - Flopp",
+          "marca": "flopp",
+          "precio": 4.75,
+          "unidad": "Dosis",
+          "precio_unidad": 0.3,
+          "url": "https://www.hipercor.es/supermercado/B001028010310176-flopp-detergente-ecologico-para-todo-tipo-de-ropa-bolsa-16-capsulas/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Detergente ropa Pieles Sensibles Bosque Verde líquido",
           "marca": "",
@@ -23335,15 +23335,6 @@
           "unidad": "L",
           "precio_unidad": 1.63,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "detergente ecológico para todo tipo de ropa bolsa 16 cápsulas - Flopp",
-          "marca": "flopp",
-          "precio": 5.25,
-          "unidad": "Dosis",
-          "precio_unidad": 0.33,
-          "url": "https://www.hipercor.es/supermercado/B001028010310176-flopp-detergente-ecologico-para-todo-tipo-de-ropa-bolsa-16-capsulas/"
         },
         {
           "supermercado": "Mercadona",
@@ -23383,20 +23374,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Detergente ropa todo en 1 Ariel Pods en cápsulas",
-          "marca": "",
-          "precio": 6.9,
-          "unidad": "kg",
-          "precio_unidad": 19.84,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Detergente ropa blanca y de color Bosque Verde en polvo",
           "marca": "",
           "precio": 6.9,
           "unidad": "kg",
           "precio_unidad": 2.51,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Detergente ropa todo en 1 Ariel Pods en cápsulas",
+          "marca": "",
+          "precio": 6.9,
+          "unidad": "kg",
+          "precio_unidad": 19.84,
           "url": ""
         },
         {
@@ -23412,7 +23403,7 @@
           "supermercado": "Hipercor",
           "nombre_real": "detergente líquido Xpert Oxy para ropa blanca y de color botella 60 dosis - Disiclin",
           "marca": "disiclin",
-          "precio": 7.55,
+          "precio": 7.69,
           "unidad": "Dosis",
           "precio_unidad": 0.13,
           "url": "https://www.hipercor.es/supermercado/B001028010309301-disiclin-detergente-liquido-xpert-oxy-para-ropa-blanca-y-de-color-botella-60-dosis/"
@@ -23421,9 +23412,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "detergente líquido Delicado Ropa Oscura para ropa oscura botella 28 dosis - Norit",
           "marca": "norit",
-          "precio": 7.55,
+          "precio": 7.89,
           "unidad": "Dosis",
-          "precio_unidad": 0.27,
+          "precio_unidad": 0.28,
           "url": "https://www.hipercor.es/supermercado/B001028010303486-norit-detergente-liquido-delicado-ropa-oscura-para-ropa-oscura-botella-28-dosis/"
         },
         {
@@ -23597,46 +23588,46 @@
           "supermercado": "Hipercor",
           "nombre_real": "suavizante concentrado hipoalergénico Talco Rosa botella 60 dosis - Asevi",
           "marca": "asevi",
-          "precio": 2.65,
+          "precio": 2.79,
           "unidad": "Dosis",
-          "precio_unidad": 0.04,
+          "precio_unidad": 0.05,
           "url": "https://www.hipercor.es/supermercado/B001028012204252-asevi-suavizante-concentrado-hipoalergenico-talco-rosa-botella-60-dosis/"
         },
         {
           "supermercado": "Hipercor",
           "nombre_real": "suavizante concentrado Sensitif hipoalergénico botella 60 dosis - Asevi",
           "marca": "asevi",
-          "precio": 2.65,
+          "precio": 2.79,
           "unidad": "Dosis",
-          "precio_unidad": 0.04,
+          "precio_unidad": 0.05,
           "url": "https://www.hipercor.es/supermercado/B001028012204203-asevi-suavizante-concentrado-sensitif-hipoalergenico-botella-60-dosis/"
         },
         {
           "supermercado": "Hipercor",
           "nombre_real": "suavizante concentrado Azul frescor intenso botella 60 dosis - Asevi",
           "marca": "asevi",
-          "precio": 2.65,
+          "precio": 2.79,
           "unidad": "Dosis",
-          "precio_unidad": 0.04,
+          "precio_unidad": 0.05,
           "url": "https://www.hipercor.es/supermercado/B001028012204724-asevi-suavizante-concentrado-azul-frescor-intenso-botella-60-dosis/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "suavizante concentrado Aromaterapia Lirio Irresistible botella 55 dosis - Vernel",
-          "marca": "vernel",
-          "precio": 3.35,
-          "unidad": "Dosis",
-          "precio_unidad": 0.06,
-          "url": "https://www.hipercor.es/supermercado/B001028012204815-vernel-suavizante-concentrado-aromaterapia-lirio-irresistible-botella-55-dosis/"
         },
         {
           "supermercado": "Hipercor",
           "nombre_real": "suavizante concentrado frescor Cielo Azul botella 55 dosis - Vernel",
           "marca": "vernel",
-          "precio": 3.59,
+          "precio": 3.39,
           "unidad": "Dosis",
-          "precio_unidad": 0.07,
+          "precio_unidad": 0.06,
           "url": "https://www.hipercor.es/supermercado/B001028012204609-vernel-suavizante-concentrado-frescor-cielo-azul-botella-55-dosis/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "suavizante concentrado Aromaterapia Lirio Irresistible botella 55 dosis - Vernel",
+          "marca": "vernel",
+          "precio": 3.39,
+          "unidad": "Dosis",
+          "precio_unidad": 0.06,
+          "url": "https://www.hipercor.es/supermercado/B001028012204815-vernel-suavizante-concentrado-aromaterapia-lirio-irresistible-botella-55-dosis/"
         },
         {
           "supermercado": "Alimerka",
@@ -23703,6 +23694,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "suavizante concentrado Origins Bergamota Salvaje botella 50 dosis - Mimosin",
+          "marca": "mimosin",
+          "precio": 4.59,
+          "unidad": "Dosis",
+          "precio_unidad": 0.09,
+          "url": "https://www.hipercor.es/supermercado/B001028012205093-mimosin-suavizante-concentrado-origins-bergamota-salvaje-botella-50-dosis/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "suavizante concentrado extra fragancia Azul Vital botella 56 dosis - Mimosin",
           "marca": "mimosin",
           "precio": 4.65,
@@ -23718,15 +23718,6 @@
           "unidad": "Dosis",
           "precio_unidad": 0.08,
           "url": "https://www.hipercor.es/supermercado/B001028012205069-mimosin-suavizante-concentrado-hipoalergenico-suave-y-delicado-caricias-botella-56-dosis/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "suavizante concentrado Origins Bergamota Salvaje botella 50 dosis - Mimosin",
-          "marca": "mimosin",
-          "precio": 4.65,
-          "unidad": "Dosis",
-          "precio_unidad": 0.09,
-          "url": "https://www.hipercor.es/supermercado/B001028012205093-mimosin-suavizante-concentrado-origins-bergamota-salvaje-botella-50-dosis/"
         },
         {
           "supermercado": "Hipercor",
@@ -23775,6 +23766,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "suavizante concentrado Origins extra fragancia Bergamota Salvaje botella 95 dosis - Mimosin",
+          "marca": "mimosin",
+          "precio": 7.55,
+          "unidad": "Dosis",
+          "precio_unidad": 0.08,
+          "url": "https://www.hipercor.es/supermercado/B001028012205135-mimosin-suavizante-concentrado-origins-extra-fragancia-bergamota-salvaje-botella-95-dosis/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "suavizante concentrado extra fragancia Azul Vital botella 105 dosis - Mimosin",
           "marca": "mimosin",
           "precio": 7.85,
@@ -23795,19 +23795,10 @@
           "supermercado": "Hipercor",
           "nombre_real": "suavizante concentrado Origins extra fragancia Rosas Silvestres botella 95 dosis - Mimosin",
           "marca": "mimosin",
-          "precio": 7.85,
+          "precio": 8.35,
           "unidad": "Dosis",
-          "precio_unidad": 0.08,
+          "precio_unidad": 0.09,
           "url": "https://www.hipercor.es/supermercado/B001028012205143-mimosin-suavizante-concentrado-origins-extra-fragancia-rosas-silvestres-botella-95-dosis/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "suavizante concentrado Origins extra fragancia Bergamota Salvaje botella 95 dosis - Mimosin",
-          "marca": "mimosin",
-          "precio": 7.85,
-          "unidad": "Dosis",
-          "precio_unidad": 0.08,
-          "url": "https://www.hipercor.es/supermercado/B001028012205135-mimosin-suavizante-concentrado-origins-extra-fragancia-bergamota-salvaje-botella-95-dosis/"
         }
       ]
     },
@@ -24562,7 +24553,7 @@
           "supermercado": "Hipercor",
           "nombre_real": "bolsas de basura pequeñas con autocierre blanca 45X47 10 litros rollo 40 unidades - El Corte Ingles",
           "marca": "el corte ingles",
-          "precio": 1.49,
+          "precio": 1.45,
           "unidad": "Unidad",
           "precio_unidad": 0.04,
           "url": "https://www.hipercor.es/supermercado/B001028023300842-el-corte-ingles-bolsas-de-basura-pequenas-con-autocierre-blanca-45x47-10-litros-rollo-40-unidades/"
@@ -24688,7 +24679,7 @@
           "supermercado": "Hipercor",
           "nombre_real": "bolsas de basura marrones 100% reciclado 10/20 litros rollo 15 unidades - Relevo",
           "marca": "relevo",
-          "precio": 2.55,
+          "precio": 2.59,
           "unidad": "Unidad",
           "precio_unidad": 0.17,
           "url": "https://www.hipercor.es/supermercado/B001028023301261-relevo-bolsas-de-basura-marrones-100-reciclado-1020-litros-rollo-15-unidades/"
@@ -24704,18 +24695,9 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "bolsas de basura amarillas 100% reciclado para cubo normal 30 litros rollo 15 unidades - Relevo",
-          "marca": "relevo",
-          "precio": 2.79,
-          "unidad": "Unidad",
-          "precio_unidad": 0.19,
-          "url": "https://www.hipercor.es/supermercado/B001028023301220-relevo-bolsas-de-basura-amarillas-100-reciclado-para-cubo-normal-30-litros-rollo-15-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "bolsas de basura reciclada resistente 55x63 30 litros para cubo cocina normal rollo 12 unidades - Handy Bag",
           "marca": "handy bag",
-          "precio": 2.8,
+          "precio": 2.75,
           "unidad": "Unidad",
           "precio_unidad": 0.23,
           "url": "https://www.hipercor.es/supermercado/B001028023301477-handy-bag-bolsas-de-basura-reciclada-resistente-55x63-30-litros-para-cubo-cocina-normal-rollo-12-unidades/"
@@ -24724,10 +24706,19 @@
           "supermercado": "Hipercor",
           "nombre_real": "bolsas de basura reciclada Resistente Antigoteo 68x73 50 litros para cubo cocina grande rollo 8 unidades - Handy Bag",
           "marca": "handy bag",
-          "precio": 2.8,
+          "precio": 2.75,
           "unidad": "Unidad",
-          "precio_unidad": 0.35,
+          "precio_unidad": 0.34,
           "url": "https://www.hipercor.es/supermercado/B001028023301378-handy-bag-bolsas-de-basura-reciclada-resistente-antigoteo-68x73-50-litros-para-cubo-cocina-grande-rollo-8-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "bolsas de basura reciclada resistente Perfumada 55x63 30 litros para cubo cocina normal rollo 12 unidades - Handy Bag",
+          "marca": "handy bag",
+          "precio": 2.79,
+          "unidad": "Unidad",
+          "precio_unidad": 0.23,
+          "url": "https://www.hipercor.es/supermercado/B001028023301402-handy-bag-bolsas-de-basura-reciclada-resistente-perfumada-55x63-30-litros-para-cubo-cocina-normal-rollo-12-unidades/"
         },
         {
           "supermercado": "Mercadona",
@@ -24737,6 +24728,15 @@
           "unidad": "L",
           "precio_unidad": 0.03,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "bolsas de basura amarillas 100% reciclado para cubo normal 30 litros rollo 15 unidades - Relevo",
+          "marca": "relevo",
+          "precio": 2.95,
+          "unidad": "Unidad",
+          "precio_unidad": 0.2,
+          "url": "https://www.hipercor.es/supermercado/B001028023301220-relevo-bolsas-de-basura-amarillas-100-reciclado-para-cubo-normal-30-litros-rollo-15-unidades/"
         },
         {
           "supermercado": "Mercadona",
@@ -24749,36 +24749,18 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "bolsas de basura reciclada resistente y eco 45x50 20 litros para cubo cocina pequeño rollo 15 unidades - Handy Bag",
+          "nombre_real": "bolsas de basura reciclada Resistente Antigoteo 45x50 20 litros para cubo cocina pequeño rollo 15 unidades - Handy Bag",
           "marca": "handy bag",
           "precio": 3.05,
           "unidad": "Unidad",
           "precio_unidad": 0.2,
-          "url": "https://www.hipercor.es/supermercado/B001028023301436-handy-bag-bolsas-de-basura-reciclada-resistente-y-eco-45x50-20-litros-para-cubo-cocina-pequeno-rollo-15-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "bolsas de basura reciclada resistente Perfumada 55x63 30 litros para cubo cocina normal rollo 12 unidades - Handy Bag",
-          "marca": "handy bag",
-          "precio": 3.05,
-          "unidad": "Unidad",
-          "precio_unidad": 0.25,
-          "url": "https://www.hipercor.es/supermercado/B001028023301402-handy-bag-bolsas-de-basura-reciclada-resistente-perfumada-55x63-30-litros-para-cubo-cocina-normal-rollo-12-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "bolsas de basura reciclada Resistente Antigoteo 45x50 20 litros para cubo cocina pequeño rollo 15 unidades - Handy Bag",
-          "marca": "handy bag",
-          "precio": 3.15,
-          "unidad": "Unidad",
-          "precio_unidad": 0.21,
           "url": "https://www.hipercor.es/supermercado/B001028023301345-handy-bag-bolsas-de-basura-reciclada-resistente-antigoteo-45x50-20-litros-para-cubo-cocina-pequeno-rollo-15-unidades/"
         },
         {
           "supermercado": "Hipercor",
           "nombre_real": "bolsas de basura reciclada Ultra Resistente 55x63 cm 30 litros para cubo cocina normal rollo 12 unidades - Handy Bag",
           "marca": "handy bag",
-          "precio": 3.3,
+          "precio": 3.25,
           "unidad": "Unidad",
           "precio_unidad": 0.27,
           "url": "https://www.hipercor.es/supermercado/B001028023301311-handy-bag-bolsas-de-basura-reciclada-ultra-resistente-55x63-cm-30-litros-para-cubo-cocina-normal-rollo-12-unidades/"
@@ -24787,25 +24769,34 @@
           "supermercado": "Hipercor",
           "nombre_real": "bolsas de basura reciclada resistente 47X78 cm 20/30 litros para cubo alto rollo 12 unidades - Handy Bag",
           "marca": "handy bag",
-          "precio": 3.3,
+          "precio": 3.25,
           "unidad": "Unidad",
           "precio_unidad": 0.27,
           "url": "https://www.hipercor.es/supermercado/B001028023301337-handy-bag-bolsas-de-basura-reciclada-resistente-47x78-cm-2030-litros-para-cubo-alto-rollo-12-unidades/"
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "bolsas de basura reciclada resistente y eco 45x50 20 litros para cubo cocina pequeño rollo 15 unidades - Handy Bag",
+          "marca": "handy bag",
+          "precio": 3.29,
+          "unidad": "Unidad",
+          "precio_unidad": 0.22,
+          "url": "https://www.hipercor.es/supermercado/B001028023301436-handy-bag-bolsas-de-basura-reciclada-resistente-y-eco-45x50-20-litros-para-cubo-cocina-pequeno-rollo-15-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "bolsas de basura verdes 100% reciclado 50 litros rollo 10 unidades - Relevo",
           "marca": "relevo",
-          "precio": 3.39,
+          "precio": 3.45,
           "unidad": "Unidad",
-          "precio_unidad": 0.34,
+          "precio_unidad": 0.35,
           "url": "https://www.hipercor.es/supermercado/B001028023301212-relevo-bolsas-de-basura-verdes-100-reciclado-50-litros-rollo-10-unidades/"
         },
         {
           "supermercado": "Hipercor",
           "nombre_real": "bolsas de basura reciclada Resistente Antigoteo 55x63 30 litros para cubo cocina normal rollo 20 unidades - Handy Bag",
           "marca": "handy bag",
-          "precio": 4.45,
+          "precio": 4.35,
           "unidad": "Unidad",
           "precio_unidad": 0.22,
           "url": "https://www.hipercor.es/supermercado/B001028023301360-handy-bag-bolsas-de-basura-reciclada-resistente-antigoteo-55x63-30-litros-para-cubo-cocina-normal-rollo-20-unidades/"
@@ -24823,9 +24814,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "bolsas de basura reciclada resistente Perfumada 55x63 30 litros para cubo cocina normal rollo 20 unidades - Handy Bag",
           "marca": "handy bag",
-          "precio": 4.9,
+          "precio": 4.85,
           "unidad": "Unidad",
-          "precio_unidad": 0.25,
+          "precio_unidad": 0.24,
           "url": "https://www.hipercor.es/supermercado/B001028023301410-handy-bag-bolsas-de-basura-reciclada-resistente-perfumada-55x63-30-litros-para-cubo-cocina-normal-rollo-20-unidades/"
         }
       ]
@@ -27064,7 +27055,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante invisible Black & White Nivea",
+          "nombre_real": "Desodorante invisible Black & White Nivea Men antitranspirante",
           "marca": "",
           "precio": 2.9,
           "unidad": "L",
@@ -27073,7 +27064,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante invisible Black & White Nivea Men antitranspirante",
+          "nombre_real": "Desodorante invisible Black & White Nivea",
           "marca": "",
           "precio": 2.9,
           "unidad": "L",
@@ -27407,6 +27398,15 @@
           "precio": 6.9,
           "unidad": "kg",
           "precio_unidad": 0.38,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañal bebé braguita talla XL Deliplus de 16-28 kg",
+          "marca": "",
+          "precio": 6.9,
+          "unidad": "kg",
+          "precio_unidad": 0.25,
           "url": ""
         },
         {
