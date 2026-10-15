@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-15T16:20:56+00:00",
+  "generado_en": "2026-10-15T21:01:18+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -8900,15 +8900,6 @@
           "url": ""
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "BEBIDA ENERGÉTICA MANGO LOCO 50 CL.",
-          "marca": "MONSTER",
-          "precio": 1.79,
-          "unidad": "L",
-          "precio_unidad": 3.58,
-          "url": "https://www.alimerkaonline.es/10015187.html"
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "sardinas en aceite de oliva 3-5 piezas lata 87 g neto escurrido - El Corte Ingles Selection",
           "marca": "el corte ingles selection",
@@ -9087,6 +9078,15 @@
           "unidad": "kg",
           "precio_unidad": 38.85,
           "url": "https://www.hipercor.es/supermercado/B001018016500334-paco-lafuente-sardinas-en-aceite-de-oliva-3-5-piezas-lata-87-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
+          "marca": "FANTA",
+          "precio": 4.62,
+          "unidad": "L",
+          "precio_unidad": 2.33,
+          "url": "https://www.alimerkaonline.es/10015191.html"
         },
         {
           "supermercado": "Alimerka",
@@ -27358,15 +27358,6 @@
           "unidad": "100 ml.",
           "precio_unidad": 3.0,
           "url": "https://www.hipercor.es/supermercado/B001055754802779-dove-men-desodorante--care-advanced-invisible-dry-antimanchas-antitranspirante-72h-spray-150-ml/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "DESODORANTE ZONA BAJA PERA Y MADERA 100 ML.",
-          "marca": "AXE",
-          "precio": 5.35,
-          "unidad": "L",
-          "precio_unidad": 53.5,
-          "url": "https://www.alimerkaonline.es/10031076.html"
         }
       ]
     },
