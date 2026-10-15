@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-15T10:55:57+00:00",
+  "generado_en": "2026-10-15T16:20:56+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -3518,7 +3518,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Mantequilla con sal Hacendado",
+          "nombre_real": "Mantequilla sin sal añadida Hacendado",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
@@ -3527,7 +3527,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Mantequilla sin sal añadida Hacendado",
+          "nombre_real": "Mantequilla con sal Hacendado",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
@@ -8329,6 +8329,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "BEBIDA ENERGÉTICA MANGO LOCO 50 CL.",
+          "marca": "MONSTER",
+          "precio": 1.79,
+          "unidad": "L",
+          "precio_unidad": 3.58,
+          "url": "https://www.alimerkaonline.es/10015187.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "BONITO DEL NORTE EN ACEITE DE OLIVA 72 G.",
           "marca": "TUNAPESCA",
           "precio": 1.82,
@@ -8389,15 +8398,6 @@
           "unidad": "kg",
           "precio_unidad": 10.72,
           "url": "https://www.alimerkaonline.es/8000041.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "ATÚN CLARO EN ESCABECHE 156 G.",
-          "marca": "ALIMERKA",
-          "precio": 2.09,
-          "unidad": "kg",
-          "precio_unidad": 13.4,
-          "url": "https://www.alimerkaonline.es/10017152.html"
         },
         {
           "supermercado": "Mercadona",
@@ -17149,20 +17149,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas tostadas Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 1.69,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Digestive chocolate con leche Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 4.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas tostadas Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 1.69,
           "url": ""
         },
         {
@@ -18221,6 +18221,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Café con leche en cápsula Hacendado",
+          "marca": "",
+          "precio": 3.25,
+          "unidad": "kg",
+          "precio_unidad": 21.16,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula forte Hacendado",
           "marca": "",
           "precio": 3.25,
@@ -18244,15 +18253,6 @@
           "precio": 3.25,
           "unidad": "kg",
           "precio_unidad": 25.39,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Café con leche en cápsula Hacendado",
-          "marca": "",
-          "precio": 3.25,
-          "unidad": "kg",
-          "precio_unidad": 21.16,
           "url": ""
         },
         {
@@ -18320,20 +18320,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café cortado en cápsula Hacendado",
-          "marca": "",
-          "precio": 3.35,
-          "unidad": "kg",
-          "precio_unidad": 36.1,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café con leche en cápsula descafeinado Hacendado",
           "marca": "",
           "precio": 3.35,
           "unidad": "kg",
           "precio_unidad": 22.04,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café cortado en cápsula Hacendado",
+          "marca": "",
+          "precio": 3.35,
+          "unidad": "kg",
+          "precio_unidad": 36.1,
           "url": ""
         },
         {
@@ -18365,20 +18365,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula ristretto Hacendado",
-          "marca": "",
-          "precio": 3.8,
-          "unidad": "kg",
-          "precio_unidad": 34.55,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula extra fuerte Hacendado",
           "marca": "",
           "precio": 3.8,
           "unidad": "kg",
           "precio_unidad": 36.54,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café en cápsula ristretto Hacendado",
+          "marca": "",
+          "precio": 3.8,
+          "unidad": "kg",
+          "precio_unidad": 34.55,
           "url": ""
         },
         {
@@ -18554,20 +18554,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café con leche en cápsula Dolce Gusto",
-          "marca": "",
-          "precio": 4.95,
-          "unidad": "kg",
-          "precio_unidad": 30.94,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula ristretto napoli Dolce Gusto",
           "marca": "",
           "precio": 4.95,
           "unidad": "kg",
           "precio_unidad": 38.67,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café con leche en cápsula Dolce Gusto",
+          "marca": "",
+          "precio": 4.95,
+          "unidad": "kg",
+          "precio_unidad": 30.94,
           "url": ""
         },
         {
@@ -18919,6 +18919,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Infusión Dormir Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 35.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Infusión Digest Hacendado",
           "marca": "",
           "precio": 1.05,
@@ -18928,7 +18937,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Dormir Hacendado",
+          "nombre_real": "Infusión Laxsen sabor menta Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -18946,7 +18955,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Laxsen sabor menta Hacendado",
+          "nombre_real": "Infusión Cola de caballo Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -18955,7 +18964,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Cola de caballo Hacendado",
+          "nombre_real": "Infusión quema grasas Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -18969,15 +18978,6 @@
           "precio": 1.05,
           "unidad": "kg",
           "precio_unidad": 26.25,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Infusión quema grasas Hacendado",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 35.0,
           "url": ""
         },
         {
@@ -20398,15 +20398,6 @@
           "unidad": "L",
           "precio_unidad": 2.9,
           "url": "https://www.alimerkaonline.es/10031848.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE COLA ZERO AZÚCAR 50 CL.",
-          "marca": "COCA-COLA",
-          "precio": 1.45,
-          "unidad": "L",
-          "precio_unidad": 2.9,
-          "url": "https://www.alimerkaonline.es/10031849.html"
         },
         {
           "supermercado": "Alimerka",
@@ -24014,7 +24005,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Lavavajillas Todo en 1 Bosque Verde en pastillas",
+          "nombre_real": "Lavavajillas Todo en 1 Bosque Verde en cápsulas",
           "marca": "",
           "precio": 2.95,
           "unidad": "kg",
@@ -24140,7 +24131,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Lavavajillas Ultra Plus naranja Fairy en pastillas",
+          "nombre_real": "Lavavajillas Ultra Plus naranja Fairy en cápsulas",
           "marca": "",
           "precio": 5.0,
           "unidad": "kg",
@@ -24167,7 +24158,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Lavavajillas Todo en 1 Fairy en pastillas",
+          "nombre_real": "Lavavajillas Todo en 1 Fairy en cápsulas",
           "marca": "",
           "precio": 5.85,
           "unidad": "kg",
@@ -26303,7 +26294,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Protección Caries Colgate",
+          "nombre_real": "Dentífrico Blanqueador Bicarbonato Signal",
           "marca": "",
           "precio": 1.95,
           "unidad": "L",
@@ -26312,7 +26303,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Blanqueador Bicarbonato Signal",
+          "nombre_real": "Dentífrico Protección Caries Colgate",
           "marca": "",
           "precio": 1.95,
           "unidad": "L",
@@ -27699,20 +27690,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Pañales bebé talla 4 Dodot de 9-14 kg",
-          "marca": "",
-          "precio": 18.95,
-          "unidad": "kg",
-          "precio_unidad": 1.35,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pañales bebé talla 6 Dodot de 13-18 kg",
           "marca": "",
           "precio": 18.95,
           "unidad": "kg",
           "precio_unidad": 1.05,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañales bebé talla 4 Dodot de 9-14 kg",
+          "marca": "",
+          "precio": 18.95,
+          "unidad": "kg",
+          "precio_unidad": 1.35,
           "url": ""
         },
         {
