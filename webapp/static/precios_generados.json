@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-16T10:42:22+00:00",
+  "generado_en": "2026-10-16T16:22:54+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -5258,7 +5258,7 @@
       "opciones": [
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Arroz cocido integral Sabroz",
+          "nombre_real": "Arroz cocido redondo Sabroz",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -5267,7 +5267,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Arroz cocido redondo Sabroz",
+          "nombre_real": "Arroz cocido integral Sabroz",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -18955,20 +18955,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión quema grasas Hacendado",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 35.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Infusión Hinojo Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
           "precio_unidad": 26.25,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Infusión quema grasas Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 35.0,
           "url": ""
         },
         {
@@ -20371,6 +20371,15 @@
           "unidad": "L",
           "precio_unidad": 2.9,
           "url": "https://www.alimerkaonline.es/10031848.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE COLA ZERO AZÚCAR 50 CL.",
+          "marca": "COCA-COLA",
+          "precio": 1.45,
+          "unidad": "L",
+          "precio_unidad": 2.9,
+          "url": "https://www.alimerkaonline.es/10031849.html"
         },
         {
           "supermercado": "Alimerka",
@@ -26258,7 +26267,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Blanqueador Bicarbonato Signal",
+          "nombre_real": "Dentífrico Protección Caries Colgate",
           "marca": "",
           "precio": 1.95,
           "unidad": "L",
@@ -26267,7 +26276,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Protección Caries Colgate",
+          "nombre_real": "Dentífrico Blanqueador Bicarbonato Signal",
           "marca": "",
           "precio": 1.95,
           "unidad": "L",
