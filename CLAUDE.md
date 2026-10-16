@@ -424,7 +424,7 @@ zanahoria baby en vez de a granel +1,78 €, lomo envasado +1,95 €, antical
 +2,00 €, magnesio +0,85 €... compensado en parte por jabón de manos y
 leche más baratos).
 
-## Búsqueda libre de Alimerka en la nube (añadido 2026-10-16, SIN verificar en Azure todavía)
+## Búsqueda libre de Alimerka en la nube (añadido y verificado en Azure, 2026-10-16)
 
 `api/buscar/` es una Azure Function **gestionada de Static Web Apps** (plan
 gratuito, Python v1: `function.json` + `__init__.py`, runtime `python:3.10`
@@ -434,8 +434,8 @@ responde 501 y el frontend cae a `precios_generados.json`. También cae a él si
 la función vuelve vacía/con avisos (`origen: "nube"`), p. ej. si Alimerka
 bloquea la IP de Azure. Los conectores no se duplican: ambos workflows copian
 `base.py`, `medidas.py` y `alimerka.py` a `api/_lib/supermarkets/` (gitignored)
-antes de desplegar con `api_location: "api"`. Probada en local con un Alimerka
-simulado; falta ver el primer despliegue real (pestaña Actions) y probar una
-búsqueda fuera de la lista habitual en la URL de Azure.
+antes de desplegar con `api_location: "api"`. Verificado en la URL real
+(`zealous-pebble-07f8f3c10.6.azurestaticapps.net`, ojo al `.6`): una búsqueda
+libre solo en Alimerka devolvió 18 opciones en 1 s, en directo.
 La web también muestra ya la antigüedad de los precios de la nube ("hace 3 h",
 con aviso si pasan de 24 h).
