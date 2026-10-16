@@ -265,6 +265,18 @@ function formatearFecha(iso) {
   }
 }
 
+// "hace 3 h" / "hace 2 días" a partir de una fecha ISO, y si ya es vieja
+// (más de 24 h: el cron falla de vez en cuando) para avisarlo en la UI.
+function antiguedadPrecios(iso) {
+  if (!iso) return { texto: "", vieja: false };
+  const ms = Date.now() - new Date(iso).getTime();
+  if (isNaN(ms)) return { texto: "", vieja: false };
+  const horas = Math.max(0, Math.round(ms / 3600000));
+  const texto =
+    horas < 1 ? "hace menos de 1 h" : horas < 48 ? `hace ${horas} h` : `hace ${Math.round(horas / 24)} días`;
+  return { texto, vieja: horas > 24 };
+}
+
 // Cómo se ordenan las opciones dentro de cada producto: por lo que
 // costaría lo pedido (false) o por precio por kilo/litro (true).
 let ordenPorMedida = false;
@@ -675,6 +687,13 @@ async function buscarEnSuper(nombre, flags, productos) {
         throw new Error(err.error || "error del servidor");
       }
       data = await res.json();
+      // Función de la nube (Alimerka en directo) que falló o vino vacía
+      // (p.ej. Alimerka bloquea la IP de Azure): mejor los precios del
+      // cron que un error. En local (Flask) los avisos se muestran tal cual.
+      const sinNada = !(data.resultados || []).some((r) => r.opciones.length > 0);
+      if (data.origen === "nube" && (data.avisos || []).length && sinNada) {
+        throw new Error("función de la nube sin resultados");
+      }
     } catch (errorBackend) {
       // No hay servidor Flask detrás (p.ej. desplegado como sitio
       // estático en Azure Static Web Apps, sin webapp/app.py): se usan
@@ -696,8 +715,9 @@ async function buscarEnSuper(nombre, flags, productos) {
     if (aviso) {
       progresoSupers[nombre] = { estado: "error", detalle: aviso.motivo };
     } else {
+      const edad = antiguedadPrecios(data.generado_en);
       const etiquetaModo = modoEstatico
-        ? ` · nube, actualizado ${formatearFecha(data.generado_en)}`
+        ? ` · precios de la nube, ${edad.texto} (${formatearFecha(data.generado_en)})${edad.vieja ? " ⚠️ pueden estar desfasados" : ""}`
         : "";
       progresoSupers[nombre] = {
         estado: total > 0 ? "ok" : "vacio",

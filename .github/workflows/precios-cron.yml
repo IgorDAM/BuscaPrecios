@@ -65,6 +65,12 @@ jobs:
             echo "cambios=true" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Preparar API de Alimerka (copia los conectores a api/_lib)
+        run: |
+          mkdir -p api/_lib/supermarkets
+          cp src/supermarkets/base.py src/supermarkets/medidas.py src/supermarkets/alimerka.py api/_lib/supermarkets/
+          printf 'from .alimerka import Alimerka\n' > api/_lib/supermarkets/__init__.py
+
       - name: Desplegar en Azure Static Web Apps
         # IMPORTANTE: el commit anterior lo hace github-actions[bot] usando
         # el GITHUB_TOKEN por defecto. GitHub NO dispara otros workflows
@@ -82,5 +88,5 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           app_location: "/webapp/static"
-          api_location: ""
+          api_location: "api"
           output_location: ""

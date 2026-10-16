@@ -423,3 +423,19 @@ variantes reales pero distintas a las compradas (pack marinado de pavo
 zanahoria baby en vez de a granel +1,78 €, lomo envasado +1,95 €, antical
 +2,00 €, magnesio +0,85 €... compensado en parte por jabón de manos y
 leche más baratos).
+
+## Búsqueda libre de Alimerka en la nube (añadido 2026-10-16, SIN verificar en Azure todavía)
+
+`api/buscar/` es una Azure Function **gestionada de Static Web Apps** (plan
+gratuito, Python v1: `function.json` + `__init__.py`, runtime `python:3.10`
+fijado en `staticwebapp.config.json`). Atiende `POST /api/buscar` solo para
+Alimerka (única web que se consulta con `requests`); para Hipercor/Mercadona
+responde 501 y el frontend cae a `precios_generados.json`. También cae a él si
+la función vuelve vacía/con avisos (`origen: "nube"`), p. ej. si Alimerka
+bloquea la IP de Azure. Los conectores no se duplican: ambos workflows copian
+`base.py`, `medidas.py` y `alimerka.py` a `api/_lib/supermarkets/` (gitignored)
+antes de desplegar con `api_location: "api"`. Probada en local con un Alimerka
+simulado; falta ver el primer despliegue real (pestaña Actions) y probar una
+búsqueda fuera de la lista habitual en la URL de Azure.
+La web también muestra ya la antigüedad de los precios de la nube ("hace 3 h",
+con aviso si pasan de 24 h).
