@@ -30,9 +30,16 @@ python -m src.main --cp 33012 --lista data/lista_compra_ejemplo.json
 cd webapp && python app.py       # abre http://localhost:5000
 ```
 
-No hay suite de tests, linter ni build configurados en el repo. `compare.py`
-se verificó manualmente con datos de prueba; el matching por similitud de
-`app.js` se probó con `node app.js` (función `encontrarAlternativaMasBarata`).
+Tests (sin dependencias extra):
+
+```bash
+python -I -m unittest discover -s tests -t . -v   # tarjetas de Alimerka y rastreadores de catálogo
+node --test tests_js/catalogo.test.js             # búsqueda sobre los catálogos (catalogo.js)
+```
+
+No hay linter ni build. `compare.py` se verificó manualmente con datos de
+prueba; el matching por similitud de `app.js` se probó con `node app.js`
+(función `encontrarAlternativaMasBarata`).
 
 ## Arquitectura
 
@@ -439,3 +446,47 @@ antes de desplegar con `api_location: "api"`. Verificado en la URL real
 libre solo en Alimerka devolvió 18 opciones en 1 s, en directo.
 La web también muestra ya la antigüedad de los precios de la nube ("hace 3 h",
 con aviso si pasan de 24 h).
+
+## Catálogos completos y búsqueda libre en la nube (añadido 2026-10-16)
+
+Problema: en la nube no se puede buscar en directo en Hipercor ni Mercadona
+(Akamai pide navegador visible), y `precios_generados.json` solo cubre la lista
+habitual. Solución (opción A, 0 €): un cron semanal rastrea el catálogo ENTERO
+de los tres súpers y la web busca sobre esos archivos, sin backend.
+
+- `.github/workflows/catalogo-cron.yml` — lunes y viernes 03:00 UTC (+ manual).
+  Un job por súper (matriz, `fail-fast: false`; xvfb en Mercadona/Hipercor) que
+  sube el JSON como artefacto, y un job `publicar` que comitea
+  `webapp/static/catalogo_<super>.json`, despliega en Azure (mismo motivo que en
+  `precios-cron.yml`: un push del `GITHUB_TOKEN` no dispara otros workflows) y
+  deja el workflow en rojo si algún súper falló (publica igualmente los demás).
+- `scripts/rastrear_catalogo.py` — orquesta. Protecciones: rastreo vacío, >5 %
+  de categorías/páginas con fallo, o <50 % de los productos del catálogo
+  anterior ⇒ NO sobrescribe el archivo publicado y sale con código 1.
+  `--solo alimerka --max-hojas 3` para probar rápido.
+- `src/catalogo/` — `formato.py` (JSON compacto: tabla de categorías + filas
+  `pid,nombre,marca,cat,precio,precio_unidad,unidad,url`), y un rastreador por súper:
+  - **Alimerka** (`requests`): solo categorías HOJA (~576 de 694; el padre repite
+    a los hijos), `Search-UpdateGrid` con `sz=96`. ~7.300 productos.
+  - **Mercadona** (navegador visible + `fetch` interno): `/api/categories/?lang=es`
+    y `/api/categories/{id}/` por cada una de las 152 subcategorías → productos
+    completos con `price_instructions`. ~4.300 productos, ~150 peticiones.
+    **Corrige** lo que se decía arriba: `/api/categories/` SÍ funciona, pero solo
+    llamado desde la propia página (cookies de Akamai); desde `requests` no.
+  - **Hipercor** (navegador visible): `/supermercado/<categoría>/<n>/` (24 por
+    página) leyendo `__MOONSHINE_STATE__.viewData.plp`. 10 categorías raíz
+    (sin parafarmacia ni nutrición), ~18.500 productos, ~770 páginas de ~2 MB: es
+    el rastreo largo (puede rondar 1 h).
+- `webapp/static/catalogo.js` — port a JS de `filtrar_relevantes` (comprobado
+  contra la versión Python con el mismo conjunto: 0 diferencias). Si cambias el
+  criterio en `base.py`, cámbialo también aquí.
+- `app.js` — sin backend: primero `precios_generados.json` (lista habitual,
+  cada 6 h), y lo que no cubra se busca en el catálogo del súper
+  (`completarConCatalogo`). La fecha mostrada es la más antigua de lo usado, y
+  el aviso de "desfasado" salta a los 5 días para catálogos. El "Mejor €/…" ahora
+  se calcula dentro de cada unidad (kg con kg, L con L, docena con docena).
+- Alimerka: el precio vigente es `.sales .value` (antes se leía el primer
+  elemento `price` y, en rebajas, salía el precio tachado). Con tests.
+- Coste: repo público ⇒ minutos de Actions gratis; Azure Static Web Apps Free solo
+  sirve ficheros (catálogos ≈ 5 MB sin comprimir). Cada rastreo añade ~5 MB al
+  historial de git (se comprime); a 2 por semana son ~100 por año.

@@ -361,7 +361,11 @@ cuenta/suscripción alguna vez):**
 3. ~~Alojar la interfaz en Azure Static Web Apps~~ **Hecho y en
    producción (2026-09-02)** — ver "Versión en la nube" arriba para la
    URL y los detalles del recurso.
-4. **Búsquedas nuevas bajo demanda**: de momento, la versión en la nube
+4. ~~**Búsquedas nuevas bajo demanda**~~ **Resuelto (2026-10-16)** con
+   catálogos completos rastreados cada semana (`catalogo-cron.yml`, ver
+   CLAUDE.md, "Catálogos completos"): la web en la nube busca cualquier
+   producto de los tres súpers sobre esos archivos. Nota histórica del
+   problema original: de momento, la versión en la nube
    solo enseña la lista habitual del cron. Si hace falta buscar algo
    fuera de esa lista sin esperar al día siguiente, la opción más simple
    sigue siendo el modo LAN (busca en directo). Una Azure Function con
