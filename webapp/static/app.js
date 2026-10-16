@@ -226,6 +226,14 @@ async function cargarPreciosEstaticos() {
   return cachePreciosEstaticos;
 }
 
+// Clave para comparar nombres de producto: minúsculas, sin acentos y con los
+// espacios normalizados. Sin esto, "Leche semidesnatada" (con la mayúscula que
+// pone solo el teclado del móvil) no encontraba "leche semidesnatada" en el
+// JSON del cron y salían 0 opciones. No usar normalizarTexto(): quita palabras
+// vacías como "sin" y confundiría "leche sin lactosa" con "leche lactosa".
+const claveProducto = (s) => (s || "").toLowerCase().normalize("NFD")
+  .replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, " ").trim();
+
 // Adapta el JSON estático (que trae los tres supermercados juntos) al
 // mismo formato que devuelve /api/buscar para UN supermercado, filtrando
 // por los productos pedidos. Si pides un producto que no está en la
@@ -234,7 +242,7 @@ async function cargarPreciosEstaticos() {
 function filtrarPreciosEstaticos(datos, nombreSuper, productosPedidos) {
   const avisoSuper = (datos.avisos || []).find((a) => a.supermercado === nombreSuper);
   const resultados = productosPedidos.map((nombreProducto) => {
-    const item = (datos.resultados || []).find((r) => r.producto === nombreProducto);
+    const item = (datos.resultados || []).find((r) => claveProducto(r.producto) === claveProducto(nombreProducto));
     if (!item) {
       productosFueraDeListaCloud.add(nombreProducto);
     }
