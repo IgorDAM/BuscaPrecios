@@ -61,7 +61,16 @@ jobs:
             echo "cambios=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Actualiza precios_generados.json ($(date -u +%Y-%m-%dT%H:%MZ))"
-            git push
+            # Si alguien (tú) ha subido commits mientras corría el cron
+            # (tarda ~10 min), el push se rechaza: se integra lo nuevo y se
+            # reintenta. Solo tocamos precios_generados.json, así que el
+            # rebase no tiene conflictos con commits de código.
+            for intento in 1 2 3; do
+              git pull --rebase origin master && git push && break
+              echo "Push rechazado (intento $intento), reintentando..."
+              sleep 5
+            done
+            git push --dry-run >/dev/null 2>&1 || { echo "No se pudo subir"; exit 1; }
             echo "cambios=true" >> "$GITHUB_OUTPUT"
           fi
 
