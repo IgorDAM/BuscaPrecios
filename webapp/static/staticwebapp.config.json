@@ -6,6 +6,12 @@
       "headers": {
         "Cache-Control": "public, max-age=300, must-revalidate"
       }
+    },
+    {
+      "route": "/catalogo_*.json",
+      "headers": {
+        "Cache-Control": "public, max-age=3600, must-revalidate"
+      }
     }
   ],
   "platform": {

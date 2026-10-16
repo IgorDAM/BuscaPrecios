@@ -226,6 +226,50 @@ async function cargarPreciosEstaticos() {
   return cachePreciosEstaticos;
 }
 
+// Catálogos completos que publica el cron semanal (catalogo_<super>.json).
+// Se descargan una vez por sesión, solo cuando hace falta (sin backend).
+// clave -> catálogo | false (ya se intentó y no hay). Ver catalogo.js.
+const CLAVES_CATALOGO = { Alimerka: "alimerka", Mercadona: "mercadona", Hipercor: "hipercor" };
+const cacheCatalogos = {};
+
+async function cargarCatalogo(nombreSuper) {
+  const clave = CLAVES_CATALOGO[nombreSuper];
+  if (!clave) return false;
+  if (cacheCatalogos[clave] !== undefined) return cacheCatalogos[clave];
+  try {
+    const res = await fetch(`catalogo_${clave}.json`);
+    if (!res.ok) throw new Error(`no hay catalogo_${clave}.json`);
+    const cat = await res.json();
+    if (!cat || !Array.isArray(cat.productos) || !Array.isArray(cat.campos)) throw new Error("catálogo mal formado");
+    cacheCatalogos[clave] = cat;
+  } catch (e) {
+    cacheCatalogos[clave] = false;
+  }
+  return cacheCatalogos[clave];
+}
+
+// Los catálogos se rastrean cada ~3-4 días: pasados 5 días ya conviene avisar.
+const UMBRAL_HORAS_CATALOGO = 24 * 5;
+
+// Rellena con el catálogo completo los productos que la lista habitual del
+// cron no cubre (o cubre sin opciones en este súper). Lo que ya vino del cron
+// (más fresco, cada 6 h) se respeta. `data.generado_en` pasa a ser la fecha
+// más antigua de lo usado, para no aparentar más frescura de la que hay.
+function completarConCatalogo(data, catalogo) {
+  let usado = false;
+  data.resultados.forEach((r) => {
+    if (r.opciones.length > 0) return;
+    r.opciones = buscarEnCatalogo(catalogo, r.producto);
+    productosFueraDeListaCloud.delete(r.producto);
+    usado = true;
+  });
+  if (!usado) return;
+  const delCron = data.generado_en ? new Date(data.generado_en).getTime() : Infinity;
+  const delCatalogo = new Date(catalogo.generado_en).getTime();
+  data.generado_en = delCatalogo <= delCron ? catalogo.generado_en : data.generado_en;
+  data.umbral_horas = UMBRAL_HORAS_CATALOGO;
+}
+
 // Clave para comparar nombres de producto: minúsculas, sin acentos y con los
 // espacios normalizados. Sin esto, "Leche semidesnatada" (con la mayúscula que
 // pone solo el teclado del móvil) no encontraba "leche semidesnatada" en el
@@ -275,14 +319,14 @@ function formatearFecha(iso) {
 
 // "hace 3 h" / "hace 2 días" a partir de una fecha ISO, y si ya es vieja
 // (más de 24 h: el cron falla de vez en cuando) para avisarlo en la UI.
-function antiguedadPrecios(iso) {
+function antiguedadPrecios(iso, umbralHoras = 24) {
   if (!iso) return { texto: "", vieja: false };
   const ms = Date.now() - new Date(iso).getTime();
   if (isNaN(ms)) return { texto: "", vieja: false };
   const horas = Math.max(0, Math.round(ms / 3600000));
   const texto =
     horas < 1 ? "hace menos de 1 h" : horas < 48 ? `hace ${horas} h` : `hace ${Math.round(horas / 24)} días`;
-  return { texto, vieja: horas > 24 };
+  return { texto, vieja: horas > umbralHoras };
 }
 
 // Cómo se ordenan las opciones dentro de cada producto: por lo que
@@ -719,14 +763,17 @@ async function buscarEnSuper(nombre, flags, productos) {
       }
     } catch (errorBackend) {
       // No hay servidor Flask detrás (p.ej. desplegado como sitio
-      // estático en Azure Static Web Apps, sin webapp/app.py): se usan
-      // los precios que publicó el último cron de GitHub Actions en vez
-      // de buscar en directo. Solo cubre la lista habitual definida en
-      // data/lista_compra_habitual.json — un producto fuera de esa lista
-      // simplemente no tendrá opciones aquí.
+      // estático en Azure Static Web Apps, sin webapp/app.py): se usan los
+      // datos que publican los crons de GitHub Actions. Primero los precios
+      // de la lista habitual (cada 6 h) y, para todo lo demás, una búsqueda
+      // libre en el catálogo completo del súper (semanal).
       const estaticos = await cargarPreciosEstaticos();
-      if (!estaticos) throw errorBackend;
-      data = filtrarPreciosEstaticos(estaticos, nombre, productos);
+      const catalogo = await cargarCatalogo(nombre);
+      if (!estaticos && !catalogo) throw errorBackend;
+      data = estaticos
+        ? filtrarPreciosEstaticos(estaticos, nombre, productos)
+        : { resultados: productos.map((p) => ({ producto: p, opciones: [] })), avisos: [], desde_cache: true, generado_en: null };
+      if (catalogo) completarConCatalogo(data, catalogo);
       modoEstatico = true;
       modoEstaticoActivo = true;
     }
@@ -738,7 +785,7 @@ async function buscarEnSuper(nombre, flags, productos) {
     if (aviso) {
       progresoSupers[nombre] = { estado: "error", detalle: aviso.motivo };
     } else {
-      const edad = antiguedadPrecios(data.generado_en);
+      const edad = antiguedadPrecios(data.generado_en, data.umbral_horas);
       const etiquetaModo = modoEstatico
         ? ` · precios de la nube, ${edad.texto} (${formatearFecha(data.generado_en)})${edad.vieja ? " ⚠️ pueden estar desfasados" : ""}`
         : "";
@@ -1050,9 +1097,14 @@ function crearProductoCard(item, seleccion) {
 
   // El paquete más barato no siempre sale mejor al peso: 90 g a 2,30 €
   // es más caro por kilo que 120 g a 2,29 €. Se marcan las dos cosas.
-  const porMedida = item.opciones.filter((o) => o.precio_unidad);
-  const mejorPorMedida =
-    porMedida.length > 1 ? Math.min(...porMedida.map((o) => o.precio_unidad)) : null;
+  // Solo se compara dentro de la misma unidad: un €/kg no es comparable con
+  // un €/L ni con un €/docena (con el catálogo completo salen mezcladas).
+  const mejorPorUnidad = {};
+  item.opciones.filter((o) => o.precio_unidad).forEach((o) => {
+    const g = mejorPorUnidad[o.unidad] || (mejorPorUnidad[o.unidad] = { n: 0, min: Infinity });
+    g.n += 1;
+    g.min = Math.min(g.min, o.precio_unidad);
+  });
 
   const opcionesEl = document.createElement("div");
   opcionesEl.className = "producto-card-opciones";
@@ -1061,7 +1113,8 @@ function crearProductoCard(item, seleccion) {
     const esElegida = seleccion && claveOpcion(seleccion) === claveOpcion(opt);
     const coste = costeDe(opt, item.producto);
     const esMasBarata = coste === min;
-    const esMejorMedida = mejorPorMedida !== null && opt.precio_unidad === mejorPorMedida;
+    const gUnidad = opt.precio_unidad ? mejorPorUnidad[opt.unidad] : null;
+    const esMejorMedida = !!gUnidad && gUnidad.n > 1 && opt.precio_unidad === gUnidad.min;
     fila.className = "opcion-fila" + (esElegida ? " elegida" : "");
     // El precio por kilo/litro es lo que permite comparar de verdad
     // cuando los formatos no coinciden (120 g de jamón frente a 90 g).
