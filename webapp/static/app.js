@@ -506,6 +506,21 @@ function guardarSelecciones(selecciones) {
   localStorage.setItem(LS_SELECCIONES, JSON.stringify(selecciones));
 }
 
+// Productos cuya opción se eligió AUTOMÁTICAMENTE (la más barata) y que la
+// persona todavía no ha confirmado. La más barata de una búsqueda libre
+// casi nunca es exactamente lo que se quiere comprar (ver CLAUDE.md,
+// simulación del ticket), así que se marca para que se revise.
+function cargarAutoElegidos() {
+  try {
+    return JSON.parse(localStorage.getItem("autoElegidos") || "{}");
+  } catch (e) {
+    return {};
+  }
+}
+function guardarAutoElegidos(m) {
+  localStorage.setItem("autoElegidos", JSON.stringify(m));
+}
+
 function claveOpcion(opt) {
   return `${opt.supermercado}|${opt.nombre_real}`;
 }
@@ -803,6 +818,7 @@ function opcionMasBarata(item) {
 
 function preseleccionarBaratos(resultados) {
   const selecciones = cargarSelecciones();
+  const auto = cargarAutoElegidos();
   resultados.forEach((item) => {
     if (item.opciones.length === 0) return;
     const claveActual = selecciones[item.producto]
@@ -812,18 +828,25 @@ function preseleccionarBaratos(resultados) {
       claveActual && item.opciones.some((o) => claveOpcion(o) === claveActual);
     if (!sigueExistiendo) {
       selecciones[item.producto] = opcionMasBarata(item);
+      auto[item.producto] = true;
     }
   });
   guardarSelecciones(selecciones);
+  guardarAutoElegidos(auto);
 }
 
 function elegirLoMasBaratoEnTodo() {
   const selecciones = cargarSelecciones();
+  const auto = cargarAutoElegidos();
   ultimosResultados.forEach((item) => {
     const mejor = opcionMasBarata(item);
-    if (mejor) selecciones[item.producto] = mejor;
+    if (mejor) {
+      selecciones[item.producto] = mejor;
+      auto[item.producto] = true;
+    }
   });
   guardarSelecciones(selecciones);
+  guardarAutoElegidos(auto);
   renderTodo();
 }
 
@@ -971,7 +994,11 @@ function crearProductoCard(item, seleccion) {
   // (marca y nombre real), no solo su precio: si no, no hay forma de
   // saber qué llevas sin desplegar la tarjeta.
   const subtitulo = seleccion
-    ? `<span class="producto-elegido">✓ ${seleccion.marca ? seleccion.marca + " " : ""}${seleccion.nombre_real}</span>`
+    ? `<span class="producto-elegido">✓ ${seleccion.marca ? seleccion.marca + " " : ""}${seleccion.nombre_real}</span>${
+        cargarAutoElegidos()[item.producto]
+          ? ' <span class="producto-auto">⚠ elegida automáticamente (la más barata): revisa que sea lo que buscas</span>'
+          : ""
+      }`
     : `<span class="producto-rango">${item.opciones.length} opciones · ${rangoTexto}</span>`;
 
   header.innerHTML = `
@@ -1062,6 +1089,10 @@ function elegirOpcion(producto, opcion) {
   const selecciones = cargarSelecciones();
   selecciones[producto] = opcion;
   guardarSelecciones(selecciones);
+  // Elegida a mano: ya no hace falta el aviso de "revísala".
+  const auto = cargarAutoElegidos();
+  delete auto[producto];
+  guardarAutoElegidos(auto);
   renderTodo();
 }
 

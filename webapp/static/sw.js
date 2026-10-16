@@ -6,7 +6,7 @@
 // el navegador se quedaba ejecutando un app.js viejo aunque el servidor
 // ya tuviera uno nuevo). La caché solo entra en juego si estás sin red.
 
-const CACHE = "comparasuper-v2";
+const CACHE = "comparasuper-v3";
 const ARCHIVOS_ESTATICOS = ["/", "/style.css", "/app.js", "/manifest.json"];
 
 self.addEventListener("install", (event) => {

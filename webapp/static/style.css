@@ -627,3 +627,10 @@ td.precio-faltante {
   border-radius: 4px;
   white-space: nowrap;
 }
+
+.producto-auto {
+  display: block;
+  font-size: 0.75rem;
+  color: #8a5a15;
+  margin-top: 0.15rem;
+}
