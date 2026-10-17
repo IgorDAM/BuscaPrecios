@@ -232,11 +232,30 @@ async function cargarPreciosEstaticos() {
 const CLAVES_CATALOGO = { Alimerka: "alimerka", Mercadona: "mercadona", Hipercor: "hipercor" };
 const cacheCatalogos = {};
 
+// catalogo.js suele venir del <script> de index.html, pero si el móvil sirve un
+// index.html viejo desde caché (sin esa línea) con un app.js nuevo, la función
+// no existe ("buscarEnCatalogo is not defined"). Se carga entonces a mano.
+let cargaCatalogoJs = null; // una sola carga aunque los 3 súpers la pidan a la vez
+function asegurarCatalogoJs() {
+  if (typeof buscarEnCatalogo === "function") return Promise.resolve();
+  if (!cargaCatalogoJs) {
+    cargaCatalogoJs = new Promise((resolver, rechazar) => {
+      const s = document.createElement("script");
+      s.src = "/catalogo.js";
+      s.onload = resolver;
+      s.onerror = () => { cargaCatalogoJs = null; rechazar(new Error("no se pudo cargar catalogo.js")); };
+      document.head.appendChild(s);
+    });
+  }
+  return cargaCatalogoJs;
+}
+
 async function cargarCatalogo(nombreSuper) {
   const clave = CLAVES_CATALOGO[nombreSuper];
   if (!clave) return false;
   if (cacheCatalogos[clave] !== undefined) return cacheCatalogos[clave];
   try {
+    await asegurarCatalogoJs();
     const res = await fetch(`catalogo_${clave}.json`);
     if (!res.ok) throw new Error(`no hay catalogo_${clave}.json`);
     const cat = await res.json();
