@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-18T10:27:02+00:00",
+  "generado_en": "2026-10-18T15:28:04+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -3500,7 +3500,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Mantequilla sin sal añadida Hacendado",
+          "nombre_real": "Mantequilla con sal Hacendado",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
@@ -3509,7 +3509,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Mantequilla con sal Hacendado",
+          "nombre_real": "Mantequilla sin sal añadida Hacendado",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
@@ -11407,20 +11407,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Anillas de pota a la romana Hacendado ultracongeladas",
-          "marca": "",
-          "precio": 5.25,
-          "unidad": "kg",
-          "precio_unidad": 10.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pescadilla de merluza sin cabeza Hacendado ultracongelada",
           "marca": "",
           "precio": 5.25,
           "unidad": "kg",
           "precio_unidad": 5.25,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Anillas de pota a la romana Hacendado ultracongeladas",
+          "marca": "",
+          "precio": 5.25,
+          "unidad": "kg",
+          "precio_unidad": 10.5,
           "url": ""
         },
         {
@@ -16163,20 +16163,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barritas de cereales y chocolate con leche Hacendado",
-          "marca": "",
-          "precio": 1.55,
-          "unidad": "kg",
-          "precio_unidad": 12.92,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Barritas de cereales muesli y chocolate Hacendado",
           "marca": "",
           "precio": 1.55,
           "unidad": "kg",
           "precio_unidad": 11.23,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Barritas de cereales y chocolate con leche Hacendado",
+          "marca": "",
+          "precio": 1.55,
+          "unidad": "kg",
+          "precio_unidad": 12.92,
           "url": ""
         },
         {
@@ -17086,20 +17086,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 9.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas tostadas Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 1.69,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 9.0,
           "url": ""
         },
         {
@@ -18185,20 +18185,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula descafeinado Hacendado",
-          "marca": "",
-          "precio": 3.25,
-          "unidad": "kg",
-          "precio_unidad": 29.02,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula extra forte Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
           "precio_unidad": 25.39,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café en cápsula descafeinado Hacendado",
+          "marca": "",
+          "precio": 3.25,
+          "unidad": "kg",
+          "precio_unidad": 29.02,
           "url": ""
         },
         {
@@ -22267,15 +22267,6 @@
           "unidad": "ud",
           "precio_unidad": 0.97,
           "url": "https://www.alimerkaonline.es/855105.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "PAPEL HIGIÉNICO SEDA 4 ROLLOS",
-          "marca": "SCOTTEX",
-          "precio": 3.99,
-          "unidad": "ud",
-          "precio_unidad": 1.0,
-          "url": "https://www.alimerkaonline.es/10018887.html"
         },
         {
           "supermercado": "Alimerka",
