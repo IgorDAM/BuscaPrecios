@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-18T02:59:07+00:00",
+  "generado_en": "2026-10-18T10:27:02+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -3003,15 +3003,6 @@
           "url": "https://www.alimerkaonline.es/10022871.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "queso rallado en filatto especial pasta bolsa 80 g - El Caserio",
-          "marca": "el caserio",
-          "precio": 1.6,
-          "unidad": "kg",
-          "precio_unidad": 20.0,
-          "url": "https://www.hipercor.es/supermercado/B001018395400023-el-caserio-queso-rallado-en-filatto-especial-pasta-bolsa-80-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Queso rallado mozzarella pizza-Roma de vaca Hacendado",
           "marca": "",
@@ -3341,15 +3332,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018389700065-gran-capitan-queso-curado-mezcla-elaborado-con-leche-pasteurizada-cortadas-cuna-210-g/"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "queso curado puro de oveja madurado graso elaborado con leche cruda cuña 250 g - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 6.4,
-          "unidad": "kg",
-          "precio_unidad": 25.6,
-          "url": "https://www.hipercor.es/supermercado/B001018389400310-el-corte-ingles-selection-queso-curado-puro-de-oveja-madurado-graso-elaborado-con-leche-cruda-cuna-250-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Queso curado DOP manchego de oveja Hacendado",
           "marca": "",
@@ -3411,6 +3393,15 @@
           "unidad": "kg",
           "precio_unidad": 11.1,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "queso curado mezcla madurado elaborado con leche pasteurizada pieza 3 kg peso aproximado - Garcia Baquero",
+          "marca": "garcia baquero",
+          "precio": 20.9,
+          "unidad": "kg",
+          "precio_unidad": 6.97,
+          "url": "https://www.hipercor.es/supermercado/B001018325300053-garcia-baquero-queso-curado-mezcla-madurado-elaborado-con-leche-pasteurizada-pieza-3-kg-peso-aproximado/"
         },
         {
           "supermercado": "Hipercor",
@@ -7984,6 +7975,15 @@
     {
       "producto": "garbanzos cocidos",
       "opciones": [
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "GARBANZOS COCIDOS 300 G.",
+          "marca": "LUENGO",
+          "precio": 0.69,
+          "unidad": "kg",
+          "precio_unidad": 3.45,
+          "url": "https://www.alimerkaonline.es/10024476.html"
+        },
         {
           "supermercado": "Mercadona",
           "nombre_real": "Garbanzo cocido Hacendado",
@@ -13346,15 +13346,6 @@
           "unidad": "kg",
           "precio_unidad": 2.35,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "cebolla francesa ideal para hornear bolsa 500 g - Duart Blay",
-          "marca": "duart blay",
-          "precio": 2.45,
-          "unidad": "kg",
-          "precio_unidad": 4.9,
-          "url": "https://www.hipercor.es/supermercado/B001018176102608-duart-blay-cebolla-francesa-ideal-para-hornear-bolsa-500-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -20221,24 +20212,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE COLA SABOR LIMA 33 CL.",
-          "marca": "PEPSI",
-          "precio": 0.69,
-          "unidad": "L",
-          "precio_unidad": 2.09,
-          "url": "https://www.alimerkaonline.es/10017256.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE COLA ZERO CAFEÍNA 33 CL.",
-          "marca": "PEPSI",
-          "precio": 0.69,
-          "unidad": "L",
-          "precio_unidad": 2.09,
-          "url": "https://www.alimerkaonline.es/10012185.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "REFRESCO DE COLA CERO CERO 2 LITROS",
           "marca": "ALIMERKA",
           "precio": 0.75,
@@ -20254,6 +20227,24 @@
           "unidad": "L",
           "precio_unidad": 0.38,
           "url": "https://www.alimerkaonline.es/10011116.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE COLA SABOR LIMA 33 CL.",
+          "marca": "PEPSI",
+          "precio": 0.79,
+          "unidad": "L",
+          "precio_unidad": 2.39,
+          "url": "https://www.alimerkaonline.es/10017256.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE COLA ZERO CAFEÍNA 33 CL.",
+          "marca": "PEPSI",
+          "precio": 0.79,
+          "unidad": "L",
+          "precio_unidad": 2.39,
+          "url": "https://www.alimerkaonline.es/10012185.html"
         },
         {
           "supermercado": "Mercadona",
