@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-19T12:06:20+00:00",
+  "generado_en": "2026-10-19T22:05:02+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -11407,20 +11407,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Pescadilla de merluza sin cabeza Hacendado ultracongelada",
-          "marca": "",
-          "precio": 5.25,
-          "unidad": "kg",
-          "precio_unidad": 5.25,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Anillas de pota a la romana Hacendado ultracongeladas",
           "marca": "",
           "precio": 5.25,
           "unidad": "kg",
           "precio_unidad": 10.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pescadilla de merluza sin cabeza Hacendado ultracongelada",
+          "marca": "",
+          "precio": 5.25,
+          "unidad": "kg",
+          "precio_unidad": 5.25,
           "url": ""
         },
         {
@@ -12944,15 +12944,6 @@
           "precio": 2.1,
           "unidad": "kg",
           "precio_unidad": 2.8,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Patatas prefritas Waffle con piel Hacendado ultracongeladas",
-          "marca": "",
-          "precio": 2.1,
-          "unidad": "kg",
-          "precio_unidad": 3.5,
           "url": ""
         },
         {
@@ -16154,20 +16145,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barritas de cereales muesli y chocolate Hacendado",
-          "marca": "",
-          "precio": 1.55,
-          "unidad": "kg",
-          "precio_unidad": 11.23,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Barritas de cereales y chocolate con leche Hacendado",
           "marca": "",
           "precio": 1.55,
           "unidad": "kg",
           "precio_unidad": 12.92,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Barritas de cereales muesli y chocolate Hacendado",
+          "marca": "",
+          "precio": 1.55,
+          "unidad": "kg",
+          "precio_unidad": 11.23,
           "url": ""
         },
         {
@@ -18901,20 +18892,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Cola de caballo Hacendado",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 35.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Infusión Hinojo Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
           "precio_unidad": 26.25,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Infusión Cola de caballo Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 35.0,
           "url": ""
         },
         {
@@ -23005,7 +22996,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
+          "nombre_real": "Suavizante ropa Violets Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -23014,7 +23005,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Suavizante ropa Violets Bosque Verde concentrado",
+          "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -23347,20 +23338,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Detergente ropa blanca y de color Bosque Verde en polvo",
-          "marca": "",
-          "precio": 6.9,
-          "unidad": "kg",
-          "precio_unidad": 2.51,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Detergente ropa todo en 1 Ariel Pods en cápsulas",
           "marca": "",
           "precio": 6.9,
           "unidad": "kg",
           "precio_unidad": 19.84,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Detergente ropa blanca y de color Bosque Verde en polvo",
+          "marca": "",
+          "precio": 6.9,
+          "unidad": "kg",
+          "precio_unidad": 2.51,
           "url": ""
         },
         {
@@ -26411,7 +26402,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Repair & Protect Sensodyne",
+          "nombre_real": "Dentífrico reparación activa de encías Parodontax menta fresca",
           "marca": "",
           "precio": 4.95,
           "unidad": "L",
@@ -26420,7 +26411,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico reparación activa de encías Parodontax menta fresca",
+          "nombre_real": "Dentífrico Repair & Protect Sensodyne",
           "marca": "",
           "precio": 4.95,
           "unidad": "L",
@@ -26921,6 +26912,15 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Desodorante stick Cobalt Dry Rexona antitranspirante",
+          "marca": "",
+          "precio": 2.75,
+          "unidad": "L",
+          "precio_unidad": 55.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Desodorante stick antibacteriano Rexona antitranspirante",
           "marca": "",
           "precio": 2.75,
           "unidad": "L",
