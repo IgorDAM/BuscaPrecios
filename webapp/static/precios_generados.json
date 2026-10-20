@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-20T10:58:58+00:00",
+  "generado_en": "2026-10-20T16:26:56+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -11398,20 +11398,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Anillas de pota a la romana Hacendado ultracongeladas",
-          "marca": "",
-          "precio": 5.25,
-          "unidad": "kg",
-          "precio_unidad": 10.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pescadilla de merluza sin cabeza Hacendado ultracongelada",
           "marca": "",
           "precio": 5.25,
           "unidad": "kg",
           "precio_unidad": 5.25,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Anillas de pota a la romana Hacendado ultracongeladas",
+          "marca": "",
+          "precio": 5.25,
+          "unidad": "kg",
+          "precio_unidad": 10.5,
           "url": ""
         },
         {
@@ -15875,20 +15875,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas Digestive chocolate con leche Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 4.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 9.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas Digestive chocolate con leche Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 4.5,
           "url": ""
         },
         {
@@ -16897,20 +16897,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas tostadas Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 1.69,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 9.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas tostadas Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 1.69,
           "url": ""
         },
         {
@@ -22807,7 +22807,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Suavizante ropa Violets Bosque Verde concentrado",
+          "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -22816,7 +22816,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
+          "nombre_real": "Suavizante ropa Violets Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -27392,15 +27392,6 @@
           "url": "https://www.hipercor.es/supermercado/B001028022506324-huggies-panales-hipoalergenicos-extra-care-con-cuidado-de-la-piel-4-en-1-talla-5-11-25-kg-bolsa-28-unidades/"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Pañales bebé talla 5 Deliplus de 14-18 kg",
-          "marca": "",
-          "precio": 17.5,
-          "unidad": "kg",
-          "precio_unidad": 0.06,
-          "url": ""
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "pañales hipoalergénicos Extra Care con cuidado de la piel 4 en 1 talla 5 (12-17 kg) bolsa 24 unidades - Huggies",
           "marca": "huggies",
@@ -27452,6 +27443,15 @@
           "precio": 19.0,
           "unidad": "kg",
           "precio_unidad": 0.07,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañales bebé talla 5 Deliplus de 14-18 kg",
+          "marca": "",
+          "precio": 20.0,
+          "unidad": "kg",
+          "precio_unidad": 0.06,
           "url": ""
         },
         {
