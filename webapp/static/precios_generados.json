@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-21T03:16:54+00:00",
+  "generado_en": "2026-10-21T11:12:48+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -4528,6 +4528,24 @@
           "precio": 0.7,
           "unidad": "kg",
           "precio_unidad": 2.8,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Barra de pan espiga",
+          "marca": "",
+          "precio": 0.78,
+          "unidad": "kg",
+          "precio_unidad": 2.6,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Barra de pan espiga rebanado",
+          "marca": "",
+          "precio": 0.78,
+          "unidad": "kg",
+          "precio_unidad": 2.6,
           "url": ""
         },
         {
@@ -13055,24 +13073,6 @@
           "url": ""
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "PATATA ESPECIAL PARA FREIR MALLA DE 2.5 KILOS",
-          "marca": "SABROSONA",
-          "precio": 3.45,
-          "unidad": "kg",
-          "precio_unidad": 1.38,
-          "url": "https://www.alimerkaonline.es/550218.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "PATATA ESPECIAL PARA COCER MALLA DE 2.5 KILOS",
-          "marca": "SABROSONA",
-          "precio": 3.45,
-          "unidad": "kg",
-          "precio_unidad": 1.38,
-          "url": "https://www.alimerkaonline.es/550200.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Patatas fritas con carne kebab y salsa Hacendado",
           "marca": "",
@@ -13080,6 +13080,24 @@
           "unidad": "kg",
           "precio_unidad": 9.46,
           "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PATATA ESPECIAL PARA FREIR MALLA DE 2.5 KILOS",
+          "marca": "SABROSONA",
+          "precio": 3.65,
+          "unidad": "kg",
+          "precio_unidad": 1.46,
+          "url": "https://www.alimerkaonline.es/550218.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PATATA ESPECIAL PARA COCER MALLA DE 2.5 KILOS",
+          "marca": "SABROSONA",
+          "precio": 3.65,
+          "unidad": "kg",
+          "precio_unidad": 1.46,
+          "url": "https://www.alimerkaonline.es/550200.html"
         },
         {
           "supermercado": "Alimerka",
@@ -13130,9 +13148,9 @@
           "supermercado": "Alimerka",
           "nombre_real": "PATATA MALLA DE 2,5 KILOS",
           "marca": "SABROSONA",
-          "precio": 4.45,
+          "precio": 4.65,
           "unidad": "kg",
-          "precio_unidad": 1.78,
+          "precio_unidad": 1.86,
           "url": "https://www.alimerkaonline.es/500092.html"
         },
         {
@@ -13736,15 +13754,6 @@
           "url": ""
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "TOMATE FRITO CASERO 340 GRS.",
-          "marca": "ALIMERKA",
-          "precio": 1.07,
-          "unidad": "kg",
-          "precio_unidad": 3.15,
-          "url": "https://www.alimerkaonline.es/8000720.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Tomate frito sin azúcares añadidos Hacendado",
           "marca": "",
@@ -14046,6 +14055,15 @@
           "nombre_real": "Tomate ensalada",
           "marca": "",
           "precio": 2.6,
+          "unidad": "kg",
+          "precio_unidad": 1.3,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Tomates negros",
+          "marca": "",
+          "precio": 2.94,
           "unidad": "kg",
           "precio_unidad": 1.3,
           "url": ""
@@ -14689,6 +14707,15 @@
           "unidad": "kg",
           "precio_unidad": 4.78,
           "url": "https://www.hipercor.es/supermercado/B001018165300213-el-lancero-lechuga-cos-corazon-bandeja-2-unidades/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHUGA TROCADERO BANDEJA DE 2 UDS.",
+          "marca": "PRIMAFLOR",
+          "precio": 2.55,
+          "unidad": "kg",
+          "precio_unidad": 4.25,
+          "url": "https://www.alimerkaonline.es/550804.html"
         }
       ]
     },
@@ -18748,20 +18775,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Hinojo Hacendado",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 26.25,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Infusión Cola de caballo Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
           "precio_unidad": 35.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Infusión Hinojo Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 26.25,
           "url": ""
         },
         {
@@ -22099,15 +22126,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "PAPEL HIGIÉNICO SEDA 4 ROLLOS",
-          "marca": "SCOTTEX",
-          "precio": 3.99,
-          "unidad": "ud",
-          "precio_unidad": 1.0,
-          "url": "https://www.alimerkaonline.es/10018887.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "PAPEL HIGIÉNICO ORIGINAL 12 ROLLOS",
           "marca": "SCOTTEX",
           "precio": 3.99,
@@ -23475,6 +23493,15 @@
           "unidad": "L",
           "precio_unidad": 5.57,
           "url": "https://www.hipercor.es/supermercado/B001028012205366-lenor-suavizante-concentrado-aire-fresco-frescor-alpino-botella-50-dosis/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "suavizante concentrado Aire Fresco Flores Silvestres botella 50 dosis - Lenor",
+          "marca": "lenor",
+          "precio": 3.89,
+          "unidad": "L",
+          "precio_unidad": 5.57,
+          "url": "https://www.hipercor.es/supermercado/B001028012205390-lenor-suavizante-concentrado-aire-fresco-flores-silvestres-botella-50-dosis/"
         },
         {
           "supermercado": "Alimerka",
@@ -27124,6 +27151,15 @@
           "unidad": "100 ml.",
           "precio_unidad": 3.0,
           "url": "https://www.hipercor.es/supermercado/B001055754802779-dove-men-desodorante--care-advanced-invisible-dry-antimanchas-antitranspirante-72h-spray-150-ml/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "DESODORANTE ZONA BAJA PERA Y MADERA 100 ML.",
+          "marca": "AXE",
+          "precio": 5.35,
+          "unidad": "L",
+          "precio_unidad": 53.5,
+          "url": "https://www.alimerkaonline.es/10031076.html"
         }
       ]
     },
