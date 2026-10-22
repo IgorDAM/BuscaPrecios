@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-22T11:20:19+00:00",
+  "generado_en": "2026-10-22T16:49:45+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -4577,24 +4577,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barra de pan espiga",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 2.62,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Barra de pan espiga rebanado",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 2.62,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "3 Barras de pan",
           "marca": "",
           "precio": 1.19,
@@ -5249,7 +5231,7 @@
       "opciones": [
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Arroz cocido redondo Sabroz",
+          "nombre_real": "Arroz cocido integral Sabroz",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -5258,7 +5240,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Arroz cocido integral Sabroz",
+          "nombre_real": "Arroz cocido redondo Sabroz",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -8472,15 +8454,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018006601274-el-corte-ingles-atun-en-aceite-de-oliva-pack-3-lata-60-g-neto-escurrido/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "ATÚN CLARO EN ACEITE DE GIRASOL 156 G.",
-          "marca": "CALVO",
-          "precio": 2.69,
-          "unidad": "kg",
-          "precio_unidad": 17.24,
-          "url": "https://www.alimerkaonline.es/10019770.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Atún claro en aceite de girasol Hacendado",
           "marca": "",
@@ -8614,6 +8587,15 @@
           "unidad": "kg",
           "precio_unidad": 12.89,
           "url": "https://www.hipercor.es/supermercado/B001018013200847-el-corte-ingles-atun-claro-en-aceite-de-girasol-pack-6-lata-80-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
+          "marca": "FANTA",
+          "precio": 4.62,
+          "unidad": "L",
+          "precio_unidad": 2.33,
+          "url": "https://www.alimerkaonline.es/10015191.html"
         },
         {
           "supermercado": "Alimerka",
@@ -9069,15 +9051,6 @@
           "unidad": "kg",
           "precio_unidad": 44.5,
           "url": "https://www.hipercor.es/supermercado/B001018016500326-ortiz-sardinas-en-aceite-de-oliva-a-la-antigua-lata-100-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
-          "marca": "FANTA",
-          "precio": 4.62,
-          "unidad": "L",
-          "precio_unidad": 2.33,
-          "url": "https://www.alimerkaonline.es/10015191.html"
         }
       ]
     },
@@ -18050,16 +18023,16 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café con leche en cápsula Hacendado",
+          "nombre_real": "Café en cápsula forte Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
-          "precio_unidad": 21.16,
+          "precio_unidad": 29.02,
           "url": ""
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula forte Hacendado",
+          "nombre_real": "Café en cápsula descafeinado Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
@@ -18077,11 +18050,11 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula descafeinado Hacendado",
+          "nombre_real": "Café con leche en cápsula Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
-          "precio_unidad": 29.02,
+          "precio_unidad": 21.16,
           "url": ""
         },
         {
@@ -18149,20 +18122,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café con leche en cápsula descafeinado Hacendado",
-          "marca": "",
-          "precio": 3.35,
-          "unidad": "kg",
-          "precio_unidad": 22.04,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café cortado en cápsula Hacendado",
           "marca": "",
           "precio": 3.35,
           "unidad": "kg",
           "precio_unidad": 36.1,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café con leche en cápsula descafeinado Hacendado",
+          "marca": "",
+          "precio": 3.35,
+          "unidad": "kg",
+          "precio_unidad": 22.04,
           "url": ""
         },
         {
@@ -18194,15 +18167,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula extra fuerte Hacendado",
-          "marca": "",
-          "precio": 3.8,
-          "unidad": "kg",
-          "precio_unidad": 36.54,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula ristretto Hacendado",
           "marca": "",
           "precio": 3.8,
@@ -18213,6 +18177,15 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula espresso Hacendado",
+          "marca": "",
+          "precio": 3.8,
+          "unidad": "kg",
+          "precio_unidad": 36.54,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café en cápsula extra fuerte Hacendado",
           "marca": "",
           "precio": 3.8,
           "unidad": "kg",
@@ -18383,20 +18356,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula ristretto napoli Dolce Gusto",
-          "marca": "",
-          "precio": 4.95,
-          "unidad": "kg",
-          "precio_unidad": 38.67,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café con leche en cápsula Dolce Gusto",
           "marca": "",
           "precio": 4.95,
           "unidad": "kg",
           "precio_unidad": 30.94,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café en cápsula ristretto napoli Dolce Gusto",
+          "marca": "",
+          "precio": 4.95,
+          "unidad": "kg",
+          "precio_unidad": 38.67,
           "url": ""
         },
         {
@@ -18865,7 +18838,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Cúrcuma Hacendado con manzana y canela",
+          "nombre_real": "Infusión Cúrcuma Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
@@ -26375,7 +26348,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Repair & Protect Sensodyne",
+          "nombre_real": "Dentífrico reparación activa de encías Parodontax menta fresca",
           "marca": "",
           "precio": 4.95,
           "unidad": "L",
@@ -26384,7 +26357,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico reparación activa de encías Parodontax menta fresca",
+          "nombre_real": "Dentífrico Repair & Protect Sensodyne",
           "marca": "",
           "precio": 4.95,
           "unidad": "L",
