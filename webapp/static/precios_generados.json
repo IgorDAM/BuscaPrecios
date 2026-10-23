@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-23T11:04:13+00:00",
+  "generado_en": "2026-10-23T16:30:29+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -25,12 +25,12 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "leche entera de Asturias brik 1 l - El Corte Ingles",
+          "nombre_real": "leche entera brik 1 l - El Corte Ingles",
           "marca": "el corte ingles",
           "precio": 0.96,
           "unidad": "L",
           "precio_unidad": 0.96,
-          "url": "https://www.hipercor.es/supermercado/B001020616500045-el-corte-ingles-leche-entera-de-asturias-brik-1-l/"
+          "url": "https://www.hipercor.es/supermercado/B001020616500045-el-corte-ingles-leche-entera-brik-1-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -426,12 +426,12 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "leche semidesnatada de Asturias brik 1 l - El Corte Ingles",
+          "nombre_real": "leche semidesnatada brik 1 l - El Corte Ingles",
           "marca": "el corte ingles",
           "precio": 0.83,
           "unidad": "L",
           "precio_unidad": 0.83,
-          "url": "https://www.hipercor.es/supermercado/B001020616600043-el-corte-ingles-leche-semidesnatada-de-asturias-brik-1-l/"
+          "url": "https://www.hipercor.es/supermercado/B001020616600043-el-corte-ingles-leche-semidesnatada-brik-1-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -935,12 +935,12 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "leche desnatada de Asturias brik 1 l - El Corte Ingles",
+          "nombre_real": "leche desnatada brik 1 l - El Corte Ingles",
           "marca": "el corte ingles",
           "precio": 0.81,
           "unidad": "L",
           "precio_unidad": 0.81,
-          "url": "https://www.hipercor.es/supermercado/B001020616700033-el-corte-ingles-leche-desnatada-de-asturias-brik-1-l/"
+          "url": "https://www.hipercor.es/supermercado/B001020616700033-el-corte-ingles-leche-desnatada-brik-1-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -2765,7 +2765,7 @@
       "opciones": [
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor limón Hacendado",
+          "nombre_real": "Yogur sabor macedonia Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -2774,7 +2774,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor macedonia Hacendado",
+          "nombre_real": "Yogur sabor limón Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -9087,15 +9087,6 @@
           "unidad": "kg",
           "precio_unidad": 44.5,
           "url": "https://www.hipercor.es/supermercado/B001018016500326-ortiz-sardinas-en-aceite-de-oliva-a-la-antigua-lata-100-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "REFRESCO DE NARANJA ZERO 33 CL. PACK 6",
-          "marca": "FANTA",
-          "precio": 4.62,
-          "unidad": "L",
-          "precio_unidad": 2.33,
-          "url": "https://www.alimerkaonline.es/10015191.html"
         }
       ]
     },
@@ -18766,6 +18757,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Infusión quema grasas Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 35.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Infusión Relax Hacendado",
           "marca": "",
           "precio": 1.05,
@@ -18785,15 +18785,6 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Infusión Cola de caballo Hacendado",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 35.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Infusión quema grasas Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -26069,7 +26060,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Encías Protect Deliplus",
+          "nombre_real": "Dentífrico Sensitive Deliplus con hidroxiapatita",
           "marca": "",
           "precio": 1.7,
           "unidad": "L",
@@ -26078,7 +26069,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Sensitive Deliplus con hidroxiapatita",
+          "nombre_real": "Dentífrico Encías Protect Deliplus",
           "marca": "",
           "precio": 1.7,
           "unidad": "L",
@@ -27555,20 +27546,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Pañales bebé talla 6 Dodot de 13-18 kg",
-          "marca": "",
-          "precio": 18.95,
-          "unidad": "kg",
-          "precio_unidad": 1.05,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pañales bebé talla 4 Dodot de 9-14 kg",
           "marca": "",
           "precio": 18.95,
           "unidad": "kg",
           "precio_unidad": 1.35,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañales bebé talla 6 Dodot de 13-18 kg",
+          "marca": "",
+          "precio": 18.95,
+          "unidad": "kg",
+          "precio_unidad": 1.05,
           "url": ""
         },
         {
