@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-24T15:25:24+00:00",
+  "generado_en": "2026-10-24T20:16:43+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -15902,20 +15902,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas Digestive chocolate con leche Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 4.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 9.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas Digestive chocolate con leche Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 4.5,
           "url": ""
         },
         {
