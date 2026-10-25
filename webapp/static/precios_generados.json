@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-25T15:35:24+00:00",
+  "generado_en": "2026-10-25T20:36:56+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -1621,15 +1621,6 @@
           "unidad": "L",
           "precio_unidad": 1.08,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "Leche entera sin lactosa brik 1 l - Pascual",
-          "marca": "pascual",
-          "precio": 1.65,
-          "unidad": "L",
-          "precio_unidad": 1.65,
-          "url": "https://www.hipercor.es/supermercado/B001020616400097-pascual-leche-entera-sin-lactosa-brik-1-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -3314,6 +3305,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018389700065-gran-capitan-queso-curado-mezcla-elaborado-con-leche-pasteurizada-cortadas-cuna-210-g/"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "queso curado puro de oveja madurado graso elaborado con leche cruda cuña 250 g - El Corte Ingles Selection",
+          "marca": "el corte ingles selection",
+          "precio": 6.4,
+          "unidad": "kg",
+          "precio_unidad": 25.6,
+          "url": "https://www.hipercor.es/supermercado/B001018389400310-el-corte-ingles-selection-queso-curado-puro-de-oveja-madurado-graso-elaborado-con-leche-cruda-cuna-250-g/"
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "QUESO CURADO 520 G.",
           "marca": "SAN VICENTE",
@@ -3366,15 +3366,6 @@
           "unidad": "kg",
           "precio_unidad": 16.5,
           "url": "https://www.alimerkaonline.es/10023263.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "queso curado mezcla elaborado con leche cruda peso aproximado pieza 3,1 kg - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 17.5,
-          "unidad": "kg",
-          "precio_unidad": 5.65,
-          "url": "https://www.hipercor.es/supermercado/B001018325300350-el-corte-ingles-selection-queso-curado-mezcla-elaborado-con-leche-cruda-peso-aproximado-pieza-31-kg/"
         },
         {
           "supermercado": "Hipercor",
@@ -10583,21 +10574,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "chorizo dulce 100% natural sin gluten sin lactosa pieza 250 g - Palacios",
-          "marca": "palacios",
-          "precio": 3.75,
-          "unidad": "kg",
-          "precio_unidad": 15.0,
-          "url": "https://www.hipercor.es/supermercado/B001018386800041-palacios-chorizo-dulce-100-natural-sin-gluten-sin-lactosa-pieza-250-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "chorizo picante 100% natural sin gluten sin lactosa pieza 250 g - Palacios",
           "marca": "palacios",
           "precio": 3.75,
           "unidad": "kg",
           "precio_unidad": 15.0,
           "url": "https://www.hipercor.es/supermercado/B001018386800066-palacios-chorizo-picante-100-natural-sin-gluten-sin-lactosa-pieza-250-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "chorizo dulce 100% natural sin gluten sin lactosa pieza 250 g - Palacios",
+          "marca": "palacios",
+          "precio": 3.75,
+          "unidad": "kg",
+          "precio_unidad": 15.0,
+          "url": "https://www.hipercor.es/supermercado/B001018386800041-palacios-chorizo-dulce-100-natural-sin-gluten-sin-lactosa-pieza-250-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -14007,21 +13998,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "tomate cherry rama praliné tarrina 200 g - San Lucar",
-          "marca": "san lucar",
-          "precio": 2.95,
-          "unidad": "kg",
-          "precio_unidad": 14.75,
-          "url": "https://www.hipercor.es/supermercado/B001018166301137-san-lucar-tomate-cherry-rama-praline-tarrina-200-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "tomate cherry rama tarrina 200 g - Divino Imperial",
           "marca": "divino imperial",
           "precio": 2.95,
           "unidad": "kg",
           "precio_unidad": 14.75,
           "url": "https://www.hipercor.es/supermercado/B001018166301715-divino-imperial-tomate-cherry-rama-tarrina-200-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate cherry rama praliné tarrina 200 g - San Lucar",
+          "marca": "san lucar",
+          "precio": 2.95,
+          "unidad": "kg",
+          "precio_unidad": 14.75,
+          "url": "https://www.hipercor.es/supermercado/B001018166301137-san-lucar-tomate-cherry-rama-praline-tarrina-200-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -18508,6 +18499,15 @@
           "url": "https://www.hipercor.es/supermercado/B001020604603561-lor-espresso-cafe-colombia-andes-estuche-20-capsulas-compatibles-con-maquinas-nespresso/"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "café Barista intensidad 13 estuche 20 cápsulas - L'or Espresso",
+          "marca": "l'or espresso",
+          "precio": 7.89,
+          "unidad": "kg",
+          "precio_unidad": 75.87,
+          "url": "https://www.hipercor.es/supermercado/B001020604604403-lor-espresso-cafe-barista-intensidad-13-estuche-20-capsulas/"
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "CAFÉ COLOMBIA 20 CAPSULAS",
           "marca": "L'OR",
@@ -18560,15 +18560,6 @@
           "unidad": "kg",
           "precio_unidad": 28.5,
           "url": "https://www.hipercor.es/supermercado/B001020605100963-nescafe-dolce-gusto-cafe-con-leche-decaffeinato-seleccion-robusta-envase-30-capsulas/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "café espresso descafeinado intenso de Colombia y Vietnam intensidad 7 estuche 30 cápsulas - Nescafe Dolce Gusto",
-          "marca": "nescafe dolce gusto",
-          "precio": 8.55,
-          "unidad": "kg",
-          "precio_unidad": 40.71,
-          "url": "https://www.hipercor.es/supermercado/B001020605100609-nescafe-dolce-gusto-cafe-espresso-descafeinado-intenso-de-colombia-y-vietnam-intensidad-7-estuche-30-capsulas/"
         },
         {
           "supermercado": "Alimerka",
@@ -19472,6 +19463,15 @@
           "url": "https://www.alimerkaonline.es/764069.html"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "agua mineral natural botella 2 l - Font Vella",
+          "marca": "font vella",
+          "precio": 1.12,
+          "unidad": "L",
+          "precio_unidad": 0.56,
+          "url": "https://www.hipercor.es/supermercado/B001018630000679-font-vella-agua-mineral-natural-botella-2-l/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Agua mineral grande Fontébil",
           "marca": "",
@@ -19515,15 +19515,6 @@
           "unidad": "L",
           "precio_unidad": 0.52,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "agua mineral natural del manantial Monte Pinos garrafa 5 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.57,
-          "unidad": "L",
-          "precio_unidad": 0.31,
-          "url": "https://www.hipercor.es/supermercado/B001018630400499-el-corte-ingles-agua-mineral-natural-del-manantial-monte-pinos-garrafa-5-l/"
         },
         {
           "supermercado": "Mercadona",
