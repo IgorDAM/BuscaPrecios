@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-26T12:18:14+00:00",
+  "generado_en": "2026-10-26T22:21:31+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -2747,7 +2747,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor limón Hacendado",
+          "nombre_real": "Yogur sabor fresa Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -2756,7 +2756,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor fresa Hacendado",
+          "nombre_real": "Yogur sabor limón Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -3473,7 +3473,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Mantequilla sin sal añadida Hacendado",
+          "nombre_real": "Mantequilla con sal Hacendado",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
@@ -3482,7 +3482,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Mantequilla con sal Hacendado",
+          "nombre_real": "Mantequilla sin sal añadida Hacendado",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
@@ -22640,42 +22640,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "servilletas de papel compostables 3 capas  verdes 33x33 cm paquete 30 unidades - Gabbiano",
-          "marca": "gabbiano",
-          "precio": 2.95,
-          "unidad": "Unidad",
-          "precio_unidad": 0.1,
-          "url": "https://www.hipercor.es/supermercado/B001028022308135-gabbiano-servilletas-de-papel-compostables-3-capas-verdes-33x33-cm-paquete-30-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas de papel compostables 3 capas  naranjas 33x33 cm paquete 30 unidades - Gabbiano",
-          "marca": "gabbiano",
-          "precio": 2.95,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001028022308143-gabbiano-servilletas-de-papel-compostables-3-capas-naranjas-33x33-cm-paquete-30-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilleta de papel 3 capas azul 33 x 33  cm paquete 30 unidades - Gabbiano",
-          "marca": "gabbiano",
-          "precio": 2.95,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001028022308168-gabbiano-servilleta-de-papel-3-capas-azul-33-x-33-cm-paquete-30-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "servilletas de papel compostables 3 capas  rosas 33x33 cm paquete 30 unidades - Gabbiano",
-          "marca": "gabbiano",
-          "precio": 2.95,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001028022308150-gabbiano-servilletas-de-papel-compostables-3-capas-rosas-33x33-cm-paquete-30-unidades/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "servilletas decoradas Frozen 2 capas 33x33 paquete 20 unidades - Procos",
           "marca": "procos",
           "precio": 2.95,
@@ -22924,7 +22888,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Perfumador ropa Dahlía Bosque Verde",
+          "nombre_real": "Perfumador ropa Bosque Verde intensificador de fragancia",
           "marca": "",
           "precio": 3.25,
           "unidad": "L",
@@ -22933,7 +22897,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Perfumador ropa Bosque Verde intensificador de fragancia",
+          "nombre_real": "Perfumador ropa Dahlía Bosque Verde",
           "marca": "",
           "precio": 3.25,
           "unidad": "L",
@@ -27330,20 +27294,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Pañal junior braguita noche Deliplus de 27-57 kg",
-          "marca": "",
-          "precio": 10.65,
-          "unidad": "kg",
-          "precio_unidad": 0.19,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pañal junior braguita noche Deliplus de 17-30 kg",
           "marca": "",
           "precio": 10.65,
           "unidad": "kg",
           "precio_unidad": 0.36,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañal junior braguita noche Deliplus de 27-57 kg",
+          "marca": "",
+          "precio": 10.65,
+          "unidad": "kg",
+          "precio_unidad": 0.19,
           "url": ""
         },
         {
