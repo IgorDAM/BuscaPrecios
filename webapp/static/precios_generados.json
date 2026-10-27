@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-27T11:40:17+00:00",
+  "generado_en": "2026-10-27T17:31:04+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -2738,6 +2738,15 @@
       "opciones": [
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Yogur sabor limón Hacendado",
+          "marca": "",
+          "precio": 0.75,
+          "unidad": "kg",
+          "precio_unidad": 1.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Yogur sabor macedonia Hacendado",
           "marca": "",
           "precio": 0.75,
@@ -2748,15 +2757,6 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Yogur sabor fresa Hacendado",
-          "marca": "",
-          "precio": 0.75,
-          "unidad": "kg",
-          "precio_unidad": 1.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Yogur sabor limón Hacendado",
           "marca": "",
           "precio": 0.75,
           "unidad": "kg",
@@ -3473,7 +3473,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Mantequilla con sal Hacendado",
+          "nombre_real": "Mantequilla sin sal añadida Hacendado",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
@@ -3482,7 +3482,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Mantequilla sin sal añadida Hacendado",
+          "nombre_real": "Mantequilla con sal Hacendado",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
@@ -12605,15 +12605,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "patatas fritas onduladas sabor jamón sin gluten bolsa 150 g - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.25,
-          "unidad": "kg",
-          "precio_unidad": 8.01,
-          "url": "https://www.hipercor.es/supermercado/B001018009800238-el-corte-ingles-patatas-fritas-onduladas-sabor-jamon-sin-gluten-bolsa-150-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Patatas fritas onduladas sabor jamón serrano Hacendado",
           "marca": "",
@@ -15911,20 +15902,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 9.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Digestive chocolate con leche Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 4.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 9.0,
           "url": ""
         },
         {
@@ -16933,6 +16924,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Galletas Digestive chocolate con leche Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 4.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
           "marca": "",
           "precio": 1.35,
@@ -16947,15 +16947,6 @@
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 1.69,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Galletas Digestive chocolate con leche Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 4.5,
           "url": ""
         },
         {
@@ -21536,20 +21527,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Vino tinto crianza Comportillo DO Rioja",
-          "marca": "",
-          "precio": 2.9,
-          "unidad": "L",
-          "precio_unidad": 3.87,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Vino tinto Dominio de Borgia",
           "marca": "",
           "precio": 2.9,
           "unidad": "L",
           "precio_unidad": 1.45,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Vino tinto crianza Comportillo DO Rioja",
+          "marca": "",
+          "precio": 2.9,
+          "unidad": "L",
+          "precio_unidad": 3.87,
           "url": ""
         },
         {
@@ -22825,7 +22816,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
+          "nombre_real": "Suavizante ropa Violets Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -22834,7 +22825,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Suavizante ropa Violets Bosque Verde concentrado",
+          "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -25587,7 +25578,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Citrus Fresh H&S cabello graso",
+          "nombre_real": "Champú anticaspa Menthol Fresh H&S",
           "marca": "",
           "precio": 3.9,
           "unidad": "L",
@@ -25596,7 +25587,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Menthol Fresh H&S",
+          "nombre_real": "Champú anticaspa Citrus Fresh H&S cabello graso",
           "marca": "",
           "precio": 3.9,
           "unidad": "L",
