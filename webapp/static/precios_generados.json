@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-27T03:43:28+00:00",
+  "generado_en": "2026-10-27T11:40:17+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -443,6 +443,15 @@
           "url": "https://www.alimerkaonline.es/10001247.html"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHE SEMIDESNATADA 1 LITRO",
+          "marca": "RENY PICOT",
+          "precio": 0.89,
+          "unidad": "L",
+          "precio_unidad": 0.89,
+          "url": "https://www.alimerkaonline.es/10022921.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Leche semidesnatada sin lactosa Hacendado",
           "marca": "",
@@ -477,15 +486,6 @@
           "unidad": "L",
           "precio_unidad": 0.96,
           "url": "https://www.hipercor.es/supermercado/B001020616600142-president-leche-semidesnatada-brik-1-l/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "LECHE SEMIDESNATADA 1 LITRO",
-          "marca": "RENY PICOT",
-          "precio": 1.0,
-          "unidad": "L",
-          "precio_unidad": 1.0,
-          "url": "https://www.alimerkaonline.es/10022921.html"
         },
         {
           "supermercado": "Mercadona",
@@ -952,6 +952,15 @@
           "url": "https://www.alimerkaonline.es/10001248.html"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHE DESNATADA 1 LITRO",
+          "marca": "RENY PICOT",
+          "precio": 0.89,
+          "unidad": "L",
+          "precio_unidad": 0.89,
+          "url": "https://www.alimerkaonline.es/10022922.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Leche desnatada sin lactosa Hacendado",
           "marca": "",
@@ -986,15 +995,6 @@
           "unidad": "L",
           "precio_unidad": 0.95,
           "url": "https://www.hipercor.es/supermercado/B001020616700116-president-leche-desnatada-brik-1-l/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "LECHE DESNATADA 1 LITRO",
-          "marca": "RENY PICOT",
-          "precio": 1.0,
-          "unidad": "L",
-          "precio_unidad": 1.0,
-          "url": "https://www.alimerkaonline.es/10022922.html"
         },
         {
           "supermercado": "Mercadona",
@@ -4067,6 +4067,15 @@
           "url": "https://www.hipercor.es/supermercado/B001020654802311-el-corte-ingles-pan-de-molde-blanco-sin-corteza-16-rebanadas-bolsa-450-g/"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE INTEGRAL 350 G.",
+          "marca": "PANRICO",
+          "precio": 1.09,
+          "unidad": "kg",
+          "precio_unidad": 3.11,
+          "url": "https://www.alimerkaonline.es/10032894.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Pan de molde 100% integral sin corteza Hacendado",
           "marca": "",
@@ -4272,6 +4281,15 @@
           "unidad": "kg",
           "precio_unidad": 4.2,
           "url": "https://www.alimerkaonline.es/760522.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE 100% NATURAL 450 G.",
+          "marca": "PANRICO",
+          "precio": 1.99,
+          "unidad": "kg",
+          "precio_unidad": 4.42,
+          "url": "https://www.alimerkaonline.es/10032806.html"
         },
         {
           "supermercado": "Hipercor",
@@ -4903,6 +4921,15 @@
           "unidad": "kg",
           "precio_unidad": 14.67,
           "url": "https://www.alimerkaonline.es/10021766.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN BLANCO ESTILO RUSTIC 100% NATURAL 460 G.",
+          "marca": "PANRICO",
+          "precio": 1.99,
+          "unidad": "kg",
+          "precio_unidad": 4.33,
+          "url": "https://www.alimerkaonline.es/10032782.html"
         },
         {
           "supermercado": "Alimerka",
@@ -5748,15 +5775,6 @@
       "producto": "pasta espagueti",
       "opciones": [
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "ESPAGUETI 500 G.",
-          "marca": "ALIMERKA",
-          "precio": 0.79,
-          "unidad": "kg",
-          "precio_unidad": 1.58,
-          "url": "https://www.alimerkaonline.es/8000061.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Spaghetti fino Hacendado",
           "marca": "",
@@ -5775,12 +5793,21 @@
           "url": ""
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "ESPAGUETI 500 G.",
+          "marca": "ALIMERKA",
+          "precio": 0.85,
+          "unidad": "kg",
+          "precio_unidad": 1.7,
+          "url": "https://www.alimerkaonline.es/8000061.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Spaghetti Hacendado",
           "marca": "",
-          "precio": 1.15,
+          "precio": 1.2,
           "unidad": "kg",
-          "precio_unidad": 1.15,
+          "precio_unidad": 1.2,
           "url": ""
         },
         {
@@ -5852,15 +5879,6 @@
       "producto": "macarrones",
       "opciones": [
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "MACARRONES 500 G.",
-          "marca": "ALIMERKA",
-          "precio": 0.79,
-          "unidad": "kg",
-          "precio_unidad": 1.58,
-          "url": "https://www.alimerkaonline.es/8000060.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Macarrón fino Hacendado",
           "marca": "",
@@ -5877,6 +5895,15 @@
           "unidad": "kg",
           "precio_unidad": 1.7,
           "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "MACARRONES 500 G.",
+          "marca": "ALIMERKA",
+          "precio": 0.85,
+          "unidad": "kg",
+          "precio_unidad": 1.7,
+          "url": "https://www.alimerkaonline.es/8000060.html"
         },
         {
           "supermercado": "Mercadona",
@@ -5909,19 +5936,10 @@
           "supermercado": "Mercadona",
           "nombre_real": "Macarrón Hacendado",
           "marca": "",
-          "precio": 1.15,
+          "precio": 1.2,
           "unidad": "kg",
-          "precio_unidad": 1.15,
+          "precio_unidad": 1.2,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "MACARRONES INTEGRALES 500 G.",
-          "marca": "IFA ELIGES",
-          "precio": 1.15,
-          "unidad": "kg",
-          "precio_unidad": 2.3,
-          "url": "https://www.alimerkaonline.es/10028268.html"
         },
         {
           "supermercado": "Mercadona",
@@ -5931,6 +5949,15 @@
           "unidad": "kg",
           "precio_unidad": 2.4,
           "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "MACARRONES INTEGRALES 500 G.",
+          "marca": "IFA ELIGES",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 2.4,
+          "url": "https://www.alimerkaonline.es/10028268.html"
         },
         {
           "supermercado": "Hipercor",
@@ -6756,6 +6783,15 @@
           "unidad": "L",
           "precio_unidad": 4.95,
           "url": "https://www.alimerkaonline.es/10051.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA G.S 750 ML.",
+          "marca": "COOSUR",
+          "precio": 4.99,
+          "unidad": "L",
+          "precio_unidad": 6.65,
+          "url": "https://www.alimerkaonline.es/10032996.html"
         },
         {
           "supermercado": "Alimerka",
@@ -9225,6 +9261,15 @@
           "url": ""
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "JAMÓN COCIDO FINAS LONCHAS 200 G.",
+          "marca": "ALIMERKA",
+          "precio": 1.99,
+          "unidad": "kg",
+          "precio_unidad": 9.95,
+          "url": "https://www.alimerkaonline.es/10021634.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Jamón cocido extra Hacendado finas lonchas",
           "marca": "",
@@ -9277,15 +9322,6 @@
           "unidad": "kg",
           "precio_unidad": 11.25,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "JAMÓN COCIDO FINAS LONCHAS 200 G.",
-          "marca": "ALIMERKA",
-          "precio": 2.25,
-          "unidad": "kg",
-          "precio_unidad": 11.25,
-          "url": "https://www.alimerkaonline.es/10021634.html"
         },
         {
           "supermercado": "Alimerka",
@@ -10700,6 +10736,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "CHORIZO EXTRA EL KILO",
+          "marca": "ALTO ALLER",
+          "precio": 12.95,
+          "unidad": "kg",
+          "precio_unidad": 12.95,
+          "url": "https://www.alimerkaonline.es/330072.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "CHORIZO PAMPLONA EXTRA DULCE EL KILO",
           "marca": "ARGAL",
           "precio": 14.95,
@@ -10733,15 +10778,6 @@
           "unidad": "kg",
           "precio_unidad": 17.0,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "CHORIZO EXTRA EL KILO",
-          "marca": "ALTO ALLER",
-          "precio": 16.75,
-          "unidad": "kg",
-          "precio_unidad": 16.75,
-          "url": "https://www.alimerkaonline.es/330072.html"
         },
         {
           "supermercado": "Alimerka",
@@ -12227,21 +12263,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "pimientos del piquillo rellenos de marisco 4 unidades bolsa 185 g - Don Molinico",
-          "marca": "don molinico",
-          "precio": 2.65,
-          "unidad": "kg",
-          "precio_unidad": 14.32,
-          "url": "https://www.hipercor.es/supermercado/B001018931302444-don-molinico-pimientos-del-piquillo-rellenos-de-marisco-4-unidades-bolsa-185-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "mezcla de verduras para fajitas bolsa 300 g - Cn",
           "marca": "cn",
           "precio": 2.65,
           "unidad": "kg",
           "precio_unidad": 8.83,
           "url": "https://www.hipercor.es/supermercado/B001018958400519-cn-mezcla-de-verduras-para-fajitas-bolsa-300-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pimientos del piquillo rellenos de marisco 4 unidades bolsa 185 g - Don Molinico",
+          "marca": "don molinico",
+          "precio": 2.65,
+          "unidad": "kg",
+          "precio_unidad": 14.32,
+          "url": "https://www.hipercor.es/supermercado/B001018931302444-don-molinico-pimientos-del-piquillo-rellenos-de-marisco-4-unidades-bolsa-185-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -12624,15 +12660,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "PATATAS ONDULADAS SABOR JAMÓN 170 G.",
-          "marca": "BLACK BAG",
-          "precio": 1.3,
-          "unidad": "kg",
-          "precio_unidad": 7.65,
-          "url": "https://www.alimerkaonline.es/10015678.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "PATATAS FRITAS ONDULADAS 150 G.",
           "marca": "ALIMERKA",
           "precio": 1.3,
@@ -12675,6 +12702,15 @@
           "unidad": "kg",
           "precio_unidad": 9.0,
           "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PATATAS ONDULADAS SABOR JAMÓN 170 G.",
+          "marca": "BLACK BAG",
+          "precio": 1.4,
+          "unidad": "kg",
+          "precio_unidad": 8.24,
+          "url": "https://www.alimerkaonline.es/10015678.html"
         },
         {
           "supermercado": "Hipercor",
@@ -15358,9 +15394,9 @@
           "supermercado": "Alimerka",
           "nombre_real": "PERA CONFERENCIA EL KILO",
           "marca": "SABROSONA",
-          "precio": 2.75,
+          "precio": 2.99,
           "unidad": "kg",
-          "precio_unidad": 2.75,
+          "precio_unidad": 2.99,
           "url": "https://www.alimerkaonline.es/500050.html"
         },
         {
@@ -22816,6 +22852,24 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Activador Blanqueante ropa blanca Oxi Active Bosque Verde en gel",
+          "marca": "",
+          "precio": 1.8,
+          "unidad": "L",
+          "precio_unidad": 0.9,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Activador Quitamanchas ropa de color Oxi Active Bosque Verde en gel",
+          "marca": "",
+          "precio": 1.8,
+          "unidad": "L",
+          "precio_unidad": 0.9,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Toallitas lavadora Bosque Verde anti-transferencia de color",
           "marca": "",
           "precio": 1.85,
@@ -22830,24 +22884,6 @@
           "precio": 1.85,
           "unidad": "kg",
           "precio_unidad": 4.62,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Activador Blanqueante ropa blanca Oxi Active Bosque Verde en gel",
-          "marca": "",
-          "precio": 1.9,
-          "unidad": "L",
-          "precio_unidad": 0.95,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Activador Quitamanchas ropa de color Oxi Active Bosque Verde en gel",
-          "marca": "",
-          "precio": 1.9,
-          "unidad": "L",
-          "precio_unidad": 0.95,
           "url": ""
         },
         {
