@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-29T12:19:24+00:00",
+  "generado_en": "2026-10-29T22:29:20+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -3303,15 +3303,6 @@
           "unidad": "kg",
           "precio_unidad": 13.37,
           "url": "https://www.alimerkaonline.es/10031734.html"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Queso curado DOP manchego de oveja Hacendado",
-          "marca": "",
-          "precio": 7.03,
-          "unidad": "kg",
-          "precio_unidad": 20.09,
-          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -16981,15 +16972,6 @@
           "url": "https://www.alimerkaonline.es/10027977.html"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Papilla 8 cereales con galleta María Nestlé +6 meses",
-          "marca": "",
-          "precio": 5.75,
-          "unidad": "kg",
-          "precio_unidad": 7.93,
-          "url": ""
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "GRANOLA KETO 275 G.",
           "marca": "LA NEWYORKINA",
@@ -17158,20 +17140,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas María Integral Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 1.69,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 9.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas María Integral Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 1.69,
           "url": ""
         },
         {
@@ -18419,7 +18401,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula espresso Hacendado",
+          "nombre_real": "Café en cápsula extra fuerte Hacendado",
           "marca": "",
           "precio": 3.8,
           "unidad": "kg",
@@ -18428,7 +18410,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula extra fuerte Hacendado",
+          "nombre_real": "Café en cápsula espresso Hacendado",
           "marca": "",
           "precio": 3.8,
           "unidad": "kg",
@@ -23419,20 +23401,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Detergente ropa blanca y de color Bosque Verde en polvo",
-          "marca": "",
-          "precio": 6.9,
-          "unidad": "kg",
-          "precio_unidad": 2.51,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Detergente ropa todo en 1 frescor floral Ariel Pods en cápsulas",
           "marca": "",
           "precio": 6.9,
           "unidad": "kg",
           "precio_unidad": 14.88,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Detergente ropa blanca y de color Bosque Verde en polvo",
+          "marca": "",
+          "precio": 6.9,
+          "unidad": "kg",
+          "precio_unidad": 2.51,
           "url": ""
         },
         {
@@ -25839,7 +25821,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Citrus Fresh H&S cabello graso",
+          "nombre_real": "Champú anticaspa Menthol Fresh H&S",
           "marca": "",
           "precio": 3.9,
           "unidad": "L",
@@ -25848,7 +25830,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Menthol Fresh H&S",
+          "nombre_real": "Champú anticaspa Citrus Fresh H&S cabello graso",
           "marca": "",
           "precio": 3.9,
           "unidad": "L",
