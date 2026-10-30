@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-30T04:18:48+00:00",
+  "generado_en": "2026-10-30T12:09:39+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -265,6 +265,15 @@
           "unidad": "L",
           "precio_unidad": 1.43,
           "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "LECHE ENTERA 20 CL. PACK 6",
+          "marca": "ALIMERKA",
+          "precio": 1.71,
+          "unidad": "L",
+          "precio_unidad": 1.43,
+          "url": "https://www.alimerkaonline.es/10028441.html"
         },
         {
           "supermercado": "Alimerka",
@@ -2196,6 +2205,15 @@
           "url": "https://www.alimerkaonline.es/2201001.html"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "YOGUR NATURAL AZUCARADO 120 G. PACK 4",
+          "marca": "DANONE",
+          "precio": 1.0,
+          "unidad": "kg",
+          "precio_unidad": 2.08,
+          "url": "https://www.alimerkaonline.es/2203008.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Yogur natural con azúcar de caña Hacendado",
           "marca": "",
@@ -3339,15 +3357,6 @@
           "unidad": "kg",
           "precio_unidad": 11.1,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "queso curado de oveja elaborado con leche cruda peso aproximado pieza 3 kg - Valdeovejas",
-          "marca": "valdeovejas",
-          "precio": 26.5,
-          "unidad": "kg",
-          "precio_unidad": 8.83,
-          "url": "https://www.hipercor.es/supermercado/B001018322600133-valdeovejas-queso-curado-de-oveja-elaborado-con-leche-cruda-peso-aproximado-pieza-3-kg/"
         },
         {
           "supermercado": "Hipercor",
@@ -4595,7 +4604,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barra pan de pueblo rebanada",
+          "nombre_real": "Barra pan de pueblo",
           "marca": "",
           "precio": 1.6,
           "unidad": "kg",
@@ -4604,7 +4613,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barra pan de pueblo",
+          "nombre_real": "Barra pan de pueblo rebanada",
           "marca": "",
           "precio": 1.6,
           "unidad": "kg",
@@ -5167,6 +5176,15 @@
       "producto": "arroz",
       "opciones": [
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ REDONDO 1 KILO",
+          "marca": "ALIMERKA",
+          "precio": 0.95,
+          "unidad": "kg",
+          "precio_unidad": 0.95,
+          "url": "https://www.alimerkaonline.es/8000190.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Arroz cocido integral Sabroz",
           "marca": "",
@@ -5201,15 +5219,6 @@
           "unidad": "kg",
           "precio_unidad": 1.15,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "ARROZ REDONDO 1 KILO",
-          "marca": "ALIMERKA",
-          "precio": 1.15,
-          "unidad": "kg",
-          "precio_unidad": 1.15,
-          "url": "https://www.alimerkaonline.es/8000190.html"
         },
         {
           "supermercado": "Hipercor",
@@ -5309,15 +5318,6 @@
           "unidad": "kg",
           "precio_unidad": 2.67,
           "url": "https://www.hipercor.es/supermercado/B001018823700515-el-corte-ingles-arroz-con-leche-sin-gluten-pack-4-unidades-130-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "arroz redondo especial caldosos y melosos paquete 500 g - Sos",
-          "marca": "sos",
-          "precio": 1.45,
-          "unidad": "kg",
-          "precio_unidad": 2.9,
-          "url": "https://www.hipercor.es/supermercado/B001018005700408-sos-arroz-redondo-especial-caldosos-y-melosos-paquete-500-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -5545,6 +5545,15 @@
           "url": "https://www.alimerkaonline.es/10009297.html"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ INFLADO CHOCOLATEADO 500 G.",
+          "marca": "ALIMERKA",
+          "precio": 2.1,
+          "unidad": "kg",
+          "precio_unidad": 4.2,
+          "url": "https://www.alimerkaonline.es/10007379.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "arroz basmati aromático del Himalaya paquete 1 kg - El Corte Ingles",
           "marca": "el corte ingles",
@@ -5588,15 +5597,6 @@
           "unidad": "kg",
           "precio_unidad": 2.45,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "ARROZ ESPECIAL D.O. 1 KILO",
-          "marca": "LA FALLERA",
-          "precio": 2.49,
-          "unidad": "kg",
-          "precio_unidad": 2.49,
-          "url": "https://www.alimerkaonline.es/755161.html"
         },
         {
           "supermercado": "Hipercor",
@@ -5732,6 +5732,15 @@
           "unidad": "kg",
           "precio_unidad": 4.7,
           "url": "https://www.hipercor.es/supermercado/B001018005700721-la-fallera-arroz-bomba-paquete-1-kg/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "arroz bomba pack 2 envases 500 g - La Fallera",
+          "marca": "la fallera",
+          "precio": 6.35,
+          "unidad": "kg",
+          "precio_unidad": 6.35,
+          "url": "https://www.hipercor.es/supermercado/B001018005700895-la-fallera-arroz-bomba-pack-2-envases-500-g/"
         }
       ]
     },
@@ -6911,6 +6920,15 @@
           "url": ""
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 5 LITROS",
+          "marca": "COOSUR",
+          "precio": 19.75,
+          "unidad": "L",
+          "precio_unidad": 3.95,
+          "url": "https://www.alimerkaonline.es/10028165.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "aceite de oliva virgen extra garrafa 5 l - Coosur",
           "marca": "coosur",
@@ -6918,15 +6936,6 @@
           "unidad": "L",
           "precio_unidad": 3.99,
           "url": "https://www.hipercor.es/supermercado/B001018045902014-coosur-aceite-de-oliva-virgen-extra-garrafa-5-l/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 5 LITROS",
-          "marca": "COOSUR",
-          "precio": 19.99,
-          "unidad": "L",
-          "precio_unidad": 4.0,
-          "url": "https://www.alimerkaonline.es/10028165.html"
         },
         {
           "supermercado": "Hipercor",
@@ -7482,6 +7491,15 @@
           "unidad": "kg",
           "precio_unidad": 0.7,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "salsa ligera sin gluten sin lactosa frasco 210 ml - Ligeresa",
+          "marca": "ligeresa",
+          "precio": 1.55,
+          "unidad": "L",
+          "precio_unidad": 7.24,
+          "url": "https://www.hipercor.es/supermercado/B001018014301966-ligeresa-salsa-ligera-sin-gluten-sin-lactosa-frasco-210-ml/"
         },
         {
           "supermercado": "Mercadona",
@@ -9360,6 +9378,15 @@
           "url": ""
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "JAMÓN COCIDO EXTRA ULTRAFINAS 150 G.",
+          "marca": "ELPOZO",
+          "precio": 2.85,
+          "unidad": "kg",
+          "precio_unidad": 19.0,
+          "url": "https://www.alimerkaonline.es/10033051.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "jamón cocido italiano en lonchas sin gluten sin lactosa envase 120 g - Ferrarini",
           "marca": "ferrarini",
@@ -9626,15 +9653,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018462500150-el-corte-ingles-selection-pechuga-entera-de-pollo-campero-peso-aproximado-bandeja-500-g/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "PECHUGA DE POLLO FORMATO FAMILIAR 1200 G.",
-          "marca": "ALIMERKA",
-          "precio": 8.35,
-          "unidad": "kg",
-          "precio_unidad": 6.96,
-          "url": "https://www.alimerkaonline.es/10032231.html"
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "pechugas de pollo ecológico 3 unidades peso aproximado bandeja 450 g - Coren",
           "marca": "coren",
@@ -9642,6 +9660,15 @@
           "unidad": "kg",
           "precio_unidad": 27.96,
           "url": "https://www.hipercor.es/supermercado/B001018460600028-coren-pechugas-de-pollo-ecologico-3-unidades-peso-aproximado-bandeja-450-g/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PECHUGA DE POLLO ASADA AL HORNO 96%CARNE EL KILO",
+          "marca": "FRIAL",
+          "precio": 18.95,
+          "unidad": "kg",
+          "precio_unidad": 18.95,
+          "url": "https://www.alimerkaonline.es/10033048.html"
         }
       ]
     },
@@ -10663,15 +10690,6 @@
           "url": "https://www.alimerkaonline.es/10016441.html"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "CHORIZO DULCE HERRADURA 425 G.",
-          "marca": "EZEQUIEL",
-          "precio": 6.45,
-          "unidad": "kg",
-          "precio_unidad": 15.18,
-          "url": "https://www.alimerkaonline.es/10016440.html"
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "chorizo de herradura picante extra al vacío sin gluten peso aproximado pieza 425 g - Ezequiel",
           "marca": "ezequiel",
@@ -10876,20 +10894,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Empanadillas de atún Hacendado ultracongeladas",
-          "marca": "",
-          "precio": 1.9,
-          "unidad": "kg",
-          "precio_unidad": 3.8,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Almeja Hacendado congelada",
           "marca": "",
           "precio": 1.9,
           "unidad": "kg",
           "precio_unidad": 4.22,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Empanadillas de atún Hacendado ultracongeladas",
+          "marca": "",
+          "precio": 1.9,
+          "unidad": "kg",
+          "precio_unidad": 3.8,
           "url": ""
         },
         {
@@ -11389,20 +11407,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Anillas de pota a la romana Hacendado ultracongeladas",
-          "marca": "",
-          "precio": 5.25,
-          "unidad": "kg",
-          "precio_unidad": 10.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pescadilla de merluza sin cabeza Hacendado ultracongelada",
           "marca": "",
           "precio": 5.25,
           "unidad": "kg",
           "precio_unidad": 5.25,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Anillas de pota a la romana Hacendado ultracongeladas",
+          "marca": "",
+          "precio": 5.25,
+          "unidad": "kg",
+          "precio_unidad": 10.5,
           "url": ""
         },
         {
@@ -11470,20 +11488,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Calamar troceado limpio Hacendado congelado",
-          "marca": "",
-          "precio": 5.9,
-          "unidad": "kg",
-          "precio_unidad": 12.42,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Sepia faraónica troceada limpia Hacendado congelada",
           "marca": "",
           "precio": 5.9,
           "unidad": "kg",
           "precio_unidad": 16.39,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Calamar troceado limpio Hacendado congelado",
+          "marca": "",
+          "precio": 5.9,
+          "unidad": "kg",
+          "precio_unidad": 12.42,
           "url": ""
         },
         {
@@ -11814,9 +11832,9 @@
           "supermercado": "Mercadona",
           "nombre_real": "Gambón grande congelado",
           "marca": "",
-          "precio": 19.9,
+          "precio": 22.0,
           "unidad": "kg",
-          "precio_unidad": 9.95,
+          "precio_unidad": 11.0,
           "url": ""
         },
         {
@@ -13827,6 +13845,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "TOMATE PARA UNTAR CON ACEITE VIRGEN EXTR 140 G. X 2",
+          "marca": "ALIMERKA",
+          "precio": 1.47,
+          "unidad": "kg",
+          "precio_unidad": 5.25,
+          "url": "https://www.alimerkaonline.es/10021086.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "TOMATE FRITO 360 GRS.",
           "marca": "SOLÍS",
           "precio": 1.49,
@@ -13914,15 +13941,6 @@
           "unidad": "kg",
           "precio_unidad": 3.39,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "TOMATE TRIOPERA BANDEJA 300 G.",
-          "marca": "LA PALMA",
-          "precio": 2.08,
-          "unidad": "kg",
-          "precio_unidad": 6.93,
-          "url": "https://www.alimerkaonline.es/10007533.html"
         },
         {
           "supermercado": "Hipercor",
@@ -16100,20 +16118,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Rosquillas de chocolate con leche y coco Hacendado",
-          "marca": "",
-          "precio": 1.7,
-          "unidad": "kg",
-          "precio_unidad": 5.67,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Tortitas de maíz campestre Hacendado",
           "marca": "",
           "precio": 1.75,
           "unidad": "kg",
           "precio_unidad": 12.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Rosquillas de chocolate con leche y coco Hacendado",
+          "marca": "",
+          "precio": 1.75,
+          "unidad": "kg",
+          "precio_unidad": 5.83,
           "url": ""
         },
         {
@@ -16295,15 +16313,6 @@
           "unidad": "kg",
           "precio_unidad": 4.0,
           "url": "https://www.alimerkaonline.es/10007373.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "COPOS DE AVENA FINOS INTEGRALES ECO 500 G.",
-          "marca": "IFA ELIGES",
-          "precio": 2.0,
-          "unidad": "kg",
-          "precio_unidad": 4.0,
-          "url": "https://www.alimerkaonline.es/10021956.html"
         },
         {
           "supermercado": "Mercadona",
@@ -16583,6 +16592,15 @@
           "unidad": "kg",
           "precio_unidad": 5.18,
           "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "CORN FLAKES 500 G.",
+          "marca": "KELLOGG'S",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 5.98,
+          "url": "https://www.alimerkaonline.es/10003174.html"
         },
         {
           "supermercado": "Mercadona",
@@ -17374,20 +17392,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas con chocolate y crema de leche Hacendado",
-          "marca": "",
-          "precio": 2.55,
-          "unidad": "kg",
-          "precio_unidad": 9.51,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas Crunchy Choc Hacendado",
           "marca": "",
           "precio": 2.6,
           "unidad": "kg",
           "precio_unidad": 5.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas con chocolate y crema de leche Hacendado",
+          "marca": "",
+          "precio": 2.65,
+          "unidad": "kg",
+          "precio_unidad": 9.89,
           "url": ""
         },
         {
@@ -17765,33 +17783,6 @@
           "url": "https://www.alimerkaonline.es/10021902.html"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Café molido natural Hacendado",
-          "marca": "",
-          "precio": 4.4,
-          "unidad": "kg",
-          "precio_unidad": 8.8,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Café molido mezcla Hacendado",
-          "marca": "",
-          "precio": 4.4,
-          "unidad": "kg",
-          "precio_unidad": 8.8,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Café molido fuerte Hacendado",
-          "marca": "",
-          "precio": 4.4,
-          "unidad": "kg",
-          "precio_unidad": 8.8,
-          "url": ""
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "café molido natural intensidad 8 paquete 250 g - Marcilla",
           "marca": "marcilla",
@@ -17811,11 +17802,38 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café molido descafeinado Hacendado",
+          "nombre_real": "Café molido natural Hacendado",
           "marca": "",
           "precio": 4.5,
           "unidad": "kg",
           "precio_unidad": 9.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café molido mezcla Hacendado",
+          "marca": "",
+          "precio": 4.5,
+          "unidad": "kg",
+          "precio_unidad": 9.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café molido fuerte Hacendado",
+          "marca": "",
+          "precio": 4.5,
+          "unidad": "kg",
+          "precio_unidad": 9.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café molido descafeinado Hacendado",
+          "marca": "",
+          "precio": 4.6,
+          "unidad": "kg",
+          "precio_unidad": 9.2,
           "url": ""
         },
         {
@@ -18005,7 +18023,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula forte Hacendado",
+          "nombre_real": "Café en cápsula descafeinado Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
@@ -18014,7 +18032,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula descafeinado Hacendado",
+          "nombre_real": "Café en cápsula forte Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
@@ -20658,15 +20676,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Cerveza doble malta Voll-Damm",
-          "marca": "",
-          "precio": 0.89,
-          "unidad": "L",
-          "precio_unidad": 2.7,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Cerveza El Águila sin filtrar",
           "marca": "",
           "precio": 0.89,
@@ -20762,6 +20771,15 @@
           "precio": 1.03,
           "unidad": "L",
           "precio_unidad": 4.12,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Cerveza doble malta Voll-Damm",
+          "marca": "",
+          "precio": 1.04,
+          "unidad": "L",
+          "precio_unidad": 3.15,
           "url": ""
         },
         {
@@ -21054,15 +21072,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Cerveza doble malta Voll-Damm",
-          "marca": "",
-          "precio": 5.1,
-          "unidad": "L",
-          "precio_unidad": 2.58,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Cerveza El Águila sin filtrar",
           "marca": "",
           "precio": 5.1,
@@ -21150,6 +21159,15 @@
           "unidad": "L",
           "precio_unidad": 1.86,
           "url": "https://www.alimerkaonline.es/10004100.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Cerveza doble malta Voll-Damm",
+          "marca": "",
+          "precio": 6.24,
+          "unidad": "L",
+          "precio_unidad": 3.15,
+          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -21252,15 +21270,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Cerveza especial Estrella Galicia",
-          "marca": "",
-          "precio": 7.6,
-          "unidad": "L",
-          "precio_unidad": 2.3,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Cerveza de trigo Paulaner",
           "marca": "",
           "precio": 7.74,
@@ -21294,6 +21303,15 @@
           "unidad": "L",
           "precio_unidad": 2.18,
           "url": "https://www.hipercor.es/supermercado/B001018600300109-san-miguel-cerveza-rubia-especial-pack-12-latas-33-cl/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Cerveza especial Estrella Galicia",
+          "marca": "",
+          "precio": 8.8,
+          "unidad": "L",
+          "precio_unidad": 2.67,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -22144,21 +22162,21 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "PAPEL HIGIÉNICO ACOLCHADO 8 ROLLOS",
-          "marca": "SCOTTEX",
-          "precio": 3.99,
-          "unidad": "ud",
-          "precio_unidad": 0.5,
-          "url": "https://www.alimerkaonline.es/10006950.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "PAPEL HIGIÉNICO ORIGINAL 12 ROLLOS",
           "marca": "SCOTTEX",
           "precio": 3.99,
           "unidad": "ud",
           "precio_unidad": 0.33,
           "url": "https://www.alimerkaonline.es/10024739.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAPEL HIGIÉNICO ACOLCHADO 8 ROLLOS",
+          "marca": "SCOTTEX",
+          "precio": 3.99,
+          "unidad": "ud",
+          "precio_unidad": 0.5,
+          "url": "https://www.alimerkaonline.es/10006950.html"
         },
         {
           "supermercado": "Hipercor",
@@ -23780,6 +23798,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "LAVAVAJILLAS ULTRA PLUS 950 ML.",
+          "marca": "MISTOL",
+          "precio": 3.09,
+          "unidad": "L",
+          "precio_unidad": 3.25,
+          "url": "https://www.alimerkaonline.es/10031298.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "LAVAVAJILLAS MÁQUINA POWER GEL 750 ML.",
           "marca": "DISICLÍN",
           "precio": 3.25,
@@ -23939,15 +23966,6 @@
           "unidad": "L",
           "precio_unidad": 4.79,
           "url": "https://www.hipercor.es/supermercado/B001028013202537-fairy-lavavajillas-a-mano-concentrado-ultra-poder-mas-rapido-botella-1250-ml/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "LAVAVAJILLAS QUANTUM ESSENTIAL 50 CÁPUSLAS",
-          "marca": "FINISH",
-          "precio": 8.49,
-          "unidad": "lavado",
-          "precio_unidad": 0.15,
-          "url": "https://www.alimerkaonline.es/10025879.html"
         },
         {
           "supermercado": "Alimerka",
@@ -24228,15 +24246,6 @@
           "unidad": "L",
           "precio_unidad": 0.62,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "LEJÍA DENSA 2 LITROS",
-          "marca": "UNEX",
-          "precio": 1.25,
-          "unidad": "L",
-          "precio_unidad": 0.63,
-          "url": "https://www.alimerkaonline.es/10027306.html"
         },
         {
           "supermercado": "Alimerka",
@@ -26776,7 +26785,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante stick Cobalt Dry Rexona antitranspirante",
+          "nombre_real": "Desodorante stick antibacteriano Rexona antitranspirante",
           "marca": "",
           "precio": 2.75,
           "unidad": "L",
@@ -26785,7 +26794,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante stick antibacteriano Rexona antitranspirante",
+          "nombre_real": "Desodorante stick Cobalt Dry Rexona antitranspirante",
           "marca": "",
           "precio": 2.75,
           "unidad": "L",
@@ -27160,6 +27169,15 @@
           "unidad": "100 ml.",
           "precio_unidad": 3.0,
           "url": "https://www.hipercor.es/supermercado/B001055754802779-dove-men-desodorante--care-advanced-invisible-dry-antimanchas-antitranspirante-72h-spray-150-ml/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "DESODORANTE ZONA BAJA PERA Y MADERA 100 ML.",
+          "marca": "AXE",
+          "precio": 5.35,
+          "unidad": "L",
+          "precio_unidad": 53.5,
+          "url": "https://www.alimerkaonline.es/10031076.html"
         }
       ]
     },
