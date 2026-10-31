@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-31T04:00:12+00:00",
+  "generado_en": "2026-10-31T11:43:57+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -1036,9 +1036,9 @@
           "supermercado": "Alimerka",
           "nombre_real": "LECHE DESNATADA 1 LITRO",
           "marca": "CENTRAL LECHERA ASTURIANA",
-          "precio": 1.08,
+          "precio": 1.06,
           "unidad": "L",
-          "precio_unidad": 1.08,
+          "precio_unidad": 1.06,
           "url": "https://www.alimerkaonline.es/22009.html"
         },
         {
@@ -2356,15 +2356,6 @@
           "unidad": "kg",
           "precio_unidad": 17.2,
           "url": "https://www.hipercor.es/supermercado/B001018820102053-asturiana-yogur-natural-azucarado-con-azucar-de-cana-pack-8-unidades-125-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "yogur natural elaborado con leche de vaca de pastoreo envase 500 g - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 2.15,
-          "unidad": "kg",
-          "precio_unidad": 4.3,
-          "url": "https://www.hipercor.es/supermercado/B001018820102350-el-corte-ingles-selection-yogur-natural-elaborado-con-leche-de-vaca-de-pastoreo-envase-500-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -5126,15 +5117,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018037902022-gallo-harina-de-trigo-espelta-integral-paquete-1-kg/"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "harina de trigo doble cero \"00\" paquete 1 kg - Molino Spadoni",
-          "marca": "molino spadoni",
-          "precio": 2.65,
-          "unidad": "kg",
-          "precio_unidad": 2.65,
-          "url": "https://www.hipercor.es/supermercado/B001018038100238-molino-spadoni-harina-de-trigo-doble-cero-00-paquete-1-kg/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Harina de trigo grande Hacendado",
           "marca": "",
@@ -5732,15 +5714,6 @@
           "unidad": "kg",
           "precio_unidad": 4.7,
           "url": "https://www.hipercor.es/supermercado/B001018005700721-la-fallera-arroz-bomba-paquete-1-kg/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "arroz bomba pack 2 envases 500 g - La Fallera",
-          "marca": "la fallera",
-          "precio": 6.35,
-          "unidad": "kg",
-          "precio_unidad": 6.35,
-          "url": "https://www.hipercor.es/supermercado/B001018005700895-la-fallera-arroz-bomba-pack-2-envases-500-g/"
         }
       ]
     },
@@ -6059,6 +6032,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018003501477-gallo-macarrones-sin-gluten-y-sin-lactosa-paquete-450-g/"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "macarrones penne rigate nº41 bolsa 500 g - De Cecco",
+          "marca": "de cecco",
+          "precio": 2.75,
+          "unidad": "kg",
+          "precio_unidad": 5.5,
+          "url": "https://www.hipercor.es/supermercado/B001018004403947-de-cecco-macarrones-penne-rigate-n41-bolsa-500-g/"
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "MACARRONES BOLOÑESA 280 G.",
           "marca": "BO DE DEBÓ",
@@ -6093,15 +6075,6 @@
           "unidad": "kg",
           "precio_unidad": 3.29,
           "url": "https://www.hipercor.es/supermercado/B001018003502293-barilla-macarrones-penne-rigate-n73-caja-1-kg/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "macarrones con chorizo en salsa de tomate envase 300 g neto escurrido - Carretilla",
-          "marca": "carretilla",
-          "precio": 3.85,
-          "unidad": "kg",
-          "precio_unidad": 12.83,
-          "url": "https://www.hipercor.es/supermercado/B001018035400367-carretilla-macarrones-con-chorizo-en-salsa-de-tomate-envase-300-g-neto-escurrido/"
         }
       ]
     },
@@ -6253,6 +6226,15 @@
           "url": ""
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO 390 G. PACK 3",
+          "marca": "GARBAYO",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 3.46,
+          "url": "https://www.alimerkaonline.es/10027463.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "tomate frito sin gluten pack 3 envases 400 g - El Corte Ingles",
           "marca": "el corte ingles",
@@ -6287,15 +6269,6 @@
           "unidad": "kg",
           "precio_unidad": 6.67,
           "url": "https://www.alimerkaonline.es/10019464.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "TOMATE FRITO 360 GRS.",
-          "marca": "SOLÍS",
-          "precio": 1.49,
-          "unidad": "kg",
-          "precio_unidad": 4.14,
-          "url": "https://www.alimerkaonline.es/725025.html"
         },
         {
           "supermercado": "Hipercor",
@@ -9754,6 +9727,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Cachopo de vacuno con jamón y queso sin gluten",
+          "marca": "",
+          "precio": 4.43,
+          "unidad": "kg",
+          "precio_unidad": 17.72,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Filetes hígado de vacuno",
           "marca": "",
           "precio": 4.68,
@@ -9786,15 +9768,6 @@
           "precio": 6.78,
           "unidad": "kg",
           "precio_unidad": 27.12,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Cachopo de vacuno con jamón y queso sin gluten",
-          "marca": "",
-          "precio": 7.97,
-          "unidad": "kg",
-          "precio_unidad": 17.71,
           "url": ""
         },
         {
@@ -10699,6 +10672,15 @@
           "url": ""
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Chorizo de bellota ibérico La hacienda del ibérico",
+          "marca": "",
+          "precio": 10.58,
+          "unidad": "kg",
+          "precio_unidad": 26.99,
+          "url": ""
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "CHORIZO ASTURIANO EL KILO",
           "marca": "EL CUCO",
@@ -11181,15 +11163,6 @@
           "url": ""
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "GAMBÓN PELADO CRUDO 200 G.",
-          "marca": "DELFÍN",
-          "precio": 4.23,
-          "unidad": "kg",
-          "precio_unidad": 21.15,
-          "url": "https://www.alimerkaonline.es/10019404.html"
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "Peskitos merluza empanada 10 unidades estuche 400 g - Pescanova",
           "marca": "pescanova",
@@ -11515,6 +11488,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "GAMBÓN PELADO CRUDO 200 G.",
+          "marca": "DELFÍN",
+          "precio": 5.99,
+          "unidad": "kg",
+          "precio_unidad": 29.95,
+          "url": "https://www.alimerkaonline.es/10019404.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "SALMON NORUEGO 250 G.",
           "marca": "SEAWORK",
           "precio": 5.99,
@@ -11736,6 +11718,15 @@
           "precio": 9.25,
           "unidad": "kg",
           "precio_unidad": 18.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Porciones de merluza",
+          "marca": "",
+          "precio": 9.43,
+          "unidad": "kg",
+          "precio_unidad": 26.94,
           "url": ""
         },
         {
@@ -13222,6 +13213,15 @@
           "url": ""
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Cebollas",
+          "marca": "",
+          "precio": 1.5,
+          "unidad": "kg",
+          "precio_unidad": 1.5,
+          "url": ""
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "Cebolla gallega al peso (peso aproximado de la unidad 150 g)",
           "marca": "",
@@ -13229,15 +13229,6 @@
           "unidad": "kg",
           "precio_unidad": 10.67,
           "url": "https://www.hipercor.es/supermercado/B001018104600327-cebolla-gallega-al-peso-peso-aproximado-de-la-unidad-150-g/"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Cebollas",
-          "marca": "",
-          "precio": 1.7,
-          "unidad": "kg",
-          "precio_unidad": 1.7,
-          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -13376,20 +13367,20 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Cebollas",
+          "marca": "",
+          "precio": 3.0,
+          "unidad": "kg",
+          "precio_unidad": 1.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Cebolla roja Olives García en vinagre",
           "marca": "",
           "precio": 3.15,
           "unidad": "kg",
           "precio_unidad": 4.38,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Cebollas",
-          "marca": "",
-          "precio": 3.2,
-          "unidad": "kg",
-          "precio_unidad": 1.6,
           "url": ""
         }
       ]
@@ -13836,12 +13827,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "TOMATE FRITO 360 GRS.",
-          "marca": "SOLÍS",
-          "precio": 1.49,
+          "nombre_real": "TOMATE PARA UNTAR CON ACEITE VIRGEN EXTR 140 G. X 2",
+          "marca": "ALIMERKA",
+          "precio": 1.47,
           "unidad": "kg",
-          "precio_unidad": 4.14,
-          "url": "https://www.alimerkaonline.es/725025.html"
+          "precio_unidad": 5.25,
+          "url": "https://www.alimerkaonline.es/10021086.html"
         },
         {
           "supermercado": "Alimerka",
@@ -14363,15 +14354,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "pimientos del piquillo enteros frasco 225 g neto escurrido - Carretilla",
-          "marca": "carretilla",
-          "precio": 3.2,
-          "unidad": "kg",
-          "precio_unidad": 14.22,
-          "url": "https://www.hipercor.es/supermercado/B001018026100737-carretilla-pimientos-del-piquillo-enteros-frasco-225-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "pimientos morrones extra 3 lata 60 g neto escurrido - Martinez",
           "marca": "martinez",
           "precio": 3.29,
@@ -14504,6 +14486,15 @@
           "unidad": "kg",
           "precio_unidad": 13.56,
           "url": "https://www.hipercor.es/supermercado/B001018026101362-carretilla-pimientos-del-piquillo-en-tiras-al-ajillo-pack-2-frasco-225-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pimientos del piquillo DOP de Lodosa enteros extra frasco 205 g neto escurrido - Pedro Luis",
+          "marca": "pedro luis",
+          "precio": 6.99,
+          "unidad": "kg",
+          "precio_unidad": 34.1,
+          "url": "https://www.hipercor.es/supermercado/B001018026102113-pedro-luis-pimientos-del-piquillo-dop-de-lodosa-enteros-extra-frasco-205-g-neto-escurrido/"
         }
       ]
     },
@@ -16100,20 +16091,20 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Rosquillas de chocolate con leche y coco Hacendado",
+          "marca": "",
+          "precio": 1.7,
+          "unidad": "kg",
+          "precio_unidad": 5.67,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Tortitas de maíz campestre Hacendado",
           "marca": "",
           "precio": 1.75,
           "unidad": "kg",
           "precio_unidad": 12.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Rosquillas de chocolate con leche y coco Hacendado",
-          "marca": "",
-          "precio": 1.75,
-          "unidad": "kg",
-          "precio_unidad": 5.83,
           "url": ""
         },
         {
@@ -17374,20 +17365,20 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Galletas con chocolate y crema de leche Hacendado",
+          "marca": "",
+          "precio": 2.55,
+          "unidad": "kg",
+          "precio_unidad": 9.51,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Galletas Crunchy Choc Hacendado",
           "marca": "",
           "precio": 2.6,
           "unidad": "kg",
           "precio_unidad": 5.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Galletas con chocolate y crema de leche Hacendado",
-          "marca": "",
-          "precio": 2.65,
-          "unidad": "kg",
-          "precio_unidad": 9.89,
           "url": ""
         },
         {
@@ -18005,7 +17996,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula forte Hacendado",
+          "nombre_real": "Café en cápsula descafeinado Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
@@ -18014,7 +18005,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula descafeinado Hacendado",
+          "nombre_real": "Café en cápsula forte Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
@@ -18563,15 +18554,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "café Barista intensidad 13 estuche 20 cápsulas - L'or Espresso",
-          "marca": "l'or espresso",
-          "precio": 7.89,
-          "unidad": "kg",
-          "precio_unidad": 75.87,
-          "url": "https://www.hipercor.es/supermercado/B001020604604403-lor-espresso-cafe-barista-intensidad-13-estuche-20-capsulas/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "café Espresso Intenso de intensidad 7 estuche 30 cápsulas - Nescafe Dolce Gusto",
           "marca": "nescafe dolce gusto",
           "precio": 8.55,
@@ -18596,6 +18578,15 @@
           "unidad": "kg",
           "precio_unidad": 28.5,
           "url": "https://www.hipercor.es/supermercado/B001020605100963-nescafe-dolce-gusto-cafe-con-leche-decaffeinato-seleccion-robusta-envase-30-capsulas/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "café espresso descafeinado intenso de Colombia y Vietnam intensidad 7 estuche 30 cápsulas - Nescafe Dolce Gusto",
+          "marca": "nescafe dolce gusto",
+          "precio": 8.55,
+          "unidad": "kg",
+          "precio_unidad": 40.71,
+          "url": "https://www.hipercor.es/supermercado/B001020605100609-nescafe-dolce-gusto-cafe-espresso-descafeinado-intenso-de-colombia-y-vietnam-intensidad-7-estuche-30-capsulas/"
         },
         {
           "supermercado": "Alimerka",
@@ -19862,6 +19853,15 @@
           "unidad": "L",
           "precio_unidad": 2.55,
           "url": "https://www.hipercor.es/supermercado/B001018657200442-don-simon-zumo-de-naranja-100-exprimido-con-pulpa-brik-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "zumo de naranja 100% exprimido sin pulpa brik 1 l - Don Simon",
+          "marca": "don simon",
+          "precio": 2.55,
+          "unidad": "L",
+          "precio_unidad": 2.55,
+          "url": "https://www.hipercor.es/supermercado/B001018633601614-don-simon-zumo-de-naranja-100-exprimido-sin-pulpa-brik-1-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -24303,6 +24303,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "lejía blanca botella 1,9 l - Neutrex",
+          "marca": "neutrex",
+          "precio": 3.29,
+          "unidad": "L",
+          "precio_unidad": 1.73,
+          "url": "https://www.hipercor.es/supermercado/B001028014100425-neutrex-lejia-blanca-botella-19-l/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "lejía Futura blanca fórmula densa no salpica botella 1900 ml - Neutrex",
           "marca": "neutrex",
           "precio": 3.35,
@@ -24709,7 +24718,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño avena Deliplus piel sensible",
+          "nombre_real": "Gel de baño coco y lichi Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -24718,7 +24727,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño coco y lichi Deliplus piel normal",
+          "nombre_real": "Gel de baño avena Deliplus piel sensible",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -27263,6 +27272,15 @@
           "precio": 7.9,
           "unidad": "kg",
           "precio_unidad": 1.32,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañales bebé talla 1 Deliplus de 2-4 kg",
+          "marca": "",
+          "precio": 7.9,
+          "unidad": "kg",
+          "precio_unidad": 1.98,
           "url": ""
         },
         {
