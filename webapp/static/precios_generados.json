@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-31T11:43:57+00:00",
+  "generado_en": "2026-10-31T16:51:59+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -14354,6 +14354,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "pimientos del piquillo enteros frasco 225 g neto escurrido - Carretilla",
+          "marca": "carretilla",
+          "precio": 3.2,
+          "unidad": "kg",
+          "precio_unidad": 14.22,
+          "url": "https://www.hipercor.es/supermercado/B001018026100737-carretilla-pimientos-del-piquillo-enteros-frasco-225-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "pimientos morrones extra 3 lata 60 g neto escurrido - Martinez",
           "marca": "martinez",
           "precio": 3.29,
@@ -14486,15 +14495,6 @@
           "unidad": "kg",
           "precio_unidad": 13.56,
           "url": "https://www.hipercor.es/supermercado/B001018026101362-carretilla-pimientos-del-piquillo-en-tiras-al-ajillo-pack-2-frasco-225-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "pimientos del piquillo DOP de Lodosa enteros extra frasco 205 g neto escurrido - Pedro Luis",
-          "marca": "pedro luis",
-          "precio": 6.99,
-          "unidad": "kg",
-          "precio_unidad": 34.1,
-          "url": "https://www.hipercor.es/supermercado/B001018026102113-pedro-luis-pimientos-del-piquillo-dop-de-lodosa-enteros-extra-frasco-205-g-neto-escurrido/"
         }
       ]
     },
