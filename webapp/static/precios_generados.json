@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-11-01T04:13:31+00:00",
+  "generado_en": "2026-11-01T12:43:08+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -2994,6 +2994,15 @@
           "url": ""
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Queso rallado emmental gratinar Hacendado",
+          "marca": "",
+          "precio": 1.6,
+          "unidad": "kg",
+          "precio_unidad": 8.0,
+          "url": ""
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "QUESO RALLADO MOZZARELLA 200 G.",
           "marca": "ALIMERKA",
@@ -3010,15 +3019,6 @@
           "unidad": "kg",
           "precio_unidad": 20.0,
           "url": "https://www.alimerkaonline.es/10016469.html"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Queso rallado emmental gratinar Hacendado",
-          "marca": "",
-          "precio": 1.65,
-          "unidad": "kg",
-          "precio_unidad": 8.25,
-          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -4220,6 +4220,15 @@
           "url": "https://www.hipercor.es/supermercado/B001020654802972-el-corte-ingles-pan-de-molde-con-semillas-y-pipas-de-calabaza-bolsa-580-g/"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "PAN DE MOLDE BLANCO 820 G.",
+          "marca": "ORTIZ",
+          "precio": 1.63,
+          "unidad": "kg",
+          "precio_unidad": 1.99,
+          "url": "https://www.alimerkaonline.es/10031189.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Pan de molde espelta 100% integral Hacendado natural",
           "marca": "",
@@ -4906,21 +4915,21 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "HOGAZA RÚSTICA 240 G.",
+          "marca": "RECONDO",
+          "precio": 1.99,
+          "unidad": "kg",
+          "precio_unidad": 8.29,
+          "url": "https://www.alimerkaonline.es/10013781.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "CHAPATA RÚSTICA 180 G.",
           "marca": "RECONDO",
           "precio": 2.39,
           "unidad": "kg",
           "precio_unidad": 13.28,
           "url": "https://www.alimerkaonline.es/10020121.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "HOGAZA RÚSTICA 240 G.",
-          "marca": "RECONDO",
-          "precio": 2.39,
-          "unidad": "kg",
-          "precio_unidad": 8.29,
-          "url": "https://www.alimerkaonline.es/10013781.html"
         },
         {
           "supermercado": "Alimerka",
@@ -5365,6 +5374,15 @@
           "url": ""
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "ARROZ INTEGRAL 1 KILO",
+          "marca": "ALIMERKA",
+          "precio": 1.65,
+          "unidad": "kg",
+          "precio_unidad": 1.65,
+          "url": "https://www.alimerkaonline.es/10021846.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "arroz redondo paquete 1 kg - La Fallera",
           "marca": "la fallera",
@@ -5507,15 +5525,6 @@
           "unidad": "kg",
           "precio_unidad": 2.09,
           "url": "https://www.hipercor.es/supermercado/B001018005801552-sos-arroz-integral-paquete-1-kg/"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "ARROZ INTEGRAL 1 KILO",
-          "marca": "SOS",
-          "precio": 2.09,
-          "unidad": "kg",
-          "precio_unidad": 2.09,
-          "url": "https://www.alimerkaonline.es/750026.html"
         },
         {
           "supermercado": "Mercadona",
@@ -6675,15 +6684,6 @@
           "unidad": "L",
           "precio_unidad": 4.35,
           "url": "https://www.alimerkaonline.es/12013.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 1 LITRO",
-          "marca": "COTOLIVA",
-          "precio": 4.39,
-          "unidad": "L",
-          "precio_unidad": 4.39,
-          "url": "https://www.alimerkaonline.es/10019088.html"
         },
         {
           "supermercado": "Mercadona",
@@ -8473,15 +8473,6 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "ATÚN CLARO EN ACEITE DE OLIVA 82 G.",
-          "marca": "ALBO",
-          "precio": 3.39,
-          "unidad": "kg",
-          "precio_unidad": 41.34,
-          "url": "https://www.alimerkaonline.es/711031.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "ATÚN CLARO EN ACEITE DE OLIVA 156 G.",
           "marca": "CALVO",
           "precio": 3.49,
@@ -8722,6 +8713,15 @@
           "unidad": "kg",
           "precio_unidad": 31.15,
           "url": "https://www.alimerkaonline.es/10010210.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "BONITO EN ACEITE DE OLIVA 260 G.",
+          "marca": "CONSORCIO",
+          "precio": 9.85,
+          "unidad": "kg",
+          "precio_unidad": 37.88,
+          "url": "https://www.alimerkaonline.es/719005.html"
         },
         {
           "supermercado": "Alimerka",
@@ -11200,20 +11200,20 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Medallones de merluza del Cabo Hacendado ultracongelados",
+          "marca": "",
+          "precio": 4.5,
+          "unidad": "kg",
+          "precio_unidad": 9.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Preparado de paella y sopa Hacendado ultracongelado",
           "marca": "",
           "precio": 4.5,
           "unidad": "kg",
           "precio_unidad": 6.57,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Medallones de merluza del Cabo Hacendado ultracongelados",
-          "marca": "",
-          "precio": 4.6,
-          "unidad": "kg",
-          "precio_unidad": 9.2,
           "url": ""
         },
         {
@@ -11343,6 +11343,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018949301123-pescanova-merluza-con-rebozado-crun-chyx-sin-gluten-ideal-para-air-fryer-bolsa-400-g/"
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Filetes de merluza al huevo Hacendado ultracongelados",
+          "marca": "",
+          "precio": 5.05,
+          "unidad": "kg",
+          "precio_unidad": 8.42,
+          "url": ""
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "GAMBA PELADA MEDIANA 360 G.",
           "marca": "EXKIMO",
@@ -11350,15 +11359,6 @@
           "unidad": "kg",
           "precio_unidad": 14.17,
           "url": "https://www.alimerkaonline.es/10023670.html"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Filetes de merluza al huevo Hacendado ultracongelados",
-          "marca": "",
-          "precio": 5.15,
-          "unidad": "kg",
-          "precio_unidad": 8.58,
-          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -14697,6 +14697,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Zanahorias",
+          "marca": "",
+          "precio": 1.0,
+          "unidad": "kg",
+          "precio_unidad": 1.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Zanahoria rallada lavada",
           "marca": "",
           "precio": 1.0,
@@ -14721,15 +14730,6 @@
           "unidad": "kg",
           "precio_unidad": 2.63,
           "url": "https://www.alimerkaonline.es/8000514.html"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Zanahorias",
-          "marca": "",
-          "precio": 1.2,
-          "unidad": "kg",
-          "precio_unidad": 1.2,
-          "url": ""
         },
         {
           "supermercado": "Hipercor",
@@ -17328,6 +17328,15 @@
           "url": ""
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "galletas con avena y naranja paquete 425 g - Gullon Digestive",
+          "marca": "gullon digestive",
+          "precio": 2.09,
+          "unidad": "kg",
+          "precio_unidad": 4.92,
+          "url": "https://www.hipercor.es/supermercado/B001020613801628-gullon-digestive-galletas-con-avena-y-naranja-paquete-425-g/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Galletas Roditas bañadas con chocolate blanco Hacendado",
           "marca": "",
@@ -17362,15 +17371,6 @@
           "unidad": "kg",
           "precio_unidad": 8.3,
           "url": "https://www.alimerkaonline.es/10023864.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "galletas María sin azúcares caja 600 g - Gullon Zero",
-          "marca": "gullon zero",
-          "precio": 2.55,
-          "unidad": "kg",
-          "precio_unidad": 4.25,
-          "url": "https://www.hipercor.es/supermercado/B001020613800158-gullon-zero-galletas-maria-sin-azucares-caja-600-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -18572,6 +18572,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "café Barista intensidad 13 estuche 20 cápsulas - L'or Espresso",
+          "marca": "l'or espresso",
+          "precio": 7.89,
+          "unidad": "kg",
+          "precio_unidad": 75.87,
+          "url": "https://www.hipercor.es/supermercado/B001020604604403-lor-espresso-cafe-barista-intensidad-13-estuche-20-capsulas/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "café Espresso Intenso de intensidad 7 estuche 30 cápsulas - Nescafe Dolce Gusto",
           "marca": "nescafe dolce gusto",
           "precio": 8.55,
@@ -18596,15 +18605,6 @@
           "unidad": "kg",
           "precio_unidad": 28.5,
           "url": "https://www.hipercor.es/supermercado/B001020605100963-nescafe-dolce-gusto-cafe-con-leche-decaffeinato-seleccion-robusta-envase-30-capsulas/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "café espresso descafeinado intenso de Colombia y Vietnam intensidad 7 estuche 30 cápsulas - Nescafe Dolce Gusto",
-          "marca": "nescafe dolce gusto",
-          "precio": 8.55,
-          "unidad": "kg",
-          "precio_unidad": 40.71,
-          "url": "https://www.hipercor.es/supermercado/B001020605100609-nescafe-dolce-gusto-cafe-espresso-descafeinado-intenso-de-colombia-y-vietnam-intensidad-7-estuche-30-capsulas/"
         },
         {
           "supermercado": "Alimerka",
@@ -21553,6 +21553,15 @@
           "url": ""
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Vino tinto crianza Viña Albali DO Valdepeñas",
+          "marca": "",
+          "precio": 2.8,
+          "unidad": "L",
+          "precio_unidad": 3.73,
+          "url": ""
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "vino tinto tempranillo joven DOCa Rioja botella 75 cl - Faustino Rivero Ulecia",
           "marca": "faustino rivero ulecia",
@@ -21596,15 +21605,6 @@
           "unidad": "L",
           "precio_unidad": 3.99,
           "url": "https://www.alimerkaonline.es/10030084.html"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Vino tinto crianza Viña Albali DO Valdepeñas",
-          "marca": "",
-          "precio": 3.0,
-          "unidad": "L",
-          "precio_unidad": 4.0,
-          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -22879,7 +22879,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Activador Blanqueante ropa blanca Oxi Active Bosque Verde en gel",
+          "nombre_real": "Activador Quitamanchas ropa de color Oxi Active Bosque Verde en gel",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -22888,7 +22888,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Activador Quitamanchas ropa de color Oxi Active Bosque Verde en gel",
+          "nombre_real": "Activador Blanqueante ropa blanca Oxi Active Bosque Verde en gel",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -25650,7 +25650,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Menthol Fresh H&S",
+          "nombre_real": "Champú anticaspa Citrus Fresh H&S cabello graso",
           "marca": "",
           "precio": 3.9,
           "unidad": "L",
@@ -25659,7 +25659,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Citrus Fresh H&S cabello graso",
+          "nombre_real": "Champú anticaspa Menthol Fresh H&S",
           "marca": "",
           "precio": 3.9,
           "unidad": "L",
@@ -27178,6 +27178,15 @@
           "unidad": "100 ml.",
           "precio_unidad": 3.0,
           "url": "https://www.hipercor.es/supermercado/B001055754802779-dove-men-desodorante--care-advanced-invisible-dry-antimanchas-antitranspirante-72h-spray-150-ml/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "DESODORANTE ZONA BAJA PERA Y MADERA 100 ML.",
+          "marca": "AXE",
+          "precio": 5.35,
+          "unidad": "L",
+          "precio_unidad": 53.5,
+          "url": "https://www.alimerkaonline.es/10031076.html"
         }
       ]
     },
