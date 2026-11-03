@@ -63,11 +63,21 @@ def _rastrear_hipercor(cp, pausa, max_hojas, log):
     return r.productos, r.fallos, r.n_hojas
 
 
+def _rastrear_masymas(cp, pausa, max_hojas, log):
+    # requests normal, como Alimerka (el CP no se usa: tienda de Asturias).
+    from src.catalogo.masymas import rastrear
+    from src.supermarkets.masymas import MasYMas
+
+    r = rastrear(MasYMas(), pausa_s=pausa, max_hojas=max_hojas, log=log)
+    return r.productos, r.fallos, r.n_hojas
+
+
 # Nombre -> (nombre para mostrar, rastreador).
 RASTREADORES: Dict[str, Tuple[str, Rastreador]] = {
     "alimerka": ("Alimerka", _rastrear_alimerka),
     "mercadona": ("Mercadona", _rastrear_mercadona),
     "hipercor": ("Hipercor", _rastrear_hipercor),
+    "masymas": ("Más y Más", _rastrear_masymas),
 }
 
 

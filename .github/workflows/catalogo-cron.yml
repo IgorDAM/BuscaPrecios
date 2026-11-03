@@ -34,7 +34,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        super: [alimerka, mercadona, hipercor]
+        super: [alimerka, mercadona, hipercor, masymas]
     steps:
       - uses: actions/checkout@v4
 
@@ -48,7 +48,7 @@ jobs:
       - name: Instalar Chromium (Playwright) + Xvfb
         # Alimerka usa solo requests; Mercadona e Hipercor necesitan un
         # navegador visible (Akamai), que aquí corre bajo Xvfb.
-        if: matrix.super != 'alimerka'
+        if: matrix.super != 'alimerka' && matrix.super != 'masymas'
         run: |
           playwright install --with-deps chromium
           sudo apt-get update && sudo apt-get install -y xvfb

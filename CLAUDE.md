@@ -531,3 +531,25 @@ proyecto de Claude. Resumen:
   Alcampo (44 leches, zona Gijón fijada). Pendiente: paginación
   de búsquedas amplias en Más y Más; rastreo de catálogo completo de ambos.
 
+## Mejoras del 2026-11-03 (tarde)
+
+- **Preselección automática** (`app.js`): si la eligió la app, se recalcula
+  con cada súper que llega (antes se quedaba con la del primero en
+  contestar). Ella y la etiqueta "Más barato" se limitan a la familia de
+  medida mayoritaria (`filtrarFamiliaMayoritaria`: peso, volumen o
+  unidades), para no elegir huevos de chocolate (por kilo) cuando se
+  buscan huevos (por docena/unidad). Para eso `medidas.precio_por_medida()`
+  entiende "6uds", "6 unds", "12 unidades" (-> €/ud) y "LA DOCENA".
+- **Interfaz**: estilo "etiqueta de lineal" (ver cabecera de `style.css`),
+  un color por súper (`data-super`, `claveSuper()`) y modo oscuro por
+  `prefers-color-scheme`. Fuentes Barlow en `webapp/static/fonts` (OFL).
+- **Catálogo de Más y Más** (`src/catalogo/masymas.py`, en el cron semanal
+  sin navegador): 51 subcategorías de 8 secciones, ~7.200 productos, ~100
+  peticiones. Las páginas de categoría traen un carrusel de recomendaciones
+  con tarjetas idénticas: `tarjetas_resultado()` lo descarta.
+- **EAN: no viable.** Ningún súper lo da en los listados, y ni Más y Más ni
+  Alcampo en la ficha de producto (verificado). El emparejamiento entre
+  súpers sigue siendo por similitud de nombres.
+- **Catálogo de Alcampo: pendiente.** Catálogo muy grande, solo 50
+  productos decorados por página, navegador obligatorio por el WAF.
+

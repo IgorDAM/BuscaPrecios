@@ -118,6 +118,18 @@ def tarjeta_a_producto(tile, nombre_buscado: str = "") -> Optional[Producto]:
     )
 
 
+def tarjetas_resultado(soup) -> list:
+    """Tarjetas de producto de los RESULTADOS de la página. Las páginas de
+    categoría traen además un carrusel de recomendaciones con tarjetas
+    idénticas (`.carousel-wrapper`, que también lleva la clase product-grid):
+    verificado el 2026-11-03, 8 productos de otras secciones se colaban en
+    "Leches y bebidas vegetales". Se descartan."""
+    return [
+        t for t in soup.select("div.product[data-pid]")
+        if not t.find_parent(class_="carousel-wrapper")
+    ]
+
+
 class MasYMas(Supermercado):
     nombre = "Más y Más"
 
@@ -132,7 +144,7 @@ class MasYMas(Supermercado):
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
         resultado = []
-        for tile in soup.select("div.product[data-pid]"):
+        for tile in tarjetas_resultado(soup):
             producto = tarjeta_a_producto(tile, nombre_producto)
             if producto is not None:
                 resultado.append(producto)

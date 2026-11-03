@@ -309,7 +309,7 @@ async function cargarPreciosEstaticos() {
 // Catálogos completos que publica el cron semanal (catalogo_<super>.json).
 // Se descargan una vez por sesión, solo cuando hace falta (sin backend).
 // clave -> catálogo | false (ya se intentó y no hay). Ver catalogo.js.
-const CLAVES_CATALOGO = { Alimerka: "alimerka", Mercadona: "mercadona", Hipercor: "hipercor" };
+const CLAVES_CATALOGO = { Alimerka: "alimerka", Mercadona: "mercadona", Hipercor: "hipercor", "Más y Más": "masymas" };
 const cacheCatalogos = {};
 
 // catalogo.js suele venir del <script> de index.html, pero si el móvil sirve un
