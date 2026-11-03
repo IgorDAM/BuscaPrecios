@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Comparador de Supermercados</title>
-  <meta name="theme-color" content="#2f7d4f" />
+  <meta name="theme-color" content="#e9eeec" />
   <link rel="manifest" href="/manifest.json" />
   <link rel="icon" href="/icon-192.png" />
   <link rel="apple-touch-icon" href="/icon-192.png" />
@@ -14,7 +14,7 @@
   <header>
     <div>
       <h1>Comparador Súper</h1>
-      <p class="header-subtitulo">Oviedo, Asturias</p>
+      <p class="header-subtitulo">Oviedo y Gijón</p>
     </div>
     <button id="instalar-btn">Instalar</button>
   </header>
@@ -38,30 +38,28 @@
       </div>
       <ul id="lista-productos"></ul>
 
-      <label style="margin-bottom:0.3rem;">Qué supermercados comparar</label>
-      <div class="checkbox-fila">
-        <input type="checkbox" id="incluir-hipercor" checked />
-        <label for="incluir-hipercor" style="margin:0;">Hipercor</label>
-      </div>
-      <div class="checkbox-fila">
-        <input type="checkbox" id="incluir-alimerka" checked />
-        <label for="incluir-alimerka" style="margin:0;">Alimerka</label>
-      </div>
-      <div class="checkbox-fila">
-        <input type="checkbox" id="incluir-mercadona" checked />
-        <label for="incluir-mercadona" style="margin:0;">
-          Mercadona (más lento: usa un navegador real)
-        </label>
-      </div>
-      <div class="checkbox-fila">
-        <input type="checkbox" id="incluir-alcampo" checked />
-        <label for="incluir-alcampo" style="margin:0;">
-          Alcampo Gijón (más lento: usa un navegador real)
-        </label>
-      </div>
-      <div class="checkbox-fila">
-        <input type="checkbox" id="incluir-masymas" checked />
-        <label for="incluir-masymas" style="margin:0;">Más y Más</label>
+      <p class="campo-titulo">Dónde buscar</p>
+      <div class="supers">
+        <div class="checkbox-fila">
+          <input type="checkbox" id="incluir-hipercor" checked />
+          <label for="incluir-hipercor">Hipercor <small>más lento</small></label>
+        </div>
+        <div class="checkbox-fila">
+          <input type="checkbox" id="incluir-alimerka" checked />
+          <label for="incluir-alimerka">Alimerka</label>
+        </div>
+        <div class="checkbox-fila">
+          <input type="checkbox" id="incluir-mercadona" checked />
+          <label for="incluir-mercadona">Mercadona <small>más lento</small></label>
+        </div>
+        <div class="checkbox-fila">
+          <input type="checkbox" id="incluir-alcampo" checked />
+          <label for="incluir-alcampo">Alcampo Gijón <small>más lento</small></label>
+        </div>
+        <div class="checkbox-fila">
+          <input type="checkbox" id="incluir-masymas" checked />
+          <label for="incluir-masymas">Más y Más</label>
+        </div>
       </div>
 
       <button class="btn-primario" id="comparar-btn">Buscar precios</button>
