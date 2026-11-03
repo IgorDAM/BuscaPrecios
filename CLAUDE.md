@@ -490,3 +490,37 @@ de los tres súpers y la web busca sobre esos archivos, sin backend.
 - Coste: repo público ⇒ minutos de Actions gratis; Azure Static Web Apps Free solo
   sirve ficheros (catálogos ≈ 5 MB sin comprimir). Cada rastreo añade ~5 MB al
   historial de git (se comprime); a 2 por semana son ~100 por año.
+
+## Alcampo y Más y Más (añadidos el 2026-11-03)
+
+Detalle completo y verificado en `claude/esquema-alcampo-masymas.md` del
+proyecto de Claude. Resumen:
+
+- **`src/supermarkets/alcampo.py`** — Playwright visible (AWS WAF). Fija la
+  zona rellenando el formulario de la web ("Porceyo Gijón" -> sugerencia
+  "Porceyo, 33392" -> Confirmar ubicación -> Entrega -> Confirmar) y lanza
+  `SupermercadoCaido` si la cabecera no pasa a "Entrega: 33392" (sin zona
+  salen precios de Madrid, que difieren). Dos trampas reales encontradas en
+  la primera ejecución (2026-11-03): (1) un clic sintético por JS sobre la
+  sugerencia cierra la lista pero NO la selecciona; hace falta un clic real
+  de Playwright sobre `[role=listbox] [role=option]` (el conector prueba
+  después teclado y JS como respaldo y dice cuál funcionó); (2) tras elegirla,
+  el mapa tarda ~1 s en moverse y confirmar antes fija el punto por defecto
+  (28013, Puerta del Sol): se espera a que "Entregar en" muestre el CP. Además
+  la página tiene DOS `input#search`: todo se acota al diálogo de entrega.
+  Si falla, guarda captura y texto en `diag/` (ignorado por git). Lee `window.__INITIAL_STATE__`
+  (`data.products.productEntities`, 50 primeros resultados). Los parámetros
+  de zona son del constructor (equivalente a `CENTROS_CONOCIDOS` de Hipercor).
+- **`src/supermarkets/masymas.py`** — `requests` sobre supermasymasonline.com
+  (Más y Más **Asturias**; tienda.masymas.com es Valencia/Murcia y no se usa).
+  Trampa: a granel `data-price` es el precio de la cantidad mínima, no del
+  kilo; el real va en `.unit-price-per-unit-details:not(.strike-through)`.
+- Registro: `src/supermarkets/__init__.py`, `src/main.py` (`--solo alcampo
+  masymas`), `webapp/app.py` (flags `incluir_alcampo`/`incluir_masymas`, por
+  defecto `False` para que un `app.js` viejo en caché no los dispare),
+  `webapp/static/{index.html,app.js}` y `scripts/generar_precios.py`. La Azure
+  Function responde 501 a los nuevos y el frontend cae al JSON del cron.
+- Verificados en el PC de Igor el 2026-11-03: Más y Más (16 leches con `requests`) y
+  Alcampo (44 leches, zona Gijón fijada). Pendiente: paginación
+  de búsquedas amplias en Más y Más; rastreo de catálogo completo de ambos.
+

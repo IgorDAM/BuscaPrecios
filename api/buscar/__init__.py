@@ -60,7 +60,8 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     # Solo Alimerka en directo. Si piden Hipercor/Mercadona, 501 -> el
     # frontend usa los precios publicados por el cron.
-    if body.get("incluir_hipercor") or body.get("incluir_mercadona") or not body.get("incluir_alimerka", True):
+    if (body.get("incluir_hipercor") or body.get("incluir_mercadona") or body.get("incluir_alcampo")
+            or body.get("incluir_masymas") or not body.get("incluir_alimerka", True)):
         return _json({"error": "Solo Alimerka se consulta en directo en la nube"}, 501)
 
     productos = productos[:MAX_PRODUCTOS]

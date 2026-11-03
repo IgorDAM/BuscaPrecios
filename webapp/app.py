@@ -24,7 +24,7 @@ from flask import Flask, jsonify, request, send_from_directory
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent))  # para importar cache.py
 
-from src.supermarkets import Mercadona, Hipercor, Alimerka
+from src.supermarkets import Mercadona, Hipercor, Alimerka, Alcampo, MasYMas
 from src.supermarkets.base import Producto, filtrar_relevantes
 
 import cache
@@ -64,12 +64,17 @@ def api_buscar():
     incluir_hipercor = bool(body.get("incluir_hipercor", True))
     incluir_alimerka = bool(body.get("incluir_alimerka", True))
     incluir_mercadona = bool(body.get("incluir_mercadona", True))
+    # Los nuevos van por defecto a False: un app.js viejo en caché (que no
+    # los envía) no debe lanzar de pronto búsquedas en ellos.
+    incluir_alcampo = bool(body.get("incluir_alcampo", False))
+    incluir_masymas = bool(body.get("incluir_masymas", False))
 
     if not cp:
         return jsonify({"error": "Falta el código postal"}), 400
     if not productos:
         return jsonify({"error": "La lista de la compra está vacía"}), 400
-    if not (incluir_hipercor or incluir_alimerka or incluir_mercadona):
+    if not (incluir_hipercor or incluir_alimerka or incluir_mercadona
+            or incluir_alcampo or incluir_masymas):
         return jsonify({"error": "Elige al menos un supermercado"}), 400
 
     opciones_por_producto = {p: [] for p in productos}
@@ -143,6 +148,32 @@ def api_buscar():
             except Exception as e:
                 avisos.append({"supermercado": "Mercadona", "motivo": str(e) or type(e).__name__})
 
+    if incluir_alcampo:
+        # Navegador real (AWS WAF) y zona de Gijón fijada por el propio
+        # conector: no usa el CP de la petición.
+        pendientes = _pendientes("Alcampo")
+        if pendientes:
+            try:
+                resultado = Alcampo().buscar_productos_multiples(pendientes)
+                for nombre, opts in resultado.items():
+                    _registrar("Alcampo", nombre, opts)
+            except Exception as e:
+                avisos.append({"supermercado": "Alcampo", "motivo": str(e) or type(e).__name__})
+
+    if incluir_masymas:
+        # Tienda online de Asturias (requests normal, como Alimerka).
+        pendientes = _pendientes("Más y Más")
+        if pendientes:
+            masymas = MasYMas()
+            fallos = []
+            for nombre in pendientes:
+                try:
+                    _registrar("Más y Más", nombre, masymas.buscar_productos(nombre))
+                except Exception as e:
+                    fallos.append(f"{nombre}: {e or type(e).__name__}")
+            if fallos:
+                avisos.append({"supermercado": "Más y Más", "motivo": "; ".join(fallos)})
+
     resultados = []
     for nombre in productos:
         opciones = sorted(opciones_por_producto[nombre], key=lambda o: o["precio"])
@@ -154,6 +185,8 @@ def api_buscar():
         "Hipercor": incluir_hipercor,
         "Alimerka": incluir_alimerka,
         "Mercadona": incluir_mercadona,
+        "Alcampo": incluir_alcampo,
+        "Más y Más": incluir_masymas,
     }
     ya_avisados = {a["supermercado"] for a in avisos}
     for nombre_super, pedido in pedidos.items():

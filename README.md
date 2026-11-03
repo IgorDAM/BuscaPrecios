@@ -20,6 +20,8 @@ compra entre supermercados en vez de comprarlo todo en el más caro.
 | Alimerka | HTML renderizado en servidor (`requests` normal, sin JS) | Implementado y **verificado en vivo**, entrando como invitado con tu CP. |
 | Hipercor | Navegador real **visible** vía Playwright (ver por qué, abajo) | Implementado y **verificado en vivo**. |
 | Mercadona | Navegador real **visible** vía Playwright | Implementado y **verificado en vivo**, fijando la zona de entrega con el formulario de su propia web. |
+| Alcampo (Gijón, Porceyo) | Navegador real **visible** vía Playwright; lee `window.__INITIAL_STATE__` | Implementado y **verificado en vivo** en el PC (2026-11-03: 44 leches, zona Gijón fijada). La zona se fija con el formulario de la web ("Porceyo, 33392"). |
+| Más y Más (Asturias) | `requests` sobre supermasymasonline.com (Salesforce, HTML en servidor) | Implementado y **verificado en vivo** en el PC (2026-11-03: 16 leches). No confundir con tienda.masymas.com (Valencia/Murcia). |
 
 He comprobado en un navegador real que la lógica de extracción de
 precios funciona con datos reales de cada supermercado (leche entera a

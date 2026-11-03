@@ -5,3 +5,6 @@ venv/
 .env
 .cache_precios/
 api/_lib/
+
+# Capturas de diagnóstico de los conectores con navegador
+diag/

@@ -22,7 +22,7 @@ import sys
 from pathlib import Path
 
 from .compare import LineaCompra, comparar
-from .supermarkets import Mercadona, Hipercor, Alimerka
+from .supermarkets import Mercadona, Hipercor, Alimerka, Alcampo, MasYMas
 
 CP_OVIEDO = "33012"
 
@@ -55,8 +55,8 @@ def main():
     parser.add_argument(
         "--solo",
         nargs="+",
-        choices=["mercadona", "hipercor", "alimerka"],
-        help="Comparar solo estos supermercados (por defecto, los tres)",
+        choices=["mercadona", "hipercor", "alimerka", "alcampo", "masymas"],
+        help="Comparar solo estos supermercados (por defecto, todos)",
     )
     args = parser.parse_args()
 
@@ -69,15 +69,21 @@ def main():
         "Mercadona": lambda: Mercadona(CP_OVIEDO),
         "Hipercor": lambda: Hipercor(CP_OVIEDO),
         "Alimerka": lambda: Alimerka(CP_OVIEDO),
+        # Alcampo fija su zona (Gijón, Porceyo) por dentro; Más y Más es la
+        # tienda online de Asturias. Ninguno usa el CP de Oviedo.
+        "Alcampo": lambda: Alcampo(),
+        "Más y Más": lambda: MasYMas(),
     }
     if args.solo:
-        elegidos = {s.lower() for s in args.solo}
-        disponibles = {k: v for k, v in disponibles.items() if k.lower() in elegidos}
+        nombres = {"mercadona": "Mercadona", "hipercor": "Hipercor", "alimerka": "Alimerka",
+                   "alcampo": "Alcampo", "masymas": "Más y Más"}
+        elegidos = {nombres[s] for s in args.solo}
+        disponibles = {k: v for k, v in disponibles.items() if k in elegidos}
 
     supermercados = {nombre: crear() for nombre, crear in disponibles.items()}
 
     print(f"Comparando {len(lista_compra)} productos en Oviedo, Asturias...")
-    print("(Hipercor y Mercadona abren un navegador real; puede tardar)\n")
+    print("(Hipercor, Mercadona y Alcampo abren un navegador real; puede tardar)\n")
     resultado = comparar(lista_compra, supermercados)
     print(resultado.resumen())
 

@@ -29,7 +29,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ))
 
-from src.supermarkets import Mercadona, Hipercor, Alimerka
+from src.supermarkets import Mercadona, Hipercor, Alimerka, Alcampo, MasYMas
 from src.supermarkets.base import Producto, filtrar_relevantes
 
 CP = "33012"
@@ -111,6 +111,26 @@ def buscar_alimerka(productos: list[str]):
     return resultado, aviso
 
 
+def buscar_con_requests(nombre_super: str, conector, productos: list[str]):
+    """Como buscar_alimerka() pero para cualquier conector con requests
+    normal (Más y Más): un producto por petición y un reintento."""
+    resultado: dict[str, list[Producto]] = {}
+    fallos = []
+    for nombre in productos:
+        for intento in range(1, 3):
+            try:
+                resultado[nombre] = conector.buscar_productos(nombre)
+                break
+            except Exception as e:
+                if intento == 2:
+                    fallos.append(f"{nombre}: {e or type(e).__name__}")
+                    resultado[nombre] = []
+                else:
+                    time.sleep(3)
+    aviso = {"supermercado": nombre_super, "motivo": "; ".join(fallos)} if fallos else None
+    return resultado, aviso
+
+
 def main() -> None:
     productos = cargar_lista()
     print(f"Lista habitual ({len(productos)} productos): {', '.join(productos)}")
@@ -140,6 +160,18 @@ def main() -> None:
     print("\n== Alimerka ==")
     resultado, aviso = buscar_alimerka(productos)
     registrar("Alimerka", resultado)
+    if aviso:
+        avisos.append(aviso)
+
+    print("\n== Alcampo (Gijón) ==")
+    resultado, aviso = buscar_con_navegador("Alcampo", Alcampo(), productos)
+    registrar("Alcampo", resultado)
+    if aviso:
+        avisos.append(aviso)
+
+    print("\n== Más y Más ==")
+    resultado, aviso = buscar_con_requests("Más y Más", MasYMas(), productos)
+    registrar("Más y Más", resultado)
     if aviso:
         avisos.append(aviso)
 

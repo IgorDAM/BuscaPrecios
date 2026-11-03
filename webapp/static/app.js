@@ -175,6 +175,8 @@ const ordenEl = document.getElementById("orden");
 const incluirHipercorEl = document.getElementById("incluir-hipercor");
 const incluirAlimerkaEl = document.getElementById("incluir-alimerka");
 const incluirMercadonaEl = document.getElementById("incluir-mercadona");
+const incluirAlcampoEl = document.getElementById("incluir-alcampo");
+const incluirMasymasEl = document.getElementById("incluir-masymas");
 
 const resumenSeccion = document.getElementById("resumen-seccion");
 const resumenEl = document.getElementById("resumen");
@@ -831,13 +833,21 @@ async function buscarPrecios() {
     return;
   }
 
+  // Cada supermercado se pide por separado: se envía su flag a true y los
+  // demás a false.
+  const CLAVES_FLAGS = ["hipercor", "alimerka", "mercadona", "alcampo", "masymas"];
+  const flagsSolo = (clave) =>
+    Object.fromEntries(CLAVES_FLAGS.map((c) => ["incluir_" + c, c === clave]));
   const activos = [];
-  if (incluirHipercorEl.checked)
-    activos.push(["Hipercor", { incluir_hipercor: true, incluir_alimerka: false, incluir_mercadona: false }]);
-  if (incluirAlimerkaEl.checked)
-    activos.push(["Alimerka", { incluir_hipercor: false, incluir_alimerka: true, incluir_mercadona: false }]);
-  if (incluirMercadonaEl.checked)
-    activos.push(["Mercadona", { incluir_hipercor: false, incluir_alimerka: false, incluir_mercadona: true }]);
+  [
+    ["Hipercor", "hipercor", incluirHipercorEl],
+    ["Alimerka", "alimerka", incluirAlimerkaEl],
+    ["Mercadona", "mercadona", incluirMercadonaEl],
+    ["Alcampo", "alcampo", incluirAlcampoEl],
+    ["Más y Más", "masymas", incluirMasymasEl],
+  ].forEach(([nombre, clave, caja]) => {
+    if (caja && caja.checked) activos.push([nombre, flagsSolo(clave)]);
+  });
 
   if (activos.length === 0) {
     estadoEl.textContent = "Marca al menos un supermercado para comparar.";
