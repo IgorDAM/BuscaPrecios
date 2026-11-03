@@ -120,10 +120,41 @@ def precio_por_medida(precio: float, texto: str) -> Tuple[Optional[float], str]:
     saber el formato, (None, "").
     """
     medida = parsear_medida(texto)
-    if not medida:
-        return (None, "")
-    cantidad, unidad = medida
-    return (round(precio / cantidad, 2), unidad)
+    if medida:
+        cantidad, unidad = medida
+        return (round(precio / cantidad, 2), unidad)
+
+    # Último recurso: productos que se cuentan por unidades ("Huevos 'L'
+    # 6uds", "Huevo codorniz 18uds", de Más y Más). Sin esto quedaban sin
+    # unidad y la preselección no podía distinguir unos huevos de verdad de
+    # unos huevos de chocolate (que van por kilo). Verificado el 2026-11-03.
+    unidades = _contar_unidades(texto)
+    if unidades:
+        return (round(precio / unidades, 2), "ud")
+    # "HUEVOS A-M LA DOCENA" (Alimerka): el precio ya es el de la docena.
+    if _LA_DOCENA_RE.search(texto or ""):
+        return (round(precio, 2), "docena")
+    return (None, "")
+
+
+# "6uds", "18 uds.", "6 unds", "12 unidades", "30 ud"
+_UNIDADES_RE = re.compile(r"(\d+)\s*(?:uds?|unds?|unidades|unid)\b\.?", re.IGNORECASE)
+_LA_DOCENA_RE = re.compile(r"\bla\s+docena\b", re.IGNORECASE)
+
+
+def _contar_unidades(texto: str) -> Optional[int]:
+    """Número de unidades del envase, o None. "4 + 2uds" (papel higiénico
+    con unidades de regalo) se descarta: no son 2 unidades, y adivinar la
+    suma sería inventar."""
+    if not texto:
+        return None
+    m = _UNIDADES_RE.search(texto)
+    if not m:
+        return None
+    if texto[: m.start()].rstrip().endswith("+"):
+        return None
+    n = int(m.group(1))
+    return n if n > 0 else None
 
 
 def normalizar_unidad(texto: str) -> str:

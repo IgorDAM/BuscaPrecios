@@ -77,9 +77,16 @@ class TarjetaAlimerka(unittest.TestCase):
         )
         self.assertEqual((p.precio, p.precio_unidad, p.unidad), (2.95, 3.54, "docena"))
 
-    def test_sin_precio_por_unidad_ni_formato_en_el_nombre(self):
+    def test_la_docena_en_el_nombre_es_el_precio_por_docena(self):
+        # Antes quedaba sin precio por unidad; desde el 2026-11-03 "LA
+        # DOCENA" cuenta como precio por docena (lo usa la preselección para
+        # no confundir huevos de verdad con huevos de chocolate).
         p = tarjeta_a_producto(tarjeta("8000198", "ALIMERKA", "HUEVOS  A-L LA DOCENA", ["3,05 €"]))
-        self.assertEqual(p.precio, 3.05)
+        self.assertEqual((p.precio, p.precio_unidad, p.unidad), (3.05, 3.05, "docena"))
+
+    def test_sin_precio_por_unidad_ni_formato_en_el_nombre(self):
+        p = tarjeta_a_producto(tarjeta("10000001", "CALGON", "ANTICAL 15 PASTILLAS", ["5,99 €"]))
+        self.assertEqual(p.precio, 5.99)
         self.assertIsNone(p.precio_unidad)
 
     def test_promocion_2x1_no_cambia_el_precio_de_etiqueta(self):

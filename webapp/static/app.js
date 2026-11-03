@@ -186,6 +186,38 @@ function paquetesNecesarios(opt, gramos) {
   return Math.max(1, Math.ceil(gramos / peso - TOLERANCIA_PAQUETE));
 }
 
+// Familia de medida de una opción: peso, volumen o unidades (la docena y
+// la unidad son la misma familia), o null si no se sabe.
+function familiaMedida(opt) {
+  const u = opt && opt.precio_unidad ? opt.unidad : "";
+  if (u === "kg") return "peso";
+  if (u === "L") return "volumen";
+  if (u === "docena" || u === "ud") return "unidades";
+  return null;
+}
+
+// Para la preselección automática: quita las opciones cuya familia de
+// medida es distinta de la mayoritaria. Buscando "huevos" salen huevos de
+// verdad (por docena o unidad) y huevos de chocolate (por kilo), y el más
+// barato era uno de chocolate (verificado el 2026-11-03). Las que no tienen
+// medida se conservan (no se sabe qué son); si no hay una familia
+// claramente mayoritaria, no se quita nada.
+function filtrarFamiliaMayoritaria(opciones) {
+  const cuenta = {};
+  opciones.forEach((o) => {
+    const f = familiaMedida(o);
+    if (f) cuenta[f] = (cuenta[f] || 0) + 1;
+  });
+  const familias = Object.entries(cuenta).sort((a, b) => b[1] - a[1]);
+  if (familias.length < 2 || familias[0][1] === familias[1][1]) return opciones;
+  const mayoritaria = familias[0][0];
+  const filtradas = opciones.filter((o) => {
+    const f = familiaMedida(o);
+    return f === null || f === mayoritaria;
+  });
+  return filtradas.length ? filtradas : opciones;
+}
+
 // Node.js no tiene `window`/`document`; si se ejecuta este archivo con
 // `node app.js` (require), exportamos las funciones puras para poder
 // probarlas sin necesidad de un navegador.
@@ -195,6 +227,7 @@ if (typeof module !== "undefined" && module.exports) {
     normalizarTexto, calcularFrecuencias, similitudPonderada,
     textoCompleto, encontrarAlternativaMasBarata,
     esAlPeso, pesoPaqueteEnGramos, paquetesNecesarios,
+    familiaMedida, filtrarFamiliaMayoritaria,
   };
 }
 
@@ -904,6 +937,13 @@ function opcionesOrdenadas(item) {
   return copia;
 }
 
+// La más barata entre las que de verdad parecen lo buscado: ver
+// filtrarFamiliaMayoritaria() (fuera del bloque del navegador, con tests).
+function opcionPreseleccionable(item) {
+  const candidatas = filtrarFamiliaMayoritaria(item.opciones);
+  return opcionMasBarata({ ...item, opciones: candidatas });
+}
+
 function opcionMasBarata(item) {
   if (item.opciones.length === 0) return null;
   return item.opciones.reduce((mejor, o) =>
@@ -921,8 +961,12 @@ function preseleccionarBaratos(resultados) {
       : null;
     const sigueExistiendo =
       claveActual && item.opciones.some((o) => claveOpcion(o) === claveActual);
-    if (!sigueExistiendo) {
-      selecciones[item.producto] = opcionMasBarata(item);
+    // Si la eligió la app (no tú), se recalcula con cada súper que llega:
+    // antes se quedaba con la del primer súper en contestar aunque luego
+    // apareciera otra más barata (visto el 2026-11-03: jamón a 1,95 €
+    // elegido con otro a 1,79 € en la lista). Lo elegido a mano se respeta.
+    if (!sigueExistiendo || auto[item.producto]) {
+      selecciones[item.producto] = opcionPreseleccionable(item);
       auto[item.producto] = true;
     }
   });
@@ -934,7 +978,7 @@ function elegirLoMasBaratoEnTodo() {
   const selecciones = cargarSelecciones();
   const auto = cargarAutoElegidos();
   ultimosResultados.forEach((item) => {
-    const mejor = opcionMasBarata(item);
+    const mejor = opcionPreseleccionable(item);
     if (mejor) {
       selecciones[item.producto] = mejor;
       auto[item.producto] = true;
@@ -1060,6 +1104,11 @@ function crearProductoCard(item, seleccion) {
   const min = Math.min(...costes);
   const max = Math.max(...costes);
   const rangoTexto = min === max ? euros(min) : `${euros(min)} – ${euros(max)}`;
+  // "Más barato" sigue el mismo criterio que la preselección: entre las
+  // opciones de la familia de medida mayoritaria (si no, los huevos de
+  // chocolate se llevaban la etiqueta aunque se eligieran huevos de verdad).
+  const candidatas = filtrarFamiliaMayoritaria(item.opciones);
+  const minCandidatas = Math.min(...candidatas.map((o) => costeDe(o, item.producto)));
 
   let seleccionTexto = "Elegir";
   if (seleccion) {
@@ -1152,7 +1201,7 @@ function crearProductoCard(item, seleccion) {
     const fila = document.createElement("div");
     const esElegida = seleccion && claveOpcion(seleccion) === claveOpcion(opt);
     const coste = costeDe(opt, item.producto);
-    const esMasBarata = coste === min;
+    const esMasBarata = coste === minCandidatas && candidatas.includes(opt);
     const gUnidad = opt.precio_unidad ? mejorPorUnidad[opt.unidad] : null;
     const esMejorMedida = !!gUnidad && gUnidad.n > 1 && opt.precio_unidad === gUnidad.min;
     fila.className = "opcion-fila" + (esElegida ? " elegida" : "");
