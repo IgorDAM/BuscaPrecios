@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-11-02T14:46:04+00:00",
+  "generado_en": "2026-11-03T00:32:21+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -4694,21 +4694,21 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "pan rallado sin gluten y sin lactosa paquete 400 g - Panceliac",
+          "marca": "panceliac",
+          "precio": 2.64,
+          "unidad": "kg",
+          "precio_unidad": 6.6,
+          "url": "https://www.hipercor.es/supermercado/B001020745302818-panceliac-pan-rallado-sin-gluten-y-sin-lactosa-paquete-400-g/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "pan especial gourmet regañá con sal virgen de manantial y aceite de oliva virgen extra bolsa 200 g - Pan De Olivo",
           "marca": "pan de olivo",
           "precio": 2.89,
           "unidad": "kg",
           "precio_unidad": 14.45,
           "url": "https://www.hipercor.es/supermercado/B001020655306171-pan-de-olivo-pan-especial-gourmet-regana-con-sal-virgen-de-manantial-y-aceite-de-oliva-virgen-extra-bolsa-200-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "pan rallado sin gluten y sin lactosa paquete 400 g - Panceliac",
-          "marca": "panceliac",
-          "precio": 2.89,
-          "unidad": "kg",
-          "precio_unidad": 7.23,
-          "url": "https://www.hipercor.es/supermercado/B001020745302818-panceliac-pan-rallado-sin-gluten-y-sin-lactosa-paquete-400-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -6407,11 +6407,20 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "tomate frito ecológico,sin gluten, sin azúcar y sin ácido cítrico frasco 340 g - Ekolo Bio",
+          "marca": "ekolo bio",
+          "precio": 2.12,
+          "unidad": "kg",
+          "precio_unidad": 6.24,
+          "url": "https://www.hipercor.es/supermercado/B001020723701205-ekolo-bio-tomate-frito-ecologicosin-gluten-sin-azucar-y-sin-acido-citrico-frasco-340-g/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "tomate frito origen Vegas del Guadiana sin gluten pack 3 envases 200 g - Solis",
           "marca": "solis",
-          "precio": 2.15,
+          "precio": 2.19,
           "unidad": "kg",
-          "precio_unidad": 3.58,
+          "precio_unidad": 3.65,
           "url": "https://www.hipercor.es/supermercado/B001018043501834-solis-tomate-frito-origen-vegas-del-guadiana-sin-gluten-pack-3-envases-200-g/"
         },
         {
@@ -6422,15 +6431,6 @@
           "unidad": "kg",
           "precio_unidad": 6.47,
           "url": "https://www.hipercor.es/supermercado/B001018043502790-pedro-luis-tomate-frito-seleccion-sin-gluten-frasco-340-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "tomate frito ecológico,sin gluten, sin azúcar y sin ácido cítrico frasco 340 g - Ekolo Bio",
-          "marca": "ekolo bio",
-          "precio": 2.21,
-          "unidad": "kg",
-          "precio_unidad": 6.5,
-          "url": "https://www.hipercor.es/supermercado/B001020723701205-ekolo-bio-tomate-frito-ecologicosin-gluten-sin-azucar-y-sin-acido-citrico-frasco-340-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -6472,9 +6472,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "tomate frito pack 3 latas 155 g - Hida",
           "marca": "hida",
-          "precio": 3.29,
+          "precio": 3.45,
           "unidad": "kg",
-          "precio_unidad": 7.08,
+          "precio_unidad": 7.42,
           "url": "https://www.hipercor.es/supermercado/B001018043500117-hida-tomate-frito-pack-3-latas-155-g/"
         },
         {
@@ -6540,9 +6540,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "tomate triturado sin gluten envase 510 g - Orlando",
           "marca": "orlando",
-          "precio": 2.09,
+          "precio": 2.15,
           "unidad": "kg",
-          "precio_unidad": 4.1,
+          "precio_unidad": 4.22,
           "url": "https://www.hipercor.es/supermercado/B001018027500869-orlando-tomate-triturado-sin-gluten-envase-510-g/"
         },
         {
@@ -6576,9 +6576,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "tomate triturado con pulpa pack 2 lata 210 g - Mutti",
           "marca": "mutti",
-          "precio": 4.25,
+          "precio": 4.19,
           "unidad": "kg",
-          "precio_unidad": 10.12,
+          "precio_unidad": 9.98,
           "url": "https://www.hipercor.es/supermercado/B001018027501222-mutti-tomate-triturado-con-pulpa-pack-2-lata-210-g/"
         }
       ]
@@ -7045,9 +7045,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "aceite refinado de girasol garrafa 5 l - Koipe Sol",
           "marca": "koipe sol",
-          "precio": 14.09,
+          "precio": 14.29,
           "unidad": "L",
-          "precio_unidad": 2.82,
+          "precio_unidad": 2.86,
           "url": "https://www.hipercor.es/supermercado/B001018046100014-koipe-sol-aceite-refinado-de-girasol-garrafa-5-l/"
         }
       ]
@@ -7338,9 +7338,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "vinagre balsámico de Modena IGP aceto balsamico di Modena botella 500 ml - Borges",
           "marca": "borges",
-          "precio": 4.53,
+          "precio": 4.4,
           "unidad": "L",
-          "precio_unidad": 9.06,
+          "precio_unidad": 8.8,
           "url": "https://www.hipercor.es/supermercado/B001018046200194-borges-vinagre-balsamico-de-modena-igp-aceto-balsamico-di-modena-botella-500-ml/"
         }
       ]
@@ -9387,6 +9387,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018381600370-el-corte-ingles-selection-jamon-cocido-extra-seleccion-en-lonchas-envase-350-g/"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "jamón cocido extra - El Corte Ingles Selection",
+          "marca": "el corte ingles selection",
+          "precio": 8.9,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.hipercor.es/supermercado/B001018320100599-el-corte-ingles-selection-jamon-cocido-extra/"
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "JAMON COCIDO SIN GRASA REDUCIDO EN SAL EL KILO",
           "marca": "ELPOZO",
@@ -9412,15 +9421,6 @@
           "unidad": "kg",
           "precio_unidad": 12.95,
           "url": "https://www.alimerkaonline.es/370007.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "jamón cocido extra - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 12.99,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001018320100599-el-corte-ingles-selection-jamon-cocido-extra/"
         },
         {
           "supermercado": "Alimerka",
@@ -13285,15 +13285,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018176101428-duart-blay-cebolla-blanca-ideal-para-caramelizar-bolsa-500-g/"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "cebolla frita crujiente envase 100 g - King's Harvest",
-          "marca": "king's harvest",
-          "precio": 2.29,
-          "unidad": "kg",
-          "precio_unidad": 22.9,
-          "url": "https://www.hipercor.es/supermercado/B001018029900711-kings-harvest-cebolla-frita-crujiente-envase-100-g/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Cebollas Chata",
           "marca": "",
@@ -13310,6 +13301,15 @@
           "unidad": "kg",
           "precio_unidad": 3.56,
           "url": "https://www.hipercor.es/supermercado/B001018176103713-cebolla-dulce-buti-700-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "cebolla frita crujiente envase 100 g - King's Harvest",
+          "marca": "king's harvest",
+          "precio": 2.49,
+          "unidad": "kg",
+          "precio_unidad": 24.9,
+          "url": "https://www.hipercor.es/supermercado/B001018029900711-kings-harvest-cebolla-frita-crujiente-envase-100-g/"
         },
         {
           "supermercado": "Mercadona",
@@ -13916,15 +13916,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "tomate frito origen Vegas del Guadiana sin gluten pack 3 envases 200 g - Solis",
-          "marca": "solis",
-          "precio": 2.15,
-          "unidad": "kg",
-          "precio_unidad": 3.58,
-          "url": "https://www.hipercor.es/supermercado/B001018043501834-solis-tomate-frito-origen-vegas-del-guadiana-sin-gluten-pack-3-envases-200-g/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "TOMATE TRITURADO NATURAL 570 G.",
           "marca": "HELIOS",
@@ -13932,6 +13923,15 @@
           "unidad": "kg",
           "precio_unidad": 3.77,
           "url": "https://www.alimerkaonline.es/10020494.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "tomate frito origen Vegas del Guadiana sin gluten pack 3 envases 200 g - Solis",
+          "marca": "solis",
+          "precio": 2.19,
+          "unidad": "kg",
+          "precio_unidad": 3.65,
+          "url": "https://www.hipercor.es/supermercado/B001018043501834-solis-tomate-frito-origen-vegas-del-guadiana-sin-gluten-pack-3-envases-200-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -14024,15 +14024,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018043700014-pedro-luis-tomate-frito-casero-de-agricultura-ecologica-frasco-340-g/"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "Tomate rama al peso",
-          "marca": "",
-          "precio": 3.19,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001018107600142-tomate-rama-al-peso/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Tomates pera",
           "marca": "",
@@ -14043,21 +14034,30 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "Tomate ensalada al peso",
-          "marca": "",
-          "precio": 3.29,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.hipercor.es/supermercado/B001018107600050-tomate-ensalada-al-peso/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "Tomate pera al peso",
           "marca": "",
           "precio": 3.29,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.hipercor.es/supermercado/B001018107600068-tomate-pera-al-peso/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "Tomate ensalada al peso",
+          "marca": "",
+          "precio": 3.45,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.hipercor.es/supermercado/B001018107600050-tomate-ensalada-al-peso/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "Tomate rama al peso",
+          "marca": "",
+          "precio": 3.49,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.hipercor.es/supermercado/B001018107600142-tomate-rama-al-peso/"
         },
         {
           "supermercado": "Mercadona",
@@ -14081,7 +14081,7 @@
           "supermercado": "Hipercor",
           "nombre_real": "Tomate Mar Azul al peso",
           "marca": "",
-          "precio": 6.95,
+          "precio": 5.95,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.hipercor.es/supermercado/B001018103800852-tomate-mar-azul-al-peso/"
@@ -14363,15 +14363,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "pimientos del piquillo enteros frasco 225 g neto escurrido - Carretilla",
-          "marca": "carretilla",
-          "precio": 3.2,
-          "unidad": "kg",
-          "precio_unidad": 14.22,
-          "url": "https://www.hipercor.es/supermercado/B001018026100737-carretilla-pimientos-del-piquillo-enteros-frasco-225-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "pimientos morrones extra 3 lata 60 g neto escurrido - Martinez",
           "marca": "martinez",
           "precio": 3.29,
@@ -14381,12 +14372,12 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "Pimiento rojo gordo al peso (peso aproximado de la unidad 300 g)",
-          "marca": "",
-          "precio": 3.95,
+          "nombre_real": "pimientos del piquillo enteros frasco 225 g neto escurrido - Carretilla",
+          "marca": "carretilla",
+          "precio": 3.35,
           "unidad": "kg",
-          "precio_unidad": 13.17,
-          "url": "https://www.hipercor.es/supermercado/B001018107400048-pimiento-rojo-gordo-al-peso-peso-aproximado-de-la-unidad-300-g/"
+          "precio_unidad": 14.89,
+          "url": "https://www.hipercor.es/supermercado/B001018026100737-carretilla-pimientos-del-piquillo-enteros-frasco-225-g-neto-escurrido/"
         },
         {
           "supermercado": "Hipercor",
@@ -14399,12 +14390,30 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "Pimiento rojo gordo al peso (peso aproximado de la unidad 300 g)",
+          "marca": "",
+          "precio": 3.99,
+          "unidad": "kg",
+          "precio_unidad": 13.3,
+          "url": "https://www.hipercor.es/supermercado/B001018107400048-pimiento-rojo-gordo-al-peso-peso-aproximado-de-la-unidad-300-g/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "pimientos asados en horno pelados a mano sin gluten frasco 295 g - Ibsa",
           "marca": "ibsa",
           "precio": 4.19,
           "unidad": "kg",
           "precio_unidad": 14.2,
           "url": "https://www.hipercor.es/supermercado/B001018026100976-ibsa-pimientos-asados-en-horno-pelados-a-mano-sin-gluten-frasco-295-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pimientos asados picantes pelados a mano sin gluten frasco 295 g neto escurrido - Ibsa",
+          "marca": "ibsa",
+          "precio": 4.19,
+          "unidad": "kg",
+          "precio_unidad": 14.2,
+          "url": "https://www.hipercor.es/supermercado/B001018026100984-ibsa-pimientos-asados-picantes-pelados-a-mano-sin-gluten-frasco-295-g-neto-escurrido/"
         },
         {
           "supermercado": "Alimerka",
@@ -14441,15 +14450,6 @@
           "unidad": "kg",
           "precio_unidad": 14.79,
           "url": "https://www.hipercor.es/supermercado/B001018026100315-el-corte-ingles-selection-pimientos-del-piquillo-enteros-al-ajillo-frasco-290-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "pimientos asados picantes pelados a mano sin gluten frasco 295 g neto escurrido - Ibsa",
-          "marca": "ibsa",
-          "precio": 4.29,
-          "unidad": "kg",
-          "precio_unidad": 14.54,
-          "url": "https://www.hipercor.es/supermercado/B001018026100984-ibsa-pimientos-asados-picantes-pelados-a-mano-sin-gluten-frasco-295-g-neto-escurrido/"
         },
         {
           "supermercado": "Hipercor",
@@ -15290,9 +15290,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "naranja de mesa selección al peso (peso aproximado de la unidad 280 g) - Torres",
           "marca": "torres",
-          "precio": 3.95,
+          "precio": 4.75,
           "unidad": "kg",
-          "precio_unidad": 14.11,
+          "precio_unidad": 16.96,
           "url": "https://www.hipercor.es/supermercado/B001018101800128-torres-naranja-de-mesa-seleccion-al-peso-peso-aproximado-de-la-unidad-280-g/"
         },
         {
