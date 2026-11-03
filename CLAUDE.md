@@ -153,7 +153,14 @@ cobrar igual en ambos da precios que no existen en caja: **a granel** (el
 precio anunciado ya es el del kilo, detectado con `esAlPeso()`: precio ==
 precio_unidad) se paga exactamente lo pedido; **en paquete** hay que
 llevarse paquetes enteros, así que se redondea hacia arriba (300 g de
-jamón = 3 paquetes de 120 g = 6,87 €, no 5,72 €). Si no se conoce el peso,
+jamón = 3 paquetes de 120 g = 6,87 €, no 5,72 €). El peso del paquete
+se deduce de `precio / precio_unidad`, y como `precio_unidad` viene
+redondeado a céntimos sale "casi" exacto (1,95/9,75 = 199,999 g):
+`paquetesNecesarios()` tolera un 1 % (`TOLERANCIA_PAQUETE`) para no contar
+un paquete de más al pedir justo el peso del paquete (bug real visto el
+2026-11-03: 200 g de un paquete de 200 g salían 2 paquetes). Esas funciones
+puras (`esAlPeso`, `pesoPaqueteEnGramos`, `paquetesNecesarios`) están fuera
+del bloque del navegador y tienen tests en `tests_js/paquetes.test.js`. Si no se conoce el peso,
 se cuenta un paquete. Los formatos antiguos de la lista (array de strings,
 o sin `unidad`) se migran solos al leerlos. Implementa el
 algoritmo de "más barato en otro súper": pesa cada palabra del nombre de

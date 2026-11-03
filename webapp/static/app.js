@@ -148,6 +148,44 @@ function encontrarAlternativaMasBarata(elegida, todasLasOpciones) {
   return mejor;
 }
 
+// Funciones puras de coste (sin DOM): fuera del bloque del navegador para
+// poder probarlas con Node (tests_js/paquetes.test.js).
+// ¿Esta opción se vende a granel (el precio que se ve YA es el del kilo)
+// o es un paquete cerrado? Si el precio coincide con el precio por kilo,
+// es que lo que se anuncia es el kilo: carne picada a 13,00 € con 13,00
+// €/kg. En un paquete no coinciden: 2,29 € el paquete, 19,08 €/kg.
+function esAlPeso(opt) {
+  // "kg" para fresco de mostrador (cecina, queso...), "L" para líquido a
+  // granel; en ambos casos el precio mostrado coincide con el
+  // precio_unidad porque es literalmente el precio del kilo/litro entero.
+  return (
+    opt.precio_unidad &&
+    (opt.unidad === "kg" || opt.unidad === "L") &&
+    Math.abs(opt.precio - opt.precio_unidad) < 0.005
+  );
+}
+
+// Peso del paquete en gramos, deducido del precio y el precio por kilo.
+function pesoPaqueteEnGramos(opt) {
+  if (!opt.precio_unidad || opt.unidad !== "kg" || opt.precio_unidad <= 0) return null;
+  return (opt.precio / opt.precio_unidad) * 1000;
+}
+
+// El peso del paquete se deduce de precio / precio_unidad, y precio_unidad
+// viene redondeado a céntimos: el peso sale "casi" exacto (1,95 € / 9,75 €/kg
+// da 199,9999 g en vez de 200 g). Con un Math.ceil a secas, pedir 200 g de un
+// paquete de 200 g contaba DOS paquetes (visto en vivo el 2026-11-03 con el
+// jamón Alteza de Más y Más). Se tolera un 1 % para absorber ese error.
+const TOLERANCIA_PAQUETE = 0.01;
+
+// Cuántos paquetes hacen falta para cubrir los gramos pedidos: no se
+// puede comprar medio tarro, así que se redondea hacia arriba.
+function paquetesNecesarios(opt, gramos) {
+  const peso = pesoPaqueteEnGramos(opt);
+  if (!peso) return 1;
+  return Math.max(1, Math.ceil(gramos / peso - TOLERANCIA_PAQUETE));
+}
+
 // Node.js no tiene `window`/`document`; si se ejecuta este archivo con
 // `node app.js` (require), exportamos las funciones puras para poder
 // probarlas sin necesidad de un navegador.
@@ -156,6 +194,7 @@ if (typeof module !== "undefined" && module.exports) {
     mesDe, redondear2, resumenMes, formatMesLegible,
     normalizarTexto, calcularFrecuencias, similitudPonderada,
     textoCompleto, encontrarAlternativaMasBarata,
+    esAlPeso, pesoPaqueteEnGramos, paquetesNecesarios,
   };
 }
 
@@ -432,34 +471,6 @@ function cambiarUnidad(idx) {
   renderLista();
 }
 
-// ¿Esta opción se vende a granel (el precio que se ve YA es el del kilo)
-// o es un paquete cerrado? Si el precio coincide con el precio por kilo,
-// es que lo que se anuncia es el kilo: carne picada a 13,00 € con 13,00
-// €/kg. En un paquete no coinciden: 2,29 € el paquete, 19,08 €/kg.
-function esAlPeso(opt) {
-  // "kg" para fresco de mostrador (cecina, queso...), "L" para líquido a
-  // granel; en ambos casos el precio mostrado coincide con el
-  // precio_unidad porque es literalmente el precio del kilo/litro entero.
-  return (
-    opt.precio_unidad &&
-    (opt.unidad === "kg" || opt.unidad === "L") &&
-    Math.abs(opt.precio - opt.precio_unidad) < 0.005
-  );
-}
-
-// Peso del paquete en gramos, deducido del precio y el precio por kilo.
-function pesoPaqueteEnGramos(opt) {
-  if (!opt.precio_unidad || opt.unidad !== "kg" || opt.precio_unidad <= 0) return null;
-  return (opt.precio / opt.precio_unidad) * 1000;
-}
-
-// Cuántos paquetes hacen falta para cubrir los gramos pedidos: no se
-// puede comprar medio tarro, así que se redondea hacia arriba.
-function paquetesNecesarios(opt, gramos) {
-  const peso = pesoPaqueteEnGramos(opt);
-  if (!peso) return 1;
-  return Math.max(1, Math.ceil(gramos / peso));
-}
 
 // Lo que cuesta de verdad una opción según lo que se pidió de ella.
 //
