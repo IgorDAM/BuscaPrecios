@@ -186,6 +186,12 @@ function paquetesNecesarios(opt, gramos) {
   return Math.max(1, Math.ceil(gramos / peso - TOLERANCIA_PAQUETE));
 }
 
+// "Más y Más" -> "masymas": clave sin tildes ni espacios para el CSS.
+function claveSuper(nombre) {
+  return (nombre || "").toLowerCase().normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "").replace(/[^a-z]/g, "");
+}
+
 // Familia de medida de una opción: peso, volumen o unidades (la docena y
 // la unidad son la misma familia), o null si no se sabe.
 function familiaMedida(opt) {
@@ -227,7 +233,7 @@ if (typeof module !== "undefined" && module.exports) {
     normalizarTexto, calcularFrecuencias, similitudPonderada,
     textoCompleto, encontrarAlternativaMasBarata,
     esAlPeso, pesoPaqueteEnGramos, paquetesNecesarios,
-    familiaMedida, filtrarFamiliaMayoritaria,
+    familiaMedida, filtrarFamiliaMayoritaria, claveSuper,
   };
 }
 
@@ -1215,7 +1221,7 @@ function crearProductoCard(item, seleccion) {
     const costeDistinto = Math.abs(coste - opt.precio) > 0.005;
 
     fila.innerHTML = `
-      <span class="opcion-super">${opt.supermercado}</span>
+      <span class="opcion-super" data-super="${claveSuper(opt.supermercado)}">${opt.supermercado}</span>
       <span class="opcion-nombre">
         ${opt.marca ? `<span class="opcion-marca">${opt.marca}</span> ` : ""}${opt.nombre_real}
       </span>

@@ -31,6 +31,19 @@
   --aviso: #8a5a0b;
   --aviso-fondo: #fff4d6;
   --rojo: #c2412d;
+  --hover: #f5f8f7;
+  --verde-hover: #0b6845;
+  --verde-suave-hover: #d3e9df;
+  --aviso-borde: #f0dca6;
+  --tinta-fija: #14302a;  /* texto sobre el amarillo: oscuro en los dos temas */
+
+  /* Un color por supermercado (no son sus colores de marca: Alimerka y
+     Alcampo son rojos los dos; aquí lo que importa es distinguirlos). */
+  --c-hipercor: #1d6fa5;
+  --c-alimerka: #d2452f;
+  --c-mercadona: #2f9a48;
+  --c-alcampo: #7b4fbf;
+  --c-masymas: #e08a00;
 
   /* Radios según jerarquía: paneles > controles > etiquetas */
   --radio-panel: 14px;
@@ -193,7 +206,7 @@ button {
   letter-spacing: 0.01em;
 }
 
-.btn-primario:hover { background: #0b6845; }
+.btn-primario:hover { background: var(--verde-hover); }
 .btn-primario:disabled { opacity: 0.55; cursor: progress; }
 
 .btn-secundario {
@@ -201,7 +214,7 @@ button {
   color: var(--verde);
 }
 
-.btn-secundario:hover { background: #d3e9df; }
+.btn-secundario:hover { background: var(--verde-suave-hover); }
 
 .btn-quitar {
   background: none;
@@ -364,25 +377,10 @@ input.cantidad-valor {
   font-size: 0.92rem;
 }
 
-/* Punto de estado a la izquierda del nombre. */
-.progreso-super::before {
-  content: "";
-  width: 0.55rem;
-  height: 0.55rem;
-  border-radius: 50%;
-  background: var(--borde);
-  flex-shrink: 0;
-}
-
 .progreso-super > :first-child { flex: 1; }
 
-.progreso-super.buscando::before { background: var(--gris); animation: latido 1s ease-in-out infinite; }
-.progreso-super.ok::before { background: var(--verde); }
-.progreso-super.vacio::before { background: var(--gris); }
-.progreso-super.error { background: var(--aviso-fondo); border-color: #f0dca6; color: var(--aviso); }
-.progreso-super.error::before { background: var(--aviso); }
-
-@keyframes latido { 50% { opacity: 0.25; } }
+/* El icono de estado (✅, ⚠️...) lo pone app.js en el propio texto. */
+.progreso-super.error { background: var(--aviso-fondo); border-color: var(--aviso-borde); color: var(--aviso); }
 
 .progreso-detalle {
   font-weight: 400;
@@ -408,7 +406,7 @@ input.cantidad-valor {
 
 .aviso-super {
   background: var(--aviso-fondo);
-  border: 1px solid #f0dca6;
+  border: 1px solid var(--aviso-borde);
   border-radius: var(--radio-control);
   color: var(--aviso);
   font-size: 0.88rem;
@@ -552,7 +550,7 @@ td.precio-faltante { color: var(--gris); }
   cursor: pointer;
 }
 
-.producto-card-header:hover { background: #f5f8f7; }
+.producto-card-header:hover { background: var(--hover); }
 
 .producto-card-info {
   grid-area: info;
@@ -624,7 +622,7 @@ td.precio-faltante { color: var(--gris); }
 
 .producto-card-alerta {
   background: var(--aviso-fondo);
-  border-top: 1px solid #f0dca6;
+  border-top: 1px solid var(--aviso-borde);
   padding: 0.65rem 0.9rem;
   font-size: 0.86rem;
   color: var(--aviso);
@@ -665,7 +663,7 @@ td.precio-faltante { color: var(--gris); }
 }
 
 .opcion-fila:last-child { border-bottom: none; }
-.opcion-fila:hover { background: #f5f8f7; }
+.opcion-fila:hover { background: var(--hover); }
 
 .opcion-fila.elegida {
   background: var(--verde-suave);
@@ -690,6 +688,28 @@ td.precio-faltante { color: var(--gris); }
 
 .opcion-marca { font-weight: 700; margin-right: 0.25rem; }
 
+/* Color de cada súper: un punto delante del nombre en cada opción y en
+   las fichas de "Dónde buscar", para distinguirlos de un vistazo. */
+[data-super="hipercor"], label[for="incluir-hipercor"] { --super: var(--c-hipercor); }
+[data-super="alimerka"], label[for="incluir-alimerka"] { --super: var(--c-alimerka); }
+[data-super="mercadona"], label[for="incluir-mercadona"] { --super: var(--c-mercadona); }
+[data-super="alcampo"], label[for="incluir-alcampo"] { --super: var(--c-alcampo); }
+[data-super="masymas"], label[for="incluir-masymas"] { --super: var(--c-masymas); }
+
+.opcion-super[data-super]::before,
+.checkbox-fila label::after {
+  content: "";
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 2px;
+  background: var(--super, var(--borde));
+}
+
+.opcion-super[data-super]::before { margin-right: 0.3rem; vertical-align: 0.05em; }
+.checkbox-fila label::after { order: -1; align-self: center; }
+.checkbox-fila input:not(:checked) + label::after { opacity: 0.45; }
+
 .badge-barato, .badge-medida {
   grid-area: badge;
   justify-self: start;
@@ -706,7 +726,7 @@ td.precio-faltante { color: var(--gris); }
 /* El acento de toda la interfaz: la etiqueta amarilla de oferta. */
 .badge-barato {
   background: var(--oferta);
-  color: var(--tinta);
+  color: var(--tinta-fija);
 }
 
 .badge-medida {
@@ -788,6 +808,33 @@ td.precio-faltante { color: var(--gris); }
       "badge  precio";
   }
   .opcion-super { padding-top: 0; }
+}
+
+/* ---------- Modo oscuro (sigue el ajuste del sistema) ---------- */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --lineal: #0f1715;
+    --papel: #17221e;
+    --tinta: #e4ece9;
+    --gris: #9db0a9;
+    --borde: #2c3b36;
+    --verde: #45c08c;
+    --verde-suave: #183a2d;
+    --aviso: #f2c56b;
+    --aviso-fondo: #2e2615;
+    --aviso-borde: #4d3f1d;
+    --rojo: #f07a63;
+    --hover: #1d2a25;
+    --verde-hover: #5ad19d;
+    --verde-suave-hover: #1f4637;
+    --c-hipercor: #5aa7e0;
+    --c-alimerka: #f07a63;
+    --c-mercadona: #5cc477;
+    --c-alcampo: #b08ae6;
+    --c-masymas: #f2a93b;
+    color-scheme: dark;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
