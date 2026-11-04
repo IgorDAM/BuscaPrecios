@@ -29,4 +29,4 @@ echo.
 echo Si arriba pone "Progreso: x/13 categorias", NO es un fallo: vuelve a ejecutar esto en 1 hora
 echo y continuara donde se quedo. Solo es un error real si no menciona el progreso.
 :fin
-pause
+if /i not "%1"=="nopause" pause
