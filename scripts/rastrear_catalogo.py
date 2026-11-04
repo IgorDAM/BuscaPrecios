@@ -72,12 +72,23 @@ def _rastrear_masymas(cp, pausa, max_hojas, log):
     return r.productos, r.fallos, r.n_hojas
 
 
+def _rastrear_alcampo(cp, pausa, max_hojas, log):
+    # Solo desde un PC (el WAF de AWS bloquea los runners de GitHub). Va
+    # despacio a propósito y se detiene si aparece un CAPTCHA: ver
+    # src/catalogo/alcampo.py. El CP no se usa: la zona (Gijón) es la del conector.
+    from src.catalogo.alcampo import rastrear_con_navegador
+
+    r = rastrear_con_navegador(cp, pausa, max_hojas, log)
+    return r.productos, r.fallos, r.n_hojas
+
+
 # Nombre -> (nombre para mostrar, rastreador).
 RASTREADORES: Dict[str, Tuple[str, Rastreador]] = {
     "alimerka": ("Alimerka", _rastrear_alimerka),
     "mercadona": ("Mercadona", _rastrear_mercadona),
     "hipercor": ("Hipercor", _rastrear_hipercor),
     "masymas": ("Más y Más", _rastrear_masymas),
+    "alcampo": ("Alcampo", _rastrear_alcampo),
 }
 
 

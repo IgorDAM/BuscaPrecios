@@ -325,7 +325,7 @@ async function cargarPreciosAlcampo() {
 // Catálogos completos que publica el cron semanal (catalogo_<super>.json).
 // Se descargan una vez por sesión, solo cuando hace falta (sin backend).
 // clave -> catálogo | false (ya se intentó y no hay). Ver catalogo.js.
-const CLAVES_CATALOGO = { Alimerka: "alimerka", Mercadona: "mercadona", Hipercor: "hipercor", "Más y Más": "masymas" };
+const CLAVES_CATALOGO = { Alimerka: "alimerka", Mercadona: "mercadona", Hipercor: "hipercor", "Más y Más": "masymas", Alcampo: "alcampo" };
 const cacheCatalogos = {};
 
 // catalogo.js suele venir del <script> de index.html, pero si el móvil sirve un
@@ -857,8 +857,8 @@ async function buscarEnSuper(nombre, flags, productos) {
       const esAlcampo = nombre === "Alcampo";
       const estaticos = esAlcampo ? await cargarPreciosAlcampo() : await cargarPreciosEstaticos();
       const catalogo = await cargarCatalogo(nombre);
-      if (esAlcampo && !estaticos) {
-        throw new Error("Alcampo aún no tiene precios publicados en la nube (se generan desde el PC de casa)");
+      if (esAlcampo && !estaticos && !catalogo) {
+        throw new Error("Alcampo aún no tiene datos publicados en la nube (se generan desde el PC de casa)");
       }
       if (!estaticos && !catalogo) throw errorBackend;
       data = estaticos

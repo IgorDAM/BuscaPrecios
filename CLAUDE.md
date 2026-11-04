@@ -570,3 +570,27 @@ proyecto de Claude. Resumen:
   la primera (16-21). Tests en `tests/test_masymas_busqueda.py`. SIN verificar
   en vivo que la búsqueda respete `start` (si no, se queda como antes).
 
+### Catálogo completo de Alcampo (investigado el 2026-11-04)
+
+Alcampo SÍ se puede tener entero en web/móvil, igual que los demás: su web
+(tipo Ocado) lista productos con `GET /api/webproductpagews/v6/product-pages
+?categoryId={id}&maxPageSize=300&maxProductsToDecorate=300&tag=web` (hasta 300
+decorados por página; siguiente página con `&pageToken={metadata.nextPageToken}`,
+OJO: el parámetro se llama `pageToken`, con `nextPageToken` no pagina). Una raíz
+de nivel 1 incluye sus subcategorías ("Lácteos" 1.328 productos en 5 páginas,
+"Frescos" 3.115 en 11). Implementado en `src/catalogo/alcampo.py`, registrado
+como `alcampo` en `scripts/rastrear_catalogo.py`; `app.js` lo lee de
+`catalogo_alcampo.json` (`CLAVES_CATALOGO`).
+- **WAF**: pidiendo ~25 páginas en 10 s Alcampo respondió HTTP 405 +
+  `x-amzn-waf-action: captcha`. El rastreador va a >=3 s por petición y, ante
+  ese 405, SE DETIENE (`BloqueoWAF`; sin reintentos, sin resolver ni esquivar
+  el CAPTCHA) y no publica un rastreo con fallos.
+- **Solo desde el PC** (el WAF bloquea los runners de GitHub): `scripts\
+  actualizar_alcampo.bat` hace precios de la lista habitual + catálogo, commit y push.
+- SIN verificar en vivo: la forma exacta de `price` en la respuesta (la de
+  `unitPrice` sí se vio); `producto_desde_api` acepta `{amount}` y
+  `{current:{amount}}`. La primera ejecución en el PC lo confirma: si sale 0
+  productos, revisar esa función.
+- Zona: la sesión del navegador de pruebas estaba en 28029 (Madrid); el
+  rastreador fija Gijón (33392) con `Alcampo._fijar_zona` antes de rastrear.
+
