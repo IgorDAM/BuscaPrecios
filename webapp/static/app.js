@@ -306,6 +306,22 @@ async function cargarPreciosEstaticos() {
   return cachePreciosEstaticos;
 }
 
+// Alcampo no entra en el cron de GitHub (su WAF bloquea esos runners): sus
+// precios los genera Igor desde su PC (`scripts/generar_precios.py
+// --solo-alcampo`) y se publican en precios_alcampo.json, mismo formato.
+let cachePreciosAlcampo = null;
+async function cargarPreciosAlcampo() {
+  if (cachePreciosAlcampo !== null) return cachePreciosAlcampo;
+  try {
+    const res = await fetch("precios_alcampo.json");
+    if (!res.ok) throw new Error("no hay precios_alcampo.json");
+    cachePreciosAlcampo = await res.json();
+  } catch (e) {
+    cachePreciosAlcampo = false;
+  }
+  return cachePreciosAlcampo;
+}
+
 // Catálogos completos que publica el cron semanal (catalogo_<super>.json).
 // Se descargan una vez por sesión, solo cuando hace falta (sin backend).
 // clave -> catálogo | false (ya se intentó y no hay). Ver catalogo.js.
@@ -838,8 +854,12 @@ async function buscarEnSuper(nombre, flags, productos) {
       // datos que publican los crons de GitHub Actions. Primero los precios
       // de la lista habitual (cada 6 h) y, para todo lo demás, una búsqueda
       // libre en el catálogo completo del súper (semanal).
-      const estaticos = await cargarPreciosEstaticos();
+      const esAlcampo = nombre === "Alcampo";
+      const estaticos = esAlcampo ? await cargarPreciosAlcampo() : await cargarPreciosEstaticos();
       const catalogo = await cargarCatalogo(nombre);
+      if (esAlcampo && !estaticos) {
+        throw new Error("Alcampo aún no tiene precios publicados en la nube (se generan desde el PC de casa)");
+      }
       if (!estaticos && !catalogo) throw errorBackend;
       data = estaticos
         ? filtrarPreciosEstaticos(estaticos, nombre, productos)

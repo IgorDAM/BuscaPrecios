@@ -553,3 +553,20 @@ proyecto de Claude. Resumen:
 - **Catálogo de Alcampo: pendiente.** Catálogo muy grande, solo 50
   productos decorados por página, navegador obligatorio por el WAF.
 
+## Alcampo y Más y Más en web/móvil (2026-11-04)
+
+- **Alcampo en la nube**: el cron de GitHub NO puede (su WAF AWS bloquea el
+  runner: salía "No responde" tras 10 min de reintentos), así que
+  `generar_precios.py` ya no lo incluye. Se genera desde el PC de Igor con
+  `python scripts/generar_precios.py --solo-alcampo` (o `scripts\actualizar_alcampo.bat`,
+  que además hace pull --rebase, commit y push) y va a
+  `webapp/static/precios_alcampo.json` (mismo formato; archivo propio para no
+  chocar con el rebase del cron). No sobrescribe con un resultado vacío.
+  `app.js` (`cargarPreciosAlcampo`) lo usa en modo estático. Cubre solo la lista
+  habitual (no hay catálogo de Alcampo); local sigue buscando en directo.
+- **Más y Más**: en la nube ya funciona (catálogo ~6.900 productos + cron). En
+  local `buscar_productos()` ahora pagina la búsqueda (`start`/`sz=96`, máx. 3
+  páginas, se para si una página no aporta productos nuevos), antes solo leía
+  la primera (16-21). Tests en `tests/test_masymas_busqueda.py`. SIN verificar
+  en vivo que la búsqueda respete `start` (si no, se queda como antes).
+

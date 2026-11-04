@@ -36,6 +36,11 @@ CP = "33012"
 INTENTOS_NAVEGADOR = 3
 ESPERA_ENTRE_INTENTOS_S = 20
 SALIDA = RAIZ / "webapp" / "static" / "precios_generados.json"
+# Alcampo va aparte: su WAF (AWS) bloquea a los runners de GitHub Actions
+# ("No responde"), pero deja pasar desde un PC doméstico. Se genera a mano
+# desde el PC con `--solo-alcampo` y se sube; así el cron no se pisa con tus
+# commits (archivos distintos) ni pierde 10 min reintentando en vano.
+SALIDA_ALCAMPO = RAIZ / "webapp" / "static" / "precios_alcampo.json"
 LISTA_HABITUAL = RAIZ / "data" / "lista_compra_habitual.json"
 
 
@@ -132,6 +137,7 @@ def buscar_con_requests(nombre_super: str, conector, productos: list[str]):
 
 
 def main() -> None:
+    solo_alcampo = "--solo-alcampo" in sys.argv
     productos = cargar_lista()
     print(f"Lista habitual ({len(productos)} productos): {', '.join(productos)}")
 
@@ -145,35 +151,38 @@ def main() -> None:
                 producto_a_dict(nombre_super, p) for p in relevantes
             )
 
-    print("\n== Hipercor ==")
-    resultado, aviso = buscar_con_navegador("Hipercor", Hipercor(CP), productos)
-    registrar("Hipercor", resultado)
-    if aviso:
-        avisos.append(aviso)
+    if not solo_alcampo:
+        print("\n== Hipercor ==")
+        resultado, aviso = buscar_con_navegador("Hipercor", Hipercor(CP), productos)
+        registrar("Hipercor", resultado)
+        if aviso:
+            avisos.append(aviso)
 
-    print("\n== Mercadona ==")
-    resultado, aviso = buscar_con_navegador("Mercadona", Mercadona(CP), productos)
-    registrar("Mercadona", resultado)
-    if aviso:
-        avisos.append(aviso)
+        print("\n== Mercadona ==")
+        resultado, aviso = buscar_con_navegador("Mercadona", Mercadona(CP), productos)
+        registrar("Mercadona", resultado)
+        if aviso:
+            avisos.append(aviso)
 
-    print("\n== Alimerka ==")
-    resultado, aviso = buscar_alimerka(productos)
-    registrar("Alimerka", resultado)
-    if aviso:
-        avisos.append(aviso)
+        print("\n== Alimerka ==")
+        resultado, aviso = buscar_alimerka(productos)
+        registrar("Alimerka", resultado)
+        if aviso:
+            avisos.append(aviso)
 
-    print("\n== Alcampo (Gijón) ==")
-    resultado, aviso = buscar_con_navegador("Alcampo", Alcampo(), productos)
-    registrar("Alcampo", resultado)
-    if aviso:
-        avisos.append(aviso)
-
-    print("\n== Más y Más ==")
-    resultado, aviso = buscar_con_requests("Más y Más", MasYMas(), productos)
-    registrar("Más y Más", resultado)
-    if aviso:
-        avisos.append(aviso)
+        print("\n== Más y Más ==")
+        resultado, aviso = buscar_con_requests("Más y Más", MasYMas(), productos)
+        registrar("Más y Más", resultado)
+        if aviso:
+            avisos.append(aviso)
+    else:
+        # Alcampo (Gijón): solo desde un PC con navegador visible. Ver
+        # SALIDA_ALCAMPO más arriba.
+        print("\n== Alcampo (Gijón) ==")
+        resultado, aviso = buscar_con_navegador("Alcampo", Alcampo(), productos)
+        registrar("Alcampo", resultado)
+        if aviso:
+            avisos.append(aviso)
 
     resultados = []
     for nombre in productos:
@@ -187,11 +196,17 @@ def main() -> None:
         "avisos": avisos,
     }
 
-    SALIDA.parent.mkdir(parents=True, exist_ok=True)
-    SALIDA.write_text(json.dumps(salida, ensure_ascii=False, indent=2), encoding="utf-8")
-
+    destino = SALIDA_ALCAMPO if solo_alcampo else SALIDA
     total_opciones = sum(len(r["opciones"]) for r in resultados)
-    print(f"\nEscrito {SALIDA} con {total_opciones} opciones en total.")
+    if solo_alcampo and total_opciones == 0:
+        # Nunca machacar un archivo bueno con uno vacío.
+        print("Alcampo no devolvió nada: NO se escribe", destino.name, "(se conserva el anterior).")
+        print("Avisos:", avisos)
+        sys.exit(1)
+    destino.parent.mkdir(parents=True, exist_ok=True)
+    destino.write_text(json.dumps(salida, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    print(f"\nEscrito {destino} con {total_opciones} opciones en total.")
     if avisos:
         print("Avisos:", avisos)
 

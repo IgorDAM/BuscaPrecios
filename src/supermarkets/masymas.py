@@ -42,6 +42,9 @@ from .medidas import precio_por_medida
 
 BASE_URL = "https://www.supermasymasonline.com"
 
+TAM_PAGINA_BUSQUEDA = 96
+MAX_PAGINAS_BUSQUEDA = 3  # hasta ~288 resultados: de sobra para una búsqueda
+
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                   "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -138,16 +141,39 @@ class MasYMas(Supermercado):
         self._session.headers.update(HEADERS)
 
     def buscar_productos(self, nombre_producto: str) -> List[Producto]:
-        r = self._session.get(
-            f"{BASE_URL}/search", params={"q": nombre_producto}, timeout=20
-        )
-        r.raise_for_status()
-        soup = BeautifulSoup(r.text, "html.parser")
-        resultado = []
-        for tile in tarjetas_resultado(soup):
-            producto = tarjeta_a_producto(tile, nombre_producto)
-            if producto is not None:
+        """
+        Todos los resultados de la búsqueda, no solo la primera página (una
+        búsqueda amplia como "leche" trae más de 16-21 productos). Se pide con
+        `start`/`sz` (verificado en las categorías; en la búsqueda se protege):
+        si una página no aporta ningún producto nuevo (la web ignoró `start`)
+        se para, así que en el peor caso se queda como antes, con la primera.
+        """
+        resultado: List[Producto] = []
+        vistos = set()
+        start = 0
+        for _ in range(MAX_PAGINAS_BUSQUEDA):
+            r = self._session.get(
+                f"{BASE_URL}/search",
+                params={"q": nombre_producto, "start": start, "sz": TAM_PAGINA_BUSQUEDA},
+                timeout=20,
+            )
+            r.raise_for_status()
+            soup = BeautifulSoup(r.text, "html.parser")
+            tarjetas = tarjetas_resultado(soup)
+            nuevos = 0
+            for tile in tarjetas:
+                pid = tile.get("data-pid")
+                if pid in vistos:
+                    continue
+                producto = tarjeta_a_producto(tile, nombre_producto)
+                if producto is None:
+                    continue
+                vistos.add(pid)
                 resultado.append(producto)
+                nuevos += 1
+            if nuevos == 0 or len(tarjetas) < TAM_PAGINA_BUSQUEDA:
+                break
+            start += TAM_PAGINA_BUSQUEDA
         return resultado
 
 
