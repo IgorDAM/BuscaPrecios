@@ -281,7 +281,10 @@ class Alcampo(Supermercado):
             page.get_by_role("button", name="Confirmar", exact=True).click(timeout=15000)
             paso = f"comprobar que la cabecera muestra 'Entrega: {self.cp_esperado}'"
             page.wait_for_function(
-                "(cp) => document.body.innerText.includes('Entrega: ' + cp)",
+                # Tras confirmar, la web recarga y durante un instante no hay
+                # <body>: sin esta guarda el TypeError abortaba la espera
+                # (fallo real del 2026-11-04) en vez de reintentar.
+                "(cp) => !!document.body && document.body.innerText.includes('Entrega: ' + cp)",
                 arg=self.cp_esperado,
                 timeout=20000,
             )
