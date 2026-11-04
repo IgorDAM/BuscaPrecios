@@ -614,3 +614,15 @@ hace las ~80 búsquedas de la lista habitual: el catálogo las cubre y la web
 rellena la lista habitual desde él (`completarConCatalogo`). `precios_alcampo.json`
 sigue siendo opcional (se puede generar a mano con `--solo-alcampo`).
 
+### Alcampo: límite por NÚMERO de peticiones, rastreo reanudable (2026-11-04)
+
+Primera ejecución real del catálogo en el PC de Igor: la API y el precio se leen
+bien (8.504 productos de las 3 primeras raíces) pero el CAPTCHA saltó a las ~28
+peticiones aun con 5 s de pausa: el límite es por cantidad, no por velocidad. No
+se intenta esquivar (nada de rotar sesión/IP). En su lugar `rastrear()` es
+REANUDABLE: máx. 20 peticiones por ejecución (`MAX_PETICIONES_POR_EJECUCION`),
+progreso en `data/alcampo_progreso.json` (gitignored, caduca a las 24 h; guarda
+raíces hechas y la raíz en curso con su `pageToken`, que se descarta si caduca) y
+NO publica hasta que estén las 13 raíces. Hacen falta ~4-5 ejecuciones separadas
+~1 h (`actualizar_alcampo.bat`, programable). Un CAPTCHA conserva lo ya bajado.
+

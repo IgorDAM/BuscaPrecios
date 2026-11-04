@@ -103,5 +103,94 @@ class Rastrear(unittest.TestCase):
             rastrear(lambda r: {}, [("a", "A")], log=lambda _: None, dormir=lambda _: None)
 
 
+class RastrearReanudable(unittest.TestCase):
+    """Alcampo muestra un CAPTCHA tras ~25-28 peticiones: el rastreo se reparte
+    en varias ejecuciones con un tope de peticiones y progreso guardado."""
+
+    def setUp(self):
+        self.raices = [(f"r{i}", f"Raíz {i}") for i in range(6)]
+        self.guardados = []
+
+    def _servidor(self, paginas_por_raiz=3, caducan_tokens=False):
+        """Cada raíz tiene `paginas_por_raiz` páginas con productos propios."""
+        llamadas = []
+
+        def pedir(ruta):
+            llamadas.append(ruta)
+            rid = ruta.split("categoryId=")[1].split("&")[0]
+            tok = ruta.split("pageToken=")[1] if "pageToken=" in ruta else None
+            if tok and caducan_tokens:
+                raise RuntimeError("HTTP 400 token caducado")
+            n = int(tok.split("-")[1]) if tok else 0
+            prods = [api_prod(f"{rid}-{n}-{k}", f"P {rid} {n} {k} 1 l", 1) for k in range(2)]
+            sig = f"{rid}-{n + 1}" if n + 1 < paginas_por_raiz else None
+            return {"productGroups": [{"decoratedProducts": prods}],
+                    "metadata": {"nextPageToken": sig} if sig else {}}
+        return pedir, llamadas
+
+    def _ejecutar(self, pedir, estado, maxp):
+        return rastrear(pedir, self.raices, log=lambda _: None, dormir=lambda _: None,
+                        estado=estado, guardar=lambda e: self.guardados.append(1), max_peticiones=maxp)
+
+    def test_respeta_el_tope_y_marca_pendiente(self):
+        pedir, llamadas = self._servidor()
+        r = self._ejecutar(pedir, {}, 7)
+        self.assertEqual(len(llamadas), 7)
+        self.assertTrue(r.fallos and all("pendiente" in f for f in r.fallos))
+
+    def test_varias_ejecuciones_completan_sin_perder_ni_duplicar(self):
+        pedir, llamadas = self._servidor()
+        estado = {}
+        for _ in range(10):
+            r = self._ejecutar(pedir, estado, 7)
+            if not r.fallos:
+                break
+        self.assertEqual(r.fallos, [])
+        self.assertEqual(len(r.productos), 6 * 3 * 2)           # todas las raíces, sin duplicados
+        self.assertEqual(len(llamadas), 6 * 3)                  # ni una petición repetida
+
+    def test_token_caducado_reinicia_la_raiz_en_curso(self):
+        pedir, _ = self._servidor(caducan_tokens=False)
+        estado = {"hechas": {}, "en_curso": {"id": "r0", "token": "r0-1", "productos": []}}
+        pedir_caducado, _ = self._servidor(paginas_por_raiz=1, caducan_tokens=True)
+        r = self._ejecutar(pedir_caducado, estado, 50)
+        self.assertEqual(r.fallos, [])
+        self.assertEqual(len(r.productos), 6 * 1 * 2)
+
+    def test_captcha_conserva_lo_ya_descargado(self):
+        pedir, _ = self._servidor(paginas_por_raiz=1)
+        estado = {}
+
+        def con_captcha(ruta):
+            if "categoryId=r3" in ruta:
+                raise BloqueoWAF("verificación humana pedida (HTTP 405 captcha)")
+            return pedir(ruta)
+
+        r = self._ejecutar(con_captcha, estado, 50)
+        self.assertEqual(sorted(estado["hechas"]), ["r0", "r1", "r2"])   # guardado
+        self.assertTrue(r.fallos)
+        # siguiente ejecución, sin captcha: solo pide lo que falta
+        pedir2, llamadas2 = self._servidor(paginas_por_raiz=1)
+        r2 = self._ejecutar(pedir2, estado, 50)
+        self.assertEqual(r2.fallos, [])
+        self.assertEqual(len(llamadas2), 3)                              # r3, r4, r5
+        self.assertEqual(len(r2.productos), 6 * 2)
+
+
+class Progreso(unittest.TestCase):
+    def test_guardar_y_cargar_y_caducidad(self):
+        import tempfile
+        from datetime import datetime, timedelta, timezone
+        from pathlib import Path
+        from src.catalogo.alcampo import cargar_progreso, guardar_progreso
+        with tempfile.TemporaryDirectory() as d:
+            ruta = Path(d) / "p.json"
+            self.assertEqual(cargar_progreso(ruta), {})
+            guardar_progreso({"hechas": {"r0": []}}, ruta)
+            self.assertEqual(list(cargar_progreso(ruta)["hechas"]), ["r0"])
+            futuro = datetime.now(timezone.utc) + timedelta(hours=25)
+            self.assertEqual(cargar_progreso(ruta, ahora=futuro), {})
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -9,3 +9,4 @@ api/_lib/
 # Capturas de diagnóstico de los conectores con navegador
 diag/
 *.parcial
+data/alcampo_progreso.json

@@ -4,6 +4,12 @@ REM Alcampo bloquea a los runners de GitHub, asi que se rastrea desde este PC
 REM (abre un Chrome fuera de pantalla unos minutos) y se sube al repo.
 REM Uso: doble clic, o programarlo en el Programador de tareas de Windows.
 REM
+REM IMPORTANTE: Alcampo muestra un CAPTCHA tras ~25-28 peticiones (aunque vayan
+REM despacio), asi que el rastreo se REPARTE en varias ejecuciones: cada una hace
+REM como mucho 20 peticiones, guarda el progreso y se para antes del CAPTCHA.
+REM Ejecutalo, y si dice "Progreso: x/13 ... vuelve a ejecutar en 1 hora", repite
+REM pasada una hora (hasta que ponga "Listo"). Puedes dejarlo programado cada hora.
+REM
 REM Solo se rastrea el CATALOGO completo (unas 60 peticiones, 5 s entre ellas):
 REM ya incluye la lista habitual, asi que no hacen falta ~80 busquedas sueltas
 REM (con ellas Alcampo mostro un CAPTCHA el 2026-11-04). Si vuelve a mostrarlo,
@@ -19,6 +25,8 @@ git push origin master || goto :error
 echo Listo: Alcampo actualizado y subido.
 goto :fin
 :error
-echo ERROR: algo ha fallado, mira los mensajes de arriba.
+echo.
+echo Si arriba pone "Progreso: x/13 categorias", NO es un fallo: vuelve a ejecutar esto en 1 hora
+echo y continuara donde se quedo. Solo es un error real si no menciona el progreso.
 :fin
 pause
