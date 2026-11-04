@@ -30,6 +30,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ))
 
 from src.supermarkets import Mercadona, Hipercor, Alimerka, Alcampo, MasYMas
+from src.supermarkets.alcampo import BloqueoWAF
 from src.supermarkets.base import Producto, filtrar_relevantes
 
 CP = "33012"
@@ -83,6 +84,10 @@ def buscar_con_navegador(nombre_super: str, conector, productos: list[str]):
                 return resultado, None
             print(f"  [{nombre_super}] intento {intento}/{INTENTOS_NAVEGADOR}: "
                   f"0 opciones en toda la lista (probable intermitencia de Akamai)")
+        except BloqueoWAF as e:
+            # CAPTCHA: reintentar solo lo empeora. Se corta aquí.
+            print(f"  [{nombre_super}] {e}")
+            return {p: [] for p in productos}, {"supermercado": nombre_super, "motivo": str(e)}
         except Exception as e:  # incluye SupermercadoCaido
             ultimo_error = str(e) or type(e).__name__
             print(f"  [{nombre_super}] intento {intento}/{INTENTOS_NAVEGADOR}: "

@@ -594,3 +594,15 @@ como `alcampo` en `scripts/rastrear_catalogo.py`; `app.js` lo lee de
 - Zona: la sesión del navegador de pruebas estaba en 28029 (Madrid); el
   rastreador fija Gijón (33392) con `Alcampo._fijar_zona` antes de rastrear.
 
+
+### Alcampo: CAPTCHA en las búsquedas (2026-11-04)
+
+Primer intento real de Igor: "No responde (varias búsquedas seguidas sin
+cargar)" en el intento 1/3 de `generar_precios.py --solo-alcampo`. Causa más
+probable: el WAF ya había marcado la IP (las pruebas de investigación salieron
+por la misma IP) y/o las ~80 búsquedas iban sin pausa. Ahora el conector hace
+una pausa de 4 s entre búsquedas (`PAUSA_ENTRE_BUSQUEDAS_MS`), detecta la página
+"Human Verification" y lanza `BloqueoWAF` (en vez de seguir y agotar 25 s por
+búsqueda); `generar_precios.py` NO reintenta ante `BloqueoWAF`. Guarda captura y
+texto en `diag/alcampo_fallo.*` para ver qué mostró la web. No se resuelve ni se
+esquiva el CAPTCHA: se espera (>= 1 h sin usar Alcampo) y se vuelve a probar.

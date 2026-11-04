@@ -37,7 +37,7 @@ import time
 from typing import Callable, Dict, List, Optional, Tuple
 
 from .alimerka import Rastreo
-from ..supermarkets.alcampo import _UNIDADES, BASE_URL, Alcampo
+from ..supermarkets.alcampo import _UNIDADES, BASE_URL, Alcampo, BloqueoWAF
 from ..supermarkets.medidas import precio_por_medida
 from ..supermarkets.navegador import (
     SupermercadoCaido,
@@ -60,10 +60,6 @@ RAICES_INCLUIDAS = (
     "Congelados", "Comida Preparada", "Supermercado Ecológico", "Bebidas",
     "Sin Gluten", "Veganos", "Droguería", "Perfumeria", "Bebé",
 )
-
-
-class BloqueoWAF(SupermercadoCaido):
-    """El WAF de Alcampo ha pedido verificación humana (CAPTCHA): se para."""
 
 
 def _a_float(valor) -> Optional[float]:

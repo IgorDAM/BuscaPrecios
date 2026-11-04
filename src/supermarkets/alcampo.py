@@ -50,6 +50,22 @@ BASE_URL = "https://www.compraonline.alcampo.es"
 
 DIAGNOSTICO = Path(__file__).resolve().parent.parent.parent / "diag"
 
+# Pausa entre búsquedas seguidas. Alcampo (AWS WAF) muestra un CAPTCHA
+# ("Human Verification") si se le pide deprisa: verificado el 2026-11-04 con
+# ~25 peticiones en 10 s. Con navegador real y estas pausas se evita.
+PAUSA_ENTRE_BUSQUEDAS_MS = 4000
+
+
+class BloqueoWAF(SupermercadoCaido):
+    """El WAF de Alcampo ha pedido verificación humana (CAPTCHA). No se
+    reintenta, ni se intenta resolver ni esquivar: hay que esperar un rato."""
+
+_JS_HAY_CAPTCHA = """() => {
+  const t = (document.title + ' ' + (document.body ? document.body.innerText : '')).toLowerCase();
+  return t.includes('human verification') || t.includes('verificación humana')
+    || !!document.querySelector('#captcha-container, [id*=captcha]');
+}"""
+
 # Clics que se hacen con JavaScript porque en la web real (verificado a mano
 # el 2026-11-03) funcionan donde un locator de Playwright puede toparse con
 # nodos ocultos (la sugerencia aparece duplicada para lectores de pantalla)
@@ -177,7 +193,9 @@ class Alcampo(Supermercado):
                         "Sin ella saldrían precios de Madrid."
                     )
                 fallos_seguidos = 0
-                for termino in terminos:
+                for n, termino in enumerate(terminos):
+                    if n:
+                        page.wait_for_timeout(PAUSA_ENTRE_BUSQUEDAS_MS)
                     opciones = self._buscar_uno(page, termino)
                     if opciones is None:
                         fallos_seguidos += 1
@@ -298,7 +316,19 @@ class Alcampo(Supermercado):
                 timeout=25000,
             )
         except Exception:
-            return None  # sin estado: bloqueo del WAF o caída, no "no lo venden"
+            # Sin estado: ¿CAPTCHA del WAF o simple caída? Se distingue para no
+            # seguir pidiendo (empeora el bloqueo) y para dar el motivo real.
+            try:
+                captcha = page.evaluate(_JS_HAY_CAPTCHA)
+            except Exception:
+                captcha = False
+            Alcampo._guardar_diagnostico(page)
+            if captcha:
+                raise BloqueoWAF(
+                    "Alcampo pide verificación humana (CAPTCHA) por exceso de peticiones. "
+                    "Espera al menos 1 hora sin usarlo y vuelve a probar."
+                )
+            return None  # bloqueo o caída, no "no lo venden"
         entidades = page.evaluate(
             "() => Object.values(window.__INITIAL_STATE__.data.products.productEntities || {})"
         )
