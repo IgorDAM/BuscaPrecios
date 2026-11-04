@@ -68,13 +68,13 @@ FICHERO_PROGRESO = Path(__file__).resolve().parent.parent.parent / "data" / "alc
 # demás) y electrónica, juguetes, bricolaje... (no son compra de súper).
 RAICES_INCLUIDAS = (
     "Frescos", "Leche, Huevos", "Alimentación", "Desayuno y Merienda",
-    "Congelados", "Comida Preparada", "Bebidas", "Droguería",
+    "Congelados", "Comida Preparada", "Supermercado Ecológico", "Bebidas",
+    "Sin Gluten", "Veganos", "Droguería", "Perfumeria", "Bebé",
 )
-# Fuera a propósito (2026-11-04), para gastar menos peticiones (el WAF corta a
-# las ~25-28): "Supermercado Ecológico", "Sin Gluten / Sin Lactosa...",
-# "Veganos" (vistas cruzadas de las secciones anteriores, NO verificado que no
-# traigan productos propios) y "Perfumeria"/"Bebé" (no son compra de súper).
-# Si se echan en falta productos, añadirlas aquí.
+# Las 13 secciones. Se probó a quitar 5 para gastar menos peticiones (el WAF
+# corta a las ~25-28) pero se pierden productos propios (pañales, cosmética...)
+# y no se sabe cuántos de Ecológico/Sin Gluten/Veganos; se decidió el 2026-11-04
+# mantener las 13. El orden importa: el progreso guardado va por sección.
 
 
 def _a_float(valor) -> Optional[float]:
