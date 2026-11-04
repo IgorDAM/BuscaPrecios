@@ -19,6 +19,7 @@ supermercados igual, sin importar cómo consigue cada uno los precios
 por dentro (HTML renderizado, navegador headless, etc).
 """
 
+import re
 import unicodedata
 from dataclasses import dataclass
 from typing import List, Optional
@@ -38,7 +39,10 @@ class Producto:
 def _normalizar(texto: str) -> str:
     """Minúsculas y sin acentos, para poder comparar textos."""
     sin_acentos = unicodedata.normalize("NFD", texto.lower())
-    return "".join(c for c in sin_acentos if unicodedata.category(c) != "Mn")
+    limpio = "".join(c for c in sin_acentos if unicodedata.category(c) != "Mn")
+    # Alias de marca: Alimerka dice "Central Lechera Asturiana"; Hipercor y
+    # Mercadona, solo "Asturiana" (= normalizarBusqueda en catalogo.js).
+    return re.sub(r"central lechera( asturiana)?", "asturiana", limpio)
 
 
 def _raiz(palabra: str) -> str:

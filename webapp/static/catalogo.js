@@ -14,8 +14,14 @@
 const LIMITE_OPCIONES = 30;
 
 // Minúsculas y sin acentos, para poder comparar textos (= `_normalizar`).
+// Alias de marca: Alimerka la llama "Central Lechera Asturiana"; Hipercor y
+// Mercadona, solo "Asturiana". Se unifica en ambos lados de la comparación.
 function normalizarBusqueda(texto) {
-  return (texto || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+  return (texto || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/central lechera( asturiana)?/g, "asturiana");
 }
 
 // Quita el plural para que "huevos" case con "huevo" (= `_raiz`).
