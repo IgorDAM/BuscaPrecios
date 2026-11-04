@@ -606,3 +606,11 @@ una pausa de 4 s entre búsquedas (`PAUSA_ENTRE_BUSQUEDAS_MS`), detecta la pági
 búsqueda); `generar_precios.py` NO reintenta ante `BloqueoWAF`. Guarda captura y
 texto en `diag/alcampo_fallo.*` para ver qué mostró la web. No se resuelve ni se
 esquiva el CAPTCHA: se espera (>= 1 h sin usar Alcampo) y se vuelve a probar.
+
+Confirmado el 2026-11-04 en el PC de Igor: `generar_precios.py --solo-alcampo`
+acabó en `BloqueoWAF` (CAPTCHA) tras varios intentos seguidos desde la misma IP.
+`actualizar_alcampo.bat` ya solo rastrea el catálogo (~60 peticiones a 5 s) y no
+hace las ~80 búsquedas de la lista habitual: el catálogo las cubre y la web
+rellena la lista habitual desde él (`completarConCatalogo`). `precios_alcampo.json`
+sigue siendo opcional (se puede generar a mano con `--solo-alcampo`).
+
