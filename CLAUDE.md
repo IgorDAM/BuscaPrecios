@@ -33,8 +33,8 @@ cd webapp && python app.py       # abre http://localhost:5000
 Tests (sin dependencias extra):
 
 ```bash
-python -I -m unittest discover -s tests -t . -v   # tarjetas de Alimerka y rastreadores de catálogo
-node --test tests_js/catalogo.test.js             # búsqueda sobre los catálogos (catalogo.js)
+python -I -m unittest discover -s tests -t . -v   # conectores, rastreadores, caché y seguridad del backend
+node --test tests_js/*.test.js                    # catalogo.js y funciones puras de app.js (ojo: archivos, no la carpeta)
 ```
 
 No hay linter ni build. `compare.py` se verificó manualmente con datos de
@@ -626,3 +626,46 @@ raíces hechas y la raíz en curso con su `pageToken`, que se descarta si caduca
 NO publica hasta que estén las 13 raíces. Hacen falta ~4-5 ejecuciones separadas
 ~1 h (`actualizar_alcampo.bat`, programable). Un CAPTCHA conserva lo ya bajado.
 
+## Auditoría y mejoras (2026-11-05)
+
+Rama `mejoras/auditoria-2026-11`. Todo con tests (112 de Python, 35 de JS) y
+la interfaz comprobada en Chromium con `/api/buscar` simulado.
+
+**Backend (`webapp/app.py`, `webapp/cache.py`)**
+- `DEBUG=1` se ignora si el servidor no escucha en localhost: el depurador de
+  Werkzeug ejecuta código desde el navegador y con `0.0.0.0` lo tendría toda
+  la red.
+- `DELETE /api/cache` solo desde este PC o con cabecera `X-Token` igual a la
+  variable `BUSCAPRECIOS_TOKEN`. `GET /api/health` para detectar si hay backend.
+- `POST /api/buscar`: validación de entrada (máx. 60 productos de 100
+  caracteres, sin duplicados ni vacíos), límite de 40 peticiones por IP y
+  minuto (429) y **un cerrojo por supermercado**: si dos dispositivos buscan a
+  la vez, el segundo espera y encuentra los precios en caché en vez de abrir
+  otro navegador contra la misma web.
+- Caché: cerrojo por fichero y escritura atómica (`.tmp` + `os.replace`). El
+  test de concurrencia falla con la versión anterior.
+
+**Frontend (`webapp/static/`)**
+- `escapar()` en todo `innerHTML` con texto externo: los nombres/marcas vienen
+  de webs de terceros y se guardan en caché y catálogos.
+- `calcularEscenarios()` (equivalente web de `compare.py`): lista repartida
+  frente a la mejor lista en un solo súper y ahorro; solo compara con súperes
+  que tienen TODA la lista. Es una estimación (la opción más barata no siempre
+  es el producto exacto). `agruparPorSuper()`: qué coger en cada tienda.
+- Copia de seguridad: exportar/importar lista, presupuesto e historial en JSON
+  (`validarCopiaSeguridad()` descarta campos desconocidos y formas no válidas).
+- Un 429 del servidor se muestra tal cual, en vez de caer en silencio a los
+  "precios de la nube" (la Azure Function sí contesta 400/501 y esos caen).
+- Accesibilidad: etiquetas en los campos, `aria-live` en progreso/estado,
+  cabecera de tarjeta con `role=button` + teclado + `aria-expanded`, objetivos
+  táctiles de 44 px, total fijo abajo en el móvil. `sw.js`: caché v8.
+
+**Pendiente / hallazgos sin resolver**
+- `registrarCompra()` calcula el "ahorro" contra el máximo de TODAS las
+  opciones (incluidas variantes sin relación), así que infla el ahorro del
+  historial. Mejor medirlo frente al mejor súper único (`calcularEscenarios`).
+- Alcampo se fija en Gijón (33392) y el resto en Oviedo (33012): los precios
+  comparados son de zonas distintas; la interfaz no lo dice.
+- La preselección sigue eligiendo "lo más barato"; no hay umbral de
+  relevancia por categoría (los catálogos traen `categoria_ruta`).
+- Los catálogos (≈5 MB por rastreo) engordan el historial de git.

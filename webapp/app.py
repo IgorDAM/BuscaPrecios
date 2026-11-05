@@ -16,7 +16,12 @@ Function (la lógica de negocio ya está separada en src/, aquí solo hay
 "pegamento" HTTP).
 """
 
+import hmac
+import os
 import sys
+import threading
+import time
+from collections import deque
 from pathlib import Path
 
 from flask import Flask, jsonify, request, send_from_directory
@@ -30,6 +35,71 @@ from src.supermarkets.base import Producto, filtrar_relevantes
 import cache
 
 app = Flask(__name__, static_folder="static", static_url_path="")
+
+# --- Protecciones del modo LAN ------------------------------------------
+# El servidor escucha en 0.0.0.0, así que cualquier dispositivo de la red
+# puede llamarlo. Cada búsqueda con Hipercor/Mercadona/Alcampo abre un
+# navegador real, y Akamai/AWS WAF bloquean cuando ven demasiadas visitas:
+# conviene que no se pueda disparar eso sin límite.
+MAX_PRODUCTOS = 60            # líneas de la lista por petición
+MAX_LARGO_NOMBRE = 100        # caracteres por producto
+LIMITE_PETICIONES = 40        # /api/buscar por IP y ventana
+VENTANA_SEGUNDOS = 60         # (el frontend hace 1 por súper: ~5 por búsqueda)
+
+# Un solo scraping a la vez por supermercado. Si dos dispositivos buscan a la
+# vez, el segundo ESPERA y luego encuentra los precios ya en caché, en vez de
+# abrir dos navegadores contra la misma web.
+_CERROJOS_SUPER = {
+    nombre: threading.Lock()
+    for nombre in ("Hipercor", "Alimerka", "Mercadona", "Alcampo", "Más y Más")
+}
+
+_visitas: dict = {}
+_visitas_guardia = threading.Lock()
+
+
+def _supera_limite(ip: str) -> bool:
+    """Ventana deslizante en memoria por IP (suficiente para uso doméstico)."""
+    ahora = time.monotonic()
+    with _visitas_guardia:
+        cola = _visitas.setdefault(ip, deque())
+        while cola and ahora - cola[0] > VENTANA_SEGUNDOS:
+            cola.popleft()
+        if len(cola) >= LIMITE_PETICIONES:
+            return True
+        cola.append(ahora)
+        return False
+
+
+def _es_local() -> bool:
+    return request.remote_addr in ("127.0.0.1", "::1")
+
+
+def _token_valido() -> bool:
+    """Si BUSCAPRECIOS_TOKEN está definido, se acepta con cabecera X-Token."""
+    esperado = os.environ.get("BUSCAPRECIOS_TOKEN", "")
+    enviado = request.headers.get("X-Token", "")
+    return bool(esperado) and hmac.compare_digest(esperado, enviado)
+
+
+def _limpiar_productos(crudo) -> list:
+    """Lista de nombres sin vacíos ni duplicados, o lanza ValueError."""
+    if not isinstance(crudo, list):
+        raise ValueError("'productos' debe ser una lista")
+    vistos, limpios = set(), []
+    for p in crudo:
+        if not isinstance(p, str):
+            raise ValueError("Cada producto debe ser un texto")
+        p = p.strip()
+        if not p or p in vistos:
+            continue
+        if len(p) > MAX_LARGO_NOMBRE:
+            raise ValueError(f"Nombre de producto demasiado largo (máx. {MAX_LARGO_NOMBRE})")
+        vistos.add(p)
+        limpios.append(p)
+    if len(limpios) > MAX_PRODUCTOS:
+        raise ValueError(f"Demasiados productos (máx. {MAX_PRODUCTOS})")
+    return limpios
 
 
 @app.route("/")
@@ -58,9 +128,17 @@ def api_buscar():
     completo (todas las leches, todas las marcas, etc.) y avisarte si lo
     que eliges existe más barato en otro sitio.
     """
-    body = request.get_json(force=True) or {}
+    if _supera_limite(request.remote_addr or "?"):
+        return jsonify({"error": "Demasiadas búsquedas seguidas; espera un minuto"}), 429
+
+    body = request.get_json(force=True, silent=True)
+    if not isinstance(body, dict):
+        return jsonify({"error": "Cuerpo de la petición no válido"}), 400
     cp = str(body.get("cp", "")).strip()
-    productos = body.get("productos", [])
+    try:
+        productos = _limpiar_productos(body.get("productos", []))
+    except ValueError as e:
+        return jsonify({"error": str(e)}), 400
     incluir_hipercor = bool(body.get("incluir_hipercor", True))
     incluir_alimerka = bool(body.get("incluir_alimerka", True))
     incluir_mercadona = bool(body.get("incluir_mercadona", True))
@@ -116,63 +194,68 @@ def api_buscar():
     # Hipercor y Mercadona necesitan navegador real (ver navegador.py), así
     # que reutilizan un solo navegador para toda la lista.
     if incluir_hipercor:
-        pendientes = _pendientes("Hipercor")
-        if pendientes:
-            try:
-                resultado = Hipercor(cp).buscar_productos_multiples(pendientes)
-                for nombre, opts in resultado.items():
-                    _registrar("Hipercor", nombre, opts)
-            except Exception as e:
-                avisos.append({"supermercado": "Hipercor", "motivo": str(e) or type(e).__name__})
+        with _CERROJOS_SUPER["Hipercor"]:
+            pendientes = _pendientes("Hipercor")
+            if pendientes:
+                try:
+                    resultado = Hipercor(cp).buscar_productos_multiples(pendientes)
+                    for nombre, opts in resultado.items():
+                        _registrar("Hipercor", nombre, opts)
+                except Exception as e:
+                    avisos.append({"supermercado": "Hipercor", "motivo": str(e) or type(e).__name__})
 
     if incluir_alimerka:
-        pendientes = _pendientes("Alimerka")
-        if pendientes:
-            alimerka = Alimerka(cp)
-            fallos = []
-            for nombre in pendientes:
-                try:
-                    _registrar("Alimerka", nombre, alimerka.buscar_productos(nombre))
-                except Exception as e:
-                    fallos.append(f"{nombre}: {e or type(e).__name__}")
-            if fallos:
-                avisos.append({"supermercado": "Alimerka", "motivo": "; ".join(fallos)})
+        with _CERROJOS_SUPER["Alimerka"]:
+            pendientes = _pendientes("Alimerka")
+            if pendientes:
+                alimerka = Alimerka(cp)
+                fallos = []
+                for nombre in pendientes:
+                    try:
+                        _registrar("Alimerka", nombre, alimerka.buscar_productos(nombre))
+                    except Exception as e:
+                        fallos.append(f"{nombre}: {e or type(e).__name__}")
+                if fallos:
+                    avisos.append({"supermercado": "Alimerka", "motivo": "; ".join(fallos)})
 
     if incluir_mercadona:
-        pendientes = _pendientes("Mercadona")
-        if pendientes:
-            try:
-                resultado = Mercadona(cp).buscar_productos_multiples(pendientes)
-                for nombre, opts in resultado.items():
-                    _registrar("Mercadona", nombre, opts)
-            except Exception as e:
-                avisos.append({"supermercado": "Mercadona", "motivo": str(e) or type(e).__name__})
+        with _CERROJOS_SUPER["Mercadona"]:
+            pendientes = _pendientes("Mercadona")
+            if pendientes:
+                try:
+                    resultado = Mercadona(cp).buscar_productos_multiples(pendientes)
+                    for nombre, opts in resultado.items():
+                        _registrar("Mercadona", nombre, opts)
+                except Exception as e:
+                    avisos.append({"supermercado": "Mercadona", "motivo": str(e) or type(e).__name__})
 
     if incluir_alcampo:
-        # Navegador real (AWS WAF) y zona de Gijón fijada por el propio
-        # conector: no usa el CP de la petición.
-        pendientes = _pendientes("Alcampo")
-        if pendientes:
-            try:
-                resultado = Alcampo().buscar_productos_multiples(pendientes)
-                for nombre, opts in resultado.items():
-                    _registrar("Alcampo", nombre, opts)
-            except Exception as e:
-                avisos.append({"supermercado": "Alcampo", "motivo": str(e) or type(e).__name__})
+        with _CERROJOS_SUPER["Alcampo"]:
+            # Navegador real (AWS WAF) y zona de Gijón fijada por el propio
+            # conector: no usa el CP de la petición.
+            pendientes = _pendientes("Alcampo")
+            if pendientes:
+                try:
+                    resultado = Alcampo().buscar_productos_multiples(pendientes)
+                    for nombre, opts in resultado.items():
+                        _registrar("Alcampo", nombre, opts)
+                except Exception as e:
+                    avisos.append({"supermercado": "Alcampo", "motivo": str(e) or type(e).__name__})
 
     if incluir_masymas:
-        # Tienda online de Asturias (requests normal, como Alimerka).
-        pendientes = _pendientes("Más y Más")
-        if pendientes:
-            masymas = MasYMas()
-            fallos = []
-            for nombre in pendientes:
-                try:
-                    _registrar("Más y Más", nombre, masymas.buscar_productos(nombre))
-                except Exception as e:
-                    fallos.append(f"{nombre}: {e or type(e).__name__}")
-            if fallos:
-                avisos.append({"supermercado": "Más y Más", "motivo": "; ".join(fallos)})
+        with _CERROJOS_SUPER["Más y Más"]:
+            # Tienda online de Asturias (requests normal, como Alimerka).
+            pendientes = _pendientes("Más y Más")
+            if pendientes:
+                masymas = MasYMas()
+                fallos = []
+                for nombre in pendientes:
+                    try:
+                        _registrar("Más y Más", nombre, masymas.buscar_productos(nombre))
+                    except Exception as e:
+                        fallos.append(f"{nombre}: {e or type(e).__name__}")
+                if fallos:
+                    avisos.append({"supermercado": "Más y Más", "motivo": "; ".join(fallos)})
 
     resultados = []
     for nombre in productos:
@@ -209,8 +292,22 @@ def api_buscar():
 
 @app.route("/api/cache", methods=["DELETE"])
 def api_limpiar_cache():
-    """Tirar los precios guardados para volver a mirarlos todos en vivo."""
+    """
+    Tirar los precios guardados para volver a mirarlos todos en vivo.
+
+    Solo desde este mismo ordenador, o desde la red con la cabecera X-Token
+    si se definió BUSCAPRECIOS_TOKEN: vaciar la caché obliga a repetir todos
+    los scrapings, así que no debe poder hacerlo cualquier dispositivo.
+    """
+    if not (_es_local() or _token_valido()):
+        return jsonify({"error": "No autorizado"}), 403
     cache.limpiar()
+    return jsonify({"ok": True})
+
+
+@app.route("/api/health")
+def api_health():
+    """Para que el frontend sepa si hay backend (modo LAN) o es un sitio estático."""
     return jsonify({"ok": True})
 
 
@@ -225,7 +322,6 @@ def service_worker():
 
 
 if __name__ == "__main__":
-    import os
     import socket
 
     # Modo LAN: escucha en todas las interfaces para que otros dispositivos
@@ -234,6 +330,11 @@ if __name__ == "__main__":
     host = os.environ.get("HOST", "0.0.0.0")
     port = int(os.environ.get("PORT", "5000"))
     debug = os.environ.get("DEBUG", "0") == "1"
+    # El depurador de Werkzeug permite ejecutar código Python desde el
+    # navegador. Con host 0.0.0.0 lo tendría cualquiera de la red: nunca.
+    if debug and host not in ("127.0.0.1", "localhost", "::1"):
+        print("AVISO: DEBUG ignorado porque el servidor escucha fuera de localhost.")
+        debug = False
 
     ip_lan = "IP-de-este-ordenador"
     try:

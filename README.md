@@ -435,6 +435,5 @@ supermercados en vivo: búsqueda completa en 14 s (los tres en paralelo),
 0,4 s repitiéndola con caché, y los cálculos de gramos/paquetes
 comprobados contra precios reales.
 
-Lo único que se afirma **sin** haber podido comprobarlo es el uso de
-`xvfb-run` para el despliegue (ver "Requisito importante"); está marcado
-como tal. El resto de lo pendiente está en "Próximos pasos".
+`xvfb-run` en GitHub Actions ya está comprobado (2026-09-02, ver
+"Requisito importante"). Lo pendiente está en "Próximos pasos".

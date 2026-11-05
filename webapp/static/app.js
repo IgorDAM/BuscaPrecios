@@ -224,6 +224,129 @@ function filtrarFamiliaMayoritaria(opciones) {
   return filtradas.length ? filtradas : opciones;
 }
 
+// Escapa texto antes de meterlo en `innerHTML`. Los nombres de producto y
+// marca vienen de webs de terceros (y quedan guardados en caché/catálogos),
+// y los mensajes de error de la red: sin escapar, un nombre con "<" rompe la
+// tarjeta y, en el peor caso, ejecuta HTML/JS ajeno dentro de la PWA.
+function escapar(valor) {
+  const mapa = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
+  return String(valor === null || valor === undefined ? "" : valor).replace(/[&<>"']/g, (c) => mapa[c]);
+}
+
+// Escenarios de compra (equivalente web de `compare.py`, que solo usaba el
+// CLI): ¿cuánto costaría la lista repartida entre supermercados frente a
+// comprarla entera en uno solo? Para cada producto se toma la opción más
+// barata de cada súper entre las que parecen lo buscado (misma familia de
+// medida mayoritaria que la preselección). `costeFn(opcion, producto)` se
+// inyecta para no depender de `localStorage`.
+//
+// Es una ESTIMACIÓN: "la más barata" no siempre es el producto exacto que
+// quieres (ver CLAUDE.md, "Precisión del matching"). La interfaz lo avisa.
+function calcularEscenarios(resultados, costeFn) {
+  const conOpciones = resultados.filter((r) => r.opciones.length > 0);
+  const sinResultados = resultados.filter((r) => r.opciones.length === 0).map((r) => r.producto);
+
+  // supermercado -> producto -> { opcion, coste }
+  const mejorPorSuper = {};
+  conOpciones.forEach((item) => {
+    filtrarFamiliaMayoritaria(item.opciones).forEach((o) => {
+      const coste = costeFn(o, item.producto);
+      const delSuper = mejorPorSuper[o.supermercado] || (mejorPorSuper[o.supermercado] = {});
+      if (!delSuper[item.producto] || coste < delSuper[item.producto].coste) {
+        delSuper[item.producto] = { opcion: o, coste };
+      }
+    });
+  });
+  const supers = Object.keys(mejorPorSuper);
+
+  // Repartida: cada producto, donde sale más barato.
+  const lineas = [];
+  conOpciones.forEach((item) => {
+    let mejor = null;
+    supers.forEach((s) => {
+      const c = mejorPorSuper[s][item.producto];
+      if (c && (!mejor || c.coste < mejor.coste)) mejor = { ...c, supermercado: s };
+    });
+    if (mejor) lineas.push({ producto: item.producto, supermercado: mejor.supermercado, opcion: mejor.opcion, coste: mejor.coste });
+  });
+  const repartida = {
+    total: redondear2(lineas.reduce((n, l) => n + l.coste, 0)),
+    lineas,
+    supersUsados: [...new Set(lineas.map((l) => l.supermercado))].sort(),
+  };
+
+  // Un solo súper: la lista entera allí. Los que no tienen todo van detrás.
+  const unicos = supers
+    .map((s) => {
+      const faltan = conOpciones.map((i) => i.producto).filter((p) => !mejorPorSuper[s][p]);
+      const total = Object.values(mejorPorSuper[s]).reduce((n, c) => n + c.coste, 0);
+      return { supermercado: s, total: redondear2(total), faltan };
+    })
+    .sort((a, b) => a.faltan.length - b.faltan.length || a.total - b.total);
+
+  const mejorUnico = unicos.length ? unicos[0] : null;
+  const unicoCompleto = !!mejorUnico && mejorUnico.faltan.length === 0;
+  return {
+    repartida,
+    unicos,
+    mejorUnico,
+    // Solo hay ahorro comparable si ese súper tiene toda la lista.
+    ahorro: unicoCompleto ? redondear2(Math.max(0, mejorUnico.total - repartida.total)) : null,
+    sinResultados,
+  };
+}
+
+// Agrupa lo ELEGIDO por supermercado, con subtotales: es la lista de lo que
+// hay que coger en cada tienda. `elegidos`: [{ producto, opcion, coste }].
+function agruparPorSuper(elegidos) {
+  const grupos = {};
+  elegidos.forEach((e) => {
+    const g = grupos[e.opcion.supermercado] || (grupos[e.opcion.supermercado] = { supermercado: e.opcion.supermercado, lineas: [], subtotal: 0 });
+    g.lineas.push(e);
+    g.subtotal += e.coste;
+  });
+  return Object.values(grupos)
+    .map((g) => ({ ...g, subtotal: redondear2(g.subtotal) }))
+    .sort((a, b) => a.supermercado.localeCompare(b.supermercado, "es"));
+}
+
+// Copia de seguridad: lista, presupuesto e historial viven solo en el
+// `localStorage` de cada navegador (se pierden al limpiar datos y no pasan
+// del PC al móvil). Esto valida lo que se importa: un JSON ajeno o
+// corrupto no debe poder colarse en `localStorage` ni en `innerHTML`.
+const MAX_LISTA_COPIA = 500;
+const MAX_HISTORIAL_COPIA = 5000;
+
+function validarCopiaSeguridad(crudo) {
+  const falla = (error) => ({ ok: false, error });
+  if (!crudo || typeof crudo !== "object" || Array.isArray(crudo)) return falla("El archivo no es una copia de seguridad.");
+  if (crudo.version !== 1) return falla("Versión de copia no reconocida.");
+  if (!Array.isArray(crudo.lista) || !Array.isArray(crudo.historial)) return falla("Faltan la lista o el historial.");
+  if (crudo.lista.length > MAX_LISTA_COPIA || crudo.historial.length > MAX_HISTORIAL_COPIA) return falla("La copia es demasiado grande.");
+
+  const lista = [];
+  for (const it of crudo.lista) {
+    if (!it || typeof it.nombre !== "string" || !it.nombre.trim() || it.nombre.length > 100) return falla("Hay un producto de la lista no válido.");
+    if (!Number.isFinite(it.cantidad) || it.cantidad <= 0 || it.cantidad > 100000) return falla(`Cantidad no válida en "${it.nombre.slice(0, 30)}".`);
+    if (it.unidad !== "ud" && it.unidad !== "g") return falla(`Unidad no válida en "${it.nombre.slice(0, 30)}".`);
+    lista.push({ nombre: it.nombre.trim(), cantidad: it.cantidad, unidad: it.unidad });
+  }
+
+  const historial = [];
+  for (const c of crudo.historial) {
+    const fechaOk = c && typeof c.fecha === "string" && /^\d{4}-\d{2}-\d{2}$/.test(c.fecha);
+    if (!fechaOk || !Number.isFinite(c.total) || !Number.isFinite(c.ahorro) || !Number.isInteger(c.numProductos) || c.numProductos < 0) {
+      return falla("Hay una compra del historial no válida.");
+    }
+    historial.push({ fecha: c.fecha, total: c.total, ahorro: c.ahorro, numProductos: c.numProductos });
+  }
+
+  const presupuesto = crudo.presupuesto === null || crudo.presupuesto === undefined ? null : crudo.presupuesto;
+  if (presupuesto !== null && (!Number.isFinite(presupuesto) || presupuesto <= 0)) return falla("Presupuesto no válido.");
+
+  return { ok: true, datos: { lista, presupuesto, historial } };
+}
+
 // Node.js no tiene `window`/`document`; si se ejecuta este archivo con
 // `node app.js` (require), exportamos las funciones puras para poder
 // probarlas sin necesidad de un navegador.
@@ -234,6 +357,7 @@ if (typeof module !== "undefined" && module.exports) {
     textoCompleto, encontrarAlternativaMasBarata,
     esAlPeso, pesoPaqueteEnGramos, paquetesNecesarios,
     familiaMedida, filtrarFamiliaMayoritaria, claveSuper,
+    escapar, calcularEscenarios, agruparPorSuper, validarCopiaSeguridad,
   };
 }
 
@@ -570,11 +694,14 @@ function renderLista() {
     // La cantidad es un campo escribible: poner 750 g a base de tocar "+"
     // serían quince toques.
     cantidadEl.innerHTML = `
-      <button type="button" class="btn-cantidad" data-accion="restar">−</button>
-      <input type="text" class="cantidad-valor" inputmode="numeric" value="${item.cantidad}"
-             aria-label="Cantidad de ${item.nombre}" />
-      <button type="button" class="btn-cantidad" data-accion="sumar">+</button>
+      <button type="button" class="btn-cantidad" data-accion="restar"
+              aria-label="Menos cantidad de ${escapar(item.nombre)}">−</button>
+      <input type="text" class="cantidad-valor" inputmode="numeric" value="${escapar(item.cantidad)}"
+             aria-label="Cantidad de ${escapar(item.nombre)}" />
+      <button type="button" class="btn-cantidad" data-accion="sumar"
+              aria-label="Más cantidad de ${escapar(item.nombre)}">+</button>
       <button type="button" class="btn-unidad" data-accion="unidad"
+              aria-label="Cambiar entre unidades y gramos para ${escapar(item.nombre)}"
               title="Cambiar entre unidades y gramos">${item.unidad === "g" ? "g" : "ud"}</button>
     `;
     cantidadEl.querySelector('[data-accion="restar"]').onclick = () => cambiarCantidad(idx, -1);
@@ -594,6 +721,7 @@ function renderLista() {
     const btn = document.createElement("button");
     btn.textContent = "✕";
     btn.className = "btn-quitar";
+    btn.setAttribute("aria-label", `Quitar ${item.nombre} de la lista`);
     btn.onclick = () => {
       const actual = cargarLista();
       actual.splice(idx, 1);
@@ -742,7 +870,7 @@ function renderPresupuesto() {
         const idx = historial.indexOf(c);
         return `
         <div class="historial-item">
-          <span>${c.fecha} · ${c.numProductos} productos</span>
+          <span>${escapar(c.fecha)} · ${escapar(c.numProductos)} productos</span>
           <span>
             ${euros(c.total)} (ahorro ${euros(c.ahorro)})
             <button type="button" class="btn-borrar-compra" data-idx="${idx}"
@@ -799,8 +927,8 @@ function renderProgreso() {
     .map(([nombre, info]) => {
       const icono = { buscando: "⏳", ok: "✅", vacio: "∅", error: "⚠️" }[info.estado];
       return `<div class="progreso-super ${info.estado}">
-        <span>${icono} ${nombre}</span>
-        <span class="progreso-detalle">${info.detalle}</span>
+        <span>${icono} ${escapar(nombre)}</span>
+        <span class="progreso-detalle">${escapar(info.detalle)}</span>
       </div>`;
     })
     .join("");
@@ -838,7 +966,12 @@ async function buscarEnSuper(nombre, flags, productos) {
       });
       if (!res.ok) {
         const err = await res.json().catch(() => ({}));
-        throw new Error(err.error || "error del servidor");
+        const fallo = new Error(err.error || "error del servidor");
+        // 429 = el servidor local SÍ existe y te frena (demasiadas búsquedas
+        // seguidas). Caer a "precios de la nube" sería engañoso: se avisa.
+        // (400/501 sí caen: son lo que contesta la Azure Function.)
+        if (res.status === 429) fallo.delServidor = true;
+        throw fallo;
       }
       data = await res.json();
       // Función de la nube (Alimerka en directo) que falló o vino vacía
@@ -849,6 +982,7 @@ async function buscarEnSuper(nombre, flags, productos) {
         throw new Error("función de la nube sin resultados");
       }
     } catch (errorBackend) {
+      if (errorBackend.delServidor) throw errorBackend;
       // No hay servidor Flask detrás (p.ej. desplegado como sitio
       // estático en Azure Static Web Apps, sin webapp/app.py): se usan los
       // datos que publican los crons de GitHub Actions. Primero los precios
@@ -1047,6 +1181,80 @@ function calcularTotalSeleccion() {
   return { total: redondear2(total), elegidos, sinElegir };
 }
 
+// ¿Repartir la compra o llevarla entera a un solo súper? (ver calcularEscenarios)
+function htmlEscenarios() {
+  const esc = calcularEscenarios(ultimosResultados, costeDe);
+  if (esc.unicos.length < 2) return ""; // con un solo súper no hay nada que comparar
+
+  const unico = esc.mejorUnico;
+  let veredicto;
+  if (esc.ahorro === null) {
+    veredicto = `Ningún súper tiene toda tu lista (a ${escapar(unico.supermercado)} le faltan ${unico.faltan.length}): repartir es la única forma de comprarla entera.`;
+  } else if (esc.ahorro > 0) {
+    veredicto = `Repartir te ahorra <strong>${euros(esc.ahorro)}</strong> frente a hacerlo todo en ${escapar(unico.supermercado)}.`;
+  } else {
+    veredicto = `Todo en <strong>${escapar(unico.supermercado)}</strong> sale igual de barato que repartir: te ahorras el viaje.`;
+  }
+  const otros = esc.unicos
+    .map((u) => `${escapar(u.supermercado)} ${euros(u.total)}${u.faltan.length ? ` (faltan ${u.faltan.length})` : ""}`)
+    .join(" · ");
+
+  return `
+    <div class="escenarios">
+      <h3>¿Repartir o un solo súper?</h3>
+      <div class="escenario-fila">
+        <span>Repartida <small>(${esc.repartida.supersUsados.map(escapar).join(" + ")})</small></span>
+        <span class="valor">${euros(esc.repartida.total)}</span>
+      </div>
+      <div class="escenario-fila">
+        <span>Todo en ${escapar(unico.supermercado)}</span>
+        <span class="valor">${euros(unico.total)}</span>
+      </div>
+      <p class="escenario-veredicto">${veredicto}</p>
+      <p class="escenario-detalle">Un solo súper: ${otros}.</p>
+      <p class="escenario-detalle">Estimación con la opción más barata de cada súper para cada producto: revisa que sea lo que buscas (la lista de abajo usa lo que has elegido tú).</p>
+    </div>`;
+}
+
+// Lo ELEGIDO, agrupado por tienda y con subtotales: la lista de qué coger
+// en cada súper.
+function htmlPorSuper() {
+  const selecciones = cargarSelecciones();
+  const elegidos = ultimosResultados
+    .filter((item) => selecciones[item.producto])
+    .map((item) => ({
+      producto: item.producto,
+      opcion: selecciones[item.producto],
+      coste: costeDe(selecciones[item.producto], item.producto),
+    }));
+  const grupos = agruparPorSuper(elegidos);
+  if (grupos.length === 0) return "";
+
+  const bloques = grupos
+    .map(
+      (g) => `
+      <div class="por-super-grupo">
+        <div class="por-super-cabecera">
+          <span class="opcion-super" data-super="${claveSuper(g.supermercado)}">${escapar(g.supermercado)}</span>
+          <span class="valor">${euros(g.subtotal)}</span>
+        </div>
+        <ul>
+          ${g.lineas
+            .map(
+              (l) => `<li><span>${escapar(l.opcion.marca ? l.opcion.marca + " " : "")}${escapar(l.opcion.nombre_real)}</span><span class="valor">${euros(l.coste)}</span></li>`
+            )
+            .join("")}
+        </ul>
+      </div>`
+    )
+    .join("");
+  return `
+    <details class="por-super" open>
+      <summary>Qué coger en cada súper (${grupos.length})</summary>
+      ${bloques}
+    </details>`;
+}
+
 function renderResumenSeleccion() {
   if (ultimosResultados.length === 0) {
     resumenSeccion.style.display = "none";
@@ -1064,6 +1272,8 @@ function renderResumenSeleccion() {
         ? `<div class="error">${sinElegir} producto(s) sin resultados encontrados</div>`
         : ""
     }
+    ${htmlEscenarios()}
+    ${htmlPorSuper()}
   `;
   resumenSeccion.style.display = "block";
 }
@@ -1115,7 +1325,7 @@ function crearProductoCard(item, seleccion) {
         : "No se encontró en ningún supermercado";
     header.innerHTML = `
       <div class="producto-card-info">
-        <span class="producto-nombre">${item.producto}</span>
+        <span class="producto-nombre">${escapar(item.producto)}</span>
         <span class="producto-sin-resultados">${mensaje}</span>
       </div>
     `;
@@ -1157,14 +1367,14 @@ function crearProductoCard(item, seleccion) {
           ? `${euros(seleccion.precio)} × ${linea.cantidad} = ${euros(coste)}`
           : euros(seleccion.precio);
     }
-    seleccionTexto += " · " + seleccion.supermercado;
+    seleccionTexto += " · " + escapar(seleccion.supermercado);
   }
 
   // Debajo del nombre buscado se enseña QUÉ opción concreta está elegida
   // (marca y nombre real), no solo su precio: si no, no hay forma de
   // saber qué llevas sin desplegar la tarjeta.
   const subtitulo = seleccion
-    ? `<span class="producto-elegido">✓ ${seleccion.marca ? seleccion.marca + " " : ""}${seleccion.nombre_real}</span>${
+    ? `<span class="producto-elegido">✓ ${seleccion.marca ? escapar(seleccion.marca) + " " : ""}${escapar(seleccion.nombre_real)}</span>${
         cargarAutoElegidos()[item.producto]
           ? ' <span class="producto-auto">⚠ elegida automáticamente (la más barata): revisa que sea lo que buscas</span>'
           : ""
@@ -1173,7 +1383,7 @@ function crearProductoCard(item, seleccion) {
 
   header.innerHTML = `
     <div class="producto-card-info">
-      <span class="producto-nombre">${item.producto}${
+      <span class="producto-nombre">${escapar(item.producto)}${
         linea.unidad === "g" || linea.cantidad > 1
           ? ` <span class="producto-cantidad">(${formatCantidad(linea)})</span>`
           : ""
@@ -1183,8 +1393,21 @@ function crearProductoCard(item, seleccion) {
     <span class="producto-seleccion">${seleccionTexto}</span>
     <span class="flecha">▾</span>
   `;
-  header.addEventListener("click", () => {
-    card.classList.toggle("abierta");
+  // Es un <div> clicable: sin esto no se puede abrir con teclado ni lector
+  // de pantalla.
+  header.setAttribute("role", "button");
+  header.setAttribute("tabindex", "0");
+  header.setAttribute("aria-expanded", "false");
+  const alternar = () => {
+    const abierta = card.classList.toggle("abierta");
+    header.setAttribute("aria-expanded", String(abierta));
+  };
+  header.addEventListener("click", alternar);
+  header.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      alternar();
+    }
   });
   card.appendChild(header);
 
@@ -1198,7 +1421,7 @@ function crearProductoCard(item, seleccion) {
       alerta.innerHTML = `
         <span>
           ⚠️ Podría ser el mismo producto ${euros(diferencia)} más barato en
-          <strong>${alternativa.supermercado}</strong>: "${alternativa.nombre_real}" (${euros(alternativa.precio)})
+          <strong>${escapar(alternativa.supermercado)}</strong>: "${escapar(alternativa.nombre_real)}" (${euros(alternativa.precio)})
         </span>
         <button type="button">Usar este</button>
       `;
@@ -1234,19 +1457,19 @@ function crearProductoCard(item, seleccion) {
     // El precio por kilo/litro es lo que permite comparar de verdad
     // cuando los formatos no coinciden (120 g de jamón frente a 90 g).
     const porMedida = opt.precio_unidad
-      ? `<span class="opcion-medida">${euros(opt.precio_unidad)}/${opt.unidad}</span>`
+      ? `<span class="opcion-medida">${euros(opt.precio_unidad)}/${escapar(opt.unidad)}</span>`
       : "";
     // Cuando se pide en gramos, el precio de la etiqueta no es lo que
     // pagas: se enseña el coste real y debajo, pequeño, el del paquete.
     const costeDistinto = Math.abs(coste - opt.precio) > 0.005;
 
     fila.innerHTML = `
-      <span class="opcion-super" data-super="${claveSuper(opt.supermercado)}">${opt.supermercado}</span>
+      <span class="opcion-super" data-super="${claveSuper(opt.supermercado)}">${escapar(opt.supermercado)}</span>
       <span class="opcion-nombre">
-        ${opt.marca ? `<span class="opcion-marca">${opt.marca}</span> ` : ""}${opt.nombre_real}
+        ${opt.marca ? `<span class="opcion-marca">${escapar(opt.marca)}</span> ` : ""}${escapar(opt.nombre_real)}
       </span>
       ${esMasBarata ? '<span class="badge-barato">Más barato</span>' : ""}
-      ${esMejorMedida && !esMasBarata ? `<span class="badge-medida">Mejor €/${opt.unidad}</span>` : ""}
+      ${esMejorMedida && !esMasBarata ? `<span class="badge-medida">Mejor €/${escapar(opt.unidad)}</span>` : ""}
       <span class="opcion-precios">
         <span class="opcion-precio">${euros(coste)}</span>
         ${costeDistinto ? `<span class="opcion-medida">${euros(opt.precio)}/paq.</span>` : ""}
@@ -1313,6 +1536,66 @@ compararBtn.addEventListener("click", buscarPrecios);
 
 renderLista();
 renderPresupuesto();
+
+// --- Copia de seguridad (lista, presupuesto e historial) ---
+// Todo vive en el localStorage de cada navegador: se pierde al limpiar datos
+// y no pasa del ordenador al móvil. Exportar/importar es el parche mínimo.
+const exportarBtn = document.getElementById("exportar-btn");
+const importarInput = document.getElementById("importar-input");
+const copiaEstadoEl = document.getElementById("copia-estado");
+
+exportarBtn.addEventListener("click", () => {
+  const copia = {
+    version: 1,
+    exportado: new Date().toISOString(),
+    lista: cargarLista(),
+    presupuesto: cargarPresupuesto(),
+    historial: cargarHistorial(),
+  };
+  const blob = new Blob([JSON.stringify(copia, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const enlace = document.createElement("a");
+  enlace.href = url;
+  enlace.download = `buscaprecios-copia-${copia.exportado.slice(0, 10)}.json`;
+  document.body.appendChild(enlace);
+  enlace.click();
+  enlace.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+  copiaEstadoEl.textContent = `Copia descargada (${copia.lista.length} productos, ${copia.historial.length} compras).`;
+});
+
+importarInput.addEventListener("change", async () => {
+  const archivo = importarInput.files[0];
+  if (!archivo) return;
+  try {
+    if (archivo.size > 2000000) throw new Error("El archivo es demasiado grande para ser una copia.");
+    let crudo;
+    try {
+      crudo = JSON.parse(await archivo.text());
+    } catch (e) {
+      throw new Error("El archivo no es un JSON válido.");
+    }
+    const r = validarCopiaSeguridad(crudo);
+    if (!r.ok) throw new Error(r.error);
+    const { lista, presupuesto, historial } = r.datos;
+    if (!confirm(`Esto REEMPLAZA tu lista, presupuesto e historial actuales por los de la copia (${lista.length} productos, ${historial.length} compras). ¿Continuar?`)) {
+      copiaEstadoEl.textContent = "Importación cancelada.";
+      return;
+    }
+    guardarLista(lista);
+    if (presupuesto === null) localStorage.removeItem(LS_PRESUPUESTO);
+    else guardarPresupuesto(presupuesto);
+    guardarHistorial(historial);
+    renderLista();
+    renderPresupuesto();
+    renderTodo();
+    copiaEstadoEl.textContent = `Copia importada (${lista.length} productos, ${historial.length} compras).`;
+  } catch (e) {
+    copiaEstadoEl.textContent = `No se importó: ${e.message}`;
+  } finally {
+    importarInput.value = "";
+  }
+});
 
 // --- Instalación como PWA ---
 let promptDiferido = null;

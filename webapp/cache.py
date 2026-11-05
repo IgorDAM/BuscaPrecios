@@ -18,6 +18,8 @@ para otro, así que unas horas de antigüedad son perfectamente válidas.
 from __future__ import annotations
 
 import json
+import os
+import threading
 import time
 from pathlib import Path
 from typing import List, Optional
@@ -27,6 +29,18 @@ DIRECTORIO = Path(__file__).resolve().parent / ".cache_precios"
 
 # Cuánto vale un precio guardado antes de volver a mirarlo.
 HORAS_VALIDEZ = 6
+
+# Flask atiende en hilos y varias pestañas/dispositivos pueden buscar a la
+# vez. `guardar()` lee el fichero entero, añade una entrada y lo reescribe:
+# sin cerrojo, dos hilos pisan la entrada del otro (gana el último y la
+# búsqueda del primero se pierde en silencio). Un cerrojo por fichero.
+_CERROJOS: dict = {}
+_CERROJOS_GUARDIA = threading.Lock()
+
+
+def _cerrojo(ruta: Path) -> threading.Lock:
+    with _CERROJOS_GUARDIA:
+        return _CERROJOS.setdefault(str(ruta), threading.Lock())
 
 
 def _fichero(supermercado: str, codigo_postal: str) -> Path:
@@ -56,22 +70,27 @@ def leer(supermercado: str, codigo_postal: str, termino: str) -> Optional[List[d
 
 def guardar(supermercado: str, codigo_postal: str, termino: str, opciones: List[dict]) -> None:
     """Guarda el resultado de una búsqueda. Si falla, no rompe la búsqueda."""
-    datos = _cargar(supermercado, codigo_postal)
-    datos[termino.strip().lower()] = {"hora": time.time(), "opciones": opciones}
-    try:
-        DIRECTORIO.mkdir(parents=True, exist_ok=True)
-        _fichero(supermercado, codigo_postal).write_text(
-            json.dumps(datos, ensure_ascii=False), encoding="utf-8"
-        )
-    except OSError:
-        pass  # no poder guardar la caché no debe impedir enseñar los precios
+    ruta = _fichero(supermercado, codigo_postal)
+    with _cerrojo(ruta):
+        datos = _cargar(supermercado, codigo_postal)
+        datos[termino.strip().lower()] = {"hora": time.time(), "opciones": opciones}
+        try:
+            DIRECTORIO.mkdir(parents=True, exist_ok=True)
+            # Escritura atómica: se escribe a un temporal y se renombra. Si el
+            # proceso muere a mitad, queda el fichero anterior intacto en vez
+            # de un JSON a medias.
+            temporal = ruta.with_suffix(f".{os.getpid()}.tmp")
+            temporal.write_text(json.dumps(datos, ensure_ascii=False), encoding="utf-8")
+            os.replace(temporal, ruta)
+        except OSError:
+            pass  # no poder guardar la caché no debe impedir enseñar los precios
 
 
 def limpiar() -> None:
     """Borra toda la caché (para forzar precios frescos)."""
     if not DIRECTORIO.exists():
         return
-    for f in DIRECTORIO.glob("*.json"):
+    for f in list(DIRECTORIO.glob("*.json")) + list(DIRECTORIO.glob("*.tmp")):
         try:
             f.unlink()
         except OSError:

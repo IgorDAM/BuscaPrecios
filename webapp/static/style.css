@@ -810,6 +810,99 @@ td.precio-faltante { color: var(--gris); }
   .opcion-super { padding-top: 0; }
 }
 
+/* ---------- Escenarios, "qué coger en cada súper" y copia de seguridad ---------- */
+
+/* Visible solo para lectores de pantalla (etiquetas de los campos). */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+/* El input de archivo está oculto: que el foco se vea en su botón. */
+.sr-only:focus-visible + *, .btn-archivo:focus-within { outline: 3px solid var(--verde); outline-offset: 2px; }
+
+.escenarios {
+  margin-top: 1rem;
+  padding: 0.85rem 1rem;
+  background: var(--verde-suave);
+  border-radius: var(--radio-control);
+}
+.escenarios h3 {
+  margin: 0 0 0.4rem;
+  font-family: var(--letra-rotulo);
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
+}
+.escenario-fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.25rem 0;
+}
+.escenario-fila small { color: var(--gris); }
+.escenario-veredicto { margin: 0.5rem 0 0.2rem; font-weight: 600; }
+.escenario-detalle { margin: 0.25rem 0 0; font-size: 0.85rem; color: var(--gris); }
+
+.por-super { margin-top: 1rem; }
+.por-super summary { cursor: pointer; font-weight: 700; padding: 0.3rem 0; }
+.por-super-grupo { margin-top: 0.6rem; border: 1px solid var(--borde); border-radius: var(--radio-control); overflow: hidden; }
+.por-super-cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.5rem 0.8rem;
+  background: var(--hover);
+}
+.por-super-grupo ul { list-style: none; margin: 0; padding: 0; }
+.por-super-grupo li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.4rem 0.8rem;
+  border-top: 1px solid var(--borde);
+  font-size: 0.92rem;
+}
+
+/* Es un <label>: los estilos de botón cuelgan del selector `button`, así que
+   se replican aquí para que se vea igual que "Descargar copia". */
+.btn-archivo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  border-radius: var(--radio-control);
+  font-weight: 600;
+  font-size: inherit;
+  color: var(--verde);
+  margin: 0;
+  line-height: inherit;
+  padding: 0.7rem 1.05rem;
+}
+
+/* En el móvil el total es lo que más se consulta: se queda pegado abajo
+   mientras recorres las tarjetas de producto. */
+@media (max-width: 640px) {
+  .total-final {
+    position: sticky;
+    bottom: 0.5rem;
+    z-index: 5;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.28);
+  }
+}
+
+/* Objetivos táctiles de al menos 44 px en los controles de la lista. */
+.btn-cantidad, .btn-unidad, .btn-quitar { min-height: 44px; }
+.btn-cantidad, .btn-quitar { min-width: 44px; }
+.producto-card-header:focus-visible { outline: 3px solid var(--verde); outline-offset: -3px; }
+
 /* ---------- Modo oscuro (sigue el ajuste del sistema) ---------- */
 
 @media (prefers-color-scheme: dark) {
@@ -840,3 +933,5 @@ td.precio-faltante { color: var(--gris); }
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }
+
+.copia-seguridad .fila { align-items: stretch; }

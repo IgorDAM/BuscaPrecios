@@ -24,6 +24,7 @@
     <section>
       <h2>Presupuesto mensual</h2>
       <div class="fila">
+        <label for="presupuesto" class="sr-only">Presupuesto mensual en euros</label>
         <input type="text" id="presupuesto" inputmode="decimal" placeholder="Ej: 300" />
         <button class="btn-secundario" id="guardar-presupuesto-btn">Guardar</button>
       </div>
@@ -34,7 +35,8 @@
     <section>
       <h2>Tu lista de la compra</h2>
       <div class="fila">
-        <input type="text" id="nuevo-producto" placeholder="Ej: leche entera" />
+        <label for="nuevo-producto" class="sr-only">Producto que añadir a la lista</label>
+        <input type="text" id="nuevo-producto" placeholder="Ej: leche entera" maxlength="100" />
         <button class="btn-secundario" id="anadir-btn">Añadir</button>
       </div>
       <ul id="lista-productos"></ul>
@@ -66,8 +68,8 @@
       <button class="btn-primario" id="comparar-btn">Buscar precios</button>
     </section>
 
-    <div id="progreso"></div>
-    <div id="estado"></div>
+    <div id="progreso" role="status" aria-live="polite"></div>
+    <div id="estado" role="status" aria-live="polite"></div>
 
     <section id="resumen-seccion" style="display:none;">
       <h2>Resumen de tu compra</h2>
@@ -98,6 +100,21 @@
       </div>
       <div id="resultados-lista"></div>
       <div id="resultados-total"></div>
+    </section>
+
+    <section class="copia-seguridad">
+      <h2>Copia de seguridad</h2>
+      <p class="ayuda-texto">
+        Tu lista, presupuesto e historial se guardan solo en este navegador:
+        se pierden si borras los datos del sitio y no pasan al móvil.
+        Descarga una copia o impórtala en otro dispositivo.
+      </p>
+      <div class="fila">
+        <button type="button" class="btn-secundario" id="exportar-btn">Descargar copia</button>
+        <label class="btn-secundario btn-archivo" for="importar-input">Importar copia</label>
+        <input type="file" id="importar-input" accept="application/json,.json" class="sr-only" />
+      </div>
+      <p id="copia-estado" class="ayuda-texto" role="status" aria-live="polite"></p>
     </section>
   </main>
 
