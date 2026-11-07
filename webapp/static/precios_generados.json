@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-11-07T04:36:06+00:00",
+  "generado_en": "2026-11-07T12:30:40+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -4382,7 +4382,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Mantequilla con sal Hacendado",
+          "nombre_real": "Mantequilla sin sal añadida Hacendado",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
@@ -4391,7 +4391,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Mantequilla sin sal añadida Hacendado",
+          "nombre_real": "Mantequilla con sal Hacendado",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
@@ -7207,21 +7207,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Alubias cocidas ALTEZA 540g",
-          "marca": "ALTEZA",
-          "precio": 0.75,
-          "unidad": "kg",
-          "precio_unidad": 1.39,
-          "url": "https://www.supermasymasonline.com/alubias-cocidas-alteza-540g/0012501.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Garbanzo cocido ALTEZA 370ml",
           "marca": "ALTEZA",
           "precio": 0.75,
           "unidad": "L",
           "precio_unidad": 2.03,
           "url": "https://www.supermasymasonline.com/garbanzo-cocido-alteza-370ml/0013209.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Alubias cocidas ALTEZA 540g",
+          "marca": "ALTEZA",
+          "precio": 0.75,
+          "unidad": "kg",
+          "precio_unidad": 1.39,
+          "url": "https://www.supermasymasonline.com/alubias-cocidas-alteza-540g/0012501.html"
         },
         {
           "supermercado": "Más y Más",
@@ -7324,21 +7324,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Macarrón ALTEZA 500g",
-          "marca": "ALTEZA",
-          "precio": 0.85,
-          "unidad": "kg",
-          "precio_unidad": 1.7,
-          "url": "https://www.supermasymasonline.com/macarron-alteza-500g/0019209.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Tallarín ALTEZA 500g",
           "marca": "ALTEZA",
           "precio": 0.85,
           "unidad": "kg",
           "precio_unidad": 1.7,
           "url": "https://www.supermasymasonline.com/tallarin-alteza-500g/0019317.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Macarrón ALTEZA 500g",
+          "marca": "ALTEZA",
+          "precio": 0.85,
+          "unidad": "kg",
+          "precio_unidad": 1.7,
+          "url": "https://www.supermasymasonline.com/macarron-alteza-500g/0019209.html"
         },
         {
           "supermercado": "Más y Más",
@@ -7585,6 +7585,15 @@
         },
         {
           "supermercado": "Más y Más",
+          "nombre_real": "Macarrón ALTEZA 1kg",
+          "marca": "ALTEZA",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 1.2,
+          "url": "https://www.supermasymasonline.com/macarron-alteza-1kg/0019232.html"
+        },
+        {
+          "supermercado": "Más y Más",
           "nombre_real": "Maravilla GALLO 450g",
           "marca": "GALLO",
           "precio": 1.2,
@@ -7600,15 +7609,6 @@
           "unidad": "kg",
           "precio_unidad": 2.67,
           "url": "https://www.supermasymasonline.com/estrellas-gallo-450g/0019113.html"
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Macarrón ALTEZA 1kg",
-          "marca": "ALTEZA",
-          "precio": 1.2,
-          "unidad": "kg",
-          "precio_unidad": 1.2,
-          "url": "https://www.supermasymasonline.com/macarron-alteza-1kg/0019232.html"
         },
         {
           "supermercado": "Más y Más",
@@ -8206,21 +8206,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Yakisoba pollo GALLINA BLANCA vaso 93g",
-          "marca": "GALLINA BLANCA",
-          "precio": 1.99,
-          "unidad": "kg",
-          "precio_unidad": 21.4,
-          "url": "https://www.supermasymasonline.com/yakisoba-pollo-gallina-blanca-vaso-93g/0019871.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Ramen de pollo con champiñones MAGGI 90g",
           "marca": "MAGGI",
           "precio": 1.99,
           "unidad": "kg",
           "precio_unidad": 22.11,
           "url": "https://www.supermasymasonline.com/ramen-de-pollo-con-champi%C3%B1ones-maggi-90g/0018919.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Yakisoba pollo GALLINA BLANCA vaso 93g",
+          "marca": "GALLINA BLANCA",
+          "precio": 1.99,
+          "unidad": "kg",
+          "precio_unidad": 21.4,
+          "url": "https://www.supermasymasonline.com/yakisoba-pollo-gallina-blanca-vaso-93g/0019871.html"
         },
         {
           "supermercado": "Más y Más",
@@ -8710,21 +8710,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Canelones de atún con pasta fresca LA COCINERA 500g",
-          "marca": "LA COCINERA",
-          "precio": 3.99,
-          "unidad": "kg",
-          "precio_unidad": 7.98,
-          "url": "https://www.supermasymasonline.com/canelones-de-atun-con-pasta-fresca-la-cocinera-500g/0045843.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Canelones de carne con pasta fresca LA COCINERA 500g",
           "marca": "LA COCINERA",
           "precio": 3.99,
           "unidad": "kg",
           "precio_unidad": 7.98,
           "url": "https://www.supermasymasonline.com/canelones-de-carne-con-pasta-fresca-la-cocinera-500g/0045842.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Canelones de atún con pasta fresca LA COCINERA 500g",
+          "marca": "LA COCINERA",
+          "precio": 3.99,
+          "unidad": "kg",
+          "precio_unidad": 7.98,
+          "url": "https://www.supermasymasonline.com/canelones-de-atun-con-pasta-fresca-la-cocinera-500g/0045843.html"
         },
         {
           "supermercado": "Más y Más",
@@ -8967,7 +8967,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Macarrón fino Hacendado",
+          "nombre_real": "Macarrón Hacendado",
           "marca": "",
           "precio": 0.85,
           "unidad": "kg",
@@ -8976,7 +8976,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Macarrón Hacendado",
+          "nombre_real": "Macarrón fino Hacendado",
           "marca": "",
           "precio": 0.85,
           "unidad": "kg",
@@ -11437,21 +11437,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Alubias cocidas ALTEZA 540g",
-          "marca": "ALTEZA",
-          "precio": 0.75,
-          "unidad": "kg",
-          "precio_unidad": 1.39,
-          "url": "https://www.supermasymasonline.com/alubias-cocidas-alteza-540g/0012501.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Garbanzo cocido ALTEZA 370ml",
           "marca": "ALTEZA",
           "precio": 0.75,
           "unidad": "L",
           "precio_unidad": 2.03,
           "url": "https://www.supermasymasonline.com/garbanzo-cocido-alteza-370ml/0013209.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Alubias cocidas ALTEZA 540g",
+          "marca": "ALTEZA",
+          "precio": 0.75,
+          "unidad": "kg",
+          "precio_unidad": 1.39,
+          "url": "https://www.supermasymasonline.com/alubias-cocidas-alteza-540g/0012501.html"
         },
         {
           "supermercado": "Mercadona",
@@ -13086,7 +13086,7 @@
           "marca": "",
           "precio": 58.0,
           "unidad": "kg",
-          "precio_unidad": 8.53,
+          "precio_unidad": 9.06,
           "url": ""
         },
         {
@@ -14001,15 +14001,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018411000443-passion-meat-filetes-de-1-a-de-ternera-blanca-peso-aproximado-bandeja-350-g/"
         },
         {
-          "supermercado": "Más y Más",
-          "nombre_real": "Filete de primera Ternera Asturiana kg",
-          "marca": "ASTURIANA",
-          "precio": 17.5,
-          "unidad": "kg",
-          "precio_unidad": 17.5,
-          "url": "https://www.supermasymasonline.com/filete-de-primera-ternera-asturiana-kg/0039525.html"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "FILETE 1ª DE TERNERA ASTURIANA EL KILO",
           "marca": "XATA ROXA",
@@ -14017,6 +14008,15 @@
           "unidad": "kg",
           "precio_unidad": 19.95,
           "url": "https://www.alimerkaonline.es/10014390.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Filete de primera Ternera Asturiana kg",
+          "marca": "ASTURIANA",
+          "precio": 19.99,
+          "unidad": "kg",
+          "precio_unidad": 19.99,
+          "url": "https://www.supermasymasonline.com/filete-de-primera-ternera-asturiana-kg/0039525.html"
         },
         {
           "supermercado": "Más y Más",
@@ -14777,21 +14777,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Chorizo Picante REVILLA 65g",
-          "marca": "REVILLA",
-          "precio": 1.0,
-          "unidad": "kg",
-          "precio_unidad": 15.38,
-          "url": "https://www.supermasymasonline.com/chorizo-picante-revilla-65g/0034720.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Chorizo tradicion REVILLA 65g",
           "marca": "REVILLA",
           "precio": 1.0,
           "unidad": "kg",
           "precio_unidad": 15.38,
           "url": "https://www.supermasymasonline.com/chorizo-tradicion-revilla-65g/0034617.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Chorizo Picante REVILLA 65g",
+          "marca": "REVILLA",
+          "precio": 1.0,
+          "unidad": "kg",
+          "precio_unidad": 15.38,
+          "url": "https://www.supermasymasonline.com/chorizo-picante-revilla-65g/0034720.html"
         },
         {
           "supermercado": "Más y Más",
@@ -20957,21 +20957,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Manzana PINK LADY kg",
-          "marca": "PINK LADY",
-          "precio": 3.75,
-          "unidad": "kg",
-          "precio_unidad": 3.75,
-          "url": "https://www.supermasymasonline.com/manzana-pink-lady-kg/0047217.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Manzana GOLDEN BIO.bja.",
           "marca": "GOLDEN",
           "precio": 3.95,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.supermasymasonline.com/manzana-golden-bio.bja./0049605.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Manzana PINK LADY kg",
+          "marca": "PINK LADY",
+          "precio": 3.95,
+          "unidad": "kg",
+          "precio_unidad": 3.95,
+          "url": "https://www.supermasymasonline.com/manzana-pink-lady-kg/0047217.html"
         },
         {
           "supermercado": "Más y Más",
@@ -21180,9 +21180,9 @@
           "supermercado": "Más y Más",
           "nombre_real": "Plátano de Canarias kg",
           "marca": "",
-          "precio": 2.99,
+          "precio": 3.15,
           "unidad": "kg",
-          "precio_unidad": 2.99,
+          "precio_unidad": 3.15,
           "url": "https://www.supermasymasonline.com/platano-de-canarias-kg/0047402.html"
         },
         {
@@ -21308,6 +21308,15 @@
           "url": "https://www.alimerkaonline.es/500010.html"
         },
         {
+          "supermercado": "Más y Más",
+          "nombre_real": "Naranja malla 2kg",
+          "marca": "",
+          "precio": 3.65,
+          "unidad": "kg",
+          "precio_unidad": 1.82,
+          "url": "https://www.supermasymasonline.com/naranja-malla-2kg/0047317.html"
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "naranja de mesa selección al peso (peso aproximado de la unidad 280 g) - El Corte Ingles",
           "marca": "el corte ingles",
@@ -21342,15 +21351,6 @@
           "unidad": "kg",
           "precio_unidad": 16.96,
           "url": "https://www.hipercor.es/supermercado/B001018101800128-torres-naranja-de-mesa-seleccion-al-peso-peso-aproximado-de-la-unidad-280-g/"
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Naranja malla 2kg",
-          "marca": "",
-          "precio": 4.95,
-          "unidad": "kg",
-          "precio_unidad": 2.48,
-          "url": "https://www.supermasymasonline.com/naranja-malla-2kg/0047317.html"
         },
         {
           "supermercado": "Mercadona",
@@ -28524,15 +28524,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Cerveza especial Estrella Galicia",
-          "marca": "",
-          "precio": 0.79,
-          "unidad": "L",
-          "precio_unidad": 2.39,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Cerveza Heineken",
           "marca": "",
           "precio": 0.79,
@@ -28836,6 +28827,15 @@
           "unidad": "L",
           "precio_unidad": 2.73,
           "url": "https://www.hipercor.es/supermercado/B001018600300034-estrella-galicia-cerveza-rubia-especial-lata-33-cl/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Cerveza especial Estrella Galicia",
+          "marca": "",
+          "precio": 0.9,
+          "unidad": "L",
+          "precio_unidad": 2.73,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -32536,7 +32536,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Activador Blanqueante ropa blanca Oxi Active Bosque Verde en polvo",
+          "nombre_real": "Activador Quitamanchas ropa de color Oxi Active Bosque Verde en polvo",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
@@ -32545,7 +32545,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Activador Quitamanchas ropa de color Oxi Active Bosque Verde en polvo",
+          "nombre_real": "Activador Blanqueante ropa blanca Oxi Active Bosque Verde en polvo",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
@@ -32982,21 +32982,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Suavizante concentrado spring rose DISICLIN 80lavados",
-          "marca": "DISICLIN",
-          "precio": 2.49,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.supermasymasonline.com/suavizante-concentrado-spring-rose-disiclin-80lavados/0068797.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Suavizante concentrado oceanic DISICLIN 80 lavados",
           "marca": "DISICLIN",
           "precio": 2.49,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.supermasymasonline.com/suavizante-concentrado-oceanic-disiclin-80-lavados/0068796.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Suavizante concentrado spring rose DISICLIN 80lavados",
+          "marca": "DISICLIN",
+          "precio": 2.49,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.supermasymasonline.com/suavizante-concentrado-spring-rose-disiclin-80lavados/0068797.html"
         },
         {
           "supermercado": "Alimerka",
@@ -35131,7 +35131,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño oliva Deliplus piel seca",
+          "nombre_real": "Gel de baño vainilla y miel Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -35140,7 +35140,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño vainilla y miel Deliplus piel normal",
+          "nombre_real": "Gel de baño oliva Deliplus piel seca",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -37157,21 +37157,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Canelones de atún con pasta fresca LA COCINERA 500g",
-          "marca": "LA COCINERA",
-          "precio": 3.99,
-          "unidad": "kg",
-          "precio_unidad": 7.98,
-          "url": "https://www.supermasymasonline.com/canelones-de-atun-con-pasta-fresca-la-cocinera-500g/0045843.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Canelones de carne con pasta fresca LA COCINERA 500g",
           "marca": "LA COCINERA",
           "precio": 3.99,
           "unidad": "kg",
           "precio_unidad": 7.98,
           "url": "https://www.supermasymasonline.com/canelones-de-carne-con-pasta-fresca-la-cocinera-500g/0045842.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Canelones de atún con pasta fresca LA COCINERA 500g",
+          "marca": "LA COCINERA",
+          "precio": 3.99,
+          "unidad": "kg",
+          "precio_unidad": 7.98,
+          "url": "https://www.supermasymasonline.com/canelones-de-atun-con-pasta-fresca-la-cocinera-500g/0045843.html"
         },
         {
           "supermercado": "Más y Más",
