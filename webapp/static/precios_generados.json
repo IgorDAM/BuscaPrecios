@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-11-09T04:38:32+00:00",
+  "generado_en": "2026-11-09T15:12:45+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -4382,7 +4382,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Mantequilla sin sal añadida Hacendado",
+          "nombre_real": "Mantequilla con sal Hacendado",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
@@ -4391,7 +4391,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Mantequilla con sal Hacendado",
+          "nombre_real": "Mantequilla sin sal añadida Hacendado",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
@@ -8116,21 +8116,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Quinoa SOS Vidasania 250g",
-          "marca": "SOS",
-          "precio": 1.95,
-          "unidad": "kg",
-          "precio_unidad": 7.8,
-          "url": "https://www.supermasymasonline.com/quinoa-sos-vidasania-250g/0013841.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Chía SOS Vidasania 200g",
           "marca": "SOS",
           "precio": 1.95,
           "unidad": "kg",
           "precio_unidad": 9.75,
           "url": "https://www.supermasymasonline.com/chia-sos-vidasania-200g/0013605.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Quinoa SOS Vidasania 250g",
+          "marca": "SOS",
+          "precio": 1.95,
+          "unidad": "kg",
+          "precio_unidad": 7.8,
+          "url": "https://www.supermasymasonline.com/quinoa-sos-vidasania-250g/0013841.html"
         },
         {
           "supermercado": "Más y Más",
@@ -9962,15 +9962,6 @@
           "url": "https://www.supermasymasonline.com/aceite-de-oliva-virgen-extra-carbonell-450ml/0001275.html"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Aceite de oliva virgen extra Hacendado",
-          "marca": "",
-          "precio": 4.1,
-          "unidad": "L",
-          "precio_unidad": 4.1,
-          "url": ""
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA ODA Nº5 50 CL.",
           "marca": "HOJIBLANCA",
@@ -9987,6 +9978,15 @@
           "unidad": "L",
           "precio_unidad": 8.5,
           "url": "https://www.supermasymasonline.com/aceite-de-oliva-virgen-extra-hojiblanca-50cl/0001254.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Aceite de oliva virgen extra Hacendado",
+          "marca": "",
+          "precio": 4.35,
+          "unidad": "L",
+          "precio_unidad": 4.35,
+          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -10151,15 +10151,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018045101971-el-corte-ingles-selection-aceite-de-oliva-virgen-extra-almazaras-de-la-subbetica-variedad-hojiblanca-botella-500-ml/"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Aceite de oliva virgen extra Hacendado",
-          "marca": "",
-          "precio": 11.25,
-          "unidad": "L",
-          "precio_unidad": 3.75,
-          "url": ""
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "ACEITE DE OLIVA VIRGEN EXTRA 3 LITROS",
           "marca": "LA MASÍA",
@@ -10176,6 +10167,15 @@
           "unidad": "L",
           "precio_unidad": 23.58,
           "url": "https://www.hipercor.es/supermercado/B001018045200302-marques-de-grinon-aceite-de-oliva-virgen-extra-picual-botella-500-ml/"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Aceite de oliva virgen extra Hacendado",
+          "marca": "",
+          "precio": 12.15,
+          "unidad": "L",
+          "precio_unidad": 4.05,
+          "url": ""
         },
         {
           "supermercado": "Hipercor",
@@ -13293,15 +13293,6 @@
           "url": "https://www.supermasymasonline.com/jamon-cocido-extrafino-92%25-carne-casa-tarradellas-100g/0033841.html"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Jamón cocido extrafino Hacendado lonchas",
-          "marca": "",
-          "precio": 2.4,
-          "unidad": "kg",
-          "precio_unidad": 16.0,
-          "url": ""
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "JAMÓN COCIDO EXTRA 92% CARNE 130 G.",
           "marca": "ARGAL",
@@ -13318,6 +13309,15 @@
           "unidad": "kg",
           "precio_unidad": 14.65,
           "url": "https://www.supermasymasonline.com/jamon-cocido-extra-finissimas-campofrio-170g/0036036.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Jamón cocido extrafino Hacendado lonchas",
+          "marca": "",
+          "precio": 2.5,
+          "unidad": "kg",
+          "precio_unidad": 16.67,
+          "url": ""
         },
         {
           "supermercado": "Más y Más",
@@ -14178,6 +14178,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Salchichas cocidas cocktail Hacendado de cerdo",
+          "marca": "",
+          "precio": 1.7,
+          "unidad": "kg",
+          "precio_unidad": 8.5,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Salchichas cocidas estilo Frankfurt Hacendado de pollo y cerdo sabor ahumado",
           "marca": "",
           "precio": 1.8,
@@ -14264,15 +14273,6 @@
           "precio": 1.9,
           "unidad": "kg",
           "precio_unidad": 4.75,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Salchichas cocidas cocktail Hacendado de cerdo",
-          "marca": "",
-          "precio": 1.9,
-          "unidad": "kg",
-          "precio_unidad": 9.5,
           "url": ""
         },
         {
@@ -16042,20 +16042,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Chipirones enharinados Hacendado ultracongelado",
-          "marca": "",
-          "precio": 4.95,
-          "unidad": "kg",
-          "precio_unidad": 15.23,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Tiras de potón del Pacífico Hacendado congeladas",
           "marca": "",
           "precio": 4.95,
           "unidad": "kg",
           "precio_unidad": 12.38,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Chipirones enharinados Hacendado ultracongelado",
+          "marca": "",
+          "precio": 4.95,
+          "unidad": "kg",
+          "precio_unidad": 15.23,
           "url": ""
         },
         {
@@ -16105,15 +16105,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Anillas de pota a la romana Hacendado ultracongeladas",
-          "marca": "",
-          "precio": 5.25,
-          "unidad": "kg",
-          "precio_unidad": 10.5,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pescadilla de merluza sin cabeza Hacendado ultracongelada",
           "marca": "",
           "precio": 5.25,
@@ -16123,11 +16114,11 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Filetes de merluza del Cabo sin piel Hacendado ultracongelados",
+          "nombre_real": "Anillas de pota a la romana Hacendado ultracongeladas",
           "marca": "",
-          "precio": 5.3,
+          "precio": 5.25,
           "unidad": "kg",
-          "precio_unidad": 8.83,
+          "precio_unidad": 10.5,
           "url": ""
         },
         {
@@ -16146,6 +16137,15 @@
           "precio": 5.5,
           "unidad": "kg",
           "precio_unidad": 11.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Filetes de merluza del Cabo sin piel Hacendado ultracongelados",
+          "marca": "",
+          "precio": 5.6,
+          "unidad": "kg",
+          "precio_unidad": 9.33,
           "url": ""
         },
         {
@@ -32964,21 +32964,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Suavizante concentrado spring rose DISICLIN 80lavados",
-          "marca": "DISICLIN",
-          "precio": 2.49,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.supermasymasonline.com/suavizante-concentrado-spring-rose-disiclin-80lavados/0068797.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Suavizante concentrado oceanic DISICLIN 80 lavados",
           "marca": "DISICLIN",
           "precio": 2.49,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.supermasymasonline.com/suavizante-concentrado-oceanic-disiclin-80-lavados/0068796.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Suavizante concentrado spring rose DISICLIN 80lavados",
+          "marca": "DISICLIN",
+          "precio": 2.49,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.supermasymasonline.com/suavizante-concentrado-spring-rose-disiclin-80lavados/0068797.html"
         },
         {
           "supermercado": "Alimerka",
@@ -35158,7 +35158,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño marino y cedro Deliplus piel normal",
+          "nombre_real": "Gel de baño ambar y vetiver Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -35167,7 +35167,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño ambar y vetiver Deliplus piel normal",
+          "nombre_real": "Gel de baño marino y cedro Deliplus piel normal",
           "marca": "",
           "precio": 1.6,
           "unidad": "L",
@@ -36779,7 +36779,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Herbal Deliplus",
+          "nombre_real": "Dentífrico 3 action Deliplus",
           "marca": "",
           "precio": 1.05,
           "unidad": "L",
@@ -36788,7 +36788,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico 3 action Deliplus",
+          "nombre_real": "Dentífrico Herbal Deliplus",
           "marca": "",
           "precio": 1.05,
           "unidad": "L",
@@ -38545,6 +38545,15 @@
           "unidad": "L",
           "precio_unidad": 29.93,
           "url": "https://www.supermasymasonline.com/desodorante-hombre-bergamot-axe-collection-150ml/0077447.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "DESODORANTE ZONA BAJA PERA Y MADERA 100 ML.",
+          "marca": "AXE",
+          "precio": 5.35,
+          "unidad": "L",
+          "precio_unidad": 53.5,
+          "url": "https://www.alimerkaonline.es/10031076.html"
         },
         {
           "supermercado": "Hipercor",
