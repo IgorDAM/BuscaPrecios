@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-11-09T15:12:45+00:00",
+  "generado_en": "2026-11-10T01:16:55+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -3672,9 +3672,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "queso rallado especial pasta bolsa 50 g - Tgt",
           "marca": "tgt",
-          "precio": 1.35,
+          "precio": 1.45,
           "unidad": "kg",
-          "precio_unidad": 27.0,
+          "precio_unidad": 29.0,
           "url": "https://www.hipercor.es/supermercado/B001018395400197-tgt-queso-rallado-especial-pasta-bolsa-50-g/"
         },
         {
@@ -3897,18 +3897,18 @@
           "supermercado": "Hipercor",
           "nombre_real": "queso rallado 3 quesos especial para fundir bolsa 120 g mozzarella, maasdam y cheddar - El Caserio",
           "marca": "el caserio",
-          "precio": 3.15,
+          "precio": 3.25,
           "unidad": "kg",
-          "precio_unidad": 26.25,
+          "precio_unidad": 27.08,
           "url": "https://www.hipercor.es/supermercado/B001018395400064-el-caserio-queso-rallado-3-quesos-especial-para-fundir-bolsa-120-g-mozzarella-maasdam-y-cheddar/"
         },
         {
           "supermercado": "Hipercor",
           "nombre_real": "queso rallado emmental 100% natural especial para gratinar bolsa 120 g - El Caserio",
           "marca": "el caserio",
-          "precio": 3.15,
+          "precio": 3.25,
           "unidad": "kg",
-          "precio_unidad": 26.25,
+          "precio_unidad": 27.08,
           "url": "https://www.hipercor.es/supermercado/B001018395400478-el-caserio-queso-rallado-emmental-100-natural-especial-para-gratinar-bolsa-120-g/"
         },
         {
@@ -5501,9 +5501,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "pan de molde 100 % integral sin corteza 8 cereales bolsa 450 g - Bimbo",
           "marca": "bimbo",
-          "precio": 2.65,
+          "precio": 2.69,
           "unidad": "kg",
-          "precio_unidad": 5.89,
+          "precio_unidad": 5.98,
           "url": "https://www.hipercor.es/supermercado/B001020654800414-bimbo-pan-de-molde-100--integral-sin-corteza-8-cereales-bolsa-450-g/"
         },
         {
@@ -6398,9 +6398,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "harina de trigo integral paquete 1 kg - Gallo",
           "marca": "gallo",
-          "precio": 1.9,
+          "precio": 1.89,
           "unidad": "kg",
-          "precio_unidad": 1.9,
+          "precio_unidad": 1.89,
           "url": "https://www.hipercor.es/supermercado/B001018037901446-gallo-harina-de-trigo-integral-paquete-1-kg/"
         },
         {
@@ -6425,9 +6425,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "harina de trigo espelta integral paquete 1 kg - Gallo",
           "marca": "gallo",
-          "precio": 2.65,
+          "precio": 2.45,
           "unidad": "kg",
-          "precio_unidad": 2.65,
+          "precio_unidad": 2.45,
           "url": "https://www.hipercor.es/supermercado/B001018037902022-gallo-harina-de-trigo-espelta-integral-paquete-1-kg/"
         },
         {
@@ -6452,7 +6452,7 @@
           "supermercado": "Hipercor",
           "nombre_real": "harina de trigo formato ahorro paquete 2,5 kg - Gallo",
           "marca": "gallo",
-          "precio": 3.15,
+          "precio": 3.39,
           "unidad": "kg",
           "precio_unidad": 0.0,
           "url": "https://www.hipercor.es/supermercado/B001018037902253-gallo-harina-de-trigo-formato-ahorro-paquete-25-kg/"
@@ -6467,15 +6467,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018037902154-natur-dacsa-harina-de-trigo-sarraceno-integral-sin-gluten-bolsa-500-g/"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "harina de trigo tipo 00 paquete 1 kg - Caputo",
-          "marca": "caputo",
-          "precio": 3.89,
-          "unidad": "kg",
-          "precio_unidad": 3.89,
-          "url": "https://www.hipercor.es/supermercado/B001018037902238-caputo-harina-de-trigo-tipo-00-paquete-1-kg/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "HARINA DE TRIGO SARRACENO 500 G.",
           "marca": "ECOCESTA",
@@ -6483,6 +6474,15 @@
           "unidad": "kg",
           "precio_unidad": 7.98,
           "url": "https://www.alimerkaonline.es/10026091.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "harina de trigo tipo 00 paquete 1 kg - Caputo",
+          "marca": "caputo",
+          "precio": 4.09,
+          "unidad": "kg",
+          "precio_unidad": 4.09,
+          "url": "https://www.hipercor.es/supermercado/B001018037902238-caputo-harina-de-trigo-tipo-00-paquete-1-kg/"
         }
       ]
     },
@@ -7818,15 +7818,6 @@
           "url": "https://www.supermasymasonline.com/lenteja-pardina-el-maragato-500g/0013403.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "espaguetis pasta fina 3 minutos paquete 400 g - Gallo",
-          "marca": "gallo",
-          "precio": 1.49,
-          "unidad": "kg",
-          "precio_unidad": 3.73,
-          "url": "https://www.hipercor.es/supermercado/B001018003502194-gallo-espaguetis-pasta-fina-3-minutos-paquete-400-g/"
-        },
-        {
           "supermercado": "Más y Más",
           "nombre_real": "Ñoquis GALLO patata 400g",
           "marca": "GALLO",
@@ -7879,6 +7870,15 @@
           "unidad": "kg",
           "precio_unidad": 3.02,
           "url": "https://www.supermasymasonline.com/cous-cous-alteza-500g/0019119.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "espaguetis pasta fina 3 minutos paquete 400 g - Gallo",
+          "marca": "gallo",
+          "precio": 1.55,
+          "unidad": "kg",
+          "precio_unidad": 3.88,
+          "url": "https://www.hipercor.es/supermercado/B001018003502194-gallo-espaguetis-pasta-fina-3-minutos-paquete-400-g/"
         },
         {
           "supermercado": "Más y Más",
@@ -9230,9 +9230,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "macarrones sin gluten y sin lactosa paquete 450 g - Gallo",
           "marca": "gallo",
-          "precio": 2.59,
+          "precio": 2.49,
           "unidad": "kg",
-          "precio_unidad": 5.76,
+          "precio_unidad": 5.53,
           "url": "https://www.hipercor.es/supermercado/B001018003501477-gallo-macarrones-sin-gluten-y-sin-lactosa-paquete-450-g/"
         },
         {
@@ -13679,9 +13679,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "pechuga de pollo braseada con patatas y salsa de queso sin gluten envase 300 g neto escurrido - Carretilla",
           "marca": "carretilla",
-          "precio": 6.1,
+          "precio": 6.15,
           "unidad": "kg",
-          "precio_unidad": 21.4,
+          "precio_unidad": 21.58,
           "url": "https://www.hipercor.es/supermercado/B001018034901746-carretilla-pechuga-de-pollo-braseada-con-patatas-y-salsa-de-queso-sin-gluten-envase-300-g-neto-escurrido/"
         },
         {
@@ -15596,15 +15596,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "chorizo de campaña peso aproximado pieza 1,3 kg - Joselito",
-          "marca": "joselito",
-          "precio": 32.9,
-          "unidad": "kg",
-          "precio_unidad": 25.31,
-          "url": "https://www.hipercor.es/supermercado/B001018310100047-joselito-chorizo-de-campana-peso-aproximado-pieza-13-kg/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "chorizo de bellota 100% ibérico peso aproximado pieza 500 g - Castro Y Gonzalez",
           "marca": "castro y gonzalez",
           "precio": 32.9,
@@ -15620,6 +15611,15 @@
           "unidad": "kg",
           "precio_unidad": 39.95,
           "url": "https://www.supermasymasonline.com/chorizo-i.bellota-torreon--kg/0035055.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "chorizo de campaña peso aproximado pieza 1,3 kg - Joselito",
+          "marca": "joselito",
+          "precio": 49.0,
+          "unidad": "kg",
+          "precio_unidad": 37.69,
+          "url": "https://www.hipercor.es/supermercado/B001018310100047-joselito-chorizo-de-campana-peso-aproximado-pieza-13-kg/"
         }
       ]
     },
@@ -21893,9 +21893,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "Aguacate 2 unidades bandeja 420 g",
           "marca": "",
-          "precio": 3.95,
+          "precio": 4.99,
           "unidad": "kg",
-          "precio_unidad": 9.4,
+          "precio_unidad": 11.88,
           "url": "https://www.hipercor.es/supermercado/B001018156300016-aguacate-2-unidades-bandeja-420-g/"
         },
         {
@@ -27523,6 +27523,15 @@
           "url": "https://www.alimerkaonline.es/10015107.html"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "zumo de naranja con pulpa exprimido botella 900 ml - Innocent",
+          "marca": "innocent",
+          "precio": 3.49,
+          "unidad": "L",
+          "precio_unidad": 3.88,
+          "url": "https://www.hipercor.es/supermercado/B001018827001803-innocent-zumo-de-naranja-con-pulpa-exprimido-botella-900-ml/"
+        },
+        {
           "supermercado": "Más y Más",
           "nombre_real": "Zumo refrigerado de naranja sin pulpa DON SIMÓN 1L",
           "marca": "DON SIMÓN",
@@ -27539,15 +27548,6 @@
           "unidad": "L",
           "precio_unidad": 3.5,
           "url": "https://www.supermasymasonline.com/zumo-refrigerado-de-naranja-con-pulpa-don-simon-1l/0055704.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "zumo de naranja con pulpa exprimido botella 900 ml - Innocent",
-          "marca": "innocent",
-          "precio": 3.55,
-          "unidad": "L",
-          "precio_unidad": 3.94,
-          "url": "https://www.hipercor.es/supermercado/B001018827001803-innocent-zumo-de-naranja-con-pulpa-exprimido-botella-900-ml/"
         },
         {
           "supermercado": "Mercadona",
