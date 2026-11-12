@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-11-11T13:36:47+00:00",
+  "generado_en": "2026-11-12T00:07:22+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -2629,15 +2629,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "yogur natural desnatado 0% m.g. 0% azúcares añadidos pack 4 unidades 120 g - Danone Vitalinea",
-          "marca": "danone vitalinea",
-          "precio": 2.49,
-          "unidad": "kg",
-          "precio_unidad": 5.19,
-          "url": "https://www.hipercor.es/supermercado/B001018820400192-danone-vitalinea-yogur-natural-desnatado-0-mg-0-azucares-anadidos-pack-4-unidades-120-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "yogur natural artesano cremoso con leche de vacas de pasto envase 500 g - Pastoret",
           "marca": "pastoret",
           "precio": 2.49,
@@ -2662,6 +2653,15 @@
           "unidad": "kg",
           "precio_unidad": 5.1,
           "url": "https://www.supermasymasonline.com/yogur-natural-pastoret-500g/0030260.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur natural desnatado 0% m.g. 0% azúcares añadidos pack 4 unidades 120 g - Danone Vitalinea",
+          "marca": "danone vitalinea",
+          "precio": 2.59,
+          "unidad": "kg",
+          "precio_unidad": 5.4,
+          "url": "https://www.hipercor.es/supermercado/B001018820400192-danone-vitalinea-yogur-natural-desnatado-0-mg-0-azucares-anadidos-pack-4-unidades-120-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -3086,9 +3086,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "yogur griego natural azucarado ecológico envase 135 g - Pastoret",
           "marca": "pastoret",
-          "precio": 2.09,
+          "precio": 2.1,
           "unidad": "kg",
-          "precio_unidad": 15.48,
+          "precio_unidad": 15.56,
           "url": "https://www.hipercor.es/supermercado/B001018822400315-pastoret-yogur-griego-natural-azucarado-ecologico-envase-135-g/"
         },
         {
@@ -3122,9 +3122,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "yogur griego stracciatella ecológico pack 2 unidades 125 g - Casa Grande De Xanceda",
           "marca": "casa grande de xanceda",
-          "precio": 2.25,
+          "precio": 2.35,
           "unidad": "kg",
-          "precio_unidad": 9.0,
+          "precio_unidad": 9.4,
           "url": "https://www.hipercor.es/supermercado/B001018822100147-casa-grande-de-xanceda-yogur-griego-stracciatella-ecologico-pack-2-unidades-125-g/"
         },
         {
@@ -3264,15 +3264,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "yogur griego con cítricos ecológico envase 400 g - Casa Grande De Xanceda",
-          "marca": "casa grande de xanceda",
-          "precio": 3.25,
-          "unidad": "kg",
-          "precio_unidad": 8.13,
-          "url": "https://www.hipercor.es/supermercado/B001018822100188-casa-grande-de-xanceda-yogur-griego-con-citricos-ecologico-envase-400-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "yogur griego natural azucarado artesano cremoso con leche de vacas de pasto envase 500 g - Pastoret",
           "marca": "pastoret",
           "precio": 3.25,
@@ -3309,12 +3300,12 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "yogur griego de vaca natural ecológico probiótico tarro 420 g - El Cantero De Letur",
-          "marca": "el cantero de letur",
-          "precio": 3.39,
+          "nombre_real": "yogur griego con cítricos ecológico envase 400 g - Casa Grande De Xanceda",
+          "marca": "casa grande de xanceda",
+          "precio": 3.4,
           "unidad": "kg",
-          "precio_unidad": 8.07,
-          "url": "https://www.hipercor.es/supermercado/B001018822400604-el-cantero-de-letur-yogur-griego-de-vaca-natural-ecologico-probiotico-tarro-420-g/"
+          "precio_unidad": 8.5,
+          "url": "https://www.hipercor.es/supermercado/B001018822100188-casa-grande-de-xanceda-yogur-griego-con-citricos-ecologico-envase-400-g/"
         },
         {
           "supermercado": "Más y Más",
@@ -3324,6 +3315,15 @@
           "unidad": "kg",
           "precio_unidad": 8.31,
           "url": "https://www.supermasymasonline.com/yogur-griego-de-vaca-cantero-de-letur-420g/0030272.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur griego de vaca natural ecológico probiótico tarro 420 g - El Cantero De Letur",
+          "marca": "el cantero de letur",
+          "precio": 3.55,
+          "unidad": "kg",
+          "precio_unidad": 8.45,
+          "url": "https://www.hipercor.es/supermercado/B001018822400604-el-cantero-de-letur-yogur-griego-de-vaca-natural-ecologico-probiotico-tarro-420-g/"
         },
         {
           "supermercado": "Alimerka",
@@ -3347,9 +3347,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "yogur griego de cabra natural ecológico tarro 420 g - El Cantero De Letur",
           "marca": "el cantero de letur",
-          "precio": 4.05,
+          "precio": 4.1,
           "unidad": "kg",
-          "precio_unidad": 9.64,
+          "precio_unidad": 9.76,
           "url": "https://www.hipercor.es/supermercado/B001018822400281-el-cantero-de-letur-yogur-griego-de-cabra-natural-ecologico-tarro-420-g/"
         },
         {
@@ -3365,9 +3365,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "yogur griego natural artesano desnatado 0% m.g. 0% azúcar añadido con leche de vacas de pasto envase 900 g - Pastoret",
           "marca": "pastoret",
-          "precio": 6.25,
+          "precio": 6.19,
           "unidad": "kg",
-          "precio_unidad": 6.94,
+          "precio_unidad": 6.88,
           "url": "https://www.hipercor.es/supermercado/B001018823002359-pastoret-yogur-griego-natural-artesano-desnatado-0-mg-0-azucar-anadido-con-leche-de-vacas-de-pasto-envase-900-g/"
         }
       ]
@@ -3583,24 +3583,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "yogur sabor fresa desnatado 0% m.g. 0% azúcares añadidos pack 4 unidades 120 g - Danone Vitalinea",
-          "marca": "danone vitalinea",
-          "precio": 2.49,
-          "unidad": "kg",
-          "precio_unidad": 5.19,
-          "url": "https://www.hipercor.es/supermercado/B001018820400226-danone-vitalinea-yogur-sabor-fresa-desnatado-0-mg-0-azucares-anadidos-pack-4-unidades-120-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "yogur sabor coco desnatado 0% m.g. 0% azúcares añadidos sin gluten pack 4 unidades 120 g - Danone Vitalinea",
-          "marca": "danone vitalinea",
-          "precio": 2.49,
-          "unidad": "kg",
-          "precio_unidad": 5.19,
-          "url": "https://www.hipercor.es/supermercado/B001018820402586-danone-vitalinea-yogur-sabor-coco-desnatado-0-mg-0-azucares-anadidos-sin-gluten-pack-4-unidades-120-g/"
-        },
-        {
           "supermercado": "Más y Más",
           "nombre_real": "Bebida de yogur proteica sabor mango YOPRO 300g",
           "marca": "YOPRO",
@@ -3617,6 +3599,24 @@
           "unidad": "kg",
           "precio_unidad": 8.3,
           "url": "https://www.supermasymasonline.com/bebida-de-yogur-proteica-sabor-vainilla-cookie-yopro-300g/0030333.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur sabor fresa desnatado 0% m.g. 0% azúcares añadidos pack 4 unidades 120 g - Danone Vitalinea",
+          "marca": "danone vitalinea",
+          "precio": 2.59,
+          "unidad": "kg",
+          "precio_unidad": 5.4,
+          "url": "https://www.hipercor.es/supermercado/B001018820400226-danone-vitalinea-yogur-sabor-fresa-desnatado-0-mg-0-azucares-anadidos-pack-4-unidades-120-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur sabor coco desnatado 0% m.g. 0% azúcares añadidos sin gluten pack 4 unidades 120 g - Danone Vitalinea",
+          "marca": "danone vitalinea",
+          "precio": 2.59,
+          "unidad": "kg",
+          "precio_unidad": 5.4,
+          "url": "https://www.hipercor.es/supermercado/B001018820402586-danone-vitalinea-yogur-sabor-coco-desnatado-0-mg-0-azucares-anadidos-sin-gluten-pack-4-unidades-120-g/"
         }
       ]
     },
@@ -3944,15 +3944,6 @@
           "url": ""
         },
         {
-          "supermercado": "Más y Más",
-          "nombre_real": "Queso curado Umami CERRATO 200g",
-          "marca": "CERRATO",
-          "precio": 2.95,
-          "unidad": "kg",
-          "precio_unidad": 14.75,
-          "url": "https://www.supermasymasonline.com/queso-curado-umami-cerrato-200g/0024142.html"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "QUESO CURADO DE OVEJA 250 GRS.",
           "marca": "ALIMERKA",
@@ -3969,6 +3960,15 @@
           "unidad": "kg",
           "precio_unidad": 13.0,
           "url": "https://www.supermasymasonline.com/queso-curado-alteza-cu%C3%B1a-250g/0029136.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Queso curado Umami CERRATO 200g",
+          "marca": "CERRATO",
+          "precio": 3.75,
+          "unidad": "kg",
+          "precio_unidad": 18.75,
+          "url": "https://www.supermasymasonline.com/queso-curado-umami-cerrato-200g/0024142.html"
         },
         {
           "supermercado": "Más y Más",
@@ -8530,6 +8530,15 @@
         },
         {
           "supermercado": "Más y Más",
+          "nombre_real": "Ensalada de pasta y atún FLORETTE 215g",
+          "marca": "FLORETTE",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 13.91,
+          "url": "https://www.supermasymasonline.com/ensalada-de-pasta-y-atun-florette-215g/0049964.html"
+        },
+        {
+          "supermercado": "Más y Más",
           "nombre_real": "Garbanzo Extra granel MARAGATO kg",
           "marca": "MARAGATO",
           "precio": 2.99,
@@ -8617,15 +8626,6 @@
           "unidad": "kg",
           "precio_unidad": 11.12,
           "url": "https://www.supermasymasonline.com/ensalada-pasta-y-rucula-florette-320g/0049962.html"
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Ensalada de pasta y atún FLORETTE 215g",
-          "marca": "FLORETTE",
-          "precio": 3.56,
-          "unidad": "kg",
-          "precio_unidad": 16.56,
-          "url": "https://www.supermasymasonline.com/ensalada-de-pasta-y-atun-florette-215g/0049964.html"
         },
         {
           "supermercado": "Más y Más",
@@ -8967,7 +8967,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Macarrón Hacendado",
+          "nombre_real": "Macarrón fino Hacendado",
           "marca": "",
           "precio": 0.85,
           "unidad": "kg",
@@ -8976,7 +8976,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Macarrón fino Hacendado",
+          "nombre_real": "Macarrón Hacendado",
           "marca": "",
           "precio": 0.85,
           "unidad": "kg",
@@ -11254,9 +11254,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "Ekilibrio flan desnatado 0% m.g. sabor vainilla sin azúcares añadidos sin gluten pack 4 unidades 100 g - Reina",
           "marca": "reina",
-          "precio": 2.09,
+          "precio": 2.19,
           "unidad": "kg",
-          "precio_unidad": 20.9,
+          "precio_unidad": 21.9,
           "url": "https://www.hipercor.es/supermercado/B001018820800987-reina-ekilibrio-flan-desnatado-0-mg-sabor-vainilla-sin-azucares-anadidos-sin-gluten-pack-4-unidades-100-g/"
         },
         {
@@ -11269,15 +11269,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018823600418-yelli-frut-extra-colageno-gelatina-sabor-fresa-sin-azucar-sin-gluten-sin-lactosa-pack-4-unidades-100-g/"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "yogur natural desnatado 0% m.g. 0% azúcares añadidos pack 4 unidades 120 g - Danone Vitalinea",
-          "marca": "danone vitalinea",
-          "precio": 2.49,
-          "unidad": "kg",
-          "precio_unidad": 5.19,
-          "url": "https://www.hipercor.es/supermercado/B001018820400192-danone-vitalinea-yogur-natural-desnatado-0-mg-0-azucares-anadidos-pack-4-unidades-120-g/"
-        },
-        {
           "supermercado": "Más y Más",
           "nombre_real": "Azúcar avainillado VAHINÉ 90g",
           "marca": "VAHINÉ",
@@ -11285,6 +11276,15 @@
           "unidad": "kg",
           "precio_unidad": 27.67,
           "url": "https://www.supermasymasonline.com/azucar-avainillado-vahine-90g/0002028.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur natural desnatado 0% m.g. 0% azúcares añadidos pack 4 unidades 120 g - Danone Vitalinea",
+          "marca": "danone vitalinea",
+          "precio": 2.59,
+          "unidad": "kg",
+          "precio_unidad": 5.4,
+          "url": "https://www.hipercor.es/supermercado/B001018820400192-danone-vitalinea-yogur-natural-desnatado-0-mg-0-azucares-anadidos-pack-4-unidades-120-g/"
         },
         {
           "supermercado": "Alimerka",
@@ -11362,9 +11362,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "Total yogur griego natural colado 5% m.g. sin azúcares añadidos envase 450 g - Fage",
           "marca": "fage",
-          "precio": 3.69,
+          "precio": 3.59,
           "unidad": "kg",
-          "precio_unidad": 8.2,
+          "precio_unidad": 7.98,
           "url": "https://www.hipercor.es/supermercado/B001018823002151-fage-total-yogur-griego-natural-colado-5-mg-sin-azucares-anadidos-envase-450-g/"
         },
         {
@@ -12973,15 +12973,6 @@
           "url": "https://www.supermasymasonline.com/jamon-serrano-gran-reserva-argal-80g/0035353.html"
         },
         {
-          "supermercado": "Más y Más",
-          "nombre_real": "Jamón Serrano 24 reducido en sal Duroc loncheado MONTE NEVADO 100g",
-          "marca": "MONTE NEVADO",
-          "precio": 3.45,
-          "unidad": "kg",
-          "precio_unidad": 34.5,
-          "url": "https://www.supermasymasonline.com/jamon-serrano-24-reducido-en-sal-duroc-loncheado-monte-nevado-100g/0034381.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Jamón serrano reserva cortado a tapas",
           "marca": "",
@@ -13007,6 +12998,15 @@
           "unidad": "kg",
           "precio_unidad": 16.46,
           "url": ""
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Jamón Serrano 24 reducido en sal Duroc loncheado MONTE NEVADO 100g",
+          "marca": "MONTE NEVADO",
+          "precio": 3.95,
+          "unidad": "kg",
+          "precio_unidad": 39.5,
+          "url": "https://www.supermasymasonline.com/jamon-serrano-24-reducido-en-sal-duroc-loncheado-monte-nevado-100g/0034381.html"
         },
         {
           "supermercado": "Mercadona",
@@ -13057,9 +13057,9 @@
           "supermercado": "Más y Más",
           "nombre_real": "Jamón Serrano Gran Reserva Duroc bajo en sal JAMONES ESCALONA 100g",
           "marca": "JAMONES ESCALONA",
-          "precio": 4.95,
+          "precio": 5.69,
           "unidad": "kg",
-          "precio_unidad": 49.5,
+          "precio_unidad": 56.9,
           "url": "https://www.supermasymasonline.com/jamon-serrano-gran-reserva-duroc-bajo-en-sal-jamones-escalona-100g/0036694.html"
         },
         {
@@ -13321,6 +13321,15 @@
         },
         {
           "supermercado": "Más y Más",
+          "nombre_real": "Jamón cocido FERRARINI 100g",
+          "marca": "FERRARINI",
+          "precio": 2.25,
+          "unidad": "kg",
+          "precio_unidad": 22.5,
+          "url": "https://www.supermasymasonline.com/jamon-cocido-ferrarini-100g/0033843.html"
+        },
+        {
+          "supermercado": "Más y Más",
           "nombre_real": "Jamon cocido Extra ALTEZA 200g",
           "marca": "ALTEZA",
           "precio": 2.25,
@@ -13399,15 +13408,6 @@
           "unidad": "kg",
           "precio_unidad": 16.67,
           "url": ""
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Jamón cocido FERRARINI 100g",
-          "marca": "FERRARINI",
-          "precio": 2.69,
-          "unidad": "kg",
-          "precio_unidad": 26.9,
-          "url": "https://www.supermasymasonline.com/jamon-cocido-ferrarini-100g/0033843.html"
         },
         {
           "supermercado": "Más y Más",
@@ -13491,15 +13491,6 @@
           "url": ""
         },
         {
-          "supermercado": "Más y Más",
-          "nombre_real": "Jamón cocido BIG Storico LA QUERCIA 120g",
-          "marca": "LA QUERCIA",
-          "precio": 3.99,
-          "unidad": "kg",
-          "precio_unidad": 33.25,
-          "url": "https://www.supermasymasonline.com/jamon-cocido-big-storico-la-quercia-120g/0033842.html"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "JAMÓN COCIDO BONNATUR 250 G.",
           "marca": "ARGAL",
@@ -13507,6 +13498,15 @@
           "unidad": "kg",
           "precio_unidad": 16.2,
           "url": "https://www.alimerkaonline.es/10023237.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Jamón cocido BIG Storico LA QUERCIA 120g",
+          "marca": "LA QUERCIA",
+          "precio": 4.69,
+          "unidad": "kg",
+          "precio_unidad": 39.08,
+          "url": "https://www.supermasymasonline.com/jamon-cocido-big-storico-la-quercia-120g/0033842.html"
         },
         {
           "supermercado": "Más y Más",
@@ -13748,6 +13748,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018381500984-frial-pechuga-de-pollo-95-asada-al-horno-bajo-en-grasa-en-lonchas-envase-100-g-sin-gluten-sin-lactosa/"
         },
         {
+          "supermercado": "Más y Más",
+          "nombre_real": "Pechuga de pollo asado LA CARLOTEÑA 220g",
+          "marca": "LA CARLOTEÑA",
+          "precio": 3.65,
+          "unidad": "kg",
+          "precio_unidad": 16.59,
+          "url": "https://www.supermasymasonline.com/pechuga-de-pollo-asado-la-carlote%C3%B1a-220g/0033950.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Pechugas enteras de pollo",
           "marca": "",
@@ -13755,15 +13764,6 @@
           "unidad": "kg",
           "precio_unidad": 6.65,
           "url": ""
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Pechuga de pollo asado LA CARLOTEÑA 220g",
-          "marca": "LA CARLOTEÑA",
-          "precio": 4.25,
-          "unidad": "kg",
-          "precio_unidad": 19.32,
-          "url": "https://www.supermasymasonline.com/pechuga-de-pollo-asado-la-carlote%C3%B1a-220g/0033950.html"
         },
         {
           "supermercado": "Alimerka",
@@ -13960,15 +13960,6 @@
           "url": ""
         },
         {
-          "supermercado": "Más y Más",
-          "nombre_real": "Carne picada Mixta kg",
-          "marca": "",
-          "precio": 11.5,
-          "unidad": "kg",
-          "precio_unidad": 11.5,
-          "url": "https://www.supermasymasonline.com/carne-picada-mixta-kg/0039513.html"
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "carne picada de vacuno sin lactosa y sin huevo bolsa 1 kg - Mercaimpex",
           "marca": "mercaimpex",
@@ -13976,6 +13967,15 @@
           "unidad": "kg",
           "precio_unidad": 13.0,
           "url": "https://www.hipercor.es/supermercado/B001018912900653-mercaimpex-carne-picada-de-vacuno-sin-lactosa-y-sin-huevo-bolsa-1-kg/"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Carne picada Mixta kg",
+          "marca": "",
+          "precio": 13.5,
+          "unidad": "kg",
+          "precio_unidad": 13.5,
+          "url": "https://www.supermasymasonline.com/carne-picada-mixta-kg/0039513.html"
         }
       ]
     },
@@ -14914,10 +14914,19 @@
           "supermercado": "Más y Más",
           "nombre_real": "Chorizo Ibérico Extra ESPAÑA 45g",
           "marca": "ESPAÑA",
-          "precio": 1.25,
+          "precio": 1.59,
           "unidad": "kg",
-          "precio_unidad": 27.78,
+          "precio_unidad": 35.33,
           "url": "https://www.supermasymasonline.com/chorizo-iberico-extra-espa%C3%B1a-45g/0034636.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Chorizo Sarta BOADAS 80g",
+          "marca": "BOADAS",
+          "precio": 1.69,
+          "unidad": "kg",
+          "precio_unidad": 21.12,
+          "url": "https://www.supermasymasonline.com/chorizo-sarta-boadas-80g/0034638.html"
         },
         {
           "supermercado": "Mercadona",
@@ -14990,15 +14999,6 @@
           "unidad": "kg",
           "precio_unidad": 19.1,
           "url": "https://www.supermasymasonline.com/chorizo-alteza-taquitos-pack-2x50g/0034604.html"
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Chorizo Sarta BOADAS 80g",
-          "marca": "BOADAS",
-          "precio": 1.99,
-          "unidad": "kg",
-          "precio_unidad": 24.88,
-          "url": "https://www.supermasymasonline.com/chorizo-sarta-boadas-80g/0034638.html"
         },
         {
           "supermercado": "Más y Más",
@@ -15101,15 +15101,6 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Chorizo Extra ESPAÑA 4x50g",
-          "marca": "ESPAÑA",
-          "precio": 2.49,
-          "unidad": "kg",
-          "precio_unidad": 12.45,
-          "url": "https://www.supermasymasonline.com/chorizo-extra-espa%C3%B1a-4x50g/0034637.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Chorizo Sarta Extra Picante ALTEZA 280g",
           "marca": "ALTEZA",
           "precio": 2.49,
@@ -15181,6 +15172,15 @@
           "url": ""
         },
         {
+          "supermercado": "Más y Más",
+          "nombre_real": "Chorizo Ibérico Extra BOADAS 80g",
+          "marca": "BOADAS",
+          "precio": 2.89,
+          "unidad": "kg",
+          "precio_unidad": 36.12,
+          "url": "https://www.supermasymasonline.com/chorizo-iberico-extra-boadas-80g/0034641.html"
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "CHORIZO ASTURIANO EXTRA 250 G.",
           "marca": "MAYBE",
@@ -15188,6 +15188,15 @@
           "unidad": "kg",
           "precio_unidad": 11.8,
           "url": "https://www.alimerkaonline.es/10026339.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Chorizo Extra ESPAÑA 4x50g",
+          "marca": "ESPAÑA",
+          "precio": 2.95,
+          "unidad": "kg",
+          "precio_unidad": 14.75,
+          "url": "https://www.supermasymasonline.com/chorizo-extra-espa%C3%B1a-4x50g/0034637.html"
         },
         {
           "supermercado": "Más y Más",
@@ -15206,15 +15215,6 @@
           "unidad": "kg",
           "precio_unidad": 8.71,
           "url": ""
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Chorizo Ibérico Extra BOADAS 80g",
-          "marca": "BOADAS",
-          "precio": 3.15,
-          "unidad": "kg",
-          "precio_unidad": 39.38,
-          "url": "https://www.supermasymasonline.com/chorizo-iberico-extra-boadas-80g/0034641.html"
         },
         {
           "supermercado": "Mercadona",
@@ -15280,6 +15280,15 @@
           "url": "https://www.supermasymasonline.com/chorizo-iberico-extra-ya-cortado-espa%C3%B1a-e-hijos-150g/0034629.html"
         },
         {
+          "supermercado": "Más y Más",
+          "nombre_real": "Chorizo Extra El de Castañas COREN 90g",
+          "marca": "COREN",
+          "precio": 3.69,
+          "unidad": "kg",
+          "precio_unidad": 41.0,
+          "url": "https://www.supermasymasonline.com/chorizo-extra-el-de-casta%C3%B1as-coren-90g/0034640.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Chorizo de bellota ibérico cortado a máquina",
           "marca": "",
@@ -15314,15 +15323,6 @@
           "unidad": "kg",
           "precio_unidad": 12.0,
           "url": ""
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Chorizo Extra El de Castañas COREN 90g",
-          "marca": "COREN",
-          "precio": 4.25,
-          "unidad": "kg",
-          "precio_unidad": 47.22,
-          "url": "https://www.supermasymasonline.com/chorizo-extra-el-de-casta%C3%B1as-coren-90g/0034640.html"
         },
         {
           "supermercado": "Mercadona",
@@ -16095,6 +16095,15 @@
           "url": ""
         },
         {
+          "supermercado": "Más y Más",
+          "nombre_real": "Mejillon",
+          "marca": "",
+          "precio": 3.95,
+          "unidad": "kg",
+          "precio_unidad": 3.95,
+          "url": "https://www.supermasymasonline.com/mejillon/0066023.html"
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "FILETES DE MERLUZA SIN PIEL 400 GRS.",
           "marca": "ALIMERKA",
@@ -16275,15 +16284,6 @@
           "url": "https://www.alimerkaonline.es/10030271.html"
         },
         {
-          "supermercado": "Más y Más",
-          "nombre_real": "Mejillon",
-          "marca": "",
-          "precio": 4.95,
-          "unidad": "kg",
-          "precio_unidad": 4.95,
-          "url": "https://www.supermasymasonline.com/mejillon/0066023.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Langostino cocido y pelado Hacendado ultracongelado",
           "marca": "",
@@ -16327,15 +16327,6 @@
           "unidad": "kg",
           "precio_unidad": 5.45,
           "url": "https://www.supermasymasonline.com/mejillon-cocido-refrigerado-en-su-jugo-1kg/0066627.html"
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Berberechos bolsa 500g",
-          "marca": "",
-          "precio": 5.45,
-          "unidad": "kg",
-          "precio_unidad": 10.9,
-          "url": "https://www.supermasymasonline.com/berberechos-bolsa-500g/0066522.html"
         },
         {
           "supermercado": "Hipercor",
@@ -16591,6 +16582,15 @@
         },
         {
           "supermercado": "Más y Más",
+          "nombre_real": "Berberechos bolsa 500g",
+          "marca": "",
+          "precio": 6.95,
+          "unidad": "kg",
+          "precio_unidad": 13.9,
+          "url": "https://www.supermasymasonline.com/berberechos-bolsa-500g/0066522.html"
+        },
+        {
+          "supermercado": "Más y Más",
           "nombre_real": "Langostino crudo caja 450g",
           "marca": "",
           "precio": 6.95,
@@ -16687,6 +16687,15 @@
           "unidad": "kg",
           "precio_unidad": 19.25,
           "url": ""
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Trucha gorda asalmonada kg",
+          "marca": "",
+          "precio": 7.95,
+          "unidad": "kg",
+          "precio_unidad": 7.95,
+          "url": "https://www.supermasymasonline.com/trucha-gorda-asalmonada-kg/0066051.html"
         },
         {
           "supermercado": "Más y Más",
@@ -16789,12 +16798,12 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Trucha gorda asalmonada kg",
+          "nombre_real": "Anilla de pota kg",
           "marca": "",
           "precio": 9.95,
           "unidad": "kg",
           "precio_unidad": 9.95,
-          "url": "https://www.supermasymasonline.com/trucha-gorda-asalmonada-kg/0066051.html"
+          "url": "https://www.supermasymasonline.com/anilla-de-pota-kg/0066085.html"
         },
         {
           "supermercado": "Más y Más",
@@ -16843,30 +16852,12 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Anilla de pota kg",
-          "marca": "",
-          "precio": 11.95,
-          "unidad": "kg",
-          "precio_unidad": 11.95,
-          "url": "https://www.supermasymasonline.com/anilla-de-pota-kg/0066085.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Langostino crudo 40/60kg",
           "marca": "",
           "precio": 11.95,
           "unidad": "kg",
           "precio_unidad": 11.95,
           "url": "https://www.supermasymasonline.com/langostino-crudo-40%2F60kg/0066117.html"
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Langostino cocido fresco 30/40kg",
-          "marca": "",
-          "precio": 12.95,
-          "unidad": "kg",
-          "precio_unidad": 12.95,
-          "url": "https://www.supermasymasonline.com/langostino-cocido-fresco-30%2F40kg/0066070.html"
         },
         {
           "supermercado": "Más y Más",
@@ -16894,6 +16885,15 @@
           "unidad": "kg",
           "precio_unidad": 14.95,
           "url": "https://www.supermasymasonline.com/pez-espada-en-filetes-kg/0066076.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Langostino cocido fresco 30/40kg",
+          "marca": "",
+          "precio": 14.95,
+          "unidad": "kg",
+          "precio_unidad": 14.95,
+          "url": "https://www.supermasymasonline.com/langostino-cocido-fresco-30%2F40kg/0066070.html"
         },
         {
           "supermercado": "Más y Más",
@@ -16933,15 +16933,6 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Salmon noruego en rodajas",
-          "marca": "",
-          "precio": 17.95,
-          "unidad": "kg",
-          "precio_unidad": 17.95,
-          "url": "https://www.supermasymasonline.com/salmon-noruego-en-rodajas/0066036.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Lubina 800.9g",
           "marca": "",
           "precio": 17.95,
@@ -16957,6 +16948,15 @@
           "unidad": "kg",
           "precio_unidad": 17.95,
           "url": "https://www.supermasymasonline.com/merluza-de-pincho-de-1-a-2kg/0066100.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Salmon noruego en rodajas",
+          "marca": "",
+          "precio": 19.95,
+          "unidad": "kg",
+          "precio_unidad": 19.95,
+          "url": "https://www.supermasymasonline.com/salmon-noruego-en-rodajas/0066036.html"
         },
         {
           "supermercado": "Más y Más",
@@ -18600,15 +18600,6 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Patata cachelos IGP Galicia b. 3kg",
-          "marca": "",
-          "precio": 3.99,
-          "unidad": "kg",
-          "precio_unidad": 1.33,
-          "url": "https://www.supermasymasonline.com/patata-cachelos-igp-galicia-b.-3kg/0049013.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Patata Especial freir IGP Galicia 2,5kg",
           "marca": "",
           "precio": 4.69,
@@ -18633,6 +18624,15 @@
           "unidad": "kg",
           "precio_unidad": 0.99,
           "url": "https://www.supermasymasonline.com/patata-bolsa-5kg/0049017.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Patata cachelos IGP Galicia b. 3kg",
+          "marca": "",
+          "precio": 4.99,
+          "unidad": "kg",
+          "precio_unidad": 1.66,
+          "url": "https://www.supermasymasonline.com/patata-cachelos-igp-galicia-b.-3kg/0049013.html"
         },
         {
           "supermercado": "Mercadona",
@@ -18713,21 +18713,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Cebolla granel kg",
-          "marca": "",
-          "precio": 0.95,
-          "unidad": "kg",
-          "precio_unidad": 0.95,
-          "url": "https://www.supermasymasonline.com/cebolla-granel-kg/0049201.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Cebolla troceada congelada ARTIQ 400g",
           "marca": "ARTIQ",
           "precio": 0.95,
           "unidad": "kg",
           "precio_unidad": 2.37,
           "url": "https://www.supermasymasonline.com/cebolla-troceada-congelada-artiq-400g/0045248.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Cebolla granel kg",
+          "marca": "",
+          "precio": 1.12,
+          "unidad": "kg",
+          "precio_unidad": 1.12,
+          "url": "https://www.supermasymasonline.com/cebolla-granel-kg/0049201.html"
         },
         {
           "supermercado": "Mercadona",
@@ -18847,6 +18847,15 @@
           "url": "https://www.supermasymasonline.com/cebolla-asar-bolsa-500g/0049200.html"
         },
         {
+          "supermercado": "Más y Más",
+          "nombre_real": "Cebolla chata malla 1kg",
+          "marca": "",
+          "precio": 1.99,
+          "unidad": "kg",
+          "precio_unidad": 1.99,
+          "url": "https://www.supermasymasonline.com/cebolla-chata-malla-1kg/0049211.html"
+        },
+        {
           "supermercado": "Alimerka",
           "nombre_real": "CEBOLLA CARAMELIZADA 240 G.",
           "marca": "IBSA",
@@ -18881,15 +18890,6 @@
           "unidad": "kg",
           "precio_unidad": 2.35,
           "url": "https://www.supermasymasonline.com/cebolla-chata-granel--kg/0049205.html"
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Cebolla chata malla 1kg",
-          "marca": "",
-          "precio": 2.45,
-          "unidad": "kg",
-          "precio_unidad": 2.45,
-          "url": "https://www.supermasymasonline.com/cebolla-chata-malla-1kg/0049211.html"
         },
         {
           "supermercado": "Hipercor",
@@ -19848,6 +19848,15 @@
         },
         {
           "supermercado": "Más y Más",
+          "nombre_real": "Tomate pera kg",
+          "marca": "",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 2.99,
+          "url": "https://www.supermasymasonline.com/tomate-pera-kg/0047497.html"
+        },
+        {
+          "supermercado": "Más y Más",
           "nombre_real": "Tomate deshidratado TREVIJANO 70g",
           "marca": "TREVIJANO",
           "precio": 2.99,
@@ -19890,15 +19899,6 @@
           "unidad": "kg",
           "precio_unidad": 3.95,
           "url": "https://www.supermasymasonline.com/tomate-q-kg/0047502.html"
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Tomate pera kg",
-          "marca": "",
-          "precio": 3.95,
-          "unidad": "kg",
-          "precio_unidad": 3.95,
-          "url": "https://www.supermasymasonline.com/tomate-pera-kg/0047497.html"
         },
         {
           "supermercado": "Más y Más",
@@ -21019,15 +21019,6 @@
           "url": "https://www.supermasymasonline.com/manzana-jonagoret-kg/0047210.html"
         },
         {
-          "supermercado": "Más y Más",
-          "nombre_real": "Manzana fuji, kg",
-          "marca": "",
-          "precio": 2.25,
-          "unidad": "kg",
-          "precio_unidad": 2.25,
-          "url": "https://www.supermasymasonline.com/manzana-fuji--kg/0047204.html"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "MANZANA GOLDEN EL KILO",
           "marca": "SABROSONA",
@@ -21053,6 +21044,15 @@
           "unidad": "kg",
           "precio_unidad": 2.45,
           "url": "https://www.alimerkaonline.es/500041.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Manzana fuji, kg",
+          "marca": "",
+          "precio": 2.45,
+          "unidad": "kg",
+          "precio_unidad": 2.45,
+          "url": "https://www.supermasymasonline.com/manzana-fuji--kg/0047204.html"
         },
         {
           "supermercado": "Más y Más",
@@ -21136,6 +21136,15 @@
           "url": "https://www.supermasymasonline.com/manzana-golden-delicious-kg/0047206.html"
         },
         {
+          "supermercado": "Más y Más",
+          "nombre_real": "Manzana PINK LADY kg",
+          "marca": "PINK LADY",
+          "precio": 3.25,
+          "unidad": "kg",
+          "precio_unidad": 3.25,
+          "url": "https://www.supermasymasonline.com/manzana-pink-lady-kg/0047217.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Manzanas rojas acidulces",
           "marca": "",
@@ -21152,15 +21161,6 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.supermasymasonline.com/manzana-golden-bio.bja./0049605.html"
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Manzana PINK LADY kg",
-          "marca": "PINK LADY",
-          "precio": 3.95,
-          "unidad": "kg",
-          "precio_unidad": 3.95,
-          "url": "https://www.supermasymasonline.com/manzana-pink-lady-kg/0047217.html"
         },
         {
           "supermercado": "Más y Más",
@@ -21516,6 +21516,15 @@
         },
         {
           "supermercado": "Más y Más",
+          "nombre_real": "Naranja malla 3kg",
+          "marca": "",
+          "precio": 3.59,
+          "unidad": "kg",
+          "precio_unidad": 1.2,
+          "url": "https://www.supermasymasonline.com/naranja-malla-3kg/0047311.html"
+        },
+        {
+          "supermercado": "Más y Más",
           "nombre_real": "Naranja malla 2kg",
           "marca": "",
           "precio": 3.65,
@@ -21540,15 +21549,6 @@
           "unidad": "kg",
           "precio_unidad": 14.11,
           "url": "https://www.hipercor.es/supermercado/B001018101800128-torres-naranja-de-mesa-seleccion-al-peso-peso-aproximado-de-la-unidad-280-g/"
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Naranja malla 3kg",
-          "marca": "",
-          "precio": 4.2,
-          "unidad": "kg",
-          "precio_unidad": 1.4,
-          "url": "https://www.supermasymasonline.com/naranja-malla-3kg/0047311.html"
         },
         {
           "supermercado": "Mercadona",
@@ -21611,6 +21611,15 @@
         },
         {
           "supermercado": "Más y Más",
+          "nombre_real": "Pera limonera, kg",
+          "marca": "",
+          "precio": 1.99,
+          "unidad": "kg",
+          "precio_unidad": 1.99,
+          "url": "https://www.supermasymasonline.com/pera-limonera--kg/0047017.html"
+        },
+        {
+          "supermercado": "Más y Más",
           "nombre_real": "Pera conferencia q kg",
           "marca": "",
           "precio": 2.35,
@@ -21626,15 +21635,6 @@
           "unidad": "kg",
           "precio_unidad": 2.45,
           "url": "https://www.supermasymasonline.com/pera-roja/0047011.html"
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Pera limonera, kg",
-          "marca": "",
-          "precio": 2.45,
-          "unidad": "kg",
-          "precio_unidad": 2.45,
-          "url": "https://www.supermasymasonline.com/pera-limonera--kg/0047017.html"
         },
         {
           "supermercado": "Más y Más",
@@ -21662,15 +21662,6 @@
           "unidad": "kg",
           "precio_unidad": 1.15,
           "url": ""
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Pera ercolini, kg",
-          "marca": "",
-          "precio": 2.59,
-          "unidad": "kg",
-          "precio_unidad": 2.59,
-          "url": "https://www.supermasymasonline.com/pera-ercolini--kg/0047026.html"
         },
         {
           "supermercado": "Más y Más",
@@ -21725,6 +21716,15 @@
           "unidad": "kg",
           "precio_unidad": 25.48,
           "url": "https://www.hipercor.es/supermercado/B001018102200062-pera-blanquilla-seleccion-al-peso-peso-aproximado-de-la-unidad-155-g/"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Pera ercolini, kg",
+          "marca": "",
+          "precio": 3.95,
+          "unidad": "kg",
+          "precio_unidad": 3.95,
+          "url": "https://www.supermasymasonline.com/pera-ercolini--kg/0047026.html"
         },
         {
           "supermercado": "Hipercor",
@@ -25574,20 +25574,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula extra forte Hacendado",
-          "marca": "",
-          "precio": 3.25,
-          "unidad": "kg",
-          "precio_unidad": 25.39,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula forte Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
           "precio_unidad": 29.02,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café en cápsula extra forte Hacendado",
+          "marca": "",
+          "precio": 3.25,
+          "unidad": "kg",
+          "precio_unidad": 25.39,
           "url": ""
         },
         {
@@ -27879,6 +27879,15 @@
           "url": "https://www.hipercor.es/supermercado/B001018622300236-pepsi-refresco-de-cola-lata-33-cl/"
         },
         {
+          "supermercado": "Más y Más",
+          "nombre_real": "Refresco de cola Zero sabor vainilla COCA COLA 33cl",
+          "marca": "COCA COLA",
+          "precio": 0.79,
+          "unidad": "L",
+          "precio_unidad": 2.39,
+          "url": "https://www.supermasymasonline.com/refresco-de-cola-zero-sabor-vainilla-coca-cola-33cl/0055087.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Refresco cola Hacendado",
           "marca": "",
@@ -27940,15 +27949,6 @@
           "unidad": "L",
           "precio_unidad": 3.0,
           "url": "https://www.supermasymasonline.com/refresco-de-cola-sin-cafeina-coca-cola-330ml/0055012.html"
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Refresco de cola Zero sabor vainilla COCA COLA 33cl",
-          "marca": "COCA COLA",
-          "precio": 0.99,
-          "unidad": "L",
-          "precio_unidad": 3.0,
-          "url": "https://www.supermasymasonline.com/refresco-de-cola-zero-sabor-vainilla-coca-cola-33cl/0055087.html"
         },
         {
           "supermercado": "Hipercor",
@@ -28631,6 +28631,24 @@
           "url": "https://www.supermasymasonline.com/cerveza-estrella-galicia-33cl/0057019.html"
         },
         {
+          "supermercado": "Más y Más",
+          "nombre_real": "Cerveza tostada AMSTEL ORO 33cl",
+          "marca": "AMSTEL ORO",
+          "precio": 0.69,
+          "unidad": "L",
+          "precio_unidad": 2.09,
+          "url": "https://www.supermasymasonline.com/cerveza-tostada-amstel-oro-33cl/0057029.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Cerveza 0,0 aguila Sin Filtrar 33cl",
+          "marca": "",
+          "precio": 0.69,
+          "unidad": "L",
+          "precio_unidad": 2.09,
+          "url": "https://www.supermasymasonline.com/cerveza-0-0-aguila-sin-filtrar-33cl/0057125.html"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Cerveza Heineken",
           "marca": "",
@@ -28884,15 +28902,6 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Cerveza tostada AMSTEL ORO 33cl",
-          "marca": "AMSTEL ORO",
-          "precio": 0.85,
-          "unidad": "L",
-          "precio_unidad": 2.58,
-          "url": "https://www.supermasymasonline.com/cerveza-tostada-amstel-oro-33cl/0057029.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Cerveza tostada sin gluten 0,0 MAHOU 33cl",
           "marca": "MAHOU",
           "precio": 0.85,
@@ -28998,15 +29007,6 @@
           "unidad": "L",
           "precio_unidad": 2.7,
           "url": "https://www.supermasymasonline.com/cerveza-estrella-damm-lata-33cl/0057024.html"
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Cerveza 0,0 aguila Sin Filtrar 33cl",
-          "marca": "",
-          "precio": 0.89,
-          "unidad": "L",
-          "precio_unidad": 2.7,
-          "url": "https://www.supermasymasonline.com/cerveza-0-0-aguila-sin-filtrar-33cl/0057125.html"
         },
         {
           "supermercado": "Más y Más",
@@ -33027,6 +33027,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
+          "marca": "",
+          "precio": 1.8,
+          "unidad": "L",
+          "precio_unidad": 1.12,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Suavizante ropa Violets Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
@@ -33037,15 +33046,6 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Suavizante ropa Floral Bosque Verde concentrado",
-          "marca": "",
-          "precio": 1.8,
-          "unidad": "L",
-          "precio_unidad": 1.12,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -37301,6 +37301,15 @@
         },
         {
           "supermercado": "Más y Más",
+          "nombre_real": "Ensalada de pasta y atún FLORETTE 215g",
+          "marca": "FLORETTE",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 13.91,
+          "url": "https://www.supermasymasonline.com/ensalada-de-pasta-y-atun-florette-215g/0049964.html"
+        },
+        {
+          "supermercado": "Más y Más",
           "nombre_real": "Pasta fresca mezzelune de boletus y Trufa GAROFALO 230g",
           "marca": "GAROFALO",
           "precio": 3.25,
@@ -37325,15 +37334,6 @@
           "unidad": "kg",
           "precio_unidad": 14.13,
           "url": "https://www.supermasymasonline.com/pasta-fresca-mezzelune-de-cerdo--ternera-y-merlot-garofalo-230g/0040173.html"
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Ensalada de pasta y atún FLORETTE 215g",
-          "marca": "FLORETTE",
-          "precio": 3.56,
-          "unidad": "kg",
-          "precio_unidad": 16.56,
-          "url": "https://www.supermasymasonline.com/ensalada-de-pasta-y-atun-florette-215g/0049964.html"
         },
         {
           "supermercado": "Más y Más",
