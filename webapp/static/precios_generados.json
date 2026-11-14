@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-11-14T13:05:35+00:00",
+  "generado_en": "2026-11-14T22:06:15+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -8302,15 +8302,6 @@
           "unidad": "kg",
           "precio_unidad": 3.47,
           "url": "https://www.supermasymasonline.com/tallarines-n%C2%BA3-gallo-400g/0019304.html"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Spaghetti Armando",
-          "marca": "",
-          "precio": 1.4,
-          "unidad": "kg",
-          "precio_unidad": 2.8,
-          "url": ""
         },
         {
           "supermercado": "Más y Más",
@@ -26690,15 +26681,6 @@
       "opciones": [
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula sabor Caramel Hacendado",
-          "marca": "",
-          "precio": 2.4,
-          "unidad": "kg",
-          "precio_unidad": 48.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula sabor Biscuit Hacendado",
           "marca": "",
           "precio": 2.4,
@@ -39564,15 +39546,6 @@
           "url": ""
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Desodorante stick Deo Bambú Deliplus antimanchas",
-          "marca": "",
-          "precio": 1.9,
-          "unidad": "L",
-          "precio_unidad": 38.0,
-          "url": ""
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "DESODORANTE SENSITIVE 50 ML.",
           "marca": "BYLY",
@@ -40642,6 +40615,15 @@
           "unidad": "100 ml.",
           "precio_unidad": 3.0,
           "url": "https://www.hipercor.es/supermercado/B001055754802779-dove-men-desodorante--care-advanced-invisible-dry-antimanchas-antitranspirante-72h-spray-150-ml/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "DESODORANTE ZONA BAJA PERA Y MADERA 100 ML.",
+          "marca": "AXE",
+          "precio": 5.35,
+          "unidad": "L",
+          "precio_unidad": 53.5,
+          "url": "https://www.alimerkaonline.es/10031076.html"
         }
       ]
     },
