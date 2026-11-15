@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-11-15T04:46:53+00:00",
+  "generado_en": "2026-11-15T13:33:19+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -223,15 +223,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "leche entera más ligera que una entera 2% materia grasa sin lactosa botella 1 l - Puleva",
-          "marca": "puleva",
-          "precio": 1.33,
-          "unidad": "L",
-          "precio_unidad": 1.33,
-          "url": "https://www.hipercor.es/supermercado/B001020616400121-puleva-leche-entera-mas-ligera-que-una-entera-2-materia-grasa-sin-lactosa-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "leche entera brik 1 l - Pascual",
           "marca": "pascual",
           "precio": 1.35,
@@ -328,6 +319,15 @@
           "unidad": "L",
           "precio_unidad": 1.66,
           "url": "https://www.alimerkaonline.es/10020740.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "leche entera botella 1,5 l - President",
+          "marca": "president",
+          "precio": 1.68,
+          "unidad": "L",
+          "precio_unidad": 1.12,
+          "url": "https://www.hipercor.es/supermercado/B001020616500383-president-leche-entera-botella-15-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -4430,15 +4430,6 @@
           "url": ""
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "queso curado mezcla elaborado con leche cruda peso aproximado pieza 3,1 kg - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 13.9,
-          "unidad": "kg",
-          "precio_unidad": 4.48,
-          "url": "https://www.hipercor.es/supermercado/B001018325300350-el-corte-ingles-selection-queso-curado-mezcla-elaborado-con-leche-cruda-peso-aproximado-pieza-31-kg/"
-        },
-        {
           "supermercado": "Más y Más",
           "nombre_real": "Queso curado Umami CERRATO kg",
           "marca": "CERRATO",
@@ -4500,6 +4491,15 @@
           "unidad": "kg",
           "precio_unidad": 8.5,
           "url": "https://www.hipercor.es/supermercado/B001018322600729-vega-sotuelamos-queso-curado-de-oveja-con-trufa-elaborado-con-leche-pasteurizada-peso-aproximado-pieza-34-kg/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "queso curado de oveja con ajo negro elaborado con leche pasteurizada peso aproximado pieza 3,3 kg - Vega Sotuelamos",
+          "marca": "vega sotuelamos",
+          "precio": 29.9,
+          "unidad": "kg",
+          "precio_unidad": 9.06,
+          "url": "https://www.hipercor.es/supermercado/B001018322600927-vega-sotuelamos-queso-curado-de-oveja-con-ajo-negro-elaborado-con-leche-pasteurizada-peso-aproximado-pieza-33-kg/"
         },
         {
           "supermercado": "Hipercor",
@@ -5025,15 +5025,6 @@
           "url": "https://www.supermasymasonline.com/huevo-chocolate-alteza-pack-3x20g/0008931.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "huevos de codorniz estuche 18 unidades - Dagu",
-          "marca": "dagu",
-          "precio": 1.95,
-          "unidad": "Docena",
-          "precio_unidad": 1.3,
-          "url": "https://www.hipercor.es/supermercado/B001018840101077-dagu-huevos-de-codorniz-estuche-18-unidades/"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Huevos de gallinas camperas",
           "marca": "",
@@ -5185,6 +5176,15 @@
           "unidad": "ud",
           "precio_unidad": 0.25,
           "url": "https://www.supermasymasonline.com/huevos-%27l%27-granja-rualmar-12uds/0032208.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos camperos cocidos con cáscara categoría A clase M-L estuche 6 unidades - Corral De Monegros",
+          "marca": "corral de monegros",
+          "precio": 3.15,
+          "unidad": "Docena",
+          "precio_unidad": 6.3,
+          "url": "https://www.hipercor.es/supermercado/B001018839900265-corral-de-monegros-huevos-camperos-cocidos-con-cascara-categoria-a-clase-m-l-estuche-6-unidades/"
         },
         {
           "supermercado": "Alimerka",
@@ -7544,6 +7544,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "arroz basmati cocido aromático del Himalaya para guarnición pack 2 envases 200 g - Brillante",
+          "marca": "brillante",
+          "precio": 2.5,
+          "unidad": "kg",
+          "precio_unidad": 6.25,
+          "url": "https://www.hipercor.es/supermercado/B001018005500857-brillante-arroz-basmati-cocido-aromatico-del-himalaya-para-guarnicion-pack-2-envases-200-g/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "arroz redondo especial para paella DOP de Valencia paquete 1 kg - La Fallera",
           "marca": "la fallera",
           "precio": 2.55,
@@ -7909,21 +7918,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Tallarín ALTEZA 500g",
-          "marca": "ALTEZA",
-          "precio": 0.85,
-          "unidad": "kg",
-          "precio_unidad": 1.7,
-          "url": "https://www.supermasymasonline.com/tallarin-alteza-500g/0019317.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Macarrón ALTEZA 500g",
           "marca": "ALTEZA",
           "precio": 0.85,
           "unidad": "kg",
           "precio_unidad": 1.7,
           "url": "https://www.supermasymasonline.com/macarron-alteza-500g/0019209.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Tallarín ALTEZA 500g",
+          "marca": "ALTEZA",
+          "precio": 0.85,
+          "unidad": "kg",
+          "precio_unidad": 1.7,
+          "url": "https://www.supermasymasonline.com/tallarin-alteza-500g/0019317.html"
         },
         {
           "supermercado": "Más y Más",
@@ -8170,6 +8179,15 @@
         },
         {
           "supermercado": "Más y Más",
+          "nombre_real": "Maravilla GALLO 450g",
+          "marca": "GALLO",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 2.67,
+          "url": "https://www.supermasymasonline.com/maravilla-gallo-450g/0019105.html"
+        },
+        {
+          "supermercado": "Más y Más",
           "nombre_real": "Estrellas GALLO 450g",
           "marca": "GALLO",
           "precio": 1.2,
@@ -8185,15 +8203,6 @@
           "unidad": "kg",
           "precio_unidad": 1.2,
           "url": "https://www.supermasymasonline.com/macarron-alteza-1kg/0019232.html"
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Maravilla GALLO 450g",
-          "marca": "GALLO",
-          "precio": 1.2,
-          "unidad": "kg",
-          "precio_unidad": 2.67,
-          "url": "https://www.supermasymasonline.com/maravilla-gallo-450g/0019105.html"
         },
         {
           "supermercado": "Más y Más",
@@ -8215,21 +8224,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Spaghetti Integral ALTEZA 500g",
-          "marca": "ALTEZA",
-          "precio": 1.2,
-          "unidad": "kg",
-          "precio_unidad": 2.4,
-          "url": "https://www.supermasymasonline.com/spaghetti-integral-alteza-500g/0019329.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Fideos GALLO n2 450g",
           "marca": "GALLO",
           "precio": 1.2,
           "unidad": "kg",
           "precio_unidad": 2.67,
           "url": "https://www.supermasymasonline.com/fideos-gallo-n2-450g/0019011.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Spaghetti Integral ALTEZA 500g",
+          "marca": "ALTEZA",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 2.4,
+          "url": "https://www.supermasymasonline.com/spaghetti-integral-alteza-500g/0019329.html"
         },
         {
           "supermercado": "Más y Más",
@@ -8512,21 +8521,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Lasaña precocida EL PAVO 18 placas",
-          "marca": "EL PAVO",
-          "precio": 1.65,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.supermasymasonline.com/lasa%C3%B1a-precocida-el-pavo-18-placas/0019815.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "YATEKOMO Hot spicy GALLINA BLANCA 60g",
           "marca": "GALLINA BLANCA",
           "precio": 1.65,
           "unidad": "kg",
           "precio_unidad": 27.5,
           "url": "https://www.supermasymasonline.com/yatekomo-hot-spicy-gallina-blanca-60g/0018907.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Lasaña precocida EL PAVO 18 placas",
+          "marca": "EL PAVO",
+          "precio": 1.65,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.supermasymasonline.com/lasa%C3%B1a-precocida-el-pavo-18-placas/0019815.html"
         },
         {
           "supermercado": "Más y Más",
@@ -8575,21 +8584,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Pasta Fusilli GAROFALO 500g",
-          "marca": "GAROFALO",
-          "precio": 1.79,
-          "unidad": "kg",
-          "precio_unidad": 3.58,
-          "url": "https://www.supermasymasonline.com/pasta-fusilli-garofalo-500g/0019121.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Pasta Elicoidali GAROFALO 500g",
           "marca": "GAROFALO",
           "precio": 1.79,
           "unidad": "kg",
           "precio_unidad": 3.58,
           "url": "https://www.supermasymasonline.com/pasta-elicoidali-garofalo-500g/0019122.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Pasta Fusilli GAROFALO 500g",
+          "marca": "GAROFALO",
+          "precio": 1.79,
+          "unidad": "kg",
+          "precio_unidad": 3.58,
+          "url": "https://www.supermasymasonline.com/pasta-fusilli-garofalo-500g/0019121.html"
         },
         {
           "supermercado": "Más y Más",
@@ -8773,21 +8782,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Ramen de pollo con champiñones MAGGI 90g",
-          "marca": "MAGGI",
-          "precio": 1.99,
-          "unidad": "kg",
-          "precio_unidad": 22.11,
-          "url": "https://www.supermasymasonline.com/ramen-de-pollo-con-champi%C3%B1ones-maggi-90g/0018919.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Yakisoba pollo GALLINA BLANCA vaso 93g",
           "marca": "GALLINA BLANCA",
           "precio": 1.99,
           "unidad": "kg",
           "precio_unidad": 21.4,
           "url": "https://www.supermasymasonline.com/yakisoba-pollo-gallina-blanca-vaso-93g/0019871.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Ramen de pollo con champiñones MAGGI 90g",
+          "marca": "MAGGI",
+          "precio": 1.99,
+          "unidad": "kg",
+          "precio_unidad": 22.11,
+          "url": "https://www.supermasymasonline.com/ramen-de-pollo-con-champi%C3%B1ones-maggi-90g/0018919.html"
         },
         {
           "supermercado": "Más y Más",
@@ -12157,7 +12166,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Arroz cocido redondo Sabroz",
+          "nombre_real": "Arroz cocido integral Sabroz",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -12166,7 +12175,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Arroz cocido integral Sabroz",
+          "nombre_real": "Arroz cocido redondo Sabroz",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -13312,6 +13321,15 @@
           "unidad": "kg",
           "precio_unidad": 28.32,
           "url": "https://www.hipercor.es/supermercado/B001018006601209-albo-atun-claro-en-aceite-de-oliva-pack-3-lata-67-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "atún claro en aceite de oliva pack 3 latas 67 g neto escurrido - Albo",
+          "marca": "albo",
+          "precio": 7.59,
+          "unidad": "kg",
+          "precio_unidad": 37.76,
+          "url": "https://www.hipercor.es/supermercado/B001018006600060-albo-atun-claro-en-aceite-de-oliva-pack-3-latas-67-g-neto-escurrido/"
         },
         {
           "supermercado": "Mercadona",
@@ -16833,6 +16851,15 @@
           "url": ""
         },
         {
+          "supermercado": "Mercadona",
+          "nombre_real": "Rabas empanadas Hacendado ultracongeladas",
+          "marca": "",
+          "precio": 4.05,
+          "unidad": "kg",
+          "precio_unidad": 8.1,
+          "url": ""
+        },
+        {
           "supermercado": "Hipercor",
           "nombre_real": "Boquerón en tempura bolsa 350 g - Delfin",
           "marca": "delfin",
@@ -16840,15 +16867,6 @@
           "unidad": "kg",
           "precio_unidad": 11.69,
           "url": "https://www.hipercor.es/supermercado/B001018949301081-delfin-boqueron-en-tempura-bolsa-350-g/"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Rabas empanadas Hacendado ultracongeladas",
-          "marca": "",
-          "precio": 4.15,
-          "unidad": "kg",
-          "precio_unidad": 8.3,
-          "url": ""
         },
         {
           "supermercado": "Alimerka",
@@ -23732,20 +23750,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Tortitas de arroz con chocolate con leche Hacendado",
-          "marca": "",
-          "precio": 1.9,
-          "unidad": "kg",
-          "precio_unidad": 14.62,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Cereales copos de trigo integral y arroz Hacendado 0% azúcares añadidos",
           "marca": "",
           "precio": 1.9,
           "unidad": "kg",
           "precio_unidad": 3.8,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Tortitas de arroz con chocolate con leche Hacendado",
+          "marca": "",
+          "precio": 1.9,
+          "unidad": "kg",
+          "precio_unidad": 14.62,
           "url": ""
         },
         {
@@ -27505,20 +27523,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Hinojo Hacendado",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 26.25,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Infusión Cola de caballo Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
           "precio_unidad": 35.0,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Infusión Hinojo Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 26.25,
           "url": ""
         },
         {
@@ -27925,6 +27943,15 @@
           "unidad": "kg",
           "precio_unidad": 154.5,
           "url": "https://www.hipercor.es/supermercado/B001020666600521-pompadour-infusion-de-hinojo-contribuye-al-equilibrio-digestivo-estuche-20-bolsitas/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "infusión con probióticos y manzanilla envase 15 bolsitas - Pompadour",
+          "marca": "pompadour",
+          "precio": 3.45,
+          "unidad": "kg",
+          "precio_unidad": 131.43,
+          "url": "https://www.hipercor.es/supermercado/B001020666602782-pompadour-infusion-con-probioticos-y-manzanilla-envase-15-bolsitas/"
         },
         {
           "supermercado": "Más y Más",
@@ -32588,21 +32615,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "vino tinto Red Blend syrah tempranillo cabernet sauvignon botella 75 cl - Memento Mori",
-          "marca": "memento mori",
-          "precio": 9.95,
-          "unidad": "L",
-          "precio_unidad": 13.27,
-          "url": "https://www.hipercor.es/supermercado/B001018784400063-memento-mori-vino-tinto-red-blend-syrah-tempranillo-cabernet-sauvignon-botella-75-cl/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "vino tinto 10 meses Edicción Limitada DO Ribera del Duero botella 75 cl - Protos",
           "marca": "protos",
           "precio": 9.95,
           "unidad": "L",
           "precio_unidad": 13.27,
           "url": "https://www.hipercor.es/supermercado/B001018738503400-protos-vino-tinto-10-meses-ediccion-limitada-do-ribera-del-duero-botella-75-cl/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "vino tinto Red Blend syrah tempranillo cabernet sauvignon botella 75 cl - Memento Mori",
+          "marca": "memento mori",
+          "precio": 9.95,
+          "unidad": "L",
+          "precio_unidad": 13.27,
+          "url": "https://www.hipercor.es/supermercado/B001018784400063-memento-mori-vino-tinto-red-blend-syrah-tempranillo-cabernet-sauvignon-botella-75-cl/"
         },
         {
           "supermercado": "Hipercor",
@@ -34138,7 +34165,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Activador Quitamanchas ropa de color Oxi Active Bosque Verde en polvo",
+          "nombre_real": "Activador Blanqueante ropa blanca Oxi Active Bosque Verde en polvo",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
@@ -34147,7 +34174,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Activador Blanqueante ropa blanca Oxi Active Bosque Verde en polvo",
+          "nombre_real": "Activador Quitamanchas ropa de color Oxi Active Bosque Verde en polvo",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
@@ -34165,7 +34192,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Detergente ropa Frescura Bosque Verde líquido",
+          "nombre_real": "Detergente ropa jabón natural de Marsella Bosque Verde líquido",
           "marca": "",
           "precio": 3.5,
           "unidad": "L",
@@ -34174,7 +34201,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Detergente ropa jabón natural de Marsella Bosque Verde líquido",
+          "nombre_real": "Detergente ropa Frescura Bosque Verde líquido",
           "marca": "",
           "precio": 3.5,
           "unidad": "L",
@@ -34300,6 +34327,15 @@
         },
         {
           "supermercado": "Mercadona",
+          "nombre_real": "Detergente ropa todo en 1 Ariel Pods en cápsulas",
+          "marca": "",
+          "precio": 4.95,
+          "unidad": "kg",
+          "precio_unidad": 14.24,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
           "nombre_real": "Detergente ropa Blanca y de Color Bosque Verde líquido",
           "marca": "",
           "precio": 5.85,
@@ -34324,15 +34360,6 @@
           "unidad": "Dosis",
           "precio_unidad": 0.11,
           "url": "https://www.hipercor.es/supermercado/B001028010309061-el-corte-ingles-detergente-liquido-para-ropa-blanca-y-de-color-botella-61-dosis/"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Detergente ropa todo en 1 Ariel Pods en cápsulas",
-          "marca": "",
-          "precio": 6.9,
-          "unidad": "kg",
-          "precio_unidad": 19.84,
-          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -35459,6 +35486,15 @@
           "unidad": "L",
           "precio_unidad": 5.23,
           "url": "https://www.supermasymasonline.com/lavavajillas-ultra-poder-fairy-1-05l/0069335.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "lavavajillas a mano poder 3 en 1 limón ahorra el remojo spray 500 ml - Fairy",
+          "marca": "fairy",
+          "precio": 5.65,
+          "unidad": "L",
+          "precio_unidad": 11.3,
+          "url": "https://www.hipercor.es/supermercado/B001028013202602-fairy-lavavajillas-a-mano-poder-3-en-1-limon-ahorra-el-remojo-spray-500-ml/"
         },
         {
           "supermercado": "Mercadona",
@@ -37809,15 +37845,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Champú anticaspa Menthol Fresh H&S",
-          "marca": "",
-          "precio": 3.9,
-          "unidad": "L",
-          "precio_unidad": 11.82,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Champú y acondicionador anticaspa Classic 2 en 1 H&S",
           "marca": "",
           "precio": 3.9,
@@ -37828,6 +37855,15 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Champú anticaspa Citrus Fresh H&S cabello graso",
+          "marca": "",
+          "precio": 3.9,
+          "unidad": "L",
+          "precio_unidad": 11.82,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Champú anticaspa Menthol Fresh H&S",
           "marca": "",
           "precio": 3.9,
           "unidad": "L",
@@ -38277,21 +38313,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Champú Collagen Lifter voluminizador ELVIVE 400ml",
-          "marca": "ELVIVE",
-          "precio": 4.75,
-          "unidad": "L",
-          "precio_unidad": 11.88,
-          "url": "https://www.supermasymasonline.com/champu-collagen-lifter-voluminizador-elvive-400ml/0078573.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Champu purificante hialuronico pure ELVIVE 380ml",
           "marca": "ELVIVE",
           "precio": 4.75,
           "unidad": "L",
           "precio_unidad": 12.5,
           "url": "https://www.supermasymasonline.com/champu-purificante-hialuronico-pure-elvive-380ml/0078590.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Champú Collagen Lifter voluminizador ELVIVE 400ml",
+          "marca": "ELVIVE",
+          "precio": 4.75,
+          "unidad": "L",
+          "precio_unidad": 11.88,
+          "url": "https://www.supermasymasonline.com/champu-collagen-lifter-voluminizador-elvive-400ml/0078573.html"
         },
         {
           "supermercado": "Hipercor",
@@ -38615,7 +38651,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico Herbal Deliplus",
+          "nombre_real": "Dentífrico 3 action Deliplus",
           "marca": "",
           "precio": 1.05,
           "unidad": "L",
@@ -38624,7 +38660,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Dentífrico 3 action Deliplus",
+          "nombre_real": "Dentífrico Herbal Deliplus",
           "marca": "",
           "precio": 1.05,
           "unidad": "L",
@@ -39448,7 +39484,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante seda Deliplus antitranspirante",
+          "nombre_real": "Desodorante invisible men Deliplus antitranspirante y antimanchas",
           "marca": "",
           "precio": 1.65,
           "unidad": "L",
@@ -39457,7 +39493,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante invisible men Deliplus antitranspirante y antimanchas",
+          "nombre_real": "Desodorante seda Deliplus antitranspirante",
           "marca": "",
           "precio": 1.65,
           "unidad": "L",
@@ -40633,6 +40669,15 @@
           "unidad": "100 ml.",
           "precio_unidad": 3.0,
           "url": "https://www.hipercor.es/supermercado/B001055754802779-dove-men-desodorante--care-advanced-invisible-dry-antimanchas-antitranspirante-72h-spray-150-ml/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "DESODORANTE ZONA BAJA PERA Y MADERA 100 ML.",
+          "marca": "AXE",
+          "precio": 5.35,
+          "unidad": "L",
+          "precio_unidad": 53.5,
+          "url": "https://www.alimerkaonline.es/10031076.html"
         }
       ]
     },
