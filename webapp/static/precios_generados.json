@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-11-16T04:45:14+00:00",
+  "generado_en": "2026-11-16T14:49:42+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -3345,21 +3345,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Yogur griego con fresa DANONE 4x110g",
-          "marca": "DANONE",
-          "precio": 1.95,
-          "unidad": "kg",
-          "precio_unidad": 4.43,
-          "url": "https://www.supermasymasonline.com/yogur-griego-con-fresa-danone-4x110g/0030705.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Yogur griego con Stracciatella DANONE 4x115g",
           "marca": "DANONE",
           "precio": 1.95,
           "unidad": "kg",
           "precio_unidad": 4.24,
           "url": "https://www.supermasymasonline.com/yogur-griego-con-stracciatella-danone-4x115g/0030785.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Yogur griego con fresa DANONE 4x110g",
+          "marca": "DANONE",
+          "precio": 1.95,
+          "unidad": "kg",
+          "precio_unidad": 4.43,
+          "url": "https://www.supermasymasonline.com/yogur-griego-con-fresa-danone-4x110g/0030705.html"
         },
         {
           "supermercado": "Más y Más",
@@ -5034,6 +5034,15 @@
           "url": "https://www.supermasymasonline.com/huevo-chocolate-alteza-pack-3x20g/0008931.html"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "huevos de codorniz estuche 18 unidades - Dagu",
+          "marca": "dagu",
+          "precio": 1.95,
+          "unidad": "Docena",
+          "precio_unidad": 1.3,
+          "url": "https://www.hipercor.es/supermercado/B001018840101077-dagu-huevos-de-codorniz-estuche-18-unidades/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Huevos de gallinas camperas",
           "marca": "",
@@ -5176,15 +5185,6 @@
           "unidad": "ud",
           "precio_unidad": 0.25,
           "url": "https://www.supermasymasonline.com/huevos-%27l%27-granja-rualmar-12uds/0032208.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "huevos camperos cocidos con cáscara categoría A clase M-L estuche 6 unidades - Corral De Monegros",
-          "marca": "corral de monegros",
-          "precio": 3.15,
-          "unidad": "Docena",
-          "precio_unidad": 6.3,
-          "url": "https://www.hipercor.es/supermercado/B001018839900265-corral-de-monegros-huevos-camperos-cocidos-con-cascara-categoria-a-clase-m-l-estuche-6-unidades/"
         },
         {
           "supermercado": "Alimerka",
@@ -6151,6 +6151,24 @@
       "producto": "pan de barra",
       "opciones": [
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde blanco 100% natural bolsa 410 g 0% azúcares añadidos - Panrico",
+          "marca": "panrico",
+          "precio": 0.5,
+          "unidad": "kg",
+          "precio_unidad": 1.22,
+          "url": "https://www.hipercor.es/supermercado/B001020654803269-panrico-pan-de-molde-blanco-100-natural-bolsa-410-g-0-azucares-anadidos/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde integral 100% natural bolsa 410 g 0% azúcares añadidos - Panrico",
+          "marca": "panrico",
+          "precio": 0.5,
+          "unidad": "kg",
+          "precio_unidad": 1.22,
+          "url": "https://www.hipercor.es/supermercado/B001020654803277-panrico-pan-de-molde-integral-100-natural-bolsa-410-g-0-azucares-anadidos/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Barra de pan",
           "marca": "",
@@ -6251,30 +6269,57 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "pan de molde blanco estilo Rustic 100% natural solo con aceite de oliva bolsa 460 g 0% azúcares añadidos - Panrico",
+          "marca": "panrico",
+          "precio": 1.0,
+          "unidad": "kg",
+          "precio_unidad": 2.17,
+          "url": "https://www.hipercor.es/supermercado/B001020654803186-panrico-pan-de-molde-blanco-estilo-rustic-100-natural-solo-con-aceite-de-oliva-bolsa-460-g-0-azucares-anadidos/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde 100% natural 0% azúcares añadidos bolsa 820 g - Panrico",
+          "marca": "panrico",
+          "precio": 1.0,
+          "unidad": "kg",
+          "precio_unidad": 1.22,
+          "url": "https://www.hipercor.es/supermercado/B001020654803228-panrico-pan-de-molde-100-natural-0-azucares-anadidos-bolsa-820-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde integral 100% natural bolsa 820 g 0% azúcares añadidos - Panrico",
+          "marca": "panrico",
+          "precio": 1.0,
+          "unidad": "kg",
+          "precio_unidad": 1.22,
+          "url": "https://www.hipercor.es/supermercado/B001020654803236-panrico-pan-de-molde-integral-100-natural-bolsa-820-g-0-azucares-anadidos/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde blanco sin corteza 100% natural bolsa 450 g sin azúcares añadidos - Panrico",
+          "marca": "panrico",
+          "precio": 1.0,
+          "unidad": "kg",
+          "precio_unidad": 2.22,
+          "url": "https://www.hipercor.es/supermercado/B001020654803244-panrico-pan-de-molde-blanco-sin-corteza-100-natural-bolsa-450-g-sin-azucares-anadidos/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de molde integral sin corteza 100% natural bolsa 450 g 0% azúcares añadidos - Panrico",
+          "marca": "panrico",
+          "precio": 1.0,
+          "unidad": "kg",
+          "precio_unidad": 2.22,
+          "url": "https://www.hipercor.es/supermercado/B001020654803251-panrico-pan-de-molde-integral-sin-corteza-100-natural-bolsa-450-g-0-azucares-anadidos/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "pan sin gluten, sin lactosa, sin proteína de la leche y sin huevo envase 80 g - Panceliac",
           "marca": "panceliac",
           "precio": 1.05,
           "unidad": "kg",
           "precio_unidad": 13.13,
           "url": "https://www.hipercor.es/supermercado/B001020770100038-panceliac-pan-sin-gluten-sin-lactosa-sin-proteina-de-la-leche-y-sin-huevo-envase-80-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "pan de molde blanco 100% natural bolsa 410 g 0% azúcares añadidos - Panrico",
-          "marca": "panrico",
-          "precio": 1.09,
-          "unidad": "kg",
-          "precio_unidad": 2.66,
-          "url": "https://www.hipercor.es/supermercado/B001020654803269-panrico-pan-de-molde-blanco-100-natural-bolsa-410-g-0-azucares-anadidos/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "pan de molde integral 100% natural bolsa 410 g 0% azúcares añadidos - Panrico",
-          "marca": "panrico",
-          "precio": 1.09,
-          "unidad": "kg",
-          "precio_unidad": 2.66,
-          "url": "https://www.hipercor.es/supermercado/B001020654803277-panrico-pan-de-molde-integral-100-natural-bolsa-410-g-0-azucares-anadidos/"
         },
         {
           "supermercado": "Mercadona",
@@ -6365,51 +6410,6 @@
           "unidad": "kg",
           "precio_unidad": 2.0,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "pan de molde blanco estilo Rustic 100% natural solo con aceite de oliva bolsa 460 g 0% azúcares añadidos - Panrico",
-          "marca": "panrico",
-          "precio": 1.99,
-          "unidad": "kg",
-          "precio_unidad": 4.33,
-          "url": "https://www.hipercor.es/supermercado/B001020654803186-panrico-pan-de-molde-blanco-estilo-rustic-100-natural-solo-con-aceite-de-oliva-bolsa-460-g-0-azucares-anadidos/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "pan de molde 100% natural 0% azúcares añadidos bolsa 820 g - Panrico",
-          "marca": "panrico",
-          "precio": 1.99,
-          "unidad": "kg",
-          "precio_unidad": 2.43,
-          "url": "https://www.hipercor.es/supermercado/B001020654803228-panrico-pan-de-molde-100-natural-0-azucares-anadidos-bolsa-820-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "pan de molde integral 100% natural bolsa 820 g 0% azúcares añadidos - Panrico",
-          "marca": "panrico",
-          "precio": 1.99,
-          "unidad": "kg",
-          "precio_unidad": 2.43,
-          "url": "https://www.hipercor.es/supermercado/B001020654803236-panrico-pan-de-molde-integral-100-natural-bolsa-820-g-0-azucares-anadidos/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "pan de molde blanco sin corteza 100% natural bolsa 450 g sin azúcares añadidos - Panrico",
-          "marca": "panrico",
-          "precio": 1.99,
-          "unidad": "kg",
-          "precio_unidad": 4.42,
-          "url": "https://www.hipercor.es/supermercado/B001020654803244-panrico-pan-de-molde-blanco-sin-corteza-100-natural-bolsa-450-g-sin-azucares-anadidos/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "pan de molde integral sin corteza 100% natural bolsa 450 g 0% azúcares añadidos - Panrico",
-          "marca": "panrico",
-          "precio": 1.99,
-          "unidad": "kg",
-          "precio_unidad": 4.42,
-          "url": "https://www.hipercor.es/supermercado/B001020654803251-panrico-pan-de-molde-integral-sin-corteza-100-natural-bolsa-450-g-0-azucares-anadidos/"
         },
         {
           "supermercado": "Hipercor",
@@ -11777,15 +11777,6 @@
           "url": "https://www.supermasymasonline.com/sal-negra-del-himalaya-carmencita-94g/0015038.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "salmón ahumado noruego en lonchas envase 100 g - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 3.95,
-          "unidad": "kg",
-          "precio_unidad": 39.5,
-          "url": "https://www.hipercor.es/supermercado/B001018835101785-el-corte-ingles-salmon-ahumado-noruego-en-lonchas-envase-100-g/"
-        },
-        {
           "supermercado": "Más y Más",
           "nombre_real": "Sal de manantial CARMENCITA 105g",
           "marca": "CARMENCITA",
@@ -12517,6 +12508,15 @@
       "producto": "lentejas cocidas",
       "opciones": [
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "lentejas cocidas extra frasco 200 g neto escurrido - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 0.73,
+          "unidad": "kg",
+          "precio_unidad": 3.65,
+          "url": "https://www.hipercor.es/supermercado/B001018007400197-el-corte-ingles-lentejas-cocidas-extra-frasco-200-g-neto-escurrido/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Lenteja cocida Hacendado",
           "marca": "",
@@ -12524,6 +12524,15 @@
           "unidad": "kg",
           "precio_unidad": 2.54,
           "url": ""
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "lentejas cocidas extra frasco 400 g neto escurrido - El Corte Ingles",
+          "marca": "el corte ingles",
+          "precio": 0.9,
+          "unidad": "kg",
+          "precio_unidad": 2.25,
+          "url": "https://www.hipercor.es/supermercado/B001018007400254-el-corte-ingles-lentejas-cocidas-extra-frasco-400-g-neto-escurrido/"
         },
         {
           "supermercado": "Mercadona",
@@ -12551,6 +12560,114 @@
           "unidad": "kg",
           "precio_unidad": 1.67,
           "url": "https://www.supermasymasonline.com/lentejas-cocidas-alteza-540g/0012500.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "lentejas cocidas frasco 400 g neto escurrido - Luengo",
+          "marca": "luengo",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 3.38,
+          "url": "https://www.hipercor.es/supermercado/B001018007400494-luengo-lentejas-cocidas-frasco-400-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "lentejas cocidas extra IGP de Tierra de Campos frasco 400 g neto escurrido - El Corte Ingles Selection",
+          "marca": "el corte ingles selection",
+          "precio": 1.45,
+          "unidad": "kg",
+          "precio_unidad": 3.63,
+          "url": "https://www.hipercor.es/supermercado/B001018007400189-el-corte-ingles-selection-lentejas-cocidas-extra-igp-de-tierra-de-campos-frasco-400-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "lentejas cocidas Disney Mickey Mouse frasco 600 g neto escurrido - Luengo",
+          "marca": "luengo",
+          "precio": 1.65,
+          "unidad": "kg",
+          "precio_unidad": 2.75,
+          "url": "https://www.hipercor.es/supermercado/B001018007701222-luengo-lentejas-cocidas-disney-mickey-mouse-frasco-600-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "lentejas cocidas brik 250 g - Cidacos",
+          "marca": "cidacos",
+          "precio": 1.69,
+          "unidad": "kg",
+          "precio_unidad": 4.45,
+          "url": "https://www.hipercor.es/supermercado/B001018007400502-cidacos-lentejas-cocidas-brik-250-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "lentejas pardina cocidas sin lactosa frasco 400 g neto escurrido - Gvtarra",
+          "marca": "gvtarra",
+          "precio": 1.99,
+          "unidad": "kg",
+          "precio_unidad": 3.55,
+          "url": "https://www.hipercor.es/supermercado/B001018007400460-gvtarra-lentejas-pardina-cocidas-sin-lactosa-frasco-400-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "lentejas cocidas extra frasco 400 g neto escurrido - Ja'e",
+          "marca": "ja'e",
+          "precio": 2.15,
+          "unidad": "kg",
+          "precio_unidad": 5.38,
+          "url": "https://www.hipercor.es/supermercado/B001018007400155-jae-lentejas-cocidas-extra-frasco-400-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "lentejas extra cocidas frasco 400 g neto escurrido - Cidacos",
+          "marca": "cidacos",
+          "precio": 2.35,
+          "unidad": "kg",
+          "precio_unidad": 5.88,
+          "url": "https://www.hipercor.es/supermercado/B001018007400148-cidacos-lentejas-extra-cocidas-frasco-400-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "lentejas extra cocidas bajo en sal frasco 400 g neto escurrido - Cidacos",
+          "marca": "cidacos",
+          "precio": 2.35,
+          "unidad": "kg",
+          "precio_unidad": 5.88,
+          "url": "https://www.hipercor.es/supermercado/B001018007400312-cidacos-lentejas-extra-cocidas-bajo-en-sal-frasco-400-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "lentejas cocidas ecológicas frasco 400 g neto escurrido - Luengo",
+          "marca": "luengo",
+          "precio": 2.55,
+          "unidad": "kg",
+          "precio_unidad": 6.38,
+          "url": "https://www.hipercor.es/supermercado/B001018007200084-luengo-lentejas-cocidas-ecologicas-frasco-400-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "lentejas cocidas extra de cultivo ecológico frasco 300 g neto escurrido - Don Pedro",
+          "marca": "don pedro",
+          "precio": 2.69,
+          "unidad": "kg",
+          "precio_unidad": 8.97,
+          "url": "https://www.hipercor.es/supermercado/B001018007400510-don-pedro-lentejas-cocidas-extra-de-cultivo-ecologico-frasco-300-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "lenteja caviar cocida frasco 580 ml - Aranca",
+          "marca": "aranca",
+          "precio": 2.95,
+          "unidad": "L",
+          "precio_unidad": 5.09,
+          "url": "https://www.hipercor.es/supermercado/B001018007400320-aranca-lenteja-caviar-cocida-frasco-580-ml/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "lentejas pardina cocida frasco 660 g - Huerta De Carabaña",
+          "marca": "huerta de carabaña",
+          "precio": 3.95,
+          "unidad": "kg",
+          "precio_unidad": 5.98,
+          "url": "https://www.hipercor.es/supermercado/B001018007400478-huerta-de-carabana-lentejas-pardina-cocida-frasco-660-g/"
         }
       ]
     },
@@ -14229,15 +14346,6 @@
           "url": "https://www.supermasymasonline.com/jamon-cocido-big-storico-la-quercia-120g/0033842.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "jamón cocido extra selección en lonchas envase 350 g - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 5.25,
-          "unidad": "kg",
-          "precio_unidad": 15.0,
-          "url": "https://www.hipercor.es/supermercado/B001018381600370-el-corte-ingles-selection-jamon-cocido-extra-seleccion-en-lonchas-envase-350-g/"
-        },
-        {
           "supermercado": "Más y Más",
           "nombre_real": "Jamon cocido ALMIREZ loncha 500g",
           "marca": "ALMIREZ",
@@ -15452,21 +15560,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Chorizo tradicion REVILLA 65g",
-          "marca": "REVILLA",
-          "precio": 1.0,
-          "unidad": "kg",
-          "precio_unidad": 15.38,
-          "url": "https://www.supermasymasonline.com/chorizo-tradicion-revilla-65g/0034617.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Chorizo Picante REVILLA 65g",
           "marca": "REVILLA",
           "precio": 1.0,
           "unidad": "kg",
           "precio_unidad": 15.38,
           "url": "https://www.supermasymasonline.com/chorizo-picante-revilla-65g/0034720.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Chorizo tradicion REVILLA 65g",
+          "marca": "REVILLA",
+          "precio": 1.0,
+          "unidad": "kg",
+          "precio_unidad": 15.38,
+          "url": "https://www.supermasymasonline.com/chorizo-tradicion-revilla-65g/0034617.html"
         },
         {
           "supermercado": "Más y Más",
@@ -17022,24 +17130,6 @@
           "url": "https://www.alimerkaonline.es/10012781.html"
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Calamar troceado limpio Hacendado congelado",
-          "marca": "",
-          "precio": 5.7,
-          "unidad": "kg",
-          "precio_unidad": 12.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Sepia faraónica troceada limpia Hacendado congelada",
-          "marca": "",
-          "precio": 5.7,
-          "unidad": "kg",
-          "precio_unidad": 15.83,
-          "url": ""
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "lomos a la romana de merluza rebozada 5 unidades estuche 325 g - Pescanova",
           "marca": "pescanova",
@@ -17073,6 +17163,24 @@
           "precio": 5.77,
           "unidad": "kg",
           "precio_unidad": 8.24,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Calamar troceado limpio Hacendado congelado",
+          "marca": "",
+          "precio": 5.9,
+          "unidad": "kg",
+          "precio_unidad": 12.42,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Sepia faraónica troceada limpia Hacendado congelada",
+          "marca": "",
+          "precio": 5.9,
+          "unidad": "kg",
+          "precio_unidad": 16.39,
           "url": ""
         },
         {
@@ -25956,21 +26064,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Café molido Natural ALTEZA 250g",
-          "marca": "ALTEZA",
-          "precio": 2.5,
-          "unidad": "kg",
-          "precio_unidad": 10.0,
-          "url": "https://www.supermasymasonline.com/cafe-molido-natural-alteza-250g/0007224.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Café molido mezcla ALTEZA 250g",
           "marca": "ALTEZA",
           "precio": 2.5,
           "unidad": "kg",
           "precio_unidad": 10.0,
           "url": "https://www.supermasymasonline.com/cafe-molido-mezcla-alteza-250g/0007223.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Café molido Natural ALTEZA 250g",
+          "marca": "ALTEZA",
+          "precio": 2.5,
+          "unidad": "kg",
+          "precio_unidad": 10.0,
+          "url": "https://www.supermasymasonline.com/cafe-molido-natural-alteza-250g/0007224.html"
         },
         {
           "supermercado": "Más y Más",
@@ -26351,15 +26459,6 @@
           "url": "https://www.hipercor.es/supermercado/B001020603900711-el-corte-ingles-selection-cafe-molido-natural-100-arabica-paquete-250-g/"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "café molido mezcla 50% natural y 50% torrefacto 100% arábica paquete 250 g - El Corte Ingles Selection",
-          "marca": "el corte ingles selection",
-          "precio": 5.1,
-          "unidad": "kg",
-          "precio_unidad": 20.4,
-          "url": "https://www.hipercor.es/supermercado/B001020604400463-el-corte-ingles-selection-cafe-molido-mezcla-50-natural-y-50-torrefacto-100-arabica-paquete-250-g/"
-        },
-        {
           "supermercado": "Alimerka",
           "nombre_real": "CAFÉ MOLIDO COLOMBIA 250 G.",
           "marca": "OQUENDO",
@@ -26475,6 +26574,15 @@
           "unidad": "kg",
           "precio_unidad": 31.96,
           "url": "https://www.supermasymasonline.com/cafe-molido-natural-globo-250g/0007253.html"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "café molido mezcla formato ahorro paquete 500 g - Saimaza",
+          "marca": "saimaza",
+          "precio": 8.39,
+          "unidad": "kg",
+          "precio_unidad": 16.78,
+          "url": "https://www.hipercor.es/supermercado/B001020604401412-saimaza-cafe-molido-mezcla-formato-ahorro-paquete-500-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -27451,21 +27559,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Infusión de hinojo ALTEZA 20uds",
-          "marca": "ALTEZA",
-          "precio": 1.05,
-          "unidad": "ud",
-          "precio_unidad": 0.05,
-          "url": "https://www.supermasymasonline.com/infusion-de-hinojo-alteza-20uds/0007927.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Infusión relax ALTEZA 20 sobres",
           "marca": "ALTEZA",
           "precio": 1.05,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.supermasymasonline.com/infusion-relax-alteza-20-sobres/0007911.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Infusión de hinojo ALTEZA 20uds",
+          "marca": "ALTEZA",
+          "precio": 1.05,
+          "unidad": "ud",
+          "precio_unidad": 0.05,
+          "url": "https://www.supermasymasonline.com/infusion-de-hinojo-alteza-20uds/0007927.html"
         },
         {
           "supermercado": "Más y Más",
@@ -27703,21 +27811,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Infusión valeriana POMPADOUR 20 sobres",
-          "marca": "POMPADOUR",
-          "precio": 2.99,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.supermasymasonline.com/infusion-valeriana-pompadour-20-sobres/0007982.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Infusión Digestive POMPADOUR 20 sobres",
           "marca": "POMPADOUR",
           "precio": 2.99,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.supermasymasonline.com/infusion-digestive-pompadour-20-sobres/0007920.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Infusión valeriana POMPADOUR 20 sobres",
+          "marca": "POMPADOUR",
+          "precio": 2.99,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.supermasymasonline.com/infusion-valeriana-pompadour-20-sobres/0007982.html"
         },
         {
           "supermercado": "Más y Más",
@@ -27739,21 +27847,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Infusión hinojo POMPADOUR 20 sobres",
-          "marca": "POMPADOUR",
-          "precio": 2.99,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.supermasymasonline.com/infusion-hinojo-pompadour-20-sobres/0007932.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Infusión delgaxan POMPADOUR 20 sobres",
           "marca": "POMPADOUR",
           "precio": 2.99,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.supermasymasonline.com/infusion-delgaxan-pompadour-20-sobres/0007918.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Infusión hinojo POMPADOUR 20 sobres",
+          "marca": "POMPADOUR",
+          "precio": 2.99,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.supermasymasonline.com/infusion-hinojo-pompadour-20-sobres/0007932.html"
         },
         {
           "supermercado": "Más y Más",
@@ -27766,21 +27874,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Infusión frambuesa rooibos HORNIMANS 20 sobres",
-          "marca": "HORNIMANS",
-          "precio": 2.99,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.supermasymasonline.com/infusion-frambuesa-rooibos-hornimans-20-sobres/0007902.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Infusión duerme bien POMPADOUR 20 sobres",
           "marca": "POMPADOUR",
           "precio": 2.99,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.supermasymasonline.com/infusion-duerme-bien-pompadour-20-sobres/0007919.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Infusión frambuesa rooibos HORNIMANS 20 sobres",
+          "marca": "HORNIMANS",
+          "precio": 2.99,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.supermasymasonline.com/infusion-frambuesa-rooibos-hornimans-20-sobres/0007902.html"
         },
         {
           "supermercado": "Más y Más",
@@ -34173,15 +34281,6 @@
           "url": ""
         },
         {
-          "supermercado": "Mercadona",
-          "nombre_real": "Detergente ropa todo en 1 frescor floral Ariel Pods en cápsulas",
-          "marca": "",
-          "precio": 4.85,
-          "unidad": "kg",
-          "precio_unidad": 10.46,
-          "url": ""
-        },
-        {
           "supermercado": "Hipercor",
           "nombre_real": "detergente cápsulas perfumado para ropa blanca y de color envase 20 cápsulas - El Corte Ingles",
           "marca": "el corte ingles",
@@ -34233,6 +34332,15 @@
           "precio": 6.9,
           "unidad": "kg",
           "precio_unidad": 19.84,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Detergente ropa todo en 1 frescor floral Ariel Pods en cápsulas",
+          "marca": "",
+          "precio": 6.9,
+          "unidad": "kg",
+          "precio_unidad": 14.88,
           "url": ""
         },
         {
@@ -40863,6 +40971,15 @@
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.supermasymasonline.com/pa%C3%B1ales-talla-8-pants-dodot-21-10uds/0073894.html"
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pañal adulto talla L Deliplus",
+          "marca": "",
+          "precio": 14.8,
+          "unidad": "ud",
+          "precio_unidad": 0.74,
+          "url": ""
         },
         {
           "supermercado": "Mercadona",
