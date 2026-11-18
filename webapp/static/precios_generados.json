@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-11-17T15:36:01+00:00",
+  "generado_en": "2026-11-18T00:35:11+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -10895,21 +10895,21 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "aceite refinado de girasol botella 1 l - Abrilsol",
+          "marca": "abrilsol",
+          "precio": 1.81,
+          "unidad": "L",
+          "precio_unidad": 1.81,
+          "url": "https://www.hipercor.es/supermercado/B001018046000065-abrilsol-aceite-refinado-de-girasol-botella-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "aceite refinado de girasol botella 1 l - El Corte Ingles",
           "marca": "el corte ingles",
           "precio": 1.85,
           "unidad": "L",
           "precio_unidad": 1.85,
           "url": "https://www.hipercor.es/supermercado/B001018046000099-el-corte-ingles-aceite-refinado-de-girasol-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite refinado de girasol botella 1 l - Abrilsol",
-          "marca": "abrilsol",
-          "precio": 1.85,
-          "unidad": "L",
-          "precio_unidad": 1.85,
-          "url": "https://www.hipercor.es/supermercado/B001018046000065-abrilsol-aceite-refinado-de-girasol-botella-1-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -23196,15 +23196,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "aguacate light pieza 500-600 g peso aproximado - Isla Bonita",
-          "marca": "isla bonita",
-          "precio": 4.95,
-          "unidad": "kg",
-          "precio_unidad": 8.25,
-          "url": "https://www.hipercor.es/supermercado/B001018108500036-isla-bonita-aguacate-light-pieza-500-600-g-peso-aproximado/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "Aguacate 2 unidades bandeja 420 g",
           "marca": "",
           "precio": 4.99,
@@ -23238,6 +23229,15 @@
           "unidad": "kg",
           "precio_unidad": 7.45,
           "url": "https://www.hipercor.es/supermercado/B001018111500015-aguacate-hass-4-unidades-bandeja-800-g-peso-aproximado/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aguacate light pieza 500-600 g peso aproximado - Isla Bonita",
+          "marca": "isla bonita",
+          "precio": 7.99,
+          "unidad": "kg",
+          "precio_unidad": 13.32,
+          "url": "https://www.hipercor.es/supermercado/B001018108500036-isla-bonita-aguacate-light-pieza-500-600-g-peso-aproximado/"
         },
         {
           "supermercado": "Hipercor",
