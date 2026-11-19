@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-11-18T15:15:28+00:00",
+  "generado_en": "2026-11-19T00:01:22+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -6314,6 +6314,24 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "pan de dátil con coco envase 200 g - Paiarrop",
+          "marca": "paiarrop",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 14.95,
+          "url": "https://www.hipercor.es/supermercado/B001018150300897-paiarrop-pan-de-datil-con-coco-envase-200-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "pan de higos y chocolate negro envase 200 g - Paiarrop",
+          "marca": "paiarrop",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 14.95,
+          "url": "https://www.hipercor.es/supermercado/B001018150300905-paiarrop-pan-de-higos-y-chocolate-negro-envase-200-g/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "pan de molde sin gluten sin lactosa y sin huevo bolsa 400 g - Panceliac",
           "marca": "panceliac",
           "precio": 3.4,
@@ -6329,24 +6347,6 @@
           "unidad": "kg",
           "precio_unidad": 15.65,
           "url": "https://www.hipercor.es/supermercado/B001020656703921-pan-cota-pan-especial-de-espelta-integral-extra-crujiente-100-natural-paquete-230-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "pan de dátil con coco envase 200 g - Paiarrop",
-          "marca": "paiarrop",
-          "precio": 3.75,
-          "unidad": "kg",
-          "precio_unidad": 18.75,
-          "url": "https://www.hipercor.es/supermercado/B001018150300897-paiarrop-pan-de-datil-con-coco-envase-200-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "pan de higos y chocolate negro envase 200 g - Paiarrop",
-          "marca": "paiarrop",
-          "precio": 3.75,
-          "unidad": "kg",
-          "precio_unidad": 18.75,
-          "url": "https://www.hipercor.es/supermercado/B001018150300905-paiarrop-pan-de-higos-y-chocolate-negro-envase-200-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -6368,21 +6368,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "pan de higo con almendra envase 225 g - Paiarrop",
+          "nombre_real": "pan de dátil con almendra envase 225 g - Paiarrop",
           "marca": "paiarrop",
-          "precio": 5.25,
+          "precio": 4.59,
           "unidad": "kg",
-          "precio_unidad": 23.33,
-          "url": "https://www.hipercor.es/supermercado/B001018150301069-paiarrop-pan-de-higo-con-almendra-envase-225-g/"
+          "precio_unidad": 20.4,
+          "url": "https://www.hipercor.es/supermercado/B001018150301077-paiarrop-pan-de-datil-con-almendra-envase-225-g/"
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "pan de dátil con almendra envase 225 g - Paiarrop",
+          "nombre_real": "pan de higo con almendra envase 225 g - Paiarrop",
           "marca": "paiarrop",
-          "precio": 5.25,
+          "precio": 4.99,
           "unidad": "kg",
-          "precio_unidad": 23.33,
-          "url": "https://www.hipercor.es/supermercado/B001018150301077-paiarrop-pan-de-datil-con-almendra-envase-225-g/"
+          "precio_unidad": 22.18,
+          "url": "https://www.hipercor.es/supermercado/B001018150301069-paiarrop-pan-de-higo-con-almendra-envase-225-g/"
         }
       ]
     },
@@ -28244,24 +28244,6 @@
           "url": "https://www.supermasymasonline.com/cerveza-estrella-galicia-33cl/0057019.html"
         },
         {
-          "supermercado": "Más y Más",
-          "nombre_real": "Cerveza 0,0 aguila Sin Filtrar 33cl",
-          "marca": "",
-          "precio": 0.69,
-          "unidad": "L",
-          "precio_unidad": 2.09,
-          "url": "https://www.supermasymasonline.com/cerveza-0-0-aguila-sin-filtrar-33cl/0057125.html"
-        },
-        {
-          "supermercado": "Más y Más",
-          "nombre_real": "Cerveza tostada AMSTEL ORO 33cl",
-          "marca": "AMSTEL ORO",
-          "precio": 0.69,
-          "unidad": "L",
-          "precio_unidad": 2.09,
-          "url": "https://www.supermasymasonline.com/cerveza-tostada-amstel-oro-33cl/0057029.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Cerveza Heineken",
           "marca": "",
@@ -28452,6 +28434,15 @@
         },
         {
           "supermercado": "Más y Más",
+          "nombre_real": "Cerveza tostada AMSTEL ORO 33cl",
+          "marca": "AMSTEL ORO",
+          "precio": 0.85,
+          "unidad": "L",
+          "precio_unidad": 2.58,
+          "url": "https://www.supermasymasonline.com/cerveza-tostada-amstel-oro-33cl/0057029.html"
+        },
+        {
+          "supermercado": "Más y Más",
           "nombre_real": "Cerveza tostada sin gluten 0,0 MAHOU 33cl",
           "marca": "MAHOU",
           "precio": 0.85,
@@ -28566,6 +28557,15 @@
           "unidad": "L",
           "precio_unidad": 2.7,
           "url": "https://www.supermasymasonline.com/cerveza-estrella-damm-lata-33cl/0057024.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Cerveza 0,0 aguila Sin Filtrar 33cl",
+          "marca": "",
+          "precio": 0.89,
+          "unidad": "L",
+          "precio_unidad": 2.7,
+          "url": "https://www.supermasymasonline.com/cerveza-0-0-aguila-sin-filtrar-33cl/0057125.html"
         },
         {
           "supermercado": "Más y Más",
@@ -30499,15 +30499,6 @@
           "url": "https://www.supermasymasonline.com/vino-tinto-crianza-doca-rioja-ramon-bilbao-375ml/0061223.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "vino tinto crianza DOCa Rioja botella 75 cl - Viña Pomal",
-          "marca": "viña pomal",
-          "precio": 6.99,
-          "unidad": "L",
-          "precio_unidad": 9.32,
-          "url": "https://www.hipercor.es/supermercado/B001018703101404-vina-pomal-vino-tinto-crianza-doca-rioja-botella-75-cl/"
-        },
-        {
           "supermercado": "Más y Más",
           "nombre_real": "Vino tinto Crianza DOCa Rioja CUNE 750ml",
           "marca": "CUNE",
@@ -30634,15 +30625,6 @@
           "url": "https://www.supermasymasonline.com/vino-tinto-reserva-doca-rioja-coto-de-imaz-750ml/0061310.html"
         },
         {
-          "supermercado": "Hipercor",
-          "nombre_real": "vino tinto roble DO Toro botella 75 cl - Quinta El Refugio",
-          "marca": "quinta el refugio",
-          "precio": 8.95,
-          "unidad": "L",
-          "precio_unidad": 11.93,
-          "url": "https://www.hipercor.es/supermercado/B001018779504036-quinta-el-refugio-vino-tinto-roble-do-toro-botella-75-cl/"
-        },
-        {
           "supermercado": "Más y Más",
           "nombre_real": "Vino tinto Roble DO Ribera del Duero CUNE 750ml",
           "marca": "CUNE",
@@ -30659,6 +30641,15 @@
           "unidad": "L",
           "precio_unidad": 11.97,
           "url": "https://www.hipercor.es/supermercado/B001018703101248-otonal-vino-tinto-crianza-seleccion-especial-doca-rioja-botella-75-cl/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "vino tinto roble DO Ribera del Duero botella 75 cl - Protos",
+          "marca": "protos",
+          "precio": 8.99,
+          "unidad": "L",
+          "precio_unidad": 11.99,
+          "url": "https://www.hipercor.es/supermercado/B001018738501065-protos-vino-tinto-roble-do-ribera-del-duero-botella-75-cl/"
         },
         {
           "supermercado": "Más y Más",
@@ -30698,6 +30689,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "vino tinto crianza DOCa Rioja botella 75 cl - Viña Pomal",
+          "marca": "viña pomal",
+          "precio": 9.45,
+          "unidad": "L",
+          "precio_unidad": 12.6,
+          "url": "https://www.hipercor.es/supermercado/B001018703101404-vina-pomal-vino-tinto-crianza-doca-rioja-botella-75-cl/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "vino tinto crianza DOCa Rioja botella 75 cl - Ramon Bilbao",
           "marca": "ramon bilbao",
           "precio": 9.75,
@@ -30722,15 +30722,6 @@
           "unidad": "L",
           "precio_unidad": 13.0,
           "url": "https://www.supermasymasonline.com/vino-tinto-la-planta-do-ribera-del-duero-arzuaga-750ml/0061715.html"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "vino tinto roble DO Ribera del Duero botella 75 cl - Protos",
-          "marca": "protos",
-          "precio": 9.9,
-          "unidad": "L",
-          "precio_unidad": 13.2,
-          "url": "https://www.hipercor.es/supermercado/B001018738501065-protos-vino-tinto-roble-do-ribera-del-duero-botella-75-cl/"
         },
         {
           "supermercado": "Más y Más",
@@ -30767,6 +30758,15 @@
           "unidad": "L",
           "precio_unidad": 13.27,
           "url": "https://www.hipercor.es/supermercado/B001018784400063-memento-mori-vino-tinto-red-blend-syrah-tempranillo-cabernet-sauvignon-botella-75-cl/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "vino tinto roble DO Toro botella 75 cl - Quinta El Refugio",
+          "marca": "quinta el refugio",
+          "precio": 9.95,
+          "unidad": "L",
+          "precio_unidad": 13.27,
+          "url": "https://www.hipercor.es/supermercado/B001018779504036-quinta-el-refugio-vino-tinto-roble-do-toro-botella-75-cl/"
         },
         {
           "supermercado": "Más y Más",
@@ -30977,21 +30977,21 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "vino tinto Selección de la Familia reserva DOCa Rioja caja 6 botellas 75 cl con regalo de 6 copas - Hacienda Lopez De Haro",
+          "marca": "hacienda lopez de haro",
+          "precio": 44.95,
+          "unidad": "L",
+          "precio_unidad": 9.99,
+          "url": "https://www.hipercor.es/supermercado/B001018782302980-hacienda-lopez-de-haro-vino-tinto-seleccion-de-la-familia-reserva-doca-rioja-caja-6-botellas-75-cl-con-regalo-de-6-copas/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "vino tinto reserva DOCa Rioja caja 6 botellas 75 cl - Viña Albina",
           "marca": "viña albina",
           "precio": 72.0,
           "unidad": "L",
           "precio_unidad": 96.0,
           "url": "https://www.hipercor.es/supermercado/B001018782302006-vina-albina-vino-tinto-reserva-doca-rioja-caja-6-botellas-75-cl/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "vino tinto Selección de la Familia reserva DOCa Rioja caja 6 botellas 75 cl con regalo de 6 copas - Hacienda Lopez De Haro",
-          "marca": "hacienda lopez de haro",
-          "precio": 87.5,
-          "unidad": "L",
-          "precio_unidad": 19.44,
-          "url": "https://www.hipercor.es/supermercado/B001018782302980-hacienda-lopez-de-haro-vino-tinto-seleccion-de-la-familia-reserva-doca-rioja-caja-6-botellas-75-cl-con-regalo-de-6-copas/"
         },
         {
           "supermercado": "Más y Más",
@@ -32063,6 +32063,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "servilleta decorativa Stella Tartán paquete 20 unidades - Gabbiano",
+          "marca": "gabbiano",
+          "precio": 2.8,
+          "unidad": "ud",
+          "precio_unidad": 0.14,
+          "url": "https://www.hipercor.es/supermercado/B001028022309877-gabbiano-servilleta-decorativa-stella-tartan-paquete-20-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "servilletas decoradas Frozen 2 capas 33x33 paquete 20 unidades - Procos",
           "marca": "procos",
           "precio": 2.95,
@@ -32105,6 +32114,15 @@
           "unidad": "Unidad",
           "precio_unidad": 0.05,
           "url": "https://www.hipercor.es/supermercado/B001028022305420-renova-servilletas-blancas-2-capas-40x40-cm-paquete-75-unidades/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "servilletas Navidad Tartán y Reno rojo 33x33 cm paquete 12 unidades - Caspari",
+          "marca": "caspari",
+          "precio": 4.99,
+          "unidad": "Unidad",
+          "precio_unidad": 4.99,
+          "url": "https://www.hipercor.es/supermercado/B001028022309497-caspari-servilletas-navidad-tartan-y-reno-rojo-33x33-cm-paquete-12-unidades/"
         }
       ]
     },
@@ -35101,15 +35119,6 @@
           "unidad": "L",
           "precio_unidad": 1.99,
           "url": "https://www.alimerkaonline.es/10018317.html"
-        },
-        {
-          "supermercado": "Mercadona",
-          "nombre_real": "Gel de baño exfoliante Té Chai Deliplus piel normal",
-          "marca": "",
-          "precio": 2.6,
-          "unidad": "L",
-          "precio_unidad": 5.2,
-          "url": ""
         },
         {
           "supermercado": "Mercadona",
@@ -38345,15 +38354,6 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Ensalada de pasta y atún FLORETTE 215g",
-          "marca": "FLORETTE",
-          "precio": 2.99,
-          "unidad": "kg",
-          "precio_unidad": 13.91,
-          "url": "https://www.supermasymasonline.com/ensalada-de-pasta-y-atun-florette-215g/0049964.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Pastas almendra PRODUCTOS BLANCO 400g",
           "marca": "PRODUCTOS BLANCO",
           "precio": 2.99,
@@ -38486,6 +38486,15 @@
           "unidad": "kg",
           "precio_unidad": 11.12,
           "url": "https://www.supermasymasonline.com/ensalada-pasta-y-rucula-florette-320g/0049962.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Ensalada de pasta y atún FLORETTE 215g",
+          "marca": "FLORETTE",
+          "precio": 3.56,
+          "unidad": "kg",
+          "precio_unidad": 16.56,
+          "url": "https://www.supermasymasonline.com/ensalada-de-pasta-y-atun-florette-215g/0049964.html"
         },
         {
           "supermercado": "Más y Más",
@@ -39031,15 +39040,6 @@
           "unidad": "L",
           "precio_unidad": 16.67,
           "url": "https://www.alimerkaonline.es/10004506.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "DESODORANTE SPORT 150 ML.",
-          "marca": "IFA UNNIA",
-          "precio": 1.28,
-          "unidad": "L",
-          "precio_unidad": 8.53,
-          "url": "https://www.alimerkaonline.es/10029045.html"
         },
         {
           "supermercado": "Más y Más",
