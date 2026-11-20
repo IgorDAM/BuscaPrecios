@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-11-20T15:00:31+00:00",
+  "generado_en": "2026-11-20T23:47:46+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -33292,15 +33292,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Detergente ropa jabón natural de Marsella Bosque Verde líquido",
-          "marca": "",
-          "precio": 3.5,
-          "unidad": "L",
-          "precio_unidad": 1.17,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Detergente ropa Frescura Bosque Verde líquido",
           "marca": "",
           "precio": 3.5,
@@ -33328,15 +33319,6 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "detergente líquido Bebé para prendas delicadas para ropa de bebé botella 32 dosis sin alérgenos - Norit",
-          "marca": "norit",
-          "precio": 3.99,
-          "unidad": "Dosis",
-          "precio_unidad": 0.12,
-          "url": "https://www.hipercor.es/supermercado/B001028010700517-norit-detergente-liquido-bebe-para-prendas-delicadas-para-ropa-de-bebe-botella-32-dosis-sin-alergenos/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "detergente máquina líquido para ropa negra 1,95 l botella 30 dosis - El Corte Ingles",
           "marca": "el corte ingles",
           "precio": 4.0,
@@ -33346,11 +33328,20 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "detergente líquido Delicado Negros para ropa oscura botella 32 dosis - Norit",
+          "nombre_real": "detergente líquido Bebé para prendas delicadas para ropa de bebé botella 32 dosis sin alérgenos - Norit",
           "marca": "norit",
-          "precio": 4.29,
+          "precio": 4.3,
           "unidad": "Dosis",
           "precio_unidad": 0.13,
+          "url": "https://www.hipercor.es/supermercado/B001028010700517-norit-detergente-liquido-bebe-para-prendas-delicadas-para-ropa-de-bebe-botella-32-dosis-sin-alergenos/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "detergente líquido Delicado Negros para ropa oscura botella 32 dosis - Norit",
+          "marca": "norit",
+          "precio": 4.5,
+          "unidad": "Dosis",
+          "precio_unidad": 0.14,
           "url": "https://www.hipercor.es/supermercado/B001028010700509-norit-detergente-liquido-delicado-negros-para-ropa-oscura-botella-32-dosis/"
         },
         {
@@ -33510,9 +33501,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "detergente líquido Delicado Ropa Oscura para ropa oscura botella 28 dosis - Norit",
           "marca": "norit",
-          "precio": 8.29,
+          "precio": 8.79,
           "unidad": "Dosis",
-          "precio_unidad": 0.3,
+          "precio_unidad": 0.31,
           "url": "https://www.hipercor.es/supermercado/B001028010303486-norit-detergente-liquido-delicado-ropa-oscura-para-ropa-oscura-botella-28-dosis/"
         }
       ]
@@ -40953,9 +40944,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "desodorante desinfectante para calzado spray 150 ml elimina las bacterias causantes del mal olor - Sanytol",
           "marca": "sanytol",
-          "precio": 3.95,
+          "precio": 3.99,
           "unidad": "L",
-          "precio_unidad": 26.33,
+          "precio_unidad": 26.6,
           "url": "https://www.hipercor.es/supermercado/B001028020500576-sanytol-desodorante-desinfectante-para-calzado-spray-150-ml-elimina-las-bacterias-causantes-del-mal-olor/"
         },
         {
