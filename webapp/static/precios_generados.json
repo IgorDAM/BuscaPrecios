@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-11-27T01:35:19+00:00",
+  "generado_en": "2026-11-27T16:12:38+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -3381,21 +3381,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "yogur griego sabor lima y limón sin gluten pack 4 unidades 110 g - Danone Oikos",
-          "marca": "danone oikos",
-          "precio": 2.99,
-          "unidad": "kg",
-          "precio_unidad": 6.8,
-          "url": "https://www.hipercor.es/supermercado/B001018823002235-danone-oikos-yogur-griego-sabor-lima-y-limon-sin-gluten-pack-4-unidades-110-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "yogur griego con fresas sin gluten pack 4 unidades 110 g - Danone Oikos",
           "marca": "danone oikos",
           "precio": 2.99,
           "unidad": "kg",
           "precio_unidad": 6.8,
           "url": "https://www.hipercor.es/supermercado/B001018823002045-danone-oikos-yogur-griego-con-fresas-sin-gluten-pack-4-unidades-110-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "yogur griego sabor lima y limón sin gluten pack 4 unidades 110 g - Danone Oikos",
+          "marca": "danone oikos",
+          "precio": 2.99,
+          "unidad": "kg",
+          "precio_unidad": 6.8,
+          "url": "https://www.hipercor.es/supermercado/B001018823002235-danone-oikos-yogur-griego-sabor-lima-y-limon-sin-gluten-pack-4-unidades-110-g/"
         },
         {
           "supermercado": "Hipercor",
@@ -4891,15 +4891,6 @@
       "opciones": [
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Huevos de chocolate SAN ISIDRO 80g",
-          "marca": "SAN ISIDRO",
-          "precio": 1.0,
-          "unidad": "kg",
-          "precio_unidad": 12.5,
-          "url": "https://www.supermasymasonline.com/huevos-de-chocolate-san-isidro-80g/0008704.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Huevos KINDER Sorpresa 20g",
           "marca": "KINDER",
           "precio": 1.49,
@@ -5796,20 +5787,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Pan de molde sin gluten blanco Hacendado",
-          "marca": "",
-          "precio": 2.74,
-          "unidad": "kg",
-          "precio_unidad": 5.48,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Pan de molde cereales sin gluten Hacendado",
           "marca": "",
           "precio": 2.74,
           "unidad": "kg",
           "precio_unidad": 5.83,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Pan de molde sin gluten blanco Hacendado",
+          "marca": "",
+          "precio": 2.74,
+          "unidad": "kg",
+          "precio_unidad": 5.48,
           "url": ""
         },
         {
@@ -6806,7 +6797,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Arroz cocido integral Sabroz",
+          "nombre_real": "Arroz cocido redondo Sabroz",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -6815,7 +6806,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Arroz cocido redondo Sabroz",
+          "nombre_real": "Arroz cocido integral Sabroz",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -8368,15 +8359,6 @@
           "url": "https://www.hipercor.es/supermercado/B001018043500406-solis-tomate-frito-origen-vegas-del-guadiana-sin-gluten-frasco-360-g/"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "TOMATE FRITO 360 GRS.",
-          "marca": "SOLÍS",
-          "precio": 1.49,
-          "unidad": "kg",
-          "precio_unidad": 4.14,
-          "url": "https://www.alimerkaonline.es/725025.html"
-        },
-        {
           "supermercado": "Más y Más",
           "nombre_real": "Tomate frito SOLÍS 360g",
           "marca": "SOLÍS",
@@ -8546,6 +8528,15 @@
           "unidad": "kg",
           "precio_unidad": 5.86,
           "url": "https://www.hipercor.es/supermercado/B001018043501966-hida-tomate-frito-estilo-casero-frasco-350-g-neto-escurrido/"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "TOMATE FRITO CON ACEITE DE OLIVA 212 G. PACK 3",
+          "marca": "ORLANDO",
+          "precio": 2.09,
+          "unidad": "kg",
+          "precio_unidad": 3.32,
+          "url": "https://www.alimerkaonline.es/725091.html"
         },
         {
           "supermercado": "Hipercor",
@@ -9816,21 +9807,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Sal ALTEZA fina 1kg",
-          "marca": "ALTEZA",
-          "precio": 0.45,
-          "unidad": "kg",
-          "precio_unidad": 0.45,
-          "url": "https://www.supermasymasonline.com/sal-alteza-fina-1kg/0015007.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Sal ALTEZA gruesa 1kg",
           "marca": "ALTEZA",
           "precio": 0.45,
           "unidad": "kg",
           "precio_unidad": 0.45,
           "url": "https://www.supermasymasonline.com/sal-alteza-gruesa-1kg/0015008.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Sal ALTEZA fina 1kg",
+          "marca": "ALTEZA",
+          "precio": 0.45,
+          "unidad": "kg",
+          "precio_unidad": 0.45,
+          "url": "https://www.supermasymasonline.com/sal-alteza-fina-1kg/0015007.html"
         },
         {
           "supermercado": "Más y Más",
@@ -10465,7 +10456,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Arroz cocido integral Sabroz",
+          "nombre_real": "Arroz cocido redondo Sabroz",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -10474,7 +10465,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Arroz cocido redondo Sabroz",
+          "nombre_real": "Arroz cocido integral Sabroz",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
@@ -11494,15 +11485,6 @@
           "unidad": "kg",
           "precio_unidad": 28.32,
           "url": "https://www.hipercor.es/supermercado/B001018006601209-albo-atun-claro-en-aceite-de-oliva-pack-3-lata-67-g-neto-escurrido/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "atún claro en aceite de oliva pack 3 latas 67 g neto escurrido - Albo",
-          "marca": "albo",
-          "precio": 7.59,
-          "unidad": "kg",
-          "precio_unidad": 37.76,
-          "url": "https://www.hipercor.es/supermercado/B001018006600060-albo-atun-claro-en-aceite-de-oliva-pack-3-latas-67-g-neto-escurrido/"
         },
         {
           "supermercado": "Mercadona",
@@ -12944,6 +12926,15 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "BURGER MEAT MIXTA VACUNO/CERDO 90 G.",
+          "marca": "CENTRAL DE CARNES PREMIUM",
+          "precio": 4.2,
+          "unidad": "kg",
+          "precio_unidad": 7.78,
+          "url": "https://www.alimerkaonline.es/10033251.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "ALBÓNDIGAS DE VACUNO Y CERDO 25 UDS.",
           "marca": "CENTRAL DE CARNES PREMIUM",
           "precio": 4.5,
@@ -12977,6 +12968,15 @@
           "unidad": "kg",
           "precio_unidad": 11.0,
           "url": ""
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "BURGER MEAT VACUNO 90 G.",
+          "marca": "CENTRAL DE CARNES PREMIUM",
+          "precio": 5.9,
+          "unidad": "kg",
+          "precio_unidad": 10.93,
+          "url": "https://www.alimerkaonline.es/10033250.html"
         },
         {
           "supermercado": "Mercadona",
@@ -13602,21 +13602,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Salchichas Frankfurt Big queso EL POZO 3x200g",
-          "marca": "EL POZO",
-          "precio": 2.5,
-          "unidad": "kg",
-          "precio_unidad": 4.17,
-          "url": "https://www.supermasymasonline.com/salchichas-frankfurt-big-queso-el-pozo-3x200g/0033327.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Salchichas Frankfurt Big Classic EL POZO 3x200g",
           "marca": "EL POZO",
           "precio": 2.5,
           "unidad": "kg",
           "precio_unidad": 4.17,
           "url": "https://www.supermasymasonline.com/salchichas-frankfurt-big-classic-el-pozo-3x200g/0033326.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Salchichas Frankfurt Big queso EL POZO 3x200g",
+          "marca": "EL POZO",
+          "precio": 2.5,
+          "unidad": "kg",
+          "precio_unidad": 4.17,
+          "url": "https://www.supermasymasonline.com/salchichas-frankfurt-big-queso-el-pozo-3x200g/0033327.html"
         },
         {
           "supermercado": "Hipercor",
@@ -13805,21 +13805,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Chorizo Picante REVILLA 65g",
-          "marca": "REVILLA",
-          "precio": 1.0,
-          "unidad": "kg",
-          "precio_unidad": 15.38,
-          "url": "https://www.supermasymasonline.com/chorizo-picante-revilla-65g/0034720.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Chorizo tradicion REVILLA 65g",
           "marca": "REVILLA",
           "precio": 1.0,
           "unidad": "kg",
           "precio_unidad": 15.38,
           "url": "https://www.supermasymasonline.com/chorizo-tradicion-revilla-65g/0034617.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Chorizo Picante REVILLA 65g",
+          "marca": "REVILLA",
+          "precio": 1.0,
+          "unidad": "kg",
+          "precio_unidad": 15.38,
+          "url": "https://www.supermasymasonline.com/chorizo-picante-revilla-65g/0034720.html"
         },
         {
           "supermercado": "Más y Más",
@@ -14030,7 +14030,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Chorizo dulce extra Hacendado",
+          "nombre_real": "Chorizo picante extra Hacendado",
           "marca": "",
           "precio": 2.49,
           "unidad": "kg",
@@ -14039,7 +14039,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Chorizo picante extra Hacendado",
+          "nombre_real": "Chorizo dulce extra Hacendado",
           "marca": "",
           "precio": 2.49,
           "unidad": "kg",
@@ -15952,21 +15952,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Banderillas belmonte 250g",
-          "marca": "GOURMET BELMONTE",
-          "precio": 4.95,
-          "unidad": "kg",
-          "precio_unidad": 19.8,
-          "url": "https://www.supermasymasonline.com/banderillas-belmonte-250g/0040455.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Palitos de mar ARTIQ 400g",
           "marca": "ARTIQ",
           "precio": 4.95,
           "unidad": "kg",
           "precio_unidad": 12.38,
           "url": "https://www.supermasymasonline.com/palitos-de-mar-artiq-400g/0044902.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Banderillas belmonte 250g",
+          "marca": "GOURMET BELMONTE",
+          "precio": 4.95,
+          "unidad": "kg",
+          "precio_unidad": 19.8,
+          "url": "https://www.supermasymasonline.com/banderillas-belmonte-250g/0040455.html"
         },
         {
           "supermercado": "Hipercor",
@@ -17591,21 +17591,21 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "salteados verduras estilo italiano con un toque de aceite de oliva y hierbas aromáticas estuche 400 g - Findus",
-          "marca": "findus",
-          "precio": 5.39,
-          "unidad": "kg",
-          "precio_unidad": 13.48,
-          "url": "https://www.hipercor.es/supermercado/B001018958300925-findus-salteados-verduras-estilo-italiano-con-un-toque-de-aceite-de-oliva-y-hierbas-aromaticas-estuche-400-g/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "salteados verduras al estilo griego con aceite de oliva, hierbas aromáticas y queso estuche 400 g - Findus",
           "marca": "findus",
           "precio": 5.39,
           "unidad": "kg",
           "precio_unidad": 13.48,
           "url": "https://www.hipercor.es/supermercado/B001018958300933-findus-salteados-verduras-al-estilo-griego-con-aceite-de-oliva-hierbas-aromaticas-y-queso-estuche-400-g/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "salteados verduras estilo italiano con un toque de aceite de oliva y hierbas aromáticas estuche 400 g - Findus",
+          "marca": "findus",
+          "precio": 5.39,
+          "unidad": "kg",
+          "precio_unidad": 13.48,
+          "url": "https://www.hipercor.es/supermercado/B001018958300925-findus-salteados-verduras-estilo-italiano-con-un-toque-de-aceite-de-oliva-y-hierbas-aromaticas-estuche-400-g/"
         }
       ]
     },
@@ -18893,21 +18893,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Cebolla chata granel, kg",
-          "marca": "",
-          "precio": 2.45,
-          "unidad": "kg",
-          "precio_unidad": 2.45,
-          "url": "https://www.supermasymasonline.com/cebolla-chata-granel--kg/0049205.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Cebolla chata malla 1kg",
           "marca": "",
           "precio": 2.45,
           "unidad": "kg",
           "precio_unidad": 2.45,
           "url": "https://www.supermasymasonline.com/cebolla-chata-malla-1kg/0049211.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Cebolla chata granel, kg",
+          "marca": "",
+          "precio": 2.45,
+          "unidad": "kg",
+          "precio_unidad": 2.45,
+          "url": "https://www.supermasymasonline.com/cebolla-chata-granel--kg/0049205.html"
         },
         {
           "supermercado": "Hipercor",
@@ -21098,9 +21098,9 @@
           "supermercado": "Alimerka",
           "nombre_real": "ZANAHORIAS CON ARROZ EN CALDITO 235 G.",
           "marca": "HERO",
-          "precio": 1.85,
+          "precio": 1.79,
           "unidad": "kg",
-          "precio_unidad": 7.87,
+          "precio_unidad": 7.62,
           "url": "https://www.alimerkaonline.es/10014807.html"
         },
         {
@@ -21556,6 +21556,33 @@
         },
         {
           "supermercado": "Alimerka",
+          "nombre_real": "POUCH DE PLATANO Y FRESA 100 G.",
+          "marca": "HERO",
+          "precio": 0.99,
+          "unidad": "kg",
+          "precio_unidad": 9.9,
+          "url": "https://www.alimerkaonline.es/10001621.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "POUCH MERIENDA PLÁTANO Y FRESA 100 G.",
+          "marca": "HERO",
+          "precio": 0.99,
+          "unidad": "kg",
+          "precio_unidad": 9.9,
+          "url": "https://www.alimerkaonline.es/10003325.html"
+        },
+        {
+          "supermercado": "Alimerka",
+          "nombre_real": "POUCH PLATANO NARANJA 100 G.",
+          "marca": "HERO",
+          "precio": 0.99,
+          "unidad": "kg",
+          "precio_unidad": 9.9,
+          "url": "https://www.alimerkaonline.es/10001622.html"
+        },
+        {
+          "supermercado": "Alimerka",
           "nombre_real": "YOGUR SABOR PLÁTANO 120 G. PACK 4",
           "marca": "DANONE",
           "precio": 1.0,
@@ -21574,38 +21601,11 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "POUCH DE PLATANO Y FRESA 100 G.",
-          "marca": "HERO",
-          "precio": 1.25,
-          "unidad": "kg",
-          "precio_unidad": 12.5,
-          "url": "https://www.alimerkaonline.es/10001621.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "POUCH MERIENDA PLÁTANO Y FRESA 100 G.",
-          "marca": "HERO",
-          "precio": 1.25,
-          "unidad": "kg",
-          "precio_unidad": 12.5,
-          "url": "https://www.alimerkaonline.es/10003325.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "POUCH PLATANO NARANJA 100 G.",
-          "marca": "HERO",
-          "precio": 1.25,
-          "unidad": "kg",
-          "precio_unidad": 12.5,
-          "url": "https://www.alimerkaonline.es/10001622.html"
-        },
-        {
-          "supermercado": "Alimerka",
           "nombre_real": "TARRITO DE MELOCOTÓN Y PLÁTANO 190 G.",
           "marca": "HERO",
-          "precio": 1.35,
+          "precio": 1.27,
           "unidad": "kg",
-          "precio_unidad": 5.74,
+          "precio_unidad": 5.4,
           "url": "https://www.alimerkaonline.es/749027.html"
         },
         {
@@ -22706,20 +22706,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Barritas de cereales y chocolate con leche Hacendado",
-          "marca": "",
-          "precio": 1.55,
-          "unidad": "kg",
-          "precio_unidad": 12.92,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Barritas de cereales muesli y chocolate Hacendado",
           "marca": "",
           "precio": 1.55,
           "unidad": "kg",
           "precio_unidad": 11.23,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Barritas de cereales y chocolate con leche Hacendado",
+          "marca": "",
+          "precio": 1.55,
+          "unidad": "kg",
+          "precio_unidad": 12.92,
           "url": ""
         },
         {
@@ -23129,7 +23129,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Muesli Hacendado 50% frutas y frutos secos",
+          "nombre_real": "Muesli Crunchy Hacendado con fruta",
           "marca": "",
           "precio": 2.1,
           "unidad": "kg",
@@ -23138,7 +23138,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Muesli Crunchy Hacendado con fruta",
+          "nombre_real": "Muesli Hacendado 50% frutas y frutos secos",
           "marca": "",
           "precio": 2.1,
           "unidad": "kg",
@@ -24025,20 +24025,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
-          "marca": "",
-          "precio": 1.35,
-          "unidad": "kg",
-          "precio_unidad": 9.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Galletas María Hacendado",
           "marca": "",
           "precio": 1.35,
           "unidad": "kg",
           "precio_unidad": 1.69,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Galletas Choco leche con chocolatina Hacendado",
+          "marca": "",
+          "precio": 1.35,
+          "unidad": "kg",
+          "precio_unidad": 9.0,
           "url": ""
         },
         {
@@ -25515,21 +25515,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Café molido Natural ALTEZA 250g",
-          "marca": "ALTEZA",
-          "precio": 2.5,
-          "unidad": "kg",
-          "precio_unidad": 10.0,
-          "url": "https://www.supermasymasonline.com/cafe-molido-natural-alteza-250g/0007224.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Café molido mezcla ALTEZA 250g",
           "marca": "ALTEZA",
           "precio": 2.5,
           "unidad": "kg",
           "precio_unidad": 10.0,
           "url": "https://www.supermasymasonline.com/cafe-molido-mezcla-alteza-250g/0007223.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Café molido Natural ALTEZA 250g",
+          "marca": "ALTEZA",
+          "precio": 2.5,
+          "unidad": "kg",
+          "precio_unidad": 10.0,
+          "url": "https://www.supermasymasonline.com/cafe-molido-natural-alteza-250g/0007224.html"
         },
         {
           "supermercado": "Más y Más",
@@ -25748,6 +25748,15 @@
           "url": "https://www.alimerkaonline.es/21406.html"
         },
         {
+          "supermercado": "Alimerka",
+          "nombre_real": "CAFÉ MOLIDO MEZCLA 250 G.",
+          "marca": "BONKA",
+          "precio": 3.95,
+          "unidad": "kg",
+          "precio_unidad": 15.8,
+          "url": "https://www.alimerkaonline.es/21400.html"
+        },
+        {
           "supermercado": "Más y Más",
           "nombre_real": "Café molido Natural BONKA 250g",
           "marca": "BONKA",
@@ -25800,15 +25809,6 @@
           "unidad": "kg",
           "precio_unidad": 17.8,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "CAFÉ MOLIDO NATURAL 250 GRS.",
-          "marca": "MARCILLA",
-          "precio": 4.45,
-          "unidad": "kg",
-          "precio_unidad": 17.8,
-          "url": "https://www.alimerkaonline.es/758180.html"
         },
         {
           "supermercado": "Más y Más",
@@ -26046,6 +26046,15 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "café molido mezcla formato ahorro paquete 500 g - Saimaza",
+          "marca": "saimaza",
+          "precio": 8.39,
+          "unidad": "kg",
+          "precio_unidad": 16.78,
+          "url": "https://www.hipercor.es/supermercado/B001020604401412-saimaza-cafe-molido-mezcla-formato-ahorro-paquete-500-g/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "café molido mezcla intensidad 10 paquete 500 g - Marcilla",
           "marca": "marcilla",
           "precio": 8.49,
@@ -26115,15 +26124,6 @@
           "unidad": "kg",
           "precio_unidad": 45.8,
           "url": "https://www.hipercor.es/supermercado/B001020603903467-illy-cafe-molido-100-arabica-lata-250-g/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "café molido natural pack 2 paquetes 500 g - Marcilla",
-          "marca": "marcilla",
-          "precio": 16.79,
-          "unidad": "kg",
-          "precio_unidad": 16.79,
-          "url": "https://www.hipercor.es/supermercado/B001020603902592-marcilla-cafe-molido-natural-pack-2-paquetes-500-g/"
         }
       ]
     },
@@ -26168,11 +26168,11 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula forte Hacendado",
+          "nombre_real": "Café en cápsula extra forte Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
-          "precio_unidad": 29.02,
+          "precio_unidad": 25.39,
           "url": ""
         },
         {
@@ -26186,11 +26186,11 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula extra forte Hacendado",
+          "nombre_real": "Café en cápsula forte Hacendado",
           "marca": "",
           "precio": 3.25,
           "unidad": "kg",
-          "precio_unidad": 25.39,
+          "precio_unidad": 29.02,
           "url": ""
         },
         {
@@ -26321,20 +26321,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café en cápsula espresso Hacendado",
-          "marca": "",
-          "precio": 3.8,
-          "unidad": "kg",
-          "precio_unidad": 36.54,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsulas doble espresso Hacendado",
           "marca": "",
           "precio": 3.8,
           "unidad": "kg",
           "precio_unidad": 34.55,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café en cápsula espresso Hacendado",
+          "marca": "",
+          "precio": 3.8,
+          "unidad": "kg",
+          "precio_unidad": 36.54,
           "url": ""
         },
         {
@@ -26582,20 +26582,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Café con leche en cápsula Tassimo",
-          "marca": "",
-          "precio": 5.89,
-          "unidad": "kg",
-          "precio_unidad": 32.01,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Café en cápsula espresso Tassimo",
           "marca": "",
           "precio": 5.89,
           "unidad": "kg",
           "precio_unidad": 49.92,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Café con leche en cápsula Tassimo",
+          "marca": "",
+          "precio": 5.89,
+          "unidad": "kg",
+          "precio_unidad": 32.01,
           "url": ""
         },
         {
@@ -26911,20 +26911,20 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Infusión Cola de caballo Hacendado",
-          "marca": "",
-          "precio": 1.05,
-          "unidad": "kg",
-          "precio_unidad": 35.0,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Infusión Hinojo Hacendado",
           "marca": "",
           "precio": 1.05,
           "unidad": "kg",
           "precio_unidad": 26.25,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Infusión Cola de caballo Hacendado",
+          "marca": "",
+          "precio": 1.05,
+          "unidad": "kg",
+          "precio_unidad": 35.0,
           "url": ""
         },
         {
@@ -26947,21 +26947,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Infusión de hinojo ALTEZA 20uds",
-          "marca": "ALTEZA",
-          "precio": 1.05,
-          "unidad": "ud",
-          "precio_unidad": 0.05,
-          "url": "https://www.supermasymasonline.com/infusion-de-hinojo-alteza-20uds/0007927.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Infusión Quemagrasa ALTEZA 20uds",
           "marca": "ALTEZA",
           "precio": 1.05,
           "unidad": "ud",
           "precio_unidad": 0.05,
           "url": "https://www.supermasymasonline.com/infusion-quemagrasa-alteza-20uds/0007945.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Infusión de hinojo ALTEZA 20uds",
+          "marca": "ALTEZA",
+          "precio": 1.05,
+          "unidad": "ud",
+          "precio_unidad": 0.05,
+          "url": "https://www.supermasymasonline.com/infusion-de-hinojo-alteza-20uds/0007927.html"
         },
         {
           "supermercado": "Más y Más",
@@ -27289,21 +27289,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Infusión valeriana POMPADOUR 20 sobres",
-          "marca": "POMPADOUR",
-          "precio": 2.99,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.supermasymasonline.com/infusion-valeriana-pompadour-20-sobres/0007982.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Infusión Digestive POMPADOUR 20 sobres",
           "marca": "POMPADOUR",
           "precio": 2.99,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.supermasymasonline.com/infusion-digestive-pompadour-20-sobres/0007920.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Infusión valeriana POMPADOUR 20 sobres",
+          "marca": "POMPADOUR",
+          "precio": 2.99,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.supermasymasonline.com/infusion-valeriana-pompadour-20-sobres/0007982.html"
         },
         {
           "supermercado": "Más y Más",
@@ -27370,21 +27370,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Infusión frambuesa rooibos HORNIMANS 20 sobres",
-          "marca": "HORNIMANS",
-          "precio": 2.99,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.supermasymasonline.com/infusion-frambuesa-rooibos-hornimans-20-sobres/0007902.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Infusión duerme bien POMPADOUR 20 sobres",
           "marca": "POMPADOUR",
           "precio": 2.99,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.supermasymasonline.com/infusion-duerme-bien-pompadour-20-sobres/0007919.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Infusión frambuesa rooibos HORNIMANS 20 sobres",
+          "marca": "HORNIMANS",
+          "precio": 2.99,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.supermasymasonline.com/infusion-frambuesa-rooibos-hornimans-20-sobres/0007902.html"
         },
         {
           "supermercado": "Más y Más",
@@ -27986,6 +27986,15 @@
           "url": "https://www.alimerkaonline.es/10006898.html"
         },
         {
+          "supermercado": "Hipercor",
+          "nombre_real": "agua mineral natural botella 2 l - Font Vella",
+          "marca": "font vella",
+          "precio": 1.12,
+          "unidad": "L",
+          "precio_unidad": 0.56,
+          "url": "https://www.hipercor.es/supermercado/B001018630000679-font-vella-agua-mineral-natural-botella-2-l/"
+        },
+        {
           "supermercado": "Mercadona",
           "nombre_real": "Agua mineral grande Fontébil",
           "marca": "",
@@ -28047,15 +28056,6 @@
           "unidad": "L",
           "precio_unidad": 0.52,
           "url": ""
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "agua mineral natural del manantial Monte Pinos garrafa 5 l - El Corte Ingles",
-          "marca": "el corte ingles",
-          "precio": 1.57,
-          "unidad": "L",
-          "precio_unidad": 0.31,
-          "url": "https://www.hipercor.es/supermercado/B001018630400499-el-corte-ingles-agua-mineral-natural-del-manantial-monte-pinos-garrafa-5-l/"
         },
         {
           "supermercado": "Mercadona",
@@ -31624,13 +31624,13 @@
           "url": "https://www.alimerkaonline.es/783090.html"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "VINO TINTO RESERVA 75 CL.",
+          "supermercado": "Más y Más",
+          "nombre_real": "Vino tinto Crianza DOCa Rioja FAUSTINO 750ml",
           "marca": "FAUSTINO",
           "precio": 6.95,
           "unidad": "L",
           "precio_unidad": 9.27,
-          "url": "https://www.alimerkaonline.es/783022.html"
+          "url": "https://www.supermasymasonline.com/vino-tinto-crianza-doca-rioja-faustino-750ml/0061243.html"
         },
         {
           "supermercado": "Más y Más",
@@ -33337,15 +33337,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
-          "marca": "",
-          "precio": 1.8,
-          "unidad": "L",
-          "precio_unidad": 1.12,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Suavizante ropa Floral Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
@@ -33356,6 +33347,15 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Suavizante ropa Violets Bosque Verde concentrado",
+          "marca": "",
+          "precio": 1.8,
+          "unidad": "L",
+          "precio_unidad": 1.12,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -33792,15 +33792,6 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
-          "marca": "",
-          "precio": 1.8,
-          "unidad": "L",
-          "precio_unidad": 1.12,
-          "url": ""
-        },
-        {
-          "supermercado": "Mercadona",
           "nombre_real": "Suavizante ropa Violets Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
@@ -33811,6 +33802,15 @@
         {
           "supermercado": "Mercadona",
           "nombre_real": "Suavizante ropa Floral Bosque Verde concentrado",
+          "marca": "",
+          "precio": 1.8,
+          "unidad": "L",
+          "precio_unidad": 1.12,
+          "url": ""
+        },
+        {
+          "supermercado": "Mercadona",
+          "nombre_real": "Suavizante ropa Talco Bosque Verde concentrado",
           "marca": "",
           "precio": 1.8,
           "unidad": "L",
@@ -33981,21 +33981,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Suavizante concentrado oceanic DISICLIN 80 lavados",
-          "marca": "DISICLIN",
-          "precio": 2.49,
-          "unidad": "",
-          "precio_unidad": null,
-          "url": "https://www.supermasymasonline.com/suavizante-concentrado-oceanic-disiclin-80-lavados/0068796.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Suavizante concentrado spring rose DISICLIN 80lavados",
           "marca": "DISICLIN",
           "precio": 2.49,
           "unidad": "",
           "precio_unidad": null,
           "url": "https://www.supermasymasonline.com/suavizante-concentrado-spring-rose-disiclin-80lavados/0068797.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Suavizante concentrado oceanic DISICLIN 80 lavados",
+          "marca": "DISICLIN",
+          "precio": 2.49,
+          "unidad": "",
+          "precio_unidad": null,
+          "url": "https://www.supermasymasonline.com/suavizante-concentrado-oceanic-disiclin-80-lavados/0068796.html"
         },
         {
           "supermercado": "Alimerka",
@@ -35061,33 +35061,6 @@
           "url": ""
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "FREGASUELOS LAVANDA 1,5 LITROS",
-          "marca": "ALIMERKA",
-          "precio": 0.95,
-          "unidad": "L",
-          "precio_unidad": 0.63,
-          "url": "https://www.alimerkaonline.es/8000394.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "FREGASUELOS PINO 1,5 LITROS",
-          "marca": "ALIMERKA",
-          "precio": 0.95,
-          "unidad": "L",
-          "precio_unidad": 0.63,
-          "url": "https://www.alimerkaonline.es/10003242.html"
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "FREGASUELOS LIMÓN 1,5 LITROS",
-          "marca": "IFA SABE",
-          "precio": 0.95,
-          "unidad": "L",
-          "precio_unidad": 0.63,
-          "url": "https://www.alimerkaonline.es/10028711.html"
-        },
-        {
           "supermercado": "Más y Más",
           "nombre_real": "Fregasuelos SELEX cerezo 1.5L",
           "marca": "SELEX",
@@ -35124,15 +35097,6 @@
           "url": "https://www.supermasymasonline.com/fregasuelos-selex-spa-1.5l/0069201.html"
         },
         {
-          "supermercado": "Alimerka",
-          "nombre_real": "FREGASUELOS MANZANA 1,5 LITROS",
-          "marca": "BLUXA",
-          "precio": 1.59,
-          "unidad": "L",
-          "precio_unidad": 1.06,
-          "url": "https://www.alimerkaonline.es/835090.html"
-        },
-        {
           "supermercado": "Mercadona",
           "nombre_real": "Friegasuelos Poetic Bosque Verde concentrado",
           "marca": "",
@@ -35152,12 +35116,12 @@
         },
         {
           "supermercado": "Alimerka",
-          "nombre_real": "FREGASUELOS PÉTALOS 1 LITRO",
-          "marca": "DISICLÍN",
-          "precio": 1.99,
+          "nombre_real": "FRIEGASUELOS ANTIPELUSAS 950 ML.",
+          "marca": "SANICENTRO",
+          "precio": 2.09,
           "unidad": "L",
-          "precio_unidad": 1.99,
-          "url": "https://www.alimerkaonline.es/10005924.html"
+          "precio_unidad": 2.2,
+          "url": "https://www.alimerkaonline.es/10032706.html"
         },
         {
           "supermercado": "Mercadona",
@@ -35167,15 +35131,6 @@
           "unidad": "L",
           "precio_unidad": 2.35,
           "url": ""
-        },
-        {
-          "supermercado": "Alimerka",
-          "nombre_real": "FREGASUELOS DESIC INSECTICIDA LAVANDA 750 ML.",
-          "marca": "KH-7",
-          "precio": 4.59,
-          "unidad": "L",
-          "precio_unidad": 6.12,
-          "url": "https://www.alimerkaonline.es/10031487.html"
         }
       ]
     },
@@ -36792,21 +36747,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Champu Classic para cabello normal con extracto de pomelo y limon CROWE 400ml",
-          "marca": "CROWE",
-          "precio": 1.9,
-          "unidad": "L",
-          "precio_unidad": 4.75,
-          "url": "https://www.supermasymasonline.com/champu-classic-para-cabello-normal-con-extracto-de-pomelo-y-limon-crowe-400ml/0078595.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Champu detox para cabello graso con extracto de pepino y limon CROWE 400ml",
           "marca": "CROWE",
           "precio": 1.9,
           "unidad": "L",
           "precio_unidad": 4.75,
           "url": "https://www.supermasymasonline.com/champu-detox-para-cabello-graso-con-extracto-de-pepino-y-limon-crowe-400ml/0078597.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Champu Classic para cabello normal con extracto de pomelo y limon CROWE 400ml",
+          "marca": "CROWE",
+          "precio": 1.9,
+          "unidad": "L",
+          "precio_unidad": 4.75,
+          "url": "https://www.supermasymasonline.com/champu-classic-para-cabello-normal-con-extracto-de-pomelo-y-limon-crowe-400ml/0078595.html"
         },
         {
           "supermercado": "Más y Más",
@@ -37620,21 +37575,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Champú full resistencia ELVIVE 370ml",
-          "marca": "ELVIVE",
-          "precio": 4.75,
-          "unidad": "L",
-          "precio_unidad": 12.84,
-          "url": "https://www.supermasymasonline.com/champu-full-resistencia-elvive-370ml/0078877.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Champú dream long ELVIVE 370ml",
           "marca": "ELVIVE",
           "precio": 4.75,
           "unidad": "L",
           "precio_unidad": 12.84,
           "url": "https://www.supermasymasonline.com/champu-dream-long-elvive-370ml/0078855.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Champú full resistencia ELVIVE 370ml",
+          "marca": "ELVIVE",
+          "precio": 4.75,
+          "unidad": "L",
+          "precio_unidad": 12.84,
+          "url": "https://www.supermasymasonline.com/champu-full-resistencia-elvive-370ml/0078877.html"
         },
         {
           "supermercado": "Más y Más",
@@ -38417,21 +38372,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Estrellas GALLO 450g",
-          "marca": "GALLO",
-          "precio": 1.2,
-          "unidad": "kg",
-          "precio_unidad": 2.67,
-          "url": "https://www.supermasymasonline.com/estrellas-gallo-450g/0019113.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Maravilla GALLO 450g",
           "marca": "GALLO",
           "precio": 1.2,
           "unidad": "kg",
           "precio_unidad": 2.67,
           "url": "https://www.supermasymasonline.com/maravilla-gallo-450g/0019105.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Estrellas GALLO 450g",
+          "marca": "GALLO",
+          "precio": 1.2,
+          "unidad": "kg",
+          "precio_unidad": 2.67,
+          "url": "https://www.supermasymasonline.com/estrellas-gallo-450g/0019113.html"
         },
         {
           "supermercado": "Más y Más",
@@ -38822,21 +38777,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Pasta Fusilli GAROFALO 500g",
-          "marca": "GAROFALO",
-          "precio": 1.79,
-          "unidad": "kg",
-          "precio_unidad": 3.58,
-          "url": "https://www.supermasymasonline.com/pasta-fusilli-garofalo-500g/0019121.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Pasta Elicoidali GAROFALO 500g",
           "marca": "GAROFALO",
           "precio": 1.79,
           "unidad": "kg",
           "precio_unidad": 3.58,
           "url": "https://www.supermasymasonline.com/pasta-elicoidali-garofalo-500g/0019122.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Pasta Fusilli GAROFALO 500g",
+          "marca": "GAROFALO",
+          "precio": 1.79,
+          "unidad": "kg",
+          "precio_unidad": 3.58,
+          "url": "https://www.supermasymasonline.com/pasta-fusilli-garofalo-500g/0019121.html"
         },
         {
           "supermercado": "Más y Más",
@@ -38975,21 +38930,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Quinoa SOS Vidasania 250g",
-          "marca": "SOS",
-          "precio": 1.95,
-          "unidad": "kg",
-          "precio_unidad": 7.8,
-          "url": "https://www.supermasymasonline.com/quinoa-sos-vidasania-250g/0013841.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Chía SOS Vidasania 200g",
           "marca": "SOS",
           "precio": 1.95,
           "unidad": "kg",
           "precio_unidad": 9.75,
           "url": "https://www.supermasymasonline.com/chia-sos-vidasania-200g/0013605.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Quinoa SOS Vidasania 250g",
+          "marca": "SOS",
+          "precio": 1.95,
+          "unidad": "kg",
+          "precio_unidad": 7.8,
+          "url": "https://www.supermasymasonline.com/quinoa-sos-vidasania-250g/0013841.html"
         },
         {
           "supermercado": "Más y Más",
@@ -39020,12 +38975,12 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Fusian Teriyaki MAGGI 130g",
+          "nombre_real": "Ramen de ternera MAGGI 90g",
           "marca": "MAGGI",
           "precio": 1.99,
           "unidad": "kg",
-          "precio_unidad": 15.31,
-          "url": "https://www.supermasymasonline.com/fusian-teriyaki-maggi-130g/0019882.html"
+          "precio_unidad": 22.11,
+          "url": "https://www.supermasymasonline.com/ramen-de-ternera-maggi-90g/0018920.html"
         },
         {
           "supermercado": "Más y Más",
@@ -39038,12 +38993,12 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Ramen de ternera MAGGI 90g",
+          "nombre_real": "Fusian Teriyaki MAGGI 130g",
           "marca": "MAGGI",
           "precio": 1.99,
           "unidad": "kg",
-          "precio_unidad": 22.11,
-          "url": "https://www.supermasymasonline.com/ramen-de-ternera-maggi-90g/0018920.html"
+          "precio_unidad": 15.31,
+          "url": "https://www.supermasymasonline.com/fusian-teriyaki-maggi-130g/0019882.html"
         },
         {
           "supermercado": "Más y Más",
@@ -39704,21 +39659,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Canelones de atún con pasta fresca LA COCINERA 500g",
-          "marca": "LA COCINERA",
-          "precio": 3.99,
-          "unidad": "kg",
-          "precio_unidad": 7.98,
-          "url": "https://www.supermasymasonline.com/canelones-de-atun-con-pasta-fresca-la-cocinera-500g/0045843.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Canelones de carne con pasta fresca LA COCINERA 500g",
           "marca": "LA COCINERA",
           "precio": 3.99,
           "unidad": "kg",
           "precio_unidad": 7.98,
           "url": "https://www.supermasymasonline.com/canelones-de-carne-con-pasta-fresca-la-cocinera-500g/0045842.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Canelones de atún con pasta fresca LA COCINERA 500g",
+          "marca": "LA COCINERA",
+          "precio": 3.99,
+          "unidad": "kg",
+          "precio_unidad": 7.98,
+          "url": "https://www.supermasymasonline.com/canelones-de-atun-con-pasta-fresca-la-cocinera-500g/0045843.html"
         },
         {
           "supermercado": "Más y Más",
@@ -40204,7 +40159,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante seda Deliplus antitranspirante",
+          "nombre_real": "Desodorante invisible men Deliplus antitranspirante y antimanchas",
           "marca": "",
           "precio": 1.65,
           "unidad": "L",
@@ -40213,7 +40168,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante invisible men Deliplus antitranspirante y antimanchas",
+          "nombre_real": "Desodorante seda Deliplus antitranspirante",
           "marca": "",
           "precio": 1.65,
           "unidad": "L",
@@ -40348,12 +40303,12 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Desodorante sparkling day WOMAN NIKE 200ml",
-          "marca": "WOMAN",
+          "nombre_real": "Desodorante BYLY sensitive Roll-on 50ml",
+          "marca": "BYLY",
           "precio": 1.99,
           "unidad": "L",
-          "precio_unidad": 9.95,
-          "url": "https://www.supermasymasonline.com/desodorante-sparkling-day-woman-nike-200ml/0077554.html"
+          "precio_unidad": 39.8,
+          "url": "https://www.supermasymasonline.com/desodorante-byly-sensitive-roll-on-50ml/0077555.html"
         },
         {
           "supermercado": "Más y Más",
@@ -40366,12 +40321,12 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Desodorante BYLY sensitive Roll-on 50ml",
-          "marca": "BYLY",
+          "nombre_real": "Desodorante sparkling day WOMAN NIKE 200ml",
+          "marca": "WOMAN",
           "precio": 1.99,
           "unidad": "L",
-          "precio_unidad": 39.8,
-          "url": "https://www.supermasymasonline.com/desodorante-byly-sensitive-roll-on-50ml/0077555.html"
+          "precio_unidad": 9.95,
+          "url": "https://www.supermasymasonline.com/desodorante-sparkling-day-woman-nike-200ml/0077554.html"
         },
         {
           "supermercado": "Más y Más",
@@ -40528,7 +40483,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante roll-on Active control Sanex men antitranspirante",
+          "nombre_real": "Desodorante roll-on Zero Sanex",
           "marca": "",
           "precio": 2.3,
           "unidad": "L",
@@ -40537,7 +40492,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante roll-on Zero Sanex",
+          "nombre_real": "Desodorante roll-on Active control Sanex men antitranspirante",
           "marca": "",
           "precio": 2.3,
           "unidad": "L",
@@ -41937,21 +41892,21 @@
         },
         {
           "supermercado": "Más y Más",
-          "nombre_real": "Pañal sensitive t.2 DODOT 58 ud.",
-          "marca": "DODOT",
-          "precio": 20.95,
-          "unidad": "ud",
-          "precio_unidad": 0.36,
-          "url": "https://www.supermasymasonline.com/pa%C3%B1al-sensitive-t.2-dodot-58-ud./0073882.html"
-        },
-        {
-          "supermercado": "Más y Más",
           "nombre_real": "Pañal sensitive DODOT Talla 1 58uds",
           "marca": "DODOT",
           "precio": 20.95,
           "unidad": "ud",
           "precio_unidad": 0.36,
           "url": "https://www.supermasymasonline.com/pa%C3%B1al-sensitive-dodot-talla-1-58uds/0073891.html"
+        },
+        {
+          "supermercado": "Más y Más",
+          "nombre_real": "Pañal sensitive t.2 DODOT 58 ud.",
+          "marca": "DODOT",
+          "precio": 20.95,
+          "unidad": "ud",
+          "precio_unidad": 0.36,
+          "url": "https://www.supermasymasonline.com/pa%C3%B1al-sensitive-t.2-dodot-58-ud./0073882.html"
         },
         {
           "supermercado": "Mercadona",
