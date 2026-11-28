@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-11-27T16:12:38+00:00",
+  "generado_en": "2026-11-28T01:10:21+00:00",
   "cp": "33012",
   "resultados": [
     {
@@ -9018,6 +9018,24 @@
         },
         {
           "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva virgen extra Hojiblanca botella 1 l - Coosur",
+          "marca": "coosur",
+          "precio": 7.19,
+          "unidad": "L",
+          "precio_unidad": 7.19,
+          "url": "https://www.hipercor.es/supermercado/B001018045800044-coosur-aceite-de-oliva-virgen-extra-hojiblanca-botella-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
+          "nombre_real": "aceite de oliva virgen extra Picual intenso botella 1 l - Coosur",
+          "marca": "coosur",
+          "precio": 7.19,
+          "unidad": "L",
+          "precio_unidad": 7.19,
+          "url": "https://www.hipercor.es/supermercado/B001018045800036-coosur-aceite-de-oliva-virgen-extra-picual-intenso-botella-1-l/"
+        },
+        {
+          "supermercado": "Hipercor",
           "nombre_real": "aceite de oliva virgen extra botella 1 l - Carbonell",
           "marca": "carbonell",
           "precio": 7.25,
@@ -9027,30 +9045,12 @@
         },
         {
           "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva virgen extra Hojiblanca botella 1 l - Coosur",
-          "marca": "coosur",
-          "precio": 7.39,
-          "unidad": "L",
-          "precio_unidad": 7.39,
-          "url": "https://www.hipercor.es/supermercado/B001018045800044-coosur-aceite-de-oliva-virgen-extra-hojiblanca-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
           "nombre_real": "aceite de oliva virgen extra Hojiblanca Picual botella 1 l - Carbonell",
           "marca": "carbonell",
           "precio": 7.39,
           "unidad": "L",
           "precio_unidad": 7.39,
           "url": "https://www.hipercor.es/supermercado/B001018045800242-carbonell-aceite-de-oliva-virgen-extra-hojiblanca-picual-botella-1-l/"
-        },
-        {
-          "supermercado": "Hipercor",
-          "nombre_real": "aceite de oliva virgen extra Picual intenso botella 1 l - Coosur",
-          "marca": "coosur",
-          "precio": 7.39,
-          "unidad": "L",
-          "precio_unidad": 7.39,
-          "url": "https://www.hipercor.es/supermercado/B001018045800036-coosur-aceite-de-oliva-virgen-extra-picual-intenso-botella-1-l/"
         },
         {
           "supermercado": "Hipercor",
@@ -9173,9 +9173,9 @@
           "supermercado": "Hipercor",
           "nombre_real": "aceite de oliva virgen extra garrafa 5 l - Coosur",
           "marca": "coosur",
-          "precio": 28.9,
+          "precio": 26.95,
           "unidad": "L",
-          "precio_unidad": 5.78,
+          "precio_unidad": 5.39,
           "url": "https://www.hipercor.es/supermercado/B001018045902014-coosur-aceite-de-oliva-virgen-extra-garrafa-5-l/"
         },
         {
@@ -40150,7 +40150,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante invisible Deliplus antitranspirante",
+          "nombre_real": "Desodorante invisible men Deliplus antitranspirante y antimanchas",
           "marca": "",
           "precio": 1.65,
           "unidad": "L",
@@ -40159,7 +40159,7 @@
         },
         {
           "supermercado": "Mercadona",
-          "nombre_real": "Desodorante invisible men Deliplus antitranspirante y antimanchas",
+          "nombre_real": "Desodorante invisible Deliplus antitranspirante",
           "marca": "",
           "precio": 1.65,
           "unidad": "L",
